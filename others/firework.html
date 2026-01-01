@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>烟花随机绽放</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<script>
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener("resize", resize);
+
+  /* ---------- 工具函数 ---------- */
+  function random(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  function randomColor() {
+    const colors = [
+      "#ff0043", "#14fc56", "#1e90ff",
+      "#ffae00", "#ff66ff", "#00ffff", "#ffffff"
+    ];
+    return colors[Math.floor(Math.random() * colors.length)];
+  }
+
+  /* ---------- 烟花上升体 ---------- */
+  class Firework {
+    constructor() {
+      this.x = random(100, canvas.width - 100);
+      this.y = canvas.height;
+      this.targetY = random(canvas.height * 0.2, canvas.height * 0.5);
+      this.speed = random(6, 9);
+      this.color = randomColor();   // 🔴 单发烟花颜色
+      this.exploded = false;
+    }
+
+    update() {
+      this.y -= this.speed;
+      if (this.y <= this.targetY) {
+        this.explode();
+        this.exploded = true;
+      }
+    }
+
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, 2, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.fill();
+    }
+
+    explode() {
+      const count = Math.floor(random(60, 160));
+      for (let i = 0; i < count; i++) {
+        particles.push(new Particle(this.x, this.y, this.color));
+      }
+    }
+  }
+
+  /* ---------- 爆炸粒子 ---------- */
+  class Particle {
+    constructor(x, y, color) {
+      this.x = x;
+      this.y = y;
+      this.radius = random(1, 2.5);
+      this.color = color;        // 🔴 继承烟花颜色
+      this.angle = random(0, Math.PI * 2);
+      this.speed = random(2, 7);
+      this.vx = Math.cos(this.angle) * this.speed;
+      this.vy = Math.sin(this.angle) * this.speed;
+      this.alpha = 1;
+      this.gravity = 0.06;
+      this.friction = 0.98;
+    }
+
+    update() {
+      this.vx *= this.friction;
+      this.vy *= this.friction;
+      this.vy += this.gravity;
+      this.x += this.vx;
+      this.y += this.vy;
+      this.alpha -= 0.015;
+    }
+
+    draw() {
+      ctx.save();
+      ctx.globalAlpha = this.alpha;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.fill();
+      ctx.restore();
+    }
+  }
+
+  const fireworks = [];
+  const particles = [];
+
+  /* ---------- 动画循环 ---------- */
+  function animate() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // 上升烟花
+    for (let i = fireworks.length - 1; i >= 0; i--) {
+      fireworks[i].update();
+      fireworks[i].draw();
+      if (fireworks[i].exploded) {
+        fireworks.splice(i, 1);
+      }
+    }
+
+    // 爆炸粒子
+    for (let i = particles.length - 1; i >= 0; i--) {
+      particles[i].update();
+      particles[i].draw();
+      if (particles[i].alpha <= 0) {
+        particles.splice(i, 1);
+      }
+    }
+
+    requestAnimationFrame(animate);
+  }
+
+  /* ---------- 自动生成烟花 ---------- */
+  setInterval(() => {
+    if (fireworks.length < 6) {
+      fireworks.push(new Firework());
+    }
+  }, 500);
+
+  animate();
+</script>
+
+</body>
+</html>
