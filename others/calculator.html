@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线网页计算器</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #4a00e0, #8e2de2);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .calculator {
+            padding: 25px 30px 30px;
+        }
+
+        .display {
+            width: 100%;
+            height: 120px;
+            background-color: #f8f9fa;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #e0e0e0;
+            overflow: hidden;
+        }
+
+        .previous-operand {
+            font-size: 1.2rem;
+            color: #888;
+            min-height: 28px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: right;
+        }
+
+        .current-operand {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #333;
+            text-align: right;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            direction: ltr;
+        }
+
+        .keypad {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .keypad-wide {
+            grid-column: span 2;
+        }
+
+        button {
+            border: none;
+            border-radius: 12px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            height: 65px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button:active {
+            transform: translateY(3px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .number-btn {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .number-btn:hover {
+            background-color: #e9ecef;
+        }
+
+        .operator-btn {
+            background-color: #4a00e0;
+            color: white;
+        }
+
+        .operator-btn:hover {
+            background-color: #3a00b0;
+        }
+
+        .function-btn {
+            background-color: #ff6b6b;
+            color: white;
+        }
+
+        .function-btn:hover {
+            background-color: #ff5252;
+        }
+
+        .equals-btn {
+            background: linear-gradient(90deg, #00b09b, #96c93d);
+            color: white;
+        }
+
+        .equals-btn:hover {
+            background: linear-gradient(90deg, #009688, #8bc34a);
+        }
+
+        .clear-btn {
+            background-color: #ffa726;
+            color: white;
+        }
+
+        .clear-btn:hover {
+            background-color: #ff9800;
+        }
+
+        .history {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 12px;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .history h4 {
+            color: #4a00e0;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .history-item {
+            padding: 8px;
+            border-bottom: 1px solid #e0e0e0;
+            font-family: monospace;
+            font-size: 0.95rem;
+        }
+
+        .instructions {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .instructions h3 {
+            color: #4a00e0;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .instructions ul {
+            padding-left: 20px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                max-width: 100%;
+            }
+            
+            .calculator {
+                padding: 20px;
+            }
+            
+            .display {
+                height: 100px;
+                padding: 15px;
+            }
+            
+            .current-operand {
+                font-size: 2rem;
+            }
+            
+            .keypad {
+                gap: 12px;
+            }
+            
+            button {
+                height: 60px;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-calculator"></i> 在线网页计算器</h1>
+            <p>支持加减乘除、括号、小数点等基本运算</p>
+        </div>
+        
+        <div class="calculator">
+            <div class="display">
+                <div class="previous-operand" id="previous-operand"></div>
+                <div class="current-operand" id="current-operand">0</div>
+            </div>
+            
+            <div class="keypad">
+                <button class="function-btn" data-action="clear">C</button>
+                <button class="function-btn" data-action="clear-entry">CE</button>
+                <button class="function-btn" data-action="backspace"><i class="fas fa-backspace"></i></button>
+                <button class="operator-btn" data-operation="/">÷</button>
+                
+                <button class="number-btn" data-number="7">7</button>
+                <button class="number-btn" data-number="8">8</button>
+                <button class="number-btn" data-number="9">9</button>
+                <button class="operator-btn" data-operation="*">×</button>
+                
+                <button class="number-btn" data-number="4">4</button>
+                <button class="number-btn" data-number="5">5</button>
+                <button class="number-btn" data-number="6">6</button>
+                <button class="operator-btn" data-operation="-">-</button>
+                
+                <button class="number-btn" data-number="1">1</button>
+                <button class="number-btn" data-number="2">2</button>
+                <button class="number-btn" data-number="3">3</button>
+                <button class="operator-btn" data-operation="+">+</button>
+                
+                <button class="number-btn" data-number="0">0</button>
+                <button class="number-btn" data-number=".">.</button>
+                <button class="operator-btn" data-operation="(">(</button>
+                <button class="operator-btn" data-operation=")">)</button>
+                
+                <button class="equals-btn keypad-wide" data-action="equals">=</button>
+            </div>
+            
+            <div class="history">
+                <h4><i class="fas fa-history"></i> 计算历史</h4>
+                <div id="history-list"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <h3><i class="fas fa-info-circle"></i> 使用说明</h3>
+        <ul>
+            <li><strong>基本运算</strong>: 支持加(+)、减(-)、乘(×)、除(÷)四则运算</li>
+            <li><strong>括号运算</strong>: 支持使用括号()改变运算优先级</li>
+            <li><strong>清除功能</strong>: C(全部清除) / CE(清除当前输入) / ←(退格删除)</li>
+            <li><strong>键盘支持</strong>: 可直接使用键盘数字和运算符进行计算</li>
+            <li><strong>计算历史</strong>: 每次计算的结果会自动保存到历史记录中</li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <p>© 2023 在线网页计算器 | 基础运算功能</p>
+    </div>
+
+    <script>
+        // 计算器状态
+        const calculator = {
+            currentOperand: '0',
+            previousOperand: '',
+            operation: undefined,
+            waitingForNewOperand: false,
+            history: []
+        };
+
+        // DOM元素
+        const currentOperandElement = document.getElementById('current-operand');
+        const previousOperandElement = document.getElementById('previous-operand');
+        const historyListElement = document.getElementById('history-list');
+
+        // 更新显示
+        function updateDisplay() {
+            currentOperandElement.textContent = calculator.currentOperand;
+            previousOperandElement.textContent = calculator.previousOperand;
+        }
+
+        // 添加数字
+        function addNumber(number) {
+            if (calculator.waitingForNewOperand) {
+                calculator.currentOperand = number;
+                calculator.waitingForNewOperand = false;
+            } else {
+                calculator.currentOperand = calculator.currentOperand === '0' 
+                    ? number 
+                    : calculator.currentOperand + number;
+            }
+            updateDisplay();
+        }
+
+        // 添加小数点
+        function addDecimalPoint() {
+            if (calculator.waitingForNewOperand) {
+                calculator.currentOperand = '0.';
+                calculator.waitingForNewOperand = false;
+            } else if (!calculator.currentOperand.includes('.')) {
+                calculator.currentOperand += '.';
+            }
+            updateDisplay();
+        }
+
+        // 选择运算符
+        function chooseOperation(operation) {
+            if (calculator.currentOperand === '') return;
+            
+            if (calculator.previousOperand !== '') {
+                compute();
+            }
+            
+            calculator.operation = operation;
+            calculator.previousOperand = `${calculator.currentOperand} ${getOperationSymbol(operation)}`;
+            calculator.waitingForNewOperand = true;
+            updateDisplay();
+        }
+
+        // 计算
+        function compute() {
+            let computation;
+            const prev = parseFloat(calculator.previousOperand);
+            const current = parseFloat(calculator.currentOperand);
+            
+            if (isNaN(prev) || isNaN(current)) return;
+            
+            switch (calculator.operation) {
+                case '+':
+                    computation = prev + current;
+                    break;
+                case '-':
+                    computation = prev - current;
+                    break;
+                case '*':
+                    computation = prev * current;
+                    break;
+                case '/':
+                    if (current === 0) {
+                        alert('错误：不能除以零！');
+                        return;
+                    }
+                    computation = prev / current;
+                    break;
+                default:
+                    return;
+            }
+            
+            // 保存到历史
+            const historyItem = {
+                expression: `${prev} ${getOperationSymbol(calculator.operation)} ${current}`,
+                result: computation
+            };
+            calculator.history.unshift(historyItem);
+            updateHistory();
+            
+            // 更新显示
+            calculator.currentOperand = formatNumber(computation);
+            calculator.operation = undefined;
+            calculator.previousOperand = '';
+            calculator.waitingForNewOperand = true;
+            updateDisplay();
+        }
+
+        // 清除计算器
+        function clearCalculator(type = 'all') {
+            if (type === 'all') {
+                calculator.currentOperand = '0';
+                calculator.previousOperand = '';
+                calculator.operation = undefined;
+            } else if (type === 'entry') {
+                calculator.currentOperand = '0';
+            }
+            updateDisplay();
+        }
+
+        // 删除最后一位
+        function deleteLastDigit() {
+            if (calculator.currentOperand.length === 1) {
+                calculator.currentOperand = '0';
+            } else {
+                calculator.currentOperand = calculator.currentOperand.slice(0, -1);
+            }
+            updateDisplay();
+        }
+
+        // 添加括号
+        function addParenthesis(parenthesis) {
+            if (parenthesis === '(') {
+                if (calculator.waitingForNewOperand || calculator.currentOperand === '0') {
+                    calculator.currentOperand = '(';
+                    calculator.waitingForNewOperand = false;
+                } else {
+                    calculator.currentOperand += '(';
+                }
+            } else if (parenthesis === ')') {
+                calculator.currentOperand += ')';
+            }
+            updateDisplay();
+        }
+
+        // 格式化数字显示
+        function formatNumber(number) {
+            const stringNumber = number.toString();
+            
+            // 如果数字太大，使用科学计数法
+            if (stringNumber.length > 12) {
+                return number.toExponential(6);
+            }
+            
+            // 否则返回原始数字
+            return stringNumber;
+        }
+
+        // 获取运算符符号
+        function getOperationSymbol(operation) {
+            switch (operation) {
+                case '+': return '+';
+                case '-': return '-';
+                case '*': return '×';
+                case '/': return '÷';
+                default: return '';
+            }
+        }
+
+        // 更新历史记录
+        function updateHistory() {
+            historyListElement.innerHTML = '';
+            
+            // 只显示最近的5条记录
+            const recentHistory = calculator.history.slice(0, 5);
+            
+            recentHistory.forEach(item => {
+                const historyItemElement = document.createElement('div');
+                historyItemElement.className = 'history-item';
+                historyItemElement.textContent = `${item.expression} = ${formatNumber(item.result)}`;
+                historyListElement.appendChild(historyItemElement);
+            });
+            
+            // 如果没有历史记录
+            if (calculator.history.length === 0) {
+                const emptyElement = document.createElement('div');
+                emptyElement.className = 'history-item';
+                emptyElement.textContent = '暂无计算历史';
+                emptyElement.style.color = '#888';
+                historyListElement.appendChild(emptyElement);
+            }
+        }
+
+        // 处理按钮点击
+        function handleButtonClick(event) {
+            const button = event.target;
+            
+            // 数字按钮
+            if (button.hasAttribute('data-number')) {
+                const number = button.getAttribute('data-number');
+                if (number === '.') {
+                    addDecimalPoint();
+                } else {
+                    addNumber(number);
+                }
+                return;
+            }
+            
+            // 运算符按钮
+            if (button.hasAttribute('data-operation')) {
+                const operation = button.getAttribute('data-operation');
+                
+                // 检查是否为括号
+                if (operation === '(' || operation === ')') {
+                    addParenthesis(operation);
+                } else {
+                    chooseOperation(operation);
+                }
+                return;
+            }
+            
+            // 功能按钮
+            if (button.hasAttribute('data-action')) {
+                const action = button.getAttribute('data-action');
+                
+                switch (action) {
+                    case 'equals':
+                        compute();
+                        break;
+                    case 'clear':
+                        clearCalculator('all');
+                        break;
+                    case 'clear-entry':
+                        clearCalculator('entry');
+                        break;
+                    case 'backspace':
+                        deleteLastDigit();
+                        break;
+                }
+                return;
+            }
+        }
+
+        // 键盘支持
+        function handleKeydown(event) {
+            const key = event.key;
+            
+            // 数字
+            if (key >= '0' && key <= '9') {
+                event.preventDefault();
+                addNumber(key);
+                return;
+            }
+            
+            // 小数点
+            if (key === '.') {
+                event.preventDefault();
+                addDecimalPoint();
+                return;
+            }
+            
+            // 运算符
+            if (['+', '-', '*', '/'].includes(key)) {
+                event.preventDefault();
+                chooseOperation(key);
+                return;
+            }
+            
+            // 括号
+            if (key === '(' || key === ')') {
+                event.preventDefault();
+                addParenthesis(key);
+                return;
+            }
+            
+            // 等号/回车
+            if (key === '=' || key === 'Enter') {
+                event.preventDefault();
+                compute();
+                return;
+            }
+            
+            // 退格
+            if (key === 'Backspace') {
+                event.preventDefault();
+                deleteLastDigit();
+                return;
+            }
+            
+            // 清除 (Escape)
+            if (key === 'Escape') {
+                event.preventDefault();
+                clearCalculator('all');
+                return;
+            }
+        }
+
+        // 事件监听器
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('click', handleButtonClick);
+        });
+        
+        document.addEventListener('keydown', handleKeydown);
+
+        // 初始化显示
+        updateDisplay();
+        updateHistory();
+    </script>
+</body>
+</html>
