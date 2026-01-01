@@ -183,6 +183,17 @@
             box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
         }
 
+        .btn-return {
+            background: linear-gradient(90deg, #5f27cd, #341f97);
+            color: white;
+        }
+
+        .btn-return:hover {
+            background: linear-gradient(90deg, #4a1fb3, #2a177a);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(95, 39, 205, 0.4);
+        }
+
         .game-over {
             position: absolute;
             top: 0;
@@ -303,6 +314,7 @@
         <button class="btn btn-start" id="start-btn">开始游戏</button>
         <button class="btn btn-pause" id="pause-btn">暂停游戏</button>
         <button class="btn btn-reset" id="reset-btn">重置游戏</button>
+        <button class="btn btn-return" id="return-btn">返回首页</button>
     </div>
     
     <div class="instructions">
@@ -752,6 +764,12 @@
         document.getElementById('reset-btn').addEventListener('click', initGame);
 
         document.getElementById('restart-btn').addEventListener('click', initGame);
+
+        // 添加返回首页功能
+        document.getElementById('return-btn').addEventListener('click', () => {
+            // 返回上一级页面
+            window.location.href = './index.html';
+        });
 
         // 初始化游戏
         initGame();
