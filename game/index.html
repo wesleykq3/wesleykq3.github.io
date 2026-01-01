@@ -1,273 +1,227 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2048 小游戏</title>
+  <meta charset="UTF-8">
+  <title>小游戏 - Wesley的主页</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body { background: #f5f7fa; }
 
-    <style>
-        body {
-            text-align: center;
-            margin-top: 40px;
-            font-family: Arial, sans-serif;
-            background-color: #faf8ef;
-        }
+    .page-scale {
+      transform: scale(0.9);
+      transform-origin: top center;
+      width: 111%;
+    }
 
-        h1 {
-            font-size: 50px;
-            color: #776e65;
-            margin-bottom: 10px;
-        }
+    .games-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-        p.info {
-            color: #776e65;
-            margin-top: 10px;
-        }
+    .page-title {
+      color: #2c3e50;
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
 
-        #gameContainer {
-            display: inline-block;
-            margin-top: 20px;
-        }
+    .page-description {
+      color: #7f8c8d;
+      font-size: 18px;
+      margin-bottom: 50px;
+      text-align: center;
+      max-width: 800px;
+    }
 
-        #score {
-            font-size: 24px;
-            margin-bottom: 10px;
-            color: #776e65;
-            font-weight: bold;
-        }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+      width: 100%;
+      max-width: 950px;
+    }
 
-        .top-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            margin-bottom: 15px;
-        }
+    .game-card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+    }
 
-        .top-buttons button,
-        .top-buttons a {
-            font-size: 16px;
-            padding: 6px 14px;
-            border-radius: 6px;
-            background-color: #8f7a66;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-            text-decoration: none;
-        }
+    .game-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
 
-        .top-buttons button:hover,
-        .top-buttons a:hover {
-            background-color: #746655;
-        }
+    .game-image {
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-        /* === 固定棋盘尺寸 === */
-        #gridContainer {
-            width: 410px;
-            height: 410px;
-            display: grid;
-            grid-template-columns: repeat(4, 90px);
-            grid-template-rows: repeat(4, 90px);
-            grid-gap: 10px;
-            background-color: #bbada0;
-            padding: 10px;
-            border-radius: 6px;
-            box-sizing: border-box;
-        }
+    .snake-bg { background: linear-gradient(135deg, #27ae60, #2ecc71); }
+    .tetris-bg { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
+    .gomoku-bg { background: linear-gradient(135deg, #f39c12, #e67e22); }
+    .plane-bg { background: linear-gradient(135deg, #3498db, #2980b9); }
+    .mine-bg { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+    .memory-bg { background: linear-gradient(135deg, #6366f1, #a855f7); }
+    .game2048-bg { background: linear-gradient(135deg, #f59e0b, #f97316); }
 
-        /* === 固定单个格子尺寸 === */
-        .tile {
-            width: 90px;
-            height: 90px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 36px;
-            font-weight: bold;
-            background-color: #cdc1b4;
-            border-radius: 6px;
-            color: #776e65;
-        }
+    .game-icon {
+      width: 100px;
+      height: 100px;
+      font-size: 52px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
 
-        .tile-2 { background-color: #eee4da; }
-        .tile-4 { background-color: #ede0c8; }
-        .tile-8 { background-color: #f2b179; color: #fff; }
-        .tile-16 { background-color: #f59563; color: #fff; }
-        .tile-32 { background-color: #f67c5f; color: #fff; }
-        .tile-64 { background-color: #f65e3b; color: #fff; }
-        .tile-128 { background-color: #edcf72; color: #fff; font-size: 32px; }
-        .tile-256 { background-color: #edcc61; color: #fff; font-size: 32px; }
-        .tile-512 { background-color: #edc850; color: #fff; font-size: 32px; }
-        .tile-1024 { background-color: #edc53f; color: #fff; font-size: 28px; }
-        .tile-2048 { background-color: #edc22e; color: #fff; font-size: 28px; }
+    .game-content {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
 
-        #gameOverContainer {
-            display: none;
-            margin-top: 20px;
-        }
+    .game-title {
+      font-size: 26px;
+      margin-bottom: 12px;
+      color: #2c3e50;
+    }
 
-        #gameOver {
-            font-size: 36px;
-            color: #776e65;
-            margin-bottom: 10px;
-        }
+    .game-description {
+      color: #7f8c8d;
+      line-height: 1.6;
+      flex-grow: 1;
+    }
 
-        #restartButton {
-            font-size: 20px;
-            padding: 8px 20px;
-            border-radius: 6px;
-            background-color: #8f7a66;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-        }
+    .play-button {
+      margin-top: 15px;
+      padding: 10px;
+      background: #3498db;
+      color: #fff;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+    }
 
-        #restartButton:hover {
-            background-color: #746655;
-        }
-    </style>
+    .back-link {
+      margin-top: 40px;
+      padding: 10px 20px;
+      border: 2px solid #3498db;
+      border-radius: 8px;
+      color: #3498db;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>2048</h1>
-<p class="info">使用键盘←↑↓→方向键或 WASD 移动方块，合并直到 2048！</p>
+<div class="page-scale">
+  <div class="games-container">
+    <h2 class="page-title">选择你想玩的游戏</h2>
+    <p class="page-description">我们提供了多款经典小游戏，点击游戏卡片即可开始</p>
 
-<div id="gameContainer">
-    <div id="score">分数：0</div>
+    <div class="games-grid">
 
-    <div class="top-buttons">
-        <button id="restartTop">重新开始</button>
-        <a href="./index.html">返回上一页</a>
+      <a href="snake.html" class="game-card">
+        <div class="game-image snake-bg">
+          <div class="game-icon">🐍</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">贪吃蛇</h3>
+          <p class="game-description">控制蛇不断成长，考验你的反应速度。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
+      <a href="tetris.html" class="game-card">
+        <div class="game-image tetris-bg">
+          <div class="game-icon">🧊</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">俄罗斯方块</h3>
+          <p class="game-description">旋转与堆叠，消除整行赢得高分。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
+      <a href="gomoku.html" class="game-card">
+        <div class="game-image gomoku-bg">
+          <div class="game-icon">♟️</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">五子棋</h3>
+          <p class="game-description">黑白对弈，先连五子者获胜。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
+      <a href="airplane.html" class="game-card">
+        <div class="game-image plane-bg">
+          <div class="game-icon">✈️</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">飞机大战</h3>
+          <p class="game-description">控制战机躲避敌人并击落来袭目标。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
+      <a href="minesweeper.html" class="game-card">
+        <div class="game-image mine-bg">
+          <div class="game-icon">💣</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">扫雷</h3>
+          <p class="game-description">经典扫雷游戏，支持多种难度。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
+      <a href="memory.html" class="game-card">
+        <div class="game-image memory-bg">
+          <div class="game-icon">🧠</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">记忆翻牌</h3>
+          <p class="game-description">翻开卡片寻找相同图案。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
+      <!-- 🧩 2048 -->
+      <a href="2048.html" class="game-card">
+        <div class="game-image game2048-bg">
+          <div class="game-icon">🧩</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">2048</h3>
+          <p class="game-description">滑动合并数字，挑战合成 2048！</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
     </div>
 
-    <div id="gridContainer"></div>
-
-    <div id="gameOverContainer">
-        <div id="gameOver">游戏结束！</div>
-        <button id="restartButton">重新开始</button>
-    </div>
+    <a href="../index.html" class="back-link">返回主页</a>
+  </div>
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const gridContainer = document.getElementById("gridContainer");
-    const scoreDisplay = document.getElementById("score");
-    const gameOverContainer = document.getElementById("gameOverContainer");
-    const restartButton = document.getElementById("restartButton");
-    const restartTop = document.getElementById("restartTop");
-
-    let tiles = new Array(16).fill(null);
-    let score = 0;
-    let gameOver = false;
-
-    function init() {
-        tiles = new Array(16).fill(null);
-        score = 0;
-        gameOver = false;
-        scoreDisplay.textContent = "分数：0";
-        gameOverContainer.style.display = "none";
-        addRandom();
-        addRandom();
-        draw();
-    }
-
-    function addRandom() {
-        const empty = tiles.map((v, i) => v === null ? i : null).filter(v => v !== null);
-        if (empty.length === 0) return;
-        const i = empty[Math.floor(Math.random() * empty.length)];
-        tiles[i] = Math.random() < 0.9 ? 2 : 4;
-    }
-
-    function draw() {
-        gridContainer.innerHTML = "";
-        tiles.forEach(v => {
-            const d = document.createElement("div");
-            d.className = "tile";
-            if (v) {
-                d.textContent = v;
-                d.classList.add("tile-" + v);
-            }
-            gridContainer.appendChild(d);
-        });
-    }
-
-    function move(dir) {
-        if (gameOver) return;
-        let moved = false;
-
-        const slide = line => {
-            let arr = line.filter(v => v);
-            for (let i = 0; i < arr.length - 1; i++) {
-                if (arr[i] === arr[i + 1]) {
-                    arr[i] *= 2;
-                    score += arr[i];
-                    arr[i + 1] = null;
-                }
-            }
-            arr = arr.filter(v => v);
-            while (arr.length < 4) arr.push(null);
-            return arr;
-        };
-
-        for (let i = 0; i < 4; i++) {
-            let line, result;
-            if (dir === "left" || dir === "right") {
-                line = tiles.slice(i * 4, i * 4 + 4);
-                if (dir === "right") line.reverse();
-                result = slide(line);
-                if (dir === "right") result.reverse();
-                for (let j = 0; j < 4; j++) {
-                    if (tiles[i * 4 + j] !== result[j]) moved = true;
-                    tiles[i * 4 + j] = result[j];
-                }
-            } else {
-                line = [tiles[i], tiles[i + 4], tiles[i + 8], tiles[i + 12]];
-                if (dir === "down") line.reverse();
-                result = slide(line);
-                if (dir === "down") result.reverse();
-                for (let j = 0; j < 4; j++) {
-                    if (tiles[i + j * 4] !== result[j]) moved = true;
-                    tiles[i + j * 4] = result[j];
-                }
-            }
-        }
-
-        if (moved) {
-            addRandom();
-            draw();
-            scoreDisplay.textContent = `分数：${score}`;
-            checkOver();
-        }
-    }
-
-    function checkOver() {
-        if (tiles.includes(null)) return;
-        for (let i = 0; i < 16; i++) {
-            if (i % 4 !== 3 && tiles[i] === tiles[i + 1]) return;
-            if (i < 12 && tiles[i] === tiles[i + 4]) return;
-        }
-        gameOver = true;
-        gameOverContainer.style.display = "block";
-    }
-
-    document.addEventListener("keydown", e => {
-        const map = {
-            ArrowUp: "up", w: "up",
-            ArrowDown: "down", s: "down",
-            ArrowLeft: "left", a: "left",
-            ArrowRight: "right", d: "right"
-        };
-        if (map[e.key]) move(map[e.key]);
-    });
-
-    restartButton.onclick = init;
-    restartTop.onclick = init;
-
-    init();
-});
-</script>
 
 </body>
 </html>
