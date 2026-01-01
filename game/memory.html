@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>记忆翻牌</title>
+
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    background: #fff;
+    padding: 20px 24px 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+    width: 420px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0 0 12px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    gap: 8px;
+  }
+
+  button {
+    flex: 1;
+    padding: 8px 0;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background: #4f46e5;
+    color: #fff;
+  }
+
+  button.secondary {
+    background: #6b7280;
+  }
+
+  button:hover {
+    opacity: .9;
+  }
+
+  #board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .card {
+    width: 80px;
+    height: 80px;
+    background: #c7d2fe;
+    border-radius: 10px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: transform .3s, background .3s;
+  }
+
+  .card.open,
+  .card.matched {
+    background: #eef2ff;
+    cursor: default;
+  }
+
+  .card.open {
+    transform: rotateY(180deg);
+  }
+
+  .card.matched {
+    background: #bbf7d0;
+  }
+
+  .card span {
+    display: none;
+  }
+
+  .card.open span,
+  .card.matched span {
+    display: block;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>🧠 记忆翻牌</h1>
+
+  <div class="controls">
+    <button onclick="restart()">重新开始</button>
+    <button class="secondary" onclick="goBack()">返回目录</button>
+  </div>
+
+  <div id="board"></div>
+</div>
+
+<script>
+  const icons = ['🍎','🍌','🍇','🍓','🍒','🍍','🥝','🍑'];
+  const boardEl = document.getElementById('board');
+
+  let cards = [];
+  let first = null;
+  let second = null;
+  let lock = false;
+  let matchedCount = 0;
+
+  function shuffle(arr) {
+    return arr.sort(() => Math.random() - 0.5);
+  }
+
+  function init() {
+    boardEl.innerHTML = '';
+    first = second = null;
+    lock = false;
+    matchedCount = 0;
+
+    cards = shuffle([...icons, ...icons]);
+
+    cards.forEach((icon, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.dataset.icon = icon;
+      card.dataset.index = index;
+
+      const span = document.createElement('span');
+      span.textContent = icon;
+      card.appendChild(span);
+
+      card.onclick = () => flip(card);
+      boardEl.appendChild(card);
+    });
+  }
+
+  function flip(card) {
+    if (lock || card.classList.contains('open') || card.classList.contains('matched')) return;
+
+    card.classList.add('open');
+
+    if (!first) {
+      first = card;
+    } else {
+      second = card;
+      checkMatch();
+    }
+  }
+
+  function checkMatch() {
+    lock = true;
+
+    if (first.dataset.icon === second.dataset.icon) {
+      first.classList.add('matched');
+      second.classList.add('matched');
+      matchedCount += 2;
+      resetTurn();
+
+      if (matchedCount === cards.length) {
+        setTimeout(() => alert('🎉 恭喜通关！'), 300);
+      }
+    } else {
+      setTimeout(() => {
+        first.classList.remove('open');
+        second.classList.remove('open');
+        resetTurn();
+      }, 800);
+    }
+  }
+
+  function resetTurn() {
+    first = second = null;
+    lock = false;
+  }
+
+  function restart() {
+    init();
+  }
+
+  function goBack() {
+    location.href = './index.html';
+  }
+
+  init();
+</script>
+
+</body>
+</html>
