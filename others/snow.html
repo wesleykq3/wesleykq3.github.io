@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>雪花 + 皑皑白雪</title>
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(#0b1d3a, #1b3a5f);
+  overflow: hidden;
+  font-family: Arial;
+  color: #fff;
+}
+
+/* 雪花画布 */
+#snowCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+/* 示例内容 */
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 120px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+p {
+  opacity: 0.85;
+}
+</style>
+</head>
+
+<body>
+
+<div class="content">
+  <h1>❄️ 冬日雪景</h1>
+  <p>雪花飘落，白雪堆积</p>
+</div>
+
+<canvas id="snowCanvas"></canvas>
+
+<script>
+const canvas = document.getElementById('snowCanvas');
+const ctx = canvas.getContext('2d');
+
+let W, H;
+let snowflakes = [];
+let groundSnowHeight = 0;     // 地面积雪高度
+const MAX_SNOW = 120;         // 最大积雪高度
+
+function resize() {
+  W = canvas.width = window.innerWidth;
+  H = canvas.height = window.innerHeight;
+}
+window.addEventListener('resize', resize);
+resize();
+
+/* 创建雪花 */
+function createSnowflake() {
+  return {
+    x: Math.random() * W,
+    y: Math.random() * H,
+    r: Math.random() * 3 + 1,
+    speed: Math.random() * 1.2 + 0.5,
+    drift: Math.random() * 0.6 - 0.3
+  };
+}
+
+/* 初始化 */
+function init(count = 200) {
+  snowflakes = [];
+  for (let i = 0; i < count; i++) {
+    snowflakes.push(createSnowflake());
+  }
+}
+
+/* 更新雪花 */
+function update() {
+  for (let s of snowflakes) {
+    s.y += s.speed;
+    s.x += s.drift;
+
+    /* 落到地面 */
+    if (s.y > H - groundSnowHeight) {
+      s.y = Math.random() * -50;
+      s.x = Math.random() * W;
+
+      if (groundSnowHeight < MAX_SNOW) {
+        groundSnowHeight += 0.15; // ❄️ 慢慢堆雪
+      }
+    }
+
+    if (s.x > W) s.x = 0;
+    if (s.x < 0) s.x = W;
+  }
+}
+
+/* 绘制 */
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+
+  /* 雪花 */
+  ctx.fillStyle = 'rgba(255,255,255,0.9)';
+  ctx.beginPath();
+  for (let s of snowflakes) {
+    ctx.moveTo(s.x, s.y);
+    ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+  }
+  ctx.fill();
+
+  /* ❄️ 地面积雪（皑皑白雪） */
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, H - groundSnowHeight, W, groundSnowHeight);
+
+  update();
+  requestAnimationFrame(draw);
+}
+
+init();
+draw();
+</script>
+
+</body>
+</html>
