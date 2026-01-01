@@ -109,27 +109,6 @@
       margin: 0;
     }
     
-    /* 访客信息右下角 */
-    #visitor-info {
-      position: fixed;
-      bottom: 15px;
-      right: 15px;
-      background: rgba(0,0,0,0.6);
-      color: #fff;
-      padding: 6px 12px;
-      border-radius: 12px;
-      font-size: 13px;
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      z-index: 100;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.3);
-    }
-
-    #visitor-info i {
-      color: #ffd700;
-    }
     
     /* 响应式设计 */
     @media (max-width: 768px) {
@@ -274,12 +253,6 @@
   </footer>
 </div>
 
-<!-- 右下角访客信息 -->
-<div id="visitor-info">
-  <i class="fas fa-user"></i>
-  <span id="visitor-text">加载访客信息中...</span>
-</div>
-
 <script>
 // 动态设置当前日期
 function formatDate(date) {
@@ -300,25 +273,7 @@ document.addEventListener('DOMContentLoaded', function() {
     dateElement.textContent = formatDate(now);
   }
   
-  // 获取访客 IP 和城市
-  async function showVisitorInfo() {
-    const infoSpan = document.getElementById('visitor-text');
-    try {
-      const response = await fetch('http://ip-api.com/json/?lang=zh-CN');
-      const data = await response.json();
-      const ip = data.query;
-      const city = data.city;
-      const region = data.regionName;
-      const country = data.country;
-      
-      infoSpan.textContent = `访客 IP: ${ip} | 所在地: ${city}, ${region}, ${country}`;
-    } catch (err) {
-      console.error(err);
-      infoSpan.textContent = '无法获取访客信息';
-    }
-  }
   
-  showVisitorInfo();
 });
 </script>
 
