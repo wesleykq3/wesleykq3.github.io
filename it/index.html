@@ -425,47 +425,6 @@
   </div>
 </div>
 
-<script>
-  // 添加交互功能
-  document.addEventListener('DOMContentLoaded', function() {
-    // 为所有"更多"链接添加点击事件
-    const moreLinks = document.querySelectorAll('.more-link');
-    
-    moreLinks.forEach(link => {
-      link.addEventListener('click', function(e) {
-        // 在实际应用中，这里会跳转到对应的列表页面
-        // 我们这里只是演示，所以阻止默认行为并显示提示
-        e.preventDefault();
-        const category = this.closest('.category-card').querySelector('.category-title span').textContent;
-        alert(`将跳转到${category}的完整列表页面: ${this.getAttribute('href')}`);
-        // 实际应用中应取消注释下面的代码以跳转页面
-        // window.location.href = this.getAttribute('href');
-      });
-    });
-    
-    // 为所有项目添加点击事件
-    const items = document.querySelectorAll('.item');
-    items.forEach(item => {
-      item.addEventListener('click', function() {
-        // 在实际应用中，这里会跳转到对应的文章页面
-        // 我们这里只是演示，所以显示提示
-        const title = this.querySelector('.item-title').textContent;
-        alert(`将跳转到文章: ${title}`);
-        // 实际应用中应取消注释下面的代码以跳转页面
-        // window.location.href = this.getAttribute('onclick').match(/'([^']+)'/)[1];
-      });
-    });
-    
-    // 为返回按钮添加点击事件
-    const returnButton = document.querySelector('.return-button');
-    returnButton.addEventListener('click', function(e) {
-      e.preventDefault();
-      alert('将返回上一层目录');
-      // 实际应用中应取消注释下面的代码以跳转页面
-      // window.location.href = this.getAttribute('href');
-    });
-  });
-</script>
 
 </body>
 </html>
