@@ -5,9 +5,7 @@
   <title>小游戏 - Wesley的主页</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
-    body {
-      background: #f5f7fa;
-    }
+    body { background: #f5f7fa; }
 
     .page-scale {
       transform: scale(0.9);
@@ -77,6 +75,7 @@
     .plane-bg { background: linear-gradient(135deg, #3498db, #2980b9); }
     .mine-bg { background: linear-gradient(135deg, #e74c3c, #c0392b); }
     .memory-bg { background: linear-gradient(135deg, #6366f1, #a855f7); }
+    .game2048-bg { background: linear-gradient(135deg, #f59e0b, #f97316); }
 
     .game-icon {
       width: 100px;
@@ -140,7 +139,6 @@
 
     <div class="games-grid">
 
-      <!-- 贪吃蛇 -->
       <a href="snake.html" class="game-card">
         <div class="game-image snake-bg">
           <div class="game-icon">🐍</div>
@@ -152,7 +150,6 @@
         </div>
       </a>
 
-      <!-- 俄罗斯方块 -->
       <a href="tetris.html" class="game-card">
         <div class="game-image tetris-bg">
           <div class="game-icon">🧊</div>
@@ -164,7 +161,6 @@
         </div>
       </a>
 
-      <!-- 五子棋 -->
       <a href="gomoku.html" class="game-card">
         <div class="game-image gomoku-bg">
           <div class="game-icon">♟️</div>
@@ -176,7 +172,6 @@
         </div>
       </a>
 
-      <!-- ✈️ 飞机大战 -->
       <a href="airplane.html" class="game-card">
         <div class="game-image plane-bg">
           <div class="game-icon">✈️</div>
@@ -188,30 +183,40 @@
         </div>
       </a>
 
-      <!-- 💣 扫雷 -->
       <a href="minesweeper.html" class="game-card">
         <div class="game-image mine-bg">
           <div class="game-icon">💣</div>
         </div>
         <div class="game-content">
           <h3 class="game-title">扫雷</h3>
-          <p class="game-description">经典扫雷游戏，支持初级 / 中级 / 高级难度。</p>
+          <p class="game-description">经典扫雷游戏，支持多种难度。</p>
           <div class="play-button">开始游戏</div>
         </div>
       </a>
-      <!-- 🧠 记忆翻牌 -->
+
       <a href="memory.html" class="game-card">
         <div class="game-image memory-bg">
           <div class="game-icon">🧠</div>
         </div>
         <div class="game-content">
           <h3 class="game-title">记忆翻牌</h3>
-          <p class="game-description">
-            翻开卡片寻找相同图案，考验你的记忆力与专注力。
-          </p>
+          <p class="game-description">翻开卡片寻找相同图案。</p>
           <div class="play-button">开始游戏</div>
         </div>
       </a>
+
+      <!-- 🧩 2048 -->
+      <a href="2048.html" class="game-card">
+        <div class="game-image game2048-bg">
+          <div class="game-icon">🧩</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">2048</h3>
+          <p class="game-description">滑动合并数字，挑战合成 2048！</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
     </div>
 
     <a href="../index.html" class="back-link">返回主页</a>
