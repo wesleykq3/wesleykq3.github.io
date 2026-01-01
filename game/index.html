@@ -147,11 +147,6 @@
 </head>
 <body>
 
-<header class="site-header">
-  <img src="../images/avatar.png" alt="LOGO" class="logo">
-  <h1>游戏中心</h1>
-</header>
-
 <div class="games-container">
   <h2 class="page-title">选择你想玩的游戏</h2>
   <p class="page-description">我们提供了两款经典的小游戏，点击游戏卡片查看详情并开始游戏</p>
@@ -184,34 +179,6 @@
   
   <a href="../index.html" class="back-link">返回主页</a>
 </div>
-
-<footer>
-  <p>© <span id="currentDate"></span> Wesley Lin</p>
-</footer>
-
-<script>
-// 获取当前日期并格式化
-function formatDate(date) {
-  const year = date.getFullYear();
-  const month = date.getMonth() + 1;
-  const day = date.getDate();
-  
-  const formattedMonth = month < 10 ? '0' + month : month;
-  const formattedDay = day < 10 ? '0' + day : day;
-  
-  return `${year}年${formattedMonth}月${formattedDay}日`;
-}
-
-// 页面加载完成后设置日期
-document.addEventListener('DOMContentLoaded', function() {
-  const now = new Date();
-  const dateElement = document.getElementById('currentDate');
-  
-  if (dateElement) {
-    dateElement.textContent = formatDate(now);
-  }
-});
-</script>
 
 </body>
 </html>
