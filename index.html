@@ -3,30 +3,209 @@
 <head>
   <meta charset="UTF-8">
   <title>Wesley 的个人站</title>
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* 修复后的样式，稍微增加方块面积，左上角头像和标题 */
+    body {
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      background: #fafafa;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    
+    /* 左上角头像和标题容器 */
+    .header-container {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      z-index: 10;
+    }
+    
+    .avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #2d8cf0;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .site-title {
+      font-size: 24px;
+      color: #2c3e50;
+      margin: 0;
+      font-weight: bold;
+    }
+    
+    /* 主内容区域 - 居中 */
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+      width: 100%;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      width: 100%;
+      max-width: 900px;
+    }
+    
+    .grid a {
+      padding: 30px;
+      background: #2d8cf0;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 120px;
+    }
+    
+    .grid a:hover {
+      background: #1a73e8;
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    footer {
+      margin-top: 40px;
+      font-size: 18px;
+      color: #666;
+      text-align: center;
+      width: 100%;
+      padding: 20px 0;
+      border-top: 1px solid #eee;
+    }
+    
+    footer p {
+      font-weight: bold;
+      margin: 0;
+    }
+    
+    /* 其他原有样式保持不变 */
+    .menu li {
+      list-style: none;
+      margin: 10px 0;
+    }
+    
+    .article-list li {
+      display: flex;
+      justify-content: space-between;
+      margin: 12px 0;
+    }
+    
+    .date {
+      color: #999;
+      font-size: 14px;
+    }
+    
+    article {
+      line-height: 1.8;
+    }
+    
+    .meta {
+      color: #666;
+      font-size: 14px;
+    }
+    
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+      .header-container {
+        top: 20px;
+        left: 20px;
+      }
+      
+      .avatar {
+        width: 50px;
+        height: 50px;
+      }
+      
+      .site-title {
+        font-size: 20px;
+      }
+      
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .header-container {
+        top: 15px;
+        left: 15px;
+      }
+      
+      .avatar {
+        width: 40px;
+        height: 40px;
+      }
+      
+      .site-title {
+        font-size: 18px;
+      }
+      
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+      
+      .grid a {
+        padding: 25px;
+        font-size: 18px;
+        min-height: 100px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<header class="site-header">
-  <img src="images/avatar.png" alt="LOGO" class="logo">
-  <h1>Wesley 的主页</h1>
-</header>
+<!-- 左上角头像和标题 -->
+<div class="header-container">
+  <img src="images/avatar.png" alt="Wesley头像" class="avatar">
+  <h1 class="site-title">Wesley 的主页</h1>
+</div>
 
-<nav class="grid">
-  <a href="it/index.html">IT</a>
-  <a href="life/index.html">生活</a>
-  <a href="job/index.html">找工作</a>
-  <a href="reading/index.html">读书笔记</a>
-  <a href="game/index.html">小游戏</a>
-  <a href="reward/index.html">奖赏</a>
-</nav>
+<!-- 主内容区域 -->
+<div class="main-content">
+  <nav class="grid">
+    <a href="it/index.html">IT</a>
+    <a href="life/index.html">生活</a>
+    <a href="job/index.html">找工作</a>
+    <a href="reading/index.html">读书笔记</a>
+    <a href="game/index.html">小游戏</a>
+    <a href="reward/index.html">奖赏</a>
+  </nav>
+</div>
 
 <footer>
   <p>© <span id="currentDate"></span></p>
 </footer>
 
 <script>
-// 获取当前日期并格式化
+// 动态设置当前日期
 function formatDate(date) {
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
@@ -38,7 +217,6 @@ function formatDate(date) {
   return `${year}年${formattedMonth}月${formattedDay}日`;
 }
 
-// 页面加载完成后设置日期
 document.addEventListener('DOMContentLoaded', function() {
   const now = new Date();
   const dateElement = document.getElementById('currentDate');
