@@ -1,109 +1,291 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>贪吃蛇 - Wesley的游戏中心</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="css/snake.css">
+<meta charset="UTF-8">
+<title>贪吃蛇 - Wesley的游戏中心</title>
+
+<style>
+body {
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+}
+
+.site-header {
+  background: #2d8cf0;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.game-wrapper {
+  width: 760px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  padding: 20px;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.game-controls .control-btn {
+  margin-left: 8px;
+  padding: 6px 14px;
+  border: none;
+  background: #2d8cf0;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.game-controls .control-btn:hover {
+  background: #1a73e8;
+}
+
+.game-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  background: #f2f4f8;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.stat-item {
+  font-size: 14px;
+}
+
+.game-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  background: #000;
+  border-radius: 6px;
+}
+
+.game-over,
+.game-start {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-over { display: none; }
+
+.game-instructions {
+  margin-top: 20px;
+  font-size: 14px;
+}
+</style>
 </head>
+
 <body>
 
 <header class="site-header">
-  <img src="../images/avatar.png" alt="LOGO" class="logo">
   <h1>贪吃蛇</h1>
 </header>
 
 <div class="game-container">
-  <div class="game-wrapper">
-    <div class="game-header">
-      <div class="game-title">贪吃蛇游戏</div>
-      <div class="game-controls">
-        <button id="startBtn" class="control-btn">开始游戏</button>
-        <button id="pauseBtn" class="control-btn">暂停</button>
-        <button id="restartBtn" class="control-btn">重新开始</button>
-        <button id="backBtn" class="control-btn">返回</button>
-      </div>
-    </div>
-    
-    <div class="game-stats">
-      <div class="stat-item">
-        <span class="stat-label">分数:</span>
-        <span id="score" class="stat-value">0</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-label">长度:</span>
-        <span id="length" class="stat-value">3</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-label">最高分:</span>
-        <span id="highScore" class="stat-value">0</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-label">速度:</span>
-        <span id="speed" class="stat-value">正常</span>
-      </div>
-    </div>
-    
-    <div class="game-area">
-      <canvas id="gameCanvas" width="600" height="400"></canvas>
-      <div id="gameOver" class="game-over">
-        <h2>游戏结束!</h2>
-        <p>你的得分: <span id="finalScore">0</span></p>
-        <button id="playAgainBtn" class="control-btn">再玩一次</button>
-      </div>
-      <div id="gameStart" class="game-start">
-        <h2>贪吃蛇游戏</h2>
-        <p>使用键盘方向键控制蛇的移动</p>
-        <p>吃到食物可以增加长度和得分</p>
-        <p>避免撞到墙壁或自己的身体</p>
-        <button id="startFromHereBtn" class="control-btn">开始游戏</button>
-      </div>
-    </div>
-    
-    <div class="game-instructions">
-      <h3>游戏说明:</h3>
-      <ul>
-        <li>使用 <strong>↑ ↓ ← →</strong> 方向键控制蛇的移动方向</li>
-        <li>吃到红色食物可以增加蛇的长度和得分</li>
-        <li>蛇撞到墙壁或自己的身体游戏结束</li>
-        <li>每吃10个食物，游戏速度会增加</li>
-        <li>按空格键可以暂停/继续游戏</li>
-      </ul>
+<div class="game-wrapper">
+
+  <div class="game-header">
+    <div class="game-title">贪吃蛇游戏</div>
+    <div class="game-controls">
+      <button id="startBtn" class="control-btn">开始游戏</button>
+      <button id="pauseBtn" class="control-btn">暂停</button>
+      <button id="restartBtn" class="control-btn">重新开始</button>
+      <button class="control-btn" onclick="location.href='./index.html'">返回</button>
     </div>
   </div>
+
+  <div class="game-stats">
+    <div class="stat-item">分数: <span id="score">0</span></div>
+    <div class="stat-item">长度: <span id="length">3</span></div>
+    <div class="stat-item">最高分: <span id="highScore">0</span></div>
+    <div class="stat-item">速度: <span id="speed">慢</span></div>
+  </div>
+
+  <div class="game-area">
+    <canvas id="gameCanvas" width="700" height="450"></canvas>
+
+    <div id="gameOver" class="game-over">
+      <h2>游戏结束!</h2>
+      <p>你的得分: <span id="finalScore">0</span></p>
+      <button id="playAgainBtn" class="control-btn">再玩一次</button>
+    </div>
+
+    <div id="gameStart" class="game-start">
+      <h2>贪吃蛇游戏</h2>
+      <p>使用方向键控制移动</p>
+      <button id="startFromHereBtn" class="control-btn">开始游戏</button>
+    </div>
+  </div>
+
+  <div class="game-instructions">
+    <h3>游戏说明:</h3>
+    <ul>
+      <li>↑ ↓ ← → 控制方向</li>
+      <li>吃到食物得分 +1</li>
+      <li>撞墙或撞自己游戏结束</li>
+      <li>每 10 分加快速度</li>
+      <li>空格键暂停 / 继续</li>
+    </ul>
+  </div>
+
+</div>
 </div>
 
-<footer>
-  <p>© <span id="currentDate"></span> Wesley Lin</p>
-</footer>
-
-<script src="js/snake.js"></script>
 <script>
-// 设置当前日期
-function formatDate(date) {
-  const year = date.getFullYear();
-  const month = date.getMonth() + 1;
-  const day = date.getDate();
-  
-  const formattedMonth = month < 10 ? '0' + month : month;
-  const formattedDay = day < 10 ? '0' + day : day;
-  
-  return `${year}年${formattedMonth}月${formattedDay}日`;
+const canvas = document.getElementById("gameCanvas");
+const ctx = canvas.getContext("2d");
+
+const grid = 20;
+let snake, food, dx, dy;
+let score = 0;
+let speed = 220;   // ⭐ 初始速度更慢
+let timer = null;
+let running = false;
+let paused = false;
+
+const scoreEl = document.getElementById("score");
+const lengthEl = document.getElementById("length");
+const speedEl = document.getElementById("speed");
+const highScoreEl = document.getElementById("highScore");
+
+const highScore = localStorage.getItem("snakeHigh") || 0;
+highScoreEl.textContent = highScore;
+
+function initGame() {
+  snake = [
+    {x: 100, y: 100},
+    {x: 80, y: 100},
+    {x: 60, y: 100}
+  ];
+  dx = grid;
+  dy = 0;
+  score = 0;
+  speed = 220;
+  paused = false;
+  createFood();
+  updateUI();
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  const now = new Date();
-  const dateElement = document.getElementById('currentDate');
-  
-  if (dateElement) {
-    dateElement.textContent = formatDate(now);
+function createFood() {
+  food = {
+    x: Math.floor(Math.random() * (canvas.width / grid)) * grid,
+    y: Math.floor(Math.random() * (canvas.height / grid)) * grid
+  };
+}
+
+function draw() {
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.fillStyle = "red";
+  ctx.fillRect(food.x, food.y, grid, grid);
+  ctx.fillStyle = "#00ff90";
+  snake.forEach(p => ctx.fillRect(p.x, p.y, grid-1, grid-1));
+}
+
+function move() {
+  if (paused) return;
+
+  const head = {x: snake[0].x + dx, y: snake[0].y + dy};
+
+  if (
+    head.x < 0 || head.y < 0 ||
+    head.x >= canvas.width || head.y >= canvas.height ||
+    snake.some(p => p.x === head.x && p.y === head.y)
+  ) {
+    gameOver();
+    return;
   }
-  
-  // 返回按钮功能
-  document.getElementById('backBtn').addEventListener('click', function() {
-    window.location.href = 'index.html';
-  });
+
+  snake.unshift(head);
+
+  if (head.x === food.x && head.y === food.y) {
+    score++;
+    if (score % 10 === 0) speedUp();
+    createFood();
+  } else {
+    snake.pop();
+  }
+
+  updateUI();
+  draw();
+}
+
+function speedUp() {
+  speed = Math.max(90, speed - 12); // ⭐ 加速更平缓
+  clearInterval(timer);
+  timer = setInterval(move, speed);
+}
+
+function updateUI() {
+  scoreEl.textContent = score;
+  lengthEl.textContent = snake.length;
+  speedEl.textContent =
+    speed > 180 ? "慢" :
+    speed > 130 ? "正常" :
+    speed > 100 ? "快" : "很快";
+}
+
+function startGame() {
+  if (running) return;
+  initGame();
+  running = true;
+  document.getElementById("gameStart").style.display = "none";
+  document.getElementById("gameOver").style.display = "none";
+  timer = setInterval(move, speed);
+}
+
+function gameOver() {
+  clearInterval(timer);
+  running = false;
+  document.getElementById("finalScore").textContent = score;
+  document.getElementById("gameOver").style.display = "flex";
+
+  if (score > highScore) {
+    localStorage.setItem("snakeHigh", score);
+    highScoreEl.textContent = score;
+  }
+}
+
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowUp" && dy === 0) {dx=0;dy=-grid;}
+  if (e.key === "ArrowDown" && dy === 0) {dx=0;dy=grid;}
+  if (e.key === "ArrowLeft" && dx === 0) {dx=-grid;dy=0;}
+  if (e.key === "ArrowRight" && dx === 0) {dx=grid;dy=0;}
+  if (e.code === "Space") paused = !paused;
 });
+
+startBtn.onclick = startGame;
+startFromHereBtn.onclick = startGame;
+restartBtn.onclick = () => location.reload();
+playAgainBtn.onclick = startGame;
+pauseBtn.onclick = () => paused = !paused;
 </script>
+
 </body>
 </html>
