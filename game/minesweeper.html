@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>扫雷</title>
+
+<style>
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  background: #f5f5f5;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#controls {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 14px;
+  margin: 4px;
+  border-radius: 4px;
+  border: 1px solid #888;
+  cursor: pointer;
+}
+
+#board {
+  display: grid;
+  gap: 2px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.cell {
+  width: 32px;
+  height: 32px;
+  background: #bdbdbd;
+  border: 1px solid #999;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 32px;
+  user-select: none;
+}
+
+.cell.open {
+  background: #e0e0e0;
+  border: 1px solid #ccc;
+  cursor: default;
+}
+
+.cell.mine {
+  background: #ff4d4f;
+}
+
+.cell.flag {
+  background: #ffd666;
+}
+</style>
+</head>
+
+<body>
+
+<h1>💣 扫雷</h1>
+
+<div id="controls">
+  <button onclick="setLevel('easy')">初级</button>
+  <button onclick="setLevel('medium')">中级</button>
+  <button onclick="setLevel('hard')">高级</button>
+  <button onclick="restart()">重新开始</button>
+  <button onclick="goBack()">返回</button>
+</div>
+
+<p id="info">左键打开｜右键插旗</p>
+
+<div id="board"></div>
+
+<script>
+/* ========= 难度配置 ========= */
+const LEVELS = {
+  easy:   { rows: 9,  cols: 9,  mines: 10 },
+  medium: { rows: 16, cols: 16, mines: 40 },
+  hard:   { rows: 16, cols: 30, mines: 99 }
+};
+
+let ROWS, COLS, MINES;
+
+/* ========= 全局状态 ========= */
+const boardEl = document.getElementById("board");
+let board = [];
+let firstClick = true;
+let gameOver = false;
+
+/* ========= 设置难度 ========= */
+function setLevel(level) {
+  ({ rows: ROWS, cols: COLS, mines: MINES } = LEVELS[level]);
+  restart();
+}
+
+/* ========= 初始化 ========= */
+function init() {
+  board = [];
+  boardEl.innerHTML = "";
+  boardEl.style.gridTemplateColumns = `repeat(${COLS}, 32px)`;
+  firstClick = true;
+  gameOver = false;
+
+  for (let r = 0; r < ROWS; r++) {
+    board[r] = [];
+    for (let c = 0; c < COLS; c++) {
+      board[r][c] = {
+        mine: false,
+        open: false,
+        flag: false,
+        count: 0
+      };
+
+      const d = document.createElement("div");
+      d.className = "cell";
+      d.oncontextmenu = e => {
+        e.preventDefault();
+        toggleFlag(r, c);
+      };
+      d.onclick = () => openCell(r, c);
+      boardEl.appendChild(d);
+    }
+  }
+}
+
+/* ========= 重新开始 ========= */
+function restart() {
+  init();
+}
+
+/* ========= 布雷 ========= */
+function placeMines(exR, exC) {
+  let placed = 0;
+  while (placed < MINES) {
+    const r = Math.floor(Math.random() * ROWS);
+    const c = Math.floor(Math.random() * COLS);
+    if (!board[r][c].mine && !(r === exR && c === exC)) {
+      board[r][c].mine = true;
+      placed++;
+    }
+  }
+
+  for (let r = 0; r < ROWS; r++) {
+    for (let c = 0; c < COLS; c++) {
+      if (!board[r][c].mine) {
+        board[r][c].count = countMines(r, c);
+      }
+    }
+  }
+}
+
+function countMines(r, c) {
+  let cnt = 0;
+  for (let dr = -1; dr <= 1; dr++) {
+    for (let dc = -1; dc <= 1; dc++) {
+      const nr = r + dr;
+      const nc = c + dc;
+      if (nr >= 0 && nr < ROWS && nc >= 0 && nc < COLS) {
+        if (board[nr][nc].mine) cnt++;
+      }
+    }
+  }
+  return cnt;
+}
+
+/* ========= 打开格子 ========= */
+function openCell(r, c) {
+  if (gameOver) return;
+
+  const cell = board[r][c];
+  if (cell.open || cell.flag) return;
+
+  if (firstClick) {
+    placeMines(r, c);
+    firstClick = false;
+  }
+
+  cell.open = true;
+  const el = getCellEl(r, c);
+  el.classList.add("open");
+
+  if (cell.mine) {
+    el.classList.add("mine");
+    el.textContent = "💣";
+    revealAll();
+    alert("💥 游戏结束！");
+    gameOver = true;
+    return;
+  }
+
+  if (cell.count > 0) {
+    el.textContent = cell.count;
+  } else {
+    for (let dr = -1; dr <= 1; dr++) {
+      for (let dc = -1; dc <= 1; dc++) {
+        const nr = r + dr;
+        const nc = c + dc;
+        if (nr >= 0 && nr < ROWS && nc >= 0 && nc < COLS) {
+          openCell(nr, nc);
+        }
+      }
+    }
+  }
+}
+
+/* ========= 插旗 ========= */
+function toggleFlag(r, c) {
+  if (gameOver) return;
+  const cell = board[r][c];
+  if (cell.open) return;
+
+  cell.flag = !cell.flag;
+  const el = getCellEl(r, c);
+  el.classList.toggle("flag");
+  el.textContent = cell.flag ? "🚩" : "";
+}
+
+/* ========= 工具 ========= */
+function getCellEl(r, c) {
+  return boardEl.children[r * COLS + c];
+}
+
+function revealAll() {
+  for (let r = 0; r < ROWS; r++) {
+    for (let c = 0; c < COLS; c++) {
+      if (board[r][c].mine) {
+        const el = getCellEl(r, c);
+        el.classList.add("mine");
+        el.textContent = "💣";
+      }
+    }
+  }
+}
+
+/* ========= 返回 ========= */
+function goBack() {
+  window.location.href = "../index.html";
+}
+
+/* ========= 默认初级 ========= */
+setLevel("easy");
+</script>
+
+</body>
+</html>
