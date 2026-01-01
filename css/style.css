@@ -36,7 +36,7 @@ body {
 /* ===== 中间导航区域 ===== */
 nav.grid {
   max-width: 900px;
-  margin: 220px auto 0;   /* 👈 数值越大，整体越往下 */
+  margin: 420px auto 0;   /* 👈 数值越大，整体越往下 */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
