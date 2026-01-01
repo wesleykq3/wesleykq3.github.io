@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 小游戏</title>
+    <style>
+        /* CSS 样式 */
+        body {
+            text-align: center;
+            margin-top: 50px;
+            font-family: Arial, sans-serif;
+            background-color: #faf8ef;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #776e65;
+            margin-bottom: 10px;
+        }
+
+        #gameContainer {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        #score {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #776e65;
+            font-weight: bold;
+        }
+
+        #gridContainer {
+            width: 400px;
+            height: 400px;
+            border: 1px solid #bbada0;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+            background-color: #bbada0;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .tile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            font-weight: bold;
+            background-color: #eee4da;
+            border-radius: 6px;
+            color: #776e65;
+            transition: all 0.1s ease-in-out;
+        }
+
+        /* 根据数字大小设置不同颜色 */
+        .tile-2 { background-color: #eee4da; color: #776e65; }
+        .tile-4 { background-color: #ede0c8; color: #776e65; }
+        .tile-8 { background-color: #f2b179; color: #f9f6f2; }
+        .tile-16 { background-color: #f59563; color: #f9f6f2; }
+        .tile-32 { background-color: #f67c5f; color: #f9f6f2; }
+        .tile-64 { background-color: #f65e3b; color: #f9f6f2; }
+        .tile-128 { background-color: #edcf72; color: #f9f6f2; font-size: 32px; }
+        .tile-256 { background-color: #edcc61; color: #f9f6f2; font-size: 32px; }
+        .tile-512 { background-color: #edc850; color: #f9f6f2; font-size: 32px; }
+        .tile-1024 { background-color: #edc53f; color: #f9f6f2; font-size: 28px; }
+        .tile-2048 { background-color: #edc22e; color: #f9f6f2; font-size: 28px; }
+
+        #gameOverContainer {
+            display: none;
+            margin-top: 20px;
+        }
+
+        #gameOver {
+            font-size: 36px;
+            color: #776e65;
+            margin-bottom: 10px;
+        }
+
+        #restartButton {
+            font-size: 20px;
+            padding: 8px 20px;
+            border-radius: 6px;
+            background-color: #8f7a66;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        #restartButton:hover {
+            background-color: #746655;
+        }
+
+        p.info {
+            color: #776e65;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>2048</h1>
+    <p class="info">使用键盘方向键或 WASD 键移动方块。合并相同数字直到得到2048！</p>
+
+    <div id="gameContainer">
+        <div id="score">分数：0</div>
+        <div id="gridContainer"></div>
+        <div id="gameOverContainer">
+            <div id="gameOver">游戏结束！</div>
+            <button id="restartButton">重新开始</button>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript 游戏逻辑
+        document.addEventListener("DOMContentLoaded", function () {
+            const gridContainer = document.getElementById("gridContainer");
+            const scoreDisplay = document.getElementById("score");
+            const gameOverContainer = document.getElementById("gameOverContainer");
+            const gameOverText = document.getElementById("gameOver");
+            const restartButton = document.getElementById("restartButton");
+
+            const gridWidth = 4; // 4x4 网格
+            let tiles = []; // 存储所有方块的值（16个位置）
+            let score = 0;
+            let gameOverFlag = false;
+
+            // 1. 初始化游戏
+            function init() {
+                score = 0;
+                gameOverFlag = false;
+                updateScore();
+                gameOverContainer.style.display = "none";
+                // 清空网格容器
+                gridContainer.innerHTML = '';
+                // 初始化 tiles 数组，全部为 null（空）
+                tiles = new Array(gridWidth * gridWidth).fill(null);
+                // 生成两个初始方块
+                addRandomTile();
+                addRandomTile();
+                // 绘制所有方块
+                drawTiles();
+            }
+
+            // 2. 在随机空白位置添加一个方块 (90% 概率为2，10% 概率为4)
+            function addRandomTile() {
+                const emptyTiles = tiles.reduce((acc, tile, index) => {
+                    if (tile === null) {
+                        acc.push(index);
+                    }
+                    return acc;
+                }, []);
+
+                if (emptyTiles.length > 0) {
+                    const randomIndex = emptyTiles[Math.floor(Math.random() * emptyTiles.length)];
+                    const value = Math.random() < 0.9 ? 2 : 4;
+                    tiles[randomIndex] = value;
+                }
+            }
+
+            // 3. 根据 tiles 数组绘制所有方块到页面
+            function drawTiles() {
+                gridContainer.innerHTML = "";
+                tiles.forEach((tile, index) => {
+                    const tileElement = document.createElement("div");
+                    tileElement.classList.add("tile");
+                    if (tile !== null) {
+                        tileElement.textContent = tile;
+                        tileElement.classList.add(`tile-${tile}`);
+                    }
+                    gridContainer.appendChild(tileElement);
+                });
+            }
+
+            // 4. 更新分数显示
+            function updateScore() {
+                scoreDisplay.textContent = `分数：${score}`;
+            }
+
+            // 5. 核心移动逻辑
+            function move(direction) {
+                if (gameOverFlag) return;
+                let hasChanged = false; // 标记本次移动是否有效
+
+                switch (direction) {
+                    case "up":
+                        for (let col = 0; col < gridWidth; col++) {
+                            for (let row = 1; row < gridWidth; row++) {
+                                let currentIndex = col + row * gridWidth;
+                                if (tiles[currentIndex] !== null) {
+                                    let newIndex = currentIndex;
+                                    while (newIndex >= gridWidth && tiles[newIndex - gridWidth] === null) {
+                                        newIndex -= gridWidth;
+                                    }
+                                    if (newIndex - gridWidth >= 0 && tiles[newIndex - gridWidth] === tiles[currentIndex]) {
+                                        // 合并方块
+                                        tiles[newIndex - gridWidth] *= 2;
+                                        tiles[currentIndex] = null;
+                                        score += tiles[newIndex - gridWidth]; // 加分
+                                        hasChanged = true;
+                                    } else if (newIndex !== currentIndex) {
+                                        // 移动方块
+                                        tiles[newIndex] = tiles[currentIndex];
+                                        tiles[currentIndex] = null;
+                                        hasChanged = true;
+                                    }
+                                }
+                            }
+                        }
+                        break;
+                    case "down":
+                        for (let col = 0; col < gridWidth; col++) {
+                            for (let row = gridWidth - 2; row >= 0; row--) {
+                                let currentIndex = col + row * gridWidth;
+                                if (tiles[currentIndex] !== null) {
+                                    let newIndex = currentIndex;
+                                    while (newIndex + gridWidth < gridWidth * gridWidth && tiles[newIndex + gridWidth] === null) {
+                                        newIndex += gridWidth;
+                                    }
+                                    if (newIndex + gridWidth < gridWidth * gridWidth && tiles[newIndex + gridWidth] === tiles[currentIndex]) {
+                                        tiles[newIndex + gridWidth] *= 2;
+                                        tiles[currentIndex] = null;
+                                        score += tiles[newIndex + gridWidth];
+                                        hasChanged = true;
+                                    } else if (newIndex !== currentIndex) {
+                                        tiles[newIndex] = tiles[currentIndex];
+                                        tiles[currentIndex] = null;
+                                        hasChanged = true;
+                                    }
+                                }
+                            }
+                        }
+                        break;
+                    case "left":
+                        for (let row = 0; row < gridWidth; row++) {
+                            for (let col = 1; col < gridWidth; col++) {
+                                let currentIndex = row * gridWidth + col;
+                                if (tiles[currentIndex] !== null) {
+                                    let newIndex = currentIndex;
+                                    while (newIndex % gridWidth !== 0 && tiles[newIndex - 1] === null) {
+                                        newIndex--;
+                                    }
+                                    if (newIndex % gridWidth !== 0 && tiles[newIndex - 1] === tiles[currentIndex]) {
+                                        tiles[newIndex - 1] *= 2;
+                                        tiles[currentIndex] = null;
+                                        score += tiles[newIndex - 1];
+                                        hasChanged = true;
+                                    } else if (newIndex !== currentIndex) {
+                                        tiles[newIndex] = tiles[currentIndex];
+                                        tiles[currentIndex] = null;
+                                        hasChanged = true;
+                                    }
+                                }
+                            }
+                        }
+                        break;
+                    case "right":
+                        for (let row = 0; row < gridWidth; row++) {
+                            for (let col = gridWidth - 2; col >= 0; col--) {
+                                let currentIndex = row * gridWidth + col;
+                                if (tiles[currentIndex] !== null) {
+                                    let newIndex = currentIndex;
+                                    while ((newIndex + 1) % gridWidth !== 0 && tiles[newIndex + 1] === null) {
+                                        newIndex++;
+                                    }
+                                    if ((newIndex + 1) % gridWidth !== 0 && tiles[newIndex + 1] === tiles[currentIndex]) {
+                                        tiles[newIndex + 1] *= 2;
+                                        tiles[currentIndex] = null;
+                                        score += tiles[newIndex + 1];
+                                        hasChanged = true;
+                                    } else if (newIndex !== currentIndex) {
+                                        tiles[newIndex] = tiles[currentIndex];
+                                        tiles[currentIndex] = null;
+                                        hasChanged = true;
+                                    }
+                                }
+                            }
+                        }
+                        break;
+                }
+
+                // 如果发生了有效移动，则添加新方块、更新界面并检查游戏是否结束
+                if (hasChanged) {
+                    addRandomTile();
+                    drawTiles();
+                    updateScore();
+                    checkGameOver();
+                }
+            }
+
+            // 6. 检查游戏是否结束
+            function checkGameOver() {
+                const isFull = !tiles.includes(null); // 没有空位了
+                const canMove = checkPossibleMove(); // 检查是否还能合并
+
+                if (isFull && !canMove) {
+                    gameOverFlag = true;
+                    gameOverContainer.style.display = "block";
+                }
+            }
+
+            // 7. 检查是否还有可行的移动（相邻方块有相同数字）
+            function checkPossibleMove() {
+                for (let i = 0; i < tiles.length; i++) {
+                    // 如果还有空位，肯定可以移动
+                    if (tiles[i] === null) {
+                        return true;
+                    }
+                    // 检查右侧的方块是否相同
+                    if (i % gridWidth !== gridWidth - 1 && tiles[i] === tiles[i + 1]) {
+                        return true;
+                    }
+                    // 检查下方的方块是否相同
+                    if (i < tiles.length - gridWidth && tiles[i] === tiles[i + gridWidth]) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            // 8. 重新开始游戏
+            function restart() {
+                init();
+            }
+
+            // 9. 键盘事件监听
+            document.addEventListener("keydown", function (event) {
+                if (event.key === "ArrowUp" || event.key === "w") {
+                    move("up");
+                } else if (event.key === "ArrowDown" || event.key === "s") {
+                    move("down");
+                } else if (event.key === "ArrowLeft" || event.key === "a") {
+                    move("left");
+                } else if (event.key === "ArrowRight" || event.key === "d") {
+                    move("right");
+                }
+            });
+
+            // 10. 重新开始按钮事件
+            restartButton.addEventListener("click", restart);
+
+            // 初始化游戏
+            init();
+        });
+    </script>
+</body>
+</html>
