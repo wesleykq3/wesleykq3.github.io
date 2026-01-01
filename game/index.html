@@ -5,6 +5,16 @@
   <title>游戏中心 - Wesley的主页</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
+    body {
+      background: #f5f7fa;
+    }
+
+    .page-scale {
+      transform: scale(0.9);
+      transform-origin: top center;
+      width: 111%;
+    }
+
     .games-container {
       max-width: 1200px;
       margin: 0 auto;
@@ -31,10 +41,10 @@
 
     .games-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 40px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
       width: 100%;
-      max-width: 1000px;
+      max-width: 950px;
     }
 
     .game-card {
@@ -47,161 +57,152 @@
       color: inherit;
       display: flex;
       flex-direction: column;
-      height: 100%;
     }
 
     .game-card:hover {
-      transform: translateY(-10px);
+      transform: translateY(-8px);
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
     }
 
     .game-image {
-      height: 220px;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
+      height: 200px;
       display: flex;
       align-items: center;
       justify-content: center;
     }
 
-    .snake-bg {
-      background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
-    }
-
-    .tetris-bg {
-      background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
-    }
-
-    /* ⭐ 新增五子棋背景 */
-    .gomoku-bg {
-      background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
-    }
+    .snake-bg { background: linear-gradient(135deg, #27ae60, #2ecc71); }
+    .tetris-bg { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
+    .gomoku-bg { background: linear-gradient(135deg, #f39c12, #e67e22); }
+    .plane-bg { background: linear-gradient(135deg, #3498db, #2980b9); }
+    .mine-bg { background: linear-gradient(135deg, #e74c3c, #c0392b); }
 
     .game-icon {
-      width: 120px;
-      height: 120px;
-      background-color: rgba(255, 255, 255, 0.2);
+      width: 100px;
+      height: 100px;
+      font-size: 52px;
+      background: rgba(255,255,255,0.2);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 60px;
-      color: white;
+      color: #fff;
     }
 
     .game-content {
-      padding: 25px;
-      flex-grow: 1;
+      padding: 22px;
       display: flex;
       flex-direction: column;
+      flex-grow: 1;
     }
 
     .game-title {
-      font-size: 28px;
-      margin-bottom: 15px;
+      font-size: 26px;
+      margin-bottom: 12px;
       color: #2c3e50;
     }
 
     .game-description {
       color: #7f8c8d;
       line-height: 1.6;
-      margin-bottom: 20px;
       flex-grow: 1;
     }
 
     .play-button {
-      display: inline-block;
-      padding: 12px 25px;
-      background-color: #3498db;
-      color: white;
-      text-decoration: none;
+      margin-top: 15px;
+      padding: 10px;
+      background: #3498db;
+      color: #fff;
       border-radius: 8px;
       font-weight: bold;
       text-align: center;
-      transition: background-color 0.3s;
-      border: none;
-      font-size: 16px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-
-    .play-button:hover {
-      background-color: #2980b9;
     }
 
     .back-link {
-      display: inline-block;
-      margin-top: 50px;
-      color: #3498db;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
+      margin-top: 40px;
       padding: 10px 20px;
-      border-radius: 8px;
       border: 2px solid #3498db;
-      transition: all 0.3s;
-    }
-
-    .back-link:hover {
-      background-color: #3498db;
-      color: white;
+      border-radius: 8px;
+      color: #3498db;
+      font-weight: bold;
+      text-decoration: none;
     }
   </style>
 </head>
+
 <body>
 
-<div class="games-container">
-  <h2 class="page-title">选择你想玩的游戏</h2>
-  <p class="page-description">我们提供了多款经典小游戏，点击游戏卡片即可开始</p>
+<div class="page-scale">
+  <div class="games-container">
+    <h2 class="page-title">选择你想玩的游戏</h2>
+    <p class="page-description">我们提供了多款经典小游戏，点击游戏卡片即可开始</p>
 
-  <div class="games-grid">
+    <div class="games-grid">
 
-    <!-- 贪吃蛇 -->
-    <a href="snake.html" class="game-card">
-      <div class="game-image snake-bg">
-        <div class="game-icon">🐍</div>
-      </div>
-      <div class="game-content">
-        <h3 class="game-title">贪吃蛇</h3>
-        <p class="game-description">
-          控制蛇吃食物并避免撞墙或自己的身体，蛇越长，速度越快。
-        </p>
-        <div class="play-button">开始游戏</div>
-      </div>
-    </a>
+      <!-- 贪吃蛇 -->
+      <a href="snake.html" class="game-card">
+        <div class="game-image snake-bg">
+          <div class="game-icon">🐍</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">贪吃蛇</h3>
+          <p class="game-description">控制蛇不断成长，考验你的反应速度。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
 
-    <!-- 俄罗斯方块 -->
-    <a href="tetris.html" class="game-card">
-      <div class="game-image tetris-bg">
-        <div class="game-icon">🧊</div>
-      </div>
-      <div class="game-content">
-        <h3 class="game-title">俄罗斯方块</h3>
-        <p class="game-description">
-          移动和旋转下落的方块以消除整行，考验你的反应与空间思维能力。
-        </p>
-        <div class="play-button">开始游戏</div>
-      </div>
-    </a>
+      <!-- 俄罗斯方块 -->
+      <a href="tetris.html" class="game-card">
+        <div class="game-image tetris-bg">
+          <div class="game-icon">🧊</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">俄罗斯方块</h3>
+          <p class="game-description">旋转与堆叠，消除整行赢得高分。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
 
-    <!-- ⭐ 五子棋 -->
-    <a href="gomoku.html" class="game-card">
-      <div class="game-image gomoku-bg">
-        <div class="game-icon">♟️</div>
-      </div>
-      <div class="game-content">
-        <h3 class="game-title">五子棋</h3>
-        <p class="game-description">
-          经典五子棋对战游戏，黑白轮流落子，率先连成五子者获胜。
-        </p>
-        <div class="play-button">开始游戏</div>
-      </div>
-    </a>
+      <!-- 五子棋 -->
+      <a href="gomoku.html" class="game-card">
+        <div class="game-image gomoku-bg">
+          <div class="game-icon">♟️</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">五子棋</h3>
+          <p class="game-description">黑白对弈，先连五子者获胜。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
 
+      <!-- ✈️ 飞机大战 -->
+      <a href="airplane.html" class="game-card">
+        <div class="game-image plane-bg">
+          <div class="game-icon">✈️</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">飞机大战</h3>
+          <p class="game-description">控制战机躲避敌人并击落来袭目标。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
+      <!-- 💣 扫雷 -->
+      <a href="minesweeper.html" class="game-card">
+        <div class="game-image mine-bg">
+          <div class="game-icon">💣</div>
+        </div>
+        <div class="game-content">
+          <h3 class="game-title">扫雷</h3>
+          <p class="game-description">经典扫雷游戏，支持初级 / 中级 / 高级难度。</p>
+          <div class="play-button">开始游戏</div>
+        </div>
+      </a>
+
+    </div>
+
+    <a href="../index.html" class="back-link">返回主页</a>
   </div>
-
-  <a href="../index.html" class="back-link">返回主页</a>
 </div>
 
 </body>
