@@ -28,8 +28,16 @@
       gap: 15px;
       z-index: 10;
     }
-    
     .avatar {
+  width: 70px;   /* 原60px -> 70px，更醒目 */
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2d8cf0;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+  /*  .avatar {
       width: 60px;
       height: 60px;
       border-radius: 50%;
@@ -44,7 +52,14 @@
       margin: 0;
       font-weight: bold;
     }
-    
+    */
+    .site-title {
+  font-size: 28px; /* 原24px -> 28px，更突出 */
+  color: #2c3e50;
+  margin: 0;
+  font-weight: bold;
+  line-height: 1.2;
+}
     /* 主内容区域 - 居中 */
     .main-content {
       display: flex;
