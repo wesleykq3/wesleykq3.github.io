@@ -45,21 +45,6 @@
     footer { width:100%; font-size:18px; color:#666; text-align:center; padding:20px 0; margin-top:220px; }
     footer p { font-weight:bold; }
 
-    /* 右下角访客IP信息 */
-    .ip-info {
-      position:fixed; bottom:20px; right:20px;
-      background:rgba(255,255,255,0.9); border-radius:8px;
-      padding:12px 20px; box-shadow:0 4px 15px rgba(0,0,0,0.1);
-      border:1px solid #e0e0e0; z-index:999;
-      font-family:"Microsoft YaHei",Arial,sans-serif;
-      max-width:280px;
-    }
-    .ip-info .ip-title { font-size:14px; color:#666; margin-bottom:6px; }
-    .ip-info .ip-address { font-size:16px; font-weight:bold; margin-bottom:8px; font-family:Consolas,monospace; }
-    .ip-info .city-info { font-size:14px; color:#2d8cf0; display:flex; align-items:center; gap:6px; }
-    .ip-info .city-info i { font-size:12px; }
-    .ip-info .loading { color:#999; font-style:italic; }
-
     /* 响应式 */
     @media(max-width:768px){
       .header-container { top:20px; left:20px; }
@@ -110,12 +95,6 @@
   </footer>
 </div>
 
-<!-- 右下角访客IP显示 -->
-<div class="ip-info">
-  <div class="ip-title">您的IP地址</div>
-  <div class="ip-address" id="ipAddress">正在获取...</div>
-  <div class="city-info"><i class="fas fa-map-marker-alt"></i> <span id="cityText">正在获取位置...</span></div>
-</div>
 
 <script>
 // 设置当前日期
@@ -127,30 +106,6 @@ document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('currentDate').textContent = formatDate(new Date());
 });
 
-// 获取访客IP和城市信息
-async function getIPInfo(){
-  try{
-    const res = await fetch('https://ipapi.co/json/');
-    const data = await res.json();
-    if(data && data.ip){
-      document.getElementById('ipAddress').textContent = data.ip;
-      const loc = data.city ? `${data.city}, ${data.region}, ${data.country_name}` : (data.country_name||'未知位置');
-      document.getElementById('cityText').textContent = loc;
-    }else throw new Error('无法获取IP');
-  }catch(e){
-    console.error('IP获取失败:',e);
-    try{
-      const backup = await fetch('https://api.ipify.org?format=json');
-      const bdata = await backup.json();
-      document.getElementById('ipAddress').textContent = bdata.ip||'获取失败';
-      document.getElementById('cityText').textContent = '位置获取失败';
-    }catch(e2){
-      document.getElementById('ipAddress').textContent='获取失败';
-      document.getElementById('cityText').textContent='请检查网络';
-    }
-  }
-}
-document.addEventListener('DOMContentLoaded', getIPInfo);
 </script>
 
 </body>
