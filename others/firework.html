@@ -12,146 +12,218 @@
       background: #000;
       overflow: hidden;
     }
+
     canvas {
       display: block;
+    }
+
+    /* ===== 元旦快乐遮罩层 ===== */
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle, #111, #000);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      transition: opacity 0.6s ease;
+    }
+
+    .overlay.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .overlay-content {
+      text-align: center;
+      color: #fff;
+    }
+
+    .overlay h1 {
+      font-size: 56px;
+      margin-bottom: 20px;
+      letter-spacing: 6px;
+    }
+
+    .overlay p {
+      opacity: 0.8;
+      margin-bottom: 40px;
+    }
+
+    .start-btn {
+      padding: 14px 36px;
+      font-size: 20px;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      background: linear-gradient(135deg, #ffcc00, #ff6600);
+      color: #000;
+      font-weight: bold;
+      box-shadow: 0 0 30px rgba(255, 180, 0, 0.8);
+    }
+
+    .start-btn:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
 
+<!-- 元旦快乐提示 -->
+<div class="overlay" id="overlay">
+  <div class="overlay-content">
+    <h1>🎉 元旦快乐 🎉</h1>
+    <p>愿新的一年，烟花与梦想同时绽放</p>
+    <button class="start-btn" id="startBtn">开始</button>
+  </div>
+</div>
+
 <canvas id="canvas"></canvas>
 
 <script>
-  const canvas = document.getElementById("canvas");
-  const ctx = canvas.getContext("2d");
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
 
-  function resize() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-  }
-  resize();
-  window.addEventListener("resize", resize);
+// 画布自适应
+function resize() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+resize();
+window.addEventListener("resize", resize);
 
-  /* ---------- 工具函数 ---------- */
-  function random(min, max) {
-    return Math.random() * (max - min) + min;
-  }
+// 随机数和颜色
+function random(min, max) {
+  return Math.random() * (max - min) + min;
+}
 
-  function randomColor() {
-    const colors = [
-      "#ff0043", "#14fc56", "#1e90ff",
-      "#ffae00", "#ff66ff", "#00ffff", "#ffffff"
-    ];
-    return colors[Math.floor(Math.random() * colors.length)];
-  }
+function randomColor() {
+  const colors = [
+    "#ff0043", "#14fc56", "#1e90ff",
+    "#ffae00", "#ff66ff", "#00ffff", "#ffffff", "#ff33cc", "#ff9933"
+  ];
+  return colors[Math.floor(Math.random() * colors.length)];
+}
 
-  /* ---------- 烟花上升体 ---------- */
-  class Firework {
-    constructor() {
-      this.x = random(100, canvas.width - 100);
-      this.y = canvas.height;
-      this.targetY = random(canvas.height * 0.2, canvas.height * 0.5);
-      this.speed = random(6, 9);
-      this.color = randomColor();   // 🔴 单发烟花颜色
-      this.exploded = false;
-    }
-
-    update() {
-      this.y -= this.speed;
-      if (this.y <= this.targetY) {
-        this.explode();
-        this.exploded = true;
-      }
-    }
-
-    draw() {
-      ctx.beginPath();
-      ctx.arc(this.x, this.y, 2, 0, Math.PI * 2);
-      ctx.fillStyle = this.color;
-      ctx.fill();
-    }
-
-    explode() {
-      const count = Math.floor(random(60, 160));
-      for (let i = 0; i < count; i++) {
-        particles.push(new Particle(this.x, this.y, this.color));
-      }
-    }
+// 粒子类
+class Particle {
+  constructor(x, y, color) {
+    this.x = x;
+    this.y = y;
+    this.radius = random(1.5, 3.5);
+    this.color = color;
+    this.angle = random(0, Math.PI * 2);
+    this.speed = random(3, 12);
+    this.vx = Math.cos(this.angle) * this.speed;
+    this.vy = Math.sin(this.angle) * this.speed;
+    this.alpha = 1;
+    this.gravity = 0.08;
+    this.friction = 0.95;
+    this.decay = random(0.012, 0.02);
   }
 
-  /* ---------- 爆炸粒子 ---------- */
-  class Particle {
-    constructor(x, y, color) {
-      this.x = x;
-      this.y = y;
-      this.radius = random(1, 2.5);
-      this.color = color;        // 🔴 继承烟花颜色
-      this.angle = random(0, Math.PI * 2);
-      this.speed = random(2, 7);
-      this.vx = Math.cos(this.angle) * this.speed;
-      this.vy = Math.sin(this.angle) * this.speed;
-      this.alpha = 1;
-      this.gravity = 0.06;
-      this.friction = 0.98;
-    }
+  update() {
+    this.vx *= this.friction;
+    this.vy *= this.friction;
+    this.vy += this.gravity;
+    this.x += this.vx;
+    this.y += this.vy;
+    this.alpha -= this.decay;
+  }
 
-    update() {
-      this.vx *= this.friction;
-      this.vy *= this.friction;
-      this.vy += this.gravity;
-      this.x += this.vx;
-      this.y += this.vy;
-      this.alpha -= 0.015;
-    }
+  draw() {
+    ctx.save();
+    ctx.globalAlpha = this.alpha;
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+    ctx.fillStyle = this.color;
+    ctx.fill();
+    ctx.restore();
+  }
+}
 
-    draw() {
-      ctx.save();
-      ctx.globalAlpha = this.alpha;
-      ctx.beginPath();
-      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-      ctx.fillStyle = this.color;
-      ctx.fill();
-      ctx.restore();
+// 烟花类
+class Firework {
+  constructor() {
+    this.x = random(100, canvas.width - 100);
+    this.y = canvas.height;
+    this.targetY = random(canvas.height * 0.2, canvas.height * 0.5);
+    this.speed = random(6, 10);
+    this.color = randomColor();
+    this.exploded = false;
+  }
+
+  update() {
+    this.y -= this.speed;
+    if (this.y <= this.targetY) {
+      this.explode();
+      this.exploded = true;
     }
   }
 
-  const fireworks = [];
-  const particles = [];
+  draw() {
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, 2, 0, Math.PI * 2);
+    ctx.fillStyle = this.color;
+    ctx.fill();
+  }
 
-  /* ---------- 动画循环 ---------- */
-  function animate() {
-    ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  explode() {
+    const count = Math.floor(random(150, 300));
+    for (let i = 0; i < count; i++) {
+      particles.push(new Particle(this.x, this.y, this.color));
+    }
 
-    // 上升烟花
+    // 播放烟花声音
+    const audio = new Audio("firework.mp3");
+    audio.volume = 0.5;
+    audio.play().catch(e => console.log("播放被阻止：", e));
+  }
+}
+
+const fireworks = [];
+const particles = [];
+let started = false;
+
+// 动画循环
+function animate() {
+  // 留下烟花尾迹
+  ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  if (started) {
+    // 烟花更新
     for (let i = fireworks.length - 1; i >= 0; i--) {
       fireworks[i].update();
       fireworks[i].draw();
-      if (fireworks[i].exploded) {
-        fireworks.splice(i, 1);
-      }
+      if (fireworks[i].exploded) fireworks.splice(i, 1);
     }
 
-    // 爆炸粒子
+    // 粒子更新
     for (let i = particles.length - 1; i >= 0; i--) {
       particles[i].update();
       particles[i].draw();
-      if (particles[i].alpha <= 0) {
-        particles.splice(i, 1);
-      }
+      if (particles[i].alpha <= 0) particles.splice(i, 1);
     }
-
-    requestAnimationFrame(animate);
   }
 
-  /* ---------- 自动生成烟花 ---------- */
+  requestAnimationFrame(animate);
+}
+
+// 点击开始
+document.getElementById("startBtn").addEventListener("click", () => {
+  document.getElementById("overlay").classList.add("hidden");
+  started = true;
+
+  // 定时生成烟花
   setInterval(() => {
-    if (fireworks.length < 6) {
+    if (fireworks.length < 10) {
       fireworks.push(new Firework());
     }
-  }, 500);
+  }, 300);
+});
 
-  animate();
+animate();
 </script>
 
 </body>
