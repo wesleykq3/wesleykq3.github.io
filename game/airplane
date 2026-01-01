@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>飞机大战</title>
+<style>
+body {
+  margin: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  font-family: Arial;
+}
+
+/* 整体容器 */
+.wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+/* 游戏区域 */
+.game-box {
+  position: relative;
+}
+
+canvas {
+  background: #111;
+  border: 2px solid #333;
+}
+
+.panel {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 0 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+/* 右侧规则说明 */
+.rule-box {
+  width: 260px;
+  background: #111;
+  border: 2px solid #333;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.rule-box h3 {
+  margin-top: 0;
+  color: #4caf50;
+  text-align: center;
+}
+
+.rule-box ul {
+  padding-left: 18px;
+  line-height: 1.8;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.rule-box li {
+  margin-bottom: 8px;
+}
+
+.rule-tip {
+  margin-top: 15px;
+  padding: 10px;
+  background: #1e1e1e;
+  border-left: 4px solid #4caf50;
+  font-size: 13px;
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+  <!-- 🎮 游戏区 -->
+  <div class="game-box">
+    <div class="panel">
+      <button onclick="startGame()">开始</button>
+      <button onclick="restartGame()">重新开始</button>
+      <button onclick="goBack()">返回</button>
+      <span style="margin-left:20px;">分数：<span id="score">0</span></span>
+    </div>
+
+    <canvas id="game" width="480" height="640"></canvas>
+  </div>
+
+  <!-- 📖 规则说明 -->
+  <div class="rule-box">
+    <h3>游戏规则</h3>
+    <ul>
+      <li>使用 <strong>← →</strong> 键控制飞机左右移动</li>
+      <li>飞机会自动发射子弹</li>
+      <li>击中敌机可获得 <strong>1 分</strong></li>
+      <li>敌机会从屏幕上方不断下落</li>
+      <li>敌机撞到玩家飞机即游戏结束</li>
+    </ul>
+
+    <div class="rule-tip">
+      💡 小技巧：<br>
+      控制移动节奏，提前预判敌机位置，更容易获得高分！
+    </div>
+  </div>
+
+</div>
+
+<script>
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+const scoreEl = document.getElementById('score');
+
+let player, bullets, enemies, score;
+let running = false;
+
+/* 初始化 */
+function init() {
+  player = {
+    x: canvas.width / 2,
+    y: canvas.height - 70
+  };
+  bullets = [];
+  enemies = [];
+  score = 0;
+  scoreEl.textContent = score;
+}
+
+/* 飞机绘制 */
+function drawPlane(x, y) {
+  ctx.fillStyle = '#4caf50';
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+  ctx.lineTo(x - 14, y + 38);
+  ctx.lineTo(x - 6, y + 34);
+  ctx.lineTo(x - 6, y + 52);
+  ctx.lineTo(x + 6, y + 52);
+  ctx.lineTo(x + 6, y + 34);
+  ctx.lineTo(x + 14, y + 38);
+  ctx.closePath();
+  ctx.fill();
+}
+
+/* 飞机移动 */
+document.addEventListener('keydown', e => {
+  if (!running) return;
+  const speed = 12;
+  if (e.key === 'ArrowLeft') player.x -= speed;
+  if (e.key === 'ArrowRight') player.x += speed;
+  player.x = Math.max(20, Math.min(canvas.width - 20, player.x));
+});
+
+/* 生成敌机 */
+function spawnEnemy() {
+  if (!running) return;
+  enemies.push({
+    x: Math.random() * (canvas.width - 28),
+    y: -30,
+    w: 28,
+    h: 28
+  });
+}
+
+setInterval(spawnEnemy, 1400);
+
+/* 发射子弹 */
+setInterval(() => {
+  if (running) bullets.push({ x: player.x, y: player.y - 10 });
+}, 450);
+
+/* 主循环 */
+function loop() {
+  if (!running) return;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  drawPlane(player.x, player.y);
+
+  ctx.fillStyle = '#ffeb3b';
+  bullets.forEach(b => {
+    b.y -= 4;
+    ctx.fillRect(b.x - 2, b.y, 4, 10);
+  });
+  bullets = bullets.filter(b => b.y > 0);
+
+  ctx.fillStyle = '#f44336';
+  enemies.forEach(e => {
+    e.y += 1.6;
+    ctx.fillRect(e.x, e.y, e.w, e.h);
+  });
+  enemies = enemies.filter(e => e.y < canvas.height);
+
+  enemies.forEach((e, ei) => {
+    bullets.forEach((b, bi) => {
+      if (b.x > e.x && b.x < e.x + e.w && b.y > e.y && b.y < e.y + e.h) {
+        enemies.splice(ei, 1);
+        bullets.splice(bi, 1);
+        score++;
+        scoreEl.textContent = score;
+      }
+    });
+
+    if (
+      e.x < player.x + 16 &&
+      e.x + e.w > player.x - 16 &&
+      e.y < player.y + 52 &&
+      e.y + e.h > player.y + 10
+    ) {
+      running = false;
+      alert('游戏结束！得分：' + score);
+    }
+  });
+
+  requestAnimationFrame(loop);
+}
+
+/* 按钮 */
+function startGame() {
+  if (!running) {
+    running = true;
+    loop();
+  }
+}
+
+function restartGame() {
+  init();
+  running = true;
+  loop();
+}
+
+function goBack() {
+  window.location.href = 'index.html';
+}
+
+init();
+</script>
+
+</body>
+</html>
