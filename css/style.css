@@ -47,7 +47,7 @@ nav.grid a {
   padding: 24px 0;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   background: #2d8cf0;
   border-radius: 8px;
@@ -65,7 +65,7 @@ footer {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 14px;
+  font-size: 20px;
   color: #777;
 }
 
