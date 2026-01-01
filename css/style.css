@@ -6,7 +6,7 @@ body {
   background: #fafafa;
 }
 
-h1, h2 {
+h2 {
   text-align: center;
 }
 
@@ -49,4 +49,25 @@ article {
 .meta {
   color: #666;
   font-size: 14px;
+}
+header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: #666;
+}
+nav.grid {
+  margin-top: 100px;
 }
