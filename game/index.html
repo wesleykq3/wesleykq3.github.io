@@ -2,24 +2,188 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Wesley 的个人站</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>游戏中心 - Wesley的主页</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* 游戏选择页面的特定样式 */
+    .games-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .page-title {
+      color: #2c3e50;
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .page-description {
+      color: #7f8c8d;
+      font-size: 18px;
+      margin-bottom: 50px;
+      text-align: center;
+      max-width: 800px;
+    }
+    
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 40px;
+      width: 100%;
+      max-width: 1000px;
+    }
+    
+    .game-card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    
+    .game-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    .game-image {
+      height: 220px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .snake-bg {
+      background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+    }
+    
+    .tetris-bg {
+      background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+    }
+    
+    .game-icon {
+      width: 120px;
+      height: 120px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 60px;
+      color: white;
+    }
+    
+    .game-content {
+      padding: 25px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .game-title {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #2c3e50;
+    }
+    
+    .game-description {
+      color: #7f8c8d;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+    
+    .play-button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      transition: background-color 0.3s;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    
+    .play-button:hover {
+      background-color: #2980b9;
+    }
+    
+    .back-link {
+      display: inline-block;
+      margin-top: 50px;
+      color: #3498db;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: 2px solid #3498db;
+      transition: all 0.3s;
+    }
+    
+    .back-link:hover {
+      background-color: #3498db;
+      color: white;
+    }
+  </style>
 </head>
 <body>
 
 <header class="site-header">
-  <img src="images/avatar.png" alt="LOGO" class="logo">
-  <h1>Wesley 的主页</h1>
+  <img src="../images/avatar.png" alt="LOGO" class="logo">
+  <h1>游戏中心</h1>
 </header>
 
-<nav class="grid">
-  <a href="it/index.html">IT</a>
-  <a href="life/index.html">生活</a>
-  <a href="job/index.html">找工作</a>
-  <a href="reading/index.html">读书笔记</a>
-  <a href="game/index.html">小游戏</a>
-  <a href="reward/index.html">奖赏</a>
-</nav>
+<div class="games-container">
+  <h2 class="page-title">选择你想玩的游戏</h2>
+  <p class="page-description">我们提供了两款经典的小游戏，点击游戏卡片查看详情并开始游戏</p>
+  
+  <div class="games-grid">
+    <!-- 贪吃蛇游戏卡片 -->
+    <a href="snake.html" class="game-card">
+      <div class="game-image snake-bg">
+        <div class="game-icon">🐍</div>
+      </div>
+      <div class="game-content">
+        <h3 class="game-title">贪吃蛇</h3>
+        <p class="game-description">经典贪吃蛇游戏，控制蛇吃食物并避免撞墙或自己的身体。随着蛇越来越长，游戏难度也会增加。使用键盘方向键控制蛇的移动方向。</p>
+        <div class="play-button">开始游戏</div>
+      </div>
+    </a>
+    
+    <!-- 俄罗斯方块游戏卡片 -->
+    <a href="tetris.html" class="game-card">
+      <div class="game-image tetris-bg">
+        <div class="game-icon">🧊</div>
+      </div>
+      <div class="game-content">
+        <h3 class="game-title">俄罗斯方块</h3>
+        <p class="game-description">经典俄罗斯方块游戏，移动和旋转下落的方块以形成完整的水平行。每完成一行即可得分，随着游戏进行速度会越来越快。</p>
+        <div class="play-button">开始游戏</div>
+      </div>
+    </a>
+  </div>
+  
+  <a href="../index.html" class="back-link">返回主页</a>
+</div>
 
 <footer>
   <p>© <span id="currentDate"></span> Wesley Lin</p>
@@ -29,10 +193,9 @@
 // 获取当前日期并格式化
 function formatDate(date) {
   const year = date.getFullYear();
-  const month = date.getMonth() + 1; // 月份从0开始，所以要加1
+  const month = date.getMonth() + 1;
   const day = date.getDate();
   
-  // 确保月份和日期是两位数
   const formattedMonth = month < 10 ? '0' + month : month;
   const formattedDay = day < 10 ? '0' + day : day;
   

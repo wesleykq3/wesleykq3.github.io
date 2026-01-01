@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>贪吃蛇 - Wesley的游戏中心</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/snake.css">
+</head>
+<body>
+
+<header class="site-header">
+  <img src="../images/avatar.png" alt="LOGO" class="logo">
+  <h1>贪吃蛇</h1>
+</header>
+
+<div class="game-container">
+  <div class="game-wrapper">
+    <div class="game-header">
+      <div class="game-title">贪吃蛇游戏</div>
+      <div class="game-controls">
+        <button id="startBtn" class="control-btn">开始游戏</button>
+        <button id="pauseBtn" class="control-btn">暂停</button>
+        <button id="restartBtn" class="control-btn">重新开始</button>
+        <button id="backBtn" class="control-btn">返回</button>
+      </div>
+    </div>
+    
+    <div class="game-stats">
+      <div class="stat-item">
+        <span class="stat-label">分数:</span>
+        <span id="score" class="stat-value">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">长度:</span>
+        <span id="length" class="stat-value">3</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">最高分:</span>
+        <span id="highScore" class="stat-value">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">速度:</span>
+        <span id="speed" class="stat-value">正常</span>
+      </div>
+    </div>
+    
+    <div class="game-area">
+      <canvas id="gameCanvas" width="600" height="400"></canvas>
+      <div id="gameOver" class="game-over">
+        <h2>游戏结束!</h2>
+        <p>你的得分: <span id="finalScore">0</span></p>
+        <button id="playAgainBtn" class="control-btn">再玩一次</button>
+      </div>
+      <div id="gameStart" class="game-start">
+        <h2>贪吃蛇游戏</h2>
+        <p>使用键盘方向键控制蛇的移动</p>
+        <p>吃到食物可以增加长度和得分</p>
+        <p>避免撞到墙壁或自己的身体</p>
+        <button id="startFromHereBtn" class="control-btn">开始游戏</button>
+      </div>
+    </div>
+    
+    <div class="game-instructions">
+      <h3>游戏说明:</h3>
+      <ul>
+        <li>使用 <strong>↑ ↓ ← →</strong> 方向键控制蛇的移动方向</li>
+        <li>吃到红色食物可以增加蛇的长度和得分</li>
+        <li>蛇撞到墙壁或自己的身体游戏结束</li>
+        <li>每吃10个食物，游戏速度会增加</li>
+        <li>按空格键可以暂停/继续游戏</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© <span id="currentDate"></span> Wesley Lin</p>
+</footer>
+
+<script src="js/snake.js"></script>
+<script>
+// 设置当前日期
+function formatDate(date) {
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  
+  const formattedMonth = month < 10 ? '0' + month : month;
+  const formattedDay = day < 10 ? '0' + day : day;
+  
+  return `${year}年${formattedMonth}月${formattedDay}日`;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const now = new Date();
+  const dateElement = document.getElementById('currentDate');
+  
+  if (dateElement) {
+    dateElement.textContent = formatDate(now);
+  }
+  
+  // 返回按钮功能
+  document.getElementById('backBtn').addEventListener('click', function() {
+    window.location.href = 'index.html';
+  });
+});
+</script>
+</body>
+</html>
