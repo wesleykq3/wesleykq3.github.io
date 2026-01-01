@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>在线音乐播放器 - Wesley</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .music-container {
+      width: 100%;
+      max-width: 600px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      padding: 14px 16px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.2s;
+    }
+
+    li:hover {
+      background: #f0f4ff;
+    }
+
+    li.active {
+      background: #e8f0fe;
+      font-weight: bold;
+      color: #1a73e8;
+    }
+
+    .song-title {
+      flex: 1;
+    }
+
+    .status {
+      font-size: 14px;
+      color: #999;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="music-container">
+  <h1>🎵 在线音乐播放列表</h1>
+
+  <ul id="playlist">
+    <li data-src="music/birds-forest-nature-445379.mp3">
+      <span class="song-title">birds-forest-nature</span>
+      <span class="status">▶ 播放</span>
+    </li>
+    <li data-src="music/ocean-waves-250310.mp3">
+      <span class="song-title">ocean-waves</span>
+      <span class="status">▶ 播放</span>
+    </li>
+    <li data-src="music/rain-sound-188158.mp3">
+      <span class="song-title">rain-sound</span>
+      <span class="status">▶ 播放</span>
+    </li>
+    <li data-src="music/calming-rain-257596.mp3">
+      <span class="song-title">calming-rain</span>
+      <span class="status">▶ 播放</span>
+    </li>
+    <li data-src="music/rippling-stream-459512.mp3">
+      <span class="song-title">rippling-stream</span>
+      <span class="status">▶ 播放</span>
+    </li>
+    <li data-src="music/stream-water-with-birds-459511.mp3">
+      <span class="song-title">stream-water-with-birds</span>
+      <span class="status">▶ 播放</span>
+    </li>
+    <li data-src="music/sunlight-through-grass-459264.mp3">
+      <span class="song-title">sunlight-through-grass</span>
+      <span class="status">▶ 播放</span>
+    </li>
+  </ul>
+
+  <audio id="audioPlayer" controls></audio>
+</div>
+
+<script>
+  const audio = document.getElementById('audioPlayer');
+  const listItems = document.querySelectorAll('#playlist li');
+
+  listItems.forEach(item => {
+    item.addEventListener('click', () => {
+      // 移除其他 active 状态
+      listItems.forEach(li => {
+        li.classList.remove('active');
+        li.querySelector('.status').textContent = '▶ 播放';
+      });
+
+      // 设置当前
+      item.classList.add('active');
+      item.querySelector('.status').textContent = '⏸ 播放中';
+
+      // 播放音乐
+      audio.src = item.dataset.src;
+      audio.play();
+    });
+  });
+
+  audio.addEventListener('ended', () => {
+    listItems.forEach(li => {
+      li.classList.remove('active');
+      li.querySelector('.status').textContent = '▶ 播放';
+    });
+  });
+</script>
+
+</body>
+</html>
