@@ -2,53 +2,93 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Wesley 的个人站</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>招聘岗位 - Wesley 的主页</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .job-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .job-header,
+    .job-item {
+      display: grid;
+      grid-template-columns: 3fr 2fr 2fr 2fr;
+      padding: 16px 24px;
+      align-items: center;
+    }
+
+    .job-header {
+      background: #f0f3f7;
+      font-weight: bold;
+      color: #555;
+    }
+
+    .job-item {
+      border-top: 1px solid #eee;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .job-item:hover {
+      background: #f8fbff;
+    }
+
+    .job-title {
+      color: #2c3e50;
+      font-weight: 600;
+    }
+
+    .job-meta {
+      color: #666;
+      font-size: 14px;
+    }
+
+    .job-date {
+      color: #666;
+      font-size: 14px;
+      text-align: right;
+    }
+  </style>
 </head>
 <body>
 
-<header class="site-header">
-  <img src="images/avatar.png" alt="LOGO" class="logo">
-  <h1>Wesley 的主页</h1>
-</header>
+<div class="job-container">
+  <div class="job-header">
+    <div>标题</div>
+    <div style="text-align:right;">发布日期</div>
+  </div>
 
-<nav class="grid">
-  <a href="it/index.html">IT</a>
-  <a href="life/index.html">生活</a>
-  <a href="job/index.html">找工作</a>
-  <a href="reading/index.html">读书笔记</a>
-  <a href="game/index.html">小游戏</a>
-  <a href="reward/index.html">奖赏</a>
-</nav>
+  <div class="job-item" onclick="window.location.href='booklist/01book.html'">
+    <div class="job-title">王阳明心学</div>
+    <div class="job-date">2026-01-01</div>
+  </div>
 
-<footer>
-  <p>© <span id="currentDate"></span> Wesley Lin</p>
-</footer>
+  <!--
+  <div class="job-item" onclick="openJob(2)">
+    <div class="job-title">MDM 技术支持工程师</div>
+    <div class="job-meta">上海</div>
+    <div class="job-meta">拉勾网</div>
+    <div class="job-date">2025-12-28</div>
+  </div>
 
-<script>
-// 获取当前日期并格式化
-function formatDate(date) {
-  const year = date.getFullYear();
-  const month = date.getMonth() + 1; // 月份从0开始，所以要加1
-  const day = date.getDate();
-  
-  // 确保月份和日期是两位数
-  const formattedMonth = month < 10 ? '0' + month : month;
-  const formattedDay = day < 10 ? '0' + day : day;
-  
-  return `${year}年${formattedMonth}月${formattedDay}日`;
-}
-
-// 页面加载完成后设置日期
-document.addEventListener('DOMContentLoaded', function() {
-  const now = new Date();
-  const dateElement = document.getElementById('currentDate');
-  
-  if (dateElement) {
-    dateElement.textContent = formatDate(now);
-  }
-});
-</script>
-
+  <div class="job-item" onclick="openJob(3)">
+    <div class="job-title">云平台运维工程师</div>
+    <div class="job-meta">远程</div>
+    <div class="job-meta">LinkedIn</div>
+    <div class="job-date">2025-12-20</div>
+  </div>
+-->
+</div>
 </body>
 </html>
