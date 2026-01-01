@@ -124,7 +124,9 @@ let running = false;
 function init() {
   player = {
     x: canvas.width / 2,
-    y: canvas.height - 70
+    y: canvas.height - 40, // 更靠近底部
+    width: 16, // 飞机宽度
+    height: 24 // 飞机高度
   };
   bullets = [];
   enemies = [];
@@ -132,17 +134,19 @@ function init() {
   scoreEl.textContent = score;
 }
 
-/* 飞机绘制 */
+/* 飞机绘制 - 缩小版 */
 function drawPlane(x, y) {
   ctx.fillStyle = '#4caf50';
   ctx.beginPath();
-  ctx.moveTo(x, y);
-  ctx.lineTo(x - 14, y + 38);
-  ctx.lineTo(x - 6, y + 34);
-  ctx.lineTo(x - 6, y + 52);
-  ctx.lineTo(x + 6, y + 52);
-  ctx.lineTo(x + 6, y + 34);
-  ctx.lineTo(x + 14, y + 38);
+  
+  // 缩小飞机尺寸
+  ctx.moveTo(x, y); // 顶部中心点
+  ctx.lineTo(x - 8, y + 20); // 左翼底部
+  ctx.lineTo(x - 4, y + 16); // 左翼转折
+  ctx.lineTo(x - 4, y + 24); // 左底部
+  ctx.lineTo(x + 4, y + 24); // 右底部
+  ctx.lineTo(x + 4, y + 16); // 右翼转折
+  ctx.lineTo(x + 8, y + 20); // 右翼底部
   ctx.closePath();
   ctx.fill();
 }
@@ -153,7 +157,8 @@ document.addEventListener('keydown', e => {
   const speed = 12;
   if (e.key === 'ArrowLeft') player.x -= speed;
   if (e.key === 'ArrowRight') player.x += speed;
-  player.x = Math.max(20, Math.min(canvas.width - 20, player.x));
+  // 限制飞机移动范围，考虑缩小后的宽度
+  player.x = Math.max(8, Math.min(canvas.width - 8, player.x));
 });
 
 /* 生成敌机 */
@@ -171,7 +176,7 @@ setInterval(spawnEnemy, 1400);
 
 /* 发射子弹 */
 setInterval(() => {
-  if (running) bullets.push({ x: player.x, y: player.y - 10 });
+  if (running) bullets.push({ x: player.x, y: player.y - 5 }); // 调整子弹发射位置
 }, 450);
 
 /* 主循环 */
@@ -181,13 +186,15 @@ function loop() {
 
   drawPlane(player.x, player.y);
 
+  // 绘制子弹
   ctx.fillStyle = '#ffeb3b';
   bullets.forEach(b => {
     b.y -= 4;
-    ctx.fillRect(b.x - 2, b.y, 4, 10);
+    ctx.fillRect(b.x - 2, b.y, 4, 8); // 稍微缩短子弹长度
   });
   bullets = bullets.filter(b => b.y > 0);
 
+  // 绘制敌机
   ctx.fillStyle = '#f44336';
   enemies.forEach(e => {
     e.y += 1.6;
@@ -195,7 +202,9 @@ function loop() {
   });
   enemies = enemies.filter(e => e.y < canvas.height);
 
+  // 碰撞检测
   enemies.forEach((e, ei) => {
+    // 子弹与敌机碰撞
     bullets.forEach((b, bi) => {
       if (b.x > e.x && b.x < e.x + e.w && b.y > e.y && b.y < e.y + e.h) {
         enemies.splice(ei, 1);
@@ -205,11 +214,22 @@ function loop() {
       }
     });
 
+    // 玩家与敌机碰撞 - 使用缩小后的飞机尺寸
+    const playerLeft = player.x - 8;
+    const playerRight = player.x + 8;
+    const playerTop = player.y;
+    const playerBottom = player.y + 24;
+    
+    const enemyLeft = e.x;
+    const enemyRight = e.x + e.w;
+    const enemyTop = e.y;
+    const enemyBottom = e.y + e.h;
+    
     if (
-      e.x < player.x + 16 &&
-      e.x + e.w > player.x - 16 &&
-      e.y < player.y + 52 &&
-      e.y + e.h > player.y + 10
+      playerRight > enemyLeft &&
+      playerLeft < enemyRight &&
+      playerBottom > enemyTop &&
+      playerTop < enemyBottom
     ) {
       running = false;
       alert('游戏结束！得分：' + score);
@@ -234,7 +254,7 @@ function restartGame() {
 }
 
 function goBack() {
-  window.location.href = 'index.html';
+  window.location.href = '../index.html';
 }
 
 init();
