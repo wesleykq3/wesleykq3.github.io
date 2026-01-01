@@ -1,537 +1,86 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>底部烟花绽放</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8">
+  <title>目录</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      background: #fff;
+      color: #222;
+    }
 
-        body {
-            background-color: #0a0a1a;
-            color: #fff;
-            font-family: 'Arial', sans-serif;
-            overflow: hidden;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: center;
-            text-align: center;
-        }
+    .list {
+      max-width: 900px;
+      margin: 0 auto;
+    }
 
-        #canvas-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-        }
+    .item {
+      display: flex;
+      align-items: center;
+      padding: 22px 10px;
+      border-bottom: 1px dotted #e5e5e5;
+      font-size: 18px;
+      line-height: 1.6;
+    }
 
-        canvas {
-            display: block;
-        }
+    .item:last-child {
+      border-bottom: none;
+    }
 
-        .content {
-            position: relative;
-            z-index: 2;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
+    .title {
+      flex: 1;
+    }
 
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            background: linear-gradient(to right, #ff3366, #ff9933, #33ccff);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            text-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-        }
+    .desc {
+      flex: 1;
+      color: #999;
+      font-size: 16px;
+    }
 
-        .controls {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-            margin-top: 15px;
-            margin-bottom: 20px;
-        }
+    .date {
+      width: 120px;
+      text-align: right;
+      color: #999;
+      font-size: 16px;
+    }
 
-        button {
-            padding: 10px 20px;
-            font-size: 1rem;
-            background: linear-gradient(45deg, #ff3366, #ff9933);
-            border: none;
-            border-radius: 50px;
-            color: white;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(255, 51, 102, 0.4);
-        }
+    /* 关键：链接“完全继承外观” */
+    .item a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: inherit;
+    }
 
-        button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(255, 51, 102, 0.6);
-        }
-
-        .color-controls {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            justify-content: center;
-            margin-top: 10px;
-        }
-
-        .color-btn {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .color-btn:hover {
-            transform: scale(1.2);
-            border-color: white;
-        }
-
-        .color-btn.active {
-            transform: scale(1.2);
-            border-color: white;
-            box-shadow: 0 0 10px white;
-        }
-
-        .instructions {
-            margin-top: 10px;
-            font-size: 0.9rem;
-            color: #aaa;
-            line-height: 1.4;
-        }
-
-        .instructions span {
-            color: #ff9933;
-            font-weight: bold;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .controls {
-                gap: 8px;
-            }
-            
-            button {
-                padding: 8px 16px;
-                font-size: 0.9rem;
-            }
-        }
-    </style>
+    .item a:hover {
+      text-decoration: underline; /* 可去掉 */
+    }
+  </style>
 </head>
 <body>
-    <div id="canvas-container">
-        <canvas id="fireworksCanvas"></canvas>
-    </div>
-    
-    <div class="content">
-        <h1>底部烟花秀</h1>
-        <p>烟花从底部发射，在中部及底部区域绽放</p>
-        
-        <div class="controls">
-            <button id="launchFirework">发射烟花</button>
-            <button id="launchMultiple">多发齐射</button>
-            <button id="toggleSound">音效: 开启</button>
-            <button id="clearAll">清空画面</button>
-        </div>
-        
-        <div class="color-controls">
-            <div class="color-btn active" style="background: linear-gradient(45deg, #ff3366, #ff9933);" data-color="rainbow"></div>
-            <div class="color-btn" style="background: linear-gradient(45deg, #33ccff, #3366ff);" data-color="blue"></div>
-            <div class="color-btn" style="background: linear-gradient(45deg, #ff33cc, #ff3366);" data-color="pink"></div>
-            <div class="color-btn" style="background: linear-gradient(45deg, #33ff66, #33ffcc);" data-color="green"></div>
-            <div class="color-btn" style="background: linear-gradient(45deg, #ffcc33, #ff9933);" data-color="gold"></div>
-            <div class="color-btn" style="background: linear-gradient(45deg, #cc33ff, #9966ff);" data-color="purple"></div>
-        </div>
-        
-        <div class="instructions">
-            <p><span>交互提示：</span> 点击页面任意位置发射烟花 | 鼠标移动影响烟花方向 | 按空格键发射随机烟花</p>
-        </div>
-    </div>
 
-    <audio id="fireworkSound" loop>
-        <source src="https://assets.mixkit.co/sfx/preview/mixkit-firework-show-audio-3064.mp3" type="audio/mpeg">
-    </audio>
-    
-    <script>
-        // 获取Canvas元素和上下文
-        const canvas = document.getElementById('fireworksCanvas');
-        const ctx = canvas.getContext('2d');
-        
-        // 设置Canvas尺寸为窗口大小
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        
-        // 音频元素
-        const fireworkSound = document.getElementById('fireworkSound');
-        let soundEnabled = true;
-        
-        // 烟花颜色方案
-        const colorSchemes = {
-            rainbow: ['#ff3366', '#ff9933', '#33ccff', '#ff33cc', '#33ff66', '#ffcc33', '#cc33ff'],
-            blue: ['#3366ff', '#33ccff', '#0066cc', '#3399ff', '#66ccff'],
-            pink: ['#ff3366', '#ff33cc', '#ff66cc', '#ff3399', '#ff0066'],
-            green: ['#33ff66', '#33ffcc', '#00cc66', '#66ff99', '#00ff99'],
-            gold: ['#ffcc33', '#ff9933', '#ffcc00', '#ff9900', '#ffcc66'],
-            purple: ['#cc33ff', '#9966ff', '#9933ff', '#cc66ff', '#6600cc']
-        };
-        let currentColorScheme = 'rainbow';
-        
-        // 烟花数组
-        let fireworks = [];
-        let particles = [];
-        
-        // 鼠标位置
-        let mouseX = canvas.width / 2;
-        let mouseY = canvas.height * 0.6; // 默认目标在画布中部
-        
-        // 烟花类 - 从底部发射
-        class Firework {
-            constructor(x, targetX, targetY) {
-                // 从底部发射
-                this.x = x;
-                this.y = canvas.height;
-                this.startX = x;
-                this.startY = canvas.height;
-                
-                // 目标位置在画布中部及底部区域
-                this.targetX = targetX;
-                this.targetY = targetY;
-                
-                this.distanceToTarget = Math.hypot(targetX - x, targetY - canvas.height);
-                this.distanceTraveled = 0;
-                this.trail = [];
-                this.trailLength = 10;
-                
-                // 随机选择颜色
-                this.color = colorSchemes[currentColorScheme][Math.floor(Math.random() * colorSchemes[currentColorScheme].length)];
-                
-                // 速度设置 - 从底部向上发射
-                this.speed = 10 + Math.random() * 5;
-                this.angle = Math.atan2(targetY - canvas.height, targetX - x);
-                this.velocity = {
-                    x: Math.cos(this.angle) * this.speed,
-                    y: Math.sin(this.angle) * this.speed
-                };
-                
-                // 加速度和重力
-                this.acceleration = 0.96;
-                this.gravity = 0.15;
-                this.brightness = 1;
-                this.targetRadius = 2;
-                this.exploded = false;
-            }
-            
-            update() {
-                // 保存轨迹
-                this.trail.push([this.x, this.y]);
-                if (this.trail.length > this.trailLength) {
-                    this.trail.shift();
-                }
-                
-                // 应用速度
-                this.velocity.x *= this.acceleration;
-                this.velocity.y *= this.acceleration;
-                this.velocity.y += this.gravity;
-                
-                this.x += this.velocity.x;
-                this.y += this.velocity.y;
-                
-                // 计算已移动距离
-                this.distanceTraveled = Math.hypot(this.x - this.startX, this.y - this.startY);
-                
-                // 如果接近目标或移动距离超过目标距离，则爆炸
-                // 或者如果速度很慢了也爆炸
-                if ((this.distanceTraveled >= this.distanceToTarget * 0.9) || 
-                    (Math.abs(this.velocity.x) < 0.5 && Math.abs(this.velocity.y) < 0.5 && this.y < this.targetY) ||
-                    (this.y <= this.targetY && !this.exploded)) {
-                    this.explode();
-                    return false;
-                }
-                
-                return true;
-            }
-            
-            explode() {
-                if (this.exploded) return;
-                this.exploded = true;
-                
-                // 播放音效
-                if (soundEnabled) {
-                    fireworkSound.currentTime = 0;
-                    fireworkSound.play().catch(e => console.log("音频播放失败:", e));
-                }
-                
-                // 创建爆炸粒子
-                let particleCount = 60 + Math.random() * 40;
-                
-                for (let i = 0; i < particleCount; i++) {
-                    particles.push(new Particle(
-                        this.x,
-                        this.y,
-                        this.color
-                    ));
-                }
-                
-                // 可能创建额外的颜色粒子
-                if (Math.random() < 0.4) {
-                    let secondaryColor = colorSchemes[currentColorScheme][Math.floor(Math.random() * colorSchemes[currentColorScheme].length)];
-                    for (let i = 0; i < particleCount / 2; i++) {
-                        particles.push(new Particle(
-                            this.x,
-                            this.y,
-                            secondaryColor
-                        ));
-                    }
-                }
-            }
-            
-            draw() {
-                // 绘制轨迹
-                if (this.trail.length > 1) {
-                    ctx.beginPath();
-                    ctx.moveTo(this.trail[0][0], this.trail[0][1]);
-                    for (let i = 1; i < this.trail.length; i++) {
-                        ctx.lineTo(this.trail[i][0], this.trail[i][1]);
-                    }
-                    ctx.strokeStyle = this.color;
-                    ctx.lineWidth = 2;
-                    ctx.stroke();
-                }
-                
-                // 绘制烟花头部
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.targetRadius, 0, Math.PI * 2);
-                ctx.fillStyle = this.color;
-                ctx.fill();
-                
-                // 添加发光效果
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.targetRadius * 3, 0, Math.PI * 2);
-                ctx.fillStyle = this.color + '30';
-                ctx.fill();
-            }
-        }
-        
-        // 粒子类
-        class Particle {
-            constructor(x, y, color) {
-                this.x = x;
-                this.y = y;
-                this.color = color;
-                this.velocity = {
-                    x: (Math.random() - 0.5) * 6,
-                    y: (Math.random() - 0.5) * 6 - 1 // 轻微向上偏移
-                };
-                this.alpha = 1;
-                this.decay = 0.015 + Math.random() * 0.02;
-                this.size = 2 + Math.random() * 3;
-                this.gravity = 0.05;
-                this.friction = 0.96;
-                this.wind = (Math.random() - 0.5) * 0.1;
-            }
-            
-            update() {
-                this.velocity.x *= this.friction;
-                this.velocity.y *= this.friction;
-                this.velocity.x += this.wind;
-                this.velocity.y += this.gravity;
-                
-                this.x += this.velocity.x;
-                this.y += this.velocity.y;
-                
-                this.alpha -= this.decay;
-                return this.alpha > 0;
-            }
-            
-            draw() {
-                ctx.save();
-                ctx.globalAlpha = this.alpha;
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fillStyle = this.color;
-                ctx.fill();
-                
-                // 添加粒子光晕
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size * 1.5, 0, Math.PI * 2);
-                ctx.fillStyle = this.color + '40';
-                ctx.fill();
-                ctx.restore();
-            }
-        }
-        
-        // 创建随机烟花 - 从底部发射到中部及底部区域
-        function createRandomFirework() {
-            // 从底部随机位置发射
-            let startX = Math.random() * canvas.width;
-            
-            // 目标区域：画布中部到底部之间
-            let targetX = startX + (Math.random() - 0.5) * 200;
-            let targetY = canvas.height * (0.3 + Math.random() * 0.5); // 30%到80%的高度
-            
-            // 确保目标在画布内
-            targetX = Math.max(50, Math.min(canvas.width - 50, targetX));
-            targetY = Math.max(canvas.height * 0.3, Math.min(canvas.height * 0.9, targetY));
-            
-            fireworks.push(new Firework(startX, targetX, targetY));
-        }
-        
-        // 创建从底部到指定位置的烟花
-        function createFireworkAt(x, y) {
-            // 从底部发射
-            let startX = x;
-            
-            // 目标位置，但限制在画布中部及以下
-            let targetY = Math.min(y, canvas.height * 0.8);
-            
-            fireworks.push(new Firework(startX, x, targetY));
-        }
-        
-        // 创建多个烟花
-        function createMultipleFireworks(count) {
-            for (let i = 0; i < count; i++) {
-                setTimeout(() => {
-                    createRandomFirework();
-                }, i * 100);
-            }
-        }
-        
-        // 初始化烟花
-        function initFireworks() {
-            // 初始创建一些烟花
-            createMultipleFireworks(3);
-            
-            // 每隔一段时间自动创建烟花
-            setInterval(() => {
-                if (Math.random() < 0.4) {
-                    createRandomFirework();
-                }
-            }, 2000);
-        }
-        
-        // 清空所有烟花和粒子
-        function clearAll() {
-            fireworks = [];
-            particles = [];
-        }
-        
-        // 动画循环
-        function animate() {
-            // 使用透明黑色矩形创建淡出效果
-            ctx.fillStyle = 'rgba(10, 10, 26, 0.1)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            
-            // 绘制底部渐变背景
-            let gradient = ctx.createLinearGradient(0, canvas.height * 0.7, 0, canvas.height);
-            gradient.addColorStop(0, 'rgba(0, 0, 0, 0)');
-            gradient.addColorStop(1, 'rgba(20, 20, 40, 0.5)');
-            ctx.fillStyle = gradient;
-            ctx.fillRect(0, canvas.height * 0.7, canvas.width, canvas.height * 0.3);
-            
-            // 更新和绘制所有烟花
-            for (let i = fireworks.length - 1; i >= 0; i--) {
-                if (!fireworks[i].update()) {
-                    fireworks.splice(i, 1);
-                } else {
-                    fireworks[i].draw();
-                }
-            }
-            
-            // 更新和绘制所有粒子
-            for (let i = particles.length - 1; i >= 0; i--) {
-                if (!particles[i].update()) {
-                    particles.splice(i, 1);
-                } else {
-                    particles[i].draw();
-                }
-            }
-            
-            requestAnimationFrame(animate);
-        }
-        
-        // 事件监听
-        window.addEventListener('resize', function() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        });
-        
-        canvas.addEventListener('mousemove', function(e) {
-            mouseX = e.clientX;
-            mouseY = Math.min(e.clientY, canvas.height * 0.8); // 限制鼠标影响区域
-        });
-        
-        canvas.addEventListener('click', function(e) {
-            createFireworkAt(e.clientX, e.clientY);
-        });
-        
-        document.addEventListener('keydown', function(e) {
-            if (e.code === 'Space') {
-                createMultipleFireworks(2);
-            }
-        });
-        
-        // 按钮事件
-        document.getElementById('launchFirework').addEventListener('click', function() {
-            createRandomFirework();
-        });
-        
-        document.getElementById('launchMultiple').addEventListener('click', function() {
-            createMultipleFireworks(5);
-        });
-        
-        document.getElementById('toggleSound').addEventListener('click', function() {
-            soundEnabled = !soundEnabled;
-            this.textContent = soundEnabled ? '音效: 开启' : '音效: 关闭';
-            
-            if (!soundEnabled) {
-                fireworkSound.pause();
-            }
-        });
-        
-        document.getElementById('clearAll').addEventListener('click', function() {
-            clearAll();
-        });
-        
-        // 颜色按钮事件
-        document.querySelectorAll('.color-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                document.querySelectorAll('.color-btn').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-                currentColorScheme = this.getAttribute('data-color');
-                
-                // 发射一个烟花展示新颜色
-                createRandomFirework();
-            });
-        });
-        
-        // 初始化
-        initFireworks();
-        animate();
-        
-        // 页面加载时显示欢迎烟花
-        window.addEventListener('load', function() {
-            setTimeout(() => {
-                createMultipleFireworks(5);
-            }, 500);
-        });
-    </script>
+<div class="list">
+
+  <!-- 奖赏（普通目录项） -->
+  <div class="item">
+    <div class="title">奖赏</div>
+    <div class="desc"></div>
+    <div class="date">2026-01-01</div>
+  </div>
+
+  <!-- 烟花（样式完全一致，只是可点击） -->
+  <div class="item">
+    <div class="title">
+      <a href="firework.html">烟花</a>
+    </div>
+    <div class="desc"></div>
+    <div class="date">2026-01-01</div>
+  </div>
+
+</div>
+
 </body>
 </html>
