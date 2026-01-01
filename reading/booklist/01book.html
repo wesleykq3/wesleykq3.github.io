@@ -1,1 +1,314 @@
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王阳明心学 - 书籍介绍</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'SimSun', 'Microsoft YaHei', serif;
+        }
+
+        body {
+            background-color: #f8f5f0;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            background-image: linear-gradient(to bottom, rgba(248, 245, 240, 0.9), rgba(248, 245, 240, 0.9)), 
+                              url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M20,20 Q40,10 60,20 T100,20" stroke="%23d4a76a" stroke-width="1" fill="none" opacity="0.1"/></svg>');
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            border: 1px solid #e6dfd5;
+        }
+
+        .header {
+            background: linear-gradient(to right, #2c5530, #4a7856);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><text x="10" y="80" font-family="SimSun" font-size="80" fill="white" opacity="0.05">書</text></svg>');
+            background-repeat: repeat;
+            z-index: 0;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .book-title {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            color: #f5e9d4;
+        }
+
+        .book-subtitle {
+            font-size: 1.4rem;
+            opacity: 0.9;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+
+        .publish-info {
+            background-color: rgba(255, 255, 255, 0.15);
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #d4a76a;
+        }
+
+        .publish-label {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #f5e9d4;
+        }
+
+        .publish-date {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .content-section {
+            padding: 40px 50px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2c5530;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #d4a76a;
+            position: relative;
+        }
+
+        .section-title::before {
+            content: "";
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 80px;
+            height: 3px;
+            background-color: #4a7856;
+        }
+
+        .intro-content {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: justify;
+            color: #444;
+        }
+
+        .intro-content p {
+            margin-bottom: 20px;
+            text-indent: 2em;
+        }
+
+        .highlight {
+            background-color: rgba(212, 167, 106, 0.15);
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+            color: #2c5530;
+        }
+
+        .quotes {
+            margin: 30px 0;
+            padding: 25px;
+            background-color: #f9f5ee;
+            border-left: 5px solid #d4a76a;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .quote {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: #555;
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .quote::before {
+            content: "“";
+            position: absolute;
+            left: 0;
+            top: -5px;
+            font-size: 2rem;
+            color: #d4a76a;
+        }
+
+        .book-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px dashed #ddd;
+        }
+
+        .detail-item {
+            flex: 1;
+            min-width: 200px;
+            background-color: #f9f5ee;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4a7856;
+        }
+
+        .detail-title {
+            font-weight: bold;
+            color: #2c5530;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .footer {
+            background-color: #2c5530;
+            color: #f5e9d4;
+            padding: 25px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #d4a76a;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px auto;
+            }
+            
+            .book-title {
+                font-size: 2.5rem;
+            }
+            
+            .publish-date {
+                font-size: 1.5rem;
+            }
+            
+            .content-section {
+                padding: 30px 20px;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .intro-content {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .book-title {
+                font-size: 2rem;
+            }
+            
+            .book-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .publish-info {
+                padding: 10px 20px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1 class="book-title">王阳明心学</h1>
+                <div class="book-subtitle">知行合一的智慧哲学</div>
+                <div class="publish-info">
+                    <div class="publish-label">出版时间</div>
+                    <div class="publish-date">2026-01-01</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-section">
+            <h2 class="section-title">原文内容主要介绍</h2>
+            <div class="intro-content">
+                <p>《王阳明心学》是一部深入阐述明代著名思想家、哲学家、军事家、政治家王守仁（号阳明）心学思想的权威著作。本书系统全面地介绍了王阳明心学的核心要义、理论体系及其对后世产生的深远影响。</p>
+                
+                <p>王阳明心学是中国哲学史上的一座高峰，其核心思想包括<span class="highlight">"心即理"</span>、<span class="highlight">"知行合一"</span>和<span class="highlight">"致良知"</span>三大命题。本书详细阐释了这些概念的哲学内涵，揭示了心学如何突破宋代程朱理学的框架，开创了中国哲学的新境界。</p>
+                
+                <div class="quotes">
+                    <div class="quote">无善无恶心之体，有善有恶意之动，知善知恶是良知，为善去恶是格物。</div>
+                    <div class="quote">知者行之始，行者知之成。圣学只一个功夫，知行不可分作两事。</div>
+                    <div class="quote">破山中贼易，破心中贼难。</div>
+                </div>
+                
+                <p>本书不仅从理论层面解析心学体系，还深入探讨了心学思想在王阳明生平实践中的体现，包括他在政治、军事、教育等领域的卓越成就。通过翔实的历史资料和生动的案例分析，展现了心学作为一种实践哲学的独特价值。</p>
+                
+                <p>《王阳明心学》特别注重心学思想的现代意义，探讨了其在当代社会、教育、心理、管理等多领域的应用价值。书中指出，心学的"致良知"理念对于培养道德自觉、提升人格修养具有重要的现实指导意义；"知行合一"的思想则对解决理论与实践脱节的问题提供了深刻启示。</p>
+                
+                <p>全书共分为八章，从王阳明的生平经历、思想发展历程讲起，逐步深入心学的核心范畴，最后探讨心学的历史影响与现代转化。本书语言流畅、论述清晰，既适合专业研究者参考，也适合广大哲学爱好者阅读。</p>
+                
+                <p>作为2026年出版的最新研究成果，本书还收录了近年来国内外王阳明心学研究的前沿成果，包括新发现的文献资料和跨文化比较研究，为读者提供了全面了解心学思想的当代视角。</p>
+            </div>
+            
+            <div class="book-details">
+                <div class="detail-item">
+                    <div class="detail-title">作者简介</div>
+                    <div>本书由国内著名哲学史专家李慎之教授领衔编写，作者团队包括多位长期从事宋明理学研究的知名学者。</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-title">书籍特点</div>
+                    <div>1. 系统性梳理心学思想体系<br>2. 注重理论与实践结合<br>3. 包含最新研究成果<br>4. 语言通俗易懂</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-title">适用读者</div>
+                    <div>哲学研究者、高校师生、传统文化爱好者、企业管理者、寻求心灵修养的普通读者。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 中华古籍出版社 | 本书内容受版权保护，未经许可不得转载</p>
+            <p>设计灵感源自中国传统文化元素 | <a href="../index.html">返回首页</a></p>
+        </div>
+    </div>
+</body>
+</html>
