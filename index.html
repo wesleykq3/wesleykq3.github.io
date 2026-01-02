@@ -5,46 +5,112 @@
   <title>Wesley 的个人站</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    /* 基础样式重置 */
     * { margin:0; padding:0; box-sizing:border-box; }
+
     body {
       font-family: Arial, "Microsoft YaHei", sans-serif;
-      max-width:1000px; margin:0 auto;
-      background:#fafafa; height:100vh;
-      display:flex; flex-direction:column;
-      overflow:hidden; position:relative;
+      max-width:1000px;
+      margin:0 auto;
+      background:#fafafa;
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      overflow:hidden;
+      position:relative;
     }
 
     /* 左上角头像和标题 */
     .header-container {
-      position:absolute; top:30px; left:30px;
-      display:flex; align-items:center; gap:15px; z-index:10;
+      position:absolute;
+      top:30px;
+      left:30px;
+      display:flex;
+      align-items:center;
+      gap:15px;
+      z-index:10;
     }
-    .avatar { width:60px; height:60px; border-radius:50%; object-fit:cover; border:3px solid #2d8cf0; box-shadow:0 3px 10px rgba(0,0,0,0.1);}
-    .site-title { font-size:24px; color:#2c3e50; font-weight:bold; }
 
-    /* 主内容区域 */
+    .avatar {
+      width:60px;
+      height:60px;
+      border-radius:50%;
+      object-fit:cover;
+      border:3px solid #2d8cf0;
+      box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .site-title {
+      font-size:24px;
+      color:#2c3e50;
+      font-weight:bold;
+    }
+
+    /* 主内容 */
     .main-content {
-      flex:1; display:flex; flex-direction:column;
-      justify-content:center; align-items:center;
-      width:100%; padding:30px; padding-top:120px;
+      flex:1;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      width:100%;
+      padding:30px;
+      padding-top:120px;
     }
 
-    /* 网格导航 */
-    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:25px; width:100%; max-width:900px; margin-bottom:40px;}
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:25px;
+      width:100%;
+      max-width:900px;
+      margin-bottom:40px;
+    }
+
     .grid a {
-      padding:30px; background:#2d8cf0; color:#fff;
-      text-decoration:none; border-radius:10px;
-      font-size:20px; font-weight:bold;
-      display:flex; justify-content:center; align-items:center;
-      min-height:120px; transition:all 0.3s;
+      padding:30px;
+      background:#2d8cf0;
+      color:#fff;
+      text-decoration:none;
+      border-radius:10px;
+      font-size:20px;
+      font-weight:bold;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:120px;
+      transition:all 0.3s;
     }
-    .grid a:hover { background:#1a73e8; transform:translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.15); }
 
-    /* 底部日期 */
-    footer { width:100%; font-size:18px; color:#666; text-align:center; padding:20px 0; margin-top:220px; }
+    .grid a:hover {
+      background:#1a73e8;
+      transform:translateY(-5px);
+      box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      width:100%;
+      font-size:18px;
+      color:#666;
+      text-align:center;
+      padding:20px 0;
+      margin-top:220px;
+    }
+
     footer p { font-weight:bold; }
 
+    /* ===== 访问统计（右下角） ===== */
+    .visit-counter {
+      position:fixed;
+      right:20px;
+      bottom:20px;
+      background:#fff;
+      padding:8px 14px;
+      border-radius:20px;
+      font-size:14px;
+      color:#555;
+      box-shadow:0 4px 12px rgba(0,0,0,0.15);
+      z-index:999;
+    }
   </style>
 </head>
 <body>
@@ -66,23 +132,30 @@
     <a href="movie/movielist.html">最近热播影视</a>
     <a href="others/index.html">其他</a>
   </nav>
+
   <footer>
     <p>© <span id="currentDate"></span></p>
   </footer>
 </div>
 
+<!-- 👁 访问统计显示 -->
+<div class="visit-counter">
+  <i class="fa fa-eye"></i>
+  本站访问量
+  <span id="busuanzi_value_site_pv">0</span> 次
+</div>
+
+<!-- 不蒜子统计脚本 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 <script>
-// 设置当前日期
 function formatDate(date){
   const y=date.getFullYear(), m=date.getMonth()+1, d=date.getDate();
   return `${y}年${m<10?'0'+m:m}月${d<10?'0'+d:d}日`;
 }
 
-// 页面加载完成后执行
 document.addEventListener('DOMContentLoaded', function(){
-  // 设置当前日期
   document.getElementById('currentDate').textContent = formatDate(new Date());
-
 });
 </script>
 
