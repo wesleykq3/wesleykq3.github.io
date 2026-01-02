@@ -8,7 +8,7 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
       background: #f5f7fa;
       margin: 0;
-      padding: 40px;
+      padding: 40px 40px 120px; /* 底部留空间，避免遮挡 */
     }
 
     .job-container {
@@ -23,7 +23,7 @@
     .job-header,
     .job-item {
       display: grid;
-      grid-template-columns: 3fr 2fr 2fr 2fr;
+      grid-template-columns: 3fr 2fr;
       padding: 16px 24px;
       align-items: center;
     }
@@ -49,15 +49,34 @@
       font-weight: 600;
     }
 
-    .job-meta {
-      color: #666;
-      font-size: 14px;
-    }
-
     .job-date {
       color: #666;
       font-size: 14px;
       text-align: right;
+    }
+
+    /* ===== 新增：底部中间返回首页按钮 ===== */
+    .back-home {
+      position: fixed;
+      left: 50%;
+      bottom: 40px;
+      transform: translateX(-50%);
+      background: #1a73e8;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 26px;
+      border-radius: 24px;
+      font-size: 14px;
+      font-weight: bold;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      z-index: 1000;
+    }
+
+    .back-home:hover {
+      background: #1558c0;
+      transform: translateX(-50%) translateY(-3px);
+      box-shadow: 0 12px 26px rgba(0,0,0,0.3);
     }
   </style>
 </head>
@@ -73,25 +92,15 @@
     <div class="job-title">纸质书籍回收方法</div>
     <div class="job-date">2026-01-01</div>
   </div>
-<div class="job-item" onclick="window.location.href='./02.html'">
+
+  <div class="job-item" onclick="window.location.href='./02.html'">
     <div class="job-title">为什么大"慈"又要大"悲"</div>
     <div class="job-date">2026-01-02</div>
   </div>
-  <!--
-  <div class="job-item" onclick="openJob(2)">
-    <div class="job-title">MDM 技术支持工程师</div>
-    <div class="job-meta">上海</div>
-    <div class="job-meta">拉勾网</div>
-    <div class="job-date">2025-12-28</div>
-  </div>
-
-  <div class="job-item" onclick="openJob(3)">
-    <div class="job-title">云平台运维工程师</div>
-    <div class="job-meta">远程</div>
-    <div class="job-meta">LinkedIn</div>
-    <div class="job-date">2025-12-20</div>
-  </div>
--->
 </div>
+
+<!-- 页面底部中间：返回首页按钮 -->
+<a href="../index.html" class="back-home">返回首页</a>
+
 </body>
 </html>
