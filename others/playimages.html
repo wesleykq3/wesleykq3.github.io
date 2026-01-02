@@ -32,6 +32,7 @@
     height: 100%;
     object-fit: contain;
     transition: opacity 0.6s ease;
+    opacity: 0;
   }
 
   .controls {
@@ -68,7 +69,7 @@
 <body>
 
 <div class="viewer">
-  <img id="image" src="" alt="图片">
+  <img id="image" alt="图片">
 
   <div class="controls">
     <button id="prev">⬅ 上一张</button>
@@ -107,12 +108,28 @@
   const img = document.getElementById('image');
   let index = Math.floor(Math.random() * images.length);
 
+  /* ===== 预加载所有图片（关键优化） ===== */
+  const cache = [];
+  images.forEach(src => {
+    const i = new Image();
+    i.src = src;
+    cache.push(i);
+  });
+
   function show(i) {
+    const nextSrc = images[i];
+
     img.style.opacity = 0;
-    setTimeout(() => {
-      img.src = images[i];
-      img.style.opacity = 1;
-    }, 300);
+
+    const temp = new Image();
+    temp.src = nextSrc;
+
+    temp.onload = () => {
+      img.src = nextSrc;
+      requestAnimationFrame(() => {
+        img.style.opacity = 1;
+      });
+    };
   }
 
   show(index);
@@ -128,12 +145,20 @@
   };
 
   document.getElementById('random').onclick = () => {
-    index = Math.floor(Math.random() * images.length);
+    let next;
+    do {
+      next = Math.floor(Math.random() * images.length);
+    } while (next === index);
+    index = next;
     show(index);
   };
 
   setInterval(() => {
-    index = Math.floor(Math.random() * images.length);
+    let next;
+    do {
+      next = Math.floor(Math.random() * images.length);
+    } while (next === index);
+    index = next;
     show(index);
   }, 5000);
 </script>
