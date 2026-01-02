@@ -2,13 +2,18 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
+
+  <!-- ✅ 关键：移动端适配 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>在线音乐播放器 - Wesley</title>
+
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
       background: #f5f7fa;
       margin: 0;
-      padding: 40px 20px 180px; /* 增加底部留白 */
+      padding: 20px 16px 220px;
       display: flex;
       justify-content: center;
     }
@@ -19,13 +24,14 @@
       background: #ffffff;
       border-radius: 16px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-      padding: 30px;
+      padding: 24px;
     }
 
     h1 {
       text-align: center;
       margin-bottom: 20px;
       color: #2c3e50;
+      font-size: 22px;
     }
 
     ul {
@@ -41,7 +47,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      transition: background 0.2s;
     }
 
     li:hover {
@@ -54,65 +59,73 @@
       color: #1a73e8;
     }
 
-    .song-title {
-      flex: 1;
-    }
-
     .status {
-      font-size: 14px;
-      color: #999;
+      font-size: 13px;
+      color: #666;
     }
 
     /* ===== 底部播放器 ===== */
     .audio-bar {
       position: fixed;
-      bottom: 20px;
       left: 50%;
+      bottom: 12px;
       transform: translateX(-50%);
-      width: 90%;
+      width: calc(100% - 24px);
       max-width: 600px;
       background: #ffffff;
       border-radius: 16px;
       box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-      padding: 20px 16px; /* 增加高度 */
+      padding: 16px;
+      padding-bottom: calc(16px + env(safe-area-inset-bottom));
       z-index: 1000;
     }
 
     .controls {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 12px; /* 增加空间 */
+      flex-wrap: wrap; /* ✅ 允许换行 */
+      gap: 10px;
+      margin-bottom: 12px;
     }
 
     .controls button,
     .controls a {
+      flex: 1 1 30%;
+      text-align: center;
       background: #1a73e8;
       color: #fff;
       border: none;
-      border-radius: 8px;
-      padding: 8px 16px; /* 按钮更大 */
+      border-radius: 10px;
+      padding: 12px 0;
+      font-size: 15px;
       font-weight: bold;
-      cursor: pointer;
       text-decoration: none;
-      font-size: 14px;
-    }
-
-    .controls button:hover,
-    .controls a:hover {
-      background: #1558c0;
     }
 
     audio {
       width: 100%;
-      height: 40px; /* 增高播放器条 */
+      height: 42px;
+    }
+
+    /* ===== 手机端进一步优化 ===== */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 20px;
+      }
+
+      .controls button,
+      .controls a {
+        flex: 1 1 100%;
+      }
     }
   </style>
 </head>
+
 <body>
 
 <div class="music-container">
   <h1>🎵 在线音乐播放列表</h1>
+
+  
 
   <ul id="playlist">
     <li data-src="music/birds-forest-nature-445379.mp3">
@@ -146,7 +159,6 @@
   </ul>
 </div>
 
-<!-- 底部固定播放器 -->
 <div class="audio-bar">
   <div class="controls">
     <button id="prevBtn">⏮ 上一曲</button>
@@ -158,10 +170,7 @@
 
 <script>
   const audio = document.getElementById('audioPlayer');
-  const listItems = Array.from(document.querySelectorAll('#playlist li'));
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-
+  const listItems = [...document.querySelectorAll('#playlist li')];
   let currentIndex = -1;
 
   function playByIndex(index) {
@@ -174,7 +183,6 @@
 
     const item = listItems[index];
     currentIndex = index;
-
     item.classList.add('active');
     item.querySelector('.status').textContent = '⏸ 播放中';
 
@@ -182,31 +190,14 @@
     audio.play();
   }
 
-  // 点击列表播放
-  listItems.forEach((item, index) => {
-    item.addEventListener('click', () => playByIndex(index));
+  listItems.forEach((li, i) => {
+    li.onclick = () => playByIndex(i);
   });
 
-  // 上一曲
-  prevBtn.onclick = () => {
-    if (currentIndex > 0) {
-      playByIndex(currentIndex - 1);
-    }
-  };
+  prevBtn.onclick = () => playByIndex(currentIndex - 1);
+  nextBtn.onclick = () => playByIndex(currentIndex + 1);
 
-  // 下一曲
-  nextBtn.onclick = () => {
-    if (currentIndex < listItems.length - 1) {
-      playByIndex(currentIndex + 1);
-    }
-  };
-
-  // 播放结束 → 自动下一曲
-  audio.addEventListener('ended', () => {
-    if (currentIndex < listItems.length - 1) {
-      playByIndex(currentIndex + 1);
-    }
-  });
+  audio.onended = () => playByIndex(currentIndex + 1);
 </script>
 
 </body>
