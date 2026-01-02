@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>随机图片播放 - Wesley</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system;
+    background: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .viewer {
+    width: 90vw;
+    max-width: 900px;
+    height: 70vh;
+    background: #000;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,.6);
+    position: relative;
+  }
+
+  .viewer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.6s ease;
+  }
+
+  .controls {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+  }
+
+  button,
+  a.back {
+    background: rgba(255,255,255,.15);
+    border: none;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button:hover,
+  a.back:hover {
+    background: rgba(255,255,255,.3);
+  }
+</style>
+</head>
+
+<body>
+
+<div class="viewer">
+  <img id="image" src="" alt="图片">
+
+  <div class="controls">
+    <button id="prev">⬅ 上一张</button>
+    <button id="random">🎲 随机</button>
+    <button id="next">➡ 下一张</button>
+    <a href="index.html" class="back">🔙 返回主页</a>
+  </div>
+</div>
+
+<script>
+  const images = [
+    'images/20260102081921_49078_16.jpg',
+    'images/20260102081923_49079_16.jpg',
+    'images/20260102081924_49080_16.jpg',
+    'images/20260102081925_49081_16.jpg',
+    'images/20260102081926_49082_16.jpg',
+    'images/20260102081927_49083_16.jpg',
+    'images/20260102081928_49084_16.jpg',
+    'images/20260102081929_49085_16.jpg',
+    'images/20260102081930_49086_16.jpg',
+    'images/20260102081932_49087_16.jpg',
+    'images/20260102081935_49088_16.jpg',
+    'images/20260102081938_49089_16.jpg',
+    'images/20260102081942_49090_16.jpg',
+    'images/20260102081945_49091_16.jpg',
+    'images/20260102081949_49092_16.jpg',
+    'images/20260102081952_49093_16.jpg',
+    'images/20260102081956_49094_16.jpg',
+    'images/20260102081958_49095_16.jpg',
+    'images/20260102081959_49096_16.jpg',
+    'images/20260102082000_49097_16.jpg',
+    'images/20260102082001_49098_16.jpg',
+    'images/20260102082002_49099_16.jpg'
+  ];
+
+  const img = document.getElementById('image');
+  let index = Math.floor(Math.random() * images.length);
+
+  function show(i) {
+    img.style.opacity = 0;
+    setTimeout(() => {
+      img.src = images[i];
+      img.style.opacity = 1;
+    }, 300);
+  }
+
+  show(index);
+
+  document.getElementById('next').onclick = () => {
+    index = (index + 1) % images.length;
+    show(index);
+  };
+
+  document.getElementById('prev').onclick = () => {
+    index = (index - 1 + images.length) % images.length;
+    show(index);
+  };
+
+  document.getElementById('random').onclick = () => {
+    index = Math.floor(Math.random() * images.length);
+    show(index);
+  };
+
+  setInterval(() => {
+    index = Math.floor(Math.random() * images.length);
+    show(index);
+  }, 5000);
+</script>
+
+</body>
+</html>
