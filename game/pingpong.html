@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>打乒乓球 - Wesley</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .game-wrapper {
+      text-align: center;
+    }
+
+    .score {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+
+    canvas {
+      display: block;
+      background: #ffffff;
+      border: 3px solid #2c3e50;
+      border-radius: 10px;
+      margin: 0 auto;
+    }
+
+    .controls {
+      margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    button {
+      padding: 8px 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .start { background: #2ecc71; color: #fff; }
+    .restart { background: #3498db; color: #fff; }
+    .back { background: #7f8c8d; color: #fff; }
+
+    .tip {
+      margin-top: 10px;
+      color: #555;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="game-wrapper">
+  <div class="score">得分：<span id="score">0</span></div>
+
+  <canvas id="game" width="400" height="600"></canvas>
+
+  <div class="controls">
+    <button class="start" onclick="startGame()">开始游戏</button>
+    <button class="restart" onclick="restartGame()">重新开始</button>
+    <button class="back" onclick="location.href='index.html'">返回主页</button>
+  </div>
+
+  <div class="tip">按住鼠标左键拖动 或 ← → 键 控制球拍，点击“开始游戏”才开始游戏</div>
+</div>
+
+<script>
+  const canvas = document.getElementById('game');
+  const ctx = canvas.getContext('2d');
+  const scoreEl = document.getElementById('score');
+
+  let animationId;
+  let started = false;
+  let gameOver = false;
+  let score = 0;
+
+  /* ===== 球 ===== */
+  let ball = {
+    x: canvas.width / 2,
+    y: 60,
+    r: 8,
+    vx: 1.5,
+    vy: 2.2
+  };
+
+  /* ===== 球拍 ===== */
+  let paddle = {
+    width: 90,
+    height: 12,
+    x: canvas.width / 2 - 45,
+    y: canvas.height - 30,
+    speed: 6
+  };
+
+  /* ===== 鼠标控制 ===== */
+  let mouseDown = false;
+
+  canvas.addEventListener('mousedown', () => mouseDown = true);
+  canvas.addEventListener('mouseup', () => mouseDown = false);
+  canvas.addEventListener('mouseleave', () => mouseDown = false);
+
+  canvas.addEventListener('mousemove', e => {
+    if (!mouseDown) return;
+    const rect = canvas.getBoundingClientRect();
+    paddle.x = e.clientX - rect.left - paddle.width / 2;
+    clampPaddle();
+  });
+
+  /* ===== 键盘控制 ===== */
+  const keys = { left: false, right: false };
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') keys.left = true;
+    if (e.key === 'ArrowRight') keys.right = true;
+  });
+
+  document.addEventListener('keyup', e => {
+    if (e.key === 'ArrowLeft') keys.left = false;
+    if (e.key === 'ArrowRight') keys.right = false;
+  });
+
+  function clampPaddle() {
+    paddle.x = Math.max(0, Math.min(canvas.width - paddle.width, paddle.x));
+  }
+
+  function drawWall() {
+    ctx.fillStyle = '#bdc3c7';
+    ctx.fillRect(0, 0, canvas.width, 10);
+  }
+
+  function drawBall() {
+    ctx.beginPath();
+    ctx.arc(ball.x, ball.y, ball.r, 0, Math.PI * 2);
+    ctx.fillStyle = '#e74c3c';
+    ctx.fill();
+  }
+
+  function drawPaddle() {
+    ctx.fillStyle = '#2c3e50';
+    ctx.fillRect(paddle.x, paddle.y, paddle.width, paddle.height);
+  }
+
+  function update() {
+    if (keys.left) paddle.x -= paddle.speed;
+    if (keys.right) paddle.x += paddle.speed;
+    clampPaddle();
+
+    ball.x += ball.vx;
+    ball.y += ball.vy;
+
+    if (ball.x < ball.r || ball.x > canvas.width - ball.r) ball.vx *= -1;
+    if (ball.y < ball.r + 10) ball.vy *= -1;
+
+    // 碰到球拍
+    if (
+      ball.y + ball.r >= paddle.y &&
+      ball.x > paddle.x &&
+      ball.x < paddle.x + paddle.width
+    ) {
+      ball.vy *= -1;
+      ball.y = paddle.y - ball.r;
+      score++;
+      scoreEl.textContent = score;
+    }
+
+    if (ball.y > canvas.height) gameOver = true;
+  }
+
+  function drawGameOver() {
+    ctx.fillStyle = 'rgba(0,0,0,0.6)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = '#fff';
+    ctx.font = '26px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillText('游戏结束', canvas.width / 2, canvas.height / 2);
+  }
+
+  function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawWall();
+    drawBall();
+    drawPaddle();
+
+    if (started && !gameOver) update();
+    if (gameOver) drawGameOver();
+    else animationId = requestAnimationFrame(loop);
+  }
+
+  function startGame() {
+    started = true;
+  }
+
+  function restartGame() {
+    cancelAnimationFrame(animationId);
+    ball.x = canvas.width / 2;
+    ball.y = 60;
+    ball.vx = 1.5;
+    ball.vy = 2.2;
+    paddle.x = canvas.width / 2 - paddle.width / 2;
+    score = 0;
+    scoreEl.textContent = score;
+    started = false;
+    gameOver = false;
+    loop();
+  }
+
+  loop();
+</script>
+
+</body>
+</html>
