@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>马年新年快乐</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle at top, #b30000, #6a0000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+  }
+
+  canvas {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .card {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    max-width: 420px;
+    padding: 40px 28px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center; /* ✅ 统一居中 */
+    animation: fadeIn 1.5s ease;
+  }
+
+  h1 {
+    font-size: 42px;
+    margin: 0;
+    color: #ffd700;
+    letter-spacing: 4px;
+    text-shadow: 0 0 15px rgba(255,215,0,.9);
+  }
+
+  h2 {
+    margin: 18px 0;
+    font-size: 24px;
+    color: #fff3c2;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.9;
+    margin: 18px 0;
+    text-align: center;
+  }
+
+  .blessing {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffec8b;
+    line-height: 2;
+    text-align: center;
+  }
+
+  .btns {
+    margin-top: 26px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .music { background: #2ecc71; color: #fff; }
+  .back { background: #3498db; color: #fff; }
+  .share { background: #f39c12; color: #fff; }
+
+  .footer {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: .85;
+    text-align: center;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+
+<body>
+
+<canvas id="fireworks"></canvas>
+
+<div class="card">
+  <h1>🐎 马年大吉</h1>
+  <h2>新年快乐</h2>
+
+  <p>
+    金马奔腾迎新岁<br>
+    鸿运当头福满门
+  </p>
+
+  <p class="blessing">
+    祝你马到成功<br>
+    马上有钱<br>
+    事业腾飞<br>
+    阖家幸福<br>
+    万事如意
+  </p>
+
+  <div class="btns">
+    <button class="music" onclick="toggleMusic()">🎶 音乐</button>
+    <button class="back" onclick="location.href='../index.html'">🏠 返回主页</button>
+    <button class="share" onclick="sharePage()">🔗 分享</button>
+  </div>
+
+  <div class="footer">—— Wesley 敬上</div>
+</div>
+
+<audio id="bgm" loop>
+  <source src="./music/chinese-new-year-20260103.mp3">
+</audio>
+
+<script>
+/* 背景音乐 */
+const bgm = document.getElementById('bgm');
+let playing = false;
+function toggleMusic() {
+  playing ? bgm.pause() : bgm.play();
+  playing = !playing;
+}
+
+/* 分享 */
+function sharePage() {
+  if (navigator.share) {
+    navigator.share({
+      title: '马年新年快乐',
+      text: '祝你马年大吉，新年快乐！',
+      url: location.href
+    });
+  } else {
+    navigator.clipboard.writeText(location.href);
+    alert('链接已复制');
+  }
+}
+
+/* 烟花 */
+const canvas = document.getElementById('fireworks');
+const ctx = canvas.getContext('2d');
+resize();
+window.onresize = resize;
+
+function resize() {
+  canvas.width = innerWidth;
+  canvas.height = innerHeight;
+}
+
+class Particle {
+  constructor(x,y,color){
+    this.x=x; this.y=y;
+    this.vx=(Math.random()-0.5)*6;
+    this.vy=(Math.random()-0.5)*6;
+    this.life=60;
+    this.color=color;
+  }
+  update(){ this.x+=this.vx; this.y+=this.vy; this.vy+=0.05; this.life--; }
+  draw(){ if(this.life>0){ ctx.fillStyle=this.color; ctx.fillRect(this.x,this.y,2,2); } }
+}
+
+class Firework {
+  constructor(){
+    this.x=Math.random()*canvas.width;
+    this.y=canvas.height;
+    this.tx=Math.random()*canvas.width;
+    this.ty=Math.random()*canvas.height*0.5;
+    this.color=`hsl(${Math.random()*360},100%,60%)`;
+    this.exploded=false;
+    this.p=[];
+  }
+  update(){
+    if(!this.exploded){
+      this.x+=(this.tx-this.x)*0.05;
+      this.y+=(this.ty-this.y)*0.05;
+      if(Math.abs(this.x-this.tx)<5) this.explode();
+    } else this.p.forEach(e=>e.update());
+  }
+  explode(){
+    this.exploded=true;
+    for(let i=0;i<40;i++) this.p.push(new Particle(this.x,this.y,this.color));
+  }
+  draw(){
+    if(!this.exploded) ctx.fillRect(this.x,this.y,2,2);
+    else this.p.forEach(e=>e.draw());
+  }
+}
+
+const list=[];
+function loop(){
+  ctx.fillStyle="rgba(0,0,0,0.15)";
+  ctx.fillRect(0,0,canvas.width,canvas.height);
+  if(Math.random()<0.05) list.push(new Firework());
+  list.forEach((f,i)=>{
+    f.update(); f.draw();
+    if(f.exploded && f.p.every(p=>p.life<=0)) list.splice(i,1);
+  });
+  requestAnimationFrame(loop);
+}
+loop();
+</script>
+
+</body>
+</html>
