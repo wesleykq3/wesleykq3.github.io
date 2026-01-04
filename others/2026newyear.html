@@ -138,6 +138,7 @@
             animation: titleGlow 3s infinite alternate ease-in-out; /* 添加脉动动画 */
             text-align: center;
             max-width: 100%;
+            white-space: nowrap; /* 防止换行 */
         }
         
         /* 标题脉动动画 */
@@ -225,6 +226,7 @@
             animation: subtitleFloat 4s infinite ease-in-out;
             text-align: center;
             max-width: 100%;
+            white-space: nowrap; /* 防止换行 */
         }
         
         /* 英文标题浮动动画 */
@@ -398,55 +400,99 @@
             width: 100%;
         }
         
-        /* 响应式设计 */
+        /* 响应式设计 - 修复手机上的换行问题 */
         @media (max-width: 768px) {
             .chinese-title {
-                font-size: 3.5rem;
-                letter-spacing: 6px;
-                padding: 15px 25px;
-                width: 90%;
+                font-size: 2.8rem; /* 减小字体大小以适应手机屏幕 */
+                letter-spacing: 3px; /* 减小字间距 */
+                padding: 12px 18px; /* 减小内边距 */
+                width: auto; /* 改为自动宽度 */
                 margin: 0 auto 15px;
+                white-space: nowrap; /* 强制不换行 */
+                display: inline-flex; /* 使用flex布局 */
+                align-items: center;
+                justify-content: center;
+                max-width: 95%; /* 限制最大宽度 */
             }
             
             .chinese-title::before,
             .chinese-title::after {
-                font-size: 2.5rem;
-                margin: 0 15px;
+                font-size: 2rem; /* 减小马头大小 */
+                margin: 0 10px; /* 减小马头间距 */
+                display: inline-block;
             }
             
             .english-title {
-                font-size: 1.6rem;
-                padding: 10px 20px;
-                width: 90%;
+                font-size: 1.3rem; /* 减小英文标题大小 */
+                padding: 8px 15px; /* 减小内边距 */
+                width: auto; /* 改为自动宽度 */
                 margin: 0 auto 30px;
+                white-space: nowrap; /* 强制不换行 */
+                max-width: 95%; /* 限制最大宽度 */
             }
             
             .header {
                 margin: 80px 0 30px;
                 width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
             
             .blessing-text {
-                font-size: 1.8rem;
+                font-size: 1.6rem; /* 适当减小祝福语字体 */
             }
             
             .horse-container {
-                width: 250px;
-                height: 150px;
-                margin: 40px auto;
+                width: 200px; /* 减小马图案容器大小 */
+                height: 120px; /* 减小马图案容器高度 */
+                margin: 30px auto; /* 调整外边距 */
             }
             
             .horse {
-                font-size: 140px;
+                font-size: 100px; /* 减小马图案大小 */
             }
             
             .horseshoe {
-                font-size: 30px;
+                font-size: 25px; /* 减小马蹄铁大小 */
             }
             
             .blessings {
                 width: 95%;
-                padding: 30px 20px;
+                padding: 25px 15px; /* 调整祝福语区域内边距 */
+            }
+            
+            .sub-text {
+                font-size: 1.1rem; /* 减小副标题字体 */
+            }
+            
+            .music-control {
+                padding: 10px 20px; /* 减小按钮内边距 */
+                font-size: 1rem; /* 减小按钮字体 */
+            }
+        }
+        
+        /* 针对更小屏幕的优化 */
+        @media (max-width: 480px) {
+            .chinese-title {
+                font-size: 2.2rem; /* 在非常小的屏幕上进一步减小字体 */
+                letter-spacing: 2px; /* 进一步减小字间距 */
+                padding: 10px 15px; /* 进一步减小内边距 */
+            }
+            
+            .chinese-title::before,
+            .chinese-title::after {
+                font-size: 1.6rem; /* 进一步减小马头大小 */
+                margin: 0 8px; /* 进一步减小马头间距 */
+            }
+            
+            .english-title {
+                font-size: 1.1rem; /* 进一步减小英文标题大小 */
+                padding: 6px 12px; /* 进一步减小内边距 */
+            }
+            
+            .blessing-text {
+                font-size: 1.4rem; /* 进一步减小祝福语字体 */
             }
         }
         
