@@ -202,32 +202,6 @@
             100% { transform: rotate(360deg); }
         }
         
-        .english-title {
-            font-size: 2rem;
-            color: #000000; /* 黑色字体 */
-            margin-bottom: 30px;
-            font-style: italic;
-            text-shadow: 
-                0 0 5px #FFD700,
-                0 0 10px #FFA500,
-                0 0 15px #8B4513;
-            font-weight: 800; /* 加粗 */
-            padding: 12px 30px;
-            /* 浅色背景增加对比度 */
-            background: linear-gradient(135deg, 
-                rgba(255, 253, 228, 0.85) 0%, 
-                rgba(255, 250, 205, 0.8) 100%);
-            display: inline-block;
-            border-radius: 12px;
-            border: 3px solid rgba(139, 69, 19, 0.7);
-            box-shadow: 
-                0 0 20px rgba(255, 215, 0, 0.6),
-                inset 0 0 10px rgba(255, 215, 0, 0.3);
-            animation: subtitleFloat 4s infinite ease-in-out;
-            text-align: center;
-            max-width: 100%;
-            white-space: nowrap; /* 防止换行 */
-        }
         
         /* 英文标题浮动动画 */
         @keyframes subtitleFloat {
@@ -342,7 +316,7 @@
             color: white;
             border: none;
             padding: 12px 30px;
-            font-size: 1.1rem;
+            font-size: 1.7rem;
             border-radius: 50px;
             cursor: pointer;
             transition: all 0.3s;
@@ -421,15 +395,7 @@
                 margin: 0 10px; /* 减小马头间距 */
                 display: inline-block;
             }
-            
-            .english-title {
-                font-size: 1.3rem; /* 减小英文标题大小 */
-                padding: 8px 15px; /* 减小内边距 */
-                width: auto; /* 改为自动宽度 */
-                margin: 0 auto 30px;
-                white-space: nowrap; /* 强制不换行 */
-                max-width: 95%; /* 限制最大宽度 */
-            }
+
             
             .header {
                 margin: 80px 0 30px;
@@ -485,11 +451,8 @@
                 font-size: 1.6rem; /* 进一步减小马头大小 */
                 margin: 0 8px; /* 进一步减小马头间距 */
             }
+
             
-            .english-title {
-                font-size: 1.1rem; /* 进一步减小英文标题大小 */
-                padding: 6px 12px; /* 进一步减小内边距 */
-            }
             
             .blessing-text {
                 font-size: 1.4rem; /* 进一步减小祝福语字体 */
@@ -522,7 +485,6 @@
     <div class="container">
         <header class="header">
             <h1 class="chinese-title">马年吉祥</h1>
-            <h2 class="english-title">Happy Year of the Horse 2026</h2>
         </header>
         
         <div class="horse-container">
