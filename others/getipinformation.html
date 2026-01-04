@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP地址和地理位置查询</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(to right, #2575fc, #6a11cb);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .ip-display {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-left: 5px solid #2575fc;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .ip-display h2 {
+            color: #2575fc;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        
+        .info-item {
+            display: flex;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .info-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .info-label {
+            font-weight: bold;
+            color: #555;
+            width: 120px;
+            flex-shrink: 0;
+        }
+        
+        .info-value {
+            color: #222;
+            font-size: 1.1rem;
+            word-break: break-all;
+        }
+        
+        .loading {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .btn {
+            background: linear-gradient(to right, #2575fc, #6a11cb);
+            color: white;
+            border: none;
+            padding: 16px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(37, 117, 252, 0.4);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(37, 117, 252, 0.5);
+        }
+        
+        .btn:active {
+            transform: translateY(-1px);
+        }
+        
+        .btn:disabled {
+            background: #aaa;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .btn-icon {
+            font-size: 1.3rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+            background-color: #f8f9fa;
+        }
+        
+        .map-container {
+            margin-top: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            height: 300px;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+        }
+        
+        .map-placeholder {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .location-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #2575fc;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 25px;
+            }
+            
+            .info-item {
+                flex-direction: column;
+            }
+            
+            .info-label {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+        
+        /* 动画效果 */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        .pulse {
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.7; }
+            50% { opacity: 1; }
+            100% { opacity: 0.7; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>IP地址和地理位置查询</h1>
+            <p class="subtitle">一键获取您的IP地址和地理位置信息（中文显示）</p>
+        </div>
+        
+        <div class="content">
+            <div class="ip-display">
+                <h2>您的网络信息</h2>
+                <div class="info-item">
+                    <span class="info-label">IP 地址:</span>
+                    <span class="info-value" id="ipAddress" class="loading">等待获取...</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">所在城市:</span>
+                    <span class="info-value" id="city" class="loading">等待获取...</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">所在地区:</span>
+                    <span class="info-value" id="region" class="loading">等待获取...</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">所在国家:</span>
+                    <span class="info-value" id="country" class="loading">等待获取...</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">ISP 提供商:</span>
+                    <span class="info-value" id="isp" class="loading">等待获取...</span>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <div class="map-placeholder" id="mapPlaceholder">
+                    <div class="location-icon">📍</div>
+                    <p>点击下方按钮获取地理位置信息后，将显示地图</p>
+                </div>
+                <!-- 地图将在此动态生成 -->
+                <div id="map" style="width: 100%; height: 100%; display: none;"></div>
+            </div>
+            
+            <div class="btn-container">
+                <button class="btn" id="getLocationBtn">
+                    <span class="btn-icon">🌐</span>
+                    <span id="btnText">获取我的IP和位置</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>本服务使用公开的IP地理位置API，数据仅供参考 | 隐私保护: 我们不会存储您的任何信息</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const getLocationBtn = document.getElementById('getLocationBtn');
+            const btnText = document.getElementById('btnText');
+            const ipAddressEl = document.getElementById('ipAddress');
+            const cityEl = document.getElementById('city');
+            const regionEl = document.getElementById('region');
+            const countryEl = document.getElementById('country');
+            const ispEl = document.getElementById('isp');
+            const mapPlaceholder = document.getElementById('mapPlaceholder');
+            const mapEl = document.getElementById('map');
+            
+            // 添加动画类
+            document.querySelector('.ip-display').classList.add('fade-in');
+            
+            // 使用多个API作为备用，增加成功率
+            const apiEndpoints = [
+                {
+                    name: 'ip-api.com',
+                    url: 'https://ipapi.co/json/',
+                    mapping: {
+                        ip: 'ip',
+                        city: 'city',
+                        region: 'region',
+                        country: 'country_name',
+                        isp: 'org'
+                    }
+                },
+                {
+                    name: 'ip-api.com (备用)',
+                    url: 'https://ipapi.co/json/?lang=zh-CN',
+                    mapping: {
+                        ip: 'ip',
+                        city: 'city',
+                        region: 'region',
+                        country: 'country_name',
+                        isp: 'org'
+                    }
+                },
+                {
+                    name: 'ipwhois',
+                    url: 'https://ipwho.is/',
+                    mapping: {
+                        ip: 'ip',
+                        city: 'city',
+                        region: 'region',
+                        country: 'country',
+                        isp: 'connection.isp'
+                    }
+                }
+            ];
+            
+            // 尝试获取IP和地理位置
+            async function getIPAndLocation(apiIndex = 0) {
+                if (apiIndex >= apiEndpoints.length) {
+                    throw new Error('所有API请求都失败了');
+                }
+                
+                const api = apiEndpoints[apiIndex];
+                console.log(`尝试使用API: ${api.name}`);
+                
+                try {
+                    const response = await fetch(api.url);
+                    if (!response.ok) {
+                        throw new Error(`HTTP错误: ${response.status}`);
+                    }
+                    
+                    const data = await response.json();
+                    
+                    // 根据API映射提取数据
+                    const getNestedValue = (obj, path) => {
+                        return path.split('.').reduce((o, p) => o && o[p], obj);
+                    };
+                    
+                    return {
+                        ip: getNestedValue(data, api.mapping.ip) || '未知',
+                        city: getNestedValue(data, api.mapping.city) || '未知',
+                        region: getNestedValue(data, api.mapping.region) || '未知',
+                        country: getNestedValue(data, api.mapping.country) || '未知',
+                        isp: getNestedValue(data, api.mapping.isp) || '未知',
+                        rawData: data
+                    };
+                } catch (error) {
+                    console.log(`${api.name} 失败:`, error.message);
+                    // 尝试下一个API
+                    return getIPAndLocation(apiIndex + 1);
+                }
+            }
+            
+            // 显示位置信息
+            function displayLocationInfo(info) {
+                ipAddressEl.textContent = info.ip;
+                cityEl.textContent = info.city;
+                regionEl.textContent = info.region;
+                countryEl.textContent = info.country;
+                ispEl.textContent = info.isp;
+                
+                // 添加动画效果
+                [ipAddressEl, cityEl, regionEl, countryEl, ispEl].forEach(el => {
+                    el.classList.add('fade-in');
+                });
+                
+                // 尝试显示地图
+                tryShowMap(info);
+            }
+            
+            // 尝试显示地图
+            function tryShowMap(info) {
+                // 如果有经纬度信息，可以显示地图
+                // 这里我们简单显示一个占位图
+                if (info.rawData && (info.rawData.latitude || info.rawData.lat)) {
+                    const lat = info.rawData.latitude || info.rawData.lat;
+                    const lon = info.rawData.longitude || info.rawData.lon || info.rawData.lng;
+                    
+                    // 隐藏占位符
+                    mapPlaceholder.style.display = 'none';
+                    mapEl.style.display = 'block';
+                    
+                    // 创建一个简单的地图表示
+                    mapEl.innerHTML = `
+                        <div style="width:100%; height:100%; background:linear-gradient(to bottom, #4CAF50, #2196F3); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white;">
+                            <div style="font-size:3rem; margin-bottom:20px;">📍</div>
+                            <h3 style="margin-bottom:10px;">${info.city}, ${info.region}</h3>
+                            <p>纬度: ${lat.toFixed(4)} | 经度: ${lon.toFixed(4)}</p>
+                            <p style="margin-top:20px; font-size:0.9rem; opacity:0.8;">地图可视化 (实际应用中可集成Google Maps或百度地图)</p>
+                        </div>
+                    `;
+                } else {
+                    // 如果没有经纬度信息，显示位置标记
+                    mapPlaceholder.innerHTML = `
+                        <div class="location-icon">📍</div>
+                        <h3>${info.city}, ${info.region}</h3>
+                        <p>已成功获取位置信息</p>
+                        <p style="margin-top:10px; font-size:0.9rem; color:#888;">(地图功能需要经纬度数据)</p>
+                    `;
+                }
+            }
+            
+            // 处理按钮点击
+            getLocationBtn.addEventListener('click', async function() {
+                // 防止重复点击
+                if (getLocationBtn.disabled) return;
+                
+                // 更新按钮状态
+                getLocationBtn.disabled = true;
+                btnText.textContent = '正在获取...';
+                getLocationBtn.classList.add('pulse');
+                
+                // 重置显示
+                ipAddressEl.textContent = '获取中...';
+                cityEl.textContent = '获取中...';
+                regionEl.textContent = '获取中...';
+                countryEl.textContent = '获取中...';
+                ispEl.textContent = '获取中...';
+                
+                // 清除之前的动画类
+                [ipAddressEl, cityEl, regionEl, countryEl, ispEl].forEach(el => {
+                    el.classList.remove('fade-in');
+                });
+                
+                try {
+                    const locationInfo = await getIPAndLocation();
+                    displayLocationInfo(locationInfo);
+                    
+                    // 成功提示
+                    btnText.innerHTML = '<span style="color:#4CAF50">✓</span> 获取成功';
+                    
+                    // 3秒后恢复按钮
+                    setTimeout(() => {
+                        getLocationBtn.disabled = false;
+                        btnText.textContent = '重新获取信息';
+                        getLocationBtn.classList.remove('pulse');
+                    }, 3000);
+                    
+                } catch (error) {
+                    console.error('获取位置信息失败:', error);
+                    
+                    // 显示错误信息
+                    ipAddressEl.textContent = '获取失败';
+                    cityEl.textContent = '请检查网络连接';
+                    regionEl.textContent = '或稍后重试';
+                    countryEl.textContent = '错误';
+                    ispEl.textContent = '无法连接到定位服务';
+                    
+                    // 错误提示
+                    btnText.innerHTML = '<span style="color:#f44336">✗</span> 获取失败';
+                    
+                    // 2秒后恢复按钮
+                    setTimeout(() => {
+                        getLocationBtn.disabled = false;
+                        btnText.textContent = '重新获取信息';
+                        getLocationBtn.classList.remove('pulse');
+                    }, 2000);
+                }
+            });
+            
+            // 页面加载时尝试自动获取（可选）
+            // 注意：有些用户可能不希望自动获取位置，所以这里注释掉
+            // 如果需要自动获取，取消下面这行的注释
+            // getLocationBtn.click();
+        });
+    </script>
+</body>
+</html>
