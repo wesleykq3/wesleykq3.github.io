@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>马年新春祝福 - 马到成功</title>
     <style>
+        /* 所有CSS样式保持原样 */
         * {
             margin: 0;
             padding: 0;
@@ -32,13 +33,13 @@
         /* 灯笼样式 */
         .lantern {
             position: absolute;
-            top: 50px;
+            top: 30px; /* 灯笼位置稍向上调整 */
             width: 60px;
             height: 80px;
             background: radial-gradient(circle at 30px 30px, #8B0000, #A52A2A);
             border-radius: 30px 30px 15px 15px;
             animation: swing 3s infinite ease-in-out;
-            z-index: 1;
+            z-index: 3; /* 提高灯笼的z-index */
         }
         
         .lantern:before, .lantern:after {
@@ -92,63 +93,165 @@
             background: #228B22;
         }
         
-        /* 头部标题 */
+        /* 头部标题 - 修改为清晰黑色字体 */
         .header {
-            margin: 40px 0;
+            margin: 100px 0 40px; /* 上边距增加到100px，避免挡住灯笼 */
             padding: 20px;
             animation: fadeIn 2s ease-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
         }
         
         .chinese-title {
-            font-size: 4.5rem;
-            margin-bottom: 10px;
-            /* 修改文字样式，增加对比度 */
+            font-size: 5rem; /* 增大字体大小 */
+            margin-bottom: 15px;
+            /* 黑色字体 + 金色光晕效果 */
+            color: #000000; /* 纯黑色字体 */
             text-shadow: 
-                0 0 5px #000,
-                0 0 10px #8B4513,
-                0 0 15px #FF4500,
-                0 0 20px #FFD700,
-                0 0 25px #FFD700,
-                0 0 30px #FFD700;
-            background: linear-gradient(to right, #FFD700, #FFA500, #8B4513);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+                0 0 3px #FFD700,  /* 金色内光晕 */
+                0 0 6px #FFA500,   /* 橙色外光晕 */
+                0 0 9px #FF8C00,   /* 更外层橙色光晕 */
+                0 0 12px #8B4513,  /* 棕色外光晕 */
+                2px 2px 0px rgba(255, 215, 0, 0.5), /* 金色偏移阴影 */
+                4px 4px 0px rgba(139, 69, 19, 0.3); /* 棕色远阴影增加立体感 */
             letter-spacing: 8px;
-            font-weight: bold;
-            padding: 10px 20px;
-            border-radius: 10px;
+            font-weight: 900; /* 使用最粗的字体 */
+            padding: 20px 40px; /* 增加内边距 */
+            border-radius: 20px; /* 增加圆角 */
             display: inline-block;
-            background-color: rgba(0, 0, 0, 0.2);
+            /* 使用浅色背景增加黑色文字的对比度 */
+            background: linear-gradient(135deg, 
+                rgba(255, 253, 228, 0.9) 0%, 
+                rgba(255, 250, 205, 0.85) 50%, 
+                rgba(255, 248, 195, 0.9) 100%);
             backdrop-filter: blur(5px);
-            border: 2px solid rgba(255, 215, 0, 0.3);
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            border: 4px solid rgba(139, 69, 19, 0.8); /* 深棕色边框 */
+            box-shadow: 
+                0 0 30px rgba(255, 215, 0, 0.7),
+                inset 0 0 20px rgba(255, 215, 0, 0.4); /* 内发光效果 */
+            position: relative;
+            overflow: visible;
+            animation: titleGlow 3s infinite alternate ease-in-out; /* 添加脉动动画 */
+            text-align: center;
+            max-width: 100%;
+        }
+        
+        /* 标题脉动动画 */
+        @keyframes titleGlow {
+            0% { 
+                transform: scale(1);
+                box-shadow: 
+                    0 0 30px rgba(255, 215, 0, 0.7),
+                    inset 0 0 20px rgba(255, 215, 0, 0.4);
+            }
+            100% { 
+                transform: scale(1.02);
+                box-shadow: 
+                    0 0 50px rgba(255, 215, 0, 0.9),
+                    0 0 80px rgba(255, 165, 0, 0.6),
+                    inset 0 0 30px rgba(255, 215, 0, 0.6);
+            }
+        }
+        
+        /* 在标题前后添加马头装饰 */
+        .chinese-title::before,
+        .chinese-title::after {
+            content: "🐎";
+            font-size: 3.5rem;
+            display: inline-block;
+            animation: horseShake 2s infinite ease-in-out;
+            margin: 0 25px;
+            vertical-align: middle;
+            filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.8));
+        }
+        
+        /* 马头装饰动画 */
+        @keyframes horseShake {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            25% { transform: translateY(-5px) rotate(5deg); }
+            50% { transform: translateY(5px) rotate(-5deg); }
+            75% { transform: translateY(-3px) rotate(3deg); }
+        }
+        
+        /* 添加标题背景装饰效果 */
+        .chinese-title::before {
+            position: absolute;
+            content: '';
+            top: -15px;
+            left: -15px;
+            right: -15px;
+            bottom: -15px;
+            background: radial-gradient(
+                circle at center,
+                rgba(255, 215, 0, 0.15) 0%,
+                rgba(255, 165, 0, 0.1) 30%,
+                transparent 70%
+            );
+            border-radius: 30px;
+            z-index: -1;
+            animation: glowRotate 10s infinite linear;
+        }
+        
+        @keyframes glowRotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
         
         .english-title {
-            font-size: 1.8rem;
-            color: #FFD700;
+            font-size: 2rem;
+            color: #000000; /* 黑色字体 */
             margin-bottom: 30px;
             font-style: italic;
-            text-shadow: 0 0 10px rgba(139, 69, 19, 0.8);
-            font-weight: bold;
-            padding: 5px 15px;
-            background-color: rgba(0, 0, 0, 0.2);
+            text-shadow: 
+                0 0 5px #FFD700,
+                0 0 10px #FFA500,
+                0 0 15px #8B4513;
+            font-weight: 800; /* 加粗 */
+            padding: 12px 30px;
+            /* 浅色背景增加对比度 */
+            background: linear-gradient(135deg, 
+                rgba(255, 253, 228, 0.85) 0%, 
+                rgba(255, 250, 205, 0.8) 100%);
             display: inline-block;
-            border-radius: 5px;
+            border-radius: 12px;
+            border: 3px solid rgba(139, 69, 19, 0.7);
+            box-shadow: 
+                0 0 20px rgba(255, 215, 0, 0.6),
+                inset 0 0 10px rgba(255, 215, 0, 0.3);
+            animation: subtitleFloat 4s infinite ease-in-out;
+            text-align: center;
+            max-width: 100%;
         }
         
-        /* 马年图案区域 */
+        /* 英文标题浮动动画 */
+        @keyframes subtitleFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        /* 马年图案区域 - 确保居中 */
         .horse-container {
             position: relative;
             margin: 40px auto;
             width: 300px;
             height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
         
         .horse {
             font-size: 180px;
             animation: horseGallop 4s infinite ease-in-out;
             filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.7));
+            text-align: center;
+            display: block;
+            margin: 0 auto;
         }
         
         @keyframes horseGallop {
@@ -170,16 +273,19 @@
             }
         }
         
-        /* 祝福语区域 */
+        /* 祝福语区域 - 确保居中 */
         .blessings {
             background: rgba(139, 69, 19, 0.2);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 40px;
-            margin: 40px 0;
+            margin: 40px auto;
             border: 2px solid rgba(255, 215, 0, 0.3);
             box-shadow: 0 0 30px rgba(210, 105, 30, 0.3);
             animation: glow 3s infinite alternate;
+            text-align: center;
+            max-width: 900px;
+            width: 90%;
         }
         
         @keyframes glow {
@@ -194,6 +300,7 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
             color: #FFFFFF;
             font-weight: bold;
+            text-align: center;
         }
         
         .blessing-text span {
@@ -215,15 +322,17 @@
             font-style: italic;
             margin-top: 20px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            text-align: center;
         }
         
-        /* 控制面板 */
+        /* 控制面板 - 确保居中 */
         .controls {
-            margin: 30px 0;
+            margin: 30px auto;
             padding: 20px;
             background: rgba(0, 0, 0, 0.2);
             border-radius: 15px;
             display: inline-block;
+            text-align: center;
         }
         
         .music-control {
@@ -240,6 +349,7 @@
             justify-content: center;
             gap: 10px;
             margin: 0 auto;
+            text-align: center;
         }
         
         .music-control:hover {
@@ -277,20 +387,43 @@
         .horseshoe-3 { bottom: 40%; left: 12%; animation-delay: 2s; }
         .horseshoe-4 { bottom: 20%; right: 15%; animation-delay: 3s; }
         
-        /* 底部信息 */
+        /* 底部信息 - 确保居中 */
         .footer {
             margin-top: 50px;
             padding: 20px;
             color: #FFD700;
             font-size: 1rem;
             border-top: 1px solid rgba(255, 215, 0, 0.2);
+            text-align: center;
+            width: 100%;
         }
         
         /* 响应式设计 */
         @media (max-width: 768px) {
             .chinese-title {
-                font-size: 3rem;
-                letter-spacing: 5px;
+                font-size: 3.5rem;
+                letter-spacing: 6px;
+                padding: 15px 25px;
+                width: 90%;
+                margin: 0 auto 15px;
+            }
+            
+            .chinese-title::before,
+            .chinese-title::after {
+                font-size: 2.5rem;
+                margin: 0 15px;
+            }
+            
+            .english-title {
+                font-size: 1.6rem;
+                padding: 10px 20px;
+                width: 90%;
+                margin: 0 auto 30px;
+            }
+            
+            .header {
+                margin: 80px 0 30px;
+                width: 100%;
             }
             
             .blessing-text {
@@ -300,6 +433,7 @@
             .horse-container {
                 width: 250px;
                 height: 150px;
+                margin: 40px auto;
             }
             
             .horse {
@@ -308,6 +442,11 @@
             
             .horseshoe {
                 font-size: 30px;
+            }
+            
+            .blessings {
+                width: 95%;
+                padding: 30px 20px;
             }
         }
         
@@ -336,7 +475,7 @@
     
     <div class="container">
         <header class="header">
-            <h1 class="chinese-title">🐎 马年吉祥 🐎</h1>
+            <h1 class="chinese-title">马年吉祥</h1>
             <h2 class="english-title">Happy Year of the Horse 2026</h2>
         </header>
         
@@ -349,7 +488,7 @@
                 亲爱的朋友们，<br>
                 在这<span>2026年马年新春</span>到来之际，<br>
                 愿您和家人<span>幸福安康</span>，<br>
-                <span>龙马精神</span>，<span>马到成功</span>！<br>
+                <span>龙马精神</span>，<span>马到成功</span>，<span>马上有钱</span>！<br>
                 祝您<span>马年行大运</span>，<br>
                 <span>万事皆如意</span>！
             </p>
@@ -375,8 +514,8 @@
     </div>
 
     <!-- 背景音乐 -->
-    <audio id="bgMusic" loop>
-        <source src="./music/chinese-new-year-457514.mp3" type="audio/mpeg">
+    <audio id="bgMusic" loop preload="auto">
+         <source src="./music/chinese-new-year-457514.mp3" type="audio/mpeg">
         <source src="./music/chinese-new-year-455963.mp3" type="audio/mpeg">
     </audio>
 
@@ -584,27 +723,88 @@
         const musicText = document.getElementById('musicText');
         
         let isPlaying = false;
+        let audioReady = false;
         
-        // 预加载音乐并处理自动播放
-        document.addEventListener('click', initAudio, { once: true });
-        
+        // 改进的音频初始化
         function initAudio() {
-            bgMusic.load();
             bgMusic.volume = 0.5;
+            
+            // 尝试播放一小段然后立即暂停，以激活音频
+            const playPromise = bgMusic.play();
+            
+            if (playPromise !== undefined) {
+                playPromise.then(() => {
+                    // 播放成功，立即暂停
+                    bgMusic.pause();
+                    bgMusic.currentTime = 0;
+                    audioReady = true;
+                    console.log('音频已准备就绪');
+                }).catch(error => {
+                    console.log('音频初始化失败，但已准备就绪:', error);
+                    audioReady = true;
+                });
+            }
         }
         
-        musicBtn.addEventListener('click', () => {
+        // 页面加载时初始化音频
+        window.addEventListener('load', () => {
+            // 延迟初始化，确保页面已完全加载
+            setTimeout(initAudio, 1000);
+        });
+        
+        // 点击页面任意位置时也初始化音频
+        document.addEventListener('click', () => {
+            if (!audioReady) {
+                initAudio();
+            }
+        }, { once: true });
+        
+        // 音乐按钮点击事件
+        musicBtn.addEventListener('click', (e) => {
+            e.stopPropagation(); // 防止触发页面点击事件
+            
             if (!isPlaying) {
-                bgMusic.play().then(() => {
-                    isPlaying = true;
-                    musicIcon.textContent = '🎶';
-                    musicText.textContent = '暂停音乐';
-                    musicBtn.style.background = 'linear-gradient(45deg, #228B22, #8B4513)';
-                }).catch(err => {
-                    console.log('音乐播放失败:', err);
-                    alert('请点击页面任意位置后，再播放音乐');
-                });
+                // 如果音频还没准备好，先尝试准备
+                if (!audioReady) {
+                    initAudio();
+                }
+                
+                // 尝试播放音乐
+                const playPromise = bgMusic.play();
+                
+                if (playPromise !== undefined) {
+                    playPromise.then(() => {
+                        // 播放成功
+                        isPlaying = true;
+                        musicIcon.textContent = '🎶';
+                        musicText.textContent = '暂停音乐';
+                        musicBtn.style.background = 'linear-gradient(45deg, #228B22, #8B4513)';
+                        audioReady = true;
+                    }).catch(error => {
+                        console.log('音乐播放失败:', error);
+                        
+                        // 如果第一次播放失败，尝试重新准备并播放
+                        if (!audioReady) {
+                            initAudio();
+                            setTimeout(() => {
+                                bgMusic.play().then(() => {
+                                    isPlaying = true;
+                                    musicIcon.textContent = '🎶';
+                                    musicText.textContent = '暂停音乐';
+                                    musicBtn.style.background = 'linear-gradient(45deg, #228B22, #8B4513)';
+                                    audioReady = true;
+                                }).catch(err => {
+                                    console.log('再次尝试播放失败:', err);
+                                    alert('请先点击页面其他位置，然后再次点击播放按钮');
+                                });
+                            }, 500);
+                        } else {
+                            alert('请先点击页面其他位置，然后再次点击播放按钮');
+                        }
+                    });
+                }
             } else {
+                // 暂停音乐
                 bgMusic.pause();
                 isPlaying = false;
                 musicIcon.textContent = '🎵';
