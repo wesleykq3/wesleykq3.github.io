@@ -148,20 +148,8 @@
             background-color: #f8f9fa;
         }
         
-        .map-container {
-            margin-top: 30px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            height: 300px;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #666;
-        }
         
-        .map-placeholder {
+        .location-placeholder {
             text-align: center;
             padding: 20px;
         }
@@ -193,6 +181,7 @@
                 width: 100%;
                 margin-bottom: 5px;
             }
+            
         }
         
         /* 动画效果 */
@@ -214,13 +203,23 @@
             50% { opacity: 1; }
             100% { opacity: 0.7; }
         }
+        
+        .success {
+            color: #4CAF50;
+        }
+        
+        .location-display {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #2575fc;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>IP地址和地理位置查询</h1>
-            <p class="subtitle">一键获取您的IP地址和地理位置信息（中文显示）</p>
+            <p class="subtitle">一键获取您的IP地址和地理位置信息</p>
         </div>
         
         <div class="content">
@@ -231,16 +230,8 @@
                     <span class="info-value" id="ipAddress" class="loading">等待获取...</span>
                 </div>
                 <div class="info-item">
-                    <span class="info-label">所在城市:</span>
-                    <span class="info-value" id="city" class="loading">等待获取...</span>
-                </div>
-                <div class="info-item">
                     <span class="info-label">所在地区:</span>
-                    <span class="info-value" id="region" class="loading">等待获取...</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">所在国家:</span>
-                    <span class="info-value" id="country" class="loading">等待获取...</span>
+                    <span class="info-value" id="location" class="loading">等待获取...</span>
                 </div>
                 <div class="info-item">
                     <span class="info-label">ISP 提供商:</span>
@@ -248,14 +239,6 @@
                 </div>
             </div>
             
-            <div class="map-container">
-                <div class="map-placeholder" id="mapPlaceholder">
-                    <div class="location-icon">📍</div>
-                    <p>点击下方按钮获取地理位置信息后，将显示地图</p>
-                </div>
-                <!-- 地图将在此动态生成 -->
-                <div id="map" style="width: 100%; height: 100%; display: none;"></div>
-            </div>
             
             <div class="btn-container">
                 <button class="btn" id="getLocationBtn">
@@ -275,12 +258,10 @@
             const getLocationBtn = document.getElementById('getLocationBtn');
             const btnText = document.getElementById('btnText');
             const ipAddressEl = document.getElementById('ipAddress');
-            const cityEl = document.getElementById('city');
-            const regionEl = document.getElementById('region');
-            const countryEl = document.getElementById('country');
+            const locationEl = document.getElementById('location');
             const ispEl = document.getElementById('isp');
-            const mapPlaceholder = document.getElementById('mapPlaceholder');
-            const mapEl = document.getElementById('map');
+            const locationPlaceholder = document.getElementById('locationPlaceholder');
+            const locationDisplay = document.getElementById('locationDisplay');
             
             // 添加动画类
             document.querySelector('.ip-display').classList.add('fade-in');
@@ -299,7 +280,7 @@
                     }
                 },
                 {
-                    name: 'ip-api.com (备用)',
+                    name: 'ip-api.com (中文)',
                     url: 'https://ipapi.co/json/?lang=zh-CN',
                     mapping: {
                         ip: 'ip',
@@ -319,8 +300,43 @@
                         country: 'country',
                         isp: 'connection.isp'
                     }
+                },
+                {
+                    name: 'ipinfo.io',
+                    url: 'https://ipinfo.io/json',
+                    mapping: {
+                        ip: 'ip',
+                        city: 'city',
+                        region: 'region',
+                        country: 'country',
+                        isp: 'org'
+                    }
                 }
             ];
+            
+            // 清理数据，移除"未知"字样
+            function cleanData(value) {
+                if (!value || value === '未知' || value.toLowerCase() === 'unknown') {
+                    return '';
+                }
+                return value;
+            }
+            
+            // 构建位置字符串
+            function buildLocationString(city, country) {
+                const cleanCity = cleanData(city);
+                const cleanCountry = cleanData(country);
+                
+                if (cleanCity && cleanCountry) {
+                    return `${cleanCity}, ${cleanCountry}`;
+                } else if (cleanCity) {
+                    return cleanCity;
+                } else if (cleanCountry) {
+                    return cleanCountry;
+                } else {
+                    return '位置信息获取中';
+                }
+            }
             
             // 尝试获取IP和地理位置
             async function getIPAndLocation(apiIndex = 0) {
@@ -329,7 +345,6 @@
                 }
                 
                 const api = apiEndpoints[apiIndex];
-                console.log(`尝试使用API: ${api.name}`);
                 
                 try {
                     const response = await fetch(api.url);
@@ -344,12 +359,16 @@
                         return path.split('.').reduce((o, p) => o && o[p], obj);
                     };
                     
+                    const ip = getNestedValue(data, api.mapping.ip);
+                    const city = getNestedValue(data, api.mapping.city);
+                    const country = getNestedValue(data, api.mapping.country);
+                    const isp = getNestedValue(data, api.mapping.isp);
+                    
                     return {
-                        ip: getNestedValue(data, api.mapping.ip) || '未知',
-                        city: getNestedValue(data, api.mapping.city) || '未知',
-                        region: getNestedValue(data, api.mapping.region) || '未知',
-                        country: getNestedValue(data, api.mapping.country) || '未知',
-                        isp: getNestedValue(data, api.mapping.isp) || '未知',
+                        ip: ip || '',
+                        city: city || '',
+                        country: country || '',
+                        isp: isp || '',
                         rawData: data
                     };
                 } catch (error) {
@@ -361,51 +380,45 @@
             
             // 显示位置信息
             function displayLocationInfo(info) {
-                ipAddressEl.textContent = info.ip;
-                cityEl.textContent = info.city;
-                regionEl.textContent = info.region;
-                countryEl.textContent = info.country;
-                ispEl.textContent = info.isp;
+                // 显示IP地址
+                ipAddressEl.textContent = info.ip || '未获取到';
+                ipAddressEl.classList.add('success');
+                
+                // 构建并显示位置信息
+                const locationString = buildLocationString(info.city, info.country);
+                locationEl.textContent = locationString;
+                locationEl.classList.add('success');
+                
+                // 显示ISP信息
+                ispEl.textContent = cleanData(info.isp) || '未获取到';
+                ispEl.classList.add('success');
                 
                 // 添加动画效果
-                [ipAddressEl, cityEl, regionEl, countryEl, ispEl].forEach(el => {
+                [ipAddressEl, locationEl, ispEl].forEach(el => {
                     el.classList.add('fade-in');
                 });
                 
-                // 尝试显示地图
-                tryShowMap(info);
+                // 显示位置详情
+                showLocationDetail(info);
             }
             
-            // 尝试显示地图
-            function tryShowMap(info) {
-                // 如果有经纬度信息，可以显示地图
-                // 这里我们简单显示一个占位图
-                if (info.rawData && (info.rawData.latitude || info.rawData.lat)) {
-                    const lat = info.rawData.latitude || info.rawData.lat;
-                    const lon = info.rawData.longitude || info.rawData.lon || info.rawData.lng;
-                    
-                    // 隐藏占位符
-                    mapPlaceholder.style.display = 'none';
-                    mapEl.style.display = 'block';
-                    
-                    // 创建一个简单的地图表示
-                    mapEl.innerHTML = `
-                        <div style="width:100%; height:100%; background:linear-gradient(to bottom, #4CAF50, #2196F3); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white;">
-                            <div style="font-size:3rem; margin-bottom:20px;">📍</div>
-                            <h3 style="margin-bottom:10px;">${info.city}, ${info.region}</h3>
-                            <p>纬度: ${lat.toFixed(4)} | 经度: ${lon.toFixed(4)}</p>
-                            <p style="margin-top:20px; font-size:0.9rem; opacity:0.8;">地图可视化 (实际应用中可集成Google Maps或百度地图)</p>
-                        </div>
-                    `;
-                } else {
-                    // 如果没有经纬度信息，显示位置标记
-                    mapPlaceholder.innerHTML = `
-                        <div class="location-icon">📍</div>
-                        <h3>${info.city}, ${info.region}</h3>
-                        <p>已成功获取位置信息</p>
-                        <p style="margin-top:10px; font-size:0.9rem; color:#888;">(地图功能需要经纬度数据)</p>
-                    `;
-                }
+            // 显示位置详情
+            function showLocationDetail(info) {
+                const locationString = buildLocationString(info.city, info.country);
+                
+                // 隐藏占位符
+                locationPlaceholder.style.display = 'none';
+                locationDisplay.style.display = 'block';
+                
+                // 创建一个简单的位置显示
+                locationDisplay.innerHTML = `
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+                        <div style="font-size: 4rem; margin-bottom: 20px; color: #2575fc;">📍</div>
+                        <div style="font-size: 1.8rem; font-weight: bold; color: #2575fc; margin-bottom: 10px;">${locationString}</div>
+                        <div style="color: #666; margin-top: 10px;">IP: ${info.ip || '未获取到'}</div>
+                        ${info.rawData && info.rawData.timezone ? `<div style="color: #666; margin-top: 5px;">时区: ${info.rawData.timezone}</div>` : ''}
+                    </div>
+                `;
             }
             
             // 处理按钮点击
@@ -420,15 +433,17 @@
                 
                 // 重置显示
                 ipAddressEl.textContent = '获取中...';
-                cityEl.textContent = '获取中...';
-                regionEl.textContent = '获取中...';
-                countryEl.textContent = '获取中...';
+                locationEl.textContent = '获取中...';
                 ispEl.textContent = '获取中...';
                 
-                // 清除之前的动画类
-                [ipAddressEl, cityEl, regionEl, countryEl, ispEl].forEach(el => {
-                    el.classList.remove('fade-in');
+                // 清除之前的动画和成功类
+                [ipAddressEl, locationEl, ispEl].forEach(el => {
+                    el.classList.remove('fade-in', 'success');
                 });
+                
+                // 重置位置显示
+                locationPlaceholder.style.display = 'flex';
+                locationDisplay.style.display = 'none';
                 
                 try {
                     const locationInfo = await getIPAndLocation();
@@ -449,10 +464,8 @@
                     
                     // 显示错误信息
                     ipAddressEl.textContent = '获取失败';
-                    cityEl.textContent = '请检查网络连接';
-                    regionEl.textContent = '或稍后重试';
-                    countryEl.textContent = '错误';
-                    ispEl.textContent = '无法连接到定位服务';
+                    locationEl.textContent = '请检查网络连接后重试';
+                    ispEl.textContent = '服务不可用';
                     
                     // 错误提示
                     btnText.innerHTML = '<span style="color:#f44336">✗</span> 获取失败';
@@ -465,11 +478,6 @@
                     }, 2000);
                 }
             });
-            
-            // 页面加载时尝试自动获取（可选）
-            // 注意：有些用户可能不希望自动获取位置，所以这里注释掉
-            // 如果需要自动获取，取消下面这行的注释
-            // getLocationBtn.click();
         });
     </script>
 </body>
