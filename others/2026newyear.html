@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>马年新春祝福 - 马到成功</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', 'STKaiti', serif;
+            background: linear-gradient(135deg, #6B2C0A 0%, #A0522D 30%, #B8860B 70%, #FFD700 100%);
+            color: #fff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        /* 灯笼样式 */
+        .lantern {
+            position: absolute;
+            top: 50px;
+            width: 60px;
+            height: 80px;
+            background: radial-gradient(circle at 30px 30px, #8B0000, #A52A2A);
+            border-radius: 30px 30px 15px 15px;
+            animation: swing 3s infinite ease-in-out;
+            z-index: 1;
+        }
+        
+        .lantern:before, .lantern:after {
+            content: '';
+            position: absolute;
+            background: #FFD700;
+        }
+        
+        .lantern:before {
+            width: 70px;
+            height: 15px;
+            top: -15px;
+            left: -5px;
+            border-radius: 10px;
+        }
+        
+        .lantern:after {
+            width: 20px;
+            height: 30px;
+            bottom: -30px;
+            left: 20px;
+            border-radius: 0 0 10px 10px;
+        }
+        
+        .lantern-left { left: 10%; }
+        .lantern-right { right: 10%; }
+        
+        @keyframes swing {
+            0%, 100% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+        }
+        
+        /* 雪花/花瓣效果 */
+        .snowflake {
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            opacity: 0.8;
+            z-index: 1;
+        }
+        
+        .snowflake:nth-child(3n) {
+            background: #FFD700;
+        }
+        
+        .snowflake:nth-child(3n+1) {
+            background: #8B4513;
+        }
+        
+        .snowflake:nth-child(3n+2) {
+            background: #228B22;
+        }
+        
+        /* 头部标题 */
+        .header {
+            margin: 40px 0;
+            padding: 20px;
+            animation: fadeIn 2s ease-out;
+        }
+        
+        .chinese-title {
+            font-size: 4.5rem;
+            margin-bottom: 10px;
+            /* 修改文字样式，增加对比度 */
+            text-shadow: 
+                0 0 5px #000,
+                0 0 10px #8B4513,
+                0 0 15px #FF4500,
+                0 0 20px #FFD700,
+                0 0 25px #FFD700,
+                0 0 30px #FFD700;
+            background: linear-gradient(to right, #FFD700, #FFA500, #8B4513);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 8px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+        }
+        
+        .english-title {
+            font-size: 1.8rem;
+            color: #FFD700;
+            margin-bottom: 30px;
+            font-style: italic;
+            text-shadow: 0 0 10px rgba(139, 69, 19, 0.8);
+            font-weight: bold;
+            padding: 5px 15px;
+            background-color: rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            border-radius: 5px;
+        }
+        
+        /* 马年图案区域 */
+        .horse-container {
+            position: relative;
+            margin: 40px auto;
+            width: 300px;
+            height: 200px;
+        }
+        
+        .horse {
+            font-size: 180px;
+            animation: horseGallop 4s infinite ease-in-out;
+            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.7));
+        }
+        
+        @keyframes horseGallop {
+            0%, 100% { 
+                transform: translateY(0) rotate(0deg); 
+                content: "🐎";
+            }
+            25% { 
+                transform: translateY(-10px) rotate(2deg);
+                content: "🐎";
+            }
+            50% { 
+                transform: translateY(-20px) rotate(0deg);
+                content: "🏇";
+            }
+            75% { 
+                transform: translateY(-10px) rotate(-2deg);
+                content: "🐎";
+            }
+        }
+        
+        /* 祝福语区域 */
+        .blessings {
+            background: rgba(139, 69, 19, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            box-shadow: 0 0 30px rgba(210, 105, 30, 0.3);
+            animation: glow 3s infinite alternate;
+        }
+        
+        @keyframes glow {
+            from { box-shadow: 0 0 30px rgba(210, 105, 30, 0.3); }
+            to { box-shadow: 0 0 50px rgba(255, 215, 0, 0.5); }
+        }
+        
+        .blessing-text {
+            font-size: 2.2rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        
+        .blessing-text span {
+            color: #FFD700;
+            font-weight: bold;
+            animation: textColorChange 3s infinite alternate;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        
+        @keyframes textColorChange {
+            0% { color: #FFD700; }
+            50% { color: #D2691E; }
+            100% { color: #8B4513; }
+        }
+        
+        .sub-text {
+            font-size: 1.3rem;
+            color: #FFEBCD;
+            font-style: italic;
+            margin-top: 20px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        
+        /* 控制面板 */
+        .controls {
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            display: inline-block;
+        }
+        
+        .music-control {
+            background: linear-gradient(45deg, #8B4513, #D2691E);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 0 auto;
+        }
+        
+        .music-control:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(210, 105, 30, 0.7);
+        }
+        
+        /* 烟花效果 */
+        .firework {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        /* 马蹄铁样式 */
+        .horseshoe {
+            position: absolute;
+            font-size: 40px;
+            color: #FFD700;
+            opacity: 0.7;
+            animation: horseshoeFloat 6s infinite ease-in-out;
+            z-index: 1;
+        }
+        
+        @keyframes horseshoeFloat {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-30px) rotate(180deg); }
+        }
+        
+        .horseshoe-1 { top: 20%; left: 5%; animation-delay: 0s; }
+        .horseshoe-2 { top: 30%; right: 8%; animation-delay: 1s; }
+        .horseshoe-3 { bottom: 40%; left: 12%; animation-delay: 2s; }
+        .horseshoe-4 { bottom: 20%; right: 15%; animation-delay: 3s; }
+        
+        /* 底部信息 */
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            color: #FFD700;
+            font-size: 1rem;
+            border-top: 1px solid rgba(255, 215, 0, 0.2);
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .chinese-title {
+                font-size: 3rem;
+                letter-spacing: 5px;
+            }
+            
+            .blessing-text {
+                font-size: 1.8rem;
+            }
+            
+            .horse-container {
+                width: 250px;
+                height: 150px;
+            }
+            
+            .horse {
+                font-size: 140px;
+            }
+            
+            .horseshoe {
+                font-size: 30px;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <!-- 灯笼 -->
+    <div class="lantern lantern-left"></div>
+    <div class="lantern lantern-right"></div>
+    
+    <!-- 马蹄铁 -->
+    <div class="horseshoe horseshoe-1">🧲</div>
+    <div class="horseshoe horseshoe-2">🧲</div>
+    <div class="horseshoe horseshoe-3">🧲</div>
+    <div class="horseshoe horseshoe-4">🧲</div>
+    
+    <!-- 雪花/花瓣 -->
+    <div id="snowflakes"></div>
+    
+    <!-- 烟花容器 -->
+    <div id="fireworks"></div>
+    
+    <div class="container">
+        <header class="header">
+            <h1 class="chinese-title">🐎 马年吉祥 🐎</h1>
+            <h2 class="english-title">Happy Year of the Horse 2026</h2>
+        </header>
+        
+        <div class="horse-container">
+            <div class="horse">🐎</div>
+        </div>
+        
+        <main class="blessings">
+            <p class="blessing-text">
+                亲爱的朋友们，<br>
+                在这<span>2026年马年新春</span>到来之际，<br>
+                愿您和家人<span>幸福安康</span>，<br>
+                <span>龙马精神</span>，<span>马到成功</span>！<br>
+                祝您<span>马年行大运</span>，<br>
+                <span>万事皆如意</span>！
+            </p>
+            <p class="sub-text">
+                愿新年的马蹄声为您带来吉祥如意，<br>
+                愿璀璨的烟花为您绽放美好前程。<br>
+                一马当先，前程似锦！
+            </p>
+        </main>
+        
+        <div class="controls">
+            <button class="music-control" id="musicBtn">
+                <span id="musicIcon">🎵</span>
+                <span id="musicText">播放新春音乐</span>
+            </button>
+        </div>
+        
+        <footer class="footer">
+            <p>❤️ 谨以此网页送上2026年马年最真挚的祝福 ❤️</p>
+            <p>愿爱和温暖伴随您度过每一个美好时刻</p>
+            <p>2026年 马年新春</p>
+        </footer>
+    </div>
+
+    <!-- 背景音乐 -->
+    <audio id="bgMusic" loop>
+        <source src="./music/chinese-new-year-457514.mp3" type="audio/mpeg">
+        <source src="./music/chinese-new-year-455963.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        // 创建雪花/花瓣效果
+        function createSnowflakes() {
+            const snowflakeContainer = document.getElementById('snowflakes');
+            const snowflakeCount = 100;
+            
+            for (let i = 0; i < snowflakeCount; i++) {
+                const snowflake = document.createElement('div');
+                snowflake.classList.add('snowflake');
+                
+                // 随机大小
+                const size = Math.random() * 10 + 5;
+                snowflake.style.width = `${size}px`;
+                snowflake.style.height = `${size}px`;
+                
+                // 随机位置
+                snowflake.style.left = `${Math.random() * 100}vw`;
+                snowflake.style.top = `${-Math.random() * 100}px`;
+                
+                // 随机动画延迟和持续时间
+                const delay = Math.random() * 5;
+                const duration = Math.random() * 10 + 10;
+                
+                snowflake.style.animation = `
+                    fall ${duration}s linear ${delay}s infinite,
+                    sway ${Math.random() * 3 + 2}s ease-in-out ${delay}s infinite alternate
+                `;
+                
+                snowflakeContainer.appendChild(snowflake);
+            }
+            
+            // 添加CSS动画
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes fall {
+                    to {
+                        transform: translateY(100vh) rotate(360deg);
+                    }
+                }
+                @keyframes sway {
+                    0%, 100% { transform: translateX(0); }
+                    50% { transform: translateX(${Math.random() * 100 - 50}px); }
+                }
+            `;
+            document.head.appendChild(style);
+        }
+        
+        // 创建烟花效果
+        function createFirework(x, y) {
+            const fireworkContainer = document.getElementById('fireworks');
+            const particleCount = 80;
+            const colors = ['#FFD700', '#D2691E', '#8B4513', '#228B22', '#8B0000'];
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('firework');
+                
+                // 随机颜色
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.backgroundColor = color;
+                
+                // 设置位置
+                particle.style.left = `${x}px`;
+                particle.style.top = `${y}px`;
+                
+                // 随机角度和距离
+                const angle = Math.random() * Math.PI * 2;
+                const distance = Math.random() * 100 + 50;
+                const targetX = Math.cos(angle) * distance;
+                const targetY = Math.sin(angle) * distance;
+                
+                // 随机大小
+                const size = Math.random() * 4 + 2;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                // 动画
+                const duration = Math.random() * 1 + 0.5;
+                particle.style.animation = `
+                    firework ${duration}s ease-out forwards
+                `;
+                
+                fireworkContainer.appendChild(particle);
+                
+                // 添加CSS动画
+                const style = document.createElement('style');
+                if (!document.getElementById('firework-animation')) {
+                    style.id = 'firework-animation';
+                    style.textContent = `
+                        @keyframes firework {
+                            0% {
+                                transform: translate(0, 0);
+                                opacity: 1;
+                            }
+                            100% {
+                                transform: translate(${targetX}px, ${targetY}px);
+                                opacity: 0;
+                            }
+                        }
+                    `;
+                    document.head.appendChild(style);
+                }
+                
+                // 移除粒子
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, duration * 1000);
+            }
+        }
+        
+        // 创建马蹄铁特效
+        function createHorseshoeEffect() {
+            const horseElement = document.querySelector('.horse');
+            
+            // 每隔一段时间改变马的表情，模拟奔跑
+            setInterval(() => {
+                const horseEmojis = ['🐎', '🏇', '🐴'];
+                const randomEmoji = horseEmojis[Math.floor(Math.random() * horseEmojis.length)];
+                horseElement.textContent = randomEmoji;
+            }, 500);
+            
+            // 每隔一段时间创建马蹄铁特效
+            setInterval(() => {
+                const x = Math.random() * window.innerWidth;
+                const y = Math.random() * window.innerHeight;
+                createHorseshoeSparkle(x, y);
+            }, 2000);
+        }
+        
+        // 创建马蹄铁闪光特效
+        function createHorseshoeSparkle(x, y) {
+            const sparkle = document.createElement('div');
+            sparkle.innerHTML = '✨';
+            sparkle.style.position = 'absolute';
+            sparkle.style.left = `${x}px`;
+            sparkle.style.top = `${y}px`;
+            sparkle.style.fontSize = '24px';
+            sparkle.style.zIndex = '1';
+            sparkle.style.pointerEvents = 'none';
+            sparkle.style.opacity = '0.8';
+            
+            document.body.appendChild(sparkle);
+            
+            // 动画
+            sparkle.style.animation = 'sparkleFade 2s ease-out forwards';
+            
+            // 添加CSS动画
+            if (!document.getElementById('sparkle-animation')) {
+                const style = document.createElement('style');
+                style.id = 'sparkle-animation';
+                style.textContent = `
+                    @keyframes sparkleFade {
+                        0% {
+                            opacity: 0.8;
+                            transform: scale(1) rotate(0deg);
+                        }
+                        50% {
+                            opacity: 1;
+                            transform: scale(1.5) rotate(180deg);
+                        }
+                        100% {
+                            opacity: 0;
+                            transform: scale(0.5) rotate(360deg);
+                        }
+                    }
+                `;
+                document.head.appendChild(style);
+            }
+            
+            // 移除元素
+            setTimeout(() => {
+                if (sparkle.parentNode) {
+                    sparkle.parentNode.removeChild(sparkle);
+                }
+            }, 2000);
+        }
+        
+        // 随机烟花效果
+        function randomFireworks() {
+            setInterval(() => {
+                if (Math.random() > 0.7) { // 30%概率触发烟花
+                    const x = Math.random() * window.innerWidth;
+                    const y = Math.random() * window.innerHeight / 2;
+                    createFirework(x, y);
+                }
+            }, 1000);
+        }
+        
+        // 点击烟花效果
+        document.addEventListener('click', (e) => {
+            createFirework(e.clientX, e.clientY);
+            // 点击时也创建马蹄铁闪光
+            createHorseshoeSparkle(e.clientX, e.clientY);
+        });
+        
+        // 音乐控制
+        const bgMusic = document.getElementById('bgMusic');
+        const musicBtn = document.getElementById('musicBtn');
+        const musicIcon = document.getElementById('musicIcon');
+        const musicText = document.getElementById('musicText');
+        
+        let isPlaying = false;
+        
+        // 预加载音乐并处理自动播放
+        document.addEventListener('click', initAudio, { once: true });
+        
+        function initAudio() {
+            bgMusic.load();
+            bgMusic.volume = 0.5;
+        }
+        
+        musicBtn.addEventListener('click', () => {
+            if (!isPlaying) {
+                bgMusic.play().then(() => {
+                    isPlaying = true;
+                    musicIcon.textContent = '🎶';
+                    musicText.textContent = '暂停音乐';
+                    musicBtn.style.background = 'linear-gradient(45deg, #228B22, #8B4513)';
+                }).catch(err => {
+                    console.log('音乐播放失败:', err);
+                    alert('请点击页面任意位置后，再播放音乐');
+                });
+            } else {
+                bgMusic.pause();
+                isPlaying = false;
+                musicIcon.textContent = '🎵';
+                musicText.textContent = '播放新春音乐';
+                musicBtn.style.background = 'linear-gradient(45deg, #8B4513, #D2691E)';
+            }
+        });
+        
+        // 页面加载完成后初始化
+        window.addEventListener('load', () => {
+            createSnowflakes();
+            randomFireworks();
+            createHorseshoeEffect();
+            
+            // 页面加载动画
+            const elements = document.querySelectorAll('.header, .horse-container, .blessings, .controls');
+            elements.forEach((el, index) => {
+                el.style.animationDelay = `${index * 0.3}s`;
+            });
+            
+            // 显示欢迎提示
+            setTimeout(() => {
+                createFirework(window.innerWidth / 2, window.innerHeight / 2);
+                createHorseshoeSparkle(window.innerWidth / 2, window.innerHeight / 2);
+                
+                setTimeout(() => {
+                    createFirework(window.innerWidth / 4, window.innerHeight / 3);
+                    createHorseshoeSparkle(window.innerWidth / 4, window.innerHeight / 3);
+                    
+                    setTimeout(() => {
+                        createFirework(window.innerWidth * 3/4, window.innerHeight / 3);
+                        createHorseshoeSparkle(window.innerWidth * 3/4, window.innerHeight / 3);
+                    }, 300);
+                }, 300);
+            }, 1000);
+        });
+        
+        // 响应式调整
+        window.addEventListener('resize', () => {
+            document.getElementById('snowflakes').innerHTML = '';
+            createSnowflakes();
+        });
+    </script>
+</body>
+</html>
