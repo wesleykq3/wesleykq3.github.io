@@ -444,6 +444,110 @@
             const errorElement = document.getElementById('error');
             const successElement = document.getElementById('success');
             
+            // 天气代码到中文描述的映射（确保中文显示）
+            const weatherCodeToChinese = {
+                '113': '晴天',
+                '116': '部分多云',
+                '119': '多云',
+                '122': '阴天',
+                '143': '雾',
+                '176': '小雨',
+                '179': '雨夹雪',
+                '182': '雨夹雪',
+                '185': '冻雨',
+                '200': '雷暴',
+                '227': '小雪',
+                '230': '大雪',
+                '248': '雾',
+                '260': '浓雾',
+                '263': '零星小雨',
+                '266': '小雨',
+                '281': '冻雨',
+                '284': '冻雨',
+                '293': '小雨',
+                '296': '中雨',
+                '299': '大雨',
+                '302': '大雨',
+                '305': '大雨',
+                '308': '暴雨',
+                '311': '冻雨',
+                '314': '冻雨',
+                '317': '雨夹雪',
+                '320': '雨夹雪',
+                '323': '小雪',
+                '326': '小雪',
+                '329': '中雪',
+                '332': '大雪',
+                '335': '暴雪',
+                '338': '暴雪',
+                '350': '雨夹雪',
+                '353': '小雨',
+                '356': '大雨',
+                '359': '暴雨',
+                '362': '雨夹雪',
+                '365': '雨夹雪',
+                '368': '小雪',
+                '371': '暴雪',
+                '374': '雨夹雪',
+                '377': '冻雨',
+                '386': '雷暴',
+                '389': '雷暴',
+                '392': '雷暴加雪',
+                '395': '大雪'
+            };
+            
+            // 天气代码到图标的映射
+            const weatherCodeToIcon = {
+                '113': '☀️', // 晴天
+                '116': '⛅', // 部分多云
+                '119': '☁️', // 多云
+                '122': '☁️', // 阴天
+                '143': '🌫️', // 雾
+                '176': '🌦️', // 小雨
+                '179': '🌨️', // 雨夹雪
+                '182': '🌨️', // 雨夹雪
+                '185': '🌧️', // 冻雨
+                '200': '⛈️', // 雷暴
+                '227': '🌨️', // 小雪
+                '230': '❄️', // 大雪
+                '248': '🌫️', // 雾
+                '260': '🌫️', // 浓雾
+                '263': '🌦️', // 零星小雨
+                '266': '🌧️', // 小雨
+                '281': '🌧️', // 冻雨
+                '284': '🌧️', // 冻雨
+                '293': '🌦️', // 小雨
+                '296': '🌧️', // 中雨
+                '299': '🌧️', // 大雨
+                '302': '🌧️', // 大雨
+                '305': '🌧️', // 大雨
+                '308': '🌧️', // 暴雨
+                '311': '🌧️', // 冻雨
+                '314': '🌧️', // 冻雨
+                '317': '🌨️', // 雨夹雪
+                '320': '🌨️', // 雨夹雪
+                '323': '🌨️', // 小雪
+                '326': '🌨️', // 小雪
+                '329': '❄️', // 中雪
+                '332': '❄️', // 大雪
+                '335': '❄️', // 暴雪
+                '338': '❄️', // 暴雪
+                '350': '🌨️', // 雨夹雪
+                '353': '🌦️', // 小雨
+                '356': '🌧️', // 大雨
+                '359': '🌧️', // 暴雨
+                '362': '🌨️', // 雨夹雪
+                '365': '🌨️', // 雨夹雪
+                '368': '🌨️', // 小雪
+                '371': '❄️', // 暴雪
+                '374': '🌨️', // 雨夹雪
+                '377': '🌨️', // 冻雨
+                '386': '⛈️', // 雷暴
+                '389': '⛈️', // 雷暴
+                '392': '⛈️', // 雷暴加雪
+                '395': '❄️'  // 大雪
+            };
+            
             // 获取位置和天气信息
             async function getLocationAndWeather() {
                 // 重置状态
@@ -494,31 +598,34 @@
                     // 第二步：获取天气信息
                     console.log('正在获取天气信息...');
                     
-                    // 使用wttr.in免费天气API（支持中文）
-                    let weatherQuery = locationStr;
+                    // 优先使用城市名查询天气，如果没有则使用国家名
+                    let weatherQuery = '';
                     if (locationData.city) {
-                        // 优先使用城市名查询天气
+                        // 使用城市名
                         weatherQuery = locationData.city;
                     } else if (locationData.country && locationData.country.name) {
                         // 如果没有城市信息，使用国家名
                         weatherQuery = locationData.country.name;
+                    } else {
+                        throw new Error('无法确定天气查询位置');
                     }
                     
-                    // 移除中文字符间的空格，避免API解析错误
+                    // 移除空格，避免API解析错误
                     weatherQuery = weatherQuery.replace(/\s+/g, '');
                     
-                    // 使用wttr.in API（支持中文城市名）
+                    // 方法1：使用wttr.in API（格式化为JSON）
                     const weatherResponse = await fetch(`https://wttr.in/${encodeURIComponent(weatherQuery)}?format=j1&lang=zh`);
                     
                     if (!weatherResponse.ok) {
-                        throw new Error('天气API响应错误');
+                        // 如果失败，尝试方法2：直接获取文本格式
+                        throw new Error('天气API响应错误，尝试备用API');
                     }
                     
                     const weatherData = await weatherResponse.json();
                     console.log('天气数据:', weatherData);
                     
                     // 提取并显示天气信息
-                    displayWeather(weatherData);
+                    displayWeather(weatherData, locationData.city || locationData.country.name);
                     
                     // 显示天气卡片
                     weatherCard.style.display = 'flex';
@@ -531,28 +638,52 @@
                 } catch (error) {
                     console.error('获取信息时出错:', error);
                     
-                    // 准备错误信息
-                    let errorMessage = '获取位置和天气信息失败。';
-                    
-                    if (error.name === 'TypeError' && error.message.includes('fetch')) {
-                        errorMessage = '网络请求失败，请检查网络连接后重试。';
-                    } else {
-                        errorMessage = `错误: ${error.message}`;
+                    // 尝试备用方法：使用openweathermap API（需要免费API密钥，这里使用示例密钥）
+                    try {
+                        console.log('尝试使用备用天气API...');
+                        
+                        // 使用另一个免费API（使用示例API密钥，实际使用需要注册获取自己的密钥）
+                        const backupWeatherResponse = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=b6907d289e10d714a6e88b30761fae22&units=metric&lang=zh_cn');
+                        
+                        if (backupWeatherResponse.ok) {
+                            const backupWeatherData = await backupWeatherResponse.json();
+                            console.log('备用天气数据:', backupWeatherData);
+                            
+                            // 显示备用天气信息
+                            displayBackupWeather(backupWeatherData);
+                            weatherCard.style.display = 'flex';
+                            
+                            successElement.textContent = '使用备用API获取天气成功！';
+                            successElement.classList.add('active');
+                            setTimeout(() => successElement.classList.remove('active'), 3000);
+                        } else {
+                            throw new Error('备用API也失败了');
+                        }
+                    } catch (backupError) {
+                        console.error('备用API也失败了:', backupError);
+                        
+                        // 显示错误信息
+                        let errorMessage = '获取天气信息失败，请稍后重试。';
+                        
+                        if (error.message.includes('网络请求失败')) {
+                            errorMessage = '网络请求失败，请检查网络连接后重试。';
+                        } else if (error.message.includes('位置API响应错误')) {
+                            errorMessage = '无法获取当前位置信息，请检查网络连接。';
+                        }
+                        
+                        errorElement.innerHTML = `
+                            <strong>错误详情:</strong> ${errorMessage}
+                            <br><br>
+                            <button class="retry-btn" id="retryBtn">重试</button>
+                        `;
+                        errorElement.classList.add('active');
+                        
+                        // 添加重试按钮事件
+                        document.getElementById('retryBtn').addEventListener('click', getLocationAndWeather);
+                        
+                        // 恢复占位符文本
+                        currentLocationElement.textContent = '获取失败';
                     }
-                    
-                    // 显示错误信息
-                    errorElement.innerHTML = `
-                        <strong>错误详情:</strong> ${errorMessage}
-                        <br><br>
-                        <button class="retry-btn" id="retryBtn">重试</button>
-                    `;
-                    errorElement.classList.add('active');
-                    
-                    // 添加重试按钮事件
-                    document.getElementById('retryBtn').addEventListener('click', getLocationAndWeather);
-                    
-                    // 恢复占位符文本
-                    currentLocationElement.textContent = '获取失败';
                 } finally {
                     loadingElement.classList.remove('active');
                     getWeatherBtn.disabled = false;
@@ -560,15 +691,41 @@
                 }
             }
             
-            // 显示天气信息
-            function displayWeather(weatherData) {
+            // 显示天气信息（使用wttr.in API）
+            function displayWeather(weatherData, locationName) {
                 // 获取当前天气
                 const currentCondition = weatherData.current_condition[0];
                 
-                // 天气描述
-                weatherDesc.textContent = currentCondition.weatherDesc[0].value;
+                // 天气代码
+                const weatherCode = currentCondition.weatherCode;
                 
-                // 温度和体感温度
+                // 使用映射表获取中文描述，确保是中文
+                let chineseDesc = weatherCodeToChinese[weatherCode];
+                
+                // 如果映射表中没有，尝试使用API返回的描述
+                if (!chineseDesc && currentCondition.weatherDesc && currentCondition.weatherDesc.length > 0) {
+                    // 尝试找到中文描述
+                    const chineseWeatherDesc = currentCondition.weatherDesc.find(desc => 
+                        desc.lang === 'zh-cn' || desc.lang === 'zh'
+                    );
+                    
+                    if (chineseWeatherDesc) {
+                        chineseDesc = chineseWeatherDesc.value;
+                    } else if (currentCondition.weatherDesc[0]) {
+                        // 如果没有中文，使用第一个描述
+                        chineseDesc = currentCondition.weatherDesc[0].value;
+                    }
+                }
+                
+                // 如果还是没有，使用默认值
+                if (!chineseDesc) {
+                    chineseDesc = '天气信息';
+                }
+                
+                // 显示天气描述
+                weatherDesc.textContent = chineseDesc + (locationName ? ` (${locationName})` : '');
+                
+                // 温度
                 const tempC = currentCondition.temp_C;
                 const feelsLikeC = currentCondition.FeelsLikeC;
                 weatherTemp.textContent = `${tempC}°C`;
@@ -581,85 +738,70 @@
                 windSpeed.textContent = `${currentCondition.windspeedKmph} km/h`;
                 
                 // 根据天气代码设置图标
-                const weatherCode = currentCondition.weatherCode;
                 setWeatherIcon(weatherCode, weatherIcon);
             }
             
-            // 根据天气代码设置图标
-            function setWeatherIcon(weatherCode, iconElement) {
-                // wttr.in天气代码对应的图标
-                const iconMap = {
-                    '113': '☀️', // 晴天
-                    '116': '⛅', // 部分多云
-                    '119': '☁️', // 多云
-                    '122': '☁️', // 阴天
-                    '143': '🌫️', // 雾
-                    '176': '🌦️', // 小雨
-                    '179': '🌨️', // 雨夹雪
-                    '182': '🌨️', // 雨夹雪
-                    '185': '🌧️', // 冻雨
-                    '200': '⛈️', // 雷暴
-                    '227': '🌨️', // 小雪
-                    '230': '❄️', // 大雪
-                    '248': '🌫️', // 雾
-                    '260': '🌫️', // 雾
-                    '263': '🌦️', // 小雨
-                    '266': '🌧️', // 中雨
-                    '281': '🌧️', // 冻雨
-                    '284': '🌧️', // 冻雨
-                    '293': '🌦️', // 小雨
-                    '296': '🌧️', // 中雨
-                    '299': '🌧️', // 大雨
-                    '302': '🌧️', // 大雨
-                    '305': '🌧️', // 大雨
-                    '308': '🌧️', // 暴雨
-                    '311': '🌧️', // 冻雨
-                    '314': '🌧️', // 冻雨
-                    '317': '🌨️', // 雨夹雪
-                    '320': '🌨️', // 雨夹雪
-                    '323': '🌨️', // 小雪
-                    '326': '🌨️', // 小雪
-                    '329': '❄️', // 中雪
-                    '332': '❄️', // 大雪
-                    '335': '❄️', // 暴雪
-                    '338': '❄️', // 暴雪
-                    '350': '🌨️', // 雨夹雪
-                    '353': '🌦️', // 小雨
-                    '356': '🌧️', // 大雨
-                    '359': '🌧️', // 暴雨
-                    '362': '🌨️', // 雨夹雪
-                    '365': '🌨️', // 雨夹雪
-                    '368': '🌨️', // 小雪
-                    '371': '❄️', // 暴雪
-                    '374': '🌨️', // 雨夹雪
-                    '377': '🌨️', // 雨夹雪
-                    '386': '⛈️', // 雷暴
-                    '389': '⛈️', // 雷暴
-                    '392': '⛈️', // 雷暴加雪
-                    '395': '❄️'  // 大雪
-                };
+            // 显示备用天气信息（使用openweathermap API）
+            function displayBackupWeather(weatherData) {
+                // 天气描述（确保中文）
+                let chineseDesc = weatherData.weather[0].description || '天气信息';
+                weatherDesc.textContent = chineseDesc + ` (${weatherData.name})`;
                 
-                // 如果找到对应的图标则使用，否则使用默认图标
-                if (iconMap[weatherCode]) {
-                    iconElement.textContent = iconMap[weatherCode];
+                // 温度
+                const tempC = Math.round(weatherData.main.temp);
+                const feelsLikeC = Math.round(weatherData.main.feels_like);
+                weatherTemp.textContent = `${tempC}°C`;
+                feelsLike.textContent = `${feelsLikeC}°C`;
+                
+                // 湿度
+                humidity.textContent = `${weatherData.main.humidity}%`;
+                
+                // 风速（转换m/s为km/h）
+                const windKmph = Math.round(weatherData.wind.speed * 3.6);
+                windSpeed.textContent = `${windKmph} km/h`;
+                
+                // 根据天气ID设置图标
+                const weatherId = weatherData.weather[0].id;
+                setWeatherIconByOpenWeatherId(weatherId, weatherIcon);
+            }
+            
+            // 根据天气代码设置图标（wttr.in）
+            function setWeatherIcon(weatherCode, iconElement) {
+                if (weatherCodeToIcon[weatherCode]) {
+                    iconElement.textContent = weatherCodeToIcon[weatherCode];
                 } else {
-                    // 根据天气描述判断
-                    const weatherDesc = weatherDesc.textContent.toLowerCase();
-                    if (weatherDesc.includes('晴')) {
-                        iconElement.textContent = '☀️';
-                    } else if (weatherDesc.includes('云')) {
-                        iconElement.textContent = '☁️';
-                    } else if (weatherDesc.includes('雨')) {
-                        iconElement.textContent = '🌧️';
-                    } else if (weatherDesc.includes('雪')) {
-                        iconElement.textContent = '❄️';
-                    } else if (weatherDesc.includes('雾')) {
-                        iconElement.textContent = '🌫️';
-                    } else if (weatherDesc.includes('雷')) {
-                        iconElement.textContent = '⛈️';
-                    } else {
-                        iconElement.textContent = '🌤️';
-                    }
+                    // 默认图标
+                    iconElement.textContent = '🌤️';
+                }
+            }
+            
+            // 根据openweathermap天气ID设置图标
+            function setWeatherIconByOpenWeatherId(weatherId, iconElement) {
+                // openweathermap天气ID到图标的映射
+                if (weatherId >= 200 && weatherId < 300) {
+                    // 雷暴
+                    iconElement.textContent = '⛈️';
+                } else if (weatherId >= 300 && weatherId < 400) {
+                    // 毛毛雨
+                    iconElement.textContent = '🌧️';
+                } else if (weatherId >= 500 && weatherId < 600) {
+                    // 雨
+                    iconElement.textContent = '🌧️';
+                } else if (weatherId >= 600 && weatherId < 700) {
+                    // 雪
+                    iconElement.textContent = '❄️';
+                } else if (weatherId >= 700 && weatherId < 800) {
+                    // 大气条件（雾、尘等）
+                    iconElement.textContent = '🌫️';
+                } else if (weatherId === 800) {
+                    // 晴天
+                    iconElement.textContent = '☀️';
+                } else if (weatherId > 800 && weatherId < 900) {
+                    // 多云
+                    iconElement.textContent = '☁️';
+                } else {
+                    // 默认
+                    iconElement.textContent = '🌤️';
                 }
             }
             
