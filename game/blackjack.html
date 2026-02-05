@@ -21,6 +21,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            transform: scale(0.85); /* 整体缩小页面 */
+            transform-origin: top center;
+            width: 117.65%; /* 补偿缩小后的宽度 */
         }
         
         .container {
@@ -252,6 +255,16 @@
             transform: translateY(-3px);
         }
         
+        .btn-info {
+            background: #3498db;
+            color: white;
+        }
+        
+        .btn-info:hover {
+            background: #2980b9;
+            transform: translateY(-3px);
+        }
+        
         .btn:disabled {
             background: #95a5a6;
             cursor: not-allowed;
@@ -335,6 +348,11 @@
         }
         
         @media (max-width: 768px) {
+            body {
+                transform: scale(1); /* 在移动设备上不缩小 */
+                width: 100%;
+            }
+            
             .game-info {
                 flex-direction: column;
                 gap: 15px;
@@ -430,12 +448,16 @@
             <button id="reset-btn" class="btn btn-danger">
                 <i class="fas fa-redo"></i> 重新开始
             </button>
+            <!-- 新增返回按钮 -->
+            <button id="back-btn" class="btn btn-info">
+                <i class="fas fa-arrow-left"></i> 返回首页
+            </button>
         </div>
         
         <div class="rules">
             <h2><i class="fas fa-info-circle"></i> 游戏规则</h2>
             <ul>
-                <li><strong>规则</strong>：刷新整个页面会重新分配1000$筹码，点击“停牌”会出牌面结果。</li>
+                <li><strong>规则</strong>：刷新整个页面会重新分配1000$筹码，点击"停牌"会出牌面结果。</li>
                 <li><strong>目标</strong>：使手中牌的点数之和尽可能接近21点，但不能超过21点（爆牌）。</li>
                 <li><strong>牌面点数</strong>：2-10按牌面点数计算，J、Q、K算作10点，A可算作1点或11点。</li>
                 <li><strong>黑杰克</strong>：一张A加上一张10、J、Q、K即为黑杰克，通杀其他非黑杰克牌型。</li>
@@ -475,6 +497,7 @@
         const standBtn = document.getElementById('stand-btn');
         const doubleBtn = document.getElementById('double-btn');
         const resetBtn = document.getElementById('reset-btn');
+        const backBtn = document.getElementById('back-btn'); // 新增返回按钮
         const balanceEl = document.getElementById('balance');
         const currentBetEl = document.getElementById('current-bet');
         const gameStatusEl = document.getElementById('game-status');
@@ -748,8 +771,9 @@
                 doubleBtn.disabled = (balance < currentBet);
             }
             
-            // 重置按钮始终可用
+            // 重置按钮和返回按钮始终可用
             resetBtn.disabled = false;
+            backBtn.disabled = false;
         }
         
         // 更新余额显示
@@ -866,14 +890,20 @@
         doubleBtn.addEventListener('click', playerDouble);
         resetBtn.addEventListener('click', initGame);
         
+        // 返回按钮事件监听
+        backBtn.addEventListener('click', function() {
+            // 返回到上一级目录的index.html
+            window.location.href = '../index.html';
+        });
+        
         // 初始化游戏
         initGame();
         
         // 添加一些音效模拟（在实际应用中，您会使用真实音效文件）
-        function playSound(type) {
+       // function playSound(type) {
             // 这里只是模拟，实际应用中您可以使用音频文件
-            console.log(`播放音效: ${type}`);
-        }
+         //   console.log(`播放音效: ${type}`);
+       // }
     </script>
 </body>
 </html>
