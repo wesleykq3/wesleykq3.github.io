@@ -15,7 +15,6 @@
       height:100vh;
       display:flex;
       flex-direction:column;
-      overflow:hidden;
       position:relative;
     }
 
@@ -45,7 +44,7 @@
       font-weight:bold;
     }
 
-    /* 主内容 */
+    /* 主内容区：占据剩余空间，内部垂直水平居中 */
     .main-content {
       flex:1;
       display:flex;
@@ -53,8 +52,7 @@
       justify-content:center;
       align-items:center;
       width:100%;
-      padding:30px;
-      padding-top:120px;
+      padding:0 30px;
     }
 
     .grid {
@@ -63,7 +61,6 @@
       gap:25px;
       width:100%;
       max-width:900px;
-      margin-bottom:40px;
     }
 
     .grid a {
@@ -87,18 +84,19 @@
       box-shadow:0 8px 20px rgba(0,0,0,0.15);
     }
 
+    /* 底部版权：固定在页面最底部，居中显示 */
     footer {
       width:100%;
-      font-size:18px;
-      color:#666;
       text-align:center;
       padding:20px 0;
-      margin-top:220px;
+      font-size:18px;
+      color:#666;
+      background:transparent;
     }
 
     footer p { font-weight:bold; }
 
-    /* ===== 访问统计（右下角） ===== */
+    /* 访问统计（右下角） */
     .visit-counter {
       position:fixed;
       right:20px;
@@ -121,7 +119,7 @@
   <h1 class="site-title">Wesley 的主页</h1>
 </div>
 
-<!-- 主内容 -->
+<!-- 主内容：蓝色按钮区域 -->
 <div class="main-content">
   <nav class="grid">
     <a href="it/index.html">IT</a>
@@ -131,13 +129,14 @@
     <a href="game/index.html">小游戏</a>
     <a href="others/index.html">其他</a>
   </nav>
-
-  <footer>
-    <p>© <span id="currentDate"></span></p>
-  </footer>
 </div>
 
-<!-- 👁 访问统计显示 -->
+<!-- 底部版权：位于页面最底部 -->
+<footer>
+  <p>© <span id="currentDate"></span></p>
+</footer>
+
+<!-- 访问统计显示 -->
 <div class="visit-counter">
   <i class="fa fa-eye"></i>
   本站访问量
