@@ -89,7 +89,7 @@ jobs:
         run:
 
 
-          python crawler/spider.py
+          python it/security-news/crawler/spider.py
 
 
 
