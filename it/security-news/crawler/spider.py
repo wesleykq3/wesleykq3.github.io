@@ -49,7 +49,22 @@ RSS_LIST=[
 "name":"CyberSecurityNews",
 "url":
 "https://cybersecuritynews.com/feed/"
-}
+},
+{
+"name":"krebsonsecurity",
+"url":
+"https://krebsonsecurity.com/feed/"
+},
+{
+"name":"GBHackers",
+"url":
+"https://gbhackers.com/feed/"
+},
+    {
+"name":"Phoronix",
+"url":
+"https://www.phoronix.com/rss.php"
+},
 
 
 
