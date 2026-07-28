@@ -3,21 +3,25 @@
 """
 Security News RSS Collector
 
-功能:
-1. 获取安全新闻RSS
-2. 提取标题
-3. 提取发布日期
-4. 提取文章链接
-5. 生成 news.json
+运行环境:
+GitHub Actions
 
-适用于:
-GitHub Actions + GitHub Pages
+功能:
+1. RSS新闻采集
+2. 提取标题
+3. 提取日期
+4. 提取URL
+5. 生成news.json
+
+输出:
+it/security-news/news.json
 """
 
 
 import os
 import json
 import feedparser
+
 from datetime import datetime
 
 
@@ -26,7 +30,7 @@ from datetime import datetime
 # 路径配置
 # ==================================================
 
-# 当前文件:
+# 当前:
 # it/security-news/crawler/spider.py
 
 CURRENT_DIR = os.path.dirname(
@@ -34,16 +38,17 @@ CURRENT_DIR = os.path.dirname(
 )
 
 
-# security-news目录
+# 当前:
+# it/security-news/crawler
+
+# 上一级:
+# it/security-news
 
 BASE_DIR = os.path.dirname(
     CURRENT_DIR
 )
 
 
-# 输出:
-
-# it/security-news/news.json
 
 OUTPUT_FILE = os.path.join(
     BASE_DIR,
@@ -52,19 +57,27 @@ OUTPUT_FILE = os.path.join(
 
 
 
-print("当前脚本目录:")
+print("==============================")
+print("Python运行目录:")
+print(os.getcwd())
+
+
+print("脚本目录:")
 print(CURRENT_DIR)
 
-print("JSON输出:")
+
+print("JSON输出路径:")
 print(OUTPUT_FILE)
 
+print("==============================")
+
 
 
 # ==================================================
-# RSS源配置
+# RSS配置
 # ==================================================
 
-RSS_LIST = [
+RSS_SOURCES = [
 
     {
         "name": "The Hacker News",
@@ -81,7 +94,7 @@ RSS_LIST = [
 
 
     {
-        "name": "Cybersecurity News",
+        "name": "Cyber Security News",
         "url":
         "https://cybersecuritynews.com/feed/"
     },
@@ -98,22 +111,24 @@ RSS_LIST = [
 
 
 # ==================================================
-# 日期处理
+# 日期格式化
 # ==================================================
 
-def format_date(entry):
+def get_date(entry):
 
-    """
-    统一日期格式
-    """
 
     try:
 
-        if hasattr(entry, "published_parsed"):
+        if hasattr(
+            entry,
+            "published_parsed"
+        ):
+
 
             dt = datetime(
                 *entry.published_parsed[:6]
             )
+
 
             return dt.strftime(
                 "%Y-%m-%d"
@@ -122,7 +137,9 @@ def format_date(entry):
 
     except Exception:
 
+
         pass
+
 
 
     return datetime.now().strftime(
@@ -132,20 +149,21 @@ def format_date(entry):
 
 
 # ==================================================
-# 获取新闻
+# RSS采集
 # ==================================================
 
 def fetch_news():
 
+
     news_list = []
 
 
-    for rss in RSS_LIST:
+    for source in RSS_SOURCES:
 
 
         print(
-            "正在获取:",
-            rss["name"]
+            "\n正在获取:",
+            source["name"]
         )
 
 
@@ -153,14 +171,28 @@ def fetch_news():
 
 
             feed = feedparser.parse(
-                rss["url"]
+                source["url"]
             )
+
+
+
+            if not feed.entries:
+
+
+                print(
+                    "没有获取到新闻"
+                )
+
+                continue
+
 
 
             count = 0
 
 
+
             for item in feed.entries:
+
 
 
                 if count >= 10:
@@ -173,7 +205,7 @@ def fetch_news():
 
 
                     "source":
-                    rss["name"],
+                    source["name"],
 
 
 
@@ -186,7 +218,7 @@ def fetch_news():
 
 
                     "date":
-                    format_date(
+                    get_date(
                         item
                     ),
 
@@ -199,6 +231,7 @@ def fetch_news():
                     )
 
                 }
+
 
 
                 news_list.append(
@@ -214,8 +247,8 @@ def fetch_news():
 
 
             print(
-                rss["name"],
-                "错误:",
+                "RSS错误:",
+                source["name"],
                 e
             )
 
@@ -229,8 +262,10 @@ def fetch_news():
 # 保存JSON
 # ==================================================
 
-def save_json(data):
+def save_json(news):
 
+
+    # 确保目录存在
 
     os.makedirs(
         BASE_DIR,
@@ -238,16 +273,22 @@ def save_json(data):
     )
 
 
+
     with open(
+
         OUTPUT_FILE,
+
         "w",
+
         encoding="utf-8"
+
     ) as f:
+
 
 
         json.dump(
 
-            data,
+            news,
 
             f,
 
@@ -260,7 +301,10 @@ def save_json(data):
 
 
     print(
-        "生成完成:",
+        "\nJSON生成成功:"
+    )
+
+    print(
         OUTPUT_FILE
     )
 
@@ -273,15 +317,30 @@ def save_json(data):
 if __name__ == "__main__":
 
 
+
+    print(
+        "\n开始采集安全新闻..."
+    )
+
+
+
     news = fetch_news()
 
 
+
     print(
-        "新闻数量:",
+        "\n新闻数量:",
         len(news)
     )
 
 
+
     save_json(
         news
+    )
+
+
+
+    print(
+        "\n任务完成"
     )
