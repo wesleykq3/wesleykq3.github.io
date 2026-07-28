@@ -4,8 +4,29 @@ import feedparser
 import json
 import re
 from datetime import datetime
+import os
+
+# 当前文件路径
+CURRENT_DIR = os.path.dirname(
+    os.path.abspath(__file__)
+)
 
 
+# security-news目录
+BASE_DIR = os.path.dirname(
+    CURRENT_DIR
+)
+
+
+# 输出文件
+OUTPUT_FILE = os.path.join(
+    BASE_DIR,
+    "news.json"
+)
+
+
+print("JSON输出位置:")
+print(OUTPUT_FILE)
 
 RSS_LIST=[
 
@@ -133,13 +154,9 @@ news=news[:50]
 
 
 with open(
-
-"news.json",
-
-"w",
-
-encoding="utf-8"
-
+    OUTPUT_FILE,
+    "w",
+    encoding="utf-8"
 ) as f:
 
 
