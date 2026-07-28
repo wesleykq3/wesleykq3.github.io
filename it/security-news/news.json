@@ -1,5 +1,13 @@
 [
     {
+        "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+        "date": "Tue, 28 Jul 2026 08:10:23 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+        "source": "BleepingComputer",
+        "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
+        "cve": []
+    },
+    {
         "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
         "date": "Tue, 28 Jul 2026 05:10:03 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
@@ -72,11 +80,11 @@
         "cve": []
     },
     {
-        "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
-        "date": "Sun, 26 Jul 2026 10:13:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-        "source": "BleepingComputer",
-        "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
+        "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
+        "date": "Tue, 28 Jul 2026 17:25:20 +0530",
+        "url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+        "source": "The Hacker News",
+        "summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting e",
         "cve": []
     },
     {
@@ -152,11 +160,59 @@
         "cve": []
     },
     {
-        "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
-        "date": "Mon, 27 Jul 2026 18:07:49 +0530",
-        "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim ",
+        "title": "Fake Claude Code Install Guide Uses Google Ads to Deliver MacSync Infostealer",
+        "date": "Tue, 28 Jul 2026 13:23:35 +0000",
+        "url": "https://cybersecuritynews.com/fake-claude-code-install-guide/",
+        "source": "CyberSecurityNews",
+        "summary": "Fake Google Ads are being used to push a convincing Claude Code installation guide that delivers the MacSync infostealer to macOS users. The campaign turns an ordinary developer search into a path for",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploiting FastJson RCE 0-Day in the Wild to Attack US-based Organizations",
+        "date": "Tue, 28 Jul 2026 13:10:52 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploiting-fastjson-rce-0-day/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical vulnerability in FastJson, identified as CVE-2026-16723, is being exploited against organizations in the United States, putting Java applications that process untrusted JSON at immediate ri",
+        "cve": []
+    },
+    {
+        "title": "Origin Confirms Data Breach – Hackers Accessed 900,000 Customers’ Data",
+        "date": "Tue, 28 Jul 2026 13:01:41 +0000",
+        "url": "https://cybersecuritynews.com/origin-confirms-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Origin Energy, an Australian energy provider, has confirmed that unauthorized access to customer information has affected approximately 900,000 current and former customers. The company has completed ",
+        "cve": []
+    },
+    {
+        "title": "An SOC Story of Why Fast Answers Beat Perfect Answers in Cyber Incident Response",
+        "date": "Tue, 28 Jul 2026 13:01:23 +0000",
+        "url": "https://cybersecuritynews.com/an-soc-story-why-fast-answers-beat-perfect-answers-in-cyber-incident-response/",
+        "source": "CyberSecurityNews",
+        "summary": "A Formula 1 pit crew doesn&#8217;t wait until every sensor, camera, and engineer agrees that a tire needs changing. They have a few seconds to make a decision using the best evidence available. Wait f",
+        "cve": []
+    },
+    {
+        "title": "Dismantled Kratos Phishing Kits Acting as Blueprint for Others to Attack Microsoft 365 Users",
+        "date": "Tue, 28 Jul 2026 12:42:21 +0000",
+        "url": "https://cybersecuritynews.com/dismantled-kratos-phishing-kits/",
+        "source": "CyberSecurityNews",
+        "summary": "Kratos is a phishing service built to steal Microsoft 365 credentials at scale. It evolved from the Sneaky2FA kit and gave affiliates ready-made login pages, hosting options, and evasion features that",
+        "cve": []
+    },
+    {
+        "title": "Hackers Are Using Fake Crypto Wallet Screens to Steal Recovery Phrases and Browser Sessions",
+        "date": "Tue, 28 Jul 2026 11:45:29 +0000",
+        "url": "https://cybersecuritynews.com/hackers-are-using-fake-crypto-wallet-screens/",
+        "source": "CyberSecurityNews",
+        "summary": "Criminals are using convincing cryptocurrency wallet screens and browser extensions to steal recovery phrases, login data, and active browser sessions. The activity is linked to a wider CastleLoader c",
+        "cve": []
+    },
+    {
+        "title": "AI-Assisted Research Uncovers Linux Kernel Zero-Day Enabling Root Privilege Escalation",
+        "date": "Tue, 28 Jul 2026 10:41:14 +0000",
+        "url": "https://cybersecuritynews.com/ai-assisted-linux-kernel-zero-day/",
+        "source": "CyberSecurityNews",
+        "summary": "A serious Linux kernel zero-day vulnerability capable of local privilege escalation (LPE) has been uncovered by security researchers, underscoring both the growing role of artificial intelligence in v",
         "cve": []
     },
     {
@@ -176,67 +232,11 @@
         "cve": []
     },
     {
-        "title": "libssh2 Vulnerabilities Allows a Malicious SSH Server to Corrupt Client Memory",
+        "title": "libssh2 Vulnerabilities Allow a Malicious SSH Server to Corrupt Client Memory",
         "date": "Tue, 28 Jul 2026 08:41:12 +0000",
         "url": "https://cybersecuritynews.com/libssh2-vulnerabilities/",
         "source": "CyberSecurityNews",
         "summary": "A set of high-severity vulnerabilities in libssh2 could expose SSH and SFTP client applications to memory corruption, crashes, and potential code execution when connecting to a malicious server. libss",
-        "cve": []
-    },
-    {
-        "title": "LegacyHive Exploitation Chain Bypasses Windows Security Even With July 2026 Patches Installed",
-        "date": "Tue, 28 Jul 2026 08:31:48 +0000",
-        "url": "https://cybersecuritynews.com/legacyhive-exploitation-chain/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly disclosed exploit dubbed LegacyHive is raising alarms across the cybersecurity community after researchers confirmed it executes successfully on fully patched Windows systems running the July ",
-        "cve": []
-    },
-    {
-        "title": "Scammers Pose as ShinyHunters to Blackmail Data-Breach Victims With Fake Webcam Videos",
-        "date": "Tue, 28 Jul 2026 08:30:29 +0000",
-        "url": "https://cybersecuritynews.com/scammers-pose-as-shinyhunters/",
-        "source": "CyberSecurityNews",
-        "summary": "Victims of recent data breaches are receiving alarming emails that claim hackers recorded them through their webcams. The messages borrow the ShinyHunters name and cite a recipient’s real email addres",
-        "cve": []
-    },
-    {
-        "title": "Dysphoria Botnet Infects 200,000 IoT Devices and Hides C2 Behind Blockchain Domains",
-        "date": "Tue, 28 Jul 2026 08:17:37 +0000",
-        "url": "https://cybersecuritynews.com/dysphoria-botnet-infects-iot-devices/",
-        "source": "CyberSecurityNews",
-        "summary": "Dysphoria has emerged as a fast-moving IoT botnet that has infected an estimated 200,000 devices worldwide. The malware targets routers, cameras, gateways, and other embedded Linux systems, turning po",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploiting Arista VeloCloud Orchestrator 0-Day Vulnerability in the Wild",
-        "date": "Tue, 28 Jul 2026 08:10:03 +0000",
-        "url": "https://cybersecuritynews.com/arista-velocloud-orchestrator-0-day/",
-        "source": "CyberSecurityNews",
-        "summary": "Arista Networks has issued a security advisory for CVE-2026-16812, a critical command injection vulnerability affecting on-premises VeloCloud Orchestrator deployments. The company has confirmed that t",
-        "cve": []
-    },
-    {
-        "title": "Five Progress LoadMaster Flaws Let Attackers Execute Commands and Gain Root Access",
-        "date": "Tue, 28 Jul 2026 07:42:57 +0000",
-        "url": "https://cybersecuritynews.com/five-progress-loadmaster-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Progress has addressed five serious vulnerabilities affecting Kemp LoadMaster, ECS Connection Manager, and Connection Manager for ObjectScale appliances. These vulnerabilities, tracked as CVE-2026-596",
-        "cve": []
-    },
-    {
-        "title": "Multiple FFmpeg Vulnerabilities Allow Attackers to Corrupt Memory Via Malicious Video File",
-        "date": "Tue, 28 Jul 2026 07:23:40 +0000",
-        "url": "https://cybersecuritynews.com/multiple-ffmpeg-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Multiple high-severity vulnerabilities have been identified in FFmpeg, the widely used open-source multimedia framework. These flaws impact media parsing, decoding, filtering, and encoding components ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Teams Vishing Attack Uses Quick Assist to Deploy GoGRPC Backdoor",
-        "date": "Tue, 28 Jul 2026 07:13:21 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-teams-vishing-attack-gogrpc-backdoor/",
-        "source": "CyberSecurityNews",
-        "summary": "A new Microsoft Teams vishing campaign is using fake IT support calls to gain remote access to corporate systems. The attackers then deploy GoGRPC, a Go-based backdoor that can run commands, collect s",
         "cve": []
     },
     {
@@ -320,6 +320,54 @@
         "cve": []
     },
     {
+        "title": "Fake Claude Code Installer Delivers MacSync macOS Infostealer Through Google Ads",
+        "date": "Tue, 28 Jul 2026 13:02:24 +0000",
+        "url": "https://gbhackers.com/fake-claude-code-installer-3/",
+        "source": "GBHackers",
+        "summary": "A highly convincing malvertising campaign is targeting macOS users searching for “how to install Claude Code on Mac,” delivering the MacSync infostealer through a trusted-looking workflow that abuses ",
+        "cve": []
+    },
+    {
+        "title": "Dismantled Kratos Phishing Kit Becomes Blueprint for Attacks on Microsoft 365 Users",
+        "date": "Tue, 28 Jul 2026 12:32:24 +0000",
+        "url": "https://gbhackers.com/dismantled-kratos-phishing-kit/",
+        "source": "GBHackers",
+        "summary": "The takedown of the Kratos phishing-as-a-service (PhaaS) platform in July 2026 has done little to slow the broader threat landscape. As security researchers warn that its leaked techniques and infrast",
+        "cve": []
+    },
+    {
+        "title": "CastleLoader Campaign Deploys NeedleStealer to Steal Crypto Wallet Seeds and Browser Sessions",
+        "date": "Tue, 28 Jul 2026 11:36:44 +0000",
+        "url": "https://gbhackers.com/castleloader-campaign-deploys-needlestealer/",
+        "source": "GBHackers",
+        "summary": "A significant evolution in the CastleLoader malware ecosystem, with new campaigns deploying the NeedleStealer framework to harvest cryptocurrency wallet seed phrases and hijack browser sessions. The f",
+        "cve": []
+    },
+    {
+        "title": "Critical TeamCity Flaw Lets Unauthenticated Attackers Execute System Commands",
+        "date": "Tue, 28 Jul 2026 10:58:50 +0000",
+        "url": "https://gbhackers.com/critical-teamcity-flaw/",
+        "source": "GBHackers",
+        "summary": "JetBrains has announced a critical vulnerability in TeamCity On-Premises, identified as CVE-2026-63077. This vulnerability allows unauthenticated remote attackers to execute arbitrary operating system",
+        "cve": []
+    },
+    {
+        "title": "Chinese Hackers Use RedRelay Multi-Hop Network to Conceal Global Cyber Operations",
+        "date": "Tue, 28 Jul 2026 10:38:26 +0000",
+        "url": "https://gbhackers.com/redrelay-multi-hop-network/",
+        "source": "GBHackers",
+        "summary": "Chinese state-linked hackers are increasingly relying on a covert multi-hop infrastructure dubbed RedRelay (also known as ORBWEAVER) to mask the origins of global cyber operations, with evidence point",
+        "cve": []
+    },
+    {
+        "title": "AI-Discovered Linux Kernel Zero-Day Enables Root Privilege Escalation",
+        "date": "Tue, 28 Jul 2026 10:34:07 +0000",
+        "url": "https://gbhackers.com/ai-discovered-linux-kernel-zero-day/",
+        "source": "GBHackers",
+        "summary": "A researcher recently disclosed an AI-assisted Linux kernel zero-day vulnerability, tracked as CVE-2026-53264, which allows local privilege escalation to root on affected systems. This flaw is found i",
+        "cve": []
+    },
+    {
         "title": "Tengu Mirai Botnet Uses Watchdog Reboots and Binary Bricking to Resist Removal",
         "date": "Tue, 28 Jul 2026 09:47:56 +0000",
         "url": "https://gbhackers.com/tengu-mirai-botnet-uses-watchdog/",
@@ -349,54 +397,6 @@
         "url": "https://gbhackers.com/best-vpn-alternatives/",
         "source": "GBHackers",
         "summary": "In the rapidly evolving landscape of 2026, the traditional VPN is increasingly showing its age. While a VPN creates a secure, encrypted tunnel to a private network, it often functions like an &#8220;a",
-        "cve": []
-    },
-    {
-        "title": "PortSwigger Introduces Burp AT Agentic AI for Automated Penetration Testing",
-        "date": "Tue, 28 Jul 2026 07:48:45 +0000",
-        "url": "https://gbhackers.com/portswigger-launches-burp-at-agentic-ai/",
-        "source": "GBHackers",
-        "summary": "PortSwigger has launched Burp AT, an agentic AI system that allows penetration testers to delegate web security investigation tasks while maintaining direct control over the testing scope, approvals, ",
-        "cve": []
-    },
-    {
-        "title": "Dysphoria IoT Botnet Uses Blockchain Domains and 200,000 Devices for DDoS Attacks",
-        "date": "Tue, 28 Jul 2026 07:47:15 +0000",
-        "url": "https://gbhackers.com/dysphoria-iot-botnet/",
-        "source": "GBHackers",
-        "summary": "A rapidly evolving IoT botnet dubbed “Dysphoria” has emerged as a significant global threat, leveraging blockchain-based domain resolution and a hybrid command-and-control (C2) architecture to sustain",
-        "cve": []
-    },
-    {
-        "title": "Hackers Pose as IT Helpdesk on Microsoft Teams to Deploy GoGRPC Backdoor",
-        "date": "Tue, 28 Jul 2026 06:34:15 +0000",
-        "url": "https://gbhackers.com/gogrpc-backdoor-deployed/",
-        "source": "GBHackers",
-        "summary": "An evolving intrusion campaign in which threat actors impersonate IT helpdesk personnel via Microsoft Teams to gain initial access and deploy a custom Go-based backdoor dubbed “GoGRPC.” Active since J",
-        "cve": []
-    },
-    {
-        "title": "Multiple FFmpeg Flaws Allow Arbitrary Memory Corruption via Malicious Videos",
-        "date": "Tue, 28 Jul 2026 06:17:31 +0000",
-        "url": "https://gbhackers.com/multiple-ffmpeg-flaws/",
-        "source": "GBHackers",
-        "summary": "Multiple high-severity vulnerabilities in FFmpeg could allow attackers to corrupt memory, disclose process data, or exhaust system resources. This can happen if users or automated media-processing ser",
-        "cve": []
-    },
-    {
-        "title": "Operation STANDOFF Uses GitHub Redirects Across 44 Servers to Hide Multi-Malware C2 Traffic",
-        "date": "Tue, 28 Jul 2026 05:45:30 +0000",
-        "url": "https://gbhackers.com/operation-standoff-uses-github/",
-        "source": "GBHackers",
-        "summary": "Operation STANDOFF is a Russian‑speaking cybercriminal campaign that uses a cluster of at least 44 TimeWeb‑hosted servers that all masquerade as benign GitHub redirectors to conceal multi‑malware comm",
-        "cve": []
-    },
-    {
-        "title": "Apple iOS 26.6 Update Fixes Flaws Allowing Kernel-Level Code Execution and Root Access",
-        "date": "Tue, 28 Jul 2026 05:38:59 +0000",
-        "url": "https://gbhackers.com/apple-ios-26-6-update-fixes-flaws/",
-        "source": "GBHackers",
-        "summary": "Apple has released iOS 26.6 and iPadOS 26.6, a significant security update that addresses numerous vulnerabilities across core operating system components, media frameworks, WebKit, wireless services,",
         "cve": []
     }
 ]
