@@ -1,6 +1,8 @@
 name: Update Security News
 
+permissions:
 
+  contents: write
 on:
 
   schedule:
