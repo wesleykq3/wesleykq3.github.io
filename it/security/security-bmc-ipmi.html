@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>
+24,650个暴露互联网的BMC泄露IPMI密码哈希
+</title>
+
+
+<style>
+
+
+body {
+
+    margin:0;
+
+    padding:30px;
+
+    background:#f5f7fa;
+
+    font-family:
+    "Microsoft YaHei",
+    Arial,
+    sans-serif;
+
+    color:#333;
+
+}
+
+
+.container{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:10px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.1);
+
+}
+
+
+
+.article-title{
+
+    text-align:center;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    color:#2c3e50;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.article-date{
+
+    text-align:center;
+
+    color:#888;
+
+    font-size:16px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+h2{
+
+    color:#2980b9;
+
+    border-left:5px solid #2980b9;
+
+    padding-left:12px;
+
+    margin-top:35px;
+
+}
+
+
+
+p{
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+
+
+.code{
+
+    background:#f4f4f4;
+
+    padding:20px;
+
+    border-radius:8px;
+
+    font-family:
+    Consolas,
+    monospace;
+
+    white-space:pre-line;
+
+}
+
+
+
+.warning{
+
+    background:#fff3cd;
+
+    padding:15px;
+
+    border-radius:8px;
+
+    border-left:5px solid #ffc107;
+
+}
+
+
+
+.footer{
+
+    margin-top:40px;
+
+    text-align:center;
+
+    color:#888;
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<div class="article-title">
+
+24,650个暴露互联网的BMC泄露IPMI密码哈希
+
+</div>
+
+
+<div class="article-date">
+
+发布日期：2026-07-28
+
+</div>
+
+
+
+<h2>
+一、事件概述
+</h2>
+
+
+<p>
+
+安全研究人员发现，大量服务器
+BMC（Baseboard Management Controller）
+管理接口暴露在互联网中，其中部分设备由于
+IPMI协议设计缺陷，在登录认证之前即可泄露密码相关认证哈希。
+
+</p>
+
+
+<p>
+
+研究发现：
+
+超过36000个互联网暴露的服务器管理接口运行IPMI服务，
+
+其中约24650个BMC设备可能泄露密码派生认证数据。
+
+攻击者无需登录BMC，即可获取认证信息，并进行离线密码破解。
+
+</p>
+
+
+
+<div class="warning">
+
+风险等级：
+
+高风险
+
+<br><br>
+
+影响：
+
+服务器远程管理接口暴露、弱密码破解、数据中心基础设施风险。
+
+</div>
+
+
+
+<h2>
+二、什么是BMC？
+</h2>
+
+
+<p>
+
+BMC（Baseboard Management Controller）
+
+是一种独立于操作系统运行的服务器管理芯片。
+
+它负责：
+
+</p>
+
+
+<div class="code">
+
+服务器开关机控制
+
+远程Console访问
+
+BIOS配置
+
+固件升级
+
+硬件状态监控
+
+服务器恢复管理
+
+</div>
+
+
+<p>
+
+由于BMC属于带外管理（Out-of-Band Management），
+
+即使操作系统被重新安装，攻击者仍可能通过BMC保持访问。
+
+</p>
+
+
+
+<h2>
+三、漏洞原理
+</h2>
+
+
+<p>
+
+问题核心来自：
+
+IPMI v2.0协议中的设计缺陷。
+
+漏洞编号：
+
+<b>CVE-2013-4786</b>
+
+</p>
+
+
+<p>
+
+该漏洞允许远程攻击者通过IPMI认证流程获取HMAC认证数据，
+
+随后进行离线密码猜测攻击。
+
+</p>
+
+
+
+<div class="code">
+
+
+攻击者
+
+↓
+
+访问公网UDP 623端口
+
+↓
+
+发送IPMI认证请求
+
+↓
+
+获取RAKP认证响应
+
+↓
+
+获得密码哈希材料
+
+↓
+
+离线破解密码
+
+↓
+
+登录BMC管理接口
+
+
+</div>
+
+
+
+<h2>
+四、为什么风险严重？
+</h2>
+
+
+<p>
+
+传统Web攻击通常需要：
+
+</p>
+
+
+<div class="code">
+
+漏洞
+
+↓
+
+利用代码
+
+↓
+
+服务器权限
+
+</div>
+
+
+<p>
+
+而BMC攻击直接针对服务器底层管理组件：
+
+</p>
+
+
+<div class="code">
+
+
+攻击BMC
+
+↓
+
+控制服务器硬件
+
+↓
+
+安装恶意固件
+
+↓
+
+绕过操作系统安全控制
+
+↓
+
+长期保持访问
+
+
+</div>
+
+
+
+<h2>
+五、受影响设备风险
+</h2>
+
+
+<p>
+
+研究人员发现：
+
+</p>
+
+
+<ul>
+
+<li>
+大量服务器管理接口直接暴露公网
+</li>
+
+<li>
+部分设备仍使用默认密码
+</li>
+
+<li>
+部分密码符合厂商默认格式
+</li>
+
+<li>
+GPU服务器和数据中心设备同样存在风险
+</li>
+
+</ul>
+
+
+
+<h2>
+六、攻击者可能进行的操作
+</h2>
+
+
+<ul>
+
+<li>
+远程控制服务器电源
+</li>
+
+<li>
+访问服务器Console
+</li>
+
+<li>
+修改BIOS配置
+</li>
+
+<li>
+安装持久化恶意程序
+</li>
+
+<li>
+绕过操作系统安全防护
+</li>
+
+<li>
+进一步攻击数据中心网络
+</li>
+
+</ul>
+
+
+
+<h2>
+七、企业防护措施
+</h2>
+
+
+<p>
+
+建议管理员：
+
+</p>
+
+
+<div class="code">
+
+
+1.禁止BMC直接暴露互联网
+
+
+2.阻断公网访问UDP 623端口
+
+
+3.将BMC放入独立管理网络
+
+
+4.立即修改默认密码
+
+
+5.使用复杂随机密码
+
+
+6.关闭旧版IPMI功能
+
+
+7.限制管理员访问来源
+
+
+</div>
+
+
+
+<h2>
+八、安全检测建议
+</h2>
+
+
+<p>
+
+企业可以检查：
+
+</p>
+
+
+<div class="code">
+
+
+扫描公网UDP 623端口
+
+
+检查BMC暴露情况
+
+
+检查默认账号
+
+
+检查异常BMC登录日志
+
+
+监控服务器硬件管理行为
+
+
+</div>
+
+
+
+<h2>
+九、安全启示
+</h2>
+
+
+<p>
+
+很多企业重点保护：
+
+</p>
+
+
+<div class="code">
+
+Web服务器
+
+数据库
+
+应用系统
+
+</div>
+
+
+<p>
+
+但忽略了：
+
+</p>
+
+
+<div class="code">
+
+服务器管理层
+
+BMC
+
+固件
+
+带外管理接口
+
+</div>
+
+
+<p>
+
+攻击者一旦控制BMC，
+
+可以绕过传统安全软件，实现长期驻留。
+
+</p>
+
+
+
+<h2>
+十、面试问题
+</h2>
+
+
+<p>
+
+<b>
+Q1：什么是BMC？
+</b>
+
+</p>
+
+<p>
+
+答：
+
+BMC是服务器主板上的独立管理控制器，用于远程管理服务器硬件，即使操作系统不可用也可以进行维护。
+
+</p>
+
+
+
+<p>
+
+<b>
+Q2：为什么BMC暴露公网危险？
+</b>
+
+</p>
+
+<p>
+
+答：
+
+因为BMC拥有高权限管理能力，攻击者成功访问后可以控制服务器硬件和部署持久化攻击。
+
+</p>
+
+
+
+<p>
+
+<b>
+Q3：CVE-2013-4786是什么类型漏洞？
+</b>
+
+</p>
+
+<p>
+
+答：
+
+IPMI v2.0协议认证信息泄露漏洞，可导致攻击者获取认证哈希并进行离线密码破解。
+
+</p>
+
+
+
+<div class="footer">
+
+来源：The Hacker News<br>
+
+分类：服务器安全 / 网络安全 / 漏洞分析
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>
