@@ -238,5 +238,165 @@
         "source": "CyberSecurityNews",
         "summary": "A new Microsoft Teams vishing campaign is using fake IT support calls to gain remote access to corporate systems. The attackers then deploy GoGRPC, a Go-based backdoor that can run commands, collect s",
         "cve": []
+    },
+    {
+        "title": "LG to Ban Residential Proxies from Smart TV Apps",
+        "date": "Wed, 22 Jul 2026 01:10:38 +0000",
+        "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+        "source": "krebsonsecurity",
+        "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Patches a Record 570 Security Flaws",
+        "date": "Tue, 14 Jul 2026 19:22:42 +0000",
+        "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+        "source": "krebsonsecurity",
+        "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant ",
+        "cve": []
+    },
+    {
+        "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+        "date": "Mon, 13 Jul 2026 15:03:28 +0000",
+        "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+        "source": "krebsonsecurity",
+        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys --",
+        "cve": []
+    },
+    {
+        "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+        "date": "Wed, 08 Jul 2026 12:31:39 +0000",
+        "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+        "source": "krebsonsecurity",
+        "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most",
+        "cve": []
+    },
+    {
+        "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+        "date": "Thu, 02 Jul 2026 19:27:33 +0000",
+        "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+        "source": "krebsonsecurity",
+        "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicl",
+        "cve": []
+    },
+    {
+        "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+        "date": "Tue, 23 Jun 2026 16:12:49 +0000",
+        "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+        "source": "krebsonsecurity",
+        "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport ",
+        "cve": []
+    },
+    {
+        "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+        "date": "Thu, 18 Jun 2026 17:37:58 +0000",
+        "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+        "source": "krebsonsecurity",
+        "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-s",
+        "cve": []
+    },
+    {
+        "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+        "date": "Wed, 10 Jun 2026 14:03:44 +0000",
+        "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+        "source": "krebsonsecurity",
+        "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strateg",
+        "cve": []
+    },
+    {
+        "title": "A Record-Breaking Patch Tuesday for June 2026",
+        "date": "Tue, 09 Jun 2026 22:07:28 +0000",
+        "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+        "source": "krebsonsecurity",
+        "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesda",
+        "cve": []
+    },
+    {
+        "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+        "date": "Mon, 01 Jun 2026 17:32:50 +0000",
+        "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+        "source": "krebsonsecurity",
+        "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions be",
+        "cve": []
+    },
+    {
+        "title": "Tengu Mirai Botnet Uses Watchdog Reboots and Binary Bricking to Resist Removal",
+        "date": "Tue, 28 Jul 2026 09:47:56 +0000",
+        "url": "https://gbhackers.com/tengu-mirai-botnet-uses-watchdog/",
+        "source": "GBHackers",
+        "summary": "Tengu, a newly observed Mirai-derived botnet, is demonstrating how modern IoT malware is rapidly evolving beyond traditional distributed denial-of-service (DDoS) operations by integrating persistence,",
+        "cve": []
+    },
+    {
+        "title": "Fake ShinyHunters Emails Give Victims 48 Hours to Pay $2,000 Bitcoin Ransom",
+        "date": "Tue, 28 Jul 2026 09:14:09 +0000",
+        "url": "https://gbhackers.com/fake-shinyhunters-emails/",
+        "source": "GBHackers",
+        "summary": "Fake ShinyHunters-themed sextortion emails are abusing data from recent ShinyHunters leaks to threaten victims with the release of fabricated “webcam recordings” unless a 2,000 dollar Bitcoin ransom i",
+        "cve": []
+    },
+    {
+        "title": "LegacyHive Exploit Abuses Windows Profile Loading to Hijack User Registry Hives",
+        "date": "Tue, 28 Jul 2026 08:16:39 +0000",
+        "url": "https://gbhackers.com/legacyhive-exploit-abuses-windows-profile-loading/",
+        "source": "GBHackers",
+        "summary": "LegacyHive is a newly discovered proof-of-concept (PoC) for Windows that exploits profile initialization and offline registry hive manipulation to redirect user-level registry paths, potentially allow",
+        "cve": []
+    },
+    {
+        "title": "Top 10 Best VPN Alternatives For Secure Remote Access in 2026",
+        "date": "Tue, 28 Jul 2026 07:58:32 +0000",
+        "url": "https://gbhackers.com/best-vpn-alternatives/",
+        "source": "GBHackers",
+        "summary": "In the rapidly evolving landscape of 2026, the traditional VPN is increasingly showing its age. While a VPN creates a secure, encrypted tunnel to a private network, it often functions like an &#8220;a",
+        "cve": []
+    },
+    {
+        "title": "PortSwigger Introduces Burp AT Agentic AI for Automated Penetration Testing",
+        "date": "Tue, 28 Jul 2026 07:48:45 +0000",
+        "url": "https://gbhackers.com/portswigger-launches-burp-at-agentic-ai/",
+        "source": "GBHackers",
+        "summary": "PortSwigger has launched Burp AT, an agentic AI system that allows penetration testers to delegate web security investigation tasks while maintaining direct control over the testing scope, approvals, ",
+        "cve": []
+    },
+    {
+        "title": "Dysphoria IoT Botnet Uses Blockchain Domains and 200,000 Devices for DDoS Attacks",
+        "date": "Tue, 28 Jul 2026 07:47:15 +0000",
+        "url": "https://gbhackers.com/dysphoria-iot-botnet/",
+        "source": "GBHackers",
+        "summary": "A rapidly evolving IoT botnet dubbed “Dysphoria” has emerged as a significant global threat, leveraging blockchain-based domain resolution and a hybrid command-and-control (C2) architecture to sustain",
+        "cve": []
+    },
+    {
+        "title": "Hackers Pose as IT Helpdesk on Microsoft Teams to Deploy GoGRPC Backdoor",
+        "date": "Tue, 28 Jul 2026 06:34:15 +0000",
+        "url": "https://gbhackers.com/gogrpc-backdoor-deployed/",
+        "source": "GBHackers",
+        "summary": "An evolving intrusion campaign in which threat actors impersonate IT helpdesk personnel via Microsoft Teams to gain initial access and deploy a custom Go-based backdoor dubbed “GoGRPC.” Active since J",
+        "cve": []
+    },
+    {
+        "title": "Multiple FFmpeg Flaws Allow Arbitrary Memory Corruption via Malicious Videos",
+        "date": "Tue, 28 Jul 2026 06:17:31 +0000",
+        "url": "https://gbhackers.com/multiple-ffmpeg-flaws/",
+        "source": "GBHackers",
+        "summary": "Multiple high-severity vulnerabilities in FFmpeg could allow attackers to corrupt memory, disclose process data, or exhaust system resources. This can happen if users or automated media-processing ser",
+        "cve": []
+    },
+    {
+        "title": "Operation STANDOFF Uses GitHub Redirects Across 44 Servers to Hide Multi-Malware C2 Traffic",
+        "date": "Tue, 28 Jul 2026 05:45:30 +0000",
+        "url": "https://gbhackers.com/operation-standoff-uses-github/",
+        "source": "GBHackers",
+        "summary": "Operation STANDOFF is a Russian‑speaking cybercriminal campaign that uses a cluster of at least 44 TimeWeb‑hosted servers that all masquerade as benign GitHub redirectors to conceal multi‑malware comm",
+        "cve": []
+    },
+    {
+        "title": "Apple iOS 26.6 Update Fixes Flaws Allowing Kernel-Level Code Execution and Root Access",
+        "date": "Tue, 28 Jul 2026 05:38:59 +0000",
+        "url": "https://gbhackers.com/apple-ios-26-6-update-fixes-flaws/",
+        "source": "GBHackers",
+        "summary": "Apple has released iOS 26.6 and iPadOS 26.6, a significant security update that addresses numerous vulnerabilities across core operating system components, media frameworks, WebKit, wireless services,",
+        "cve": []
     }
 ]
