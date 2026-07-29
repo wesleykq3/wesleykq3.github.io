@@ -1,5 +1,45 @@
 [
     {
+        "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+        "date": "Wed, 29 Jul 2026 13:54:05 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+        "source": "BleepingComputer",
+        "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHu",
+        "cve": []
+    },
+    {
+        "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+        "date": "Wed, 29 Jul 2026 12:04:59 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+        "source": "BleepingComputer",
+        "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of t",
+        "cve": []
+    },
+    {
+        "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
+        "date": "Wed, 29 Jul 2026 10:55:57 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+        "source": "BleepingComputer",
+        "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated",
+        "cve": []
+    },
+    {
+        "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+        "date": "Wed, 29 Jul 2026 10:02:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+        "source": "BleepingComputer",
+        "summary": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege ar",
+        "cve": []
+    },
+    {
+        "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
+        "date": "Wed, 29 Jul 2026 09:56:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
+        "source": "BleepingComputer",
+        "summary": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
+        "cve": []
+    },
+    {
         "title": "These near-mint ASUS Chromebook refurbs are only $145",
         "date": "Wed, 29 Jul 2026 07:12:19 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
@@ -40,43 +80,43 @@
         "cve": []
     },
     {
-        "title": "Is Your SSO Protected Against Modern Credential Attacks?",
-        "date": "Tue, 28 Jul 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
-        "source": "BleepingComputer",
-        "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity harde",
+        "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+        "date": "Wed, 29 Jul 2026 23:40:00 +0530",
+        "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+        "source": "The Hacker News",
+        "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTrac",
         "cve": []
     },
     {
-        "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
-        "date": "Tue, 28 Jul 2026 08:10:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
-        "source": "BleepingComputer",
-        "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
+        "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+        "date": "Wed, 29 Jul 2026 21:09:30 +0530",
+        "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated rem",
         "cve": []
     },
     {
-        "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
-        "date": "Tue, 28 Jul 2026 05:10:03 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
-        "source": "BleepingComputer",
-        "summary": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
+        "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+        "date": "Wed, 29 Jul 2026 21:01:15 +0530",
+        "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+        "source": "The Hacker News",
+        "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\n\nThe firs",
         "cve": []
     },
     {
-        "title": "Hackers target US firms in FastJson RCE zero-day attacks",
-        "date": "Mon, 27 Jul 2026 19:49:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]",
+        "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+        "date": "Wed, 29 Jul 2026 19:18:36 +0530",
+        "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+        "source": "The Hacker News",
+        "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\n\nBraham, Plymouth, South S",
         "cve": []
     },
     {
-        "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-        "date": "Mon, 27 Jul 2026 18:49:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
+        "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+        "date": "Wed, 29 Jul 2026 19:12:57 +0530",
+        "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international fir",
         "cve": []
     },
     {
@@ -117,126 +157,6 @@
         "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
         "source": "The Hacker News",
         "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-        "date": "Wed, 29 Jul 2026 13:21:00 +0530",
-        "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
-        "source": "The Hacker News",
-        "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-p",
-        "cve": []
-    },
-    {
-        "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-        "date": "Wed, 29 Jul 2026 13:17:19 +0530",
-        "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
-        "source": "The Hacker News",
-        "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git",
-        "cve": []
-    },
-    {
-        "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
-        "date": "Wed, 29 Jul 2026 12:37:23 +0530",
-        "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
-        "source": "The Hacker News",
-        "summary": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control pa",
-        "cve": []
-    },
-    {
-        "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
-        "date": "Wed, 29 Jul 2026 09:50:57 +0530",
-        "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
-        "source": "The Hacker News",
-        "summary": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected p",
-        "cve": []
-    },
-    {
-        "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-        "date": "Wed, 29 Jul 2026 00:29:07 +0530",
-        "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-        "source": "The Hacker News",
-        "summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a p",
-        "cve": []
-    },
-    {
-        "title": "Hackers Can Hijack Tor Browser Users Through a Single Malicious Web Page",
-        "date": "Wed, 29 Jul 2026 13:40:13 +0000",
-        "url": "https://cybersecuritynews.com/hackers-can-compromise-your-tor-browser/",
-        "source": "CyberSecurityNews",
-        "summary": "A single malicious webpage is enough to compromise Tor Browser users running an unpatched build, following newly disclosed research into CVE-2026-10702. The flaw, a high-severity Firefox JavaScript en",
-        "cve": []
-    },
-    {
-        "title": "Revolut Alleged Data Breach – Hackers Claiming to Access Over 75 Million Users’ Records",
-        "date": "Wed, 29 Jul 2026 13:18:43 +0000",
-        "url": "https://cybersecuritynews.com/revolut-alleged-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "Revolut is currently under scrutiny after hackers claimed to be selling a database containing records of more than 75 million users. However, the company asserts that it has found no evidence of a new",
-        "cve": []
-    },
-    {
-        "title": "Russia Charges Telegram CEO Pavel Durov With Aiding Terrorism, Issues Arrest Warrant",
-        "date": "Wed, 29 Jul 2026 12:40:46 +0000",
-        "url": "https://cybersecuritynews.com/russia-charges-telegram-ceo-pavel-durov/",
-        "source": "CyberSecurityNews",
-        "summary": "Russia’s Federal Security Service (FSB) has formally charged Telegram founder and CEO Pavel Durov with aiding terrorism and issued a warrant for his arrest, escalating a long-running clash between the",
-        "cve": []
-    },
-    {
-        "title": "Houston City College Data Breach Exposes 832k Unique Student Email Addresses",
-        "date": "Wed, 29 Jul 2026 12:31:13 +0000",
-        "url": "https://cybersecuritynews.com/houston-city-college-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "Houston City College has experienced a serious data breach that exposed sensitive personal information of approximately 832,000 unique students and alums. This incident is linked to a cyber extortion ",
-        "cve": []
-    },
-    {
-        "title": "Fake Recruiters Target Web3 Developers Through Trusted Bitbucket and npm Workflows",
-        "date": "Wed, 29 Jul 2026 12:05:36 +0000",
-        "url": "https://cybersecuritynews.com/fake-recruiter-web3-developers/",
-        "source": "CyberSecurityNews",
-        "summary": "A new wave of job scams is hitting Web3 developers who are simply looking for their next role. Attackers pose as recruiters, start friendly chats about interviews, and then steer candidates toward a f",
-        "cve": []
-    },
-    {
-        "title": "AsyncAPI Malware Contains Modules to Steal GitHub, npm, Cloud and AI API Credentials",
-        "date": "Wed, 29 Jul 2026 11:27:46 +0000",
-        "url": "https://cybersecuritynews.com/asyncapi-malware-contains-modules/",
-        "source": "CyberSecurityNews",
-        "summary": "A dangerous supply chain attack struck the AsyncAPI project on the npm registry, putting developers and automated build systems at risk. Attackers republished five package versions in about ninety min",
-        "cve": []
-    },
-    {
-        "title": "Critical VMware Flaws Allow Attackers to Bypass Authentication and Gain Access to the System",
-        "date": "Wed, 29 Jul 2026 11:16:14 +0000",
-        "url": "https://cybersecuritynews.com/vmware-flaws-allow-authentication-bypass/",
-        "source": "CyberSecurityNews",
-        "summary": "Broadcom has released a critical security advisory, VMSA-2026-0006, addressing multiple high-impact vulnerabilities across core VMware virtualization platforms, including vCenter, ESX, Workstation, Fu",
-        "cve": []
-    },
-    {
-        "title": "VulnGym Uses AI-Trained APT Attackers to Stress-Test Enterprise Patching Strategies",
-        "date": "Wed, 29 Jul 2026 11:04:33 +0000",
-        "url": "https://cybersecuritynews.com/vulngym-uses-ai-apt-attackers/",
-        "source": "CyberSecurityNews",
-        "summary": "A new cybersecurity research tool called VulnGym utilizes reinforcement learning to simulate AI-trained advanced persistent threat (APT) attackers targeting enterprise patching programs. This platform",
-        "cve": []
-    },
-    {
-        "title": "A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online",
-        "date": "Wed, 29 Jul 2026 10:59:33 +0000",
-        "url": "https://cybersecuritynews.com/a-leaked-android-rat/",
-        "source": "CyberSecurityNews",
-        "summary": "A leaked Android remote access trojan called Flying Eagle is being used across a large and growing criminal network. The toolkit lets operators create fake Android apps, take control of infected phone",
-        "cve": []
-    },
-    {
-        "title": "CISA Releases Checklist for Critical Infrastructure Organizations to Isolate Vital Systems",
-        "date": "Wed, 29 Jul 2026 10:42:05 +0000",
-        "url": "https://cybersecuritynews.com/cisa-and-partners-release-checklist/",
-        "source": "CyberSecurityNews",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA), in collaboration with the Australian Signals Directorate’s Australian Cyber Security Center (ASD’s ACSC), the Federal Bureau of Investigati",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Critical Ruflo MCP Bridge Flaw Allows Full AI Agent Platform Takeover",
-        "date": "Wed, 29 Jul 2026 13:51:23 +0000",
-        "url": "https://gbhackers.com/critical-ruflo-mcp-bridge-flaw/",
-        "source": "GBHackers",
-        "summary": "A critical vulnerability in the open-source AI orchestration platform Ruflo has been disclosed, allowing unauthenticated attackers to achieve full remote code execution (RCE) with a single HTTP reques",
+        "title": "Intel Graphics Driver Support For Xe3 \"Peak Bandwidth Threshold\" Feature In Linux 7.3",
+        "date": "Wed, 29 Jul 2026 09:12:09 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Linux-7.3-Peak-Bandwidth",
+        "source": "Phoronix",
+        "summary": "Intel today sent out their latest batch of kernel graphics driver updates that are ready for staging ahead of next month's Linux 7.3 merge window...",
         "cve": []
     },
     {
-        "title": "Critical VMware vCenter Flaws Let Remote Attackers Bypass Authentication and Execute Code",
-        "date": "Wed, 29 Jul 2026 13:37:35 +0000",
-        "url": "https://gbhackers.com/critical-vmware-vcenter-flaws/",
-        "source": "GBHackers",
-        "summary": "Broadcom has released important security updates addressing critical vulnerabilities in VMware that could allow remote attackers to bypass vCenter authentication or execute arbitrary code. These vulne",
+        "title": "Valve Sponsors Work Bringing Open-Source RADV Driver To Windows",
+        "date": "Wed, 29 Jul 2026 06:35:22 -0400",
+        "url": "https://www.phoronix.com/news/Valve-Sponsors-RADV-Windows",
+        "source": "Phoronix",
+        "summary": "Valve has been sponsoring Collabora engineers with early phase, exploratory work for trying to bring the open-source Radeon Vulkan \"RADV\" driver to Microsoft Windows...",
         "cve": []
     },
     {
-        "title": "macOS ClickFix Attacks Use Fake CAPTCHAs to Deploy Atomic Stealer and Hijack Crypto Wallets",
-        "date": "Wed, 29 Jul 2026 12:42:49 +0000",
-        "url": "https://gbhackers.com/macos-clickfix-attacks-use-fake-captchas/",
-        "source": "GBHackers",
-        "summary": "macOS users are facing a new, highly polished ClickFix campaign that abuses fake CAPTCHAs to execute Terminal commands, silently deploy Atomic macOS Stealer (AMOS), and systematically loot crypto wall",
+        "title": "Vibe Coded X11 YSERVER Gets Steam Working, Full-Screen Games With Cinnamon",
+        "date": "Wed, 29 Jul 2026 06:19:44 -0400",
+        "url": "https://www.phoronix.com/news/YSERVER-1.4",
+        "source": "Phoronix",
+        "summary": "A new software creation that debuted this summer was YSERVER as a modern X11 server written in Rust largely by AI via Claude Code. This YSERVER implementation has continued implementing more X11 proto",
         "cve": []
     },
     {
-        "title": "Russian Intelligence Hackers Target Signal Backup Recovery Keys in Account Takeover Attacks",
-        "date": "Wed, 29 Jul 2026 11:51:54 +0000",
-        "url": "https://gbhackers.com/signal-keys-targeted/",
-        "source": "GBHackers",
-        "summary": "Russian intelligence-linked hackers have shifted tactics to target Signal users’ backup recovery keys, enabling full account takeover and access to historical message archives without breaking Signal’",
+        "title": "FreeBSD's Kernel Still Has A Bit Of GPL Code While Its Base User-Space Is GPL-Free",
+        "date": "Wed, 29 Jul 2026 05:57:59 -0400",
+        "url": "https://www.phoronix.com/news/FreeBSD-Bits-Of-GPL-Kernel",
+        "source": "Phoronix",
+        "summary": "A few weeks ago there was excitement in the FreeBSD camp with FreeBSD 16 set to retire the last of its GPL code from the base system. While the retiring of the dialog code proclaimed that it was the l",
         "cve": []
     },
     {
-        "title": "NVIDIA BlueField Flaw Lets VM Users Execute Code via Crafted Messages",
-        "date": "Wed, 29 Jul 2026 11:41:30 +0000",
-        "url": "https://gbhackers.com/nvidia-bluefield-flaw/",
-        "source": "GBHackers",
-        "summary": "NVIDIA has revealed a significant security vulnerability in its BlueField data processing units (DPUs) that could allow virtual machine (VM) users to execute arbitrary code through specially crafted n",
+        "title": "GCC To Decline Any Significant Contributions Made Via AI/LLMs - Except For Test Cases",
+        "date": "Wed, 29 Jul 2026 05:43:31 -0400",
+        "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
+        "source": "Phoronix",
+        "summary": "The GCC Steering Committee announced today that they have accepted the recommended policy of the GCC AI Policy Working Group, which means no \"legally significant\" code contributions made via AI/LLM ag",
         "cve": []
     },
     {
-        "title": "Threat Actor Claims Revolut Data Breach Exposes Financial Records of 75 Million Users",
-        "date": "Wed, 29 Jul 2026 11:36:22 +0000",
-        "url": "https://gbhackers.com/threat-actor-claims-revolut-data-breach/",
-        "source": "GBHackers",
-        "summary": "A threat actor has reportedly claimed to possess and sell a large dataset allegedly linked to the fintech company Revolut, purportedly affecting more than 757 million users. This claim, circulated by ",
+        "title": "ARCTIC Launches Its New Fan Controller That Already Has Mainline Linux Support",
+        "date": "Tue, 28 Jul 2026 20:38:00 -0400",
+        "url": "https://www.phoronix.com/news/ARCTIC-Fan-Controller-Launches",
+        "source": "Phoronix",
+        "summary": "In over 22 years of Linux hardware reviews and testing at Phoronix, I have never been more excited for a fan controller... ARCTIC today launched their new Fan Controller and in making the product very",
         "cve": []
     },
     {
-        "title": "CISA Urges Critical Infrastructure Operators to Isolate Vital OT Systems During Cyberattacks",
-        "date": "Wed, 29 Jul 2026 11:04:25 +0000",
-        "url": "https://gbhackers.com/cisa-urges-critical-infrastructure-operators-to-isolate-vital-ot-systems/",
-        "source": "GBHackers",
-        "summary": "CISA, in collaboration with the Australian Signals Directorate&#8217;s Australian Cyber Security Center (ASD&#8217;s ACSC), the FBI, and international partners, has released new joint guidance titled ",
+        "title": "Starling: A New Linux Desktop Written In Swift, Own Wayland Compositor & Written With AI",
+        "date": "Tue, 28 Jul 2026 11:50:00 -0400",
+        "url": "https://www.phoronix.com/news/Starling-Swift-Desktop",
+        "source": "Phoronix",
+        "summary": "There's yet another new open-source desktop option for Linux users in the era of new open-source projects largely written via AI/LLMs. Starling is this new project largely written via Claude and using",
         "cve": []
     },
     {
-        "title": "Joyfill npm Supply-Chain Attack Deploys RAT and Developer Credential Stealer",
-        "date": "Wed, 29 Jul 2026 10:47:01 +0000",
-        "url": "https://gbhackers.com/joyfill-npm-supply-chain-attack/",
-        "source": "GBHackers",
-        "summary": "A supply-chain compromise targeting the npm ecosystem has introduced a multi-stage remote access trojan (RAT) and credential stealer through hijacked Joyfill packages, highlighting an increasingly sop",
+        "title": "CachyOS Outperforming Windows 11, Slight Advantage Over Ubuntu & Fedora On AMD Ryzen AI 9 HX 470",
+        "date": "Tue, 28 Jul 2026 10:04:04 -0400",
+        "url": "https://www.phoronix.com/review/amd-hx470-windows-linux",
+        "source": "Phoronix",
+        "summary": "A recent mini PC being benchmarked at Phoronix is the BOSGAME VTA-439 that employs the new AMD Ryzen AI 9 HX 470 Gorgon Point SoC. With the BOSGAME mini PC having shipped with Microsoft Windows 11, he",
         "cve": []
     },
     {
-        "title": "Houston City College Data Breach Impacts 832,000 Students and Alumni",
-        "date": "Wed, 29 Jul 2026 10:34:29 +0000",
-        "url": "https://gbhackers.com/houston-city-college-data-breach-impacts-832000/",
-        "source": "GBHackers",
-        "summary": "Houston City College has been linked to a significant data breach that has affected approximately 832,000 students and alums. This breach occurred in June 2026 when data allegedly stolen during an ext",
+        "title": "AMD P-State Linux Driver Patches Can Boost 1%-Low FPS Gaming Performance By 31%",
+        "date": "Tue, 28 Jul 2026 06:03:00 -0400",
+        "url": "https://www.phoronix.com/news/AMD-P-State-Better-1p-Lows",
+        "source": "Phoronix",
+        "summary": "A set of patches posted today to the Linux kernel mailing list implement per-core Energy Performance Preference (EPP) boosting for recently-busy CPUs. This feature is designed to have a dramatic impac",
         "cve": []
     },
     {
-        "title": "Fake Web3 Job Interview Software Delivers Infostealer to Steal Crypto Wallets and Passwords",
-        "date": "Wed, 29 Jul 2026 09:54:33 +0000",
-        "url": "https://gbhackers.com/fake-web3-job-interview-software/",
-        "source": "GBHackers",
-        "summary": "A newly uncovered cyber campaign is targeting Web3 professionals with sophisticated social engineering, leveraging fake job interviews to deploy cross-platform infostealer malware designed to harvest ",
+        "title": "KDE Developer Fixing Long-Standing Bug Over Very Long Small-File Copy Times",
+        "date": "Tue, 28 Jul 2026 05:50:02 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Ridiculous-File-Copy-Times",
+        "source": "Phoronix",
+        "summary": "Since 2014 there has been a KDE bug report titled Ridiculously slow file copy (multiple small files). With the Dolphin file manager or other KIO-based KDE programs, copying many small files can be muc",
         "cve": []
     }
 ]
