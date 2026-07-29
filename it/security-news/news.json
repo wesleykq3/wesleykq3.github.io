@@ -1,5 +1,21 @@
 [
     {
+        "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+        "date": "Tue, 28 Jul 2026 17:17:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+        "source": "BleepingComputer",
+        "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
+        "cve": []
+    },
+    {
+        "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+        "date": "Tue, 28 Jul 2026 16:37:06 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+        "source": "BleepingComputer",
+        "summary": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attac",
+        "cve": []
+    },
+    {
         "title": "CISA shares advice on isolating vital systems during cyberattacks",
         "date": "Tue, 28 Jul 2026 14:41:04 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
@@ -64,19 +80,11 @@
         "cve": []
     },
     {
-        "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-        "date": "Mon, 27 Jul 2026 17:00:25 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-        "source": "BleepingComputer",
-        "summary": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows",
-        "cve": []
-    },
-    {
-        "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-        "date": "Mon, 27 Jul 2026 13:29:07 -0400",
-        "url": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-        "source": "BleepingComputer",
-        "summary": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]",
+        "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+        "date": "Wed, 29 Jul 2026 00:29:07 +0530",
+        "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+        "source": "The Hacker News",
+        "summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a p",
         "cve": []
     },
     {
@@ -152,11 +160,83 @@
         "cve": []
     },
     {
-        "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
-        "date": "Mon, 27 Jul 2026 23:40:05 +0530",
-        "url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-        "source": "The Hacker News",
-        "summary": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.\n\n",
+        "title": "Claude Mythos Preview Discovers Cryptographic Weaknesses That Human Experts Missed for Years",
+        "date": "Tue, 28 Jul 2026 18:24:07 +0000",
+        "url": "https://cybersecuritynews.com/claude-mythos-cryptographic-weaknesses/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic researchers using Claude Mythos Preview have uncovered mathematical flaws in major cryptographic algorithms that human experts failed to spot for years. The AI found improved attacks against",
+        "cve": []
+    },
+    {
+        "title": "JetBrains Urging Customers to Patch Critical TeamCity Flaw that Enables OS Command Execution",
+        "date": "Tue, 28 Jul 2026 17:46:13 +0000",
+        "url": "https://cybersecuritynews.com/jetbrains-patch-teamcity-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "JetBrains has urgently released security updates for a critical vulnerability in TeamCity On-Premises that could allow remote attackers to bypass authentication and execute arbitrary operating system ",
+        "cve": []
+    },
+    {
+        "title": "Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",
+        "date": "Tue, 28 Jul 2026 17:40:32 +0000",
+        "url": "https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers/",
+        "source": "CyberSecurityNews",
+        "summary": "Global phishing-as-a-service (PhaaS) activity surged to 7,295 tracked uploads during the week of July 20-26, 2026, driven overwhelmingly by OAuth device-code flow abuse and adversary-in-the-middle (Ai",
+        "cve": []
+    },
+    {
+        "title": "Chrome Extension Monitors AI Conversations Across ChatGPT, Claude, Gemini, and Other Platforms",
+        "date": "Tue, 28 Jul 2026 17:24:03 +0000",
+        "url": "https://cybersecuritynews.com/chrome-extension-monitors-ai-conversations/",
+        "source": "CyberSecurityNews",
+        "summary": "A Chrome extension with roughly 100,000 installs is quietly harvesting every prompt and AI response typed across nine major artificial intelligence platforms. Despite its official listing and privacy ",
+        "cve": []
+    },
+    {
+        "title": "Nginx Buffer Overflow Vulnerability Allows Attackers to Execute Arbitrary Code – PoC Released",
+        "date": "Tue, 28 Jul 2026 16:46:41 +0000",
+        "url": "https://cybersecuritynews.com/nginx-buffer-overflow-vulnerability-2/",
+        "source": "CyberSecurityNews",
+        "summary": "A high-severity heap buffer overflow in NGINX Plus and NGINX Open Source can let unauthenticated attackers crash worker processes and, under certain conditions, run arbitrary code. Tracked as CVE-2026",
+        "cve": []
+    },
+    {
+        "title": "Aembit Joins Snowflake to Tackle AI’s Next Security Frontier: Trusted Agent Interoperability",
+        "date": "Tue, 28 Jul 2026 15:40:39 +0000",
+        "url": "https://cybersecuritynews.com/aembit-joins-snowflake-to-tackle-ais-next-security-frontier-trusted-agent-interoperability/",
+        "source": "CyberSecurityNews",
+        "summary": "Silver Spring, MD, USA, July 28th, 2026, CyberNewswire To reduce identity risk when third-party AI agents access business systems, Aembit is launching a new integration with Snowflake to help enterpri",
+        "cve": []
+    },
+    {
+        "title": "Apple iOS 26.6 Fixes Flaws Enabling Kernel Code Execution, Root Access and Sandbox Escape",
+        "date": "Tue, 28 Jul 2026 15:15:50 +0000",
+        "url": "https://cybersecuritynews.com/apple-ios-26-6-fixes-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Apple has released iOS 26.6 and iPadOS 26.6 to address a significant number of security vulnerabilities, including flaws that could allow malicious applications to execute code with kernel privileges,",
+        "cve": []
+    },
+    {
+        "title": "Fake Claude Code Install Guide Uses Google Ads to Deliver MacSync Infostealer",
+        "date": "Tue, 28 Jul 2026 13:23:35 +0000",
+        "url": "https://cybersecuritynews.com/fake-claude-code-install-guide/",
+        "source": "CyberSecurityNews",
+        "summary": "Fake Google Ads are being used to push a convincing Claude Code installation guide that delivers the MacSync infostealer to macOS users. The campaign turns an ordinary developer search into a path for",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploiting FastJson RCE 0-Day in the Wild to Attack US-based Organizations",
+        "date": "Tue, 28 Jul 2026 13:10:52 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploiting-fastjson-rce-0-day/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical vulnerability in FastJson, identified as CVE-2026-16723, is being exploited against organizations in the United States, putting Java applications that process untrusted JSON at immediate ri",
+        "cve": []
+    },
+    {
+        "title": "Origin Confirms Data Breach – Hackers Accessed 900,000 Customers’ Data",
+        "date": "Tue, 28 Jul 2026 13:01:41 +0000",
+        "url": "https://cybersecuritynews.com/origin-confirms-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Origin Energy, an Australian energy provider, has confirmed that unauthorized access to customer information has affected approximately 900,000 current and former customers. The company has completed ",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Starling: A New Linux Desktop Written In Swift, Own Wayland Compositor & Written With AI",
-        "date": "Tue, 28 Jul 2026 11:50:00 -0400",
-        "url": "https://www.phoronix.com/news/Starling-Swift-Desktop",
-        "source": "Phoronix",
-        "summary": "There's yet another new open-source desktop option for Linux users in the era of new open-source projects largely written via AI/LLMs. Starling is this new project largely written via Claude and using",
+        "title": "Aembit Joins Snowflake to Tackle AI’s Next Security Frontier: Trusted Agent Interoperability",
+        "date": "Tue, 28 Jul 2026 15:40:52 +0000",
+        "url": "https://gbhackers.com/aembit-joins-snowflake-to-tackle-ais-next-security-frontier-trusted-agent-interoperability/",
+        "source": "GBHackers",
+        "summary": "Silver Spring, MD, USA, July 28th, 2026, CyberNewswire To reduce identity risk when third-party AI agents access business systems, Aembit is launching a new integration with Snowflake to help enterpri",
         "cve": []
     },
     {
-        "title": "CachyOS Outperforming Windows 11, Slight Advantage Over Ubuntu & Fedora On AMD Ryzen AI 9 HX 470",
-        "date": "Tue, 28 Jul 2026 10:04:04 -0400",
-        "url": "https://www.phoronix.com/review/amd-hx470-windows-linux",
-        "source": "Phoronix",
-        "summary": "A recent mini PC being benchmarked at Phoronix is the BOSGAME VTA-439 that employs the new AMD Ryzen AI 9 HX 470 Gorgon Point SoC. With the BOSGAME mini PC having shipped with Microsoft Windows 11, he",
+        "title": "Fake Claude Code Installer Delivers MacSync macOS Infostealer Through Google Ads",
+        "date": "Tue, 28 Jul 2026 13:02:24 +0000",
+        "url": "https://gbhackers.com/fake-claude-code-installer-3/",
+        "source": "GBHackers",
+        "summary": "A highly convincing malvertising campaign is targeting macOS users searching for “how to install Claude Code on Mac,” delivering the MacSync infostealer through a trusted-looking workflow that abuses ",
         "cve": []
     },
     {
-        "title": "AMD P-State Linux Driver Patches Can Boost 1%-Low FPS Gaming Performance By 31%",
-        "date": "Tue, 28 Jul 2026 06:03:00 -0400",
-        "url": "https://www.phoronix.com/news/AMD-P-State-Better-1p-Lows",
-        "source": "Phoronix",
-        "summary": "A set of patches posted today to the Linux kernel mailing list implement per-core Energy Performance Preference (EPP) boosting for recently-busy CPUs. This feature is designed to have a dramatic impac",
+        "title": "Dismantled Kratos Phishing Kit Becomes Blueprint for Attacks on Microsoft 365 Users",
+        "date": "Tue, 28 Jul 2026 12:32:24 +0000",
+        "url": "https://gbhackers.com/dismantled-kratos-phishing-kit/",
+        "source": "GBHackers",
+        "summary": "The takedown of the Kratos phishing-as-a-service (PhaaS) platform in July 2026 has done little to slow the broader threat landscape. As security researchers warn that its leaked techniques and infrast",
         "cve": []
     },
     {
-        "title": "KDE Developer Fixing Long-Standing Bug Over Very Long Small-File Copy Times",
-        "date": "Tue, 28 Jul 2026 05:50:02 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Ridiculous-File-Copy-Times",
-        "source": "Phoronix",
-        "summary": "Since 2014 there has been a KDE bug report titled Ridiculously slow file copy (multiple small files). With the Dolphin file manager or other KIO-based KDE programs, copying many small files can be muc",
+        "title": "CastleLoader Campaign Deploys NeedleStealer to Steal Crypto Wallet Seeds and Browser Sessions",
+        "date": "Tue, 28 Jul 2026 11:36:44 +0000",
+        "url": "https://gbhackers.com/castleloader-campaign-deploys-needlestealer/",
+        "source": "GBHackers",
+        "summary": "A significant evolution in the CastleLoader malware ecosystem, with new campaigns deploying the NeedleStealer framework to harvest cryptocurrency wallet seed phrases and hijack browser sessions. The f",
         "cve": []
     },
     {
-        "title": "Linux's crypto_rng Abstraction Layer Next On The Chopping Block",
-        "date": "Tue, 28 Jul 2026 05:41:49 -0400",
-        "url": "https://www.phoronix.com/news/Linux-crypto-rng-Removal-Patch",
-        "source": "Phoronix",
-        "summary": "In addition to the deprecation and stripping down of AF_ALG, another piece of the Linux kernel crypto code steaming ahead toward removal is the crypto_rng abstraction layer...",
+        "title": "Critical TeamCity Flaw Lets Unauthenticated Attackers Execute System Commands",
+        "date": "Tue, 28 Jul 2026 10:58:50 +0000",
+        "url": "https://gbhackers.com/critical-teamcity-flaw/",
+        "source": "GBHackers",
+        "summary": "JetBrains has announced a critical vulnerability in TeamCity On-Premises, identified as CVE-2026-63077. This vulnerability allows unauthenticated remote attackers to execute arbitrary operating system",
         "cve": []
     },
     {
-        "title": "ASUS Laptop Whisper Mode Support Being Worked On For Linux",
-        "date": "Tue, 28 Jul 2026 05:25:26 -0400",
-        "url": "https://www.phoronix.com/news/ASUS-Laptop-Whisper-Mode-Linux",
-        "source": "Phoronix",
-        "summary": "ASUS laptops support a feature called \"Whisper Mode\" that intentionally slows down the fan speed and lowers the CPU clock speed in order to keep the device running cool and quiet. The open-source ASUS",
+        "title": "Chinese Hackers Use RedRelay Multi-Hop Network to Conceal Global Cyber Operations",
+        "date": "Tue, 28 Jul 2026 10:38:26 +0000",
+        "url": "https://gbhackers.com/redrelay-multi-hop-network/",
+        "source": "GBHackers",
+        "summary": "Chinese state-linked hackers are increasingly relying on a covert multi-hop infrastructure dubbed RedRelay (also known as ORBWEAVER) to mask the origins of global cyber operations, with evidence point",
         "cve": []
     },
     {
-        "title": "AMD PMF Testing Tool Slated For Linux 7.3",
-        "date": "Mon, 27 Jul 2026 17:28:20 -0400",
-        "url": "https://www.phoronix.com/news/AMD-PMF-Testing-Tool-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "Looking to be added to the Linux kernel source tree for the upcoming Linux 7.3 cycle is test_amd_pmf, a small testing application for exercising the AMD Platform Management Framework (PMF) interfaces ",
+        "title": "AI-Discovered Linux Kernel Zero-Day Enables Root Privilege Escalation",
+        "date": "Tue, 28 Jul 2026 10:34:07 +0000",
+        "url": "https://gbhackers.com/ai-discovered-linux-kernel-zero-day/",
+        "source": "GBHackers",
+        "summary": "A researcher recently disclosed an AI-assisted Linux kernel zero-day vulnerability, tracked as CVE-2026-53264, which allows local privilege escalation to root on affected systems. This flaw is found i",
         "cve": []
     },
     {
-        "title": "Mysterious 16-Tile & 32-Tile AMX Implementations Talked Up For More Performance",
-        "date": "Mon, 27 Jul 2026 12:41:37 -0400",
-        "url": "https://www.phoronix.com/news/16-Tile-32-Tile-AMX-Performance",
-        "source": "Phoronix",
-        "summary": "Last October on Phoronix we were first to point out there being some mysterious intrigue around a new x86 implementation from a \"corporate entity other than Intel/AMD\" with the developer involved not ",
+        "title": "Tengu Mirai Botnet Uses Watchdog Reboots and Binary Bricking to Resist Removal",
+        "date": "Tue, 28 Jul 2026 09:47:56 +0000",
+        "url": "https://gbhackers.com/tengu-mirai-botnet-uses-watchdog/",
+        "source": "GBHackers",
+        "summary": "Tengu, a newly observed Mirai-derived botnet, is demonstrating how modern IoT malware is rapidly evolving beyond traditional distributed denial-of-service (DDoS) operations by integrating persistence,",
         "cve": []
     },
     {
-        "title": "Fwupd 2.1.7 Released With Many Bug Fixes",
-        "date": "Mon, 27 Jul 2026 12:17:48 -0400",
-        "url": "https://www.phoronix.com/news/Fwupd-2.1.7-Released",
-        "source": "Phoronix",
-        "summary": "Fwupd 2.1.7 is out today as the newest update to this open-source firmware updating utility that pairs with the Linux Vendor Firmware Service (LVFS) for offering a nice firmware upgrade story on Linux",
+        "title": "Fake ShinyHunters Emails Give Victims 48 Hours to Pay $2,000 Bitcoin Ransom",
+        "date": "Tue, 28 Jul 2026 09:14:09 +0000",
+        "url": "https://gbhackers.com/fake-shinyhunters-emails/",
+        "source": "GBHackers",
+        "summary": "Fake ShinyHunters-themed sextortion emails are abusing data from recent ShinyHunters leaks to threaten victims with the release of fabricated “webcam recordings” unless a 2,000 dollar Bitcoin ransom i",
         "cve": []
     },
     {
-        "title": "Framework Laptop 13 Pro: Aiming To Be One Of The Best Upgradeable Linux Laptops",
-        "date": "Mon, 27 Jul 2026 11:00:00 -0400",
-        "url": "https://www.phoronix.com/review/framework-laptop-13-pro",
-        "source": "Phoronix",
-        "summary": "Back in April, Framework Computer announced the Framework Laptop 13 Pro as a ground-up re-design of their modular/upgradeable laptop. This new Framework Laptop 13 Pro features a much larger battery (7",
+        "title": "LegacyHive Exploit Abuses Windows Profile Loading to Hijack User Registry Hives",
+        "date": "Tue, 28 Jul 2026 08:16:39 +0000",
+        "url": "https://gbhackers.com/legacyhive-exploit-abuses-windows-profile-loading/",
+        "source": "GBHackers",
+        "summary": "LegacyHive is a newly discovered proof-of-concept (PoC) for Windows that exploits profile initialization and offline registry hive manipulation to redirect user-level registry paths, potentially allow",
         "cve": []
     }
 ]
