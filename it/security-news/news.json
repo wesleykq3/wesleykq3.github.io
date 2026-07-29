@@ -1,5 +1,13 @@
 [
     {
+        "title": "These near-mint ASUS Chromebook refurbs are only $145",
+        "date": "Wed, 29 Jul 2026 07:12:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
+        "source": "BleepingComputer",
+        "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is",
+        "cve": []
+    },
+    {
         "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
         "date": "Tue, 28 Jul 2026 17:17:39 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
@@ -72,11 +80,59 @@
         "cve": []
     },
     {
-        "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
-        "date": "Mon, 27 Jul 2026 17:08:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
-        "source": "BleepingComputer",
-        "summary": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
+        "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
+        "date": "Wed, 29 Jul 2026 17:45:00 +0530",
+        "url": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
+        "source": "The Hacker News",
+        "summary": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\n\nThe conversatio",
+        "cve": []
+    },
+    {
+        "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
+        "date": "Wed, 29 Jul 2026 17:27:00 +0530",
+        "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+        "source": "The Hacker News",
+        "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\n\nTracked as CVE-2026-10702, the bug provides arbi",
+        "cve": []
+    },
+    {
+        "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
+        "date": "Wed, 29 Jul 2026 16:43:10 +0530",
+        "url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
+        "source": "The Hacker News",
+        "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment need",
+        "cve": []
+    },
+    {
+        "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
+        "date": "Wed, 29 Jul 2026 16:30:00 +0530",
+        "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
+        "source": "The Hacker News",
+        "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibi",
+        "cve": []
+    },
+    {
+        "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+        "date": "Wed, 29 Jul 2026 14:28:27 +0530",
+        "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+        "date": "Wed, 29 Jul 2026 13:21:00 +0530",
+        "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-p",
+        "cve": []
+    },
+    {
+        "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+        "date": "Wed, 29 Jul 2026 13:17:19 +0530",
+        "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+        "source": "The Hacker News",
+        "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git",
         "cve": []
     },
     {
@@ -85,14 +141,6 @@
         "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
         "source": "The Hacker News",
         "summary": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control pa",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-        "date": "Wed, 29 Jul 2026 12:15:02 +0530",
-        "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
-        "source": "The Hacker News",
-        "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple th",
         "cve": []
     },
     {
@@ -112,131 +160,83 @@
         "cve": []
     },
     {
-        "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-        "date": "Tue, 28 Jul 2026 20:31:33 +0530",
-        "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-        "source": "The Hacker News",
-        "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mec",
-        "cve": []
-    },
-    {
-        "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
-        "date": "Tue, 28 Jul 2026 20:11:36 +0530",
-        "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) pro",
-        "cve": []
-    },
-    {
-        "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-        "date": "Tue, 28 Jul 2026 19:03:47 +0530",
-        "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-        "source": "The Hacker News",
-        "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software re",
-        "cve": []
-    },
-    {
-        "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
-        "date": "Tue, 28 Jul 2026 18:26:14 +0530",
-        "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-        "source": "The Hacker News",
-        "summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.\n\nThe critical issue, tracked as CVE-",
-        "cve": []
-    },
-    {
-        "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
-        "date": "Tue, 28 Jul 2026 17:25:20 +0530",
-        "url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
-        "source": "The Hacker News",
-        "summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting e",
-        "cve": []
-    },
-    {
-        "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
-        "date": "Tue, 28 Jul 2026 13:41:22 +0530",
-        "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
-        "source": "The Hacker News",
-        "summary": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nTh",
-        "cve": []
-    },
-    {
-        "title": "WordPress Plugin Backdoor Sends Site and Administrator Details to Attacker C2",
-        "date": "Wed, 29 Jul 2026 08:12:08 +0000",
-        "url": "https://cybersecuritynews.com/wordpress-plugin-backdoor/",
+        "title": "Hackers Can Hijack Tor Browser Users Through a Single Malicious Web Page",
+        "date": "Wed, 29 Jul 2026 13:40:13 +0000",
+        "url": "https://cybersecuritynews.com/hackers-can-compromise-your-tor-browser/",
         "source": "CyberSecurityNews",
-        "summary": "A critical supply chain backdoor in the Advanced Responsive Video Embedder WordPress plugin, which can give unauthenticated attackers complete administrator access. The malicious version, 10.8.7, affe",
+        "summary": "A single malicious webpage is enough to compromise Tor Browser users running an unpatched build, following newly disclosed research into CVE-2026-10702. The flaw, a high-severity Firefox JavaScript en",
         "cve": []
     },
     {
-        "title": "Critical Gitea Vulnerability Allows Attackers to Execute Malicious Code Remotely",
-        "date": "Wed, 29 Jul 2026 08:04:13 +0000",
-        "url": "https://cybersecuritynews.com/gitea-rce-vulnerability/",
+        "title": "Revolut Alleged Data Breach – Hackers Claiming to Access Over 75 Million Users’ Records",
+        "date": "Wed, 29 Jul 2026 13:18:43 +0000",
+        "url": "https://cybersecuritynews.com/revolut-alleged-data-breach/",
         "source": "CyberSecurityNews",
-        "summary": "A critical vulnerability in Gitea, identified as CVE-2026-60004, could enable attackers to execute arbitrary shell commands on vulnerable servers. This issue affects Gitea versions 1.17 through 1.27.0",
+        "summary": "Revolut is currently under scrutiny after hackers claimed to be selling a database containing records of more than 75 million users. However, the company asserts that it has found no evidence of a new",
         "cve": []
     },
     {
-        "title": "Bank of Baroda Data Breach – Hackers Gained Access Via Employee Email Account",
-        "date": "Wed, 29 Jul 2026 06:32:52 +0000",
-        "url": "https://cybersecuritynews.com/bank-of-baroda-data-breach/",
+        "title": "Russia Charges Telegram CEO Pavel Durov With Aiding Terrorism, Issues Arrest Warrant",
+        "date": "Wed, 29 Jul 2026 12:40:46 +0000",
+        "url": "https://cybersecuritynews.com/russia-charges-telegram-ceo-pavel-durov/",
         "source": "CyberSecurityNews",
-        "summary": "Bank of Baroda has confirmed a cybersecurity incident in which attackers gained unauthorized access to an employee&#8217;s email account, exposing internal communications and potentially sensitive inf",
+        "summary": "Russia’s Federal Security Service (FSB) has formally charged Telegram founder and CEO Pavel Durov with aiding terrorism and issued a warrant for his arrest, escalating a long-running clash between the",
         "cve": []
     },
     {
-        "title": "Malicious npm Packages Deploy Cross-Platform RAT Targeting Alibaba Developers",
-        "date": "Wed, 29 Jul 2026 06:13:56 +0000",
-        "url": "https://cybersecuritynews.com/npm-packages-cross-platform-rat/",
+        "title": "Houston City College Data Breach Exposes 832k Unique Student Email Addresses",
+        "date": "Wed, 29 Jul 2026 12:31:13 +0000",
+        "url": "https://cybersecuritynews.com/houston-city-college-data-breach/",
         "source": "CyberSecurityNews",
-        "summary": "A cluster of malicious npm packages has been used to deliver a cross-platform remote access trojan against developers who use Alibaba-related tools. The campaign hides its harmful code across several ",
+        "summary": "Houston City College has experienced a serious data breach that exposed sensitive personal information of approximately 832,000 unique students and alums. This incident is linked to a cyber extortion ",
         "cve": []
     },
     {
-        "title": "Hackers Are Hiding Commands in Emails to Trick the AI Systems Protecting You",
-        "date": "Wed, 29 Jul 2026 05:57:58 +0000",
-        "url": "https://cybersecuritynews.com/commands-in-emails-to-trick-the-ai-systems/",
+        "title": "Fake Recruiters Target Web3 Developers Through Trusted Bitbucket and npm Workflows",
+        "date": "Wed, 29 Jul 2026 12:05:36 +0000",
+        "url": "https://cybersecuritynews.com/fake-recruiter-web3-developers/",
         "source": "CyberSecurityNews",
-        "summary": "Attackers are beginning to hide malicious instructions inside ordinary emails, documents, calendar invites, and online advertisements. The goal is not always to fool a person. Instead, the hidden text",
+        "summary": "A new wave of job scams is hitting Web3 developers who are simply looking for their next role. Attackers pose as recruiters, start friendly chats about interviews, and then steer candidates toward a f",
         "cve": []
     },
     {
-        "title": "OpenAI Open-Sources Codex Security CLI for Finding, Validating, and Fixing Security Vulnerabilities",
-        "date": "Wed, 29 Jul 2026 02:47:36 +0000",
-        "url": "https://cybersecuritynews.com/openai-open-sources-codex-security-cli/",
+        "title": "AsyncAPI Malware Contains Modules to Steal GitHub, npm, Cloud and AI API Credentials",
+        "date": "Wed, 29 Jul 2026 11:27:46 +0000",
+        "url": "https://cybersecuritynews.com/asyncapi-malware-contains-modules/",
         "source": "CyberSecurityNews",
-        "summary": "OpenAI has open-sourced Codex Security, a command-line tool and TypeScript SDK designed to help developers find, validate, and fix security vulnerabilities in their codebases. The release marks a nota",
+        "summary": "A dangerous supply chain attack struck the AsyncAPI project on the npm registry, putting developers and automated build systems at risk. Attackers republished five package versions in about ninety min",
         "cve": []
     },
     {
-        "title": "First-Ever Fully Autonomous AI Cyberattack Exploits 0-Day Flaws to Infiltrate Hugging Face",
-        "date": "Wed, 29 Jul 2026 02:22:25 +0000",
-        "url": "https://cybersecuritynews.com/first-ever-ai-agent-cyberattack/",
+        "title": "Critical VMware Flaws Allow Attackers to Bypass Authentication and Gain Access to the System",
+        "date": "Wed, 29 Jul 2026 11:16:14 +0000",
+        "url": "https://cybersecuritynews.com/vmware-flaws-allow-authentication-bypass/",
         "source": "CyberSecurityNews",
-        "summary": "Between July 9 and July 13, 2026, security researchers documented what is being called the first fully autonomous AI agent cyberattack to chain zero-day flaws across multiple organizations. An AI agen",
+        "summary": "Broadcom has released a critical security advisory, VMSA-2026-0006, addressing multiple high-impact vulnerabilities across core VMware virtualization platforms, including vCenter, ESX, Workstation, Fu",
         "cve": []
     },
     {
-        "title": "Claude Mythos Preview Discovers Cryptographic Weaknesses That Human Experts Missed for Years",
-        "date": "Tue, 28 Jul 2026 18:24:07 +0000",
-        "url": "https://cybersecuritynews.com/claude-mythos-cryptographic-weaknesses/",
+        "title": "VulnGym Uses AI-Trained APT Attackers to Stress-Test Enterprise Patching Strategies",
+        "date": "Wed, 29 Jul 2026 11:04:33 +0000",
+        "url": "https://cybersecuritynews.com/vulngym-uses-ai-apt-attackers/",
         "source": "CyberSecurityNews",
-        "summary": "Anthropic researchers using Claude Mythos Preview have uncovered mathematical flaws in major cryptographic algorithms that human experts failed to spot for years. The AI found improved attacks against",
+        "summary": "A new cybersecurity research tool called VulnGym utilizes reinforcement learning to simulate AI-trained advanced persistent threat (APT) attackers targeting enterprise patching programs. This platform",
         "cve": []
     },
     {
-        "title": "JetBrains Urging Customers to Patch Critical TeamCity Flaw that Enables OS Command Execution",
-        "date": "Tue, 28 Jul 2026 17:46:13 +0000",
-        "url": "https://cybersecuritynews.com/jetbrains-patch-teamcity-flaw/",
+        "title": "A Leaked Android RAT Is Powering 170 Servers and Its Successor Is Already Online",
+        "date": "Wed, 29 Jul 2026 10:59:33 +0000",
+        "url": "https://cybersecuritynews.com/a-leaked-android-rat/",
         "source": "CyberSecurityNews",
-        "summary": "JetBrains has urgently released security updates for a critical vulnerability in TeamCity On-Premises that could allow remote attackers to bypass authentication and execute arbitrary operating system ",
+        "summary": "A leaked Android remote access trojan called Flying Eagle is being used across a large and growing criminal network. The toolkit lets operators create fake Android apps, take control of infected phone",
         "cve": []
     },
     {
-        "title": "Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",
-        "date": "Tue, 28 Jul 2026 17:40:32 +0000",
-        "url": "https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers/",
+        "title": "CISA Releases Checklist for Critical Infrastructure Organizations to Isolate Vital Systems",
+        "date": "Wed, 29 Jul 2026 10:42:05 +0000",
+        "url": "https://cybersecuritynews.com/cisa-and-partners-release-checklist/",
         "source": "CyberSecurityNews",
-        "summary": "Global phishing-as-a-service (PhaaS) activity surged to 7,295 tracked uploads during the week of July 20-26, 2026, driven overwhelmingly by OAuth device-code flow abuse and adversary-in-the-middle (Ai",
+        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA), in collaboration with the Australian Signals Directorate’s Australian Cyber Security Center (ASD’s ACSC), the Federal Bureau of Investigati",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Flying Eagle RAT Abuses Android Accessibility Services for Keylogging, Screen Capture and Gesture Injection",
-        "date": "Wed, 29 Jul 2026 08:20:06 +0000",
-        "url": "https://gbhackers.com/eagle-rat-abuses-android/",
+        "title": "Critical Ruflo MCP Bridge Flaw Allows Full AI Agent Platform Takeover",
+        "date": "Wed, 29 Jul 2026 13:51:23 +0000",
+        "url": "https://gbhackers.com/critical-ruflo-mcp-bridge-flaw/",
         "source": "GBHackers",
-        "summary": "A newly analyzed Android remote access trojan (RAT) dubbed “Flying Eagle” is leveraging Accessibility Services to enable large-scale surveillance, credential theft, and remote device manipulation, fol",
+        "summary": "A critical vulnerability in the open-source AI orchestration platform Ruflo has been disclosed, allowing unauthenticated attackers to achieve full remote code execution (RCE) with a single HTTP reques",
         "cve": []
     },
     {
-        "title": "Bank of Baroda Confirms Data Breach After Employee Email Account Compromised",
-        "date": "Wed, 29 Jul 2026 07:23:36 +0000",
-        "url": "https://gbhackers.com/bank-of-baroda-confirms-data-breach/",
+        "title": "Critical VMware vCenter Flaws Let Remote Attackers Bypass Authentication and Execute Code",
+        "date": "Wed, 29 Jul 2026 13:37:35 +0000",
+        "url": "https://gbhackers.com/critical-vmware-vcenter-flaws/",
         "source": "GBHackers",
-        "summary": "Bank of Baroda has confirmed a cybersecurity incident involving the compromise of an employee&#8217;s email account, which allowed unauthorized access to certain data. This disclosure follows social m",
+        "summary": "Broadcom has released important security updates addressing critical vulnerabilities in VMware that could allow remote attackers to bypass vCenter authentication or execute arbitrary code. These vulne",
         "cve": []
     },
     {
-        "title": "JFrog Patches Artifactory Zero-Days After OpenAI Models Escape Sandbox",
-        "date": "Wed, 29 Jul 2026 07:02:50 +0000",
-        "url": "https://gbhackers.com/ai-as-zero-day-discovery/",
+        "title": "macOS ClickFix Attacks Use Fake CAPTCHAs to Deploy Atomic Stealer and Hijack Crypto Wallets",
+        "date": "Wed, 29 Jul 2026 12:42:49 +0000",
+        "url": "https://gbhackers.com/macos-clickfix-attacks-use-fake-captchas/",
         "source": "GBHackers",
-        "summary": "Multiple zero-day vulnerabilities in self-hosted Artifactory after OpenAI’s frontier models autonomously exploited them to escape a sandboxed research environment and reach Hugging Face’s production i",
+        "summary": "macOS users are facing a new, highly polished ClickFix campaign that abuses fake CAPTCHAs to execute Terminal commands, silently deploy Atomic macOS Stealer (AMOS), and systematically loot crypto wall",
         "cve": []
     },
     {
-        "title": "Attackers Split RAT Components Across npm Packages to Evade Isolated Code Reviews",
-        "date": "Wed, 29 Jul 2026 05:57:46 +0000",
-        "url": "https://gbhackers.com/split-rat-components-across-npm/",
+        "title": "Russian Intelligence Hackers Target Signal Backup Recovery Keys in Account Takeover Attacks",
+        "date": "Wed, 29 Jul 2026 11:51:54 +0000",
+        "url": "https://gbhackers.com/signal-keys-targeted/",
         "source": "GBHackers",
-        "summary": "Attackers have been observed distributing a modular Remote Access Trojan (RAT) through the npm ecosystem by deliberately splitting malicious functionality across multiple seemingly benign packages, en",
+        "summary": "Russian intelligence-linked hackers have shifted tactics to target Signal users’ backup recovery keys, enabling full account takeover and access to historical message archives without breaking Signal’",
         "cve": []
     },
     {
-        "title": "Cybercriminals Use Adversarial Prompt Injection to Evade AI-Powered Security Tools",
-        "date": "Wed, 29 Jul 2026 05:15:19 +0000",
-        "url": "https://gbhackers.com/adversarial-prompt-injection/",
+        "title": "NVIDIA BlueField Flaw Lets VM Users Execute Code via Crafted Messages",
+        "date": "Wed, 29 Jul 2026 11:41:30 +0000",
+        "url": "https://gbhackers.com/nvidia-bluefield-flaw/",
         "source": "GBHackers",
-        "summary": "Cybercriminals are rapidly operationalizing adversarial prompt injection techniques to evade AI-powered security controls, signaling a shift toward targeting machine-driven defenses rather than end us",
+        "summary": "NVIDIA has revealed a significant security vulnerability in its BlueField data processing units (DPUs) that could allow virtual machine (VM) users to execute arbitrary code through specially crafted n",
         "cve": []
     },
     {
-        "title": "OpenAI Open-Sources Codex Security CLI to Find, Validate, and Fix Code Vulnerabilities",
-        "date": "Wed, 29 Jul 2026 04:45:21 +0000",
-        "url": "https://gbhackers.com/openai-open-sources-codex-security-cli-to-find-vulnerabilities/",
+        "title": "Threat Actor Claims Revolut Data Breach Exposes Financial Records of 75 Million Users",
+        "date": "Wed, 29 Jul 2026 11:36:22 +0000",
+        "url": "https://gbhackers.com/threat-actor-claims-revolut-data-breach/",
         "source": "GBHackers",
-        "summary": "OpenAI has open-sourced Codex Security, a command-line interface and TypeScript SDK designed to help engineering and security teams identify, validate, and remediate vulnerabilities across code reposi",
+        "summary": "A threat actor has reportedly claimed to possess and sell a large dataset allegedly linked to the fintech company Revolut, purportedly affecting more than 757 million users. This claim, circulated by ",
         "cve": []
     },
     {
-        "title": "Autonomous AI Agent Escapes Sandbox and Breaches Hugging Face Production Systems",
-        "date": "Wed, 29 Jul 2026 04:26:27 +0000",
-        "url": "https://gbhackers.com/autonomous-ai-breaches-hugging-face-production-systems/",
+        "title": "CISA Urges Critical Infrastructure Operators to Isolate Vital OT Systems During Cyberattacks",
+        "date": "Wed, 29 Jul 2026 11:04:25 +0000",
+        "url": "https://gbhackers.com/cisa-urges-critical-infrastructure-operators-to-isolate-vital-ot-systems/",
         "source": "GBHackers",
-        "summary": "Hugging Face has reported a sophisticated intrusion that occurred in July 2026. In this incident, an autonomous AI agent escaped from its evaluation sandbox, compromised third-party infrastructure, an",
+        "summary": "CISA, in collaboration with the Australian Signals Directorate&#8217;s Australian Cyber Security Center (ASD&#8217;s ACSC), the FBI, and international partners, has released new joint guidance titled ",
         "cve": []
     },
     {
-        "title": "Claude AI Autonomously Discovers Cryptographic Weaknesses That Escaped Expert Review",
-        "date": "Wed, 29 Jul 2026 04:18:29 +0000",
-        "url": "https://gbhackers.com/claude-ai-autonomously-discovers-cryptographic-weaknesses/",
+        "title": "Joyfill npm Supply-Chain Attack Deploys RAT and Developer Credential Stealer",
+        "date": "Wed, 29 Jul 2026 10:47:01 +0000",
+        "url": "https://gbhackers.com/joyfill-npm-supply-chain-attack/",
         "source": "GBHackers",
-        "summary": "Researchers at Anthropic reported that Claude Mythos Preview autonomously discovered new cryptographic attacks against the post-quantum signature candidate HAWK and a reduced-round version of AES. Thi",
+        "summary": "A supply-chain compromise targeting the npm ecosystem has introduced a multi-stage remote access trojan (RAT) and credential stealer through hijacked Joyfill packages, highlighting an increasingly sop",
         "cve": []
     },
     {
-        "title": "NGINX Heap Overflow Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-        "date": "Wed, 29 Jul 2026 03:53:17 +0000",
-        "url": "https://gbhackers.com/nginx-heap-overflow-flaw/",
+        "title": "Houston City College Data Breach Impacts 832,000 Students and Alumni",
+        "date": "Wed, 29 Jul 2026 10:34:29 +0000",
+        "url": "https://gbhackers.com/houston-city-college-data-breach-impacts-832000/",
         "source": "GBHackers",
-        "summary": "A high-severity heap buffer overflow vulnerability has been identified in the NGINX Stream module’s script engine. This vulnerability may allow unauthenticated remote attackers to crash worker process",
+        "summary": "Houston City College has been linked to a significant data breach that has affected approximately 832,000 students and alums. This breach occurred in June 2026 when data allegedly stolen during an ext",
         "cve": []
     },
     {
-        "title": "Aembit Joins Snowflake to Tackle AI’s Next Security Frontier: Trusted Agent Interoperability",
-        "date": "Tue, 28 Jul 2026 15:40:52 +0000",
-        "url": "https://gbhackers.com/aembit-joins-snowflake-to-tackle-ais-next-security-frontier-trusted-agent-interoperability/",
+        "title": "Fake Web3 Job Interview Software Delivers Infostealer to Steal Crypto Wallets and Passwords",
+        "date": "Wed, 29 Jul 2026 09:54:33 +0000",
+        "url": "https://gbhackers.com/fake-web3-job-interview-software/",
         "source": "GBHackers",
-        "summary": "Silver Spring, MD, USA, July 28th, 2026, CyberNewswire To reduce identity risk when third-party AI agents access business systems, Aembit is launching a new integration with Snowflake to help enterpri",
+        "summary": "A newly uncovered cyber campaign is targeting Web3 professionals with sophisticated social engineering, leveraging fake job interviews to deploy cross-platform infostealer malware designed to harvest ",
         "cve": []
     }
 ]
