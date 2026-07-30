@@ -80,6 +80,38 @@
         "cve": []
     },
     {
+        "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
+        "date": "Thu, 30 Jul 2026 17:24:49 +0530",
+        "url": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+        "source": "The Hacker News",
+        "summary": "Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July 2",
+        "cve": []
+    },
+    {
+        "title": "The Network Has Become the Control Plane for AI Security",
+        "date": "Thu, 30 Jul 2026 17:02:46 +0530",
+        "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
+        "source": "The Hacker News",
+        "summary": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network secur",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+        "date": "Thu, 30 Jul 2026 16:03:15 +0530",
+        "url": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+        "source": "The Hacker News",
+        "summary": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed finan",
+        "cve": []
+    },
+    {
+        "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+        "date": "Thu, 30 Jul 2026 16:02:59 +0530",
+        "url": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+        "source": "The Hacker News",
+        "summary": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial man",
+        "cve": []
+    },
+    {
         "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
         "date": "Thu, 30 Jul 2026 13:10:48 +0530",
         "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
@@ -128,35 +160,43 @@
         "cve": []
     },
     {
-        "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
-        "date": "Wed, 29 Jul 2026 21:01:15 +0530",
-        "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
-        "source": "The Hacker News",
-        "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\n\nThe firs",
+        "title": "Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT",
+        "date": "Thu, 30 Jul 2026 09:46:34 +0000",
+        "url": "https://cybersecuritynews.com/fake-flash-player-installer/",
+        "source": "CyberSecurityNews",
+        "summary": "AtlasRAT is being delivered through a fake Flash Player installer that looks harmless but can give attackers remote control of a Windows computer. The campaign abuses a familiar software name to lower",
         "cve": []
     },
     {
-        "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-        "date": "Wed, 29 Jul 2026 19:18:36 +0530",
-        "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-        "source": "The Hacker News",
-        "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\n\nBraham, Plymouth, South S",
+        "title": "Linux Cryptomining Campaign Weaponizes PAM to Hide XMRig Botnet Activity",
+        "date": "Thu, 30 Jul 2026 08:57:50 +0000",
+        "url": "https://cybersecuritynews.com/linux-cryptomining-campaign/",
+        "source": "CyberSecurityNews",
+        "summary": "A new Linux cryptomining campaign has surfaced using a rare trick to stay hidden inside compromised networks. Instead of behaving like typical malware, the operators turned a trusted Linux security fe",
         "cve": []
     },
     {
-        "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
-        "date": "Wed, 29 Jul 2026 19:12:57 +0530",
-        "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international fir",
+        "title": "GitLab Fixes 13 Security Flaws That Can Leak Data, Alter Pipelines, and Crash Servers",
+        "date": "Thu, 30 Jul 2026 08:53:20 +0000",
+        "url": "https://cybersecuritynews.com/gitlab-fixes-13-security-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "GitLab has released critical security updates to address 13 vulnerabilities that could potentially expose sensitive data, manipulate CI/CD pipelines, and disrupt server availability across Community E",
         "cve": []
     },
     {
-        "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
-        "date": "Wed, 29 Jul 2026 17:45:00 +0530",
-        "url": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
-        "source": "The Hacker News",
-        "summary": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\n\nThe conversatio",
+        "title": "A Two-Minute Microsoft Teams Call Could End With Your Network Encrypted With Ransomware",
+        "date": "Thu, 30 Jul 2026 08:44:29 +0000",
+        "url": "https://cybersecuritynews.com/a-two-minute-microsoft-teams-call/",
+        "source": "CyberSecurityNews",
+        "summary": "A short Microsoft Teams call can now become the first step in a ransomware attack. Attackers posing as IT support staff are persuading employees to grant remote access, then using that foothold to spr",
+        "cve": []
+    },
+    {
+        "title": "Claude Worldwide Outage Disrupts Users With “Request Failed With 529 Overloaded” Message",
+        "date": "Thu, 30 Jul 2026 08:17:24 +0000",
+        "url": "https://cybersecuritynews.com/claude-worldwide-outage-disrupts-users/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic&#8217;s Claude AI platform suffered a worldwide outage on July 29, 2026, causing failed prompts, slow responses, interrupted conversations, and &#8220;Request Failed With 529 Overloaded&#822",
         "cve": []
     },
     {
@@ -197,46 +237,6 @@
         "url": "https://cybersecuritynews.com/north-korean-hackers-turn-trusted-npm-packages/",
         "source": "CyberSecurityNews",
         "summary": "North Korean-linked hackers are turning trusted npm packages into an entry point for widespread software supply-chain attacks. By compromising the accounts of legitimate package maintainers, the attac",
-        "cve": []
-    },
-    {
-        "title": "TA488 May Have Exploited Outlook Web Access 0-Day Flaw Before Microsoft’s Emergency Patch",
-        "date": "Thu, 30 Jul 2026 05:49:26 +0000",
-        "url": "https://cybersecuritynews.com/ta488-exploited-outlook-web-access-0-day-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "TA488 has been linked to a new campaign that turns a routine Outlook Web Access email into a gateway for mailbox compromise. The operation abused a now-patched cross-site scripting flaw, tracked as CV",
-        "cve": []
-    },
-    {
-        "title": "Cisco Firewall Management Center 0-Day Actively Exploited to Access Sensitive Data",
-        "date": "Thu, 30 Jul 2026 05:17:58 +0000",
-        "url": "https://cybersecuritynews.com/cisco-firewall-management-center-0-day/",
-        "source": "CyberSecurityNews",
-        "summary": "Cisco has released security updates for an actively exploited zero-day vulnerability in Cisco Secure Firewall Management Center (FMC) Software. This vulnerability, tracked as CVE-2026-20316, arises fr",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Word Copilot Vulnerability Turns Hidden Prompts Into Self‑Propagating AI Worms",
-        "date": "Thu, 30 Jul 2026 04:16:46 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-word-copilot-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A new vulnerability in Microsoft Copilot for Word shows how hidden prompts inside documents can transform routine editing into a self‑propagating “AI worm” that tampers with business content and then ",
-        "cve": []
-    },
-    {
-        "title": "Critical Rails Flaw Lets Attackers Read Arbitrary Files and Execute Malicious Code Remotely",
-        "date": "Thu, 30 Jul 2026 03:40:30 +0000",
-        "url": "https://cybersecuritynews.com/critical-rails-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A severe security vulnerability in Ruby on Rails Active Storage tracked as CVE-2026-66066 can let unauthenticated attackers read sensitive files from a server and potentially escalate to remote code e",
-        "cve": []
-    },
-    {
-        "title": "AI-Generated Phishing No Longer Needs Malware: It Can Steal Your Session Inside the Browser",
-        "date": "Wed, 29 Jul 2026 16:53:06 +0000",
-        "url": "https://cybersecuritynews.com/ai-generated-phishing-without-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "AI-generated phishing campaigns are rapidly evolving beyond traditional malware delivery, shifting the battleground directly into the web browser where attackers can hijack active sessions, bypass mul",
         "cve": []
     },
     {
@@ -320,6 +320,70 @@
         "cve": []
     },
     {
+        "title": "AtlasRAT Uses Four-Stage In-Memory Loader to Keylog and Inject Malware Into WeChat",
+        "date": "Thu, 30 Jul 2026 12:11:01 +0000",
+        "url": "https://gbhackers.com/atlasrat-uses-four-stage-in-memory/",
+        "source": "GBHackers",
+        "summary": "AtlasRAT is a modular Windows remote access trojan that uses a four-stage, fully in-memory loader chain to quietly establish TLS‑ and ChaCha20‑protected command-and-control, log keystrokes offline. If",
+        "cve": []
+    },
+    {
+        "title": "CISA Adds Cisco Secure Firewall Management Flaw to Exploited Vulnerabilities List",
+        "date": "Thu, 30 Jul 2026 11:45:20 +0000",
+        "url": "https://gbhackers.com/cisa-adds-cisco-secure-firewall-management-flaw/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Cisco Secure Firewall Management Center (FMC), tracked as CVE-2026-20316, to its Known Exploited ",
+        "cve": []
+    },
+    {
+        "title": "Linux XMRig Botnet Abuses PAM for Fileless Monero Mining and Persistent Access",
+        "date": "Thu, 30 Jul 2026 10:44:14 +0000",
+        "url": "https://gbhackers.com/linux-xmrig-botnet/",
+        "source": "GBHackers",
+        "summary": "A covert Monero (XMR) cryptomining campaign uncovered in May 2026 is abusing Linux Pluggable Authentication Modules (PAM) to evade detection, maintain fileless execution, and persist across multiple u",
+        "cve": []
+    },
+    {
+        "title": "New GenieLocker Ransomware Encrypts Windows, Linux and VMware ESXi Systems",
+        "date": "Thu, 30 Jul 2026 10:23:03 +0000",
+        "url": "https://gbhackers.com/new-genielocker-ransomware-encrypts-windows-linux-and-vmware-esxi-systems/",
+        "source": "GBHackers",
+        "summary": "GenieLocker is a custom ransomware family linked to the Toy Ghouls group (also known as Bearlyfy or Labubu). It can encrypt systems running Windows, Linux, and VMware ESXi, with a current focus on the",
+        "cve": []
+    },
+    {
+        "title": "Top 10 Best Tools for Simulated DDoS Attacks in 2026",
+        "date": "Thu, 30 Jul 2026 10:04:26 +0000",
+        "url": "https://gbhackers.com/simulated-ddos-attack-tools/",
+        "source": "GBHackers",
+        "summary": "You don’t know your DDoS defenses work until you attack them yourself — safely, on purpose, with a kill switch. Simulated DDoS attack tools generate controlled, realistic attack traffic against your l",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit Nearly 1 in 4 Vulnerabilities Before or on Disclosure Day",
+        "date": "Thu, 30 Jul 2026 10:02:04 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-nearly-1-in-4-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Hackers are increasingly exploiting vulnerabilities at an unprecedented speed, with nearly one in four flaws being abused before or on the same day they are publicly disclosed, according to VulnCheck’",
+        "cve": []
+    },
+    {
+        "title": "Home Assistant FFmpeg Flaw Lets Attackers Steal Supervisor Tokens and Execute Code as Root",
+        "date": "Thu, 30 Jul 2026 09:44:55 +0000",
+        "url": "https://gbhackers.com/home-assistant-ffmpeg-flaw/",
+        "source": "GBHackers",
+        "summary": "Home Assistant’s FFmpeg integration recently came under scrutiny after researchers demonstrated that unsafe argument handling in the Wyoming Assist satellite feature could be exploited to steal Superv",
+        "cve": []
+    },
+    {
+        "title": "Hackers Pose as IT Helpdesk on Microsoft Teams to Deploy Chaos Ransomware",
+        "date": "Thu, 30 Jul 2026 08:57:13 +0000",
+        "url": "https://gbhackers.com/it-helpdesk-on-microsoft-teams/",
+        "source": "GBHackers",
+        "summary": "Hackers are abusing Microsoft Teams voice calls and fake IT helpdesk personas to gain remote access to corporate endpoints, drop a custom post‑exploitation toolchain, and, in multiple cases rapidly pi",
+        "cve": []
+    },
+    {
         "title": "Work Panel Vishing Platform Automates Enterprise Account Takeovers and MFA Theft",
         "date": "Thu, 30 Jul 2026 08:03:24 +0000",
         "url": "https://gbhackers.com/work-panel-vishing-platform/",
@@ -333,70 +397,6 @@
         "url": "https://gbhackers.com/copybara-abuses-android/",
         "source": "GBHackers",
         "summary": "Copybara is being weaponized in a new N26-themed fraud campaign in Italy that chains vishing, a real‑time phishing control kit, and a multi‑stage Android dropper to gain full remote control of victims",
-        "cve": []
-    },
-    {
-        "title": "Google Chrome 151 Fixes 370 Security Flaws, Including 7 Critical Bugs",
-        "date": "Thu, 30 Jul 2026 06:21:44 +0000",
-        "url": "https://gbhackers.com/google-chrome-151-fixes-370-security-flaws/",
-        "source": "GBHackers",
-        "summary": "Google has released stable Chrome version 151 updates for Windows, macOS, and Linux, addressing 370 security vulnerabilities. This update includes fixes for seven critical-severity flaws that affect c",
-        "cve": []
-    },
-    {
-        "title": "North Korean Hackers Compromise Popular npm Packages to Target Developer Environments",
-        "date": "Thu, 30 Jul 2026 06:20:00 +0000",
-        "url": "https://gbhackers.com/north-korean-compromise-npm-packages/",
-        "source": "GBHackers",
-        "summary": "North Korea–linked operators have quietly turned popular npm packages into a high‑volume access vector for developer and build environments, chaining multiple compromises of axios, debug, chalk, and t",
-        "cve": []
-    },
-    {
-        "title": "GitLab Patches 13 Security Flaws Enabling Data Exposure, CI/CD Tampering and DoS Attacks",
-        "date": "Thu, 30 Jul 2026 06:17:43 +0000",
-        "url": "https://gbhackers.com/gitlab-patches-13-security-flaws/",
-        "source": "GBHackers",
-        "summary": "GitLab has released security updates for both the Community Edition (CE) and Enterprise Edition (EE), addressing 13 vulnerabilities that could allow unauthorized data exposure, tampering with CI/CD pi",
-        "cve": []
-    },
-    {
-        "title": "Node.js Patches 11 Security Flaws Enabling Memory Exhaustion, File Access and Request Smuggling",
-        "date": "Thu, 30 Jul 2026 06:04:07 +0000",
-        "url": "https://gbhackers.com/node-js-patches-11-security-flaws/",
-        "source": "GBHackers",
-        "summary": "The Node.js Project has released security updates for the active Node.js versions 22.x, 24.x, and 26.x, addressing 11 vulnerabilities. These vulnerabilities range from high-severity issues, such as HT",
-        "cve": []
-    },
-    {
-        "title": "TA488 Exploits Outlook Half-Click Flaw to Deploy Persistent OWAReaper Backdoor",
-        "date": "Thu, 30 Jul 2026 05:44:10 +0000",
-        "url": "https://gbhackers.com/outlook-half-click-flaw/",
-        "source": "GBHackers",
-        "summary": "TA488 has resurfaced with a high‑end half‑click campaign against on‑premises Outlook Web Access (OWA), exploiting CVE‑2026‑42897 to deploy a persistent JavaScript backdoor, OWAReaper, that can survive",
-        "cve": []
-    },
-    {
-        "title": "Claude Global Outage Hits Users With “529 Overloaded” Error Messages",
-        "date": "Thu, 30 Jul 2026 04:58:26 +0000",
-        "url": "https://gbhackers.com/claude-global-outage-hits-users/",
-        "source": "GBHackers",
-        "summary": "Users of Claude experienced service disruptions on Wednesday when Anthropic reported elevated error rates across all Claude models. This incident affected the Claude.ai chatbot, the Claude API at api.",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Word Copilot Flaw Lets Hidden Prompts Spread Self-Propagating AI Worms Across Documents",
-        "date": "Thu, 30 Jul 2026 04:57:45 +0000",
-        "url": "https://gbhackers.com/microsoft-copilot-word-flaw/",
-        "source": "GBHackers",
-        "summary": "Security researcher Håkon Måløy has disclosed a cross-domain prompt injection vulnerability affecting Microsoft Copilot for Word. This vulnerability could allow malicious instructions hidden within do",
-        "cve": []
-    },
-    {
-        "title": "Hackers Can Compromise Tor Browser Users by Exploiting Firefox JIT Flaw",
-        "date": "Thu, 30 Jul 2026 04:31:12 +0000",
-        "url": "https://gbhackers.com/hackers-can-compromise-tor-browser-users/",
-        "source": "GBHackers",
-        "summary": "Tor Browser users on unpatched versions may be at risk of compromise simply by visiting a malicious webpage, following the disclosure of CVE-2026-10702, a serious vulnerability in Mozilla Firefox’s Ja",
         "cve": []
     }
 ]
