@@ -80,6 +80,38 @@
         "cve": []
     },
     {
+        "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+        "date": "Thu, 30 Jul 2026 13:10:48 +0530",
+        "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+        "source": "The Hacker News",
+        "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (O",
+        "cve": []
+    },
+    {
+        "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
+        "date": "Thu, 30 Jul 2026 12:58:43 +0530",
+        "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
+        "source": "The Hacker News",
+        "summary": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the",
+        "cve": []
+    },
+    {
+        "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
+        "date": "Thu, 30 Jul 2026 11:35:17 +0530",
+        "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
+        "source": "The Hacker News",
+        "summary": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a look",
+        "cve": []
+    },
+    {
+        "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+        "date": "Thu, 30 Jul 2026 10:38:39 +0530",
+        "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploi",
+        "cve": []
+    },
+    {
         "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
         "date": "Wed, 29 Jul 2026 23:40:00 +0530",
         "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
@@ -128,35 +160,75 @@
         "cve": []
     },
     {
-        "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
-        "date": "Wed, 29 Jul 2026 17:27:00 +0530",
-        "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
-        "source": "The Hacker News",
-        "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\n\nTracked as CVE-2026-10702, the bug provides arbi",
+        "title": "Inside the Cybercrime Platform That Turns Helpdesk Calls Into Enterprise Account Takeovers",
+        "date": "Thu, 30 Jul 2026 07:56:32 +0000",
+        "url": "https://cybersecuritynews.com/cybercrime-platform-turns-helpdesk-calls/",
+        "source": "CyberSecurityNews",
+        "summary": "Voice phishing is no longer limited to a convincing phone call and a fake sign-in page. A newly examined criminal platform called Work Panel brings target research, caller management, phishing-site cr",
         "cve": []
     },
     {
-        "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
-        "date": "Wed, 29 Jul 2026 16:43:10 +0530",
-        "url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
-        "source": "The Hacker News",
-        "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment need",
+        "title": "Node.js Fixes 11 Security Flaws That Can Crash Servers and Break Filesystem Restrictions",
+        "date": "Thu, 30 Jul 2026 07:43:31 +0000",
+        "url": "https://cybersecuritynews.com/node-js-fixes-11-security-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "The Node.js project has released important security updates addressing 11 vulnerabilities across its active branches: 22.x, 24.x, and 26.x. The updates are now available as Node.js versions v22.23.2, ",
         "cve": []
     },
     {
-        "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
-        "date": "Wed, 29 Jul 2026 16:30:00 +0530",
-        "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
-        "source": "The Hacker News",
-        "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibi",
+        "title": "Developer Claims Claude Opus 5 Wiped an Entire Production Database in Minutes",
+        "date": "Thu, 30 Jul 2026 07:27:57 +0000",
+        "url": "https://cybersecuritynews.com/claude-opus-5-wiped-data/",
+        "source": "CyberSecurityNews",
+        "summary": "A developer has reported that Anthropic’s Claude Opus 5, running in Ultracode mode, accidentally wiped an entire production database in roughly ten minutes while working on a personal web project. Acc",
         "cve": []
     },
     {
-        "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-        "date": "Wed, 29 Jul 2026 14:28:27 +0530",
-        "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management",
+        "title": "Fake N26 Support Calls Deploy Copybara Android RAT to Control Banking Apps",
+        "date": "Thu, 30 Jul 2026 07:08:57 +0000",
+        "url": "https://cybersecuritynews.com/fake-n26-support-calls-copybara-rat/",
+        "source": "CyberSecurityNews",
+        "summary": "A new fraud campaign is targeting Android banking users through convincing phone calls that impersonate N26 support staff. The attack begins as voice phishing, but it can end with criminals remotely c",
+        "cve": []
+    },
+    {
+        "title": "North Korean Hackers Turn Trusted npm Packages Into a Gateway for Supply-Chain Attacks",
+        "date": "Thu, 30 Jul 2026 06:11:43 +0000",
+        "url": "https://cybersecuritynews.com/north-korean-hackers-turn-trusted-npm-packages/",
+        "source": "CyberSecurityNews",
+        "summary": "North Korean-linked hackers are turning trusted npm packages into an entry point for widespread software supply-chain attacks. By compromising the accounts of legitimate package maintainers, the attac",
+        "cve": []
+    },
+    {
+        "title": "TA488 May Have Exploited Outlook Web Access 0-Day Flaw Before Microsoft’s Emergency Patch",
+        "date": "Thu, 30 Jul 2026 05:49:26 +0000",
+        "url": "https://cybersecuritynews.com/ta488-exploited-outlook-web-access-0-day-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "TA488 has been linked to a new campaign that turns a routine Outlook Web Access email into a gateway for mailbox compromise. The operation abused a now-patched cross-site scripting flaw, tracked as CV",
+        "cve": []
+    },
+    {
+        "title": "Cisco Firewall Management Center 0-Day Actively Exploited to Access Sensitive Data",
+        "date": "Thu, 30 Jul 2026 05:17:58 +0000",
+        "url": "https://cybersecuritynews.com/cisco-firewall-management-center-0-day/",
+        "source": "CyberSecurityNews",
+        "summary": "Cisco has released security updates for an actively exploited zero-day vulnerability in Cisco Secure Firewall Management Center (FMC) Software. This vulnerability, tracked as CVE-2026-20316, arises fr",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Word Copilot Vulnerability Turns Hidden Prompts Into Self‑Propagating AI Worms",
+        "date": "Thu, 30 Jul 2026 04:16:46 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-word-copilot-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A new vulnerability in Microsoft Copilot for Word shows how hidden prompts inside documents can transform routine editing into a self‑propagating “AI worm” that tampers with business content and then ",
+        "cve": []
+    },
+    {
+        "title": "Critical Rails Flaw Lets Attackers Read Arbitrary Files and Execute Malicious Code Remotely",
+        "date": "Thu, 30 Jul 2026 03:40:30 +0000",
+        "url": "https://cybersecuritynews.com/critical-rails-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A severe security vulnerability in Ruby on Rails Active Storage tracked as CVE-2026-66066 can let unauthenticated attackers read sensitive files from a server and potentially escalate to remote code e",
         "cve": []
     },
     {
@@ -165,78 +237,6 @@
         "url": "https://cybersecuritynews.com/ai-generated-phishing-without-malware/",
         "source": "CyberSecurityNews",
         "summary": "AI-generated phishing campaigns are rapidly evolving beyond traditional malware delivery, shifting the battleground directly into the web browser where attackers can hijack active sessions, bypass mul",
-        "cve": []
-    },
-    {
-        "title": "NVIDIA BlueField Vulnerability Enables Code Execution Attacks",
-        "date": "Wed, 29 Jul 2026 15:44:25 +0000",
-        "url": "https://cybersecuritynews.com/nvidia-bluefield-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "NVIDIA has disclosed a serious vulnerability affecting its BlueField DPUs and ConnectX networking platforms that could allow attackers to execute code on affected systems if successfully exploited. Th",
-        "cve": []
-    },
-    {
-        "title": "macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and Crypto Wallets",
-        "date": "Wed, 29 Jul 2026 15:37:38 +0000",
-        "url": "https://cybersecuritynews.com/macos-clickfix-attack-atomic-stealer/",
-        "source": "CyberSecurityNews",
-        "summary": "Mac users are being targeted by a ClickFix campaign that turns a fake verification prompt into a path for malware installation. Victims are persuaded to copy a command from a web page, open Terminal, ",
-        "cve": []
-    },
-    {
-        "title": "Critical Ruflo MCP Bridge Flaw Lets Attackers Execute Commands and Hijack AI Agents",
-        "date": "Wed, 29 Jul 2026 15:22:39 +0000",
-        "url": "https://cybersecuritynews.com/critical-ruflo-mcp-bridge-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical security flaw in the open-source AI orchestration platform Ruflo has been disclosed, allowing unauthenticated attackers to execute arbitrary commands and fully compromise AI agent environme",
-        "cve": []
-    },
-    {
-        "title": "Russian Intelligence Hackers Phish Signal Backup Keys to Hijack Accounts and Messages",
-        "date": "Wed, 29 Jul 2026 15:00:37 +0000",
-        "url": "https://cybersecuritynews.com/hackers-phish-signal-backup-keys/",
-        "source": "CyberSecurityNews",
-        "summary": "Russian intelligence-linked hackers are trying to seize Signal accounts by posing as support staff and asking targets for backup recovery keys. The campaign targets people with access to sensitive con",
-        "cve": []
-    },
-    {
-        "title": "Hijacked Joyfill npm Packages Deploy Worm-Like RAT and Steal Developer Credentials",
-        "date": "Wed, 29 Jul 2026 14:40:36 +0000",
-        "url": "https://cybersecuritynews.com/hijacked-joyfill-npm-packages-worm-like-rat/",
-        "source": "CyberSecurityNews",
-        "summary": "A fresh supply chain scare hit software teams after attackers slipped malware into trusted open source libraries. On July 28, 2026, malicious beta builds of two Joyfill packages appeared on the npm re",
-        "cve": []
-    },
-    {
-        "title": "Sweet Security Brings Autonomous Protection to the AI Enterprise with New Blocking Capabilities",
-        "date": "Wed, 29 Jul 2026 14:16:34 +0000",
-        "url": "https://cybersecuritynews.com/sweet-security-agentic-ai-blocking/",
-        "source": "CyberSecurityNews",
-        "summary": "Las Vegas, USA, July 29th, 2026, CyberNewswire Catches rogue AI agents &#8211; and stops them in live production before they cause damage Sweet Security, the proactive runtime enforcement company for ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Can Hijack Tor Browser Users Through a Single Malicious Web Page",
-        "date": "Wed, 29 Jul 2026 13:40:13 +0000",
-        "url": "https://cybersecuritynews.com/hackers-can-compromise-your-tor-browser/",
-        "source": "CyberSecurityNews",
-        "summary": "A single malicious webpage is enough to compromise Tor Browser users running an unpatched build, following newly disclosed research into CVE-2026-10702. The flaw, a high-severity Firefox JavaScript en",
-        "cve": []
-    },
-    {
-        "title": "Revolut Alleged Data Breach – Hackers Claiming to Access Over 75 Million Users’ Records",
-        "date": "Wed, 29 Jul 2026 13:18:43 +0000",
-        "url": "https://cybersecuritynews.com/revolut-alleged-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "Revolut is currently under scrutiny after hackers claimed to be selling a database containing records of more than 75 million users. However, the company asserts that it has found no evidence of a new",
-        "cve": []
-    },
-    {
-        "title": "Russia Charges Telegram CEO Pavel Durov With Aiding Terrorism, Issues Arrest Warrant",
-        "date": "Wed, 29 Jul 2026 12:40:46 +0000",
-        "url": "https://cybersecuritynews.com/russia-charges-telegram-ceo-pavel-durov/",
-        "source": "CyberSecurityNews",
-        "summary": "Russia’s Federal Security Service (FSB) has formally charged Telegram founder and CEO Pavel Durov with aiding terrorism and issued a warrant for his arrest, escalating a long-running clash between the",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Top 10 Best Security Configuration Assessment Tools in 2026",
-        "date": "Wed, 29 Jul 2026 19:27:42 +0000",
-        "url": "https://gbhackers.com/security-configuration-assessment-tools/",
+        "title": "Work Panel Vishing Platform Automates Enterprise Account Takeovers and MFA Theft",
+        "date": "Thu, 30 Jul 2026 08:03:24 +0000",
+        "url": "https://gbhackers.com/work-panel-vishing-platform/",
         "source": "GBHackers",
-        "summary": "In the complex and ever-expanding digital landscape of 2026, a strong cybersecurity posture depends not only on identifying vulnerabilities in software but also on ensuring that systems are correctly ",
+        "summary": "Work Panel is a turnkey vishing and phishing platform that industrializes enterprise account takeovers and MFA theft by packaging infrastructure automation, role-based operations, and real-time creden",
         "cve": []
     },
     {
-        "title": "Sweet Security Brings Autonomous Protection to the AI Enterprise with New Blocking Capabilities",
-        "date": "Wed, 29 Jul 2026 14:19:40 +0000",
-        "url": "https://gbhackers.com/sweet-security-agentic-ai-blocking/",
+        "title": "Copybara Abuses Android Accessibility for Keylogging, Screen Streaming and Remote Control",
+        "date": "Thu, 30 Jul 2026 07:14:49 +0000",
+        "url": "https://gbhackers.com/copybara-abuses-android/",
         "source": "GBHackers",
-        "summary": "Las Vegas, USA, July 29th, 2026, CyberNewswire Catches rogue AI agents &#8211; and stops them in live production before they cause damage Sweet Security, the proactive runtime enforcement company for ",
+        "summary": "Copybara is being weaponized in a new N26-themed fraud campaign in Italy that chains vishing, a real‑time phishing control kit, and a multi‑stage Android dropper to gain full remote control of victims",
         "cve": []
     },
     {
-        "title": "Critical Ruflo MCP Bridge Flaw Allows Full AI Agent Platform Takeover",
-        "date": "Wed, 29 Jul 2026 13:51:23 +0000",
-        "url": "https://gbhackers.com/critical-ruflo-mcp-bridge-flaw/",
+        "title": "Google Chrome 151 Fixes 370 Security Flaws, Including 7 Critical Bugs",
+        "date": "Thu, 30 Jul 2026 06:21:44 +0000",
+        "url": "https://gbhackers.com/google-chrome-151-fixes-370-security-flaws/",
         "source": "GBHackers",
-        "summary": "A critical vulnerability in the open-source AI orchestration platform Ruflo has been disclosed, allowing unauthenticated attackers to achieve full remote code execution (RCE) with a single HTTP reques",
+        "summary": "Google has released stable Chrome version 151 updates for Windows, macOS, and Linux, addressing 370 security vulnerabilities. This update includes fixes for seven critical-severity flaws that affect c",
         "cve": []
     },
     {
-        "title": "Critical VMware vCenter Flaws Let Remote Attackers Bypass Authentication and Execute Code",
-        "date": "Wed, 29 Jul 2026 13:37:35 +0000",
-        "url": "https://gbhackers.com/critical-vmware-vcenter-flaws/",
+        "title": "North Korean Hackers Compromise Popular npm Packages to Target Developer Environments",
+        "date": "Thu, 30 Jul 2026 06:20:00 +0000",
+        "url": "https://gbhackers.com/north-korean-compromise-npm-packages/",
         "source": "GBHackers",
-        "summary": "Broadcom has released important security updates addressing critical vulnerabilities in VMware that could allow remote attackers to bypass vCenter authentication or execute arbitrary code. These vulne",
+        "summary": "North Korea–linked operators have quietly turned popular npm packages into a high‑volume access vector for developer and build environments, chaining multiple compromises of axios, debug, chalk, and t",
         "cve": []
     },
     {
-        "title": "macOS ClickFix Attacks Use Fake CAPTCHAs to Deploy Atomic Stealer and Hijack Crypto Wallets",
-        "date": "Wed, 29 Jul 2026 12:42:49 +0000",
-        "url": "https://gbhackers.com/macos-clickfix-attacks-use-fake-captchas/",
+        "title": "GitLab Patches 13 Security Flaws Enabling Data Exposure, CI/CD Tampering and DoS Attacks",
+        "date": "Thu, 30 Jul 2026 06:17:43 +0000",
+        "url": "https://gbhackers.com/gitlab-patches-13-security-flaws/",
         "source": "GBHackers",
-        "summary": "macOS users are facing a new, highly polished ClickFix campaign that abuses fake CAPTCHAs to execute Terminal commands, silently deploy Atomic macOS Stealer (AMOS), and systematically loot crypto wall",
+        "summary": "GitLab has released security updates for both the Community Edition (CE) and Enterprise Edition (EE), addressing 13 vulnerabilities that could allow unauthorized data exposure, tampering with CI/CD pi",
         "cve": []
     },
     {
-        "title": "Russian Intelligence Hackers Target Signal Backup Recovery Keys in Account Takeover Attacks",
-        "date": "Wed, 29 Jul 2026 11:51:54 +0000",
-        "url": "https://gbhackers.com/signal-keys-targeted/",
+        "title": "Node.js Patches 11 Security Flaws Enabling Memory Exhaustion, File Access and Request Smuggling",
+        "date": "Thu, 30 Jul 2026 06:04:07 +0000",
+        "url": "https://gbhackers.com/node-js-patches-11-security-flaws/",
         "source": "GBHackers",
-        "summary": "Russian intelligence-linked hackers have shifted tactics to target Signal users’ backup recovery keys, enabling full account takeover and access to historical message archives without breaking Signal’",
+        "summary": "The Node.js Project has released security updates for the active Node.js versions 22.x, 24.x, and 26.x, addressing 11 vulnerabilities. These vulnerabilities range from high-severity issues, such as HT",
         "cve": []
     },
     {
-        "title": "NVIDIA BlueField Flaw Lets VM Users Execute Code via Crafted Messages",
-        "date": "Wed, 29 Jul 2026 11:41:30 +0000",
-        "url": "https://gbhackers.com/nvidia-bluefield-flaw/",
+        "title": "TA488 Exploits Outlook Half-Click Flaw to Deploy Persistent OWAReaper Backdoor",
+        "date": "Thu, 30 Jul 2026 05:44:10 +0000",
+        "url": "https://gbhackers.com/outlook-half-click-flaw/",
         "source": "GBHackers",
-        "summary": "NVIDIA has revealed a significant security vulnerability in its BlueField data processing units (DPUs) that could allow virtual machine (VM) users to execute arbitrary code through specially crafted n",
+        "summary": "TA488 has resurfaced with a high‑end half‑click campaign against on‑premises Outlook Web Access (OWA), exploiting CVE‑2026‑42897 to deploy a persistent JavaScript backdoor, OWAReaper, that can survive",
         "cve": []
     },
     {
-        "title": "Threat Actor Claims Revolut Data Breach Exposes Financial Records of 75 Million Users",
-        "date": "Wed, 29 Jul 2026 11:36:22 +0000",
-        "url": "https://gbhackers.com/threat-actor-claims-revolut-data-breach/",
+        "title": "Claude Global Outage Hits Users With “529 Overloaded” Error Messages",
+        "date": "Thu, 30 Jul 2026 04:58:26 +0000",
+        "url": "https://gbhackers.com/claude-global-outage-hits-users/",
         "source": "GBHackers",
-        "summary": "A threat actor has reportedly claimed to possess and sell a large dataset allegedly linked to the fintech company Revolut, purportedly affecting more than 757 million users. This claim, circulated by ",
+        "summary": "Users of Claude experienced service disruptions on Wednesday when Anthropic reported elevated error rates across all Claude models. This incident affected the Claude.ai chatbot, the Claude API at api.",
         "cve": []
     },
     {
-        "title": "CISA Urges Critical Infrastructure Operators to Isolate Vital OT Systems During Cyberattacks",
-        "date": "Wed, 29 Jul 2026 11:04:25 +0000",
-        "url": "https://gbhackers.com/cisa-urges-critical-infrastructure-operators-to-isolate-vital-ot-systems/",
+        "title": "Microsoft Word Copilot Flaw Lets Hidden Prompts Spread Self-Propagating AI Worms Across Documents",
+        "date": "Thu, 30 Jul 2026 04:57:45 +0000",
+        "url": "https://gbhackers.com/microsoft-copilot-word-flaw/",
         "source": "GBHackers",
-        "summary": "CISA, in collaboration with the Australian Signals Directorate&#8217;s Australian Cyber Security Center (ASD&#8217;s ACSC), the FBI, and international partners, has released new joint guidance titled ",
+        "summary": "Security researcher Håkon Måløy has disclosed a cross-domain prompt injection vulnerability affecting Microsoft Copilot for Word. This vulnerability could allow malicious instructions hidden within do",
         "cve": []
     },
     {
-        "title": "Joyfill npm Supply-Chain Attack Deploys RAT and Developer Credential Stealer",
-        "date": "Wed, 29 Jul 2026 10:47:01 +0000",
-        "url": "https://gbhackers.com/joyfill-npm-supply-chain-attack/",
+        "title": "Hackers Can Compromise Tor Browser Users by Exploiting Firefox JIT Flaw",
+        "date": "Thu, 30 Jul 2026 04:31:12 +0000",
+        "url": "https://gbhackers.com/hackers-can-compromise-tor-browser-users/",
         "source": "GBHackers",
-        "summary": "A supply-chain compromise targeting the npm ecosystem has introduced a multi-stage remote access trojan (RAT) and credential stealer through hijacked Joyfill packages, highlighting an increasingly sop",
+        "summary": "Tor Browser users on unpatched versions may be at risk of compromise simply by visiting a malicious webpage, following the disclosure of CVE-2026-10702, a serious vulnerability in Mozilla Firefox’s Ja",
         "cve": []
     }
 ]
