@@ -1,5 +1,61 @@
 [
     {
+        "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
+        "date": "Thu, 30 Jul 2026 14:13:24 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+        "source": "BleepingComputer",
+        "summary": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
+        "cve": []
+    },
+    {
+        "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
+        "date": "Thu, 30 Jul 2026 14:00:51 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
+        "source": "BleepingComputer",
+        "summary": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execut",
+        "cve": []
+    },
+    {
+        "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
+        "date": "Thu, 30 Jul 2026 13:00:00 -0400",
+        "url": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
+        "source": "BleepingComputer",
+        "summary": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two",
+        "cve": []
+    },
+    {
+        "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+        "date": "Thu, 30 Jul 2026 12:46:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+        "source": "BleepingComputer",
+        "summary": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
+        "date": "Thu, 30 Jul 2026 11:56:33 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...",
+        "cve": []
+    },
+    {
+        "title": "Analog Devices discloses data breach, says operations unaffected",
+        "date": "Thu, 30 Jul 2026 11:12:25 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/",
+        "source": "BleepingComputer",
+        "summary": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
+        "cve": []
+    },
+    {
+        "title": "After the Break-In: What Attackers Do Once They're Already Inside",
+        "date": "Thu, 30 Jul 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
+        "source": "BleepingComputer",
+        "summary": "Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable defenses, and reshape compromised systems, and why",
+        "cve": []
+    },
+    {
         "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
         "date": "Wed, 29 Jul 2026 19:44:07 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
@@ -24,59 +80,19 @@
         "cve": []
     },
     {
-        "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
-        "date": "Wed, 29 Jul 2026 13:54:05 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
-        "source": "BleepingComputer",
-        "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHu",
+        "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+        "date": "Thu, 30 Jul 2026 20:55:57 +0530",
+        "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+        "source": "The Hacker News",
+        "summary": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behin",
         "cve": []
     },
     {
-        "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
-        "date": "Wed, 29 Jul 2026 12:04:59 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
-        "source": "BleepingComputer",
-        "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of t",
-        "cve": []
-    },
-    {
-        "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
-        "date": "Wed, 29 Jul 2026 10:55:57 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-        "source": "BleepingComputer",
-        "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated",
-        "cve": []
-    },
-    {
-        "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
-        "date": "Wed, 29 Jul 2026 10:02:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
-        "source": "BleepingComputer",
-        "summary": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege ar",
-        "cve": []
-    },
-    {
-        "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
-        "date": "Wed, 29 Jul 2026 09:56:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
-        "source": "BleepingComputer",
-        "summary": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
-        "cve": []
-    },
-    {
-        "title": "These near-mint ASUS Chromebook refurbs are only $145",
-        "date": "Wed, 29 Jul 2026 07:12:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
-        "source": "BleepingComputer",
-        "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is",
-        "cve": []
-    },
-    {
-        "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-        "date": "Tue, 28 Jul 2026 17:17:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-        "source": "BleepingComputer",
-        "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
+        "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+        "date": "Thu, 30 Jul 2026 19:04:09 +0530",
+        "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+        "source": "The Hacker News",
+        "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, accordi",
         "cve": []
     },
     {
@@ -144,19 +160,75 @@
         "cve": []
     },
     {
-        "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-        "date": "Wed, 29 Jul 2026 23:40:00 +0530",
-        "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-        "source": "The Hacker News",
-        "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTrac",
+        "title": "CISA Warns of Cisco Secure Firewall Management 0-Day Vulnerability Exploited in Attacks",
+        "date": "Thu, 30 Jul 2026 17:11:14 +0000",
+        "url": "https://cybersecuritynews.com/cisco-secure-firewall-management-0-day/",
+        "source": "CyberSecurityNews",
+        "summary": "CISA has issued a warning regarding a serious vulnerability in the Cisco Secure Firewall Management Center (FMC), which is currently being exploited in attacks. The flaw, identified as CVE-2026-20316,",
         "cve": []
     },
     {
-        "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-        "date": "Wed, 29 Jul 2026 21:09:30 +0530",
-        "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated rem",
+        "title": "OpenMatter Network Calls on Enterprise Leaders to Rethink AI Security Before the Next Rogue AI Crisis",
+        "date": "Thu, 30 Jul 2026 16:44:21 +0000",
+        "url": "https://cybersecuritynews.com/openmatter-network-ai-security-rethink/",
+        "source": "CyberSecurityNews",
+        "summary": "Melbourne, Florida, July 30th, 2026, CyberNewswire The growing number of high-profile AI security incidents making headlines around the world are not simply cybersecurity failures. They are architectu",
+        "cve": []
+    },
+    {
+        "title": "Home Assistant FFmpeg Vulnerability Enables File Theft and Root Command Execution",
+        "date": "Thu, 30 Jul 2026 16:02:31 +0000",
+        "url": "https://cybersecuritynews.com/home-assistant-ffmpeg-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A recently disclosed vulnerability in Home Assistant has unveiled how improper handling of FFmpeg inputs can be exploited to steal sensitive files and ultimately enable root-level command execution on",
+        "cve": []
+    },
+    {
+        "title": "Planning Your AI Security – How will You Manage All Your Resources?",
+        "date": "Thu, 30 Jul 2026 15:32:19 +0000",
+        "url": "https://cybersecuritynews.com/planning-your-ai-security-how-will-you-manage-all-your-resources/",
+        "source": "CyberSecurityNews",
+        "summary": "AI has a role to play in Security Operations Centre (SOC) environments. According to EY, the number of senior security leaders dedicating at least a quarter of their cybersecurity budget to AI solutio",
+        "cve": []
+    },
+    {
+        "title": "Hackers Are Exploiting Nearly One in Four Vulnerabilities Before Defenders Get a CVE",
+        "date": "Thu, 30 Jul 2026 15:26:27 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploiting-one-in-four-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Attackers are exploiting a significant portion of vulnerabilities even before defenders receive a published CVE (Common Vulnerabilities and Exposures). In the first half of 2026, 23.43% of known explo",
+        "cve": []
+    },
+    {
+        "title": "Semiconductor Firm Analog Devices Confirms Data Breach After Internal Systems Intrusion",
+        "date": "Thu, 30 Jul 2026 15:10:13 +0000",
+        "url": "https://cybersecuritynews.com/analog-devices-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Analog Devices, Inc., a leading U.S. semiconductor manufacturer specializing in analog, mixed-signal, and digital signal processing technology, has confirmed a cybersecurity incident that led to unaut",
+        "cve": []
+    },
+    {
+        "title": "New CosmosEscape Vulnerability Lets Attackers Take Over Azure Cosmos DB Instances",
+        "date": "Thu, 30 Jul 2026 14:32:33 +0000",
+        "url": "https://cybersecuritynews.com/cosmosescape-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical vulnerability, dubbed CosmosEscape, in Microsoft Azure Cosmos DB could have let attackers seize control of virtually every database hosted on the service, including Microsoft&#8217;s own in",
+        "cve": []
+    },
+    {
+        "title": "New GenieLocker Ransomware Attacks Windows, ESXi, and Linux Instances",
+        "date": "Thu, 30 Jul 2026 14:08:37 +0000",
+        "url": "https://cybersecuritynews.com/genielocker-ransomware-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "GenieLocker, a newly identified ransomware linked to the financially motivated Toy Ghouls group, targets Windows, Linux, and VMware ESXi systems and has primarily attacked Russia&#8217;s manufacturing",
+        "cve": []
+    },
+    {
+        "title": "Google Chrome 151 Patches 370 Security Flaws, Including Seven Critical Vulnerabilities",
+        "date": "Thu, 30 Jul 2026 14:00:59 +0000",
+        "url": "https://cybersecuritynews.com/chrome-151-patches-370-security-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "The Stable channel has been updated to Chrome version 151.0.7922.71.72 for Windows and macOS, and 151.0.7922.71 for Linux, with the rollout taking place over the coming days and weeks. According to Go",
         "cve": []
     },
     {
@@ -168,75 +240,11 @@
         "cve": []
     },
     {
-        "title": "Linux Cryptomining Campaign Weaponizes PAM to Hide XMRig Botnet Activity",
-        "date": "Thu, 30 Jul 2026 08:57:50 +0000",
-        "url": "https://cybersecuritynews.com/linux-cryptomining-campaign/",
-        "source": "CyberSecurityNews",
-        "summary": "A new Linux cryptomining campaign has surfaced using a rare trick to stay hidden inside compromised networks. Instead of behaving like typical malware, the operators turned a trusted Linux security fe",
-        "cve": []
-    },
-    {
-        "title": "GitLab Fixes 13 Security Flaws That Can Leak Data, Alter Pipelines, and Crash Servers",
-        "date": "Thu, 30 Jul 2026 08:53:20 +0000",
-        "url": "https://cybersecuritynews.com/gitlab-fixes-13-security-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "GitLab has released critical security updates to address 13 vulnerabilities that could potentially expose sensitive data, manipulate CI/CD pipelines, and disrupt server availability across Community E",
-        "cve": []
-    },
-    {
-        "title": "A Two-Minute Microsoft Teams Call Could End With Your Network Encrypted With Ransomware",
-        "date": "Thu, 30 Jul 2026 08:44:29 +0000",
-        "url": "https://cybersecuritynews.com/a-two-minute-microsoft-teams-call/",
-        "source": "CyberSecurityNews",
-        "summary": "A short Microsoft Teams call can now become the first step in a ransomware attack. Attackers posing as IT support staff are persuading employees to grant remote access, then using that foothold to spr",
-        "cve": []
-    },
-    {
-        "title": "Claude Worldwide Outage Disrupts Users With “Request Failed With 529 Overloaded” Message",
-        "date": "Thu, 30 Jul 2026 08:17:24 +0000",
-        "url": "https://cybersecuritynews.com/claude-worldwide-outage-disrupts-users/",
-        "source": "CyberSecurityNews",
-        "summary": "Anthropic&#8217;s Claude AI platform suffered a worldwide outage on July 29, 2026, causing failed prompts, slow responses, interrupted conversations, and &#8220;Request Failed With 529 Overloaded&#822",
-        "cve": []
-    },
-    {
-        "title": "Inside the Cybercrime Platform That Turns Helpdesk Calls Into Enterprise Account Takeovers",
-        "date": "Thu, 30 Jul 2026 07:56:32 +0000",
-        "url": "https://cybersecuritynews.com/cybercrime-platform-turns-helpdesk-calls/",
-        "source": "CyberSecurityNews",
-        "summary": "Voice phishing is no longer limited to a convincing phone call and a fake sign-in page. A newly examined criminal platform called Work Panel brings target research, caller management, phishing-site cr",
-        "cve": []
-    },
-    {
-        "title": "Node.js Fixes 11 Security Flaws That Can Crash Servers and Break Filesystem Restrictions",
-        "date": "Thu, 30 Jul 2026 07:43:31 +0000",
-        "url": "https://cybersecuritynews.com/node-js-fixes-11-security-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "The Node.js project has released important security updates addressing 11 vulnerabilities across its active branches: 22.x, 24.x, and 26.x. The updates are now available as Node.js versions v22.23.2, ",
-        "cve": []
-    },
-    {
-        "title": "Developer Claims Claude Opus 5 Wiped an Entire Production Database in Minutes",
-        "date": "Thu, 30 Jul 2026 07:27:57 +0000",
-        "url": "https://cybersecuritynews.com/claude-opus-5-wiped-data/",
-        "source": "CyberSecurityNews",
-        "summary": "A developer has reported that Anthropic’s Claude Opus 5, running in Ultracode mode, accidentally wiped an entire production database in roughly ten minutes while working on a personal web project. Acc",
-        "cve": []
-    },
-    {
-        "title": "Fake N26 Support Calls Deploy Copybara Android RAT to Control Banking Apps",
-        "date": "Thu, 30 Jul 2026 07:08:57 +0000",
-        "url": "https://cybersecuritynews.com/fake-n26-support-calls-copybara-rat/",
-        "source": "CyberSecurityNews",
-        "summary": "A new fraud campaign is targeting Android banking users through convincing phone calls that impersonate N26 support staff. The attack begins as voice phishing, but it can end with criminals remotely c",
-        "cve": []
-    },
-    {
-        "title": "North Korean Hackers Turn Trusted npm Packages Into a Gateway for Supply-Chain Attacks",
-        "date": "Thu, 30 Jul 2026 06:11:43 +0000",
-        "url": "https://cybersecuritynews.com/north-korean-hackers-turn-trusted-npm-packages/",
-        "source": "CyberSecurityNews",
-        "summary": "North Korean-linked hackers are turning trusted npm packages into an entry point for widespread software supply-chain attacks. By compromising the accounts of legitimate package maintainers, the attac",
+        "title": "Read This Before You Buy That TV Streaming Stick",
+        "date": "Thu, 30 Jul 2026 16:49:00 +0000",
+        "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+        "source": "krebsonsecurity",
+        "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user'",
         "cve": []
     },
     {
@@ -312,11 +320,11 @@
         "cve": []
     },
     {
-        "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-        "date": "Mon, 01 Jun 2026 17:32:50 +0000",
-        "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-        "source": "krebsonsecurity",
-        "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions be",
+        "title": "OpenMatter Network Calls on Enterprise Leaders to Rethink AI Security Before the Next Rogue AI Crisis",
+        "date": "Thu, 30 Jul 2026 16:44:35 +0000",
+        "url": "https://gbhackers.com/openmatter-network-ai-security-rethink/",
+        "source": "GBHackers",
+        "summary": "Melbourne, Florida, July 30th, 2026, CyberNewswire The growing number of high-profile AI security incidents making headlines around the world are not simply cybersecurity failures. They are architectu",
         "cve": []
     },
     {
@@ -389,14 +397,6 @@
         "url": "https://gbhackers.com/work-panel-vishing-platform/",
         "source": "GBHackers",
         "summary": "Work Panel is a turnkey vishing and phishing platform that industrializes enterprise account takeovers and MFA theft by packaging infrastructure automation, role-based operations, and real-time creden",
-        "cve": []
-    },
-    {
-        "title": "Copybara Abuses Android Accessibility for Keylogging, Screen Streaming and Remote Control",
-        "date": "Thu, 30 Jul 2026 07:14:49 +0000",
-        "url": "https://gbhackers.com/copybara-abuses-android/",
-        "source": "GBHackers",
-        "summary": "Copybara is being weaponized in a new N26-themed fraud campaign in Italy that chains vishing, a real‑time phishing control kit, and a multi‑stage Android dropper to gain full remote control of victims",
         "cve": []
     }
 ]
