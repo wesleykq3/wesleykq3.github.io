@@ -80,6 +80,30 @@
         "cve": []
     },
     {
+        "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
+        "date": "Fri, 31 Jul 2026 16:54:59 +0530",
+        "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+        "source": "The Hacker News",
+        "summary": "Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months.\n\nDe",
+        "cve": []
+    },
+    {
+        "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+        "date": "Fri, 31 Jul 2026 16:51:27 +0530",
+        "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+        "source": "The Hacker News",
+        "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, th",
+        "cve": []
+    },
+    {
+        "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+        "date": "Fri, 31 Jul 2026 12:11:44 +0530",
+        "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+        "source": "The Hacker News",
+        "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three ",
+        "cve": []
+    },
+    {
         "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
         "date": "Thu, 30 Jul 2026 23:48:24 +0530",
         "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
@@ -136,27 +160,67 @@
         "cve": []
     },
     {
-        "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-        "date": "Thu, 30 Jul 2026 13:10:48 +0530",
-        "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-        "source": "The Hacker News",
-        "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (O",
+        "title": "FBI And Allies Warn of North Korean IT Workers Using Stolen Identities",
+        "date": "Fri, 31 Jul 2026 13:27:25 +0000",
+        "url": "https://cybersecuritynews.com/fbi-warns-of-north-korean-it-workers/",
+        "source": "CyberSecurityNews",
+        "summary": "The U.S. State Department, FBI, and allied governments including Japan, Canada, Germany, Australia, the United Kingdom, and the Republic of Korea have issued a joint alert warning companies worldwide ",
         "cve": []
     },
     {
-        "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-        "date": "Thu, 30 Jul 2026 12:58:43 +0530",
-        "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-        "source": "The Hacker News",
-        "summary": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the",
+        "title": "Google Uses AI Agents to Find and Fix 1,072 Chrome Security Vulnerabilities",
+        "date": "Fri, 31 Jul 2026 12:31:10 +0000",
+        "url": "https://cybersecuritynews.com/google-ai-fixes-chrome-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Google is expanding the use of artificial intelligence (AI) agents across the Chrome security lifecycle to identify source code weaknesses, test patches, and accelerate the delivery of security update",
         "cve": []
     },
     {
-        "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-        "date": "Thu, 30 Jul 2026 11:35:17 +0530",
-        "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-        "source": "The Hacker News",
-        "summary": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a look",
+        "title": "North Korean EtherHiding Campaign Targets Crypto Wallets and Developer Credentials",
+        "date": "Fri, 31 Jul 2026 12:05:41 +0000",
+        "url": "https://cybersecuritynews.com/north-korean-etherhiding-campaign/",
+        "source": "CyberSecurityNews",
+        "summary": "A North Korean-linked cyber campaign is using fake macOS update screens to trick victims into installing malware. The operation targets cryptocurrency wallets, browser data, and developer credentials,",
+        "cve": []
+    },
+    {
+        "title": "BlackTech APT Deploys BlueShell Linux Backdoor Against Japanese Organizations",
+        "date": "Fri, 31 Jul 2026 11:50:23 +0000",
+        "url": "https://cybersecuritynews.com/blacktech-apt-deploys-blueshell-linux-backdoor/",
+        "source": "CyberSecurityNews",
+        "summary": "BlackTech has been linked to a newly examined Linux backdoor deployment against organizations in Japan, showing how a familiar remote-access tool can be reshaped for cyberespionage. The malware gives ",
+        "cve": []
+    },
+    {
+        "title": "CMMC Phase II Is Paused, But Contractors’ Data-Security Obligations Are Not",
+        "date": "Fri, 31 Jul 2026 10:00:49 +0000",
+        "url": "https://cybersecuritynews.com/cmmc-phase-ii-is-paused-but-contractors-data-security-obligations-are-not/",
+        "source": "CyberSecurityNews",
+        "summary": "By John Grancarich, EVP, Head of Defense &#38; Intelligence, Fortra The recent pause affecting the implementation of&#160;Cybersecurity Maturity Model Certification (CMMC)&#160;Phase II has understand",
+        "cve": []
+    },
+    {
+        "title": "SSH Bot Profiles Linux CPU, GPU and RAM Before Deploying Cryptocurrency Miner",
+        "date": "Fri, 31 Jul 2026 09:38:27 +0000",
+        "url": "https://cybersecuritynews.com/ssh-bot-profiles-linux-cpu/",
+        "source": "CyberSecurityNews",
+        "summary": "A new SSH bot has been caught quietly logging into Linux systems, profiling their CPU, GPU, and memory, and then walking away without dropping any visible payload. The behavior looks harmless at first",
+        "cve": []
+    },
+    {
+        "title": "DeepSeek-Powered Hermes Agent Launches Autonomous Cyberattacks Against Exposed Servers",
+        "date": "Fri, 31 Jul 2026 09:22:22 +0000",
+        "url": "https://cybersecuritynews.com/deepseek-powered-hermes-agent/",
+        "source": "CyberSecurityNews",
+        "summary": "A Chinese-speaking threat actor used an AI-driven agent to search for vulnerable internet-facing servers and begin attacks with little direct human input. The campaign shows how automated tools can no",
+        "cve": []
+    },
+    {
+        "title": "Critical SolarWinds Flaw Lets Attackers Bypass Web Help Desk SAML Login",
+        "date": "Fri, 31 Jul 2026 08:59:12 +0000",
+        "url": "https://cybersecuritynews.com/solarwinds-flaw-bypass-web-help-desk-saml-login/",
+        "source": "CyberSecurityNews",
+        "summary": "SolarWinds has patched a critical security vulnerability in its Web Help Desk platform that could allow attackers to bypass SAML-based authentication. CVE-2026-28323 affects SolarWinds Web Help Desk d",
         "cve": []
     },
     {
@@ -173,70 +237,6 @@
         "url": "https://cybersecuritynews.com/astaroth-malware-turns-your-whatsapp-account/",
         "source": "CyberSecurityNews",
         "summary": "Astaroth has added a new way to spread, turning a victim’s WhatsApp Web session into a delivery channel for the same malware. The banking trojan sends convincing messages and a malicious ZIP attachmen",
-        "cve": []
-    },
-    {
-        "title": "Top 50 Best Penetration Testing Companies in 2026",
-        "date": "Fri, 31 Jul 2026 08:04:33 +0000",
-        "url": "https://cybersecuritynews.com/penetration-testing-companies/",
-        "source": "CyberSecurityNews",
-        "summary": "Penetration testing companies serve as vital cybersecurity allies, simulating real-world cyberattacks to expose vulnerabilities in systems, networks, and applications before malicious actors strike. E",
-        "cve": []
-    },
-    {
-        "title": "The Gentlemen Ransomware Kills Nearly 180 Security Processes Before Encrypting Your Files",
-        "date": "Fri, 31 Jul 2026 07:59:32 +0000",
-        "url": "https://cybersecuritynews.com/gentlemen-ransomware-kills-security-processes/",
-        "source": "CyberSecurityNews",
-        "summary": "The Gentlemen ransomware operation is drawing attention for its aggressive effort to disable security software before locking files. Instead of relying only on fast encryption, the attackers attempt t",
-        "cve": []
-    },
-    {
-        "title": "PHP Patches Three Flaws Enabling SQL Injection, Memory Corruption and Server Crashes",
-        "date": "Fri, 31 Jul 2026 07:43:52 +0000",
-        "url": "https://cybersecuritynews.com/php-patches-three-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "PHP has addressed three security vulnerabilities in its latest maintenance releases, including high-severity flaws that can expose applications to SQL injection and out-of-bounds memory writes. These ",
-        "cve": []
-    },
-    {
-        "title": "CISA Urges Water Utilities to Remove PLCs From the Public Internet Immediately",
-        "date": "Fri, 31 Jul 2026 07:34:54 +0000",
-        "url": "https://cybersecuritynews.com/cisa-urges-water-utilities-to-remove-plcs/",
-        "source": "CyberSecurityNews",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning to water and wastewater organizations due to a rise in cyberattacks targeting internet-exposed programmable log",
-        "cve": []
-    },
-    {
-        "title": "CMMC Phase II Is Paused, But Contractors’ Data-Security Obligations Are Not",
-        "date": "Fri, 31 Jul 2026 07:26:06 +0000",
-        "url": "https://cybersecuritynews.com/cmmc-phase-ii-is-paused-but-contractors-data-security-obligations-are-not/",
-        "source": "CyberSecurityNews",
-        "summary": "By John Grancarich, EVP, Head of Defense &#38; Intelligence, Fortra The recent pause affecting the implementation of&#160;Cybersecurity Maturity Model Certification (CMMC)&#160;Phase II has understand",
-        "cve": []
-    },
-    {
-        "title": "New Backdoors Let Hackers Keylog, Steal Passwords and Control Government Computers",
-        "date": "Fri, 31 Jul 2026 06:51:55 +0000",
-        "url": "https://cybersecuritynews.com/new-backdoors-let-hackers-keylog/",
-        "source": "CyberSecurityNews",
-        "summary": "Government networks in Central Asia have been hit by two custom-built backdoors that give intruders deep control over infected computers. Known as OctLurk and SilkLurk, the tools can record keystrokes",
-        "cve": []
-    },
-    {
-        "title": "Security in the AI Era Starts with First Principles",
-        "date": "Fri, 31 Jul 2026 06:36:11 +0000",
-        "url": "https://cybersecuritynews.com/security-in-the-ai-era-starts-with-first-principles/",
-        "source": "CyberSecurityNews",
-        "summary": "Written By Alfredo Hickman, CISO, Kai&#160; Artificial intelligence is evolving so rapidly that keeping up can feel daunting. New models, capabilities, and attack vectors seem to&#160;emerge&#160;almo",
-        "cve": []
-    },
-    {
-        "title": "Anthropic Confirms Claude Hacked 3 Organizations by Breaking Test Environment",
-        "date": "Fri, 31 Jul 2026 03:07:17 +0000",
-        "url": "https://cybersecuritynews.com/claude-hacked-3-organizations/",
-        "source": "CyberSecurityNews",
-        "summary": "Anthropic has disclosed that its Claude AI models gained unauthorized access to the real systems of three organizations after reaching the open internet from what should have been sealed cybersecurity",
         "cve": []
     },
     {
@@ -320,6 +320,54 @@
         "cve": []
     },
     {
+        "title": "Linux 7.3 To Allow Tuning AMD P-State Dynamic EPP With Per CPU Core Granularity",
+        "date": "Fri, 31 Jul 2026 09:18:59 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-AMD-Per-Core-Dynamic",
+        "source": "Phoronix",
+        "summary": "Sent out last night was the last batch of planned AMD P-State driver feature improvements targeting the upcoming Linux 7.3 merge window...",
+        "cve": []
+    },
+    {
+        "title": "Servo 0.4 Browser Engine Gets More Websites Rendering Correctly",
+        "date": "Fri, 31 Jul 2026 07:01:10 -0400",
+        "url": "https://www.phoronix.com/news/Servo-0.4-Released",
+        "source": "Phoronix",
+        "summary": "Servo 0.4 was just released for closing out the month of July. This month the Servo browser engine with its servoshell demo browser began rendering more real-world websites correctly...",
+        "cve": []
+    },
+    {
+        "title": "Nouveau Patch For Linux 7.3 Allows For NVK Vulkan Video Atop NVIDIA NVDEC",
+        "date": "Fri, 31 Jul 2026 06:20:00 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Nouveau-NVDEC",
+        "source": "Phoronix",
+        "summary": "This week's round of drm-misc-next patches for staging ahead of the Linux 7.3 kernel merge window bring an exciting change for the open-source NVIDIA \"Nouveau\" driver...",
+        "cve": []
+    },
+    {
+        "title": "x86_64 Shadow Stack By Default Retargeted For Fedora 46",
+        "date": "Fri, 31 Jul 2026 06:04:00 -0400",
+        "url": "https://www.phoronix.com/news/Fedora-46-Shadow-Stack-Plans",
+        "source": "Phoronix",
+        "summary": "In recent weeks there was a proposal to enable x86_64 Shadow Stack support by default with the upcoming Fedora Linux 45 release. That change has been approved now by the Fedora Engineering and Steerin",
+        "cve": []
+    },
+    {
+        "title": "Vulkan 1.4.358 Released With New Image Tiling Control Extension",
+        "date": "Fri, 31 Jul 2026 05:53:13 -0400",
+        "url": "https://www.phoronix.com/news/Vulkan-1.4.358",
+        "source": "Phoronix",
+        "summary": "After two weeks without any Vulkan spec update, Vulkan 1.4.358 was released overnight. Besides the usual assortment of minor clarifications/fixes, Vulkan 1.4.358 introduces one new extension: VK_EXT_i",
+        "cve": []
+    },
+    {
+        "title": "Sound Fixes For Linux 7.2-rc6: \"Far Larger Than Wished\"",
+        "date": "Fri, 31 Jul 2026 05:26:56 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.2-rc6-Sound-Fixes",
+        "source": "Phoronix",
+        "summary": "Linux sound subsystem maintainer Takashi Iwai of SUSE previously warned of many sound driver fixes due to AI/LLMs and a \"new normal\" of patch activity as a result. While we are approaching the end of ",
+        "cve": []
+    },
+    {
         "title": "Linux 7.3 Will Treat Intel Nova Lake S Graphics As Stable",
         "date": "Thu, 30 Jul 2026 17:10:00 -0400",
         "url": "https://www.phoronix.com/news/Linux-7.3-Intel-NVL-S-Stable",
@@ -349,54 +397,6 @@
         "url": "https://www.phoronix.com/news/Open-Programmable-OPI-DPU-IPU",
         "source": "Phoronix",
         "summary": "The Linux Foundation hosted Open Programmable Infrastructure \"OPI\" announced its first coordinated release with OPI Abstraction v0.1. The work of the Open Programmable Infrastructure is hoping to stan",
-        "cve": []
-    },
-    {
-        "title": "Nouveau vs. NVIDIA R610 On CachyOS With The GeForce RTX 5090 Laptop GPU",
-        "date": "Thu, 30 Jul 2026 11:00:00 -0400",
-        "url": "https://www.phoronix.com/review/nvidia-rtx-5090-laptop-linux",
-        "source": "Phoronix",
-        "summary": "With the Razer Blade 18 as the first laptop Razer's certifying for (Ubuntu) Linux use while testing it out I was predominantly using the NVIDIA R610 official driver stack. Some users were interested t",
-        "cve": []
-    },
-    {
-        "title": "AMD Zen 6 Client HSMP Patches Point To \"Ryzen Master\" Functionality On Linux",
-        "date": "Thu, 30 Jul 2026 10:12:35 -0400",
-        "url": "https://www.phoronix.com/news/AMD-Zen-6-Client-HSMP-Linux",
-        "source": "Phoronix",
-        "summary": "In an interesting twist, patches this week posted to the Linux kernel mailing list are enabling AMD Zen 6 client desktop and laptop SoCs for the HSMP driver. Up to now the AMD HSMP Linux driver was ju",
-        "cve": []
-    },
-    {
-        "title": "Xen 4.22 Released With AMD Zen 5 BLT Support, Improved RISC-V Virtualization",
-        "date": "Thu, 30 Jul 2026 09:45:22 -0400",
-        "url": "https://www.phoronix.com/news/Zen-4.22-Released",
-        "source": "Phoronix",
-        "summary": "The Xen Project today released Xen 4.22 as the newest feature release of this open-source hypervisor popular for open-source virtualization in automotive systems and other embedded use-cases as well a",
-        "cve": []
-    },
-    {
-        "title": "Huawei Considers Open-Sourcing A Half-Hearted Mesa Vulkan Driver",
-        "date": "Thu, 30 Jul 2026 06:18:22 -0400",
-        "url": "https://www.phoronix.com/news/Huawei-Half-Open-Mesa-Vulkan",
-        "source": "Phoronix",
-        "summary": "A Huawei engineer posted to the Mesa mailing list today over potentially upstreaming a Vulkan driver they have developed for an in-house GPU. However, at least in current form, this new in-house GPU V",
-        "cve": []
-    },
-    {
-        "title": "Patches Posted To Improve Linux Media Acceleration On Intel Alchemist GPUs",
-        "date": "Thu, 30 Jul 2026 06:05:35 -0400",
-        "url": "https://www.phoronix.com/news/Intel-HuC-DG2-Alchemist-Xe",
-        "source": "Phoronix",
-        "summary": "The Intel Arc A-Series graphics (DG2) remains in a bit of an awkward state on Linux due to the transition period moving from the i915 kernel driver to more modern and feature capable Xe kernel driver.",
-        "cve": []
-    },
-    {
-        "title": "Five Proposals Now Being Weighed For Debian AI/LLM Usage",
-        "date": "Thu, 30 Jul 2026 05:47:34 -0400",
-        "url": "https://www.phoronix.com/news/Debian-GR-AI-Usage-5-Proposals",
-        "source": "Phoronix",
-        "summary": "Last week Debian developers began considering a general resolution over AI large language model (LLM) usage within the Debian project. They are now up to weighing five different proposals for how to p",
         "cve": []
     }
 ]
