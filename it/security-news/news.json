@@ -1,5 +1,13 @@
 [
     {
+        "title": "Rails patches critical Active Storage flaw with RCE potential",
+        "date": "Sat, 01 Aug 2026 10:20:30 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+        "source": "BleepingComputer",
+        "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE)",
+        "cve": []
+    },
+    {
         "title": "Amgen says cloud data breach exposed patient health, proprietary info",
         "date": "Fri, 31 Jul 2026 18:16:42 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
@@ -72,11 +80,11 @@
         "cve": []
     },
     {
-        "title": "JetBrains warns of critical TeamCity remote code execution flaw",
-        "date": "Thu, 30 Jul 2026 18:01:31 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
-        "source": "BleepingComputer",
-        "summary": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...]",
+        "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+        "date": "Sat, 01 Aug 2026 22:47:22 +0530",
+        "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+        "source": "The Hacker News",
+        "summary": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Cold",
         "cve": []
     },
     {
@@ -152,11 +160,27 @@
         "cve": []
     },
     {
-        "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-        "date": "Fri, 31 Jul 2026 16:51:27 +0530",
-        "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-        "source": "The Hacker News",
-        "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, th",
+        "title": "Brinks Home Confirms Data Breach Following ShinyHunters Claim",
+        "date": "Sat, 01 Aug 2026 16:52:20 +0000",
+        "url": "https://cybersecuritynews.com/brinks-home-confirms-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Brinks Home, one of North America&#8217;s largest residential security providers, has confirmed that hackers breached its IT systems after the notorious ShinyHunters extortion group claimed responsibi",
+        "cve": []
+    },
+    {
+        "title": "Top 10 Best DNS Security Solutions in 2026",
+        "date": "Sat, 01 Aug 2026 14:20:48 +0000",
+        "url": "https://cybersecuritynews.com/best-dns-security-solutions/",
+        "source": "CyberSecurityNews",
+        "summary": "Nearly every attack touches DNS the phishing click, the malware callback, the exfiltration tunnel which makes the DNS layer the cheapest place to break kill chains. Cisco Umbrella is our top pick for ",
+        "cve": []
+    },
+    {
+        "title": "Top 10 Best Web Application Firewall (WAF) in 2026",
+        "date": "Sat, 01 Aug 2026 13:39:23 +0000",
+        "url": "https://cybersecuritynews.com/best-web-application-firewall-waf/",
+        "source": "CyberSecurityNews",
+        "summary": "A web application firewall (WAF) filters malicious HTTP/S traffic SQL injection, cross-site scripting, credential stuffing, and API abuse — before it reaches your applications. Cloudflare is our top W",
         "cve": []
     },
     {
@@ -213,30 +237,6 @@
         "url": "https://cybersecuritynews.com/keycloak-vulnerability/",
         "source": "CyberSecurityNews",
         "summary": "Keycloak has addressed a broken access control vulnerability that could allow restricted administrators to access usernames, email addresses, and other profile information belonging to users outside t",
-        "cve": []
-    },
-    {
-        "title": "CyberStrike – AI-Powered Security Platform for Automated Penetration Testing",
-        "date": "Fri, 31 Jul 2026 16:22:14 +0000",
-        "url": "https://cybersecuritynews.com/cyberstrike-ai-powered-security-platform/",
-        "source": "CyberSecurityNews",
-        "summary": "A new open-source project called CyberStrike is positioning itself as the first AI agent built specifically for offensive security, turning any existing Claude, GPT, or LLM subscription into an autono",
-        "cve": []
-    },
-    {
-        "title": "Critical JetBrains Flaw Allows Attackers to Execute Malicious Code Remotely – Update Now",
-        "date": "Fri, 31 Jul 2026 14:05:46 +0000",
-        "url": "https://cybersecuritynews.com/jetbrains-vulnerability-execute-malicious-code/",
-        "source": "CyberSecurityNews",
-        "summary": "JetBrains has announced a critical vulnerability in TeamCity On-Premises, identified as CVE-2026-63077. This vulnerability allows attackers to bypass authentication and execute arbitrary commands remo",
-        "cve": []
-    },
-    {
-        "title": "FBI And Allies Warn of North Korean IT Workers Using Stolen Identities",
-        "date": "Fri, 31 Jul 2026 13:27:25 +0000",
-        "url": "https://cybersecuritynews.com/fbi-warns-of-north-korean-it-workers/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. State Department, FBI, and allied governments including Japan, Canada, Germany, Australia, the United Kingdom, and the Republic of Korea have issued a joint alert warning companies worldwide ",
         "cve": []
     },
     {
@@ -320,6 +320,22 @@
         "cve": []
     },
     {
+        "title": "The Best Firewall-as-a-Service (FWaaS) Providers, Compared and Priced (2026)",
+        "date": "Sat, 01 Aug 2026 14:08:38 +0000",
+        "url": "https://gbhackers.com/fwaas-providers-compared-features-pricing/",
+        "source": "GBHackers",
+        "summary": "Firewall-asa-service moved from experiment to default: inspection, IPS, and policy delivered from the cloud, priced per user or per site instead of per appliance. The value answer up front: Cloudflare",
+        "cve": []
+    },
+    {
+        "title": "The Best Cloud Firewall Solutions, Compared and Priced (2026)",
+        "date": "Sat, 01 Aug 2026 13:48:16 +0000",
+        "url": "https://gbhackers.com/cloud-firewall-solutions-compared-pricing/",
+        "source": "GBHackers",
+        "summary": "Cloud firewalls bill three ways — usage-metered native services, licensed virtual appliances, and managed platform subscriptions — and picking the wrong shape costs more than picking the wrong brand. ",
+        "cve": []
+    },
+    {
         "title": "Autonomous AI Agent Exploits Zero-Day to Breach Hugging Face Infrastructure",
         "date": "Sat, 01 Aug 2026 08:32:42 +0000",
         "url": "https://gbhackers.com/autonomous-ai-agent-exploits-zero-day/",
@@ -381,22 +397,6 @@
         "url": "https://gbhackers.com/critical-jetbrains-teamcity-flaw/",
         "source": "GBHackers",
         "summary": "JetBrains has revealed a critical security vulnerability in TeamCity On-Premises that enables unauthenticated remote code execution (RCE) on affected servers. This poses a significant risk to CI/CD en",
-        "cve": []
-    },
-    {
-        "title": "Google Uses AI to Fix 1,072 Chrome Security Vulnerabilities",
-        "date": "Fri, 31 Jul 2026 10:18:47 +0000",
-        "url": "https://gbhackers.com/google-uses-ai-to-fix-1072-chrome-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "Google has announced that its AI-assisted security workflows have helped Chrome fix 10,721 security vulnerabilities across Chrome Stable milestones 149 and 150. This number exceeds the total number of",
-        "cve": []
-    },
-    {
-        "title": "ClickFix Campaign Uses EtherHiding to Hide Malware and Exposes DPRK Wallet Trail",
-        "date": "Fri, 31 Jul 2026 09:52:09 +0000",
-        "url": "https://gbhackers.com/clickfix-campaign-uses-etherhiding/",
-        "source": "GBHackers",
-        "summary": "ClickFix-style fake macOS updates are now being weaponized with EtherHiding-backed command‑and‑control and a DPRK-linked crypto laundering network, turning a routine search click into a full-stack the",
         "cve": []
     }
 ]
