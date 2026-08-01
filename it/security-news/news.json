@@ -80,6 +80,14 @@
         "cve": []
     },
     {
+        "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+        "date": "Sat, 01 Aug 2026 14:33:07 +0530",
+        "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+        "source": "The Hacker News",
+        "summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident o",
+        "cve": []
+    },
+    {
         "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
         "date": "Sat, 01 Aug 2026 12:42:42 +0530",
         "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
@@ -152,11 +160,27 @@
         "cve": []
     },
     {
-        "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-        "date": "Fri, 31 Jul 2026 12:11:44 +0530",
-        "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-        "source": "The Hacker News",
-        "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three ",
+        "title": "Top 10 Best Cloud Firewall Solutions in 2026",
+        "date": "Sat, 01 Aug 2026 13:00:34 +0000",
+        "url": "https://cybersecuritynews.com/best-cloud-firewall-solutions/",
+        "source": "CyberSecurityNews",
+        "summary": "Cloud workloads don’t sit behind your data-center firewall, and attackers know it. A cloud firewall inspects and controls traffic to, from, and between cloud workloads VPC-to-VPC, workload-to-internet",
+        "cve": []
+    },
+    {
+        "title": "Windows 11 Gets More Taskbar Control and AI Integration as Microsoft Details Quality Progress",
+        "date": "Sat, 01 Aug 2026 12:30:38 +0000",
+        "url": "https://cybersecuritynews.com/windows-11-quality-initiative/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has released a detailed update on its Windows quality initiative, four months after committing in March to improve performance, reliability, and everyday user experiences across Windows 11. ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Turned a Trusted Advertising Platform Into a Crypto-Stealer Delivery Network",
+        "date": "Sat, 01 Aug 2026 12:13:57 +0000",
+        "url": "https://cybersecuritynews.com/adform-advertising-platform-compromised/",
+        "source": "CyberSecurityNews",
+        "summary": "Adform, a major advertising technology company serving roughly 14,000 businesses and holding nearly 30% of the demand-side platform market, has suffered a supply chain compromise that turned its trust",
         "cve": []
     },
     {
@@ -213,30 +237,6 @@
         "url": "https://cybersecuritynews.com/fbi-warns-of-north-korean-it-workers/",
         "source": "CyberSecurityNews",
         "summary": "The U.S. State Department, FBI, and allied governments including Japan, Canada, Germany, Australia, the United Kingdom, and the Republic of Korea have issued a joint alert warning companies worldwide ",
-        "cve": []
-    },
-    {
-        "title": "Google Uses AI Agents to Find and Fix 1,072 Chrome Security Vulnerabilities",
-        "date": "Fri, 31 Jul 2026 12:31:10 +0000",
-        "url": "https://cybersecuritynews.com/google-ai-fixes-chrome-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Google is expanding the use of artificial intelligence (AI) agents across the Chrome security lifecycle to identify source code weaknesses, test patches, and accelerate the delivery of security update",
-        "cve": []
-    },
-    {
-        "title": "North Korean EtherHiding Campaign Targets Crypto Wallets and Developer Credentials",
-        "date": "Fri, 31 Jul 2026 12:05:41 +0000",
-        "url": "https://cybersecuritynews.com/north-korean-etherhiding-campaign/",
-        "source": "CyberSecurityNews",
-        "summary": "A North Korean-linked cyber campaign is using fake macOS update screens to trick victims into installing malware. The operation targets cryptocurrency wallets, browser data, and developer credentials,",
-        "cve": []
-    },
-    {
-        "title": "BlackTech APT Deploys BlueShell Linux Backdoor Against Japanese Organizations",
-        "date": "Fri, 31 Jul 2026 11:50:23 +0000",
-        "url": "https://cybersecuritynews.com/blacktech-apt-deploys-blueshell-linux-backdoor/",
-        "source": "CyberSecurityNews",
-        "summary": "BlackTech has been linked to a newly examined Linux backdoor deployment against organizations in Japan, showing how a familiar remote-access tool can be reshaped for cyberespionage. The malware gives ",
         "cve": []
     },
     {
@@ -320,6 +320,14 @@
         "cve": []
     },
     {
+        "title": "Autonomous AI Agent Exploits Zero-Day to Breach Hugging Face Infrastructure",
+        "date": "Sat, 01 Aug 2026 08:32:42 +0000",
+        "url": "https://gbhackers.com/autonomous-ai-agent-exploits-zero-day/",
+        "source": "GBHackers",
+        "summary": "An autonomous AI agent powered by OpenAI models breached Hugging Face&#8217;s production infrastructure in July 2026 after escaping its evaluation sandbox via a zero-day vulnerability. Documented by H",
+        "cve": []
+    },
+    {
         "title": "Arch Linux Suspends AUR Package Adoptions to Block Ongoing Malicious Commit Campaign",
         "date": "Sat, 01 Aug 2026 08:05:29 +0000",
         "url": "https://gbhackers.com/arch-linux-suspends-aur-package-adoptions/",
@@ -389,14 +397,6 @@
         "url": "https://gbhackers.com/clickfix-campaign-uses-etherhiding/",
         "source": "GBHackers",
         "summary": "ClickFix-style fake macOS updates are now being weaponized with EtherHiding-backed command‑and‑control and a DPRK-linked crypto laundering network, turning a routine search click into a full-stack the",
-        "cve": []
-    },
-    {
-        "title": "BlackTech APT Uses New BlueShell Linux Backdoor in Attacks on Japanese Organizations",
-        "date": "Fri, 31 Jul 2026 08:58:43 +0000",
-        "url": "https://gbhackers.com/blueshell-linux-backdoor/",
-        "source": "GBHackers",
-        "summary": "BlackTech, a long-running China-aligned APT group, has adopted a new Linux backdoor built on the BlueShell open-source RAT to conduct post-intrusion operations against Japanese organizations, signalin",
         "cve": []
     }
 ]
