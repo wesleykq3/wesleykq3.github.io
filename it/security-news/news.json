@@ -1,5 +1,29 @@
 [
     {
+        "title": "Amgen says cloud data breach exposed patient health, proprietary info",
+        "date": "Fri, 31 Jul 2026 18:16:42 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
+        "source": "BleepingComputer",
+        "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers.",
+        "cve": []
+    },
+    {
+        "title": "Arch Linux disables AUR package adoption to stop malware flood",
+        "date": "Fri, 31 Jul 2026 17:38:08 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
+        "source": "BleepingComputer",
+        "summary": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]",
+        "cve": []
+    },
+    {
+        "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+        "date": "Fri, 31 Jul 2026 17:09:25 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+        "source": "BleepingComputer",
+        "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboard",
+        "cve": []
+    },
+    {
         "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient",
         "date": "Fri, 31 Jul 2026 14:52:44 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
@@ -56,27 +80,11 @@
         "cve": []
     },
     {
-        "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
-        "date": "Thu, 30 Jul 2026 14:13:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
-        "source": "BleepingComputer",
-        "summary": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
-        "cve": []
-    },
-    {
-        "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
-        "date": "Thu, 30 Jul 2026 14:00:51 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
-        "source": "BleepingComputer",
-        "summary": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execut",
-        "cve": []
-    },
-    {
-        "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
-        "date": "Thu, 30 Jul 2026 13:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
-        "source": "BleepingComputer",
-        "summary": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two",
+        "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+        "date": "Sat, 01 Aug 2026 00:22:04 +0530",
+        "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
+        "source": "The Hacker News",
+        "summary": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan",
         "cve": []
     },
     {
@@ -149,94 +157,6 @@
         "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
         "source": "The Hacker News",
         "summary": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behin",
-        "cve": []
-    },
-    {
-        "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-        "date": "Thu, 30 Jul 2026 19:04:09 +0530",
-        "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-        "source": "The Hacker News",
-        "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, accordi",
-        "cve": []
-    },
-    {
-        "title": "Your Incident Response Plan Has a Dependency You Never Approved",
-        "date": "Fri, 31 Jul 2026 17:29:19 +0000",
-        "url": "https://cybersecuritynews.com/your-incident-response-plan-has-a-dependency-you-never-approved/",
-        "source": "CyberSecurityNews",
-        "summary": "During the first publicly documented agent-driven intrusion, the defenders tried to analyze the attack with commercial AI models and were refused.&#160;The attacker was operating under no usage policy",
-        "cve": []
-    },
-    {
-        "title": "Keycloak Vulnerability Exposes User Names and Email Addresses Across Admin Boundaries",
-        "date": "Fri, 31 Jul 2026 16:31:30 +0000",
-        "url": "https://cybersecuritynews.com/keycloak-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "Keycloak has addressed a broken access control vulnerability that could allow restricted administrators to access usernames, email addresses, and other profile information belonging to users outside t",
-        "cve": []
-    },
-    {
-        "title": "CyberStrike – AI-Powered Security Platform for Automated Penetration Testing",
-        "date": "Fri, 31 Jul 2026 16:22:14 +0000",
-        "url": "https://cybersecuritynews.com/cyberstrike-ai-powered-security-platform/",
-        "source": "CyberSecurityNews",
-        "summary": "A new open-source project called CyberStrike is positioning itself as the first AI agent built specifically for offensive security, turning any existing Claude, GPT, or LLM subscription into an autono",
-        "cve": []
-    },
-    {
-        "title": "Critical JetBrains Flaw Allows Attackers to Execute Malicious Code Remotely – Update Now",
-        "date": "Fri, 31 Jul 2026 14:05:46 +0000",
-        "url": "https://cybersecuritynews.com/jetbrains-vulnerability-execute-malicious-code/",
-        "source": "CyberSecurityNews",
-        "summary": "JetBrains has announced a critical vulnerability in TeamCity On-Premises, identified as CVE-2026-63077. This vulnerability allows attackers to bypass authentication and execute arbitrary commands remo",
-        "cve": []
-    },
-    {
-        "title": "FBI And Allies Warn of North Korean IT Workers Using Stolen Identities",
-        "date": "Fri, 31 Jul 2026 13:27:25 +0000",
-        "url": "https://cybersecuritynews.com/fbi-warns-of-north-korean-it-workers/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. State Department, FBI, and allied governments including Japan, Canada, Germany, Australia, the United Kingdom, and the Republic of Korea have issued a joint alert warning companies worldwide ",
-        "cve": []
-    },
-    {
-        "title": "Google Uses AI Agents to Find and Fix 1,072 Chrome Security Vulnerabilities",
-        "date": "Fri, 31 Jul 2026 12:31:10 +0000",
-        "url": "https://cybersecuritynews.com/google-ai-fixes-chrome-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Google is expanding the use of artificial intelligence (AI) agents across the Chrome security lifecycle to identify source code weaknesses, test patches, and accelerate the delivery of security update",
-        "cve": []
-    },
-    {
-        "title": "North Korean EtherHiding Campaign Targets Crypto Wallets and Developer Credentials",
-        "date": "Fri, 31 Jul 2026 12:05:41 +0000",
-        "url": "https://cybersecuritynews.com/north-korean-etherhiding-campaign/",
-        "source": "CyberSecurityNews",
-        "summary": "A North Korean-linked cyber campaign is using fake macOS update screens to trick victims into installing malware. The operation targets cryptocurrency wallets, browser data, and developer credentials,",
-        "cve": []
-    },
-    {
-        "title": "BlackTech APT Deploys BlueShell Linux Backdoor Against Japanese Organizations",
-        "date": "Fri, 31 Jul 2026 11:50:23 +0000",
-        "url": "https://cybersecuritynews.com/blacktech-apt-deploys-blueshell-linux-backdoor/",
-        "source": "CyberSecurityNews",
-        "summary": "BlackTech has been linked to a newly examined Linux backdoor deployment against organizations in Japan, showing how a familiar remote-access tool can be reshaped for cyberespionage. The malware gives ",
-        "cve": []
-    },
-    {
-        "title": "CMMC Phase II Is Paused, But Contractors’ Data-Security Obligations Are Not",
-        "date": "Fri, 31 Jul 2026 10:00:49 +0000",
-        "url": "https://cybersecuritynews.com/cmmc-phase-ii-is-paused-but-contractors-data-security-obligations-are-not/",
-        "source": "CyberSecurityNews",
-        "summary": "By John Grancarich, EVP, Head of Defense &#38; Intelligence, Fortra The recent pause affecting the implementation of&#160;Cybersecurity Maturity Model Certification (CMMC)&#160;Phase II has understand",
-        "cve": []
-    },
-    {
-        "title": "SSH Bot Profiles Linux CPU, GPU and RAM Before Deploying Cryptocurrency Miner",
-        "date": "Fri, 31 Jul 2026 09:38:27 +0000",
-        "url": "https://cybersecuritynews.com/ssh-bot-profiles-linux-cpu/",
-        "source": "CyberSecurityNews",
-        "summary": "A new SSH bot has been caught quietly logging into Linux systems, profiling their CPU, GPU, and memory, and then walking away without dropping any visible payload. The behavior looks harmless at first",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Keycloak Flaw Exposes Users’ Personal Data to Restricted Admins",
-        "date": "Fri, 31 Jul 2026 13:00:00 +0000",
-        "url": "https://gbhackers.com/keycloak-flaw-exposes-users-personal-data/",
-        "source": "GBHackers",
-        "summary": "A broken access control vulnerability in Keycloak could allow unauthorized administrator accounts to access users&#8217; personal information. This issue, tracked as CVE-2026-17059, affects the Keyclo",
+        "title": "AMD Begins Posting Display Core Next 6 \"DCN6\" Linux Patches For RDNA5 GPUs",
+        "date": "Fri, 31 Jul 2026 20:29:25 -0400",
+        "url": "https://www.phoronix.com/news/AMD-DCN6-Linux-Start",
+        "source": "Phoronix",
+        "summary": "AMD closed out the month of July by posting some new AMDGPU Display Core \"DC\" patches. Most notable with this weekly patch ritual is several patches beginning to establish the foundation for Display C",
         "cve": []
     },
     {
-        "title": "Ransomware Killers Overwrite Security Process Memory Without Terminating Applications",
-        "date": "Fri, 31 Jul 2026 11:17:21 +0000",
-        "url": "https://gbhackers.com/ransomware-killers-overwrite-security-process/",
-        "source": "GBHackers",
-        "summary": "Ransomware operators are increasingly deploying “ransomware killers” that surgically overwrite the memory of security processes instead of simply terminating them, allowing encryption to proceed. At t",
+        "title": "AMD Publishes CDNA5 ISA Documentation For Instinct MI455X",
+        "date": "Fri, 31 Jul 2026 16:29:05 -0400",
+        "url": "https://www.phoronix.com/news/AMD-CDNA5-ISA-Documentation",
+        "source": "Phoronix",
+        "summary": "Following last week's launch of the AMD Instinct MI455X, AMD has now kept with tradition and provided ISA documentation concerning this latest CDNA5 architecture...",
         "cve": []
     },
     {
-        "title": "Critical JetBrains TeamCity Flaw Enables Unauthenticated Remote Code Execution",
-        "date": "Fri, 31 Jul 2026 10:47:38 +0000",
-        "url": "https://gbhackers.com/critical-jetbrains-teamcity-flaw/",
-        "source": "GBHackers",
-        "summary": "JetBrains has revealed a critical security vulnerability in TeamCity On-Premises that enables unauthenticated remote code execution (RCE) on affected servers. This poses a significant risk to CI/CD en",
+        "title": "The First Open-Source Firmware Released For Modern AMD Ryzen AM5 Platform",
+        "date": "Fri, 31 Jul 2026 14:04:00 -0400",
+        "url": "https://www.phoronix.com/news/OSS-Firmware-MSI-B850-P-WIFI",
+        "source": "Phoronix",
+        "summary": "Last month 3mdeb released their open-source firmware for a modern AMD EPYC motherboard from Gigabyte that was built off the new AMD openSIL project and Coreboot. Today 3mdeb has delivered the first op",
         "cve": []
     },
     {
-        "title": "Google Uses AI to Fix 1,072 Chrome Security Vulnerabilities",
-        "date": "Fri, 31 Jul 2026 10:18:47 +0000",
-        "url": "https://gbhackers.com/google-uses-ai-to-fix-1072-chrome-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "Google has announced that its AI-assisted security workflows have helped Chrome fix 10,721 security vulnerabilities across Chrome Stable milestones 149 and 150. This number exceeds the total number of",
+        "title": "Shotcut 26.7 Video Editor Released With Stock Asset Library",
+        "date": "Fri, 31 Jul 2026 13:50:05 -0400",
+        "url": "https://www.phoronix.com/news/Shotcut-26.7-Released",
+        "source": "Phoronix",
+        "summary": "Shotcut 26.7 is out today as the newest feature release to this open-source, cross-platform video editing solution...",
         "cve": []
     },
     {
-        "title": "ClickFix Campaign Uses EtherHiding to Hide Malware and Exposes DPRK Wallet Trail",
-        "date": "Fri, 31 Jul 2026 09:52:09 +0000",
-        "url": "https://gbhackers.com/clickfix-campaign-uses-etherhiding/",
-        "source": "GBHackers",
-        "summary": "ClickFix-style fake macOS updates are now being weaponized with EtherHiding-backed command‑and‑control and a DPRK-linked crypto laundering network, turning a routine search click into a full-stack the",
+        "title": "Nouveau Preparing To Finally Enable Atomic Mode-Setting By Default",
+        "date": "Fri, 31 Jul 2026 11:22:00 -0400",
+        "url": "https://www.phoronix.com/news/Nouveau-Atomic-Mode-Setting-26",
+        "source": "Phoronix",
+        "summary": "In addition to the Nouveau kernel driver unblocking Vulkan Video H.264 support for the Mesa NVK driver, another feature change on the way is this open-source NVIDIA Linux driver finally preparing to e",
         "cve": []
     },
     {
-        "title": "BlackTech APT Uses New BlueShell Linux Backdoor in Attacks on Japanese Organizations",
-        "date": "Fri, 31 Jul 2026 08:58:43 +0000",
-        "url": "https://gbhackers.com/blueshell-linux-backdoor/",
-        "source": "GBHackers",
-        "summary": "BlackTech, a long-running China-aligned APT group, has adopted a new Linux backdoor built on the BlueShell open-source RAT to conduct post-intrusion operations against Japanese organizations, signalin",
+        "title": "Arch Linux AUR Under Another Wave Of Malicious Packages, Package Adoptions Halted",
+        "date": "Fri, 31 Jul 2026 09:59:23 -0400",
+        "url": "https://www.phoronix.com/news/Arch-Linux-AUR-Adoptions-Halted",
+        "source": "Phoronix",
+        "summary": "Last month the Arch Linux User Repository \"AUR\" saw more than 1,500 malicious packages amid a sophisticated malware attack and then also seeing an influx of spam and profanities amid this community/us",
         "cve": []
     },
     {
-        "title": "Critical Adobe Campaign Flaw Lets Attackers Execute Arbitrary Code",
-        "date": "Fri, 31 Jul 2026 08:50:20 +0000",
-        "url": "https://gbhackers.com/critical-adobe-campaign-flaw/",
-        "source": "GBHackers",
-        "summary": "Adobe has released a critical security update for Adobe Campaign Classic to address multiple high-severity vulnerabilities that could allow attackers to execute arbitrary code and access sensitive dat",
+        "title": "Linux 7.3 To Allow Tuning AMD P-State Dynamic EPP With Per CPU Core Granularity",
+        "date": "Fri, 31 Jul 2026 09:18:59 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-AMD-Per-Core-Dynamic",
+        "source": "Phoronix",
+        "summary": "Sent out last night was the last batch of planned AMD P-State driver feature improvements targeting the upcoming Linux 7.3 merge window...",
         "cve": []
     },
     {
-        "title": "Critical SolarWinds Web Help Desk Flaw Lets Attackers Bypass SAML Authentication",
-        "date": "Fri, 31 Jul 2026 08:10:06 +0000",
-        "url": "https://gbhackers.com/critical-solarwinds-web-help-desk-flaw/",
-        "source": "GBHackers",
-        "summary": "SolarWinds has released Web Help Desk (WHD) version 2026.2.1 to address a critical authentication bypass vulnerability. This flaw could allow attackers to gain unauthorized access to affected systems ",
+        "title": "Servo 0.4 Browser Engine Gets More Websites Rendering Correctly",
+        "date": "Fri, 31 Jul 2026 07:01:10 -0400",
+        "url": "https://www.phoronix.com/news/Servo-0.4-Released",
+        "source": "Phoronix",
+        "summary": "Servo 0.4 was just released for closing out the month of July. This month the Servo browser engine with its servoshell demo browser began rendering more real-world websites correctly...",
         "cve": []
     },
     {
-        "title": "Recon-Only SSH Attack Leaves No Malware but Signals a Second-Stage Intrusion",
-        "date": "Fri, 31 Jul 2026 07:35:43 +0000",
-        "url": "https://gbhackers.com/recon-only-ssh-attack/",
-        "source": "GBHackers",
-        "summary": "Recon-only activity on SSH is not harmless background noise. A recent honeypot session shows an automated Go-based bot logging in as root, exhaustively grading host hardware for cryptomining suitabili",
+        "title": "Nouveau Patch For Linux 7.3 Allows For NVK Vulkan Video Atop NVIDIA NVDEC",
+        "date": "Fri, 31 Jul 2026 06:20:00 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Nouveau-NVDEC",
+        "source": "Phoronix",
+        "summary": "This week's round of drm-misc-next patches for staging ahead of the Linux 7.3 kernel merge window bring an exciting change for the open-source NVIDIA \"Nouveau\" driver...",
         "cve": []
     },
     {
-        "title": "PHP Patches 3 Security Flaws Enabling SQL Injection, Memory Corruption and DoS Attacks",
-        "date": "Fri, 31 Jul 2026 06:53:39 +0000",
-        "url": "https://gbhackers.com/php-patches-3-security-flaws-enabling-sql-injection/",
-        "source": "GBHackers",
-        "summary": "PHP maintainers have released security updates to address three vulnerabilities affecting the PostgreSQL, BCMath, and Phar extensions. These vulnerabilities could potentially lead to SQL injection att",
+        "title": "x86_64 Shadow Stack By Default Retargeted For Fedora 46",
+        "date": "Fri, 31 Jul 2026 06:04:00 -0400",
+        "url": "https://www.phoronix.com/news/Fedora-46-Shadow-Stack-Plans",
+        "source": "Phoronix",
+        "summary": "In recent weeks there was a proposal to enable x86_64 Shadow Stack support by default with the upcoming Fedora Linux 45 release. That change has been approved now by the Fedora Engineering and Steerin",
         "cve": []
     }
 ]
