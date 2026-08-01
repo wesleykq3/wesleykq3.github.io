@@ -80,6 +80,22 @@
         "cve": []
     },
     {
+        "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+        "date": "Sat, 01 Aug 2026 12:42:42 +0530",
+        "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+        "source": "The Hacker News",
+        "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code exe",
+        "cve": []
+    },
+    {
+        "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+        "date": "Sat, 01 Aug 2026 11:59:05 +0530",
+        "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+        "source": "The Hacker News",
+        "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said",
+        "cve": []
+    },
+    {
         "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
         "date": "Sat, 01 Aug 2026 00:22:04 +0530",
         "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
@@ -144,19 +160,83 @@
         "cve": []
     },
     {
-        "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-        "date": "Thu, 30 Jul 2026 23:48:24 +0530",
-        "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent updat",
+        "title": "Arch Linux Disables AUR Package Takeovers as Attackers Push Malicious Commits",
+        "date": "Sat, 01 Aug 2026 04:41:51 +0000",
+        "url": "https://cybersecuritynews.com/arch-linux-disables-aur-package/",
+        "source": "CyberSecurityNews",
+        "summary": "Arch Linux has temporarily disabled package adoption on its Arch User Repository (AUR) after security teams detected a wave of malicious takeovers and follow-up commits designed to compromise unsuspec",
         "cve": []
     },
     {
-        "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
-        "date": "Thu, 30 Jul 2026 20:55:57 +0530",
-        "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
-        "source": "The Hacker News",
-        "summary": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behin",
+        "title": "HackerOne Mandates ID Verification for Bug Bounty Submissions",
+        "date": "Sat, 01 Aug 2026 03:05:41 +0000",
+        "url": "https://cybersecuritynews.com/hackerone-mandates-id-verification/",
+        "source": "CyberSecurityNews",
+        "summary": "HackerOne has confirmed that all hackers must now complete identity verification before submitting reports to any bug bounty program (BBP) on its platform, a move the company says is necessary to meet",
+        "cve": []
+    },
+    {
+        "title": "Your Incident Response Plan Has a Dependency You Never Approved",
+        "date": "Fri, 31 Jul 2026 17:29:19 +0000",
+        "url": "https://cybersecuritynews.com/your-incident-response-plan-has-a-dependency-you-never-approved/",
+        "source": "CyberSecurityNews",
+        "summary": "During the first publicly documented agent-driven intrusion, the defenders tried to analyze the attack with commercial AI models and were refused.&#160;The attacker was operating under no usage policy",
+        "cve": []
+    },
+    {
+        "title": "Keycloak Vulnerability Exposes User Names and Email Addresses Across Admin Boundaries",
+        "date": "Fri, 31 Jul 2026 16:31:30 +0000",
+        "url": "https://cybersecuritynews.com/keycloak-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Keycloak has addressed a broken access control vulnerability that could allow restricted administrators to access usernames, email addresses, and other profile information belonging to users outside t",
+        "cve": []
+    },
+    {
+        "title": "CyberStrike – AI-Powered Security Platform for Automated Penetration Testing",
+        "date": "Fri, 31 Jul 2026 16:22:14 +0000",
+        "url": "https://cybersecuritynews.com/cyberstrike-ai-powered-security-platform/",
+        "source": "CyberSecurityNews",
+        "summary": "A new open-source project called CyberStrike is positioning itself as the first AI agent built specifically for offensive security, turning any existing Claude, GPT, or LLM subscription into an autono",
+        "cve": []
+    },
+    {
+        "title": "Critical JetBrains Flaw Allows Attackers to Execute Malicious Code Remotely – Update Now",
+        "date": "Fri, 31 Jul 2026 14:05:46 +0000",
+        "url": "https://cybersecuritynews.com/jetbrains-vulnerability-execute-malicious-code/",
+        "source": "CyberSecurityNews",
+        "summary": "JetBrains has announced a critical vulnerability in TeamCity On-Premises, identified as CVE-2026-63077. This vulnerability allows attackers to bypass authentication and execute arbitrary commands remo",
+        "cve": []
+    },
+    {
+        "title": "FBI And Allies Warn of North Korean IT Workers Using Stolen Identities",
+        "date": "Fri, 31 Jul 2026 13:27:25 +0000",
+        "url": "https://cybersecuritynews.com/fbi-warns-of-north-korean-it-workers/",
+        "source": "CyberSecurityNews",
+        "summary": "The U.S. State Department, FBI, and allied governments including Japan, Canada, Germany, Australia, the United Kingdom, and the Republic of Korea have issued a joint alert warning companies worldwide ",
+        "cve": []
+    },
+    {
+        "title": "Google Uses AI Agents to Find and Fix 1,072 Chrome Security Vulnerabilities",
+        "date": "Fri, 31 Jul 2026 12:31:10 +0000",
+        "url": "https://cybersecuritynews.com/google-ai-fixes-chrome-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Google is expanding the use of artificial intelligence (AI) agents across the Chrome security lifecycle to identify source code weaknesses, test patches, and accelerate the delivery of security update",
+        "cve": []
+    },
+    {
+        "title": "North Korean EtherHiding Campaign Targets Crypto Wallets and Developer Credentials",
+        "date": "Fri, 31 Jul 2026 12:05:41 +0000",
+        "url": "https://cybersecuritynews.com/north-korean-etherhiding-campaign/",
+        "source": "CyberSecurityNews",
+        "summary": "A North Korean-linked cyber campaign is using fake macOS update screens to trick victims into installing malware. The operation targets cryptocurrency wallets, browser data, and developer credentials,",
+        "cve": []
+    },
+    {
+        "title": "BlackTech APT Deploys BlueShell Linux Backdoor Against Japanese Organizations",
+        "date": "Fri, 31 Jul 2026 11:50:23 +0000",
+        "url": "https://cybersecuritynews.com/blacktech-apt-deploys-blueshell-linux-backdoor/",
+        "source": "CyberSecurityNews",
+        "summary": "BlackTech has been linked to a newly examined Linux backdoor deployment against organizations in Japan, showing how a familiar remote-access tool can be reshaped for cyberespionage. The malware gives ",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "AMD Begins Posting Display Core Next 6 \"DCN6\" Linux Patches For RDNA5 GPUs",
-        "date": "Fri, 31 Jul 2026 20:29:25 -0400",
-        "url": "https://www.phoronix.com/news/AMD-DCN6-Linux-Start",
-        "source": "Phoronix",
-        "summary": "AMD closed out the month of July by posting some new AMDGPU Display Core \"DC\" patches. Most notable with this weekly patch ritual is several patches beginning to establish the foundation for Display C",
+        "title": "Arch Linux Suspends AUR Package Adoptions to Block Ongoing Malicious Commit Campaign",
+        "date": "Sat, 01 Aug 2026 08:05:29 +0000",
+        "url": "https://gbhackers.com/arch-linux-suspends-aur-package-adoptions/",
+        "source": "GBHackers",
+        "summary": "Arch Linux has temporarily disabled package adoptions on the Arch User Repository (AUR) after detecting a wave of malicious activity targeting orphaned and unmaintained packages. The Arch Linux DevOps",
         "cve": []
     },
     {
-        "title": "AMD Publishes CDNA5 ISA Documentation For Instinct MI455X",
-        "date": "Fri, 31 Jul 2026 16:29:05 -0400",
-        "url": "https://www.phoronix.com/news/AMD-CDNA5-ISA-Documentation",
-        "source": "Phoronix",
-        "summary": "Following last week's launch of the AMD Instinct MI455X, AMD has now kept with tradition and provided ISA documentation concerning this latest CDNA5 architecture...",
+        "title": "CRPx0 Ransomware Claims Hyundai Turkey Breach, Steals 1.5GB of Assessment Data",
+        "date": "Sat, 01 Aug 2026 07:40:04 +0000",
+        "url": "https://gbhackers.com/crpx0-ransomware-claims-hyundai-turkey-breach/",
+        "source": "GBHackers",
+        "summary": "The double-extortion ransomware group CRPx0 has listed Hyundai&#8217;s Turkish operations on its dark web leak site, claiming to have exfiltrated 1.5 GB of sensitive personnel and recruitment data fro",
         "cve": []
     },
     {
-        "title": "The First Open-Source Firmware Released For Modern AMD Ryzen AM5 Platform",
-        "date": "Fri, 31 Jul 2026 14:04:00 -0400",
-        "url": "https://www.phoronix.com/news/OSS-Firmware-MSI-B850-P-WIFI",
-        "source": "Phoronix",
-        "summary": "Last month 3mdeb released their open-source firmware for a modern AMD EPYC motherboard from Gigabyte that was built off the new AMD openSIL project and Coreboot. Today 3mdeb has delivered the first op",
+        "title": "HackerOne Mandates ID Verification Before Bug Bounty Report Submissions",
+        "date": "Sat, 01 Aug 2026 07:04:41 +0000",
+        "url": "https://gbhackers.com/hackerone-mandates-id-verification/",
+        "source": "GBHackers",
+        "summary": "HackerOne has rolled out a significant policy change requiring all hackers to complete identity verification before submitting reports to Bug Bounty Programs (BBPs). The update, effective immediately,",
         "cve": []
     },
     {
-        "title": "Shotcut 26.7 Video Editor Released With Stock Asset Library",
-        "date": "Fri, 31 Jul 2026 13:50:05 -0400",
-        "url": "https://www.phoronix.com/news/Shotcut-26.7-Released",
-        "source": "Phoronix",
-        "summary": "Shotcut 26.7 is out today as the newest feature release to this open-source, cross-platform video editing solution...",
+        "title": "MacSync Stealer RAT Uses Fake Claude Guides to Steal Passwords and Crypto Wallets",
+        "date": "Sat, 01 Aug 2026 06:50:22 +0000",
+        "url": "https://gbhackers.com/macsync-stealer-rat-uses-fake-claude-guides/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed macOS malware campaign dubbed MacSync weaponizes fake Claude AI installation guides to deploy a six-stage stealer and remote access trojan. Documented by Huntress, the kit targets br",
         "cve": []
     },
     {
-        "title": "Nouveau Preparing To Finally Enable Atomic Mode-Setting By Default",
-        "date": "Fri, 31 Jul 2026 11:22:00 -0400",
-        "url": "https://www.phoronix.com/news/Nouveau-Atomic-Mode-Setting-26",
-        "source": "Phoronix",
-        "summary": "In addition to the Nouveau kernel driver unblocking Vulkan Video H.264 support for the Mesa NVK driver, another feature change on the way is this open-source NVIDIA Linux driver finally preparing to e",
+        "title": "Keycloak Flaw Exposes Users’ Personal Data to Restricted Admins",
+        "date": "Fri, 31 Jul 2026 13:00:00 +0000",
+        "url": "https://gbhackers.com/keycloak-flaw-exposes-users-personal-data/",
+        "source": "GBHackers",
+        "summary": "A broken access control vulnerability in Keycloak could allow unauthorized administrator accounts to access users&#8217; personal information. This issue, tracked as CVE-2026-17059, affects the Keyclo",
         "cve": []
     },
     {
-        "title": "Arch Linux AUR Under Another Wave Of Malicious Packages, Package Adoptions Halted",
-        "date": "Fri, 31 Jul 2026 09:59:23 -0400",
-        "url": "https://www.phoronix.com/news/Arch-Linux-AUR-Adoptions-Halted",
-        "source": "Phoronix",
-        "summary": "Last month the Arch Linux User Repository \"AUR\" saw more than 1,500 malicious packages amid a sophisticated malware attack and then also seeing an influx of spam and profanities amid this community/us",
+        "title": "Ransomware Killers Overwrite Security Process Memory Without Terminating Applications",
+        "date": "Fri, 31 Jul 2026 11:17:21 +0000",
+        "url": "https://gbhackers.com/ransomware-killers-overwrite-security-process/",
+        "source": "GBHackers",
+        "summary": "Ransomware operators are increasingly deploying “ransomware killers” that surgically overwrite the memory of security processes instead of simply terminating them, allowing encryption to proceed. At t",
         "cve": []
     },
     {
-        "title": "Linux 7.3 To Allow Tuning AMD P-State Dynamic EPP With Per CPU Core Granularity",
-        "date": "Fri, 31 Jul 2026 09:18:59 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-AMD-Per-Core-Dynamic",
-        "source": "Phoronix",
-        "summary": "Sent out last night was the last batch of planned AMD P-State driver feature improvements targeting the upcoming Linux 7.3 merge window...",
+        "title": "Critical JetBrains TeamCity Flaw Enables Unauthenticated Remote Code Execution",
+        "date": "Fri, 31 Jul 2026 10:47:38 +0000",
+        "url": "https://gbhackers.com/critical-jetbrains-teamcity-flaw/",
+        "source": "GBHackers",
+        "summary": "JetBrains has revealed a critical security vulnerability in TeamCity On-Premises that enables unauthenticated remote code execution (RCE) on affected servers. This poses a significant risk to CI/CD en",
         "cve": []
     },
     {
-        "title": "Servo 0.4 Browser Engine Gets More Websites Rendering Correctly",
-        "date": "Fri, 31 Jul 2026 07:01:10 -0400",
-        "url": "https://www.phoronix.com/news/Servo-0.4-Released",
-        "source": "Phoronix",
-        "summary": "Servo 0.4 was just released for closing out the month of July. This month the Servo browser engine with its servoshell demo browser began rendering more real-world websites correctly...",
+        "title": "Google Uses AI to Fix 1,072 Chrome Security Vulnerabilities",
+        "date": "Fri, 31 Jul 2026 10:18:47 +0000",
+        "url": "https://gbhackers.com/google-uses-ai-to-fix-1072-chrome-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Google has announced that its AI-assisted security workflows have helped Chrome fix 10,721 security vulnerabilities across Chrome Stable milestones 149 and 150. This number exceeds the total number of",
         "cve": []
     },
     {
-        "title": "Nouveau Patch For Linux 7.3 Allows For NVK Vulkan Video Atop NVIDIA NVDEC",
-        "date": "Fri, 31 Jul 2026 06:20:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Nouveau-NVDEC",
-        "source": "Phoronix",
-        "summary": "This week's round of drm-misc-next patches for staging ahead of the Linux 7.3 kernel merge window bring an exciting change for the open-source NVIDIA \"Nouveau\" driver...",
+        "title": "ClickFix Campaign Uses EtherHiding to Hide Malware and Exposes DPRK Wallet Trail",
+        "date": "Fri, 31 Jul 2026 09:52:09 +0000",
+        "url": "https://gbhackers.com/clickfix-campaign-uses-etherhiding/",
+        "source": "GBHackers",
+        "summary": "ClickFix-style fake macOS updates are now being weaponized with EtherHiding-backed command‑and‑control and a DPRK-linked crypto laundering network, turning a routine search click into a full-stack the",
         "cve": []
     },
     {
-        "title": "x86_64 Shadow Stack By Default Retargeted For Fedora 46",
-        "date": "Fri, 31 Jul 2026 06:04:00 -0400",
-        "url": "https://www.phoronix.com/news/Fedora-46-Shadow-Stack-Plans",
-        "source": "Phoronix",
-        "summary": "In recent weeks there was a proposal to enable x86_64 Shadow Stack support by default with the upcoming Fedora Linux 45 release. That change has been approved now by the Fedora Engineering and Steerin",
+        "title": "BlackTech APT Uses New BlueShell Linux Backdoor in Attacks on Japanese Organizations",
+        "date": "Fri, 31 Jul 2026 08:58:43 +0000",
+        "url": "https://gbhackers.com/blueshell-linux-backdoor/",
+        "source": "GBHackers",
+        "summary": "BlackTech, a long-running China-aligned APT group, has adopted a new Linux backdoor built on the BlueShell open-source RAT to conduct post-intrusion operations against Japanese organizations, signalin",
         "cve": []
     }
 ]
