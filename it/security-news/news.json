@@ -160,6 +160,14 @@
         "cve": []
     },
     {
+        "title": "Weekly Cyber Security Newsletter– Claude Hacked 3 Companies, Cisco 0-Day, Word Copilot and VMware Flaw +20 Stories",
+        "date": "Sun, 02 Aug 2026 12:45:45 +0000",
+        "url": "https://cybersecuritynews.com/cyber-security-newsletter-august/",
+        "source": "CyberSecurityNews",
+        "summary": "AI systems moved from experimental risk to confirmed attacker, a Cisco firewall zero-day was actively exploited in the wild, and a critical VMware authentication bypass put enterprise virtualization i",
+        "cve": []
+    },
+    {
         "title": "SplitVPN Data Breach Exposes 865k Users’ Personal Records",
         "date": "Sun, 02 Aug 2026 05:44:43 +0000",
         "url": "https://cybersecuritynews.com/splitvpn-data-breach/",
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/hackerone-mandates-id-verification/",
         "source": "CyberSecurityNews",
         "summary": "HackerOne has confirmed that all hackers must now complete identity verification before submitting reports to any bug bounty program (BBP) on its platform, a move the company says is necessary to meet",
-        "cve": []
-    },
-    {
-        "title": "Your Incident Response Plan Has a Dependency You Never Approved",
-        "date": "Fri, 31 Jul 2026 17:29:19 +0000",
-        "url": "https://cybersecuritynews.com/your-incident-response-plan-has-a-dependency-you-never-approved/",
-        "source": "CyberSecurityNews",
-        "summary": "During the first publicly documented agent-driven intrusion, the defenders tried to analyze the attack with commercial AI models and were refused.&#160;The attacker was operating under no usage policy",
         "cve": []
     },
     {
