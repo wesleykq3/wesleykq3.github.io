@@ -1,5 +1,21 @@
 [
     {
+        "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
+        "date": "Sun, 02 Aug 2026 18:31:41 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer scien",
+        "cve": []
+    },
+    {
+        "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
+        "date": "Sun, 02 Aug 2026 17:14:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+        "source": "BleepingComputer",
+        "summary": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number ",
+        "cve": []
+    },
+    {
         "title": "Google Chrome may soon block New Tab hijacker extensions by default",
         "date": "Sun, 02 Aug 2026 10:17:16 -0400",
         "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
@@ -61,22 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
         "source": "BleepingComputer",
         "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and waste",
-        "cve": []
-    },
-    {
-        "title": "ESET tracks rise in malicious AI skills and adaptable malware",
-        "date": "Fri, 31 Jul 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
-        "source": "BleepingComputer",
-        "summary": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware",
-        "cve": []
-    },
-    {
-        "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
-        "date": "Thu, 30 Jul 2026 20:57:25 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
-        "source": "BleepingComputer",
-        "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendo",
         "cve": []
     },
     {
@@ -240,6 +240,22 @@
         "cve": []
     },
     {
+        "title": "AerynOS Issues First Development Update & New ISOs In Three Months",
+        "date": "Sun, 02 Aug 2026 20:23:32 -0400",
+        "url": "https://www.phoronix.com/news/AerynOS-Big-Update-2026",
+        "source": "Phoronix",
+        "summary": "It's been just over three months since the last AerynOS development update and new ISO spin but fortunately that's been succeeded today by a new development update and ISO images. AerynOS development ",
+        "cve": []
+    },
+    {
+        "title": "Linux 7.2-rc6 Released: \"This RC Is Huge\"",
+        "date": "Sun, 02 Aug 2026 19:38:50 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.2-rc6-Released",
+        "source": "Phoronix",
+        "summary": "Like clockwork, the Linux 7.2-rc6 kernel is now available for testing in working toward the stable Linux 7.2 kernel in hopefully two week's time...",
+        "cve": []
+    },
+    {
         "title": "Linux 7.3 To Begin Laying The Groundwork For Intel Starfire",
         "date": "Sun, 02 Aug 2026 10:32:25 -0400",
         "url": "https://www.phoronix.com/news/Intel-Starfire-Starts-Linux-7.3",
@@ -301,22 +317,6 @@
         "url": "https://www.phoronix.com/news/July-2026-Highlights",
         "source": "Phoronix",
         "summary": "Last month on Phoronix there were 257 original Linux/open-source related news articles and another 20 featured Linux hardware reviews / multi-page benchmark articles. Following the recent 22nd birthda",
-        "cve": []
-    },
-    {
-        "title": "Prominent Arch Linux Developer Resigns After 10 Year Run",
-        "date": "Sat, 01 Aug 2026 07:47:02 -0400",
-        "url": "https://www.phoronix.com/news/Arch-Linux-Foxboron",
-        "source": "Phoronix",
-        "summary": "Arch Linux developer, security team member, AUR maintainer, and package maintainer Morten Linderud \"Foxboron\" announced today he is resigning from the project...",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.2-rc6 Working Around Several Buggy Western Digital SATA Drives",
-        "date": "Sat, 01 Aug 2026 06:49:22 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.2-rc6-ATA",
-        "source": "Phoronix",
-        "summary": "Merged ahead of tomorrow's Linux 7.2-rc6 kernel test release are several ATA fixes that include a number of device-specific workarounds for some Western Digital SATA drives that have been failing to w",
         "cve": []
     }
 ]
