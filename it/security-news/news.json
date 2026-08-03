@@ -80,6 +80,54 @@
         "cve": []
     },
     {
+        "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+        "date": "Mon, 03 Aug 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+        "source": "The Hacker News",
+        "summary": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate",
+        "cve": []
+    },
+    {
+        "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+        "date": "Mon, 03 Aug 2026 16:19:06 +0530",
+        "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+        "source": "The Hacker News",
+        "summary": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platfo",
+        "cve": []
+    },
+    {
+        "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
+        "date": "Mon, 03 Aug 2026 14:43:56 +0530",
+        "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+        "source": "The Hacker News",
+        "summary": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations ",
+        "cve": []
+    },
+    {
+        "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
+        "date": "Mon, 03 Aug 2026 13:35:30 +0530",
+        "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+        "source": "The Hacker News",
+        "summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.\n\nThe vendor's July",
+        "cve": []
+    },
+    {
+        "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+        "date": "Mon, 03 Aug 2026 12:11:46 +0530",
+        "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+        "source": "The Hacker News",
+        "summary": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. ",
+        "cve": []
+    },
+    {
+        "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+        "date": "Mon, 03 Aug 2026 12:10:31 +0530",
+        "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+        "source": "The Hacker News",
+        "summary": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, op",
+        "cve": []
+    },
+    {
         "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
         "date": "Sat, 01 Aug 2026 22:47:22 +0530",
         "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
@@ -112,51 +160,83 @@
         "cve": []
     },
     {
-        "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-        "date": "Sat, 01 Aug 2026 00:22:04 +0530",
-        "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-        "source": "The Hacker News",
-        "summary": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan",
+        "title": "Android RAT Survives Reboots Using Watchdog Services and Boot Receivers",
+        "date": "Mon, 03 Aug 2026 13:41:37 +0000",
+        "url": "https://cybersecuritynews.com/android-rat-survives-reboots/",
+        "source": "CyberSecurityNews",
+        "summary": "Android users are facing a new remote-access threat that hides behind a fake emergency alert application. The malware, called Octagon, poses as Bahrain’s BH Alert service and leads victims through a c",
         "cve": []
     },
     {
-        "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-        "date": "Fri, 31 Jul 2026 22:09:31 +0530",
-        "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.\n\nAccording to Blackpoint Cybe",
+        "title": "ModernStealer Threat Actor Linked to Government and Defense Data-Leak Claims",
+        "date": "Mon, 03 Aug 2026 11:05:10 +0000",
+        "url": "https://cybersecuritynews.com/modernstealer-threat-actor/",
+        "source": "CyberSecurityNews",
+        "summary": "ModernStealer is the name behind underground posts claiming to offer military, government, nuclear, and aerospace material. The posts appeared on dark web forums and Telegram, making a single alias a ",
         "cve": []
     },
     {
-        "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
-        "date": "Fri, 31 Jul 2026 20:15:01 +0530",
-        "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-        "source": "The Hacker News",
-        "summary": "Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same opera",
+        "title": "Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise",
+        "date": "Mon, 03 Aug 2026 08:45:41 +0000",
+        "url": "https://cybersecuritynews.com/sonicwall-sma-face-zero-click/",
+        "source": "CyberSecurityNews",
+        "summary": "Internet-facing SonicWall Secure Mobile Access, or SMA, appliances face a serious threat after attackers turned two flaws into a route to full VPN-gateway control. The campaign gives an outsider a way",
         "cve": []
     },
     {
-        "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
-        "date": "Fri, 31 Jul 2026 18:21:52 +0530",
-        "url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
-        "source": "The Hacker News",
-        "summary": "Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined",
+        "title": "XCSSET v40 Abuses Chrome DevTools Protocol to Steal Cookies and Run Commands",
+        "date": "Mon, 03 Aug 2026 08:19:33 +0000",
+        "url": "https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools/",
+        "source": "CyberSecurityNews",
+        "summary": "XCSSET has returned with a way to target macOS developers. The latest version, v40, hides inside poisoned Xcode projects and can turn a local build into a supply-chain compromise. Once activated, it c",
         "cve": []
     },
     {
-        "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
-        "date": "Fri, 31 Jul 2026 17:25:00 +0530",
-        "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-        "source": "The Hacker News",
-        "summary": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and ev",
+        "title": "MacSync macOS Stealer Uses Fake Claude Guide to Steal Passwords and Crypto Wallets",
+        "date": "Mon, 03 Aug 2026 07:07:18 +0000",
+        "url": "https://cybersecuritynews.com/macsync-uses-fake-claude-guide/",
+        "source": "CyberSecurityNews",
+        "summary": "Mac users searching for Claude installation help have been led into a dangerous trap. A malicious campaign used a paid search result and a fake guide on a legitimate Claude sharing page to persuade vi",
         "cve": []
     },
     {
-        "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
-        "date": "Fri, 31 Jul 2026 16:54:59 +0530",
-        "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
-        "source": "The Hacker News",
-        "summary": "Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months.\n\nDe",
+        "title": "Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console",
+        "date": "Mon, 03 Aug 2026 06:26:29 +0000",
+        "url": "https://cybersecuritynews.com/n-able-n-central-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "N-able has disclosed a critical security vulnerability in its N-central remote monitoring and management (RMM) platform, which could allow unauthenticated attackers to gain full administrative, or “go",
+        "cve": []
+    },
+    {
+        "title": "Coldcard Hardware Wallet RNG Flaw Linked to $88.6 Million Bitcoin Theft",
+        "date": "Mon, 03 Aug 2026 06:09:25 +0000",
+        "url": "https://cybersecuritynews.com/coldcard-hardware-wallet-rng-flaw-bitcoin-theft/",
+        "source": "CyberSecurityNews",
+        "summary": "A firmware flaw in Coldcard hardware wallets has been linked to the theft of approximately $88.6 million in Bitcoin. Attackers exploited a compromised random number generator, allowing them to reconst",
+        "cve": []
+    },
+    {
+        "title": "SabPaisa Partners with AccuKnox for Zero Trust AI-Powered Cloud Security to Secure Its Payments Platform",
+        "date": "Sun, 02 Aug 2026 18:41:20 +0000",
+        "url": "https://cybersecuritynews.com/sabpaisa-partners-with-accuknox-for-zero-trust-ai-powered-cloud-security-to-secure-its-payments-platform/",
+        "source": "CyberSecurityNews",
+        "summary": "CALIFORNIA, USA, August 2nd, 2026, CyberNewswire AccuKnox, a leading Zero Trust Security platform, today announced that SabPaisa, an RBI-authorised digital payments company, has selected its AI-powere",
+        "cve": []
+    },
+    {
+        "title": "Weekly Cyber Security Newsletter– Claude Hacked 3 Companies, Cisco 0-Day, Word Copilot and VMware Flaw +20 Stories",
+        "date": "Sun, 02 Aug 2026 12:45:45 +0000",
+        "url": "https://cybersecuritynews.com/cyber-security-newsletter-august/",
+        "source": "CyberSecurityNews",
+        "summary": "AI systems moved from experimental risk to confirmed attacker, a Cisco firewall zero-day was actively exploited in the wild, and a critical VMware authentication bypass put enterprise virtualization i",
+        "cve": []
+    },
+    {
+        "title": "SplitVPN Data Breach Exposes 865k Users’ Personal Records",
+        "date": "Sun, 02 Aug 2026 05:44:43 +0000",
+        "url": "https://cybersecuritynews.com/splitvpn-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "A significant data breach has hit SplitVPN, a Russian VPN provider formerly known as NotVPN, exposing the personal records of roughly 865,000 unique users. The incident, which occurred in July 2026, h",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "AerynOS Issues First Development Update & New ISOs In Three Months",
-        "date": "Sun, 02 Aug 2026 20:23:32 -0400",
-        "url": "https://www.phoronix.com/news/AerynOS-Big-Update-2026",
-        "source": "Phoronix",
-        "summary": "It's been just over three months since the last AerynOS development update and new ISO spin but fortunately that's been succeeded today by a new development update and ISO images. AerynOS development ",
+        "title": "TP-Link TL-WR940N Router Flaw Lets Unauthenticated Attackers Execute Code Remotely",
+        "date": "Mon, 03 Aug 2026 13:18:29 +0000",
+        "url": "https://gbhackers.com/tp-link-tl-wr940n-router-flaw/",
+        "source": "GBHackers",
+        "summary": "TP-Link has announced a high-severity security vulnerability in its TL-WR940N v6 wireless router that could allow an unauthenticated remote attacker to execute arbitrary code and potentially take full",
         "cve": []
     },
     {
-        "title": "Linux 7.2-rc6 Released: \"This RC Is Huge\"",
-        "date": "Sun, 02 Aug 2026 19:38:50 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.2-rc6-Released",
-        "source": "Phoronix",
-        "summary": "Like clockwork, the Linux 7.2-rc6 kernel is now available for testing in working toward the stable Linux 7.2 kernel in hopefully two week's time...",
+        "title": "North Korea Rebuilt Its Antivirus Using ClamAV and Gave It Four Different Names",
+        "date": "Mon, 03 Aug 2026 11:48:55 +0000",
+        "url": "https://gbhackers.com/north-korea-rebuilt-its-antivirus/",
+        "source": "GBHackers",
+        "summary": "North Korea’s national antivirus appears to have quietly pivoted to ClamAV’s open‑source engine, recompiled it, and shipped it under four different domestic product names underscoring Pyongyang’s reli",
         "cve": []
     },
     {
-        "title": "Linux 7.3 To Begin Laying The Groundwork For Intel Starfire",
-        "date": "Sun, 02 Aug 2026 10:32:25 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Starfire-Starts-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "Intel recently announced Starfire as their new Panther Lake derived, space-grade SoC designed for extreme environments... like survivability in space. With the Linux 7.3, we are going to begin seeing ",
+        "title": "Critical N-able N-central Flaw Actively Exploited to Gain God-Mode Access to MSP Networks",
+        "date": "Mon, 03 Aug 2026 06:55:29 +0000",
+        "url": "https://gbhackers.com/critical-n-able-n-central-flaw-actively-exploited/",
+        "source": "GBHackers",
+        "summary": "N-able has issued an urgent hotfix to address a critical authentication-bypass vulnerability in its N-central remote monitoring and management (RMM) platform, following confirmation of active exploita",
         "cve": []
     },
     {
-        "title": "Linux 7.3 To Support The Qualcomm Adreno 704 & Adreno 722 GPUs",
-        "date": "Sun, 02 Aug 2026 06:47:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-MSM-DRM-Driver",
-        "source": "Phoronix",
-        "summary": "Sent out on Saturday were the Qualcomm MSM DRM kernel graphics/display driver updates to land for the upcoming Linux 7.3 merge window...",
+        "title": "Metasploit Exploit Targets Critical Ruby on Rails Active Storage RCE Flaw",
+        "date": "Mon, 03 Aug 2026 06:26:49 +0000",
+        "url": "https://gbhackers.com/metasploit-exploit-targets-critical-ruby-on-rails/",
+        "source": "GBHackers",
+        "summary": "A new Metasploit Framework module has been submitted for review, targeting the critical Ruby on Rails Active Storage vulnerability, tracked as CVE-2026-66066. This submission poses an increased risk t",
         "cve": []
     },
     {
-        "title": "Ubuntu Touch Making Progress Toward Ubuntu 26.04, Vulkan & App Updates",
-        "date": "Sun, 02 Aug 2026 06:37:06 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-Touch-Toward-26.04",
-        "source": "Phoronix",
-        "summary": "Following last week's release of Ubuntu Touch 24.04-2.0 for this community-maintained, mobile flavor of Ubuntu Linux, more details are now available on their upcoming development efforts and eventual ",
+        "title": "CareCloud Data Breach Exposes Patients’ Health, Social Security and Credit Card Data",
+        "date": "Mon, 03 Aug 2026 05:55:11 +0000",
+        "url": "https://gbhackers.com/carecloud-data-breach-exposes-patients-data/",
+        "source": "GBHackers",
+        "summary": "CareCloud has reported a data security incident involving unauthorized access to its Amazon Web Services (AWS) environment that supports the CareCloud Health division. This incident disrupted one of t",
         "cve": []
     },
     {
-        "title": "Linux 7.2-rc6 Fixes Some AMD Zen 5 CPUs Being Mistakenly Identified As Zen 6",
-        "date": "Sun, 02 Aug 2026 06:25:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.2-rc6-Fixing-Zen-5-IDs",
-        "source": "Phoronix",
-        "summary": "Today's batch of x86 fixes for the kernel ahead of the Linux 7.2-rc6 release later in the day addresses some AMD Zen 5 processors mistakenly being classified as Zen 6...",
+        "title": "SonicWall SMA Zero-Days Let Attackers Turn One WebSocket Request Into Root Control",
+        "date": "Mon, 03 Aug 2026 05:47:58 +0000",
+        "url": "https://gbhackers.com/sonicwall-sma-zero-days/",
+        "source": "GBHackers",
+        "summary": "SonicWall SMA Secure Mobile Access appliances are again at the center of a zero-day storm, with chained flaws that let attackers turn a single crafted WebSocket request into root-level control on inte",
         "cve": []
     },
     {
-        "title": "Box64 v0.4.4 Released With New Box64-Configurator App",
-        "date": "Sun, 02 Aug 2026 06:06:15 -0400",
-        "url": "https://www.phoronix.com/news/Box64-0.4.4",
-        "source": "Phoronix",
-        "summary": "Box64 0.4.4 released today as the newest version of this open-source user-space Linux x86_64 emulator for running binaries on 64-bit ARM, RISC-V, and LoongArch systems...",
+        "title": "Hackers Exploit Critical Arista VeloCloud Flaw to Execute OS Commands",
+        "date": "Mon, 03 Aug 2026 05:37:19 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-critical-arista-velocloud-flaw/",
+        "source": "GBHackers",
+        "summary": "Arista Networks has issued a warning about attackers actively exploiting CVE-2026-16812, a critical unauthenticated OS command injection vulnerability in on-premises VeloCloud Orchestrator (VCO) deplo",
         "cve": []
     },
     {
-        "title": "Steam On Linux Use Back Above 4% In July",
-        "date": "Sat, 01 Aug 2026 20:25:24 -0400",
-        "url": "https://www.phoronix.com/news/Steam-On-Linux-July-2026",
-        "source": "Phoronix",
-        "summary": "Valve just published the Steam Survey results for July 2026 and point to a small uptick in Linux gaming use...",
+        "title": "Coldcard Firmware Flaw Lets Hackers Steal $70 Million in Bitcoin From 1,196 Addresses",
+        "date": "Mon, 03 Aug 2026 05:26:57 +0000",
+        "url": "https://gbhackers.com/coldcard-firmware-flaw/",
+        "source": "GBHackers",
+        "summary": "Blockchain analysts have linked a rapid series of Bitcoin wallet drains to a reported vulnerability in Coldcard firmware. A total of 1,196 addresses lost a combined 1,082.65 BTC, valued at approximate",
         "cve": []
     },
     {
-        "title": "NetBSD 11.0 Released With RISC-V Support, Enhanced Linux System Call Compatibility",
-        "date": "Sat, 01 Aug 2026 12:49:21 -0400",
-        "url": "https://www.phoronix.com/news/NetBSD-11.0",
-        "source": "Phoronix",
-        "summary": "NetBSD 11.0 officially shipped today as the nineteenth major release of this popular BSD operating system...",
+        "title": "XCSSET v40 Infects Xcode Projects to Hijack Chrome and Trojanize Telegram on Macs",
+        "date": "Mon, 03 Aug 2026 05:04:45 +0000",
+        "url": "https://gbhackers.com/xcsset-v40-infects-xcode-projects/",
+        "source": "GBHackers",
+        "summary": "XCSSET v40 marks a significant escalation in macOS-focused supply chain attacks, weaponizing poisoned Xcode projects to hijack Chrome and Trojanize Telegram while operating almost entirely from memory",
         "cve": []
     },
     {
-        "title": "MPEG-4 Patent Expiration, RADV On Windows, Open-Source AI & Other July Highlights",
-        "date": "Sat, 01 Aug 2026 09:30:00 -0400",
-        "url": "https://www.phoronix.com/news/July-2026-Highlights",
-        "source": "Phoronix",
-        "summary": "Last month on Phoronix there were 257 original Linux/open-source related news articles and another 20 featured Linux hardware reviews / multi-page benchmark articles. Following the recent 22nd birthda",
+        "title": "SabPaisa Partners with AccuKnox for Zero Trust AI-Powered Cloud Security to Secure Its Payments Platform",
+        "date": "Sun, 02 Aug 2026 18:39:49 +0000",
+        "url": "https://gbhackers.com/sabpaisa-partners-with-accuknox-for-zero-trust-ai-powered-cloud-security-to-secure-its-payments-platform/",
+        "source": "GBHackers",
+        "summary": "CALIFORNIA, USA, August 2nd, 2026, CyberNewswire AccuKnox, a leading Zero Trust Security platform, today announced that SabPaisa, an RBI-authorised digital payments company, has selected its AI-powere",
         "cve": []
     }
 ]
