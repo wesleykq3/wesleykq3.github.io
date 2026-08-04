@@ -80,6 +80,46 @@
         "cve": []
     },
     {
+        "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+        "date": "Tue, 04 Aug 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+        "source": "The Hacker News",
+        "summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by rank",
+        "cve": []
+    },
+    {
+        "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+        "date": "Tue, 04 Aug 2026 16:46:23 +0530",
+        "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+        "source": "The Hacker News",
+        "summary": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a priv",
+        "cve": []
+    },
+    {
+        "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+        "date": "Tue, 04 Aug 2026 16:06:27 +0530",
+        "url": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+        "source": "The Hacker News",
+        "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrativ",
+        "cve": []
+    },
+    {
+        "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+        "date": "Tue, 04 Aug 2026 14:33:23 +0530",
+        "url": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+        "source": "The Hacker News",
+        "summary": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a",
+        "cve": []
+    },
+    {
+        "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+        "date": "Tue, 04 Aug 2026 12:30:13 +0530",
+        "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following",
+        "cve": []
+    },
+    {
         "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
         "date": "Tue, 04 Aug 2026 00:13:53 +0530",
         "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
@@ -120,123 +160,83 @@
         "cve": []
     },
     {
-        "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-        "date": "Mon, 03 Aug 2026 16:19:06 +0530",
-        "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-        "source": "The Hacker News",
-        "summary": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface manageme",
-        "cve": []
-    },
-    {
-        "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-        "date": "Mon, 03 Aug 2026 14:43:56 +0530",
-        "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
-        "source": "The Hacker News",
-        "summary": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations ",
-        "cve": []
-    },
-    {
-        "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
-        "date": "Mon, 03 Aug 2026 13:35:30 +0530",
-        "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-        "source": "The Hacker News",
-        "summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.\n\nThe vendor's July",
-        "cve": []
-    },
-    {
-        "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-        "date": "Mon, 03 Aug 2026 12:11:46 +0530",
-        "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-        "source": "The Hacker News",
-        "summary": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. ",
-        "cve": []
-    },
-    {
-        "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
-        "date": "Mon, 03 Aug 2026 12:10:31 +0530",
-        "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-        "source": "The Hacker News",
-        "summary": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, op",
-        "cve": []
-    },
-    {
-        "title": "Malware Can Steal Your Google Synced Passkey Without Asking for Your Password or Fingerprint",
-        "date": "Mon, 03 Aug 2026 17:45:58 +0000",
-        "url": "https://cybersecuritynews.com/google-synced-passkey-malware-attack/",
+        "title": "DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts",
+        "date": "Tue, 04 Aug 2026 13:13:51 +0000",
+        "url": "https://cybersecuritynews.com/darksword-ios-exploit-kit/",
         "source": "CyberSecurityNews",
-        "summary": "New research reveals that malware already sitting on a compromised Windows PC can hijack Google&#8217;s synced passkeys and take over accounts without ever prompting the victim for a password, PIN, or",
+        "summary": "DarkSword has expanded from a leaked iOS exploit chain into a broad and fast-changing network of malicious web infrastructure. The campaign targets iPhones running iOS 18.4 through 18.7 and is designe",
         "cve": []
     },
     {
-        "title": "DNA Test Software Vulnerability Allows Attackers to Alter Analysis Data",
-        "date": "Mon, 03 Aug 2026 16:49:55 +0000",
-        "url": "https://cybersecuritynews.com/dna-test-software-vulnerability/",
+        "title": "OWASP Subtractive Security Top 10 Project Released to Identify and Reduce Cyber Risks",
+        "date": "Tue, 04 Aug 2026 13:06:50 +0000",
+        "url": "https://cybersecuritynews.com/owasp-subtractive-security-top-10-project/",
         "source": "CyberSecurityNews",
-        "summary": "Thermo Fisher Scientific has disclosed a high-severity security flaw affecting several of its Applied Biosystems Human Identification (HID) software products, warning that attackers could make nearly ",
+        "summary": "The Open Worldwide Application Security Project, or OWASP, has introduced the Subtractive Security Top 10 Project, a security engineering initiative focused on eliminating attack paths rather than mer",
         "cve": []
     },
     {
-        "title": "Public PoC Released for Critical Rails Active Storage RCE Vulnerability",
-        "date": "Mon, 03 Aug 2026 16:35:59 +0000",
-        "url": "https://cybersecuritynews.com/rails-active-storage-rce-vulnerability-poc/",
+        "title": "CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks",
+        "date": "Tue, 04 Aug 2026 12:44:52 +0000",
+        "url": "https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited/",
         "source": "CyberSecurityNews",
-        "summary": "A critical vulnerability in Ruby on Rails has raised new concerns about cloud data breaches, particularly for companies that host customer platforms in Amazon Web Services (AWS). Known as CVE-2026-660",
+        "summary": "CISA has warned that attackers are actively exploiting a critical authentication bypass vulnerability in N-able N-central. Tracked as CVE-2026-18577, the flaw affects N-central servers running version",
         "cve": []
     },
     {
-        "title": "Hugging Face Diffusers Vulnerabilities Enable Remote Code Execution Through Malicious AI Models",
-        "date": "Mon, 03 Aug 2026 15:01:22 +0000",
-        "url": "https://cybersecuritynews.com/hugging-face-diffusers-vulnerabilities/",
+        "title": "Public PoC Released for CUPS Vulnerability Allows Attackers to Gain Root Privileges",
+        "date": "Tue, 04 Aug 2026 12:19:29 +0000",
+        "url": "https://cybersecuritynews.com/public-poc-released-for-cups-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "A set of high-severity vulnerabilities in Hugging Face&#8217;s diffusers library that allow a malicious model repository to silently execute arbitrary code on any machine that loads it. The flaws bypa",
+        "summary": "A public proof-of-concept (PoC) has been released for CVE-2026-39875, a macOS vulnerability in the Common UNIX Printing System (CUPS) that allows an unprivileged local user to perform arbitrary file w",
         "cve": []
     },
     {
-        "title": "TP-Link TL-WR940N Vulnerability Enables Remote Code Execution Attacks",
-        "date": "Mon, 03 Aug 2026 14:44:28 +0000",
-        "url": "https://cybersecuritynews.com/tp-link-rce-vulnerability/",
+        "title": "Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage",
+        "date": "Tue, 04 Aug 2026 12:14:24 +0000",
+        "url": "https://cybersecuritynews.com/roblox-malware-streams-desktops/",
         "source": "CyberSecurityNews",
-        "summary": "TP-Link has issued a security advisory regarding a high-severity vulnerability affecting its TL-WR940N V6 wireless router. This vulnerability, tracked as CVE-2026-12935, could allow unauthenticated at",
+        "summary": "A malicious Roblox cheat campaign is turning a familiar gaming shortcut into a serious privacy threat. Players seeking an “undetected” Xeno script executor are being lured through gaming forums and Di",
         "cve": []
     },
     {
-        "title": "Hackers Exploit VeloCloud Orchestrator Command Injection Vulnerability in the Wild",
-        "date": "Mon, 03 Aug 2026 14:36:34 +0000",
-        "url": "https://cybersecuritynews.com/velocloud-command-injection-exploit/",
+        "title": "Russian Hacker Breaches Companies, Sells Their Access and Spies on Ukrainian Military Sites",
+        "date": "Tue, 04 Aug 2026 11:58:09 +0000",
+        "url": "https://cybersecuritynews.com/russian-hacker-breaches-companies/",
         "source": "CyberSecurityNews",
-        "summary": "Security researchers have issued a warning about a critical command injection vulnerability that is being actively exploited in on-premises VeloCloud Orchestrator (VCO) deployments. This vulnerability",
+        "summary": "A Russian-speaking hacker has been linked to a broad operation that breached organizations worldwide, collected credentials, and prepared access for sale to ransomware groups. The activity affected ed",
         "cve": []
     },
     {
-        "title": "Android RAT Survives Reboots Using Watchdog Services and Boot Receivers",
-        "date": "Mon, 03 Aug 2026 13:41:37 +0000",
-        "url": "https://cybersecuritynews.com/android-rat-survives-reboots/",
+        "title": "Keyv npm Package with 127M Weekly Downloads Compromised in Shai-Hulud Attack",
+        "date": "Tue, 04 Aug 2026 11:48:31 +0000",
+        "url": "https://cybersecuritynews.com/keyv-npm-package-compromised/",
         "source": "CyberSecurityNews",
-        "summary": "Android users are facing a new remote-access threat that hides behind a fake emergency alert application. The malware, called Octagon, poses as Bahrain’s BH Alert service and leads victims through a c",
+        "summary": "Attackers have compromised the GitHub account of the maintainer behind keyv, a popular key-value storage library that pulls in roughly 127 million weekly downloads on npm, and used that access to push",
         "cve": []
     },
     {
-        "title": "ModernStealer Threat Actor Linked to Government and Defense Data-Leak Claims",
-        "date": "Mon, 03 Aug 2026 11:05:10 +0000",
-        "url": "https://cybersecuritynews.com/modernstealer-threat-actor/",
+        "title": "OpenAI Reveals How Cybercriminals are Using ChatGPT to Run Scam Operation",
+        "date": "Tue, 04 Aug 2026 11:33:56 +0000",
+        "url": "https://cybersecuritynews.com/openai-cybercriminals-using-chatgpt/",
         "source": "CyberSecurityNews",
-        "summary": "ModernStealer is the name behind underground posts claiming to offer military, government, nuclear, and aerospace material. The posts appeared on dark web forums and Telegram, making a single alias a ",
+        "summary": "Online scams are becoming more organized, more personal, and harder to spot. Criminal networks are now using artificial intelligence to create believable messages, fake identities, and fraudulent webs",
         "cve": []
     },
     {
-        "title": "Internet-Facing SonicWall SMA Appliances Face Zero-Click Root Compromise",
-        "date": "Mon, 03 Aug 2026 08:45:41 +0000",
-        "url": "https://cybersecuritynews.com/sonicwall-sma-face-zero-click/",
+        "title": "Critical Gitea Arbitrary File Read Vulnerability Enables Remote Code Execution Attacks",
+        "date": "Tue, 04 Aug 2026 11:27:54 +0000",
+        "url": "https://cybersecuritynews.com/gitea-arbitrary-file-read-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "Internet-facing SonicWall Secure Mobile Access, or SMA, appliances face a serious threat after attackers turned two flaws into a route to full VPN-gateway control. The campaign gives an outsider a way",
+        "summary": "A critical security flaw in Gitea, tracked as CVE-2026-59774, allows unauthenticated remote attackers to read arbitrary files from vulnerable servers and potentially escalate the attack to remote code",
         "cve": []
     },
     {
-        "title": "XCSSET v40 Abuses Chrome DevTools Protocol to Steal Cookies and Run Commands",
-        "date": "Mon, 03 Aug 2026 08:19:33 +0000",
-        "url": "https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools/",
+        "title": "Critical Adobe Campaign Classic Vulnerabilities Enables Arbitrary Code Execution",
+        "date": "Tue, 04 Aug 2026 10:48:52 +0000",
+        "url": "https://cybersecuritynews.com/adobe-campaign-classic-vulnerabilities/",
         "source": "CyberSecurityNews",
-        "summary": "XCSSET has returned with a way to target macOS developers. The latest version, v40, hides inside poisoned Xcode projects and can turn a local build into a supply-chain compromise. Once activated, it c",
+        "summary": "Adobe has issued a critical security update for Adobe Campaign Classic, addressing multiple flaws that could enable arbitrary code execution on vulnerable systems. The update, tracked as APSB26-120 an",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "TP-Link TL-WR940N Router Flaw Lets Unauthenticated Attackers Execute Code Remotely",
-        "date": "Mon, 03 Aug 2026 13:18:29 +0000",
-        "url": "https://gbhackers.com/tp-link-tl-wr940n-router-flaw/",
+        "title": "Fake Xeno Roblox Cheats Deliver Java RAT That Steals Discord and Gaming Accounts",
+        "date": "Tue, 04 Aug 2026 13:25:03 +0000",
+        "url": "https://gbhackers.com/fake-xeno-roblox-cheats-java-rat/",
         "source": "GBHackers",
-        "summary": "TP-Link has announced a high-severity security vulnerability in its TL-WR940N v6 wireless router that could allow an unauthenticated remote attacker to execute arbitrary code and potentially take full",
+        "summary": "Fake Roblox cheat tools are once again being weaponized, with a newly observed campaign distributing a sophisticated Java-based remote access trojan (RAT) disguised as an “undetected” version of the p",
         "cve": []
     },
     {
-        "title": "North Korea Rebuilt Its Antivirus Using ClamAV and Gave It Four Different Names",
-        "date": "Mon, 03 Aug 2026 11:48:55 +0000",
-        "url": "https://gbhackers.com/north-korea-rebuilt-its-antivirus/",
+        "title": "OpenAI Shuts Down ChatGPT Accounts Powering a Cambodia-Based Scam Factory",
+        "date": "Tue, 04 Aug 2026 12:56:47 +0000",
+        "url": "https://gbhackers.com/openai-shuts-down-chatgpt-2/",
         "source": "GBHackers",
-        "summary": "North Korea’s national antivirus appears to have quietly pivoted to ClamAV’s open‑source engine, recompiled it, and shipped it under four different domestic product names underscoring Pyongyang’s reli",
+        "summary": "OpenAI has shut down a coordinated network of ChatGPT accounts that powered a Cambodia-based scam factory running multi-vector fraud and trafficking-linked operations, and has shared indicators with i",
         "cve": []
     },
     {
-        "title": "Critical N-able N-central Flaw Actively Exploited to Gain God-Mode Access to MSP Networks",
-        "date": "Mon, 03 Aug 2026 06:55:29 +0000",
-        "url": "https://gbhackers.com/critical-n-able-n-central-flaw-actively-exploited/",
+        "title": "Shai-Hulud Supply Chain Attack Compromises Keyv and Hundreds of npm Packages",
+        "date": "Tue, 04 Aug 2026 12:54:35 +0000",
+        "url": "https://gbhackers.com/shai-hulud-supply-chain-attack-compromises-keyv/",
         "source": "GBHackers",
-        "summary": "N-able has issued an urgent hotfix to address a critical authentication-bypass vulnerability in its N-central remote monitoring and management (RMM) platform, following confirmation of active exploita",
+        "summary": "Attackers have compromised the GitHub account of a Keyv maintainer, a widely used JavaScript key-value storage library, to distribute credential-stealing malware via npm packages. This ongoing supply ",
         "cve": []
     },
     {
-        "title": "Metasploit Exploit Targets Critical Ruby on Rails Active Storage RCE Flaw",
-        "date": "Mon, 03 Aug 2026 06:26:49 +0000",
-        "url": "https://gbhackers.com/metasploit-exploit-targets-critical-ruby-on-rails/",
+        "title": "OWASP Introduces Subtractive Security Top 10 to Eliminate Attack Paths and Reduce Cyber Risk",
+        "date": "Tue, 04 Aug 2026 12:33:25 +0000",
+        "url": "https://gbhackers.com/owasp-introduces-subtractive-security-top-10/",
         "source": "GBHackers",
-        "summary": "A new Metasploit Framework module has been submitted for review, targeting the critical Ruby on Rails Active Storage vulnerability, tracked as CVE-2026-66066. This submission poses an increased risk t",
+        "summary": "OWASP has launched the Subtractive Security Top 10 project, a security engineering initiative that shifts the focus from adding more detection controls to removing the architectural conditions that en",
         "cve": []
     },
     {
-        "title": "CareCloud Data Breach Exposes Patients’ Health, Social Security and Credit Card Data",
-        "date": "Mon, 03 Aug 2026 05:55:11 +0000",
-        "url": "https://gbhackers.com/carecloud-data-breach-exposes-patients-data/",
+        "title": "CISA Adds Exploited N-able N-central Flaw Enabling Remote Admin Takeover to KEV",
+        "date": "Tue, 04 Aug 2026 12:22:35 +0000",
+        "url": "https://gbhackers.com/cisa-adds-exploited-n-able-n-central-flaw/",
         "source": "GBHackers",
-        "summary": "CareCloud has reported a data security incident involving unauthorized access to its Amazon Web Services (AWS) environment that supports the CareCloud Health division. This incident disrupted one of t",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2026-18577, an actively exploited authentication bypass vulnerability in N-able N-central, to its Known Exploited Vulnera",
         "cve": []
     },
     {
-        "title": "SonicWall SMA Zero-Days Let Attackers Turn One WebSocket Request Into Root Control",
-        "date": "Mon, 03 Aug 2026 05:47:58 +0000",
-        "url": "https://gbhackers.com/sonicwall-sma-zero-days/",
+        "title": "Russian Access Broker Sells Network Access to Ransomware Gangs While Spying on Ukraine",
+        "date": "Tue, 04 Aug 2026 11:56:07 +0000",
+        "url": "https://gbhackers.com/russian-access-broker-sells-network/",
         "source": "GBHackers",
-        "summary": "SonicWall SMA Secure Mobile Access appliances are again at the center of a zero-day storm, with chained flaws that let attackers turn a single crafted WebSocket request into root-level control on inte",
+        "summary": "An exposed server linked to a Russian‑speaking initial access broker (IAB) has revealed a sprawling operation that simultaneously fuels ransomware intrusions worldwide and supports Russian state-align",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Critical Arista VeloCloud Flaw to Execute OS Commands",
-        "date": "Mon, 03 Aug 2026 05:37:19 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-critical-arista-velocloud-flaw/",
+        "title": "China Is Training Military AI With Knowledge Extracted From American Models",
+        "date": "Tue, 04 Aug 2026 11:27:15 +0000",
+        "url": "https://gbhackers.com/china-ai-ecosystem/",
         "source": "GBHackers",
-        "summary": "Arista Networks has issued a warning about attackers actively exploiting CVE-2026-16812, a critical unauthenticated OS command injection vulnerability in on-premises VeloCloud Orchestrator (VCO) deplo",
+        "summary": "China’s artificial intelligence ecosystem is rapidly advancing through a controversial technique known as model distillation, with mounting evidence suggesting that military-linked entities are extrac",
         "cve": []
     },
     {
-        "title": "Coldcard Firmware Flaw Lets Hackers Steal $70 Million in Bitcoin From 1,196 Addresses",
-        "date": "Mon, 03 Aug 2026 05:26:57 +0000",
-        "url": "https://gbhackers.com/coldcard-firmware-flaw/",
+        "title": "18 Malicious npm Packages Deploy Cross-Platform RAT Against Alibaba Developers",
+        "date": "Tue, 04 Aug 2026 11:07:52 +0000",
+        "url": "https://gbhackers.com/18-malicious-npm-packages/",
         "source": "GBHackers",
-        "summary": "Blockchain analysts have linked a rapid series of Bitcoin wallet drains to a reported vulnerability in Coldcard firmware. A total of 1,196 addresses lost a combined 1,082.65 BTC, valued at approximate",
+        "summary": "18 malicious npm packages have been used in a tightly coordinated software supply chain attack to deliver a cross‑platform RAT that specifically targets developers working with Alibaba’s internal Aone",
         "cve": []
     },
     {
-        "title": "XCSSET v40 Infects Xcode Projects to Hijack Chrome and Trojanize Telegram on Macs",
-        "date": "Mon, 03 Aug 2026 05:04:45 +0000",
-        "url": "https://gbhackers.com/xcsset-v40-infects-xcode-projects/",
+        "title": "Critical Gitea Flaw Lets Unauthenticated Attackers Read Server Files and Execute Code",
+        "date": "Tue, 04 Aug 2026 09:40:58 +0000",
+        "url": "https://gbhackers.com/critical-gitea-flaw/",
         "source": "GBHackers",
-        "summary": "XCSSET v40 marks a significant escalation in macOS-focused supply chain attacks, weaponizing poisoned Xcode projects to hijack Chrome and Trojanize Telegram while operating almost entirely from memory",
+        "summary": "A critical vulnerability in Gitea has been identified, potentially allowing unauthenticated remote attackers to read arbitrary files on vulnerable servers and escalate to remote code execution (RCE). ",
         "cve": []
     },
     {
-        "title": "SabPaisa Partners with AccuKnox for Zero Trust AI-Powered Cloud Security to Secure Its Payments Platform",
-        "date": "Sun, 02 Aug 2026 18:39:49 +0000",
-        "url": "https://gbhackers.com/sabpaisa-partners-with-accuknox-for-zero-trust-ai-powered-cloud-security-to-secure-its-payments-platform/",
+        "title": "macOS CUPS Flaw Lets Local Attackers Write Arbitrary Files as Root",
+        "date": "Tue, 04 Aug 2026 09:31:38 +0000",
+        "url": "https://gbhackers.com/macos-cups-flaw/",
         "source": "GBHackers",
-        "summary": "CALIFORNIA, USA, August 2nd, 2026, CyberNewswire AccuKnox, a leading Zero Trust Security platform, today announced that SabPaisa, an RBI-authorised digital payments company, has selected its AI-powere",
+        "summary": "A recently disclosed privilege-related vulnerability in the Common UNIX Printing System (CUPS) on macOS could allow an unprivileged local user to create attacker-controlled files in arbitrary location",
         "cve": []
     }
 ]
