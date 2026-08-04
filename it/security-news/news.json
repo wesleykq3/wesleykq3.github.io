@@ -1,5 +1,61 @@
 [
     {
+        "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
+        "date": "Mon, 03 Aug 2026 20:17:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
+        "cve": []
+    },
+    {
+        "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
+        "date": "Mon, 03 Aug 2026 19:58:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+        "source": "BleepingComputer",
+        "summary": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verif",
+        "cve": []
+    },
+    {
+        "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
+        "date": "Mon, 03 Aug 2026 16:01:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
+        "source": "BleepingComputer",
+        "summary": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices",
+        "cve": []
+    },
+    {
+        "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
+        "date": "Mon, 03 Aug 2026 15:25:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
+        "source": "BleepingComputer",
+        "summary": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
+        "cve": []
+    },
+    {
+        "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+        "date": "Mon, 03 Aug 2026 13:00:56 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
+        "cve": []
+    },
+    {
+        "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+        "date": "Mon, 03 Aug 2026 11:04:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+        "source": "BleepingComputer",
+        "summary": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
+        "cve": []
+    },
+    {
+        "title": "Inside the Underground Business of the Android BTMOB RAT malware",
+        "date": "Mon, 03 Aug 2026 10:45:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
+        "source": "BleepingComputer",
+        "summary": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and",
+        "cve": []
+    },
+    {
         "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
         "date": "Sun, 02 Aug 2026 18:31:41 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
@@ -24,59 +80,35 @@
         "cve": []
     },
     {
-        "title": "Rails patches critical Active Storage flaw with RCE potential",
-        "date": "Sat, 01 Aug 2026 10:20:30 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
-        "source": "BleepingComputer",
-        "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE)",
+        "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+        "date": "Tue, 04 Aug 2026 00:13:53 +0530",
+        "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, ",
         "cve": []
     },
     {
-        "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-        "date": "Fri, 31 Jul 2026 18:16:42 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-        "source": "BleepingComputer",
-        "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers.",
+        "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
+        "date": "Mon, 03 Aug 2026 21:54:47 +0530",
+        "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+        "source": "The Hacker News",
+        "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42",
         "cve": []
     },
     {
-        "title": "Arch Linux disables AUR package adoption to stop malware flood",
-        "date": "Fri, 31 Jul 2026 17:38:08 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
-        "source": "BleepingComputer",
-        "summary": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]",
+        "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+        "date": "Mon, 03 Aug 2026 21:45:13 +0530",
+        "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+        "source": "The Hacker News",
+        "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a repor",
         "cve": []
     },
     {
-        "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-        "date": "Fri, 31 Jul 2026 17:09:25 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-        "source": "BleepingComputer",
-        "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboard",
-        "cve": []
-    },
-    {
-        "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient",
-        "date": "Fri, 31 Jul 2026 14:52:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its models more efficient. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-        "date": "Fri, 31 Jul 2026 13:35:35 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-        "source": "BleepingComputer",
-        "summary": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]",
-        "cve": []
-    },
-    {
-        "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
-        "date": "Fri, 31 Jul 2026 12:49:49 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and waste",
+        "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
+        "date": "Mon, 03 Aug 2026 19:33:11 +0530",
+        "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+        "source": "The Hacker News",
+        "summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows a",
         "cve": []
     },
     {
@@ -92,7 +124,7 @@
         "date": "Mon, 03 Aug 2026 16:19:06 +0530",
         "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
         "source": "The Hacker News",
-        "summary": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platfo",
+        "summary": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface manageme",
         "cve": []
     },
     {
@@ -128,35 +160,51 @@
         "cve": []
     },
     {
-        "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-        "date": "Sat, 01 Aug 2026 22:47:22 +0530",
-        "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-        "source": "The Hacker News",
-        "summary": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Cold",
+        "title": "Malware Can Steal Your Google Synced Passkey Without Asking for Your Password or Fingerprint",
+        "date": "Mon, 03 Aug 2026 17:45:58 +0000",
+        "url": "https://cybersecuritynews.com/google-synced-passkey-malware-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "New research reveals that malware already sitting on a compromised Windows PC can hijack Google&#8217;s synced passkeys and take over accounts without ever prompting the victim for a password, PIN, or",
         "cve": []
     },
     {
-        "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-        "date": "Sat, 01 Aug 2026 14:33:07 +0530",
-        "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-        "source": "The Hacker News",
-        "summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident o",
+        "title": "DNA Test Software Vulnerability Allows Attackers to Alter Analysis Data",
+        "date": "Mon, 03 Aug 2026 16:49:55 +0000",
+        "url": "https://cybersecuritynews.com/dna-test-software-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Thermo Fisher Scientific has disclosed a high-severity security flaw affecting several of its Applied Biosystems Human Identification (HID) software products, warning that attackers could make nearly ",
         "cve": []
     },
     {
-        "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-        "date": "Sat, 01 Aug 2026 12:42:42 +0530",
-        "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-        "source": "The Hacker News",
-        "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code exe",
+        "title": "Public PoC Released for Critical Rails Active Storage RCE Vulnerability",
+        "date": "Mon, 03 Aug 2026 16:35:59 +0000",
+        "url": "https://cybersecuritynews.com/rails-active-storage-rce-vulnerability-poc/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical vulnerability in Ruby on Rails has raised new concerns about cloud data breaches, particularly for companies that host customer platforms in Amazon Web Services (AWS). Known as CVE-2026-660",
         "cve": []
     },
     {
-        "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-        "date": "Sat, 01 Aug 2026 11:59:05 +0530",
-        "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-        "source": "The Hacker News",
-        "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said",
+        "title": "Hugging Face Diffusers Vulnerabilities Enable Remote Code Execution Through Malicious AI Models",
+        "date": "Mon, 03 Aug 2026 15:01:22 +0000",
+        "url": "https://cybersecuritynews.com/hugging-face-diffusers-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "A set of high-severity vulnerabilities in Hugging Face&#8217;s diffusers library that allow a malicious model repository to silently execute arbitrary code on any machine that loads it. The flaws bypa",
+        "cve": []
+    },
+    {
+        "title": "TP-Link TL-WR940N Vulnerability Enables Remote Code Execution Attacks",
+        "date": "Mon, 03 Aug 2026 14:44:28 +0000",
+        "url": "https://cybersecuritynews.com/tp-link-rce-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "TP-Link has issued a security advisory regarding a high-severity vulnerability affecting its TL-WR940N V6 wireless router. This vulnerability, tracked as CVE-2026-12935, could allow unauthenticated at",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit VeloCloud Orchestrator Command Injection Vulnerability in the Wild",
+        "date": "Mon, 03 Aug 2026 14:36:34 +0000",
+        "url": "https://cybersecuritynews.com/velocloud-command-injection-exploit/",
+        "source": "CyberSecurityNews",
+        "summary": "Security researchers have issued a warning about a critical command injection vulnerability that is being actively exploited in on-premises VeloCloud Orchestrator (VCO) deployments. This vulnerability",
         "cve": []
     },
     {
@@ -189,54 +237,6 @@
         "url": "https://cybersecuritynews.com/xcsset-v40-abuses-chrome-devtools/",
         "source": "CyberSecurityNews",
         "summary": "XCSSET has returned with a way to target macOS developers. The latest version, v40, hides inside poisoned Xcode projects and can turn a local build into a supply-chain compromise. Once activated, it c",
-        "cve": []
-    },
-    {
-        "title": "MacSync macOS Stealer Uses Fake Claude Guide to Steal Passwords and Crypto Wallets",
-        "date": "Mon, 03 Aug 2026 07:07:18 +0000",
-        "url": "https://cybersecuritynews.com/macsync-uses-fake-claude-guide/",
-        "source": "CyberSecurityNews",
-        "summary": "Mac users searching for Claude installation help have been led into a dangerous trap. A malicious campaign used a paid search result and a fake guide on a legitimate Claude sharing page to persuade vi",
-        "cve": []
-    },
-    {
-        "title": "Critical N-Able N-Central Vulnerability Allows Hackers to Gain god-mode Access to the RMM Console",
-        "date": "Mon, 03 Aug 2026 06:26:29 +0000",
-        "url": "https://cybersecuritynews.com/n-able-n-central-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "N-able has disclosed a critical security vulnerability in its N-central remote monitoring and management (RMM) platform, which could allow unauthenticated attackers to gain full administrative, or “go",
-        "cve": []
-    },
-    {
-        "title": "Coldcard Hardware Wallet RNG Flaw Linked to $88.6 Million Bitcoin Theft",
-        "date": "Mon, 03 Aug 2026 06:09:25 +0000",
-        "url": "https://cybersecuritynews.com/coldcard-hardware-wallet-rng-flaw-bitcoin-theft/",
-        "source": "CyberSecurityNews",
-        "summary": "A firmware flaw in Coldcard hardware wallets has been linked to the theft of approximately $88.6 million in Bitcoin. Attackers exploited a compromised random number generator, allowing them to reconst",
-        "cve": []
-    },
-    {
-        "title": "SabPaisa Partners with AccuKnox for Zero Trust AI-Powered Cloud Security to Secure Its Payments Platform",
-        "date": "Sun, 02 Aug 2026 18:41:20 +0000",
-        "url": "https://cybersecuritynews.com/sabpaisa-partners-with-accuknox-for-zero-trust-ai-powered-cloud-security-to-secure-its-payments-platform/",
-        "source": "CyberSecurityNews",
-        "summary": "CALIFORNIA, USA, August 2nd, 2026, CyberNewswire AccuKnox, a leading Zero Trust Security platform, today announced that SabPaisa, an RBI-authorised digital payments company, has selected its AI-powere",
-        "cve": []
-    },
-    {
-        "title": "Weekly Cyber Security Newsletter– Claude Hacked 3 Companies, Cisco 0-Day, Word Copilot and VMware Flaw +20 Stories",
-        "date": "Sun, 02 Aug 2026 12:45:45 +0000",
-        "url": "https://cybersecuritynews.com/cyber-security-newsletter-august/",
-        "source": "CyberSecurityNews",
-        "summary": "AI systems moved from experimental risk to confirmed attacker, a Cisco firewall zero-day was actively exploited in the wild, and a critical VMware authentication bypass put enterprise virtualization i",
-        "cve": []
-    },
-    {
-        "title": "SplitVPN Data Breach Exposes 865k Users’ Personal Records",
-        "date": "Sun, 02 Aug 2026 05:44:43 +0000",
-        "url": "https://cybersecuritynews.com/splitvpn-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "A significant data breach has hit SplitVPN, a Russian VPN provider formerly known as NotVPN, exposing the personal records of roughly 865,000 unique users. The incident, which occurred in July 2026, h",
         "cve": []
     },
     {
