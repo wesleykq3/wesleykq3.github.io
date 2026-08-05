@@ -1,5 +1,61 @@
 [
     {
+        "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+        "date": "Tue, 04 Aug 2026 19:39:59 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and socia",
+        "cve": []
+    },
+    {
+        "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+        "date": "Tue, 04 Aug 2026 18:18:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+        "source": "BleepingComputer",
+        "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code executio",
+        "cve": []
+    },
+    {
+        "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
+        "date": "Tue, 04 Aug 2026 17:45:36 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+        "source": "BleepingComputer",
+        "summary": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing targeting Microsoft 365 accounts. [...]",
+        "cve": []
+    },
+    {
+        "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+        "date": "Tue, 04 Aug 2026 15:03:09 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+        "source": "BleepingComputer",
+        "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
+        "cve": []
+    },
+    {
+        "title": "77 Open VSX extensions found harvesting developer info",
+        "date": "Tue, 04 Aug 2026 14:50:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+        "source": "BleepingComputer",
+        "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]",
+        "cve": []
+    },
+    {
+        "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
+        "date": "Tue, 04 Aug 2026 11:24:35 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+        "source": "BleepingComputer",
+        "summary": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
+        "cve": []
+    },
+    {
+        "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
+        "date": "Tue, 04 Aug 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
+        "source": "BleepingComputer",
+        "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enfor",
+        "cve": []
+    },
+    {
         "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
         "date": "Mon, 03 Aug 2026 20:17:15 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
@@ -24,59 +80,27 @@
         "cve": []
     },
     {
-        "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
-        "date": "Mon, 03 Aug 2026 15:25:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
-        "source": "BleepingComputer",
-        "summary": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
+        "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+        "date": "Tue, 04 Aug 2026 22:57:39 +0530",
+        "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+        "source": "The Hacker News",
+        "summary": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the",
         "cve": []
     },
     {
-        "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
-        "date": "Mon, 03 Aug 2026 13:00:56 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
+        "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+        "date": "Tue, 04 Aug 2026 19:00:23 +0530",
+        "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+        "source": "The Hacker News",
+        "summary": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep ver",
         "cve": []
     },
     {
-        "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
-        "date": "Mon, 03 Aug 2026 11:04:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
-        "source": "BleepingComputer",
-        "summary": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
-        "cve": []
-    },
-    {
-        "title": "Inside the Underground Business of the Android BTMOB RAT malware",
-        "date": "Mon, 03 Aug 2026 10:45:55 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
-        "source": "BleepingComputer",
-        "summary": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and",
-        "cve": []
-    },
-    {
-        "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
-        "date": "Sun, 02 Aug 2026 18:31:41 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer scien",
-        "cve": []
-    },
-    {
-        "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
-        "date": "Sun, 02 Aug 2026 17:14:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
-        "source": "BleepingComputer",
-        "summary": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number ",
-        "cve": []
-    },
-    {
-        "title": "Google Chrome may soon block New Tab hijacker extensions by default",
-        "date": "Sun, 02 Aug 2026 10:17:16 -0400",
-        "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
-        "source": "BleepingComputer",
-        "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]",
+        "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+        "date": "Tue, 04 Aug 2026 18:41:22 +0530",
+        "url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and s",
         "cve": []
     },
     {
@@ -133,110 +157,6 @@
         "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
         "source": "The Hacker News",
         "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42",
-        "cve": []
-    },
-    {
-        "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-        "date": "Mon, 03 Aug 2026 21:45:13 +0530",
-        "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-        "source": "The Hacker News",
-        "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a repor",
-        "cve": []
-    },
-    {
-        "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-        "date": "Mon, 03 Aug 2026 19:33:11 +0530",
-        "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-        "source": "The Hacker News",
-        "summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows a",
-        "cve": []
-    },
-    {
-        "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
-        "date": "Mon, 03 Aug 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
-        "source": "The Hacker News",
-        "summary": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate",
-        "cve": []
-    },
-    {
-        "title": "DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts",
-        "date": "Tue, 04 Aug 2026 13:13:51 +0000",
-        "url": "https://cybersecuritynews.com/darksword-ios-exploit-kit/",
-        "source": "CyberSecurityNews",
-        "summary": "DarkSword has expanded from a leaked iOS exploit chain into a broad and fast-changing network of malicious web infrastructure. The campaign targets iPhones running iOS 18.4 through 18.7 and is designe",
-        "cve": []
-    },
-    {
-        "title": "OWASP Subtractive Security Top 10 Project Released to Identify and Reduce Cyber Risks",
-        "date": "Tue, 04 Aug 2026 13:06:50 +0000",
-        "url": "https://cybersecuritynews.com/owasp-subtractive-security-top-10-project/",
-        "source": "CyberSecurityNews",
-        "summary": "The Open Worldwide Application Security Project, or OWASP, has introduced the Subtractive Security Top 10 Project, a security engineering initiative focused on eliminating attack paths rather than mer",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks",
-        "date": "Tue, 04 Aug 2026 12:44:52 +0000",
-        "url": "https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "CISA has warned that attackers are actively exploiting a critical authentication bypass vulnerability in N-able N-central. Tracked as CVE-2026-18577, the flaw affects N-central servers running version",
-        "cve": []
-    },
-    {
-        "title": "Public PoC Released for CUPS Vulnerability Allows Attackers to Gain Root Privileges",
-        "date": "Tue, 04 Aug 2026 12:19:29 +0000",
-        "url": "https://cybersecuritynews.com/public-poc-released-for-cups-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A public proof-of-concept (PoC) has been released for CVE-2026-39875, a macOS vulnerability in the Common UNIX Printing System (CUPS) that allows an unprivileged local user to perform arbitrary file w",
-        "cve": []
-    },
-    {
-        "title": "Roblox Malware Streams Victims’ Desktops and Captures Webcam Footage",
-        "date": "Tue, 04 Aug 2026 12:14:24 +0000",
-        "url": "https://cybersecuritynews.com/roblox-malware-streams-desktops/",
-        "source": "CyberSecurityNews",
-        "summary": "A malicious Roblox cheat campaign is turning a familiar gaming shortcut into a serious privacy threat. Players seeking an “undetected” Xeno script executor are being lured through gaming forums and Di",
-        "cve": []
-    },
-    {
-        "title": "Russian Hacker Breaches Companies, Sells Their Access and Spies on Ukrainian Military Sites",
-        "date": "Tue, 04 Aug 2026 11:58:09 +0000",
-        "url": "https://cybersecuritynews.com/russian-hacker-breaches-companies/",
-        "source": "CyberSecurityNews",
-        "summary": "A Russian-speaking hacker has been linked to a broad operation that breached organizations worldwide, collected credentials, and prepared access for sale to ransomware groups. The activity affected ed",
-        "cve": []
-    },
-    {
-        "title": "Keyv npm Package with 127M Weekly Downloads Compromised in Shai-Hulud Attack",
-        "date": "Tue, 04 Aug 2026 11:48:31 +0000",
-        "url": "https://cybersecuritynews.com/keyv-npm-package-compromised/",
-        "source": "CyberSecurityNews",
-        "summary": "Attackers have compromised the GitHub account of the maintainer behind keyv, a popular key-value storage library that pulls in roughly 127 million weekly downloads on npm, and used that access to push",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Reveals How Cybercriminals are Using ChatGPT to Run Scam Operation",
-        "date": "Tue, 04 Aug 2026 11:33:56 +0000",
-        "url": "https://cybersecuritynews.com/openai-cybercriminals-using-chatgpt/",
-        "source": "CyberSecurityNews",
-        "summary": "Online scams are becoming more organized, more personal, and harder to spot. Criminal networks are now using artificial intelligence to create believable messages, fake identities, and fraudulent webs",
-        "cve": []
-    },
-    {
-        "title": "Critical Gitea Arbitrary File Read Vulnerability Enables Remote Code Execution Attacks",
-        "date": "Tue, 04 Aug 2026 11:27:54 +0000",
-        "url": "https://cybersecuritynews.com/gitea-arbitrary-file-read-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical security flaw in Gitea, tracked as CVE-2026-59774, allows unauthenticated remote attackers to read arbitrary files from vulnerable servers and potentially escalate the attack to remote code",
-        "cve": []
-    },
-    {
-        "title": "Critical Adobe Campaign Classic Vulnerabilities Enables Arbitrary Code Execution",
-        "date": "Tue, 04 Aug 2026 10:48:52 +0000",
-        "url": "https://cybersecuritynews.com/adobe-campaign-classic-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Adobe has issued a critical security update for Adobe Campaign Classic, addressing multiple flaws that could enable arbitrary code execution on vulnerable systems. The update, tracked as APSB26-120 an",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Fake Xeno Roblox Cheats Deliver Java RAT That Steals Discord and Gaming Accounts",
-        "date": "Tue, 04 Aug 2026 13:25:03 +0000",
-        "url": "https://gbhackers.com/fake-xeno-roblox-cheats-java-rat/",
-        "source": "GBHackers",
-        "summary": "Fake Roblox cheat tools are once again being weaponized, with a newly observed campaign distributing a sophisticated Java-based remote access trojan (RAT) disguised as an “undetected” version of the p",
+        "title": "AMD Posts Proposal & Linux Patches For eSPI Subsystem",
+        "date": "Tue, 04 Aug 2026 20:33:08 -0400",
+        "url": "https://www.phoronix.com/news/AMD-eSPI-Linux-Patches",
+        "source": "Phoronix",
+        "summary": "AMD has posted patches proposing a new Linux subsystem for the Enhanced Serial Peripheral Interface (eSPI) standard that was in turn originally developed by Intel. With AMD now making use of eSPI, the",
         "cve": []
     },
     {
-        "title": "OpenAI Shuts Down ChatGPT Accounts Powering a Cambodia-Based Scam Factory",
-        "date": "Tue, 04 Aug 2026 12:56:47 +0000",
-        "url": "https://gbhackers.com/openai-shuts-down-chatgpt-2/",
-        "source": "GBHackers",
-        "summary": "OpenAI has shut down a coordinated network of ChatGPT accounts that powered a Cambodia-based scam factory running multi-vector fraud and trafficking-linked operations, and has shared indicators with i",
+        "title": "AMD openSIL & Coreboot Pull Requests For Phoenix AM5 Support",
+        "date": "Tue, 04 Aug 2026 10:07:29 -0400",
+        "url": "https://www.phoronix.com/news/AMD-openSIL-Phoenix-AM5-PR",
+        "source": "Phoronix",
+        "summary": "Last week the 3mdeb firmware consulting firm released the first open-source firmware for a modern AMD Ryzen AM5 platform with their work to port AMD openSIL and Coreboot in their downstream Dasharo fl",
         "cve": []
     },
     {
-        "title": "Shai-Hulud Supply Chain Attack Compromises Keyv and Hundreds of npm Packages",
-        "date": "Tue, 04 Aug 2026 12:54:35 +0000",
-        "url": "https://gbhackers.com/shai-hulud-supply-chain-attack-compromises-keyv/",
-        "source": "GBHackers",
-        "summary": "Attackers have compromised the GitHub account of a Keyv maintainer, a widely used JavaScript key-value storage library, to distribute credential-stealing malware via npm packages. This ongoing supply ",
+        "title": "NVIDIA Becomes A Premier Sponsor Of LVFS / Fwupd",
+        "date": "Tue, 04 Aug 2026 09:43:44 -0400",
+        "url": "https://www.phoronix.com/news/NVIDIA-Premier-Sponsor-LVFS",
+        "source": "Phoronix",
+        "summary": "Now this is a pleasant and very unexpected surprise... NVIDIA has become the latest premier sponsor of the Linux Vendor Firmware Service (LVFS)...",
         "cve": []
     },
     {
-        "title": "OWASP Introduces Subtractive Security Top 10 to Eliminate Attack Paths and Reduce Cyber Risk",
-        "date": "Tue, 04 Aug 2026 12:33:25 +0000",
-        "url": "https://gbhackers.com/owasp-introduces-subtractive-security-top-10/",
-        "source": "GBHackers",
-        "summary": "OWASP has launched the Subtractive Security Top 10 project, a security engineering initiative that shifts the focus from adding more detection controls to removing the architectural conditions that en",
+        "title": "Linux Foundation Announces Tokenomics Foundation For \"Economics & ROI Of AI Value\"",
+        "date": "Tue, 04 Aug 2026 08:14:14 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Foundation-Tokenomics",
+        "source": "Phoronix",
+        "summary": "Last month the Linux Foundation launched the x402 Foundation to standardize Internet-native payments for AI agents as their latest AI play. That followed other \"AI\" initiatives from dealing with AI ex",
         "cve": []
     },
     {
-        "title": "CISA Adds Exploited N-able N-central Flaw Enabling Remote Admin Takeover to KEV",
-        "date": "Tue, 04 Aug 2026 12:22:35 +0000",
-        "url": "https://gbhackers.com/cisa-adds-exploited-n-able-n-central-flaw/",
-        "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2026-18577, an actively exploited authentication bypass vulnerability in N-able N-central, to its Known Exploited Vulnera",
+        "title": "Linux's Staging Area To Now Reject LLM-Generated Patches, Except For Real Security Fixes",
+        "date": "Tue, 04 Aug 2026 06:29:29 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Staging-Reject-LLMs",
+        "source": "Phoronix",
+        "summary": "While Linux's second-in-command Greg Kroah-Hartman does use AI / LLMs himself to success in the Linux kernel, given the \"onslaught\" of kernel patches produced by large language models and the intent o",
         "cve": []
     },
     {
-        "title": "Russian Access Broker Sells Network Access to Ransomware Gangs While Spying on Ukraine",
-        "date": "Tue, 04 Aug 2026 11:56:07 +0000",
-        "url": "https://gbhackers.com/russian-access-broker-sells-network/",
-        "source": "GBHackers",
-        "summary": "An exposed server linked to a Russian‑speaking initial access broker (IAB) has revealed a sprawling operation that simultaneously fuels ransomware intrusions worldwide and supports Russian state-align",
+        "title": "Wild Linker 0.10 Released With GDB Index Support, Mitigation For Btrfs Performance",
+        "date": "Tue, 04 Aug 2026 06:14:21 -0400",
+        "url": "https://www.phoronix.com/news/Wild-Linker-0.10",
+        "source": "Phoronix",
+        "summary": "Wild 0.10 released overnight as this very fast linker for Linux that is written in the Rust programming language and focused on iterative development...",
         "cve": []
     },
     {
-        "title": "China Is Training Military AI With Knowledge Extracted From American Models",
-        "date": "Tue, 04 Aug 2026 11:27:15 +0000",
-        "url": "https://gbhackers.com/china-ai-ecosystem/",
-        "source": "GBHackers",
-        "summary": "China’s artificial intelligence ecosystem is rapidly advancing through a controversial technique known as model distillation, with mounting evidence suggesting that military-linked entities are extrac",
+        "title": "Linux 7.3 To Fix MSI Claw M-Center Keys For Ryzen Z2 Extreme Powered Handheld",
+        "date": "Tue, 04 Aug 2026 05:57:59 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-MSI-Claw-M-Center-Key",
+        "source": "Phoronix",
+        "summary": "For those with a MSI Claw A8 BZ2EM handheld gaming system, the model powered by the latest AMD Ryzen Z2 Extreme SoC, an important addition is coming to the Linux 7.3 kernel so that the M-Center keys w",
         "cve": []
     },
     {
-        "title": "18 Malicious npm Packages Deploy Cross-Platform RAT Against Alibaba Developers",
-        "date": "Tue, 04 Aug 2026 11:07:52 +0000",
-        "url": "https://gbhackers.com/18-malicious-npm-packages/",
-        "source": "GBHackers",
-        "summary": "18 malicious npm packages have been used in a tightly coordinated software supply chain attack to deliver a cross‑platform RAT that specifically targets developers working with Alibaba’s internal Aone",
+        "title": "FFmpeg 9.0 Released With More Vulkan Acceleration, Animated WebP & More AMD AMF",
+        "date": "Mon, 03 Aug 2026 20:49:30 -0400",
+        "url": "https://www.phoronix.com/news/FFmpeg-9.0-Released",
+        "source": "Phoronix",
+        "summary": "FFmpeg 9.0 is now available as the latest feature release for this widely used, open-source multimedia library...",
         "cve": []
     },
     {
-        "title": "Critical Gitea Flaw Lets Unauthenticated Attackers Read Server Files and Execute Code",
-        "date": "Tue, 04 Aug 2026 09:40:58 +0000",
-        "url": "https://gbhackers.com/critical-gitea-flaw/",
-        "source": "GBHackers",
-        "summary": "A critical vulnerability in Gitea has been identified, potentially allowing unauthenticated remote attackers to read arbitrary files on vulnerable servers and escalate to remote code execution (RCE). ",
+        "title": "Improved GPU Reset Recovery For AMD Kaveri, Hawaii & Other GFX7 GPUs With Linux 7.3",
+        "date": "Mon, 03 Aug 2026 20:36:30 -0400",
+        "url": "https://www.phoronix.com/news/AMD-GFX7-Soft-Reset-Linux-7.3",
+        "source": "Phoronix",
+        "summary": "In addition to the AMDGPU feature pull request to DRM-Next last week that landed DRM format modifiers for old AMD GPUs and a variety of other improvements, a secondary set of AMDGPU feature work follo",
         "cve": []
     },
     {
-        "title": "macOS CUPS Flaw Lets Local Attackers Write Arbitrary Files as Root",
-        "date": "Tue, 04 Aug 2026 09:31:38 +0000",
-        "url": "https://gbhackers.com/macos-cups-flaw/",
-        "source": "GBHackers",
-        "summary": "A recently disclosed privilege-related vulnerability in the Common UNIX Printing System (CUPS) on macOS could allow an unprivileged local user to create attacker-controlled files in arbitrary location",
+        "title": "Linux 7.3 Looks Like It Will Upstream FailFS",
+        "date": "Mon, 03 Aug 2026 14:46:16 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Expects-FailFS",
+        "source": "Phoronix",
+        "summary": "Merged back in Linux 7.3 was NULLFS as a \"completely catatonic minimal pseudo filesystem\". Now expected for Linux 7.3 is its sibling: FailFS...",
         "cve": []
     }
 ]
