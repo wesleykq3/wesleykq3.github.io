@@ -80,6 +80,70 @@
         "cve": []
     },
     {
+        "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+        "date": "Wed, 05 Aug 2026 17:13:27 +0530",
+        "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+        "source": "The Hacker News",
+        "summary": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-b",
+        "cve": []
+    },
+    {
+        "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+        "date": "Wed, 05 Aug 2026 17:13:19 +0530",
+        "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+        "source": "The Hacker News",
+        "summary": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's r",
+        "cve": []
+    },
+    {
+        "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+        "date": "Wed, 05 Aug 2026 16:34:23 +0530",
+        "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+        "source": "The Hacker News",
+        "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public r",
+        "cve": []
+    },
+    {
+        "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+        "date": "Wed, 05 Aug 2026 16:05:29 +0530",
+        "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+        "source": "The Hacker News",
+        "summary": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream creden",
+        "cve": []
+    },
+    {
+        "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+        "date": "Wed, 05 Aug 2026 14:53:03 +0530",
+        "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+        "source": "The Hacker News",
+        "summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which t",
+        "cve": []
+    },
+    {
+        "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
+        "date": "Wed, 05 Aug 2026 13:23:50 +0530",
+        "url": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
+        "source": "The Hacker News",
+        "summary": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.\n\nWhen a ",
+        "cve": []
+    },
+    {
+        "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+        "date": "Wed, 05 Aug 2026 13:10:39 +0530",
+        "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in t",
+        "cve": []
+    },
+    {
+        "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+        "date": "Wed, 05 Aug 2026 11:17:19 +0530",
+        "url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overse",
+        "cve": []
+    },
+    {
         "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
         "date": "Tue, 04 Aug 2026 22:57:39 +0530",
         "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
@@ -96,67 +160,83 @@
         "cve": []
     },
     {
-        "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-        "date": "Tue, 04 Aug 2026 18:41:22 +0530",
-        "url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and s",
+        "title": "Django Urges Immediate Upgrade to 6.0.8 and 5.2.17 After Four Security Fixes",
+        "date": "Wed, 05 Aug 2026 13:22:30 +0000",
+        "url": "https://cybersecuritynews.com/django-four-security-fixes/",
+        "source": "CyberSecurityNews",
+        "summary": "The Django development team has released Django 6.0.8 and Django 5.2.17 to fix four security vulnerabilities affecting supported versions of the Python web framework. Developers and administrators are",
         "cve": []
     },
     {
-        "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-        "date": "Tue, 04 Aug 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-        "source": "The Hacker News",
-        "summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by rank",
+        "title": "New OVSwrap Linux Vulnerability Lets Attackers Gain Root Access",
+        "date": "Wed, 05 Aug 2026 12:33:35 +0000",
+        "url": "https://cybersecuritynews.com/ovswrap-linux-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-64531 and dubbed OVSwrap, allows unprivileged local users to escalate privileges to root on a wide range of popular Linux distribution",
         "cve": []
     },
     {
-        "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
-        "date": "Tue, 04 Aug 2026 16:46:23 +0530",
-        "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
-        "source": "The Hacker News",
-        "summary": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a priv",
+        "title": "SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems",
+        "date": "Wed, 05 Aug 2026 12:33:03 +0000",
+        "url": "https://cybersecuritynews.com/smokescreen-campaign/",
+        "source": "CyberSecurityNews",
+        "summary": "SMOKE#SCREEN is a campaign that turns ordinary software updates and business files into a doorway for remote control. Victims who run the files can unknowingly install a legitimate remote-management a",
         "cve": []
     },
     {
-        "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
-        "date": "Tue, 04 Aug 2026 16:06:27 +0530",
-        "url": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
-        "source": "The Hacker News",
-        "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrativ",
+        "title": "Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain",
+        "date": "Wed, 05 Aug 2026 09:33:26 +0000",
+        "url": "https://cybersecuritynews.com/remote-scheduled-tasks-etherrat/",
+        "source": "CyberSecurityNews",
+        "summary": "EtherRAT has surfaced in a Windows domain intrusion tied to an affiliate of the Gentlemen ransomware operation. The campaign shows how a single foothold can become a network-wide problem when attacker",
         "cve": []
     },
     {
-        "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
-        "date": "Tue, 04 Aug 2026 14:33:23 +0530",
-        "url": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
-        "source": "The Hacker News",
-        "summary": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a",
+        "title": "7-Zip Mark-of-the-Web Bypass Lets Malicious Files Evade Windows SmartScreen",
+        "date": "Wed, 05 Aug 2026 08:30:23 +0000",
+        "url": "https://cybersecuritynews.com/7-zip-mark-of-the-web-bypass/",
+        "source": "CyberSecurityNews",
+        "summary": "Windows can protect users before a suspicious download runs. But a newly documented 7-Zip behavior can remove an important warning layer and allow a malicious program to start without a Windows SmartS",
         "cve": []
     },
     {
-        "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-        "date": "Tue, 04 Aug 2026 12:30:13 +0530",
-        "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following",
+        "title": "Microsoft Defender Stops QNET Ransomware Attack in 128 Seconds With Automatic Device Isolation",
+        "date": "Wed, 05 Aug 2026 07:34:01 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-defender-stops-qnet-ransomware-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "Ransomware can turn one careless click into a business-wide emergency. An incident at QNET shows how quickly that risk can grow when attackers use trusted Windows tools to launch a second stage of an ",
         "cve": []
     },
     {
-        "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-        "date": "Tue, 04 Aug 2026 00:13:53 +0530",
-        "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, ",
+        "title": "Multiple Veeam ONE Vulnerabilities Allow Code Execution Attacks",
+        "date": "Wed, 05 Aug 2026 07:10:05 +0000",
+        "url": "https://cybersecuritynews.com/multiple-veeam-one-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Veeam has released security updates for Veeam ONE 13.1 to fix multiple vulnerabilities that could allow attackers to execute code, access sensitive files, steal database data, and escalate privileges.",
         "cve": []
     },
     {
-        "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-        "date": "Mon, 03 Aug 2026 21:54:47 +0530",
-        "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-        "source": "The Hacker News",
-        "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42",
+        "title": "Botnet Is Hunting Router Ping Tools That Can Turn User Input Into Shell Commands",
+        "date": "Wed, 05 Aug 2026 06:31:30 +0000",
+        "url": "https://cybersecuritynews.com/botnet-is-hunting-router-ping-tools/",
+        "source": "CyberSecurityNews",
+        "summary": "A botnet campaign is probing routers for weak spots in diagnostic features. The activity focuses on web paths linked to ping, traceroute and troubleshooting tools, where a poorly handled hostname or p",
+        "cve": []
+    },
+    {
+        "title": "CISA Warns of Apache Tomcat Encryption Vulnerability Actively Exploited in Attacks",
+        "date": "Wed, 05 Aug 2026 05:28:59 +0000",
+        "url": "https://cybersecuritynews.com/apache-tomcat-encryption-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity Apache Tomcat flaw, tracked as CVE-2026-34486, to its Known Exploited Vulnerabilities catalog. The agency sai",
+        "cve": []
+    },
+    {
+        "title": "Mythos 5 and GPT-5.6-Sol Agents Went Beyond Their Cyber Test and Targeted the Real World",
+        "date": "Wed, 05 Aug 2026 03:59:19 +0000",
+        "url": "https://cybersecuritynews.com/mythos-5-and-gpt-5-6-sol-security-incident/",
+        "source": "CyberSecurityNews",
+        "summary": "The UK&#8217;s AI Security Institute (AISI) has disclosed a serious security incident in which AI agents under evaluation broke out of their intended test scope and took unsanctioned action against re",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "AMD Posts Proposal & Linux Patches For eSPI Subsystem",
-        "date": "Tue, 04 Aug 2026 20:33:08 -0400",
-        "url": "https://www.phoronix.com/news/AMD-eSPI-Linux-Patches",
-        "source": "Phoronix",
-        "summary": "AMD has posted patches proposing a new Linux subsystem for the Enhanced Serial Peripheral Interface (eSPI) standard that was in turn originally developed by Intel. With AMD now making use of eSPI, the",
+        "title": "15 TP-Link Omada Flaws Exploit Zero-Touch Provisioning to Hijack Devices and Infiltrate Networks",
+        "date": "Wed, 05 Aug 2026 10:47:15 +0000",
+        "url": "https://gbhackers.com/15-tp-link-omada-flaws-exploit-zero-touch-provisioning/",
+        "source": "GBHackers",
+        "summary": "Security researchers have disclosed 15 vulnerabilities in TP-Link&#8217;s Omada zero-touch provisioning (ZTP) ecosystem, which can be exploited to hijack devices, compromise controllers, expose creden",
         "cve": []
     },
     {
-        "title": "AMD openSIL & Coreboot Pull Requests For Phoenix AM5 Support",
-        "date": "Tue, 04 Aug 2026 10:07:29 -0400",
-        "url": "https://www.phoronix.com/news/AMD-openSIL-Phoenix-AM5-PR",
-        "source": "Phoronix",
-        "summary": "Last week the 3mdeb firmware consulting firm released the first open-source firmware for a modern AMD Ryzen AM5 platform with their work to port AMD openSIL and Coreboot in their downstream Dasharo fl",
+        "title": "Fake Open VSX Extensions Hijack AMD, Azure, Salesforce and Government Namespaces",
+        "date": "Wed, 05 Aug 2026 09:40:27 +0000",
+        "url": "https://gbhackers.com/fake-open-vsx-extensions/",
+        "source": "GBHackers",
+        "summary": "Fake Open VSX extensions have hijacked high‑trust namespaces like AMD, Azure, Salesforce, Hyperledger, and a U.S. government agency on the Open VSX Registry, silently harvesting Git and CI metadata fr",
         "cve": []
     },
     {
-        "title": "NVIDIA Becomes A Premier Sponsor Of LVFS / Fwupd",
-        "date": "Tue, 04 Aug 2026 09:43:44 -0400",
-        "url": "https://www.phoronix.com/news/NVIDIA-Premier-Sponsor-LVFS",
-        "source": "Phoronix",
-        "summary": "Now this is a pleasant and very unexpected surprise... NVIDIA has become the latest premier sponsor of the Linux Vendor Firmware Service (LVFS)...",
+        "title": "ScreenConnect Attackers Hide Windows, Delete Installers and Masquerade as Software Updates",
+        "date": "Wed, 05 Aug 2026 09:10:15 +0000",
+        "url": "https://gbhackers.com/screenconnect-attackers-hide-windows/",
+        "source": "GBHackers",
+        "summary": "ScreenConnect is being systematically weaponized in the SMOKE#SCREEN campaign, where attackers hide execution windows, delete installers, and disguise malicious activity as routine software updates to",
         "cve": []
     },
     {
-        "title": "Linux Foundation Announces Tokenomics Foundation For \"Economics & ROI Of AI Value\"",
-        "date": "Tue, 04 Aug 2026 08:14:14 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Foundation-Tokenomics",
-        "source": "Phoronix",
-        "summary": "Last month the Linux Foundation launched the x402 Foundation to standardize Internet-native payments for AI agents as their latest AI play. That followed other \"AI\" initiatives from dealing with AI ex",
+        "title": "Critical Veeam ONE Flaw Lets Unauthenticated Attackers Execute Code Remotely",
+        "date": "Wed, 05 Aug 2026 08:38:15 +0000",
+        "url": "https://gbhackers.com/critical-veeam-one-flaw/",
+        "source": "GBHackers",
+        "summary": "Veeam has issued security updates to address multiple vulnerabilities in Veeam ONE, including a critical flaw that could enable an unauthenticated remote attacker to execute arbitrary code on an affec",
         "cve": []
     },
     {
-        "title": "Linux's Staging Area To Now Reject LLM-Generated Patches, Except For Real Security Fixes",
-        "date": "Tue, 04 Aug 2026 06:29:29 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Staging-Reject-LLMs",
-        "source": "Phoronix",
-        "summary": "While Linux's second-in-command Greg Kroah-Hartman does use AI / LLMs himself to success in the Linux kernel, given the \"onslaught\" of kernel patches produced by large language models and the intent o",
+        "title": "Ransomware Hackers Are Hiding Malware Command Servers Inside Ethereum Smart Contracts",
+        "date": "Wed, 05 Aug 2026 07:51:07 +0000",
+        "url": "https://gbhackers.com/ethereum-smart-contracts/",
+        "source": "GBHackers",
+        "summary": "Ransomware operators are now abusing Ethereum smart contracts as stealthy command‑and‑control resolvers, with a Gentlemen ransomware affiliate using the EtherRAT backdoor to pull rotating C2 domains d",
         "cve": []
     },
     {
-        "title": "Wild Linker 0.10 Released With GDB Index Support, Mitigation For Btrfs Performance",
-        "date": "Tue, 04 Aug 2026 06:14:21 -0400",
-        "url": "https://www.phoronix.com/news/Wild-Linker-0.10",
-        "source": "Phoronix",
-        "summary": "Wild 0.10 released overnight as this very fast linker for Linux that is written in the Rust programming language and focused on iterative development...",
+        "title": "Django Flaws Let Attackers Trigger RCE, SSRF, DoS, and XSS Attacks",
+        "date": "Wed, 05 Aug 2026 06:38:51 +0000",
+        "url": "https://gbhackers.com/django-flaws/",
+        "source": "GBHackers",
+        "summary": "The Django project has released security updates, specifically Django 6.0.8 and Django 5.2.17, to address four vulnerabilities that could lead to server-side request forgery (SSRF), arbitrary file wri",
         "cve": []
     },
     {
-        "title": "Linux 7.3 To Fix MSI Claw M-Center Keys For Ryzen Z2 Extreme Powered Handheld",
-        "date": "Tue, 04 Aug 2026 05:57:59 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-MSI-Claw-M-Center-Key",
-        "source": "Phoronix",
-        "summary": "For those with a MSI Claw A8 BZ2EM handheld gaming system, the model powered by the latest AMD Ryzen Z2 Extreme SoC, an important addition is coming to the Linux 7.3 kernel so that the M-Center keys w",
+        "title": "7-Zip Default Setting Lets Extracted Files Bypass Windows SmartScreen",
+        "date": "Wed, 05 Aug 2026 06:38:04 +0000",
+        "url": "https://gbhackers.com/7-zip-default-setting/",
+        "source": "GBHackers",
+        "summary": "7-Zip’s default configuration allows files extracted from internet-delivered archives to shed the Mark of the Web (MotW), meaning Windows SmartScreen never runs its reputation check and unsigned paylo",
         "cve": []
     },
     {
-        "title": "FFmpeg 9.0 Released With More Vulkan Acceleration, Animated WebP & More AMD AMF",
-        "date": "Mon, 03 Aug 2026 20:49:30 -0400",
-        "url": "https://www.phoronix.com/news/FFmpeg-9.0-Released",
-        "source": "Phoronix",
-        "summary": "FFmpeg 9.0 is now available as the latest feature release for this widely used, open-source multimedia library...",
+        "title": "Mythos 5 and GPT-5.6-Sol AI Agents Broke Cyber Test Boundaries and Targeted Real Users",
+        "date": "Wed, 05 Aug 2026 06:06:49 +0000",
+        "url": "https://gbhackers.com/mythos-5-and-gpt-5-6-sol-ai-agents-broke-cyber-test-boundaries/",
+        "source": "GBHackers",
+        "summary": "The UK AI Security Institute (AISI) has reported a serious incident involving autonomous AI agents that were conducting cybersecurity evaluations. These agents crossed their intended test boundaries a",
         "cve": []
     },
     {
-        "title": "Improved GPU Reset Recovery For AMD Kaveri, Hawaii & Other GFX7 GPUs With Linux 7.3",
-        "date": "Mon, 03 Aug 2026 20:36:30 -0400",
-        "url": "https://www.phoronix.com/news/AMD-GFX7-Soft-Reset-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "In addition to the AMDGPU feature pull request to DRM-Next last week that landed DRM format modifiers for old AMD GPUs and a variety of other improvements, a secondary set of AMDGPU feature work follo",
+        "title": "Ransomware Attack Abuses Legitimate Windows Tool to Evade Traditional Containment",
+        "date": "Wed, 05 Aug 2026 05:42:29 +0000",
+        "url": "https://gbhackers.com/ransomware-abuses-windows-tool/",
+        "source": "GBHackers",
+        "summary": "Microsoft Defender’s new automatic device isolation capability has emerged as a decisive control against modern ransomware intrusions that abuse legitimate Windows binaries, as demonstrated in a recen",
         "cve": []
     },
     {
-        "title": "Linux 7.3 Looks Like It Will Upstream FailFS",
-        "date": "Mon, 03 Aug 2026 14:46:16 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Expects-FailFS",
-        "source": "Phoronix",
-        "summary": "Merged back in Linux 7.3 was NULLFS as a \"completely catatonic minimal pseudo filesystem\". Now expected for Linux 7.3 is its sibling: FailFS...",
+        "title": "Botnet Scans Router Diagnostic Tools for OS Command Injection Vulnerabilities",
+        "date": "Wed, 05 Aug 2026 05:15:28 +0000",
+        "url": "https://gbhackers.com/botnet-scans-router-diagnostic-tools/",
+        "source": "GBHackers",
+        "summary": "Botnet operators are systematically probing router diagnostic interfaces for OS command injection flaws, chaining default credentials, legacy CGI endpoints, and weak command execution patterns to gain",
         "cve": []
     }
 ]
