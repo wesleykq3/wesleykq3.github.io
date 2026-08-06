@@ -1,5 +1,61 @@
 [
     {
+        "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
+        "date": "Wed, 05 Aug 2026 19:00:50 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+        "source": "BleepingComputer",
+        "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide",
+        "cve": []
+    },
+    {
+        "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+        "date": "Wed, 05 Aug 2026 17:53:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+        "source": "BleepingComputer",
+        "summary": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of do",
+        "cve": []
+    },
+    {
+        "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
+        "date": "Wed, 05 Aug 2026 15:55:25 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+        "source": "BleepingComputer",
+        "summary": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
+        "cve": []
+    },
+    {
+        "title": "COLDCARD security audit phishing attack installs remote access tool",
+        "date": "Wed, 05 Aug 2026 13:49:41 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+        "source": "BleepingComputer",
+        "summary": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote a",
+        "cve": []
+    },
+    {
+        "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
+        "date": "Wed, 05 Aug 2026 11:51:33 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
+        "cve": []
+    },
+    {
+        "title": "Google Blogger locks hundreds of blogs in malware false positive",
+        "date": "Wed, 05 Aug 2026 10:59:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
+        "source": "BleepingComputer",
+        "summary": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]",
+        "cve": []
+    },
+    {
+        "title": "How AI-powered phishing killed blocklists for good",
+        "date": "Wed, 05 Aug 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+        "source": "BleepingComputer",
+        "summary": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based dete",
+        "cve": []
+    },
+    {
         "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
         "date": "Tue, 04 Aug 2026 19:39:59 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
@@ -24,59 +80,51 @@
         "cve": []
     },
     {
-        "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
-        "date": "Tue, 04 Aug 2026 15:03:09 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
-        "source": "BleepingComputer",
-        "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
+        "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+        "date": "Thu, 06 Aug 2026 00:14:31 +0530",
+        "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+        "source": "The Hacker News",
+        "summary": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on inf",
         "cve": []
     },
     {
-        "title": "77 Open VSX extensions found harvesting developer info",
-        "date": "Tue, 04 Aug 2026 14:50:55 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
-        "source": "BleepingComputer",
-        "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]",
+        "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+        "date": "Thu, 06 Aug 2026 00:03:47 +0530",
+        "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enfo",
         "cve": []
     },
     {
-        "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
-        "date": "Tue, 04 Aug 2026 11:24:35 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
-        "source": "BleepingComputer",
-        "summary": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
+        "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+        "date": "Wed, 05 Aug 2026 21:06:03 +0530",
+        "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platfo",
         "cve": []
     },
     {
-        "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
-        "date": "Tue, 04 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
-        "source": "BleepingComputer",
-        "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enfor",
+        "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+        "date": "Wed, 05 Aug 2026 20:44:05 +0530",
+        "url": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+        "source": "The Hacker News",
+        "summary": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) ",
         "cve": []
     },
     {
-        "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-        "date": "Mon, 03 Aug 2026 20:17:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
+        "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+        "date": "Wed, 05 Aug 2026 19:57:30 +0530",
+        "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+        "source": "The Hacker News",
+        "summary": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.\n\nThe three most serious:\n\n\n  An unauthenti",
         "cve": []
     },
     {
-        "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
-        "date": "Mon, 03 Aug 2026 19:58:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
-        "source": "BleepingComputer",
-        "summary": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verif",
-        "cve": []
-    },
-    {
-        "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
-        "date": "Mon, 03 Aug 2026 16:01:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
-        "source": "BleepingComputer",
-        "summary": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices",
+        "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
+        "date": "Wed, 05 Aug 2026 19:11:27 +0530",
+        "url": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address o",
         "cve": []
     },
     {
@@ -112,131 +160,83 @@
         "cve": []
     },
     {
-        "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
-        "date": "Wed, 05 Aug 2026 14:53:03 +0530",
-        "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
-        "source": "The Hacker News",
-        "summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which t",
-        "cve": []
-    },
-    {
-        "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
-        "date": "Wed, 05 Aug 2026 13:23:50 +0530",
-        "url": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
-        "source": "The Hacker News",
-        "summary": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.\n\nWhen a ",
-        "cve": []
-    },
-    {
-        "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-        "date": "Wed, 05 Aug 2026 13:10:39 +0530",
-        "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in t",
-        "cve": []
-    },
-    {
-        "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-        "date": "Wed, 05 Aug 2026 11:17:19 +0530",
-        "url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overse",
-        "cve": []
-    },
-    {
-        "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-        "date": "Tue, 04 Aug 2026 22:57:39 +0530",
-        "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
-        "source": "The Hacker News",
-        "summary": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the",
-        "cve": []
-    },
-    {
-        "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
-        "date": "Tue, 04 Aug 2026 19:00:23 +0530",
-        "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
-        "source": "The Hacker News",
-        "summary": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep ver",
-        "cve": []
-    },
-    {
-        "title": "Django Urges Immediate Upgrade to 6.0.8 and 5.2.17 After Four Security Fixes",
-        "date": "Wed, 05 Aug 2026 13:22:30 +0000",
-        "url": "https://cybersecuritynews.com/django-four-security-fixes/",
+        "title": "Google Blogger Locked Legitimate Websites After Mistaking Them for Malware",
+        "date": "Wed, 05 Aug 2026 17:45:57 +0000",
+        "url": "https://cybersecuritynews.com/google-blogger-locked-legitimate-websites/",
         "source": "CyberSecurityNews",
-        "summary": "The Django development team has released Django 6.0.8 and Django 5.2.17 to fix four security vulnerabilities affecting supported versions of the Python web framework. Developers and administrators are",
+        "summary": "Thousands of Blogger website owners woke up this week to a jarring surprise: their perfectly legitimate blogs had been locked and slapped with a &#8220;Malware and Similar Malicious Content&#8221; vio",
         "cve": []
     },
     {
-        "title": "New OVSwrap Linux Vulnerability Lets Attackers Gain Root Access",
-        "date": "Wed, 05 Aug 2026 12:33:35 +0000",
-        "url": "https://cybersecuritynews.com/ovswrap-linux-vulnerability/",
+        "title": "Hackers Turned Microsoft Logins, Zoom Events, and Government Websites Into Attack Tools",
+        "date": "Wed, 05 Aug 2026 17:18:53 +0000",
+        "url": "https://cybersecuritynews.com/hackers-turned-microsoft-logins-into-attack-tools/",
         "source": "CyberSecurityNews",
-        "summary": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-64531 and dubbed OVSwrap, allows unprivileged local users to escalate privileges to root on a wide range of popular Linux distribution",
+        "summary": "Cybercriminals spent July 2026 proving that trusted business utilities including Microsoft authentication pages, Zoom event invitations, and official government portals can be weaponized against enter",
         "cve": []
     },
     {
-        "title": "SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems",
-        "date": "Wed, 05 Aug 2026 12:33:03 +0000",
-        "url": "https://cybersecuritynews.com/smokescreen-campaign/",
+        "title": "Poison Claude is Selling Cheap AI Tokens Built on Fake Accounts and Free Credits",
+        "date": "Wed, 05 Aug 2026 16:37:31 +0000",
+        "url": "https://cybersecuritynews.com/poison-claude-selling-cheap-ai-tokens/",
         "source": "CyberSecurityNews",
-        "summary": "SMOKE#SCREEN is a campaign that turns ordinary software updates and business files into a doorway for remote control. Victims who run the files can unknowingly install a legitimate remote-management a",
+        "summary": "A shadowy online service called Poison Claude is reselling access to Anthropic&#8217;s premium AI models at a significant discount. Researchers suggest that these savings are coming from an unexpected",
         "cve": []
     },
     {
-        "title": "Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain",
-        "date": "Wed, 05 Aug 2026 09:33:26 +0000",
-        "url": "https://cybersecuritynews.com/remote-scheduled-tasks-etherrat/",
+        "title": "Microsoft Awards Record $20 Million to 562 Researchers in Biggest Bug Bounty Year",
+        "date": "Wed, 05 Aug 2026 16:19:51 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-awards-20-million-bug-bounty/",
         "source": "CyberSecurityNews",
-        "summary": "EtherRAT has surfaced in a Windows domain intrusion tied to an affiliate of the Gentlemen ransomware operation. The campaign shows how a single foothold can become a network-wide problem when attacker",
+        "summary": "Microsoft has awarded more than $20 million to 562 security researchers through its bug bounty program, marking the largest annual payout in the company’s history. Researchers from 64 countries report",
         "cve": []
     },
     {
-        "title": "7-Zip Mark-of-the-Web Bypass Lets Malicious Files Evade Windows SmartScreen",
-        "date": "Wed, 05 Aug 2026 08:30:23 +0000",
-        "url": "https://cybersecuritynews.com/7-zip-mark-of-the-web-bypass/",
+        "title": "New Research: The Confidence Gap Between CISOs and Their Boards Is Real, and It’s Measurable",
+        "date": "Wed, 05 Aug 2026 15:14:12 +0000",
+        "url": "https://cybersecuritynews.com/ciso-board-confidence-gap-research/",
         "source": "CyberSecurityNews",
-        "summary": "Windows can protect users before a suspicious download runs. But a newly documented 7-Zip behavior can remove an important warning layer and allow a malicious program to start without a Windows SmartS",
+        "summary": "Las Vegas, United States, August 5th, 2026, CyberNewswire Pulse Security AI calls for boards and security leaders to define cyber risk appetite in new report: The CISO-Board Communication Gap Boards o",
         "cve": []
     },
     {
-        "title": "Microsoft Defender Stops QNET Ransomware Attack in 128 Seconds With Automatic Device Isolation",
-        "date": "Wed, 05 Aug 2026 07:34:01 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-defender-stops-qnet-ransomware-attack/",
+        "title": "Uppsala Security Becomes First Blockchain Intelligence Company to Join Cyber Threat Alliance",
+        "date": "Wed, 05 Aug 2026 14:52:42 +0000",
+        "url": "https://cybersecuritynews.com/uppsala-security-joins-cyber-threat-alliance/",
         "source": "CyberSecurityNews",
-        "summary": "Ransomware can turn one careless click into a business-wide emergency. An incident at QNET shows how quickly that risk can grow when attackers use trusted Windows tools to launch a second stage of an ",
+        "summary": "SIngapore, Singapore, August 5th, 2026, CyberNewswire Uppsala Security, a Singapore-based blockchain intelligence and crypto forensics company, announced today that it has joined the Cyber Threat Alli",
         "cve": []
     },
     {
-        "title": "Multiple Veeam ONE Vulnerabilities Allow Code Execution Attacks",
-        "date": "Wed, 05 Aug 2026 07:10:05 +0000",
-        "url": "https://cybersecuritynews.com/multiple-veeam-one-vulnerabilities/",
+        "title": "Greatness PhaaS Bypasses Email Security and MFA to Hijack Microsoft 365 Accounts",
+        "date": "Wed, 05 Aug 2026 14:51:03 +0000",
+        "url": "https://cybersecuritynews.com/greatness-phaas/",
         "source": "CyberSecurityNews",
-        "summary": "Veeam has released security updates for Veeam ONE 13.1 to fix multiple vulnerabilities that could allow attackers to execute code, access sensitive files, steal database data, and escalate privileges.",
+        "summary": "Greatness has emerged as a phishing-as-a-service platform designed to steal Microsoft 365 access at a time when many organizations assume multi-factor authentication will stop account takeovers. Rathe",
         "cve": []
     },
     {
-        "title": "Botnet Is Hunting Router Ping Tools That Can Turn User Input Into Shell Commands",
-        "date": "Wed, 05 Aug 2026 06:31:30 +0000",
-        "url": "https://cybersecuritynews.com/botnet-is-hunting-router-ping-tools/",
+        "title": "77 Evil Twin Open VSX Extensions Exfiltrate Private Git Repository and CI Data",
+        "date": "Wed, 05 Aug 2026 14:05:55 +0000",
+        "url": "https://cybersecuritynews.com/77-evil-twin-open-vsx-extensions/",
         "source": "CyberSecurityNews",
-        "summary": "A botnet campaign is probing routers for weak spots in diagnostic features. The activity focuses on web paths linked to ping, traceroute and troubleshooting tools, where a poorly handled hostname or p",
+        "summary": "A wave of counterfeit Open VSX extensions has exposed how easily a familiar developer tool can become a data collection channel. Seventy-seven packages copied the names, namespaces, and descriptions o",
         "cve": []
     },
     {
-        "title": "CISA Warns of Apache Tomcat Encryption Vulnerability Actively Exploited in Attacks",
-        "date": "Wed, 05 Aug 2026 05:28:59 +0000",
-        "url": "https://cybersecuritynews.com/apache-tomcat-encryption-vulnerability/",
+        "title": "15 TP-Link Omada ZTP Flaws Enable Router Hijacking and Root Code Execution",
+        "date": "Wed, 05 Aug 2026 13:59:59 +0000",
+        "url": "https://cybersecuritynews.com/tp-link-omada-ztp-flaws/",
         "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity Apache Tomcat flaw, tracked as CVE-2026-34486, to its Known Exploited Vulnerabilities catalog. The agency sai",
+        "summary": "A set of 15 vulnerabilities in TP-Link&#8217;s Omada Zero-Touch Provisioning (ZTP) could enable attacks against enterprise networks, with the findings set to be presented at Black Hat USA 2026. TP-Lin",
         "cve": []
     },
     {
-        "title": "Mythos 5 and GPT-5.6-Sol Agents Went Beyond Their Cyber Test and Targeted the Real World",
-        "date": "Wed, 05 Aug 2026 03:59:19 +0000",
-        "url": "https://cybersecuritynews.com/mythos-5-and-gpt-5-6-sol-security-incident/",
+        "title": "Three PhaaS Kits Targeting US Organizations to Steal M65 Logins by Bypassing MFA",
+        "date": "Wed, 05 Aug 2026 13:35:54 +0000",
+        "url": "https://cybersecuritynews.com/phaas-kits-targeting-us-organizations/",
         "source": "CyberSecurityNews",
-        "summary": "The UK&#8217;s AI Security Institute (AISI) has disclosed a serious security incident in which AI agents under evaluation broke out of their intended test scope and took unsanctioned action against re",
+        "summary": "Three distinct Phishing-as-a-Service (PhaaS) platforms, Sneaky 2FA, EvilTokens, and EvilProxy, are actively targeting US organizations to steal Microsoft 365 (M365) credentials and session tokens, eff",
         "cve": []
     },
     {
@@ -320,6 +320,54 @@
         "cve": []
     },
     {
+        "title": "New Research: The Confidence Gap Between CISOs and Their Boards Is Real, and It’s Measurable",
+        "date": "Wed, 05 Aug 2026 15:21:41 +0000",
+        "url": "https://gbhackers.com/ciso-board-confidence-gap-research/",
+        "source": "GBHackers",
+        "summary": "Las Vegas, United States, August 5th, 2026, CyberNewswire Pulse Security AI calls for boards and security leaders to define cyber risk appetite in new report: The CISO-Board Communication Gap Boards o",
+        "cve": []
+    },
+    {
+        "title": "Uppsala Security Becomes First Blockchain Intelligence Company to Join Cyber Threat Alliance",
+        "date": "Wed, 05 Aug 2026 15:05:20 +0000",
+        "url": "https://gbhackers.com/uppsala-security-joins-cyber-threat-alliance/",
+        "source": "GBHackers",
+        "summary": "SIngapore, Singapore, August 5th, 2026, CyberNewswire Uppsala Security, a Singapore-based blockchain intelligence and crypto forensics company, announced today that it has joined the Cyber Threat Alli",
+        "cve": []
+    },
+    {
+        "title": "Four Million Malware Reports Reveal a Widespread No-DNS C2 Blind Spot",
+        "date": "Wed, 05 Aug 2026 14:23:13 +0000",
+        "url": "https://gbhackers.com/widespread-no-dns-c2-blind-spot/",
+        "source": "GBHackers",
+        "summary": "A long‑running supply chain compromise of the QuickFox VPN accelerator that quietly delivered an FDMTP backdoor to carefully profiled Windows systems, exposing a major blind spot in defenders’ visibil",
+        "cve": []
+    },
+    {
+        "title": "Stolen Greatness Tokens Provide Microsoft 365 Access More Than Two Weeks After Phishing",
+        "date": "Wed, 05 Aug 2026 14:06:19 +0000",
+        "url": "https://gbhackers.com/stolen-greatness-authentication-tokens/",
+        "source": "GBHackers",
+        "summary": "Stolen Greatness authentication tokens are providing sustained, MFA‑approved access to victim Microsoft 365 tenants for more than two weeks after the initial phish, underscoring that token replay – no",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Paid Record $20 Million in Bug Bounties to 562 Security Researchers Worldwide",
+        "date": "Wed, 05 Aug 2026 13:45:55 +0000",
+        "url": "https://gbhackers.com/microsoft-paid-record-20-million-in-bug-bounties/",
+        "source": "GBHackers",
+        "summary": "Microsoft&#8217;s Bug Bounty Program awarded over $20 million to 562 security researchers this year, marking the highest total payout and the largest number of recognized researchers in the program&#8",
+        "cve": []
+    },
+    {
+        "title": "OVSwrap Open vSwitch Flaw Lets Unprivileged Linux Users Gain Root Access",
+        "date": "Wed, 05 Aug 2026 13:29:31 +0000",
+        "url": "https://gbhackers.com/ovswrap-open-vswitch-flaw/",
+        "source": "GBHackers",
+        "summary": "A recently disclosed Linux local privilege-escalation vulnerability, tracked as CVE-2026-64531 and referred to as OVSwrap, affects the kernel&#8217;s Open vSwitch (OVS) implementation. This vulnerabil",
+        "cve": []
+    },
+    {
         "title": "15 TP-Link Omada Flaws Exploit Zero-Touch Provisioning to Hijack Devices and Infiltrate Networks",
         "date": "Wed, 05 Aug 2026 10:47:15 +0000",
         "url": "https://gbhackers.com/15-tp-link-omada-flaws-exploit-zero-touch-provisioning/",
@@ -349,54 +397,6 @@
         "url": "https://gbhackers.com/critical-veeam-one-flaw/",
         "source": "GBHackers",
         "summary": "Veeam has issued security updates to address multiple vulnerabilities in Veeam ONE, including a critical flaw that could enable an unauthenticated remote attacker to execute arbitrary code on an affec",
-        "cve": []
-    },
-    {
-        "title": "Ransomware Hackers Are Hiding Malware Command Servers Inside Ethereum Smart Contracts",
-        "date": "Wed, 05 Aug 2026 07:51:07 +0000",
-        "url": "https://gbhackers.com/ethereum-smart-contracts/",
-        "source": "GBHackers",
-        "summary": "Ransomware operators are now abusing Ethereum smart contracts as stealthy command‑and‑control resolvers, with a Gentlemen ransomware affiliate using the EtherRAT backdoor to pull rotating C2 domains d",
-        "cve": []
-    },
-    {
-        "title": "Django Flaws Let Attackers Trigger RCE, SSRF, DoS, and XSS Attacks",
-        "date": "Wed, 05 Aug 2026 06:38:51 +0000",
-        "url": "https://gbhackers.com/django-flaws/",
-        "source": "GBHackers",
-        "summary": "The Django project has released security updates, specifically Django 6.0.8 and Django 5.2.17, to address four vulnerabilities that could lead to server-side request forgery (SSRF), arbitrary file wri",
-        "cve": []
-    },
-    {
-        "title": "7-Zip Default Setting Lets Extracted Files Bypass Windows SmartScreen",
-        "date": "Wed, 05 Aug 2026 06:38:04 +0000",
-        "url": "https://gbhackers.com/7-zip-default-setting/",
-        "source": "GBHackers",
-        "summary": "7-Zip’s default configuration allows files extracted from internet-delivered archives to shed the Mark of the Web (MotW), meaning Windows SmartScreen never runs its reputation check and unsigned paylo",
-        "cve": []
-    },
-    {
-        "title": "Mythos 5 and GPT-5.6-Sol AI Agents Broke Cyber Test Boundaries and Targeted Real Users",
-        "date": "Wed, 05 Aug 2026 06:06:49 +0000",
-        "url": "https://gbhackers.com/mythos-5-and-gpt-5-6-sol-ai-agents-broke-cyber-test-boundaries/",
-        "source": "GBHackers",
-        "summary": "The UK AI Security Institute (AISI) has reported a serious incident involving autonomous AI agents that were conducting cybersecurity evaluations. These agents crossed their intended test boundaries a",
-        "cve": []
-    },
-    {
-        "title": "Ransomware Attack Abuses Legitimate Windows Tool to Evade Traditional Containment",
-        "date": "Wed, 05 Aug 2026 05:42:29 +0000",
-        "url": "https://gbhackers.com/ransomware-abuses-windows-tool/",
-        "source": "GBHackers",
-        "summary": "Microsoft Defender’s new automatic device isolation capability has emerged as a decisive control against modern ransomware intrusions that abuse legitimate Windows binaries, as demonstrated in a recen",
-        "cve": []
-    },
-    {
-        "title": "Botnet Scans Router Diagnostic Tools for OS Command Injection Vulnerabilities",
-        "date": "Wed, 05 Aug 2026 05:15:28 +0000",
-        "url": "https://gbhackers.com/botnet-scans-router-diagnostic-tools/",
-        "source": "GBHackers",
-        "summary": "Botnet operators are systematically probing router diagnostic interfaces for OS command injection flaws, chaining default credentials, legacy CGI endpoints, and weak command execution patterns to gain",
         "cve": []
     }
 ]
