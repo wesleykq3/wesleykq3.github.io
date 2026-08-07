@@ -80,6 +80,70 @@
         "cve": []
     },
     {
+        "title": "Growing Up The Hard Way",
+        "date": "Fri, 07 Aug 2026 17:25:26 +0530",
+        "url": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
+        "source": "The Hacker News",
+        "summary": "Open Source had a great childhood.\n\nFor two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind ",
+        "cve": []
+    },
+    {
+        "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+        "date": "Fri, 07 Aug 2026 16:40:33 +0530",
+        "url": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+        "source": "The Hacker News",
+        "summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.\n\nThe flaw ",
+        "cve": []
+    },
+    {
+        "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+        "date": "Fri, 07 Aug 2026 16:28:38 +0530",
+        "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+        "source": "The Hacker News",
+        "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS",
+        "cve": []
+    },
+    {
+        "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
+        "date": "Fri, 07 Aug 2026 16:08:27 +0530",
+        "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 account",
+        "cve": []
+    },
+    {
+        "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+        "date": "Fri, 07 Aug 2026 15:39:54 +0530",
+        "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+        "source": "The Hacker News",
+        "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 cand",
+        "cve": []
+    },
+    {
+        "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+        "date": "Fri, 07 Aug 2026 14:22:11 +0530",
+        "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+        "source": "The Hacker News",
+        "summary": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft ",
+        "cve": []
+    },
+    {
+        "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+        "date": "Fri, 07 Aug 2026 13:48:35 +0530",
+        "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+        "source": "The Hacker News",
+        "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough",
+        "cve": []
+    },
+    {
+        "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+        "date": "Fri, 07 Aug 2026 12:20:05 +0530",
+        "url": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+        "source": "The Hacker News",
+        "summary": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastruc",
+        "cve": []
+    },
+    {
         "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
         "date": "Thu, 06 Aug 2026 23:28:30 +0530",
         "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
@@ -88,7 +152,7 @@
         "cve": []
     },
     {
-        "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+        "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
         "date": "Thu, 06 Aug 2026 22:43:15 +0530",
         "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
         "source": "The Hacker News",
@@ -96,147 +160,83 @@
         "cve": []
     },
     {
-        "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-        "date": "Thu, 06 Aug 2026 21:47:13 +0530",
-        "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-        "source": "The Hacker News",
-        "summary": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense",
-        "cve": []
-    },
-    {
-        "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-        "date": "Thu, 06 Aug 2026 20:54:31 +0530",
-        "url": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-        "source": "The Hacker News",
-        "summary": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job.\n\nThis week runs on cheap leverage",
-        "cve": []
-    },
-    {
-        "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-        "date": "Thu, 06 Aug 2026 17:46:58 +0530",
-        "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-        "source": "The Hacker News",
-        "summary": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.\n",
-        "cve": []
-    },
-    {
-        "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
-        "date": "Thu, 06 Aug 2026 17:19:48 +0530",
-        "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-        "source": "The Hacker News",
-        "summary": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains.\n\nIntroduced in the JavaScript cryptography library 12 years ago, the fu",
-        "cve": []
-    },
-    {
-        "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-        "date": "Thu, 06 Aug 2026 17:03:08 +0530",
-        "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address.\n\nIntroduced with iOS 15, iCloud Private Relay employs a dual-",
-        "cve": []
-    },
-    {
-        "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-        "date": "Thu, 06 Aug 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-        "source": "The Hacker News",
-        "summary": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every ma",
-        "cve": []
-    },
-    {
-        "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-        "date": "Thu, 06 Aug 2026 14:49:23 +0530",
-        "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-        "source": "The Hacker News",
-        "summary": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk",
-        "cve": []
-    },
-    {
-        "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-        "date": "Thu, 06 Aug 2026 14:27:30 +0530",
-        "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-        "source": "The Hacker News",
-        "summary": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized the",
-        "cve": []
-    },
-    {
-        "title": "SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools",
-        "date": "Thu, 06 Aug 2026 18:52:20 +0000",
-        "url": "https://cybersecuritynews.com/silverfox-hijacks-trusted-software/",
+        "title": "Fake PDFs and Chat Apps Let Patchwork Spy on PCs and Android Phones",
+        "date": "Fri, 07 Aug 2026 11:42:21 +0000",
+        "url": "https://cybersecuritynews.com/fake-pdfs-chat-apps-let-patchwork-spy/",
         "source": "CyberSecurityNews",
-        "summary": "SilverFox has expanded its malware toolkit in a campaign that targeted a Japanese industrial manufacturer. The attackers used a fake invoice email to lure a recipient into downloading a ZIP archive ho",
+        "summary": "Patchwork, also known as Dropping Elephant, is using fake documents and chat applications to spy on computer and phone users. The long-running espionage group has built separate attack paths for Windo",
         "cve": []
     },
     {
-        "title": "4,400+ Internet-Exposed Rockwell PLCs Expose Water Systems to Cyberattacks",
-        "date": "Thu, 06 Aug 2026 17:02:28 +0000",
-        "url": "https://cybersecuritynews.com/internet-exposed-rockwell-plcs/",
+        "title": "ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials",
+        "date": "Fri, 07 Aug 2026 11:07:15 +0000",
+        "url": "https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages/",
         "source": "CyberSecurityNews",
-        "summary": "A wave of cyberattacks against U.S. water and wastewater utilities has renewed alarm over how many industrial controllers remain directly reachable from the public internet. New research from Forescou",
+        "summary": "ChainDrop has turned routine software installs into a route for credential theft. The self-propagating worm infected more than 400 npm packages, putting developer laptops, build systems and cloud envi",
         "cve": []
     },
     {
-        "title": "Vanta Stealer Empties Browser Vaults, Crypto Wallets and Gaming Accounts in Minutes",
-        "date": "Thu, 06 Aug 2026 16:53:08 +0000",
-        "url": "https://cybersecuritynews.com/vanta-stealer-empties-browser-vaults/",
+        "title": "UNC6671 Automates Microsoft 365 Data Theft After Hijacking Employee Sessions",
+        "date": "Fri, 07 Aug 2026 09:19:50 +0000",
+        "url": "https://cybersecuritynews.com/unc6671-automates-microsoft-365/",
         "source": "CyberSecurityNews",
-        "summary": "Vanta Stealer is a newly analyzed information-stealing malware built to strip valuable data from an infected computer quickly. It reaches far beyond saved browser passwords, pulling cookies, payment d",
+        "summary": "UNC6671 is carrying out data theft campaigns that begin with a phone call. The group poses as an IT helpdesk, claiming an urgent security migration is necessary. A convincing call and a fake sign-in p",
         "cve": []
     },
     {
-        "title": "Critical Flaws in Anthropic, Google, and OpenAI’s Coding Agents Enable RCE and Supply Chain Attacks",
-        "date": "Thu, 06 Aug 2026 16:06:20 +0000",
-        "url": "https://cybersecuritynews.com/critical-flaws-in-ai-coding-agents/",
+        "title": "Papyrus Mobile Ad Fraud Uses Hidden WebViews to Fake Clicks, Scrolls and Attention",
+        "date": "Fri, 07 Aug 2026 08:46:26 +0000",
+        "url": "https://cybersecuritynews.com/papyrus-mobile-ad-fraud/",
         "source": "CyberSecurityNews",
-        "summary": "A repeatable vulnerability pattern across AI coding agents from Anthropic, Google, and OpenAI that allows attackers to achieve remote code execution, steal API credentials, and compromise software sup",
+        "summary": "Papyrus is a mobile ad fraud operation hiding behind apps built for reading serialized fiction. While people turn pages and follow stories, the apps can quietly open websites in the background and cre",
         "cve": []
     },
     {
-        "title": "Hackers Can Leverage WSUS Servers to Deliver Malware and Compromise Enterprise Endpoints",
-        "date": "Thu, 06 Aug 2026 15:43:54 +0000",
-        "url": "https://cybersecuritynews.com/wsus-servers-leveraged-to-deliver-malware/",
+        "title": "Multiple Flaws in Enterprise Java Platforms Allow Attackers to Execute Remote Code",
+        "date": "Fri, 07 Aug 2026 07:45:57 +0000",
+        "url": "https://cybersecuritynews.com/multiple-vulnerabilities-in-enterprise-java-platforms/",
         "source": "CyberSecurityNews",
-        "summary": "A novel attack chain that allows adversaries to hijack Windows Server Update Services (WSUS), the trusted patch-management architecture widely deployed across enterprise environments. The research, pu",
+        "summary": "Enterprise Java platforms remain attractive targets because middleware often exposes paths developers assumed were internal. New research presented for Black Hat 2026 describes 12 flaws across product",
         "cve": []
     },
     {
-        "title": "Top 10 Best Intrusion Detection & Prevention (IDS/IPS) Tools in 2026",
-        "date": "Thu, 06 Aug 2026 15:42:19 +0000",
-        "url": "https://cybersecuritynews.com/best-ids-ips-tools/",
+        "title": "Shai-Hulud CHAINDROP Worm Backdoors 400+ npm Packages With 1.3 Billion Monthly Downloads",
+        "date": "Fri, 07 Aug 2026 07:26:08 +0000",
+        "url": "https://cybersecuritynews.com/shai-hulud-chaindrop-worm-backdoors/",
         "source": "CyberSecurityNews",
-        "summary": "An IDS detects malicious activity and alerts; an IPS sits inline and blocks it. Cisco Secure IPS is our top pick for 2026 on the strength of Snort 3 and Talos threat intelligence, with Palo Alto Netwo",
+        "summary": "Shai-Hulud is back in the npm ecosystem, and this time its reach is unusually broad. A new self-propagating malware strain called CHAINDROP has backdoored more than 400 packages after attackers compro",
         "cve": []
     },
     {
-        "title": "Top 10 Best Firewall Management Tools in 2026",
-        "date": "Thu, 06 Aug 2026 15:40:23 +0000",
-        "url": "https://cybersecuritynews.com/firewall-management-tools/",
+        "title": "Kimi K3 AI Model Escapes Sandbox During Security Test to Fetch Answers",
+        "date": "Fri, 07 Aug 2026 07:24:57 +0000",
+        "url": "https://cybersecuritynews.com/kimi-k3-ai-model-escapes-sandbox/",
         "source": "CyberSecurityNews",
-        "summary": "Most firewall breaches aren’t firewall failures they’re rule failures: shadowed policies, forgotten any-any entries, changes nobody risk-checked. Firewall management tools centralize policy visibility",
+        "summary": "Moonshot AI&#8217;s open-weight model Kimi K3 broke out of its isolated testing sandbox during a cybersecurity evaluation and reached the open internet, according to a new report from Wired. The incid",
         "cve": []
     },
     {
-        "title": "Critical Paperclip Vulnerabilities Allow Attackers to Gain Admin Access",
-        "date": "Thu, 06 Aug 2026 15:27:48 +0000",
-        "url": "https://cybersecuritynews.com/paperclip-vulnerabilities/",
+        "title": "Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models",
+        "date": "Fri, 07 Aug 2026 06:38:52 +0000",
+        "url": "https://cybersecuritynews.com/zbtlink-chinese-router/",
         "source": "CyberSecurityNews",
-        "summary": "Critical vulnerabilities have been disclosed in Paperclip, an AI agent orchestration platform, that could allow attackers to gain administrative access and execute commands on affected servers. The mo",
+        "summary": "Zbtlink routers sold in global markets have been found carrying a hidden remote-control implant that starts with the device. The discovery affects equipment used in homes, offices, temporary sites and",
         "cve": []
     },
     {
-        "title": "One Fake Movie Download Can Expose Passwords, Payments and Crypto Assets",
-        "date": "Thu, 06 Aug 2026 14:19:36 +0000",
-        "url": "https://cybersecuritynews.com/fake-movie-download-steal-passwords/",
+        "title": "Top 10 Best Protective DNS (PDNS) Services in 2026",
+        "date": "Fri, 07 Aug 2026 03:51:21 +0000",
+        "url": "https://cybersecuritynews.com/bst-protective-dns-services/",
         "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are weaponizing pirated downloads of the blockbuster theatrical release &#8220;The Odyssey (2026)&#8221; to deliver Lumma Stealer. This prolific information-stealing malware quietly str",
+        "summary": "Protective DNS went from best practice to expectation: NSA and CISA jointly recommend it, national programs run it at population scale, and it remains the highest-leverage, lowest-friction control mos",
         "cve": []
     },
     {
-        "title": "Hackers Hid a Remote-Control Toolkit Inside Oracle to Take Over a Windows Server",
-        "date": "Thu, 06 Aug 2026 13:16:33 +0000",
-        "url": "https://cybersecuritynews.com/hackers-hid-a-remote-control-toolkit/",
+        "title": "Anthropic Updates Claude Fable 5’s Biology Safeguards to Reduce False Positives",
+        "date": "Fri, 07 Aug 2026 03:51:17 +0000",
+        "url": "https://cybersecuritynews.com/claude-fable-5s-biology-safeguards-update/",
         "source": "CyberSecurityNews",
-        "summary": "A routine web application weakness has been tied to a serious Windows Server compromise after attackers used SQL injection to plant a remote-control toolkit inside an Oracle database. The incident sho",
+        "summary": "Anthropic has rolled out a major update to Claude Fable 5&#8217;s biology safety classifiers, cutting biology-related &#8220;fallbacks&#8221; by roughly 85% across its product surfaces. The change mea",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "The Best Firewall Management Tools, Compared and Priced (2026)",
-        "date": "Thu, 06 Aug 2026 15:35:26 +0000",
-        "url": "https://gbhackers.com/firewall-management-tools-compared-pricing/",
+        "title": "New NatJack NAT Attack Lets Hackers Hijack TCP Connections and DNS Responses",
+        "date": "Fri, 07 Aug 2026 11:04:13 +0000",
+        "url": "https://gbhackers.com/new-natjack-nat-attack/",
         "source": "GBHackers",
-        "summary": "The firewall policy management market had its earthquake: Skybox Security shut down overnight in February 2025, selling its technology to Tufin and leaving customers to migrate a reminder that in this",
+        "summary": "A newly disclosed attack class, NatJack, reveals significant weaknesses in the implementation of Network Address Translation (NAT) across modern network infrastructures. This vulnerability allows atta",
         "cve": []
     },
     {
-        "title": "The 12 Best Protective DNS (PDNS) Services, Compared and Priced (2026)",
-        "date": "Thu, 06 Aug 2026 15:34:03 +0000",
-        "url": "https://gbhackers.com/protective-dns-services-compared-pricing/",
+        "title": "Google Chrome 151 Update Fixes 41 Security Vulnerabilities, Including 6 Critical Flaws",
+        "date": "Fri, 07 Aug 2026 10:53:32 +0000",
+        "url": "https://gbhackers.com/google-chrome-151-update-fixes-41-security-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "Protective DNS is the rare control where the cheap options are genuinely good so this comparison leads with value. The verdict: DNSFilter is the best published-price PDNS for most organizations, Cloud",
+        "summary": "Google has released Chrome version 151.0.7922.108/.109 for Windows and macOS, and version 151.0.7922.108 for Linux. This update delivers 41 security fixes across various components of the browser, inc",
         "cve": []
     },
     {
-        "title": "Critical Paperclip AI Agent Flaws Allow Unauthenticated Remote Code Execution",
-        "date": "Thu, 06 Aug 2026 13:21:32 +0000",
-        "url": "https://gbhackers.com/critical-paperclip-ai-agent-flaws/",
+        "title": "Claude Code RCE Flaw Lets Malicious Pull Requests Execute Code on Developer Systems",
+        "date": "Fri, 07 Aug 2026 10:08:03 +0000",
+        "url": "https://gbhackers.com/claude-code-rce-flaw/",
         "source": "GBHackers",
-        "summary": "Critical vulnerabilities in the open-source Paperclip AI-agent orchestration platform could allow attackers to execute commands remotely on exposed servers or on a developer’s local machine. These fla",
+        "summary": "A malicious pull request has the potential to turn Claude Code’s project-scoped Model Context Protocol (MCP) configuration into a trigger for code execution, which could expose developer secrets befor",
         "cve": []
     },
     {
-        "title": "Fake Xeno Roblox Executor Delivers Powercat Java Stealer Through Discord",
-        "date": "Thu, 06 Aug 2026 13:15:51 +0000",
-        "url": "https://gbhackers.com/powercat-java-stealer/",
+        "title": "Enterprise Java Vulnerabilities Enable Pre-Auth RCE in Bonita BPM and Apache OFBiz",
+        "date": "Fri, 07 Aug 2026 08:54:06 +0000",
+        "url": "https://gbhackers.com/enterprise-java-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "The fake “undetected” Xeno Roblox executor currently circulating on gaming forums and Discord is a weaponized loader for the Powercat Java stealer, a multi‑stage RAT and infostealer that targets Disco",
+        "summary": "Security research presented at Black Hat 2026 has identified 12 vulnerabilities across four enterprise Java platforms, including two critical pre-authentication remote code execution (RCE) chains affe",
         "cve": []
     },
     {
-        "title": "Cloudflare Launches Open-Source OS to Secure AI Agents’ Access to Internal Data",
-        "date": "Thu, 06 Aug 2026 12:31:20 +0000",
-        "url": "https://gbhackers.com/cloudflare-launches-open-source-os-to-secure-ai-agents/",
+        "title": "What Is Cyber Security Risk Assessment? A Complete Guide (2026)",
+        "date": "Fri, 07 Aug 2026 07:54:53 +0000",
+        "url": "https://gbhackers.com/what-is-a-cybersecurity-risk-assessment/",
         "source": "GBHackers",
-        "summary": "Cloudflare has open-sourced Cloudflare OS, a platform designed to provide enterprise AI agents with controlled access to internal systems, company context, and workflows without exposing long-lived cr",
+        "summary": "A cyber security risk assessment is a structured process for identifying, analyzing, and prioritizing the risks to an organization’s information systems, data, and operations. It works by pairing each",
         "cve": []
     },
     {
-        "title": "Vanta Stealer Uses PyArmor to Steal Browser Passwords, Crypto Wallets and Discord Tokens",
-        "date": "Thu, 06 Aug 2026 12:01:32 +0000",
-        "url": "https://gbhackers.com/vanta-stealer-uses-pyarmor/",
+        "title": "Claude in Chrome Exploit Lets Attackers Steal Gmail Codes and Take Over Slack, X, and Claude.ai Accounts",
+        "date": "Fri, 07 Aug 2026 07:43:23 +0000",
+        "url": "https://gbhackers.com/claude-in-chrome-exploit/",
         "source": "GBHackers",
-        "summary": "Vanta Stealer is a Python‑based, cross‑platform information stealer that uses layered PyArmor obfuscation on top of a PyInstaller‑packed executable to harvest browser passwords, crypto wallet data, Di",
+        "summary": "Security researchers have demonstrated an indirect prompt-injection chain affecting Claude in Chrome that can transform a standard request, such as summarizing recent emails, into a cross-account take",
         "cve": []
     },
     {
-        "title": "KHunt Toolkit Turns Oracle SQL Injection Into SYSTEM-Level RCE and Credential Theft",
-        "date": "Thu, 06 Aug 2026 11:35:36 +0000",
-        "url": "https://gbhackers.com/khunt-exposes-credentials/",
+        "title": "1000 Best Google Dorks List (Google Hacking Guide) – 2026",
+        "date": "Fri, 07 Aug 2026 05:29:33 +0000",
+        "url": "https://gbhackers.com/latest-google-dorks-list/",
         "source": "GBHackers",
-        "summary": "KHunt shows how a “routine” SQL injection against an Oracle‑backed web app can be weaponized into SYSTEM‑level remote code execution and credential theft by compiling a full post‑exploitation toolkit ",
+        "summary": "A Google dork is an advanced search query that combines Google’s search operators (such as site:, intitle:, inurl:, and filetype:) to surface information that is publicly indexed but hard to find thro",
         "cve": []
     },
     {
-        "title": "Meta Confirms AI Model Launched Autonomous Attack on Another Organization",
-        "date": "Thu, 06 Aug 2026 11:29:10 +0000",
-        "url": "https://gbhackers.com/ai-agents-hack-four-online-services/",
+        "title": "Hackers Can Abuse Microsoft WSUS Servers to Deploy Malicious Updates via NTLM Relay",
+        "date": "Fri, 07 Aug 2026 05:25:53 +0000",
+        "url": "https://gbhackers.com/hackers-can-abuse-microsoft-wsus-servers/",
         "source": "GBHackers",
-        "summary": "Meta has become the latest technology company to disclose that an AI agent accessed another organization’s online systems during a controlled cybersecurity evaluation. This development has intensified",
+        "summary": "Security researchers have shown how attackers could exploit Microsoft Windows Server Update Services (WSUS) infrastructure to distribute malicious software updates across enterprise networks. This tec",
         "cve": []
     },
     {
-        "title": "Critical Jenkins Deserialization Flaw Allows Attackers to Execute Code on Controllers",
-        "date": "Thu, 06 Aug 2026 11:12:56 +0000",
-        "url": "https://gbhackers.com/critical-jenkins-deserialization-flaw/",
+        "title": "Critical Flaws in Claude Code, Gemini CLI, and OpenAI Codex Enable RCE and Supply Chain Attacks",
+        "date": "Fri, 07 Aug 2026 05:16:54 +0000",
+        "url": "https://gbhackers.com/critical-flaws-in-claude-code-gemini-cli-and-openai-codex/",
         "source": "GBHackers",
-        "summary": "A critical vulnerability in Jenkins, tracked as CVE-2026-70426, may allow attackers to execute arbitrary code on Jenkins controllers by bypassing deserialization protections within the platform’s Remo",
+        "summary": "Security researchers have disclosed a vulnerability affecting AI coding-agent workflows from Anthropic, Google, and OpenAI. Their research highlights how an attacker-controlled issue or zero-privilege",
         "cve": []
     },
     {
-        "title": "PoC Released for Linux Kernel STP Use-After-Free Vulnerability",
-        "date": "Thu, 06 Aug 2026 11:00:04 +0000",
-        "url": "https://gbhackers.com/poc-released-for-linux-kernel-stp/",
+        "title": "Hackers Target Internet-Exposed Rockwell PLCs in U.S. Water Systems",
+        "date": "Fri, 07 Aug 2026 05:07:35 +0000",
+        "url": "https://gbhackers.com/hackers-target-internet-exposed-rockwell-plcs/",
         "source": "GBHackers",
-        "summary": "A proof-of-concept (PoC) has been released for a use-after-free vulnerability affecting the Linux kernel&#8217;s software bridge implementation found in `net/bridge`. This vulnerability occurs within ",
+        "summary": "A coordinated cyber campaign targeting internet-facing programmable logic controllers (PLCs) has disrupted water and wastewater operations across the United States, raising concerns about the vulnerab",
         "cve": []
     }
 ]
