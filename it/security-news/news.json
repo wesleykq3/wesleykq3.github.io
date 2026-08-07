@@ -1,5 +1,61 @@
 [
     {
+        "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
+        "date": "Thu, 06 Aug 2026 18:48:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
+        "cve": []
+    },
+    {
+        "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+        "date": "Thu, 06 Aug 2026 18:37:17 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+        "source": "BleepingComputer",
+        "summary": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+        "date": "Thu, 06 Aug 2026 16:07:24 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+        "source": "BleepingComputer",
+        "summary": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile thr",
+        "cve": []
+    },
+    {
+        "title": "Swiss government SharePoint breach compromised 200 accounts",
+        "date": "Thu, 06 Aug 2026 14:14:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+        "source": "BleepingComputer",
+        "summary": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
+        "cve": []
+    },
+    {
+        "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
+        "date": "Thu, 06 Aug 2026 14:03:45 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
+        "source": "BleepingComputer",
+        "summary": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
+        "cve": []
+    },
+    {
+        "title": "Meta AI model hacked a company during misconfigured cyber test",
+        "date": "Thu, 06 Aug 2026 12:11:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
+        "source": "BleepingComputer",
+        "summary": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's init",
+        "cve": []
+    },
+    {
+        "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
+        "date": "Thu, 06 Aug 2026 10:02:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
+        "source": "BleepingComputer",
+        "summary": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governi",
+        "cve": []
+    },
+    {
         "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
         "date": "Wed, 05 Aug 2026 19:00:50 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
@@ -24,59 +80,35 @@
         "cve": []
     },
     {
-        "title": "COLDCARD security audit phishing attack installs remote access tool",
-        "date": "Wed, 05 Aug 2026 13:49:41 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-        "source": "BleepingComputer",
-        "summary": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote a",
+        "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+        "date": "Thu, 06 Aug 2026 23:28:30 +0530",
+        "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+        "source": "The Hacker News",
+        "summary": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applie",
         "cve": []
     },
     {
-        "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-        "date": "Wed, 05 Aug 2026 11:51:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
+        "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+        "date": "Thu, 06 Aug 2026 22:43:15 +0530",
+        "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+        "source": "The Hacker News",
+        "summary": "Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review.\n\nThe security issu",
         "cve": []
     },
     {
-        "title": "Google Blogger locks hundreds of blogs in malware false positive",
-        "date": "Wed, 05 Aug 2026 10:59:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
-        "source": "BleepingComputer",
-        "summary": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]",
+        "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+        "date": "Thu, 06 Aug 2026 21:47:13 +0530",
+        "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+        "source": "The Hacker News",
+        "summary": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense",
         "cve": []
     },
     {
-        "title": "How AI-powered phishing killed blocklists for good",
-        "date": "Wed, 05 Aug 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-        "source": "BleepingComputer",
-        "summary": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based dete",
-        "cve": []
-    },
-    {
-        "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
-        "date": "Tue, 04 Aug 2026 19:39:59 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and socia",
-        "cve": []
-    },
-    {
-        "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
-        "date": "Tue, 04 Aug 2026 18:18:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
-        "source": "BleepingComputer",
-        "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code executio",
-        "cve": []
-    },
-    {
-        "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
-        "date": "Tue, 04 Aug 2026 17:45:36 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
-        "source": "BleepingComputer",
-        "summary": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing targeting Microsoft 365 accounts. [...]",
+        "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+        "date": "Thu, 06 Aug 2026 20:54:31 +0530",
+        "url": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
+        "source": "The Hacker News",
+        "summary": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job.\n\nThis week runs on cheap leverage",
         "cve": []
     },
     {
@@ -128,37 +160,91 @@
         "cve": []
     },
     {
-        "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-        "date": "Thu, 06 Aug 2026 13:35:22 +0530",
-        "url": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.\n\nAccording to a new report from VulnCheck, the implant app",
+        "title": "SilverFox Hijacks Trusted Software and Kernel Drivers to Disable Security Tools",
+        "date": "Thu, 06 Aug 2026 18:52:20 +0000",
+        "url": "https://cybersecuritynews.com/silverfox-hijacks-trusted-software/",
+        "source": "CyberSecurityNews",
+        "summary": "SilverFox has expanded its malware toolkit in a campaign that targeted a Japanese industrial manufacturer. The attackers used a fake invoice email to lure a recipient into downloading a ZIP archive ho",
         "cve": []
     },
     {
-        "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-        "date": "Thu, 06 Aug 2026 12:49:54 +0530",
-        "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
-        "source": "The Hacker News",
-        "summary": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021.\n",
+        "title": "4,400+ Internet-Exposed Rockwell PLCs Expose Water Systems to Cyberattacks",
+        "date": "Thu, 06 Aug 2026 17:02:28 +0000",
+        "url": "https://cybersecuritynews.com/internet-exposed-rockwell-plcs/",
+        "source": "CyberSecurityNews",
+        "summary": "A wave of cyberattacks against U.S. water and wastewater utilities has renewed alarm over how many industrial controllers remain directly reachable from the public internet. New research from Forescou",
         "cve": []
     },
     {
-        "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-        "date": "Thu, 06 Aug 2026 12:21:43 +0530",
-        "url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-        "source": "The Hacker News",
-        "summary": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency",
-        "cve": [
-            "CVE-2026-63077"
-        ]
+        "title": "Vanta Stealer Empties Browser Vaults, Crypto Wallets and Gaming Accounts in Minutes",
+        "date": "Thu, 06 Aug 2026 16:53:08 +0000",
+        "url": "https://cybersecuritynews.com/vanta-stealer-empties-browser-vaults/",
+        "source": "CyberSecurityNews",
+        "summary": "Vanta Stealer is a newly analyzed information-stealing malware built to strip valuable data from an infected computer quickly. It reaches far beyond saved browser passwords, pulling cookies, payment d",
+        "cve": []
     },
     {
-        "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-        "date": "Thu, 06 Aug 2026 11:34:30 +0530",
-        "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-        "source": "The Hacker News",
-        "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer ",
+        "title": "Critical Flaws in Anthropic, Google, and OpenAI’s Coding Agents Enable RCE and Supply Chain Attacks",
+        "date": "Thu, 06 Aug 2026 16:06:20 +0000",
+        "url": "https://cybersecuritynews.com/critical-flaws-in-ai-coding-agents/",
+        "source": "CyberSecurityNews",
+        "summary": "A repeatable vulnerability pattern across AI coding agents from Anthropic, Google, and OpenAI that allows attackers to achieve remote code execution, steal API credentials, and compromise software sup",
+        "cve": []
+    },
+    {
+        "title": "Hackers Can Leverage WSUS Servers to Deliver Malware and Compromise Enterprise Endpoints",
+        "date": "Thu, 06 Aug 2026 15:43:54 +0000",
+        "url": "https://cybersecuritynews.com/wsus-servers-leveraged-to-deliver-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "A novel attack chain that allows adversaries to hijack Windows Server Update Services (WSUS), the trusted patch-management architecture widely deployed across enterprise environments. The research, pu",
+        "cve": []
+    },
+    {
+        "title": "Top 10 Best Intrusion Detection & Prevention (IDS/IPS) Tools in 2026",
+        "date": "Thu, 06 Aug 2026 15:42:19 +0000",
+        "url": "https://cybersecuritynews.com/best-ids-ips-tools/",
+        "source": "CyberSecurityNews",
+        "summary": "An IDS detects malicious activity and alerts; an IPS sits inline and blocks it. Cisco Secure IPS is our top pick for 2026 on the strength of Snort 3 and Talos threat intelligence, with Palo Alto Netwo",
+        "cve": []
+    },
+    {
+        "title": "Top 10 Best Firewall Management Tools in 2026",
+        "date": "Thu, 06 Aug 2026 15:40:23 +0000",
+        "url": "https://cybersecuritynews.com/firewall-management-tools/",
+        "source": "CyberSecurityNews",
+        "summary": "Most firewall breaches aren’t firewall failures they’re rule failures: shadowed policies, forgotten any-any entries, changes nobody risk-checked. Firewall management tools centralize policy visibility",
+        "cve": []
+    },
+    {
+        "title": "Critical Paperclip Vulnerabilities Allow Attackers to Gain Admin Access",
+        "date": "Thu, 06 Aug 2026 15:27:48 +0000",
+        "url": "https://cybersecuritynews.com/paperclip-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Critical vulnerabilities have been disclosed in Paperclip, an AI agent orchestration platform, that could allow attackers to gain administrative access and execute commands on affected servers. The mo",
+        "cve": []
+    },
+    {
+        "title": "One Fake Movie Download Can Expose Passwords, Payments and Crypto Assets",
+        "date": "Thu, 06 Aug 2026 14:19:36 +0000",
+        "url": "https://cybersecuritynews.com/fake-movie-download-steal-passwords/",
+        "source": "CyberSecurityNews",
+        "summary": "Cybercriminals are weaponizing pirated downloads of the blockbuster theatrical release &#8220;The Odyssey (2026)&#8221; to deliver Lumma Stealer. This prolific information-stealing malware quietly str",
+        "cve": []
+    },
+    {
+        "title": "Hackers Hid a Remote-Control Toolkit Inside Oracle to Take Over a Windows Server",
+        "date": "Thu, 06 Aug 2026 13:16:33 +0000",
+        "url": "https://cybersecuritynews.com/hackers-hid-a-remote-control-toolkit/",
+        "source": "CyberSecurityNews",
+        "summary": "A routine web application weakness has been tied to a serious Windows Server compromise after attackers used SQL injection to plant a remote-control toolkit inside an Oracle database. The incident sho",
+        "cve": []
+    },
+    {
+        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+        "date": "Thu, 06 Aug 2026 17:00:56 +0000",
+        "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+        "source": "krebsonsecurity",
+        "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organiz",
         "cve": []
     },
     {
@@ -234,91 +320,83 @@
         "cve": []
     },
     {
-        "title": "A Record-Breaking Patch Tuesday for June 2026",
-        "date": "Tue, 09 Jun 2026 22:07:28 +0000",
-        "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-        "source": "krebsonsecurity",
-        "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesda",
+        "title": "The Best Firewall Management Tools, Compared and Priced (2026)",
+        "date": "Thu, 06 Aug 2026 15:35:26 +0000",
+        "url": "https://gbhackers.com/firewall-management-tools-compared-pricing/",
+        "source": "GBHackers",
+        "summary": "The firewall policy management market had its earthquake: Skybox Security shut down overnight in February 2025, selling its technology to Tufin and leaving customers to migrate a reminder that in this",
         "cve": []
     },
     {
-        "title": "Linux Wireless Maintainer Takes Firm Stance Against AI/LLM Generated Slop Patches",
-        "date": "Thu, 06 Aug 2026 08:22:18 -0400",
-        "url": "https://www.phoronix.com/news/Linux-WiFi-Strict-AI-Slop-Patch",
-        "source": "Phoronix",
-        "summary": "In addition to the Linux kernel staging area now rejecting AI/LLM-generated patches except for real security fixes, the Linux wireless networking code is also seeing some shifts around how it will dea",
+        "title": "The 12 Best Protective DNS (PDNS) Services, Compared and Priced (2026)",
+        "date": "Thu, 06 Aug 2026 15:34:03 +0000",
+        "url": "https://gbhackers.com/protective-dns-services-compared-pricing/",
+        "source": "GBHackers",
+        "summary": "Protective DNS is the rare control where the cheap options are genuinely good so this comparison leads with value. The verdict: DNSFilter is the best published-price PDNS for most organizations, Cloud",
         "cve": []
     },
     {
-        "title": "Page Alloc Hogger Lets You Better Stress Memory Behavior On Linux For Testing/Debugging",
-        "date": "Thu, 06 Aug 2026 06:28:46 -0400",
-        "url": "https://www.phoronix.com/news/Page-Alloc-Hogger",
-        "source": "Phoronix",
-        "summary": "A new kernel feature proposed by a Google engineer is Page Alloc Hogger to allow for fine control over where memory pages are allocated in order to more easily reproduce low-memory conditions, make it",
+        "title": "Critical Paperclip AI Agent Flaws Allow Unauthenticated Remote Code Execution",
+        "date": "Thu, 06 Aug 2026 13:21:32 +0000",
+        "url": "https://gbhackers.com/critical-paperclip-ai-agent-flaws/",
+        "source": "GBHackers",
+        "summary": "Critical vulnerabilities in the open-source Paperclip AI-agent orchestration platform could allow attackers to execute commands remotely on exposed servers or on a developer’s local machine. These fla",
         "cve": []
     },
     {
-        "title": "AMD GFX1171 Support Merged For Mesa 26.3",
-        "date": "Thu, 06 Aug 2026 06:19:27 -0400",
-        "url": "https://www.phoronix.com/news/AMD-GFX1171-Mesa-26.3",
-        "source": "Phoronix",
-        "summary": "Earlier this year we began seeing patches for AMD GFX1170 graphics IP labeled as \"RDNA 4m\" and that was then completed with also adding GFX1171 and GFX1172 as additional targets for the AMDGPU LLVM co",
+        "title": "Fake Xeno Roblox Executor Delivers Powercat Java Stealer Through Discord",
+        "date": "Thu, 06 Aug 2026 13:15:51 +0000",
+        "url": "https://gbhackers.com/powercat-java-stealer/",
+        "source": "GBHackers",
+        "summary": "The fake “undetected” Xeno Roblox executor currently circulating on gaming forums and Discord is a weaponized loader for the Powercat Java stealer, a multi‑stage RAT and infostealer that targets Disco",
         "cve": []
     },
     {
-        "title": "Qualcomm Proposes Synx For The Linux Kernel With \"Significant\" Power + Performance Benefits",
-        "date": "Thu, 06 Aug 2026 06:05:27 -0400",
-        "url": "https://www.phoronix.com/news/Synx",
-        "source": "Phoronix",
-        "summary": "Qualcomm engineers have initiated a discussion over upstreaming Synx to the Linux kernel, which is a global synchronization framework across different parts of SoCs. Qualcomm is already using Synx int",
+        "title": "Cloudflare Launches Open-Source OS to Secure AI Agents’ Access to Internal Data",
+        "date": "Thu, 06 Aug 2026 12:31:20 +0000",
+        "url": "https://gbhackers.com/cloudflare-launches-open-source-os-to-secure-ai-agents/",
+        "source": "GBHackers",
+        "summary": "Cloudflare has open-sourced Cloudflare OS, a platform designed to provide enterprise AI agents with controlled access to internal systems, company context, and workflows without exposing long-lived cr",
         "cve": []
     },
     {
-        "title": "SteelSeries' Latest Arctis Nova 5X & Nova 7 Headsets To Be Supported By Linux 7.3",
-        "date": "Thu, 06 Aug 2026 05:55:47 -0400",
-        "url": "https://www.phoronix.com/news/SteelSeries-Nova-7-5X-2026",
-        "source": "Phoronix",
-        "summary": "If you happen to have a gaming headset from the latest SteelSeries Nova 5X or Nova 7 series, the upcoming Linux 7.3 kernel will begin properly supporting those headsets...",
+        "title": "Vanta Stealer Uses PyArmor to Steal Browser Passwords, Crypto Wallets and Discord Tokens",
+        "date": "Thu, 06 Aug 2026 12:01:32 +0000",
+        "url": "https://gbhackers.com/vanta-stealer-uses-pyarmor/",
+        "source": "GBHackers",
+        "summary": "Vanta Stealer is a Python‑based, cross‑platform information stealer that uses layered PyArmor obfuscation on top of a PyInstaller‑packed executable to harvest browser passwords, crypto wallet data, Di",
         "cve": []
     },
     {
-        "title": "Linux 7.3 To Fix Longstanding Gap In The Native Driver For Original Steam Controller",
-        "date": "Wed, 05 Aug 2026 20:44:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Steam-Controller",
-        "source": "Phoronix",
-        "summary": "For those with one of the original Valve Steam Controllers from a decade ago and looking to make use of it with the native HID Linux driver outside of the Steam client or SDL, an important addition is",
+        "title": "KHunt Toolkit Turns Oracle SQL Injection Into SYSTEM-Level RCE and Credential Theft",
+        "date": "Thu, 06 Aug 2026 11:35:36 +0000",
+        "url": "https://gbhackers.com/khunt-exposes-credentials/",
+        "source": "GBHackers",
+        "summary": "KHunt shows how a “routine” SQL injection against an Oracle‑backed web app can be weaponized into SYSTEM‑level remote code execution and credential theft by compiling a full post‑exploitation toolkit ",
         "cve": []
     },
     {
-        "title": "Rust Coreutils 0.10 Released With More Security Hardening, Increased GNU Compatibility",
-        "date": "Wed, 05 Aug 2026 18:59:00 -0400",
-        "url": "https://www.phoronix.com/news/Rust-Coreutils-0.10",
-        "source": "Phoronix",
-        "summary": "Rust Coreutils 0.10 is out today from the uutils project for this alternative to GNU Coreutils. Rust Coreutils 0.10 development focused on additional security hardening plus also increasing the GNU te",
+        "title": "Meta Confirms AI Model Launched Autonomous Attack on Another Organization",
+        "date": "Thu, 06 Aug 2026 11:29:10 +0000",
+        "url": "https://gbhackers.com/ai-agents-hack-four-online-services/",
+        "source": "GBHackers",
+        "summary": "Meta has become the latest technology company to disclose that an AI agent accessed another organization’s online systems during a controlled cybersecurity evaluation. This development has intensified",
         "cve": []
     },
     {
-        "title": "Mesa 26.2 Released With NVK Mesh Shader Support, Many Other Vulkan Improvements",
-        "date": "Wed, 05 Aug 2026 18:13:57 -0400",
-        "url": "https://www.phoronix.com/news/Mesa-26.2-Released",
-        "source": "Phoronix",
-        "summary": "Mesa 26.2 stable is now available as the newest quarterly feature release for this set of open-source OpenGL and Vulkan drivers typically used on Linux systems...",
+        "title": "Critical Jenkins Deserialization Flaw Allows Attackers to Execute Code on Controllers",
+        "date": "Thu, 06 Aug 2026 11:12:56 +0000",
+        "url": "https://gbhackers.com/critical-jenkins-deserialization-flaw/",
+        "source": "GBHackers",
+        "summary": "A critical vulnerability in Jenkins, tracked as CVE-2026-70426, may allow attackers to execute arbitrary code on Jenkins controllers by bypassing deserialization protections within the platform’s Remo",
         "cve": []
     },
     {
-        "title": "USB4STREAM Adding Busy Poll Option For Lower Latency At The Cost Of Increased CPU Cycles",
-        "date": "Wed, 05 Aug 2026 17:27:47 -0400",
-        "url": "https://www.phoronix.com/news/USB4STREAM-Lower-Latency",
-        "source": "Phoronix",
-        "summary": "One of the nifty new features of Linux 7.2 is USB4STREAM as an Intel-developed solution for quickly sending data between USB4 connected systems. Now for the upcoming Linux 7.3 cycle, a busy poll mode ",
-        "cve": []
-    },
-    {
-        "title": "Denial WM: New Wayland Compositor With Flutter Directly Embedded",
-        "date": "Wed, 05 Aug 2026 12:10:08 -0400",
-        "url": "https://www.phoronix.com/news/Denial-WM-Compositor",
-        "source": "Phoronix",
-        "summary": "The newest Wayland compositor to talk about and discuss is Denial, a Wayland compositor focused on optimal Arch Linux integration and that embeds the Flutter engine directly into the codebase. Denial ",
+        "title": "PoC Released for Linux Kernel STP Use-After-Free Vulnerability",
+        "date": "Thu, 06 Aug 2026 11:00:04 +0000",
+        "url": "https://gbhackers.com/poc-released-for-linux-kernel-stp/",
+        "source": "GBHackers",
+        "summary": "A proof-of-concept (PoC) has been released for a use-after-free vulnerability affecting the Linux kernel&#8217;s software bridge implementation found in `net/bridge`. This vulnerability occurs within ",
         "cve": []
     }
 ]
