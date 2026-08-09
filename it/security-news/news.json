@@ -240,6 +240,30 @@
         "cve": []
     },
     {
+        "title": "Dell Latitude 7320 2-in-1 Seeing Web Camera Support On Linux After Five Years",
+        "date": "Sun, 09 Aug 2026 06:37:00 -0400",
+        "url": "https://www.phoronix.com/news/Dell-Latitude-7320-Linux-Webcam",
+        "source": "Phoronix",
+        "summary": "Launched back in 2021 was the Dell Latitude 7320 2-in-1 business laptop/tablet powered by the at-the-time impressive Intel 11th Gen Core \"Tiger Lake\" processors. Remaining elusive until now has been t",
+        "cve": []
+    },
+    {
+        "title": "FreeBSD 14.5 Beta 1 Released With Various Backports, Security Fixes",
+        "date": "Sun, 09 Aug 2026 06:10:44 -0400",
+        "url": "https://www.phoronix.com/news/FreeBSD-14.5-Beta-1",
+        "source": "Phoronix",
+        "summary": "For those still on the FreeBSD 14 N-1 stable series rather than the latest FreeBSD 15 series, FreeBSD 14.5 is working toward release to deliver various security fixes and backports...",
+        "cve": []
+    },
+    {
+        "title": "New Linux Patches Enable ASUS ROG Ryujin III Monitoring Support",
+        "date": "Sat, 08 Aug 2026 20:47:46 -0400",
+        "url": "https://www.phoronix.com/news/ASUS-ROG-Ryujin-3-Linux",
+        "source": "Phoronix",
+        "summary": "For those with an ASUS ROG Ryujin III all-in-one CPU liquid cooling setup catering to gamers, there are now patches pending to enable this AIO liquid cooling setup to work under Linux for monitoring..",
+        "cve": []
+    },
+    {
         "title": "Linux 7.3 To Better Handle Cluster Load Balancing On Intel Hybrid CPUs",
         "date": "Sat, 08 Aug 2026 13:27:05 -0400",
         "url": "https://www.phoronix.com/news/Linux-7.3-Better-Intel-Hybrid",
@@ -293,30 +317,6 @@
         "url": "https://www.phoronix.com/news/Linux-7.2-rc7-Input-Changes",
         "source": "Phoronix",
         "summary": "The input subsystem fixes for the week include a number of AI-driven patches to address various information leaks, out-of-bounds accesses, validation fixes, and other coding issues that have turned up",
-        "cve": []
-    },
-    {
-        "title": "KDE Plasma 6.8 Improvements For UI, Built-In Remote Desktop Server",
-        "date": "Fri, 07 Aug 2026 21:01:10 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Plasma-6.8-Remote-Desktop",
-        "source": "Phoronix",
-        "summary": "It's been another busy summertime week of KDE developers working toward a great Plasma 6.8 desktop release in October...",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.3 To Support Logitech HID++ 2.0 Reprogrammable Button Support",
-        "date": "Fri, 07 Aug 2026 15:28:18 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-HIDPP-Reprogrammable",
-        "source": "Phoronix",
-        "summary": "For those with newer, high-end Logitech input devices, coming with Linux 7.3 is support for the re-programmable button support of the HID++ 2.0 protocol...",
-        "cve": []
-    },
-    {
-        "title": "Initial Apple M3 Pro / Max / Ultra Support Being Upstreamed For Linux 7.3",
-        "date": "Fri, 07 Aug 2026 13:31:21 -0400",
-        "url": "https://www.phoronix.com/news/M3-Pro-Max-Ultra-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "Upstreamed for the Linux 7.2 kernel was the Device Tree (DT) support for booting the mainline Linux kernel on the base Apple M3 SoC. Though it's not yet useful for end-users with many features remaini",
         "cve": []
     }
 ]
