@@ -1,5 +1,13 @@
 [
     {
+        "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+        "date": "Sat, 08 Aug 2026 10:16:23 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+        "source": "BleepingComputer",
+        "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
+        "cve": []
+    },
+    {
         "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
         "date": "Fri, 07 Aug 2026 16:14:46 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
         "source": "BleepingComputer",
         "summary": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
-        "cve": []
-    },
-    {
-        "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-        "date": "Thu, 06 Aug 2026 14:03:45 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-        "source": "BleepingComputer",
-        "summary": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
         "cve": []
     },
     {
@@ -240,6 +240,30 @@
         "cve": []
     },
     {
+        "title": "Linux 7.3 To Better Handle Cluster Load Balancing On Intel Hybrid CPUs",
+        "date": "Sat, 08 Aug 2026 13:27:05 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Better-Intel-Hybrid",
+        "source": "Phoronix",
+        "summary": "A set of patches from Intel are set to be merged for the upcoming Linux 7.3 merge window to enhance the cluster-aware scheduling code so it better handles load balancing on modern Intel Core (Ultra) h",
+        "cve": []
+    },
+    {
+        "title": "Polychromatic 0.9.8 Released With Razer Blade 16 2023 Support",
+        "date": "Sat, 08 Aug 2026 12:33:43 -0400",
+        "url": "https://www.phoronix.com/news/Polychromatic-0.9.8-Released",
+        "source": "Phoronix",
+        "summary": "For those looking to manage the RGB lighting and other features of their Razer devices on Linux, Polychromatic 0.9.8 is now available for that UI front-end that interacts with the OpenRazer kernel dri",
+        "cve": []
+    },
+    {
+        "title": "Wine 11.15 Released With Wayland Fixes, Fix For A 20 Year Old MSXML3 Bug",
+        "date": "Sat, 08 Aug 2026 09:42:07 -0400",
+        "url": "https://www.phoronix.com/news/Wine-11.15-Released",
+        "source": "Phoronix",
+        "summary": "Making its debut this Saturday rather than the usual bi-weekly Friday release regiment, Wine 11.15 is out today as the newest development release for this open-source software enabling Windows games a",
+        "cve": []
+    },
+    {
         "title": "GNOME Receiving Additional Design Help Thanks To Sovereign Tech Agency Fellowship",
         "date": "Sat, 08 Aug 2026 07:20:00 -0400",
         "url": "https://www.phoronix.com/news/GNOME-Design-Fellowship",
@@ -293,30 +317,6 @@
         "url": "https://www.phoronix.com/news/M3-Pro-Max-Ultra-Linux-7.3",
         "source": "Phoronix",
         "summary": "Upstreamed for the Linux 7.2 kernel was the Device Tree (DT) support for booting the mainline Linux kernel on the base Apple M3 SoC. Though it's not yet useful for end-users with many features remaini",
-        "cve": []
-    },
-    {
-        "title": "Intel QATlib 26.08 Released With Gen6 Device Support, 2MB Hugepages",
-        "date": "Fri, 07 Aug 2026 12:57:18 -0400",
-        "url": "https://www.phoronix.com/news/Intel-QATlib-26.08-Released",
-        "source": "Phoronix",
-        "summary": "Intel today released an updated version of their QuickAssist Technology library (QATlib) as the user-space component for making use of QuickAssist accelerators under Linux...",
-        "cve": []
-    },
-    {
-        "title": "TTM Memory Management For Graphics To Be More Aggresive With Linux 7.3",
-        "date": "Fri, 07 Aug 2026 11:57:22 -0400",
-        "url": "https://www.phoronix.com/news/More-Aggressive-TTM-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "This week a final batch of DRM-Misc-Next feature material was submitted for DRM-Next to queue ahead of the Linux 7.3 merge window opening later in the month. Most notable is the TTM memory management ",
-        "cve": []
-    },
-    {
-        "title": "Intel Makes Progress On HDMI 2.1 FRL With Their Linux Driver For Meteor Lake & Newer",
-        "date": "Fri, 07 Aug 2026 10:00:41 -0400",
-        "url": "https://www.phoronix.com/news/Intel-HDMI-2.1-FRL-Linux-2026",
-        "source": "Phoronix",
-        "summary": "Following AMD making progress with HDMI Fixed Rate Link (FRL) and other HDMI 2.1 functionality for their open-source Linux kernel graphics driver, Intel is out today with a big set of 44 patches worki",
         "cve": []
     }
 ]
