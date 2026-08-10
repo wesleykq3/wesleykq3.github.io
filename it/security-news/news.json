@@ -1,5 +1,29 @@
 [
     {
+        "title": "LexisNexis shuts down services after suspicious activity on servers",
+        "date": "Mon, 10 Aug 2026 08:11:52 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
+        "source": "BleepingComputer",
+        "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",
+        "cve": []
+    },
+    {
+        "title": "Valve notifies Steam hardware customers of a data breach",
+        "date": "Mon, 10 Aug 2026 07:47:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
+        "source": "BleepingComputer",
+        "summary": "Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]",
+        "cve": []
+    },
+    {
+        "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+        "date": "Mon, 10 Aug 2026 05:49:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
+        "cve": []
+    },
+    {
         "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
         "date": "Sat, 08 Aug 2026 10:16:23 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
@@ -56,27 +80,19 @@
         "cve": []
     },
     {
-        "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-        "date": "Thu, 06 Aug 2026 18:37:17 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-        "source": "BleepingComputer",
-        "summary": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
+        "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
+        "date": "Mon, 10 Aug 2026 13:08:23 +0530",
+        "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credentia",
         "cve": []
     },
     {
-        "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-        "date": "Thu, 06 Aug 2026 16:07:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-        "source": "BleepingComputer",
-        "summary": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile thr",
-        "cve": []
-    },
-    {
-        "title": "Swiss government SharePoint breach compromised 200 accounts",
-        "date": "Thu, 06 Aug 2026 14:14:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-        "source": "BleepingComputer",
-        "summary": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
+        "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+        "date": "Mon, 10 Aug 2026 11:20:03 +0530",
+        "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancement",
         "cve": []
     },
     {
@@ -141,22 +157,6 @@
         "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
         "source": "The Hacker News",
         "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on vo",
-        "cve": []
-    },
-    {
-        "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-        "date": "Fri, 07 Aug 2026 18:26:23 +0530",
-        "url": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-        "source": "The Hacker News",
-        "summary": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can",
-        "cve": []
-    },
-    {
-        "title": "Growing Up The Hard Way",
-        "date": "Fri, 07 Aug 2026 17:25:26 +0530",
-        "url": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-        "source": "The Hacker News",
-        "summary": "Open Source had a great childhood.\n\nFor two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind ",
         "cve": []
     },
     {
@@ -240,6 +240,38 @@
         "cve": []
     },
     {
+        "title": "Meta Publishes Muse Glimmer As 30B Open Agentic Model",
+        "date": "Mon, 10 Aug 2026 07:10:49 -0400",
+        "url": "https://www.phoronix.com/news/Meta-Muse-Glimmer",
+        "source": "Phoronix",
+        "summary": "The Meta Superintelligence Labs announced this morning they have released Muse Glimmer as their next large language model featuring 30 billion parameters for always-on local agent workflows. Muse Glim",
+        "cve": []
+    },
+    {
+        "title": "Minor Optimization Coming For AMD Athlon XP Era Systems Running Linux",
+        "date": "Mon, 10 Aug 2026 06:28:14 -0400",
+        "url": "https://www.phoronix.com/news/Linux-WMB-SSE-Optimization",
+        "source": "Phoronix",
+        "summary": "A minor performance optimization is on the way to the Linux kernel for roughly two decade old CPUs that have SSE but lack SSE2. Among those CPUs to benefit are the AMD Athlon XP series, some early Sem",
+        "cve": []
+    },
+    {
+        "title": "Apple M1 Series SoCs To See ~1 Watt Power Savings With Linux 7.3",
+        "date": "Mon, 10 Aug 2026 06:15:44 -0400",
+        "url": "https://www.phoronix.com/news/Apple-M1-Power-Savings-Linux-73",
+        "source": "Phoronix",
+        "summary": "In addition to Linux 7.3 slated to receive initial Apple M3 Pro / Max / Ultra SoC support, this next version of the Linux kernel is also set to bring some minor power savings for the Apple M1 series t",
+        "cve": []
+    },
+    {
+        "title": "Old SGI Drivers Being Removed In Linux 7.3 Over Security Concerns",
+        "date": "Mon, 10 Aug 2026 05:59:20 -0400",
+        "url": "https://www.phoronix.com/news/SGI-GRU-Being-Removed",
+        "source": "Phoronix",
+        "summary": "On top of various other Linux drivers for old hardware being removed due to noise generated by AI/LLM coding agents, there are more examples coming with Linux 7.3 as some old Silicon Graphics (SGI) dr",
+        "cve": []
+    },
+    {
         "title": "Linux 7.2-rc7 Released Following Another Exhausting AI-Driven Week",
         "date": "Sun, 09 Aug 2026 18:14:34 -0400",
         "url": "https://www.phoronix.com/news/Linux-7.2-rc7-Released",
@@ -285,38 +317,6 @@
         "url": "https://www.phoronix.com/news/FreeBSD-14.5-Beta-1",
         "source": "Phoronix",
         "summary": "For those still on the FreeBSD 14 N-1 stable series rather than the latest FreeBSD 15 series, FreeBSD 14.5 is working toward release to deliver various security fixes and backports...",
-        "cve": []
-    },
-    {
-        "title": "New Linux Patches Enable ASUS ROG Ryujin III Monitoring Support",
-        "date": "Sat, 08 Aug 2026 20:47:46 -0400",
-        "url": "https://www.phoronix.com/news/ASUS-ROG-Ryujin-3-Linux",
-        "source": "Phoronix",
-        "summary": "For those with an ASUS ROG Ryujin III all-in-one CPU liquid cooling setup catering to gamers, there are now patches pending to enable this AIO liquid cooling setup to work under Linux for monitoring..",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.3 To Better Handle Cluster Load Balancing On Intel Hybrid CPUs",
-        "date": "Sat, 08 Aug 2026 13:27:05 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Better-Intel-Hybrid",
-        "source": "Phoronix",
-        "summary": "A set of patches from Intel are set to be merged for the upcoming Linux 7.3 merge window to enhance the cluster-aware scheduling code so it better handles load balancing on modern Intel Core (Ultra) h",
-        "cve": []
-    },
-    {
-        "title": "Polychromatic 0.9.8 Released With Razer Blade 16 2023 Support",
-        "date": "Sat, 08 Aug 2026 12:33:43 -0400",
-        "url": "https://www.phoronix.com/news/Polychromatic-0.9.8-Released",
-        "source": "Phoronix",
-        "summary": "For those looking to manage the RGB lighting and other features of their Razer devices on Linux, Polychromatic 0.9.8 is now available for that UI front-end that interacts with the OpenRazer kernel dri",
-        "cve": []
-    },
-    {
-        "title": "Wine 11.15 Released With Wayland Fixes, Fix For A 20 Year Old MSXML3 Bug",
-        "date": "Sat, 08 Aug 2026 09:42:07 -0400",
-        "url": "https://www.phoronix.com/news/Wine-11.15-Released",
-        "source": "Phoronix",
-        "summary": "Making its debut this Saturday rather than the usual bi-weekly Friday release regiment, Wine 11.15 is out today as the newest development release for this open-source software enabling Windows games a",
         "cve": []
     }
 ]
