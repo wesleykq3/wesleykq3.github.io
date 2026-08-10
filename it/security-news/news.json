@@ -240,6 +240,38 @@
         "cve": []
     },
     {
+        "title": "Linux 7.2-rc7 Released Following Another Exhausting AI-Driven Week",
+        "date": "Sun, 09 Aug 2026 18:14:34 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.2-rc7-Released",
+        "source": "Phoronix",
+        "summary": "Linux 7.2-rc7 is now available for testing as we close in on the official Linux 7.2 release hopefully next weekend...",
+        "cve": []
+    },
+    {
+        "title": "CachyOS August 2026 Release Preps For Upcoming Server Edition",
+        "date": "Sun, 09 Aug 2026 14:18:19 -0400",
+        "url": "https://www.phoronix.com/news/CachyOS-August-2026",
+        "source": "Phoronix",
+        "summary": "CachyOS is out with its latest media refresh of the year. Beyond the usual desktop improvements for the performance-optimized CachyOS, they continue working toward the upcoming CachyOS Server Edition.",
+        "cve": []
+    },
+    {
+        "title": "Qualcomm Posts Linux Patches For Kuno SoC Support: Cortex-A7 Platform In 2026",
+        "date": "Sun, 09 Aug 2026 11:35:45 -0400",
+        "url": "https://www.phoronix.com/news/Qualcomm-Kuno-SoC-Linux",
+        "source": "Phoronix",
+        "summary": "Qualcomm engineers posted a set of 15 patches today for the Linux kernel to enable the Qualcomm Kuno SoC support and  their reference development platform...",
+        "cve": []
+    },
+    {
+        "title": "Mesa 26.3 Intel Driver Code Enables Large GRF Mode For Newer GPUs",
+        "date": "Sun, 09 Aug 2026 08:24:53 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Large-GRF-Mode-Mesa-26.3",
+        "source": "Phoronix",
+        "summary": "The Intel graphics compiler code in Mesa 26.3-devel has now enabled the Large GRF mode for Alchemist/DG2 and Battlemage/Xe2 graphics and VRT for Xe3 graphics...",
+        "cve": []
+    },
+    {
         "title": "Dell Latitude 7320 2-in-1 Seeing Web Camera Support On Linux After Five Years",
         "date": "Sun, 09 Aug 2026 06:37:00 -0400",
         "url": "https://www.phoronix.com/news/Dell-Latitude-7320-Linux-Webcam",
@@ -285,38 +317,6 @@
         "url": "https://www.phoronix.com/news/Wine-11.15-Released",
         "source": "Phoronix",
         "summary": "Making its debut this Saturday rather than the usual bi-weekly Friday release regiment, Wine 11.15 is out today as the newest development release for this open-source software enabling Windows games a",
-        "cve": []
-    },
-    {
-        "title": "GNOME Receiving Additional Design Help Thanks To Sovereign Tech Agency Fellowship",
-        "date": "Sat, 08 Aug 2026 07:20:00 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-Design-Fellowship",
-        "source": "Phoronix",
-        "summary": "Germany's Sovereign Tech Agency announced earlier this year a new fellowship program and now as part of that, for the next two years GNOME has a fellow dedicated to working on design and community man",
-        "cve": []
-    },
-    {
-        "title": "HWMON Fixes For Linux 7.2-rc7: \"Most Of Them Fixing Critical Or High Severity Bugs\"",
-        "date": "Sat, 08 Aug 2026 06:55:33 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.2-rc7-HWMON",
-        "source": "Phoronix",
-        "summary": "It's been another busy week in the Linux kernel camp with increased patch activity continuing due to AI/LLM coding agents / bots continuing to uncover different defects in the open-source codebase. Th",
-        "cve": []
-    },
-    {
-        "title": "AI Helped Create A DirectX 11 Driver For QEMU VMs",
-        "date": "Sat, 08 Aug 2026 06:40:14 -0400",
-        "url": "https://www.phoronix.com/news/Triton-DirectX-11-QEMU-Driver",
-        "source": "Phoronix",
-        "summary": "Thanks in part to the power of Claude Opus 5 and Claude Fable 5, a new Windows DirectX 11 driver for QEMU has been created to help improve graphics acceleration for Microsoft Windows guests running un",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.2-rc7 Adding Support For The Most Unique Or Very Funky Gaming Controller",
-        "date": "Sat, 08 Aug 2026 06:25:56 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.2-rc7-Input-Changes",
-        "source": "Phoronix",
-        "summary": "The input subsystem fixes for the week include a number of AI-driven patches to address various information leaks, out-of-bounds accesses, validation fixes, and other coding issues that have turned up",
         "cve": []
     }
 ]
