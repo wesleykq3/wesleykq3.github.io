@@ -1,5 +1,61 @@
 [
     {
+        "title": "Hackers breached a small Polish energy plant via private APN last year",
+        "date": "Mon, 10 Aug 2026 19:07:21 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
+        "source": "BleepingComputer",
+        "summary": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [..",
+        "cve": []
+    },
+    {
+        "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
+        "date": "Mon, 10 Aug 2026 17:12:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
+        "source": "BleepingComputer",
+        "summary": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create r",
+        "cve": []
+    },
+    {
+        "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
+        "date": "Mon, 10 Aug 2026 15:24:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
+        "cve": []
+    },
+    {
+        "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+        "date": "Mon, 10 Aug 2026 13:42:00 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+        "source": "BleepingComputer",
+        "summary": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+        "date": "Mon, 10 Aug 2026 10:34:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+        "source": "BleepingComputer",
+        "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
+        "cve": []
+    },
+    {
+        "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
+        "date": "Mon, 10 Aug 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
+        "source": "BleepingComputer",
+        "summary": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypas",
+        "cve": []
+    },
+    {
+        "title": "Member of The Com sent to prison for blackmail, sextortion",
+        "date": "Mon, 10 Aug 2026 08:56:28 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
+        "source": "BleepingComputer",
+        "summary": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120",
+        "cve": []
+    },
+    {
         "title": "LexisNexis shuts down services after suspicious activity on servers",
         "date": "Mon, 10 Aug 2026 08:11:52 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
@@ -24,59 +80,51 @@
         "cve": []
     },
     {
-        "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-        "date": "Sat, 08 Aug 2026 10:16:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-        "source": "BleepingComputer",
-        "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
+        "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
+        "date": "Mon, 10 Aug 2026 22:59:17 +0530",
+        "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+        "source": "The Hacker News",
+        "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhe",
         "cve": []
     },
     {
-        "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
-        "date": "Fri, 07 Aug 2026 16:14:46 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
-        "source": "BleepingComputer",
-        "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
+        "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+        "date": "Mon, 10 Aug 2026 22:08:37 +0530",
+        "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+        "source": "The Hacker News",
+        "summary": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncrypto",
         "cve": []
     },
     {
-        "title": "Unlimited Technology Systems breach impacts 3.8 million people",
-        "date": "Fri, 07 Aug 2026 15:30:41 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
-        "source": "BleepingComputer",
-        "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
+        "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+        "date": "Mon, 10 Aug 2026 20:30:29 +0530",
+        "url": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+        "source": "The Hacker News",
+        "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.\n\nThat pretty much covers the mood th",
         "cve": []
     },
     {
-        "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
-        "date": "Fri, 07 Aug 2026 11:48:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
-        "source": "BleepingComputer",
-        "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
+        "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+        "date": "Mon, 10 Aug 2026 18:49:58 +0530",
+        "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+        "source": "The Hacker News",
+        "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own ser",
         "cve": []
     },
     {
-        "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
-        "date": "Fri, 07 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-        "source": "BleepingComputer",
-        "summary": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking ",
+        "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
+        "date": "Mon, 10 Aug 2026 17:55:04 +0530",
+        "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+        "source": "The Hacker News",
+        "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.\n\nPasskeys are designed to replace reusable passwords and resis",
         "cve": []
     },
     {
-        "title": "North Carolina Ports confirms cyberattack disrupting operations",
-        "date": "Fri, 07 Aug 2026 09:34:40 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
-        "source": "BleepingComputer",
-        "summary": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
-        "cve": []
-    },
-    {
-        "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
-        "date": "Thu, 06 Aug 2026 18:48:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
+        "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+        "date": "Mon, 10 Aug 2026 17:03:41 +0530",
+        "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+        "source": "The Hacker News",
+        "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, ",
         "cve": []
     },
     {
@@ -112,51 +160,83 @@
         "cve": []
     },
     {
-        "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
-        "date": "Sat, 08 Aug 2026 12:28:31 +0530",
-        "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-        "source": "The Hacker News",
-        "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (",
+        "title": "Gunra Ransomware Exploits Fortinet VPN Flaws to Bypass MFA and Steal Enterprise Data",
+        "date": "Mon, 10 Aug 2026 17:24:00 +0000",
+        "url": "https://cybersecuritynews.com/gunra-ransomware-exploits-fortinet-vpn-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "A joint cybersecurity advisory from the FBI, CISA, the Department of Defense Cyber Crime Center, the NSA, the U.S. Secret Service, and South Korea&#8217;s National Police Agency has exposed a dangerou",
         "cve": []
     },
     {
-        "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-        "date": "Sat, 08 Aug 2026 12:27:43 +0530",
-        "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-        "source": "The Hacker News",
-        "summary": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) p",
+        "title": "HP ThinPro TPM Disk Encryption Flaw Lets Attackers Extract LUKS Keys",
+        "date": "Mon, 10 Aug 2026 16:26:46 +0000",
+        "url": "https://cybersecuritynews.com/hp-thinpro-tpm-disk-encryption-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "A security researcher has disclosed a boot-chain weakness in HP ThinPro 8 and 9 that could allow attackers with physical access to a thin client to extract its LUKS disk-encryption key. The issue affe",
         "cve": []
     },
     {
-        "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
-        "date": "Sat, 08 Aug 2026 12:22:16 +0530",
-        "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catal",
+        "title": "Pass-the-Passkey Attacks Expose Windows 11 and Microsoft Entra ID, Bypassing MFA",
+        "date": "Mon, 10 Aug 2026 16:24:29 +0000",
+        "url": "https://cybersecuritynews.com/pass-the-passkey-attacks/",
+        "source": "CyberSecurityNews",
+        "summary": "A new &#8220;Pass-the-Passkey&#8221; family of attack techniques demonstrates how systemic implementation flaws surrounding WebAuthn can undermine passkey security even when cryptographic private keys",
         "cve": []
     },
     {
-        "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-        "date": "Sat, 08 Aug 2026 00:18:17 +0530",
-        "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-        "source": "The Hacker News",
-        "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"Thes",
+        "title": "Claude Code Shifts Agent Security From Repeated Human Approval to Auto Mode",
+        "date": "Mon, 10 Aug 2026 16:17:57 +0000",
+        "url": "https://cybersecuritynews.com/claude-code-shifts-agent-security/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic is changing how Claude Code handles risky commands, moving away from constant human approval prompts and toward an automated safety classifier called auto mode. Starting August 14, 2026, aut",
         "cve": []
     },
     {
-        "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-        "date": "Fri, 07 Aug 2026 23:59:08 +0530",
-        "url": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-        "source": "The Hacker News",
-        "summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n",
+        "title": "CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks",
+        "date": "Mon, 10 Aug 2026 15:12:07 +0000",
+        "url": "https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "CISA has added a critical Progress LoadMaster vulnerability to its Known Exploited Vulnerabilities catalog after attackers were observed targeting exposed devices. Tracked as CVE-2026-8037, the flaw a",
         "cve": []
     },
     {
-        "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-        "date": "Fri, 07 Aug 2026 23:46:13 +0530",
-        "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-        "source": "The Hacker News",
-        "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on vo",
+        "title": "Windows WalletService Vulnerability Allows Attackers to Escalate Privileges – PoC Released",
+        "date": "Mon, 10 Aug 2026 15:01:15 +0000",
+        "url": "https://cybersecuritynews.com/windows-walletservice-vulnerability-poc-released/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has patched a Windows WalletService vulnerability that could let local attackers gain SYSTEM privileges, with a public proof of concept urging organizations to deploy the July 2026 security ",
+        "cve": []
+    },
+    {
+        "title": "GitHub Expands Supply Chain Malware Detection From npm to 8 Package Registries",
+        "date": "Mon, 10 Aug 2026 14:57:47 +0000",
+        "url": "https://cybersecuritynews.com/github-expands-supply-chain-malware-detection/",
+        "source": "CyberSecurityNews",
+        "summary": "GitHub has expanded its malware detection capabilities beyond npm, providing developers with broader protection against malicious open-source packages. Dependabot alerts can now identify harmful depen",
+        "cve": []
+    },
+    {
+        "title": "Red Hat ACM Privilege Escalation Vulnerability Lets Attackers Gain Full Cluster-Admin Access",
+        "date": "Mon, 10 Aug 2026 14:46:22 +0000",
+        "url": "https://cybersecuritynews.com/red-hat-acm-privilege-escalation-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Red Hat has disclosed a critical privilege escalation flaw, tracked as CVE-2026-10090, affecting the Application Subscription controller in Red Hat Advanced Cluster Management for Kubernetes (ACM). Ra",
+        "cve": []
+    },
+    {
+        "title": "Fake GoogleTranslate Chrome Extension Lets Attackers Remotely Control Your Browsers",
+        "date": "Mon, 10 Aug 2026 13:35:24 +0000",
+        "url": "https://cybersecuritynews.com/fake-googletranslate-chrome-extension/",
+        "source": "CyberSecurityNews",
+        "summary": "A malicious Chrome extension masquerading as GoogleTranslate that can steal sensitive browser data, live-stream web sessions, and allow threat actors to remotely interact with Chrome windows while kee",
+        "cve": []
+    },
+    {
+        "title": "Google Play Apps Use Stealth Loaders to Deliver Anatsa Banking Malware",
+        "date": "Mon, 10 Aug 2026 13:12:59 +0000",
+        "url": "https://cybersecuritynews.com/google-play-apps-use-stealth-loaders/",
+        "source": "CyberSecurityNews",
+        "summary": "Android users are facing a fresh reminder that a familiar app-store listing can hide a financial threat. Researchers have observed malicious loaders on Google Play that can prepare the ground for Anat",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Meta Publishes Muse Glimmer As 30B Open Agentic Model",
-        "date": "Mon, 10 Aug 2026 07:10:49 -0400",
-        "url": "https://www.phoronix.com/news/Meta-Muse-Glimmer",
-        "source": "Phoronix",
-        "summary": "The Meta Superintelligence Labs announced this morning they have released Muse Glimmer as their next large language model featuring 30 billion parameters for always-on local agent workflows. Muse Glim",
+        "title": "Android Banking Droppers Surge as Malware Operators Change Packaging Tactics",
+        "date": "Mon, 10 Aug 2026 12:51:36 +0000",
+        "url": "https://gbhackers.com/android-banking-droppers/",
+        "source": "GBHackers",
+        "summary": "Android banking malware operators are increasingly relying on dropper-based packaging to evade mobile app-store controls, shifting how threats are classified and delivered rather than simply expanding",
         "cve": []
     },
     {
-        "title": "Minor Optimization Coming For AMD Athlon XP Era Systems Running Linux",
-        "date": "Mon, 10 Aug 2026 06:28:14 -0400",
-        "url": "https://www.phoronix.com/news/Linux-WMB-SSE-Optimization",
-        "source": "Phoronix",
-        "summary": "A minor performance optimization is on the way to the Linux kernel for roughly two decade old CPUs that have SSE but lack SSE2. Among those CPUs to benefit are the AMD Athlon XP series, some early Sem",
+        "title": "CISA Flags Progress LoadMaster Command Injection Vulnerability Exploited in the Wild",
+        "date": "Mon, 10 Aug 2026 12:32:35 +0000",
+        "url": "https://gbhackers.com/cisa-flags-progress-loadmaster-command-injection-vulnerability/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical command injection vulnerability in Progress LoadMaster, tracked as CVE-2026-8037, to its Known Exploited Vulnerabi",
         "cve": []
     },
     {
-        "title": "Apple M1 Series SoCs To See ~1 Watt Power Savings With Linux 7.3",
-        "date": "Mon, 10 Aug 2026 06:15:44 -0400",
-        "url": "https://www.phoronix.com/news/Apple-M1-Power-Savings-Linux-73",
-        "source": "Phoronix",
-        "summary": "In addition to Linux 7.3 slated to receive initial Apple M3 Pro / Max / Ultra SoC support, this next version of the Linux kernel is also set to bring some minor power savings for the Apple M1 series t",
+        "title": "Play Ransomware Masquerades as PsExec to Blend Into Legitimate Windows Administration",
+        "date": "Mon, 10 Aug 2026 11:32:39 +0000",
+        "url": "https://gbhackers.com/play-ransomware-minics-psexec/",
+        "source": "GBHackers",
+        "summary": "Play ransomware is using a familiar Windows-administration disguise to reduce suspicion during intrusions: a custom service binary named PSexesvc.exe. The group’s use of a custom service binary named ",
         "cve": []
     },
     {
-        "title": "Old SGI Drivers Being Removed In Linux 7.3 Over Security Concerns",
-        "date": "Mon, 10 Aug 2026 05:59:20 -0400",
-        "url": "https://www.phoronix.com/news/SGI-GRU-Being-Removed",
-        "source": "Phoronix",
-        "summary": "On top of various other Linux drivers for old hardware being removed due to noise generated by AI/LLM coding agents, there are more examples coming with Linux 7.3 as some old Silicon Graphics (SGI) dr",
+        "title": "GitHub Expands Dependabot Malware Alerts to Detect Malicious Packages Across 8 Ecosystems",
+        "date": "Mon, 10 Aug 2026 11:29:29 +0000",
+        "url": "https://gbhackers.com/github-expands-dependabot-malware-alerts/",
+        "source": "GBHackers",
+        "summary": "GitHub has expanded its Dependabot malware alerts beyond npm, enabling the detection of malicious dependencies across various package ecosystems, including PyPI, Maven, RubyGems, NuGet, Go, crates.io,",
         "cve": []
     },
     {
-        "title": "Linux 7.2-rc7 Released Following Another Exhausting AI-Driven Week",
-        "date": "Sun, 09 Aug 2026 18:14:34 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.2-rc7-Released",
-        "source": "Phoronix",
-        "summary": "Linux 7.2-rc7 is now available for testing as we close in on the official Linux 7.2 release hopefully next weekend...",
+        "title": "Fake Solidity Pro Extensions Turn Trusted Developer Tooling Into Credential-Stealing Malware",
+        "date": "Mon, 10 Aug 2026 10:47:02 +0000",
+        "url": "https://gbhackers.com/fake-solidity-pro-extensions/",
+        "source": "GBHackers",
+        "summary": "Malicious “Solidity Pro” extensions are abusing the trust developers place in VS Code and Open VSX tooling, evolving from delayed payload droppers into broad credential and cryptocurrency-wallet steal",
         "cve": []
     },
     {
-        "title": "CachyOS August 2026 Release Preps For Upcoming Server Edition",
-        "date": "Sun, 09 Aug 2026 14:18:19 -0400",
-        "url": "https://www.phoronix.com/news/CachyOS-August-2026",
-        "source": "Phoronix",
-        "summary": "CachyOS is out with its latest media refresh of the year. Beyond the usual desktop improvements for the performance-optimized CachyOS, they continue working toward the upcoming CachyOS Server Edition.",
+        "title": "HP ThinPro TPM Flaw Lets Attackers Bypass Full Disk Encryption and Steal LUKS Keys",
+        "date": "Mon, 10 Aug 2026 10:22:48 +0000",
+        "url": "https://gbhackers.com/hp-thinpro-tpm-flaw/",
+        "source": "GBHackers",
+        "summary": "A security researcher has revealed a critical design flaw in HP ThinPro versions 8 and 9, which allows attackers with physical access to a thin client&#8217;s storage drive to extract TPM-sealed LUKS ",
         "cve": []
     },
     {
-        "title": "Qualcomm Posts Linux Patches For Kuno SoC Support: Cortex-A7 Platform In 2026",
-        "date": "Sun, 09 Aug 2026 11:35:45 -0400",
-        "url": "https://www.phoronix.com/news/Qualcomm-Kuno-SoC-Linux",
-        "source": "Phoronix",
-        "summary": "Qualcomm engineers posted a set of 15 patches today for the Linux kernel to enable the Qualcomm Kuno SoC support and  their reference development platform...",
+        "title": "Atlassian Rovo AI Vulnerability Lets Attackers Steal Enterprise Data With a Single Click",
+        "date": "Mon, 10 Aug 2026 10:12:48 +0000",
+        "url": "https://gbhackers.com/atlassian-rovo-ai-vulnerability/",
+        "source": "GBHackers",
+        "summary": "RovoBlast is a recently disclosed vulnerability affecting Atlassian&#8217;s Rovo AI assistant that allows attackers to expose sensitive enterprise data through a single malicious link. According to Va",
         "cve": []
     },
     {
-        "title": "Mesa 26.3 Intel Driver Code Enables Large GRF Mode For Newer GPUs",
-        "date": "Sun, 09 Aug 2026 08:24:53 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Large-GRF-Mode-Mesa-26.3",
-        "source": "Phoronix",
-        "summary": "The Intel graphics compiler code in Mesa 26.3-devel has now enabled the Large GRF mode for Alchemist/DG2 and Battlemage/Xe2 graphics and VRT for Xe3 graphics...",
+        "title": "WordPress Supply Chain Attack Exploits BdThemes Plugins to Create Rogue Admin Accounts and Install Webshells",
+        "date": "Mon, 10 Aug 2026 10:06:56 +0000",
+        "url": "https://gbhackers.com/wordpress-supply-chain-attack-exploits-bdthemes-plugins/",
+        "source": "GBHackers",
+        "summary": "A supply chain compromise affecting multiple BdThemes WordPress plugins has allowed attackers to hijack administrator sessions, create unauthorized admin accounts, and deploy persistent web shells, wi",
         "cve": []
     },
     {
-        "title": "Dell Latitude 7320 2-in-1 Seeing Web Camera Support On Linux After Five Years",
-        "date": "Sun, 09 Aug 2026 06:37:00 -0400",
-        "url": "https://www.phoronix.com/news/Dell-Latitude-7320-Linux-Webcam",
-        "source": "Phoronix",
-        "summary": "Launched back in 2021 was the Dell Latitude 7320 2-in-1 business laptop/tablet powered by the at-the-time impressive Intel 11th Gen Core \"Tiger Lake\" processors. Remaining elusive until now has been t",
+        "title": "Sophos Warns Unprotected Endpoints Let Interlock Credential Theft Go Undetected",
+        "date": "Mon, 10 Aug 2026 09:43:47 +0000",
+        "url": "https://gbhackers.com/interlock-credential-theft/",
+        "source": "GBHackers",
+        "summary": "Interlock ransomware incident that shows how unprotected endpoints can give attackers enough time to steal credentials, establish persistence, and reach a domain controller before defenders intervene.",
         "cve": []
     },
     {
-        "title": "FreeBSD 14.5 Beta 1 Released With Various Backports, Security Fixes",
-        "date": "Sun, 09 Aug 2026 06:10:44 -0400",
-        "url": "https://www.phoronix.com/news/FreeBSD-14.5-Beta-1",
-        "source": "Phoronix",
-        "summary": "For those still on the FreeBSD 14 N-1 stable series rather than the latest FreeBSD 15 series, FreeBSD 14.5 is working toward release to deliver various security fixes and backports...",
+        "title": "Apple Private Cloud Compute Path Traversal Flaw Lets Attackers Write Files as Root",
+        "date": "Mon, 10 Aug 2026 09:36:32 +0000",
+        "url": "https://gbhackers.com/apple-private-cloud-compute-path-traversal-flaw/",
+        "source": "GBHackers",
+        "summary": "Security researcher Drinor Selmanaj has disclosed a path traversal vulnerability (CVE-2026-20685) in Apple&#8217;s Private Cloud Compute (PCC) that allows a privileged network attacker to write attack",
         "cve": []
     }
 ]
