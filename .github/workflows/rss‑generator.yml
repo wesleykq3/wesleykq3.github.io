@@ -5,22 +5,22 @@ on:
 
 jobs:
   build_rss:
-    runs‑on: ubuntu‑latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository code
         uses: actions/checkout@v4
         with:
-          fetch‑depth: 0
+          fetch-depth: 0
 
       - name: Setup Node.js environment
-        uses: actions/setup‑node@v6
+        uses: actions/setup-node@v6
         with:
-          node‑version: 22
+          node-version: 22
 
       - name: Run node script generate rss.xml
         env:
           SITE_DOMAIN: ${{ vars.SITE_DOMAIN }}
-        run: node generate‑rss.js
+        run: node generate-rss.js
 
       - name: Commit & push updated rss.xml
         run: |
