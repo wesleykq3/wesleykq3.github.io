@@ -1,5 +1,37 @@
 [
     {
+        "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
+        "date": "Wed, 12 Aug 2026 08:25:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
+        "cve": []
+    },
+    {
+        "title": "Signal adds new security feature to thwart man-in-the-middle attacks",
+        "date": "Wed, 12 Aug 2026 07:21:42 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
+        "source": "BleepingComputer",
+        "summary": "​Signal has introduced Automatic Key Verification, a new security feature that gives users a new way to ensure their encrypted chats haven't been intercepted. [...]",
+        "cve": []
+    },
+    {
+        "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
+        "date": "Wed, 12 Aug 2026 06:15:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
+        "source": "BleepingComputer",
+        "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
+        "cve": []
+    },
+    {
+        "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
+        "date": "Tue, 11 Aug 2026 21:15:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
+        "source": "BleepingComputer",
+        "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
+        "cve": []
+    },
+    {
         "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
         "date": "Tue, 11 Aug 2026 18:15:22 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
@@ -48,35 +80,51 @@
         "cve": []
     },
     {
-        "title": "Windows 11 KB5121003 & KB5120240 cumulative updates released",
-        "date": "Tue, 11 Aug 2026 13:38:42 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+        "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+        "date": "Wed, 12 Aug 2026 16:43:03 +0530",
+        "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+        "source": "The Hacker News",
+        "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code exe",
         "cve": []
     },
     {
-        "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-        "date": "Tue, 11 Aug 2026 11:59:35 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-        "source": "BleepingComputer",
-        "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
+        "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+        "date": "Wed, 12 Aug 2026 14:31:54 +0530",
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-593",
         "cve": []
     },
     {
-        "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
-        "date": "Tue, 11 Aug 2026 09:20:28 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
-        "source": "BleepingComputer",
-        "summary": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
+        "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+        "date": "Wed, 12 Aug 2026 13:34:52 +0530",
+        "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+        "source": "The Hacker News",
+        "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other ",
         "cve": []
     },
     {
-        "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
-        "date": "Tue, 11 Aug 2026 09:15:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
-        "source": "BleepingComputer",
-        "summary": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and c",
+        "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+        "date": "Wed, 12 Aug 2026 13:01:40 +0530",
+        "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+        "source": "The Hacker News",
+        "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE ide",
+        "cve": []
+    },
+    {
+        "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+        "date": "Wed, 12 Aug 2026 12:11:38 +0530",
+        "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+        "source": "The Hacker News",
+        "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldB",
+        "cve": []
+    },
+    {
+        "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+        "date": "Wed, 12 Aug 2026 11:45:58 +0530",
+        "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+        "source": "The Hacker News",
+        "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild.\n\nThe hi",
         "cve": []
     },
     {
@@ -109,54 +157,6 @@
         "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
         "source": "The Hacker News",
         "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the coun",
-        "cve": []
-    },
-    {
-        "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-        "date": "Tue, 11 Aug 2026 22:17:44 +0530",
-        "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-        "source": "The Hacker News",
-        "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an ",
-        "cve": []
-    },
-    {
-        "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
-        "date": "Tue, 11 Aug 2026 22:05:27 +0530",
-        "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
-        "source": "The Hacker News",
-        "summary": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"I",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
-        "date": "Tue, 11 Aug 2026 18:41:23 +0530",
-        "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-        "source": "The Hacker News",
-        "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, ",
-        "cve": []
-    },
-    {
-        "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
-        "date": "Tue, 11 Aug 2026 17:35:03 +0530",
-        "url": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
-        "source": "The Hacker News",
-        "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics un",
-        "cve": []
-    },
-    {
-        "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
-        "date": "Tue, 11 Aug 2026 17:34:51 +0530",
-        "url": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
-        "source": "The Hacker News",
-        "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code reposito",
-        "cve": []
-    },
-    {
-        "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-        "date": "Tue, 11 Aug 2026 17:05:03 +0530",
-        "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-        "source": "The Hacker News",
-        "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was record",
         "cve": []
     },
     {
@@ -240,6 +240,54 @@
         "cve": []
     },
     {
+        "title": "Linux 7.2 To Revert Back To The FIFO DRM Scheduler Policy Due To \"Fair\" Regressions",
+        "date": "Wed, 12 Aug 2026 06:31:25 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.2-Reverting-DRM-Fair",
+        "source": "Phoronix",
+        "summary": "One of the Direct Rendering Manager changes made for Linux 7.2 was switching to \"fair\" as the DRM scheduler default in place of the existing FIFO policy. The intent was on making the DRM scheduler pol",
+        "cve": []
+    },
+    {
+        "title": "Mold 2.42 Delivering Greater Performance For This High Speed Linker",
+        "date": "Wed, 12 Aug 2026 06:21:09 -0400",
+        "url": "https://www.phoronix.com/news/Mold-2.42-Released",
+        "source": "Phoronix",
+        "summary": "It's been quiet since the Mold 2.41 release back in April while today it's now been succeeded by Mold 2.42 for deliver even greater performance out of this high speed linker...",
+        "cve": []
+    },
+    {
+        "title": "Intel LLM-Scaler Ready With Muse Glimmer Support, Other LLMs & Features",
+        "date": "Wed, 12 Aug 2026 06:12:00 -0400",
+        "url": "https://www.phoronix.com/news/Intel-LLM-Scaler-Muse-Glimmer",
+        "source": "Phoronix",
+        "summary": "Intel's LLM-Scaler project that was born out of their Project Battlematrix initiative aims to make it easier to run generative AI on Arc (Pro) B-Series graphics cards with the likes of vLLM, ComfyUI, ",
+        "cve": []
+    },
+    {
+        "title": "LACT 0.10 Released With New NVIDIA Overclocking Controls, Blackwell Hotspot Sensor",
+        "date": "Wed, 12 Aug 2026 05:52:03 -0400",
+        "url": "https://www.phoronix.com/news/LACT-0.10-Released",
+        "source": "Phoronix",
+        "summary": "LACT is one of the popular third-party Linux GPU configuration and monitoring utilities that works across NVIDIA, AMD, and Intel graphics. This GUI provides GPU overclocking controls plus a wealth of ",
+        "cve": []
+    },
+    {
+        "title": "QEMU 11.1 Released With Numerous Improvements",
+        "date": "Tue, 11 Aug 2026 21:42:47 -0400",
+        "url": "https://www.phoronix.com/news/QEMU-11.1-Released",
+        "source": "Phoronix",
+        "summary": "For those using QEMU as part of the open-source virtualization stack, QEMU 11.1 is now available with a number of new feature enhancements and fixes...",
+        "cve": []
+    },
+    {
+        "title": "Redox OS Enjoys installer Improvements, Performance Enhancements",
+        "date": "Tue, 11 Aug 2026 20:47:55 -0400",
+        "url": "https://www.phoronix.com/news/Redox-OS-July-2026",
+        "source": "Phoronix",
+        "summary": "A new blog post out today from the Redox OS crew highlights all of the interesting improvements made to this Rust-based, open-source operating system over the course of July...",
+        "cve": []
+    },
+    {
         "title": "Intel CPU Microcode 20260811 Release Fixes Eight Security Issues",
         "date": "Tue, 11 Aug 2026 15:26:09 -0400",
         "url": "https://www.phoronix.com/news/Intel-CPU-Microcode-20260811",
@@ -269,54 +317,6 @@
         "url": "https://www.phoronix.com/news/Flatpak-1.19-Released",
         "source": "Phoronix",
         "summary": "Flatpak 1.19 was released today as a new development release along with the Flatpak 1.18.1 stable point release. Both of these releases ship a number of newly-discovered security issues with this app ",
-        "cve": []
-    },
-    {
-        "title": "GNOME Designers Lay Out Some Of Their GNOME Shell Dreams",
-        "date": "Tue, 11 Aug 2026 08:35:30 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-Shell-Plans-2026",
-        "source": "Phoronix",
-        "summary": "GNOME interaction designer Tobias Bernard has shared some of the plans and ideas for long-term GNOME Shell improvements they have been eyeing for future GNOME releases...",
-        "cve": []
-    },
-    {
-        "title": "Up To 12.8x Improvement Observed For gup_test With New Linux MM Patches",
-        "date": "Tue, 11 Aug 2026 08:16:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Batch-Follow-Page-Mask",
-        "source": "Phoronix",
-        "summary": "Linux developer Rik van Riel has pulled off some nice Linux kernel optimizations over the years and the Meta engineer has been working on another one around batching of look-ups with Linux's follow_pa",
-        "cve": []
-    },
-    {
-        "title": "Raspberry Pi AXI PMU Driver Under Review For The Mainline Linux Kernel",
-        "date": "Tue, 11 Aug 2026 08:00:33 -0400",
-        "url": "https://www.phoronix.com/news/Raspberry-Pi-AXI-PMU-Linux",
-        "source": "Phoronix",
-        "summary": "One of the Raspberry Pi device drivers that has remained elusive from the mainline Linux kernel has been for the performance monitoring unit (PMU) for the Broadcom AXI on all Raspberry Pi 1 through Ra",
-        "cve": []
-    },
-    {
-        "title": "FastFlowLM 1.0 Released Now As Part Of The AMD ROCm Umbrella",
-        "date": "Tue, 11 Aug 2026 06:24:00 -0400",
-        "url": "https://www.phoronix.com/news/FastFlowLM-1.0",
-        "source": "Phoronix",
-        "summary": "FastFlowLM is the open-source software for getting vision, audio, embedding, and MoE large language models up and running on AMD Ryzen AI NPUs. FastFlowLM 1.0 released today and is also now part of th",
-        "cve": []
-    },
-    {
-        "title": "Rusticl Now Supports cl_ext_float_atomics",
-        "date": "Tue, 11 Aug 2026 06:13:00 -0400",
-        "url": "https://www.phoronix.com/news/Rusticl-cl_ext_float_atomics",
-        "source": "Phoronix",
-        "summary": "With the recent release of Mesa 26.2 the Rusticl OpenCL driver now supports OpenCL 3.1 on RadeonSI, LLVMpipe, Zink, Intel Iris, and Apple Asahi. But the work is not over and more improvements to this ",
-        "cve": []
-    },
-    {
-        "title": "Claude Opus Helped Debug & Fix Lack Of Audio On Linux For HP OmniBook X Flip 14",
-        "date": "Tue, 11 Aug 2026 05:59:26 -0400",
-        "url": "https://www.phoronix.com/news/HP-X-Flip-14-Linux-Audio",
-        "source": "Phoronix",
-        "summary": "The HP OmniBook X Flip 14-kc0xxx is an AMD Ryzen AI 300 \"Strix Point\" powered laptop. While most AMD Strix Point laptops work fine on modern Linux distributions, with this particular HP OmniBook X the",
         "cve": []
     }
 ]
