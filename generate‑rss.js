@@ -1,90 +1,98 @@
-const fs=require("fs");
+const fs = require("fs");
 
+// ================================
+// 读取 posts.json
+// ================================
 
-let posts=
-JSON.parse(
-fs.readFileSync(
-"posts.json",
-"utf8"
-)
+const posts = JSON.parse(
+    fs.readFileSync("posts.json", "utf8")
 );
 
 
+// ================================
+// XML特殊字符转义
+// 防止标题、描述中出现 &, <, > 等导致XML错误
+// ================================
 
-let items="";
+function escapeXml(value) {
+    if (value === undefined || value === null) {
+        return "";
+    }
 
-
-posts.forEach(post=>{
-
-
-items+=`
-
-<item>
-
-<title>
-${post.title}
-</title>
-
-
-<link>
-${post.url}
-</link>
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&apos;");
+}
 
 
-<description>
-${post.description}
-</description>
+// ================================
+// 生成 RSS items
+// ================================
 
+let items = "";
 
-<pubDate>
-${post.date}
-</pubDate>
+posts.forEach(post => {
 
+    items += `
+    <item>
+        <title>${escapeXml(post.title)}</title>
 
-</item>
+        <link>${escapeXml(post.url)}</link>
 
-`;
+        <guid isPermaLink="true">
+            ${escapeXml(post.url)}
+        </guid>
 
+        <description>
+            ${escapeXml(post.description)}
+        </description>
+
+        <pubDate>${escapeXml(post.date)}</pubDate>
+    </item>
+    `;
 });
 
 
+// ================================
+// RSS主体
+// ================================
 
-let rss=`
-
-<?xml version="1.0" encoding="UTF-8"?>
+const rss = `<?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0">
 
-<channel>
+    <channel>
 
+        <title>Wesley Blog</title>
 
-<title>
-Wesley Blog
-</title>
+        <link>https://wesleykq3.github.io/</link>
 
+        <description>个人知识库</description>
 
-<link>
-https://wesleykq3.github.io
-</link>
+        <language>zh-CN</language>
 
+        <generator>GitHub Actions RSS Generator</generator>
 
-<description>
-个人知识库
-</description>
+        ${items}
 
-
-${items}
-
-
-</channel>
+    </channel>
 
 </rss>
-
 `;
 
 
+// ================================
+// 写入 feed.xml
+// ================================
 
 fs.writeFileSync(
-"feed.xml",
-rss
+    "feed.xml",
+    rss.trim(),
+    "utf8"
 );
+
+console.log("RSS generated successfully.");
+console.log("Output: feed.xml");
