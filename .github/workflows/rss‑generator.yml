@@ -1,33 +1,63 @@
-name: Auto Generate RSS Feed
+name: Generate RSS
+
+
 on:
-  push:
-    branches: [ main ]
+
+ schedule:
+
+ - cron: "0 */6 * * *"
+
+
+ workflow_dispatch:
+
+
 
 jobs:
-  build_rss:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
 
-      - name: Run node script generate rss.xml
-        env:
-          SITE_DOMAIN: ${{ vars.SITE_DOMAIN }}
-        run: node generate-rss.js
+ rss:
 
-      - name: Commit & push updated rss.xml
-        run: |
-          git config --global user.name "github‑actions[bot]"
-          git config --global user.email "github‑actions[bot]@users.noreply.github.com"
-          git add rss.xml
-          git diff --cached --quiet || {
-            git commit -m "🤖 Auto update rss.xml from posts.json"
-            git push
-          }
+
+  runs-on:
+   ubuntu-latest
+
+
+  steps:
+
+
+  - uses:
+      actions/checkout@v4
+
+
+  - uses:
+      actions/setup-node@v4
+
+    with:
+
+      node-version:
+       20
+
+
+  - name:
+      Generate RSS
+
+    run:
+
+      node generate-rss.js
+
+
+
+  - name:
+      Commit
+
+    run:
+
+      |
+       git config user.name github-actions
+       git config user.email github-actions
+
+       git add feed.xml
+
+       git commit -m "update rss" || exit 0
+
+       git push
