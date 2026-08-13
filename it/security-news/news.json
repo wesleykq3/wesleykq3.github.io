@@ -1,5 +1,13 @@
 [
     {
+        "title": "WhatsApp rolls out new feature that flags potential scam messages",
+        "date": "Thu, 13 Aug 2026 07:50:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+        "source": "BleepingComputer",
+        "summary": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
+        "cve": []
+    },
+    {
         "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
         "date": "Wed, 12 Aug 2026 19:07:23 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
@@ -72,11 +80,11 @@
         "cve": []
     },
     {
-        "title": "Signal adds new security feature to thwart man-in-the-middle attacks",
-        "date": "Wed, 12 Aug 2026 07:21:42 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
-        "source": "BleepingComputer",
-        "summary": "​Signal has introduced Automatic Key Verification, a new security feature that gives users a new way to ensure their encrypted chats haven't been intercepted. [...]",
+        "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+        "date": "Thu, 13 Aug 2026 11:39:48 +0530",
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.\n\nThe vulnerability in question is CVE-2026-55040 (CVSS ",
         "cve": []
     },
     {
@@ -152,91 +160,83 @@
         "cve": []
     },
     {
-        "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-        "date": "Wed, 12 Aug 2026 11:45:58 +0530",
-        "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-        "source": "The Hacker News",
-        "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild.\n\nThe hi",
+        "title": "Hackers Leveraging GoogleWorkspace Accounts to Send Phishing and Scam Emails",
+        "date": "Thu, 13 Aug 2026 12:21:13 +0000",
+        "url": "https://cybersecuritynews.com/hackers-leveraging-googleworkspace/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are turning compromised Google Workspace accounts into tools for phishing and scam emails. The messages can look ordinary because they come from real organizational domains, not newly created ",
         "cve": []
     },
     {
-        "title": "Palo Alto Networks Patches 11 New Vulnerabilities Across PAN-OS, GlobalProtect, and Prisma Access",
-        "date": "Wed, 12 Aug 2026 17:26:16 +0000",
-        "url": "https://cybersecuritynews.com/palo-alto-networks-vulnerabilities/",
+        "title": "Thousand of Internet-Exposed Contollers Could Put Data center Cooling and Power at Risk",
+        "date": "Thu, 13 Aug 2026 12:03:38 +0000",
+        "url": "https://cybersecuritynews.com/thousand-of-internet-exposed-contollers/",
         "source": "CyberSecurityNews",
-        "summary": "Palo Alto Networks has released its August 12, 2026 security bulletin, disclosing 11 new vulnerabilities affecting PAN-OS, the GlobalProtect App, Prisma Access Agent, and Prisma Browser, along with a ",
+        "summary": "Thousands of internet-exposed building controllers may be putting the physical backbone of U.S. data centers at risk. They manage cooling, electrical distribution, and environmental conditions. If an ",
         "cve": []
     },
     {
-        "title": "New “City-Forum” Hackers Attacking Salesforce and ServiceNow Instances Worldwide",
-        "date": "Wed, 12 Aug 2026 17:17:31 +0000",
-        "url": "https://cybersecuritynews.com/salesforce-and-servicenow-targeted-in-attacks/",
+        "title": "1 Tbps DDoS Attacks Become the New Normal as Cloudflare Reports Record H1 Activity",
+        "date": "Thu, 13 Aug 2026 11:55:30 +0000",
+        "url": "https://cybersecuritynews.com/1-tbps-ddos-attacks/",
         "source": "CyberSecurityNews",
-        "summary": "A newly identified threat actor is running a large-scale, long-running cyber campaign targeting Salesforce Experience Cloud sites and ServiceNow Service Portals globally. Dubbed the &#8220;City-Forum ",
+        "summary": "Cloudflare has reported a sharp rise in large-scale distributed denial-of-service attacks during the first half of 2026, blocking 935 network-layer attacks exceeding 1 terabit per second. The company ",
         "cve": []
     },
     {
-        "title": "Mindgard Raises $30 Million to Tackle AI’s Fastest-Growing Attack Surface",
-        "date": "Wed, 12 Aug 2026 17:09:07 +0000",
-        "url": "https://cybersecuritynews.com/mindgard-ai-security/",
+        "title": "Hackers Actively Exploiting Microsoft SharePoint Vulnerability Following PoC Release",
+        "date": "Thu, 13 Aug 2026 11:46:33 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-sharepoint-vulnerability-exploited-2/",
         "source": "CyberSecurityNews",
-        "summary": "AI security startup Mindgard has closed a $30 million Series A funding round, pushing the company&#8217;s total funding to nearly $42 million. The milestone reflects the growing urgency among enterpri",
+        "summary": "Threat actors have wasted no time weaponizing a newly disclosed Microsoft SharePoint authentication bypass, launching real-world attacks against internet-facing servers just hours after security firm ",
         "cve": []
     },
     {
-        "title": "China-linked Hackers Using AI Agents to Attack Taiwan Government Websites",
-        "date": "Wed, 12 Aug 2026 16:22:25 +0000",
-        "url": "https://cybersecuritynews.com/chinese-hackers-target-taiwan-using-ai/",
+        "title": "Gunra Uses Stolen Sessions and RDP to Pivot Into Active Directory and IT Workstations",
+        "date": "Thu, 13 Aug 2026 11:29:50 +0000",
+        "url": "https://cybersecuritynews.com/gunra-uses-stolen-sessions/",
         "source": "CyberSecurityNews",
-        "summary": "Suspected China-linked attackers have carried out what researchers describe as the first fully autonomous cyberattack on a foreign government, using open-source artificial intelligence tools to breach",
+        "summary": "Gunra ransomware has moved from a new name to a serious enterprise threat in a short time. The group breaks into exposed edge devices, steals valuable data, and then encrypts systems across both Windo",
         "cve": []
     },
     {
-        "title": "Critical Adobe ColdFusion Vulnerabilities Allow Attackers to Execute Arbitrary Code",
-        "date": "Wed, 12 Aug 2026 15:29:52 +0000",
-        "url": "https://cybersecuritynews.com/adobe-coldfusion-vulnerabilities-code-execution/",
+        "title": "Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks",
+        "date": "Thu, 13 Aug 2026 10:37:21 +0000",
+        "url": "https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser/",
         "source": "CyberSecurityNews",
-        "summary": "Adobe has issued critical security updates for ColdFusion 2025 and ColdFusion 2023, addressing multiple vulnerabilities that could allow threat actors to execute arbitrary code, bypass security contro",
+        "summary": "Kimwolf v7 is raising the stakes for attacks launched from everyday Android TV boxes and set-top devices. The latest version can make disruptive web traffic look more like a real visitor browsing a si",
         "cve": []
     },
     {
-        "title": "WhatsApp Unveils New Scam Alert Feature to Protect Users from Social Engineering Attacks",
-        "date": "Wed, 12 Aug 2026 14:59:18 +0000",
-        "url": "https://cybersecuritynews.com/whatsapp-scam-alert-feature/",
+        "title": "40 Minute LiteLLM Hack Exposes Cloud Keys and CI/CD Secrets From 2,488 Companies",
+        "date": "Thu, 13 Aug 2026 10:32:21 +0000",
+        "url": "https://cybersecuritynews.com/40-minute-litellm-hack/",
         "source": "CyberSecurityNews",
-        "summary": "WhatsApp has announced a new optional feature called Scam Alert, designed to warn users about potential scam messages using an on-device machine learning model, without compromising the platform&#8217",
+        "summary": "A supply-chain breach involving LiteLLM has widened from a compromised software release into an exposure event affecting thousands of corporate build environments. The incident shows how one poisoned ",
         "cve": []
     },
     {
-        "title": "Eclipse Ransomware Launches RaaS Platform Targeting Windows, Linux, and ESXi Infrastructure",
-        "date": "Wed, 12 Aug 2026 14:35:59 +0000",
-        "url": "https://cybersecuritynews.com/eclipse-ransomware-raas-platform/",
+        "title": "Wireshark 4.6.8 Released With Patch for 28 Vulnerabilities That Lead to Crashes",
+        "date": "Thu, 13 Aug 2026 10:07:22 +0000",
+        "url": "https://cybersecuritynews.com/wireshark-4-6-8-released/",
         "source": "CyberSecurityNews",
-        "summary": "A threat actor operating under the handle EclipseSupport is actively promoting a new Ransomware-as-a-Service (RaaS) operation named Eclipse Ransomware on cybercrime forums. The group is recruiting cyb",
+        "summary": "The Wireshark Foundation has officially rolled out Wireshark 4.6.8, a security update that patches 28 distinct vulnerabilities capable of triggering application crashes across the network protocol ana",
         "cve": []
     },
     {
-        "title": "Google Chrome 151 Patches Five High-Severity Use-After-Free Flaws in V8, Blink, and Extensions",
-        "date": "Wed, 12 Aug 2026 14:31:33 +0000",
-        "url": "https://cybersecuritynews.com/chrome-151-high-severity-flaws/",
+        "title": "Blacklight Toolkit Finds Codex, Claude Code, and Cursor Artifacts Exposing Tokens and Session Data",
+        "date": "Thu, 13 Aug 2026 09:46:21 +0000",
+        "url": "https://cybersecuritynews.com/blacklight-toolkit/",
         "source": "CyberSecurityNews",
-        "summary": "Google has officially released Chrome 151 to the Stable channel, mitigating five high-severity security vulnerabilities impacting key browser engine components, including the V8 JavaScript engine, Bli",
+        "summary": "SpecterOps has released Blacklight, an open-source toolkit that identifies local artifacts from AI coding agents like Codex, Claude Code, Cursor, and Antigravity CLI, which can expose authentication d",
         "cve": []
     },
     {
-        "title": "Hackers Actively Exploiting VMware vCenter Systems to Gain and Maintain Remote Access",
-        "date": "Wed, 12 Aug 2026 13:58:15 +0000",
-        "url": "https://cybersecuritynews.com/vmware-vcenter-remote-access-exploited/",
+        "title": "Phantom Stealer Hides Inside PNG Files, Then Steals Your Passwords, Cookies and Crypto",
+        "date": "Thu, 13 Aug 2026 09:08:52 +0000",
+        "url": "https://cybersecuritynews.com/phantom-stealer-inside-png/",
         "source": "CyberSecurityNews",
-        "summary": "An active cyberattack campaign targeting internet-accessible VMware vCenter instances. QUIRSO researchers uncovered evidence that advanced persistent threat (APT) actors are actively weaponizing CVE-2",
-        "cve": []
-    },
-    {
-        "title": "737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies",
-        "date": "Wed, 12 Aug 2026 13:05:25 +0000",
-        "url": "https://cybersecuritynews.com/fake-chrome-vpn-extensions/",
-        "source": "CyberSecurityNews",
-        "summary": "Hundreds of Chrome extensions advertised as free VPN or proxy tools have been tied to a large traffic-redirection operation. The listings promised privacy and access to blocked services, but their cod",
+        "summary": "Phantom Stealer is taking a familiar computer file and turning it into a hiding place. The credential-stealing malware can conceal its next stage in PNG resources, then quietly collect passwords, brow",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "ShieldBreak Windows Defender 0-Day Lets Attackers Bypass Microsoft Patch and Gain SYSTEM Privileges",
-        "date": "Wed, 12 Aug 2026 13:38:42 +0000",
-        "url": "https://gbhackers.com/shieldbreak-windows-defender-0-day/",
+        "title": "Trump Administration Authorizes Cyber Operations Against Foreign Criminal Networks",
+        "date": "Thu, 13 Aug 2026 12:32:44 +0000",
+        "url": "https://gbhackers.com/trump-administration-authorizes-cyber-operations/",
         "source": "GBHackers",
-        "summary": "Security researcher Nightmare-Eclipse, also known as Chaotic Eclipse, has released a new Windows privilege escalation exploit named ShieldBreak. This exploit claims to bypass Microsoft’s July 2026 fix",
+        "summary": "The Trump administration has issued a presidential memorandum that establishes a federal program allowing vetted U.S. private-sector companies to conduct government-directed cyber surveillance and cyb",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Critical VMware vCenter Flaw to Deploy Reverse SSH Across 47 Countries",
-        "date": "Wed, 12 Aug 2026 12:27:22 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-critical-vmware-vcenter-flaw/",
+        "title": "LiteLLM Hack Exposes Secrets From 2,488 Companies Across 118,829 CI Runner Dumps",
+        "date": "Thu, 13 Aug 2026 11:58:56 +0000",
+        "url": "https://gbhackers.com/litellm-hack-exposes-secrets/",
         "source": "GBHackers",
-        "summary": "Threat researchers have identified an active campaign exploiting the critical VMware vCenter vulnerability CVE-2026-59310, with 361 victim IP addresses observed across 47 countries. This campaign repo",
+        "summary": "The LiteLLM supply-chain compromise has shifted from a short-lived malicious package incident into a sprawling enterprise exposure event. Analysis of an alleged 153GB attacker archive has linked 118,8",
         "cve": []
     },
     {
-        "title": "CISA Warns Critical Metabase SQL Injection Flaw Lets Unauthenticated Attackers Gain Admin Access",
-        "date": "Wed, 12 Aug 2026 12:02:03 +0000",
-        "url": "https://gbhackers.com/cisa-warns-critical-metabase-sql-injection-flaw/",
+        "title": "CISA Adds Actively Exploited Windows WinSock Vulnerability to KEV Catalog",
+        "date": "Thu, 13 Aug 2026 11:08:27 +0000",
+        "url": "https://gbhackers.com/cisa-adds-actively-exploited-windows-winsock-vulnerability/",
         "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has identified a critical SQL injection vulnerability in Metabase, adding it to its Known Exploited Vulnerabilities (KEV) Catalog. This",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Microsoft Windows vulnerability to its Known Exploited Vulnerabilities catalog, warning that the flaw is actively ",
         "cve": []
     },
     {
-        "title": "Fake VPN Extensions Put Operators in Adversary-in-the-Middle Position Over Chrome Traffic",
-        "date": "Wed, 12 Aug 2026 11:54:41 +0000",
-        "url": "https://gbhackers.com/fake-vpn-extensions/",
+        "title": "Wireshark 4.6.8 Released to Patch 28 Security Vulnerabilities",
+        "date": "Thu, 13 Aug 2026 10:53:39 +0000",
+        "url": "https://gbhackers.com/wireshark-4-6-8-released/",
         "source": "GBHackers",
-        "summary": "A Chrome Web Store operation that turns “free VPN” extensions into browser-wide traffic relays controlled by a single proxy provider. The campaign comprises 737 extensions published by at least 40 dev",
+        "summary": "Wireshark has released version 4.6.8, which addresses security vulnerabilities in 28 identified issues that could lead to crashes, abnormal exits, memory-safety problems, and denial-of-service conditi",
         "cve": []
     },
     {
-        "title": "Google Chrome Blocks Abusive Notifications Used to Deliver Malware and Scams",
-        "date": "Wed, 12 Aug 2026 11:47:57 +0000",
-        "url": "https://gbhackers.com/google-chrome-blocks-abusive-notifications/",
+        "title": "Armored Likho Turns Windows Microphones Into Automated Eavesdropping Devices",
+        "date": "Thu, 13 Aug 2026 10:41:00 +0000",
+        "url": "https://gbhackers.com/likho-hijacks-microphones/",
         "source": "GBHackers",
-        "summary": "Google Chrome has implemented enhanced defenses aimed at disrupting abusive web push notifications that are often used to distribute malware, phishing attempts, fraudulent payment requests, and scam c",
+        "summary": "Armored Likho, also tracked as Eagle Werewolf, has expanded its espionage capability with a Rust-based toolkit that can hijack Telegram sessions and transform compromised Windows endpoints into automa",
         "cve": []
     },
     {
-        "title": "Dark Web Corporate Access Prices Surge 4,055% as Stolen Credentials Flood Cybercrime Markets",
-        "date": "Wed, 12 Aug 2026 11:28:18 +0000",
-        "url": "https://gbhackers.com/dark-web-corporate-access/",
+        "title": "Cloudflare Mitigates 23.2 Million DDoS Attacks as 1 Tbps Attacks Surge 519%",
+        "date": "Thu, 13 Aug 2026 10:39:23 +0000",
+        "url": "https://gbhackers.com/cloudflare-mitigates-23-2-million-ddos-attacks/",
         "source": "GBHackers",
-        "summary": "Corporate network access is becoming both cheaper to obtain at scale and vastly more valuable at the top end of the criminal market. That contradiction defines the identity threat economy entering 202",
+        "summary": "Cloudflare has mitigated 23.2 million network-layer DDoS attacks and stopped 29.64 trillion HTTP DDoS requests during the first half of 2026. This underscores a significant increase in both the freque",
         "cve": []
     },
     {
-        "title": "Google Chrome 151 Update Fixes 5 High-Severity Use-After-Free Vulnerabilities",
-        "date": "Wed, 12 Aug 2026 11:11:19 +0000",
-        "url": "https://gbhackers.com/google-chrome-151/",
+        "title": "6,330 Internet-Exposed ICS Devices Near U.S. Data Centers Put Cooling and Power Systems at Risk",
+        "date": "Thu, 13 Aug 2026 10:04:45 +0000",
+        "url": "https://gbhackers.com/6330-internet-exposed-ics-devices/",
         "source": "GBHackers",
-        "summary": "Google has released Chrome version 151.0.7922.137/138 for Windows and macOS, and version 151.0.7922.137 for Linux. This update addresses five high-severity security vulnerabilities, all use-after-free",
+        "summary": "A newly published internet-exposure analysis has identified more than 6,300 high-confidence industrial control system and building automation devices accessible near 1,063 U.S. data centers. Exposing ",
         "cve": []
     },
     {
-        "title": "Microsoft SharePoint RCE Vulnerability Lets Remote Attackers Execute Code",
-        "date": "Wed, 12 Aug 2026 10:41:17 +0000",
-        "url": "https://gbhackers.com/microsoft-sharepoint-rce-vulnerability/",
+        "title": "Critical Adobe Commerce Flaw Lets Unauthenticated Attackers Escalate Privileges",
+        "date": "Thu, 13 Aug 2026 08:36:18 +0000",
+        "url": "https://gbhackers.com/critical-adobe-commerce-flaw/",
         "source": "GBHackers",
-        "summary": "A newly disclosed vulnerability in Microsoft SharePoint Server, tracked as CVE-2026-63520, could allow attackers to execute arbitrary code remotely on affected systems. This flaw has a severity rating",
+        "summary": "Adobe has released security updates for Adobe Commerce, Adobe Commerce B2B, and Magento Open Source to address multiple critical vulnerabilities. One of the most serious issues is a high-impact privil",
         "cve": []
     },
     {
-        "title": "Malicious CCleaner Installer Patches Chrome Security Extension to Deploy Browser Spyware",
-        "date": "Wed, 12 Aug 2026 10:20:02 +0000",
-        "url": "https://gbhackers.com/malicious-ccleaner-installer/",
+        "title": "WhatsApp Introduces On-Device Scam Alert to Detect Fraud Messages",
+        "date": "Thu, 13 Aug 2026 08:21:06 +0000",
+        "url": "https://gbhackers.com/whatsapp-introduces-on-device-scam-alert/",
         "source": "GBHackers",
-        "summary": "A counterfeit installer for the widely used PC-cleaning utility CCleaner is being used to compromise Windows systems and deploy a malicious Chrome extension dubbed GhostDesk. CCleaner’s global popular",
+        "summary": "WhatsApp has initiated a limited beta rollout of a feature called Scam Alert, which utilises an on-device machine learning model to identify potentially scam messages from non-contacts while maintaini",
         "cve": []
     },
     {
-        "title": "WindRelay Turns Android Phones Into Fake Payment Terminals for Remote Card Fraud",
-        "date": "Wed, 12 Aug 2026 09:33:20 +0000",
-        "url": "https://gbhackers.com/windrelay-turns-android-phones/",
+        "title": "Adobe ColdFusion Critical Vulnerabilities Enable Arbitrary Code Execution",
+        "date": "Thu, 13 Aug 2026 08:12:33 +0000",
+        "url": "https://gbhackers.com/adobe-coldfusion-critical-vulnerabilities-2/",
         "source": "GBHackers",
-        "summary": "A newly identified Android malware family, tracked as WindRelay, is being used alongside the SpyNote remote-access trojan to convert victims’ phones into rogue contactless-card readers and enable real",
+        "summary": "Adobe has released critical security updates for ColdFusion 2025 and ColdFusion 2023, addressing 17 vulnerabilities that could enable arbitrary code execution, privilege escalation, bypass of security",
         "cve": []
     }
 ]
