@@ -1,5 +1,69 @@
 [
     {
+        "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+        "date": "Wed, 12 Aug 2026 19:07:23 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+        "source": "BleepingComputer",
+        "summary": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
+        "cve": []
+    },
+    {
+        "title": "Android malware combo takes out loans and relays victims' credit cards",
+        "date": "Wed, 12 Aug 2026 18:22:57 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+        "source": "BleepingComputer",
+        "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+        "date": "Wed, 12 Aug 2026 16:54:59 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+        "source": "BleepingComputer",
+        "summary": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+        "date": "Wed, 12 Aug 2026 14:54:57 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+        "source": "BleepingComputer",
+        "summary": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [..",
+        "cve": []
+    },
+    {
+        "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
+        "date": "Wed, 12 Aug 2026 12:05:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+        "source": "BleepingComputer",
+        "summary": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM pr",
+        "cve": []
+    },
+    {
+        "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+        "date": "Wed, 12 Aug 2026 11:38:08 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+        "source": "BleepingComputer",
+        "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
+        "cve": []
+    },
+    {
+        "title": "FBI: Hackers target online accounts to steal nude photos",
+        "date": "Wed, 12 Aug 2026 10:15:09 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
+        "source": "BleepingComputer",
+        "summary": "The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or videos. [...]",
+        "cve": []
+    },
+    {
+        "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
+        "date": "Wed, 12 Aug 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
+        "source": "BleepingComputer",
+        "summary": "Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and b",
+        "cve": []
+    },
+    {
         "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
         "date": "Wed, 12 Aug 2026 08:25:37 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
@@ -16,67 +80,35 @@
         "cve": []
     },
     {
-        "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
-        "date": "Wed, 12 Aug 2026 06:15:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
-        "source": "BleepingComputer",
-        "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
+        "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+        "date": "Wed, 12 Aug 2026 23:09:27 +0530",
+        "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+        "source": "The Hacker News",
+        "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdo",
         "cve": []
     },
     {
-        "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
-        "date": "Tue, 11 Aug 2026 21:15:55 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
-        "source": "BleepingComputer",
-        "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
+        "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+        "date": "Wed, 12 Aug 2026 19:39:50 +0530",
+        "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+        "source": "The Hacker News",
+        "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them th",
         "cve": []
     },
     {
-        "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
-        "date": "Tue, 11 Aug 2026 18:15:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
-        "source": "BleepingComputer",
-        "summary": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
+        "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+        "date": "Wed, 12 Aug 2026 17:17:38 +0530",
+        "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+        "source": "The Hacker News",
+        "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API ke",
         "cve": []
     },
     {
-        "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
-        "date": "Tue, 11 Aug 2026 17:07:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
-        "source": "BleepingComputer",
-        "summary": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
-        "cve": []
-    },
-    {
-        "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
-        "date": "Tue, 11 Aug 2026 15:45:31 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
-        "source": "BleepingComputer",
-        "summary": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices",
-        "cve": []
-    },
-    {
-        "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
-        "date": "Tue, 11 Aug 2026 14:34:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
-        "source": "BleepingComputer",
-        "summary": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft releases Windows 10 KB5120249 extended security update",
-        "date": "Tue, 11 Aug 2026 14:26:03 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
-        "date": "Tue, 11 Aug 2026 14:08:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
-        "source": "BleepingComputer",
-        "summary": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+        "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+        "date": "Wed, 12 Aug 2026 17:11:34 +0530",
+        "url": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+        "source": "The Hacker News",
+        "summary": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none.\n\nAccording to Picus Labs' new Blue Report 2026, which measured more than 33",
         "cve": []
     },
     {
@@ -128,35 +160,83 @@
         "cve": []
     },
     {
-        "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
-        "date": "Wed, 12 Aug 2026 01:40:55 +0530",
-        "url": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-        "source": "The Hacker News",
-        "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.\n\nThe bug sits in a core Windows kernel driver that handles network socket o",
+        "title": "Palo Alto Networks Patches 11 New Vulnerabilities Across PAN-OS, GlobalProtect, and Prisma Access",
+        "date": "Wed, 12 Aug 2026 17:26:16 +0000",
+        "url": "https://cybersecuritynews.com/palo-alto-networks-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Palo Alto Networks has released its August 12, 2026 security bulletin, disclosing 11 new vulnerabilities affecting PAN-OS, the GlobalProtect App, Prisma Access Agent, and Prisma Browser, along with a ",
         "cve": []
     },
     {
-        "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-        "date": "Wed, 12 Aug 2026 01:06:37 +0530",
-        "url": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience",
+        "title": "New “City-Forum” Hackers Attacking Salesforce and ServiceNow Instances Worldwide",
+        "date": "Wed, 12 Aug 2026 17:17:31 +0000",
+        "url": "https://cybersecuritynews.com/salesforce-and-servicenow-targeted-in-attacks/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly identified threat actor is running a large-scale, long-running cyber campaign targeting Salesforce Experience Cloud sites and ServiceNow Service Portals globally. Dubbed the &#8220;City-Forum ",
         "cve": []
     },
     {
-        "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
-        "date": "Wed, 12 Aug 2026 00:38:47 +0530",
-        "url": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-        "source": "The Hacker News",
-        "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.\n\nThe flaw sat in the annotation tool, th",
+        "title": "Mindgard Raises $30 Million to Tackle AI’s Fastest-Growing Attack Surface",
+        "date": "Wed, 12 Aug 2026 17:09:07 +0000",
+        "url": "https://cybersecuritynews.com/mindgard-ai-security/",
+        "source": "CyberSecurityNews",
+        "summary": "AI security startup Mindgard has closed a $30 million Series A funding round, pushing the company&#8217;s total funding to nearly $42 million. The milestone reflects the growing urgency among enterpri",
         "cve": []
     },
     {
-        "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-        "date": "Wed, 12 Aug 2026 00:06:47 +0530",
-        "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-        "source": "The Hacker News",
-        "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the coun",
+        "title": "China-linked Hackers Using AI Agents to Attack Taiwan Government Websites",
+        "date": "Wed, 12 Aug 2026 16:22:25 +0000",
+        "url": "https://cybersecuritynews.com/chinese-hackers-target-taiwan-using-ai/",
+        "source": "CyberSecurityNews",
+        "summary": "Suspected China-linked attackers have carried out what researchers describe as the first fully autonomous cyberattack on a foreign government, using open-source artificial intelligence tools to breach",
+        "cve": []
+    },
+    {
+        "title": "Critical Adobe ColdFusion Vulnerabilities Allow Attackers to Execute Arbitrary Code",
+        "date": "Wed, 12 Aug 2026 15:29:52 +0000",
+        "url": "https://cybersecuritynews.com/adobe-coldfusion-vulnerabilities-code-execution/",
+        "source": "CyberSecurityNews",
+        "summary": "Adobe has issued critical security updates for ColdFusion 2025 and ColdFusion 2023, addressing multiple vulnerabilities that could allow threat actors to execute arbitrary code, bypass security contro",
+        "cve": []
+    },
+    {
+        "title": "WhatsApp Unveils New Scam Alert Feature to Protect Users from Social Engineering Attacks",
+        "date": "Wed, 12 Aug 2026 14:59:18 +0000",
+        "url": "https://cybersecuritynews.com/whatsapp-scam-alert-feature/",
+        "source": "CyberSecurityNews",
+        "summary": "WhatsApp has announced a new optional feature called Scam Alert, designed to warn users about potential scam messages using an on-device machine learning model, without compromising the platform&#8217",
+        "cve": []
+    },
+    {
+        "title": "Eclipse Ransomware Launches RaaS Platform Targeting Windows, Linux, and ESXi Infrastructure",
+        "date": "Wed, 12 Aug 2026 14:35:59 +0000",
+        "url": "https://cybersecuritynews.com/eclipse-ransomware-raas-platform/",
+        "source": "CyberSecurityNews",
+        "summary": "A threat actor operating under the handle EclipseSupport is actively promoting a new Ransomware-as-a-Service (RaaS) operation named Eclipse Ransomware on cybercrime forums. The group is recruiting cyb",
+        "cve": []
+    },
+    {
+        "title": "Google Chrome 151 Patches Five High-Severity Use-After-Free Flaws in V8, Blink, and Extensions",
+        "date": "Wed, 12 Aug 2026 14:31:33 +0000",
+        "url": "https://cybersecuritynews.com/chrome-151-high-severity-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Google has officially released Chrome 151 to the Stable channel, mitigating five high-severity security vulnerabilities impacting key browser engine components, including the V8 JavaScript engine, Bli",
+        "cve": []
+    },
+    {
+        "title": "Hackers Actively Exploiting VMware vCenter Systems to Gain and Maintain Remote Access",
+        "date": "Wed, 12 Aug 2026 13:58:15 +0000",
+        "url": "https://cybersecuritynews.com/vmware-vcenter-remote-access-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "An active cyberattack campaign targeting internet-accessible VMware vCenter instances. QUIRSO researchers uncovered evidence that advanced persistent threat (APT) actors are actively weaponizing CVE-2",
+        "cve": []
+    },
+    {
+        "title": "737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies",
+        "date": "Wed, 12 Aug 2026 13:05:25 +0000",
+        "url": "https://cybersecuritynews.com/fake-chrome-vpn-extensions/",
+        "source": "CyberSecurityNews",
+        "summary": "Hundreds of Chrome extensions advertised as free VPN or proxy tools have been tied to a large traffic-redirection operation. The listings promised privacy and access to blocked services, but their cod",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Linux 7.2 To Revert Back To The FIFO DRM Scheduler Policy Due To \"Fair\" Regressions",
-        "date": "Wed, 12 Aug 2026 06:31:25 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.2-Reverting-DRM-Fair",
-        "source": "Phoronix",
-        "summary": "One of the Direct Rendering Manager changes made for Linux 7.2 was switching to \"fair\" as the DRM scheduler default in place of the existing FIFO policy. The intent was on making the DRM scheduler pol",
+        "title": "ShieldBreak Windows Defender 0-Day Lets Attackers Bypass Microsoft Patch and Gain SYSTEM Privileges",
+        "date": "Wed, 12 Aug 2026 13:38:42 +0000",
+        "url": "https://gbhackers.com/shieldbreak-windows-defender-0-day/",
+        "source": "GBHackers",
+        "summary": "Security researcher Nightmare-Eclipse, also known as Chaotic Eclipse, has released a new Windows privilege escalation exploit named ShieldBreak. This exploit claims to bypass Microsoft’s July 2026 fix",
         "cve": []
     },
     {
-        "title": "Mold 2.42 Delivering Greater Performance For This High Speed Linker",
-        "date": "Wed, 12 Aug 2026 06:21:09 -0400",
-        "url": "https://www.phoronix.com/news/Mold-2.42-Released",
-        "source": "Phoronix",
-        "summary": "It's been quiet since the Mold 2.41 release back in April while today it's now been succeeded by Mold 2.42 for deliver even greater performance out of this high speed linker...",
+        "title": "Hackers Exploit Critical VMware vCenter Flaw to Deploy Reverse SSH Across 47 Countries",
+        "date": "Wed, 12 Aug 2026 12:27:22 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-critical-vmware-vcenter-flaw/",
+        "source": "GBHackers",
+        "summary": "Threat researchers have identified an active campaign exploiting the critical VMware vCenter vulnerability CVE-2026-59310, with 361 victim IP addresses observed across 47 countries. This campaign repo",
         "cve": []
     },
     {
-        "title": "Intel LLM-Scaler Ready With Muse Glimmer Support, Other LLMs & Features",
-        "date": "Wed, 12 Aug 2026 06:12:00 -0400",
-        "url": "https://www.phoronix.com/news/Intel-LLM-Scaler-Muse-Glimmer",
-        "source": "Phoronix",
-        "summary": "Intel's LLM-Scaler project that was born out of their Project Battlematrix initiative aims to make it easier to run generative AI on Arc (Pro) B-Series graphics cards with the likes of vLLM, ComfyUI, ",
+        "title": "CISA Warns Critical Metabase SQL Injection Flaw Lets Unauthenticated Attackers Gain Admin Access",
+        "date": "Wed, 12 Aug 2026 12:02:03 +0000",
+        "url": "https://gbhackers.com/cisa-warns-critical-metabase-sql-injection-flaw/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has identified a critical SQL injection vulnerability in Metabase, adding it to its Known Exploited Vulnerabilities (KEV) Catalog. This",
         "cve": []
     },
     {
-        "title": "LACT 0.10 Released With New NVIDIA Overclocking Controls, Blackwell Hotspot Sensor",
-        "date": "Wed, 12 Aug 2026 05:52:03 -0400",
-        "url": "https://www.phoronix.com/news/LACT-0.10-Released",
-        "source": "Phoronix",
-        "summary": "LACT is one of the popular third-party Linux GPU configuration and monitoring utilities that works across NVIDIA, AMD, and Intel graphics. This GUI provides GPU overclocking controls plus a wealth of ",
+        "title": "Fake VPN Extensions Put Operators in Adversary-in-the-Middle Position Over Chrome Traffic",
+        "date": "Wed, 12 Aug 2026 11:54:41 +0000",
+        "url": "https://gbhackers.com/fake-vpn-extensions/",
+        "source": "GBHackers",
+        "summary": "A Chrome Web Store operation that turns “free VPN” extensions into browser-wide traffic relays controlled by a single proxy provider. The campaign comprises 737 extensions published by at least 40 dev",
         "cve": []
     },
     {
-        "title": "QEMU 11.1 Released With Numerous Improvements",
-        "date": "Tue, 11 Aug 2026 21:42:47 -0400",
-        "url": "https://www.phoronix.com/news/QEMU-11.1-Released",
-        "source": "Phoronix",
-        "summary": "For those using QEMU as part of the open-source virtualization stack, QEMU 11.1 is now available with a number of new feature enhancements and fixes...",
+        "title": "Google Chrome Blocks Abusive Notifications Used to Deliver Malware and Scams",
+        "date": "Wed, 12 Aug 2026 11:47:57 +0000",
+        "url": "https://gbhackers.com/google-chrome-blocks-abusive-notifications/",
+        "source": "GBHackers",
+        "summary": "Google Chrome has implemented enhanced defenses aimed at disrupting abusive web push notifications that are often used to distribute malware, phishing attempts, fraudulent payment requests, and scam c",
         "cve": []
     },
     {
-        "title": "Redox OS Enjoys installer Improvements, Performance Enhancements",
-        "date": "Tue, 11 Aug 2026 20:47:55 -0400",
-        "url": "https://www.phoronix.com/news/Redox-OS-July-2026",
-        "source": "Phoronix",
-        "summary": "A new blog post out today from the Redox OS crew highlights all of the interesting improvements made to this Rust-based, open-source operating system over the course of July...",
+        "title": "Dark Web Corporate Access Prices Surge 4,055% as Stolen Credentials Flood Cybercrime Markets",
+        "date": "Wed, 12 Aug 2026 11:28:18 +0000",
+        "url": "https://gbhackers.com/dark-web-corporate-access/",
+        "source": "GBHackers",
+        "summary": "Corporate network access is becoming both cheaper to obtain at scale and vastly more valuable at the top end of the criminal market. That contradiction defines the identity threat economy entering 202",
         "cve": []
     },
     {
-        "title": "Intel CPU Microcode 20260811 Release Fixes Eight Security Issues",
-        "date": "Tue, 11 Aug 2026 15:26:09 -0400",
-        "url": "https://www.phoronix.com/news/Intel-CPU-Microcode-20260811",
-        "source": "Phoronix",
-        "summary": "Intel today published their 20260811 CPU microcode updates to fix a variety of issues for existing processors, including shipping the first new microcode images for Bartlett Lake and Wildcat Lake. The",
+        "title": "Google Chrome 151 Update Fixes 5 High-Severity Use-After-Free Vulnerabilities",
+        "date": "Wed, 12 Aug 2026 11:11:19 +0000",
+        "url": "https://gbhackers.com/google-chrome-151/",
+        "source": "GBHackers",
+        "summary": "Google has released Chrome version 151.0.7922.137/138 for Windows and macOS, and version 151.0.7922.137 for Linux. This update addresses five high-severity security vulnerabilities, all use-after-free",
         "cve": []
     },
     {
-        "title": "OpenAI Brings ChatGPT Desktop App To Linux",
-        "date": "Tue, 11 Aug 2026 14:37:16 -0400",
-        "url": "https://www.phoronix.com/news/ChatGPT-Desktop-Linux-Preview",
-        "source": "Phoronix",
-        "summary": "OpenAI announced today they have brought their ChatGPT Desktop application to Linux and is currently in preview form...",
+        "title": "Microsoft SharePoint RCE Vulnerability Lets Remote Attackers Execute Code",
+        "date": "Wed, 12 Aug 2026 10:41:17 +0000",
+        "url": "https://gbhackers.com/microsoft-sharepoint-rce-vulnerability/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed vulnerability in Microsoft SharePoint Server, tracked as CVE-2026-63520, could allow attackers to execute arbitrary code remotely on affected systems. This flaw has a severity rating",
         "cve": []
     },
     {
-        "title": "Analyzing Fedora's Slow Performance On The Framework Laptop 13 Pro With Intel Panther Lake",
-        "date": "Tue, 11 Aug 2026 10:39:01 -0400",
-        "url": "https://www.phoronix.com/review/fedora-pantherlake-thermald-tuned",
-        "source": "Phoronix",
-        "summary": "As part of my recent Linux testing of the Framework Laptop 13 Pro I had recently benchmarked six Linux distributions on the Framework Laptop 13 Pro. CachyOS was the fastest to not much surprise but ar",
+        "title": "Malicious CCleaner Installer Patches Chrome Security Extension to Deploy Browser Spyware",
+        "date": "Wed, 12 Aug 2026 10:20:02 +0000",
+        "url": "https://gbhackers.com/malicious-ccleaner-installer/",
+        "source": "GBHackers",
+        "summary": "A counterfeit installer for the widely used PC-cleaning utility CCleaner is being used to compromise Windows systems and deploy a malicious Chrome extension dubbed GhostDesk. CCleaner’s global popular",
         "cve": []
     },
     {
-        "title": "Flatpak 1.19 Released With Nine Security Fixes",
-        "date": "Tue, 11 Aug 2026 09:41:20 -0400",
-        "url": "https://www.phoronix.com/news/Flatpak-1.19-Released",
-        "source": "Phoronix",
-        "summary": "Flatpak 1.19 was released today as a new development release along with the Flatpak 1.18.1 stable point release. Both of these releases ship a number of newly-discovered security issues with this app ",
+        "title": "WindRelay Turns Android Phones Into Fake Payment Terminals for Remote Card Fraud",
+        "date": "Wed, 12 Aug 2026 09:33:20 +0000",
+        "url": "https://gbhackers.com/windrelay-turns-android-phones/",
+        "source": "GBHackers",
+        "summary": "A newly identified Android malware family, tracked as WindRelay, is being used alongside the SpyNote remote-access trojan to convert victims’ phones into rogue contactless-card readers and enable real",
         "cve": []
     }
 ]
