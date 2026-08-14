@@ -1,5 +1,37 @@
 [
     {
+        "title": "Shell investigates 'potential incident' after Clop data theft claims",
+        "date": "Fri, 14 Aug 2026 07:55:45 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+        "source": "BleepingComputer",
+        "summary": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+        "cve": []
+    },
+    {
+        "title": "RingCentral data breach exposed info of 1.6 million accounts",
+        "date": "Fri, 14 Aug 2026 06:52:05 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+        "source": "BleepingComputer",
+        "summary": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned",
+        "cve": []
+    },
+    {
+        "title": "Data analyst sent to prison for stealing data, extorting employer",
+        "date": "Fri, 14 Aug 2026 04:27:18 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
+        "source": "BleepingComputer",
+        "summary": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]",
+        "cve": []
+    },
+    {
+        "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
+        "date": "Thu, 13 Aug 2026 21:19:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+        "source": "BleepingComputer",
+        "summary": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
+        "cve": []
+    },
+    {
         "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
         "date": "Thu, 13 Aug 2026 17:12:47 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
@@ -45,38 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
         "source": "BleepingComputer",
         "summary": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...",
-        "cve": []
-    },
-    {
-        "title": "Trezor discloses data breach affecting nearly 14,000 customers",
-        "date": "Thu, 13 Aug 2026 11:13:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-        "source": "BleepingComputer",
-        "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
-        "cve": []
-    },
-    {
-        "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
-        "date": "Thu, 13 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
-        "source": "BleepingComputer",
-        "summary": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at",
-        "cve": []
-    },
-    {
-        "title": "White House taps security firms for offensive hack-back operations",
-        "date": "Thu, 13 Aug 2026 09:30:53 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
-        "source": "BleepingComputer",
-        "summary": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval t",
-        "cve": []
-    },
-    {
-        "title": "WhatsApp rolls out new feature that flags potential scam messages",
-        "date": "Thu, 13 Aug 2026 07:50:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
-        "source": "BleepingComputer",
-        "summary": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,94 @@
         "cve": []
     },
     {
+        "title": "Dysphoria Botnet Turns Compromised Routers and Cameras Into DDoS Bots and C2 Relay Nodes",
+        "date": "Fri, 14 Aug 2026 12:19:37 +0000",
+        "url": "https://cybersecuritynews.com/dysphoria-botnet/",
+        "source": "CyberSecurityNews",
+        "summary": "Dysphoria has turned a large number of everyday internet-connected devices into a potential attack network. The botnet is linked to roughly 296,000 compromised devices, placing routers, cameras, gatew",
+        "cve": []
+    },
+    {
+        "title": "DCRat Campaign Hides Malware Archive Inside SVG Using HTML Smuggling",
+        "date": "Fri, 14 Aug 2026 11:57:04 +0000",
+        "url": "https://cybersecuritynews.com/dcrat-campaign/",
+        "source": "CyberSecurityNews",
+        "summary": "A new DCRat campaign is using a familiar image format to hide a dangerous malware archive. The operation begins with phishing emails that pose as legal notifications and urge recipients to open an att",
+        "cve": []
+    },
+    {
+        "title": "Malware Crypter Services Sell Windows Defender, EDR and SmartScreen Bypasses to Cybercriminals",
+        "date": "Fri, 14 Aug 2026 11:11:43 +0000",
+        "url": "https://cybersecuritynews.com/malware-crypter-services/",
+        "source": "CyberSecurityNews",
+        "summary": "Criminal services that hide malware are becoming easier to buy. These services, known as crypters, change a malicious file so that security tools struggle to recognize it. Their operators promise cust",
+        "cve": []
+    },
+    {
+        "title": "HACKERAI Malware Turns GitHub Gists Into a Command-and-Control Channel",
+        "date": "Fri, 14 Aug 2026 10:21:16 +0000",
+        "url": "https://cybersecuritynews.com/hackerai-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly identified malware framework called HACKERAI C2 Agent is using GitHub Gists as a hidden channel for attacker commands and stolen data. The technique lets operators blend malicious traffic with",
+        "cve": []
+    },
+    {
+        "title": "AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges",
+        "date": "Fri, 14 Aug 2026 09:05:35 +0000",
+        "url": "https://cybersecuritynews.com/ai-token-jacking/",
+        "source": "CyberSecurityNews",
+        "summary": "AI credentials are drawing criminal attention. A growing form of abuse, called AI token jacking, lets intruders take API keys and consume expensive model services on someone else’s account. The result",
+        "cve": []
+    },
+    {
+        "title": "Hackers Using New Blackhat AI Tool MessiahGPT to Generate Ransomware and Phishing Kits",
+        "date": "Fri, 14 Aug 2026 08:48:15 +0000",
+        "url": "https://cybersecuritynews.com/messiahgpt-ai-tool/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly surfaced criminal AI service called MessiahGPT is being openly marketed on BreachForums as a purpose-built offensive model that writes ransomware, phishing kits, stealers, crypters, and rootki",
+        "cve": []
+    },
+    {
+        "title": "GeoServer 0-Day Vulnerability Enables Remote Code Execution Attacks",
+        "date": "Fri, 14 Aug 2026 07:50:12 +0000",
+        "url": "https://cybersecuritynews.com/geoserver-0-day-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly disclosed zero-day vulnerability in GeoServer is being targeted by attackers, raising concern for organizations that publish or manage geospatial data through internet-facing deployments. The ",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Unveils Ultrafast Mode in GPT‑5.6 Sol That Works 14× Faster Than Standard Mode",
+        "date": "Fri, 14 Aug 2026 07:47:13 +0000",
+        "url": "https://cybersecuritynews.com/openai-unveils-ultrafast-mode-in-gpt-5-6-sol/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenAI has introduced Ultrafast, a new service tier for GPT-5.6 Sol that it says can run up to 14× faster than Standard processing. The feature launches first via the OpenAI API and is currently avail",
+        "cve": []
+    },
+    {
+        "title": "Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2",
+        "date": "Fri, 14 Aug 2026 07:33:42 +0000",
+        "url": "https://cybersecuritynews.com/aeternum-botnet-uses-polygon/",
+        "source": "CyberSecurityNews",
+        "summary": "Aeternum is a new botnet loader designed to resist takedowns. It stores instructions on Polygon, a public blockchain, creating a widely replicated control channel that is difficult to remove. The malw",
+        "cve": []
+    },
+    {
+        "title": "Download More RAM Attack Bypasses Windows VBS and Disables Defender Through Memory Aliasing",
+        "date": "Fri, 14 Aug 2026 07:19:42 +0000",
+        "url": "https://cybersecuritynews.com/download-more-ram-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "A new attack dubbed “Download More RAM” can bypass Windows Virtualization-Based Security (VBS), weaken Hypervisor-Enforced Code Integrity (HVCI), and disable Microsoft Defender. Microsoft tracked the ",
+        "cve": []
+    },
+    {
+        "title": "Who’s Tracking You? Use This New Service to Find Out",
+        "date": "Fri, 14 Aug 2026 11:24:35 +0000",
+        "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+        "source": "krebsonsecurity",
+        "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but",
+        "cve": []
+    },
+    {
         "title": "Microsoft Plugs Nearly 400 Security Holes",
         "date": "Tue, 11 Aug 2026 21:28:35 +0000",
         "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
@@ -232,91 +320,83 @@
         "cve": []
     },
     {
-        "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-        "date": "Thu, 18 Jun 2026 17:37:58 +0000",
-        "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-        "source": "krebsonsecurity",
-        "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-s",
+        "title": "Agentic AI Models Rebuild Malware and Sustain Real-World Cyber Intrusions, SentinelOne Warns",
+        "date": "Fri, 14 Aug 2026 11:48:54 +0000",
+        "url": "https://gbhackers.com/agentic-ai-models-rebuild-malware/",
+        "source": "GBHackers",
+        "summary": "Four incidents involving OpenAI, Anthropic, Meta and the UK AI Security Institute (AISI) describe AI agents reaching systems belonging to other organizations without their consent. The defining capabi",
         "cve": []
     },
     {
-        "title": "AMD GAIA 0.23 Delivers Ability To Install/Run AI Agents From The Terminal",
-        "date": "Thu, 13 Aug 2026 20:33:01 -0400",
-        "url": "https://www.phoronix.com/news/AMD-GAIA-0.23",
-        "source": "Phoronix",
-        "summary": "AMD's GAIA open-source AI software built atop Lemonade for serving as an AI companion for emails, a Bash coding agent, and other AI agent skills is out with a new version today with more features whil",
+        "title": "GeoServer Zero-Day SQL Injection Vulnerability Actively Exploited to Gain RCE",
+        "date": "Fri, 14 Aug 2026 10:39:38 +0000",
+        "url": "https://gbhackers.com/geoserver-zero-day-sql-injection-vulnerability/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed, unpatched SQL injection vulnerability in GeoServer is currently being actively tested across the internet. Researchers have issued warnings that affected deployments may be vulnerab",
         "cve": []
     },
     {
-        "title": "KDE, Techpaladin & Kubuntu Focus Announce The Bullet-Proof KDE Software Initiative",
-        "date": "Thu, 13 Aug 2026 16:08:00 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Bullet-Proof-Software",
-        "source": "Phoronix",
-        "summary": "KDE e.V. along with Linux PC vendor Kubuntu Focus and KDE-aligned consulting firm Techpaladin Software have announced a collaboration of the \"bullet-proof KDE Software initiative\" for providing at lea",
+        "title": "Dysphoria Hijacks Routers, Gateways and IP Cameras to Build Massive IoT Botnet",
+        "date": "Fri, 14 Aug 2026 10:26:05 +0000",
+        "url": "https://gbhackers.com/dysphoria-hijacks-routers/",
+        "source": "GBHackers",
+        "summary": "The Dysphoria botnet has expanded into a major Internet of Things threat, with a new Shadowserver Special Report identifying approximately 296,000 compromised devices. The campaign targets exposed rou",
         "cve": []
     },
     {
-        "title": "The Best Linux 7.2 Features: Cache Aware Scheduling, AMD Zen 6, AMDGPU HDMI 2.1 FRL",
-        "date": "Thu, 13 Aug 2026 15:57:51 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.2-Best-Features",
-        "source": "Phoronix",
-        "summary": "With the Linux 7.2 kernel expected to be released on Sunday, 16 August, here is a look at some of the most interesting new features and changes to find with this next kernel version to be used by Ubun",
+        "title": "Malicious SVG Reconstructs DCRat Archive Entirely Inside Victim’s Browser",
+        "date": "Fri, 14 Aug 2026 10:00:25 +0000",
+        "url": "https://gbhackers.com/malicious-svg-reconstructs-dcrat-archive-entirely-inside-victims-browser/",
+        "source": "GBHackers",
+        "summary": "A newly analyzed DarkCrystal RAT (DCRat) campaign shows how threat actors are turning an apparently harmless SVG attachment into a full malware-delivery mechanism. The operation, investigated by the T",
         "cve": []
     },
     {
-        "title": "Updated Coreboot/Dasharo For MSI PRO Z690-A / Z790-P Motherboards, Adds Overclocking",
-        "date": "Thu, 13 Aug 2026 15:08:39 -0400",
-        "url": "https://www.phoronix.com/news/New-Dasharo-2026-MSI-Intel-Z",
-        "source": "Phoronix",
-        "summary": "In addition to 3mdeb providing their Coreboot-based Dasharo built atop AMD openSIL on a Gigabyte EPYC server motherboard and recently making their first Dasharo release for an AMD Ryzen AM5 platform w",
+        "title": "24 Malware Crypter Sellers Turn EDR Evasion and In-Memory Execution Into Paid Services",
+        "date": "Fri, 14 Aug 2026 08:11:22 +0000",
+        "url": "https://gbhackers.com/24-malware-crypter-sellers/",
+        "source": "GBHackers",
+        "summary": "A growing underground market is turning mature malware-evasion techniques into subscription products. An analysis of 24 active crypting-service vendors shows that customers can now buy payload obfusca",
         "cve": []
     },
     {
-        "title": "The Beneficial Performance Gains Running The Framework Laptop Pro 13 / Core Ultra X9 388H With Linux 7.1+",
-        "date": "Thu, 13 Aug 2026 10:00:00 -0400",
-        "url": "https://www.phoronix.com/review/framework-13-pro-linux-71-72",
-        "source": "Phoronix",
-        "summary": "The recently launched Framework Laptop 13 Pro powered by Intel Core Ultra Series 3 \"Panther Lake\" runs well on Ubuntu 26.04 LTS and other modern Linux distributions. In the case of Ubuntu 26.04 with L",
+        "title": "New Bring Your Own EDR Attack Turns SentinelOne Into Trojan Horse to Bypass Windows PPL",
+        "date": "Fri, 14 Aug 2026 08:11:19 +0000",
+        "url": "https://gbhackers.com/new-bring-your-own-edr-attack/",
+        "source": "GBHackers",
+        "summary": "Security researchers have introduced a new technique called “Bring Your Own EDR” (BYOEDR) that exploits legitimate SentinelOne components to bypass Windows Protected Process Light (PPL) protections, a",
         "cve": []
     },
     {
-        "title": "GeForce NOW On Linux Native App Exits Beta",
-        "date": "Thu, 13 Aug 2026 09:21:08 -0400",
-        "url": "https://www.phoronix.com/news/GeForce-NOW-Linux-Exits-Beta",
-        "source": "Phoronix",
-        "summary": "At the beginning of the year NVIDIA released a native build of GeForce NOW for Linux using Flatpaks. Today their native Linux build has exited beta to reach official production status for this cloud g",
+        "title": "New DRAM Scrambling Attack Unlocks AMD CPU PSP, SMM and Microcode",
+        "date": "Fri, 14 Aug 2026 07:43:54 +0000",
+        "url": "https://gbhackers.com/new-dram-scrambling-attack-unlocks-amd-cpu-psp-smm/",
+        "source": "GBHackers",
+        "summary": "Security researcher Christopher Domas has released a proof-of-concept project called “skitter-creek-bath-salts,” which demonstrates a vulnerability in AMD&#8217;s DRAM-controller configuration that co",
         "cve": []
     },
     {
-        "title": "MSI Claw Gamepad Driver Set To Be Merged For Linux 7.3",
-        "date": "Thu, 13 Aug 2026 09:11:15 -0400",
-        "url": "https://www.phoronix.com/news/MSI-Claw-Gamepad-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "The MSI Claw Gamepad driver is set to be merged for the upcoming Linux 7.3 kernel for enabling RGB lighting and controller configuration support with the mainline kernel...",
+        "title": "Apple Warns iPhone Users in 110 Countries of Mercenary Spyware Attacks",
+        "date": "Fri, 14 Aug 2026 07:27:48 +0000",
+        "url": "https://gbhackers.com/apple-warns-iphone-users-in-110-countries/",
+        "source": "GBHackers",
+        "summary": "Apple has issued a new set of high-confidence Apple Threat Notification alerts, warning selected iPhone users in 110 countries that they may be targets of government-grade mercenary spyware. These not",
         "cve": []
     },
     {
-        "title": "Linux Patches Enable Apple M4 NVMe Support",
-        "date": "Thu, 13 Aug 2026 07:30:36 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Apple-M4-NVMe-Patches",
-        "source": "Phoronix",
-        "summary": "While the Apple M4 SoCs aren't yet supported by the mainline Linux kernel and the Apple M3 series hardware isn't yet ready for end-users, there are some early elements of the Apple M4 support beginnin",
+        "title": "PATCHCORD Infrastructure Hosts SuperShell C2 for Remote Commands and Webshell Management",
+        "date": "Fri, 14 Aug 2026 06:59:27 +0000",
+        "url": "https://gbhackers.com/patchcord-infrastructure-hosts-supershell/",
+        "source": "GBHackers",
+        "summary": "A newly uncovered espionage operation targeting Afghan telecom providers and South Asian critical infrastructure has exposed a layered attacker ecosystem built around custom implants, spoofed delivery",
         "cve": []
     },
     {
-        "title": "Microsoft's Azure Linux 3.0.20260809 Ships With 233+ CVE Fixes",
-        "date": "Thu, 13 Aug 2026 06:38:00 -0400",
-        "url": "https://www.phoronix.com/news/Azure-Linux-3.0.20260809",
-        "source": "Phoronix",
-        "summary": "While Microsoft continues working on Azure Linux 4.0 as its overhauled Linux distribution built atop Fedora, Azure Linux 3.0 remains the current stable production series. Released overnight was Azure ",
-        "cve": []
-    },
-    {
-        "title": "Intel XPU Manager 2.1 Released For Monitoring Arc Pro Graphics On Windows/Linux",
-        "date": "Thu, 13 Aug 2026 06:24:38 -0400",
-        "url": "https://www.phoronix.com/news/Intel-XPU-Manager-2.1",
-        "source": "Phoronix",
-        "summary": "Intel XPU Manager 2.1 is now available as the latest version of this open-source tool for Linux and Windows systems for the monitoring and management of Arc Pro graphics cards. The Intel XPU Manager h",
+        "title": "Hackers Steal One AI Key, Resell the Compute, and Leave Victims With a Million-Dollar Bill",
+        "date": "Fri, 14 Aug 2026 06:22:27 +0000",
+        "url": "https://gbhackers.com/million-dollar-risk/",
+        "source": "GBHackers",
+        "summary": "A rapidly expanding financial cybercrime model called AI token jacking, where threat actors steal developer API keys for popular AI platforms, consume the victim’s allocated model capacity, and resell",
         "cve": []
     }
 ]
