@@ -160,6 +160,14 @@
         "cve": []
     },
     {
+        "title": "Microsoft to Make Passkeys Default in Entra ID and Retires SMS and Voice Authentication",
+        "date": "Sat, 15 Aug 2026 10:48:25 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-make-passkeys-default-in-entra-id/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft will make passkeys the default authentication experience in Microsoft Entra ID as part of a broader move away from phishing-prone sign-in methods. The company will also retire Microsoft-prov",
+        "cve": []
+    },
+    {
         "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
         "date": "Fri, 14 Aug 2026 16:31:04 +0000",
         "url": "https://cybersecuritynews.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/hackerai-malware/",
         "source": "CyberSecurityNews",
         "summary": "A newly identified malware framework called HACKERAI C2 Agent is using GitHub Gists as a hidden channel for attacker commands and stolen data. The technique lets operators blend malicious traffic with",
-        "cve": []
-    },
-    {
-        "title": "AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges",
-        "date": "Fri, 14 Aug 2026 09:05:35 +0000",
-        "url": "https://cybersecuritynews.com/ai-token-jacking/",
-        "source": "CyberSecurityNews",
-        "summary": "AI credentials are drawing criminal attention. A growing form of abuse, called AI token jacking, lets intruders take API keys and consume expensive model services on someone else’s account. The result",
         "cve": []
     },
     {
@@ -320,6 +320,38 @@
         "cve": []
     },
     {
+        "title": "Microsoft Makes Passkeys Default in Entra ID, Retires SMS and Voice Authentication",
+        "date": "Sat, 15 Aug 2026 08:31:17 +0000",
+        "url": "https://gbhackers.com/microsoft-entra-id-makes-passkeys-default/",
+        "source": "GBHackers",
+        "summary": "Microsoft will make passkeys the default authentication experience in Entra ID beginning September 1, 2026, and will fully retire its native SMS and voice multifactor authentication (MFA) delivery ser",
+        "cve": []
+    },
+    {
+        "title": "Ruby 4.0 Marshal.load RCE Gadget Chain Exposes Critical Deserialization Risk",
+        "date": "Sat, 15 Aug 2026 08:02:08 +0000",
+        "url": "https://gbhackers.com/ruby-4-0-marshal-load-rce-gadget-chain/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed universal deserialization gadget chain shows how a single unsafe Marshal.load operation can reportedly produce remote command execution in Ruby 4.0.6, underscoring the persistent dan",
+        "cve": []
+    },
+    {
+        "title": "Download More RAM Attack Bypasses Windows VBS, HVCI and Disables Microsoft Defender",
+        "date": "Sat, 15 Aug 2026 07:43:27 +0000",
+        "url": "https://gbhackers.com/download-more-ram-attack-bypasses-windows-vbs/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed Windows attack technique, dubbed “Download More RAM,” can undermine Virtualization-Based Security (VBS), bypass Hypervisor-Protected Code Integrity (HVCI), and disable endpoint prote",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Copilot App Overhaul Merges Personal Chats and Ends Podcasts, Deep Research",
+        "date": "Sat, 15 Aug 2026 07:20:59 +0000",
+        "url": "https://gbhackers.com/microsoft-copilot-update-merges-chats-retires-podcast/",
+        "source": "GBHackers",
+        "summary": "Microsoft is reshaping its consumer and productivity AI strategy with a major update to its Copilot application, merging personal chat histories and generated content while discontinuing several promi",
+        "cve": []
+    },
+    {
         "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
         "date": "Fri, 14 Aug 2026 16:31:21 +0000",
         "url": "https://gbhackers.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
@@ -365,38 +397,6 @@
         "url": "https://gbhackers.com/new-bring-your-own-edr-attack/",
         "source": "GBHackers",
         "summary": "Security researchers have introduced a new technique called “Bring Your Own EDR” (BYOEDR) that exploits legitimate SentinelOne components to bypass Windows Protected Process Light (PPL) protections, a",
-        "cve": []
-    },
-    {
-        "title": "New DRAM Scrambling Attack Unlocks AMD CPU PSP, SMM and Microcode",
-        "date": "Fri, 14 Aug 2026 07:43:54 +0000",
-        "url": "https://gbhackers.com/new-dram-scrambling-attack-unlocks-amd-cpu-psp-smm/",
-        "source": "GBHackers",
-        "summary": "Security researcher Christopher Domas has released a proof-of-concept project called “skitter-creek-bath-salts,” which demonstrates a vulnerability in AMD&#8217;s DRAM-controller configuration that co",
-        "cve": []
-    },
-    {
-        "title": "Apple Warns iPhone Users in 110 Countries of Mercenary Spyware Attacks",
-        "date": "Fri, 14 Aug 2026 07:27:48 +0000",
-        "url": "https://gbhackers.com/apple-warns-iphone-users-in-110-countries/",
-        "source": "GBHackers",
-        "summary": "Apple has issued a new set of high-confidence Apple Threat Notification alerts, warning selected iPhone users in 110 countries that they may be targets of government-grade mercenary spyware. These not",
-        "cve": []
-    },
-    {
-        "title": "PATCHCORD Infrastructure Hosts SuperShell C2 for Remote Commands and Webshell Management",
-        "date": "Fri, 14 Aug 2026 06:59:27 +0000",
-        "url": "https://gbhackers.com/patchcord-infrastructure-hosts-supershell/",
-        "source": "GBHackers",
-        "summary": "A newly uncovered espionage operation targeting Afghan telecom providers and South Asian critical infrastructure has exposed a layered attacker ecosystem built around custom implants, spoofed delivery",
-        "cve": []
-    },
-    {
-        "title": "Hackers Steal One AI Key, Resell the Compute, and Leave Victims With a Million-Dollar Bill",
-        "date": "Fri, 14 Aug 2026 06:22:27 +0000",
-        "url": "https://gbhackers.com/million-dollar-risk/",
-        "source": "GBHackers",
-        "summary": "A rapidly expanding financial cybercrime model called AI token jacking, where threat actors steal developer API keys for popular AI platforms, consume the victim’s allocated model capacity, and resell",
         "cve": []
     }
 ]
