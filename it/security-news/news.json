@@ -1,5 +1,45 @@
 [
     {
+        "title": "How Anthropic plans to watermark Claude's AI-generated text",
+        "date": "Fri, 14 Aug 2026 19:24:17 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+        "source": "BleepingComputer",
+        "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+        "date": "Fri, 14 Aug 2026 14:04:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+        "source": "BleepingComputer",
+        "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Co",
+        "cve": []
+    },
+    {
+        "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+        "date": "Fri, 14 Aug 2026 10:59:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+        "source": "BleepingComputer",
+        "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
+        "cve": []
+    },
+    {
+        "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+        "date": "Fri, 14 Aug 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+        "source": "BleepingComputer",
+        "summary": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need def",
+        "cve": []
+    },
+    {
+        "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+        "date": "Fri, 14 Aug 2026 09:45:18 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
+        "cve": []
+    },
+    {
         "title": "Shell investigates 'potential incident' after Clop data theft claims",
         "date": "Fri, 14 Aug 2026 07:55:45 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
@@ -37,46 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
         "source": "BleepingComputer",
         "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
-        "cve": []
-    },
-    {
-        "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-        "date": "Thu, 13 Aug 2026 16:47:02 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-        "source": "BleepingComputer",
-        "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers breach govt webmail while running parallel crypto fraud",
-        "date": "Thu, 13 Aug 2026 14:15:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
-        "source": "BleepingComputer",
-        "summary": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-        "date": "Thu, 13 Aug 2026 13:46:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Patch Tuesday. [...]",
-        "cve": []
-    },
-    {
-        "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-        "date": "Thu, 13 Aug 2026 13:33:28 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-        "source": "BleepingComputer",
-        "summary": "Multiple 'watermark removers' have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with over 4,500 GitHub stars and paid AI detection evasio",
-        "cve": []
-    },
-    {
-        "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-        "date": "Thu, 13 Aug 2026 12:40:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
-        "source": "BleepingComputer",
-        "summary": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...",
         "cve": []
     },
     {
@@ -160,6 +160,46 @@
         "cve": []
     },
     {
+        "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
+        "date": "Fri, 14 Aug 2026 16:31:04 +0000",
+        "url": "https://cybersecuritynews.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
+        "source": "CyberSecurityNews",
+        "summary": "Selidan, USA, August 14th, 2026, CyberNewswire New report examines suspicious Reddit activity, coordinated YouTube content and BBB Scam Tracker entries influencing how the vehicle history platform app",
+        "cve": []
+    },
+    {
+        "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Bypass Authentication and Escalate Privileges",
+        "date": "Fri, 14 Aug 2026 13:54:56 +0000",
+        "url": "https://cybersecuritynews.com/multiple-tp-link-bypass-authentication-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "TP-Link has disclosed multiple high-severity vulnerabilities affecting ISP-managed Aginet networking products, including mesh systems, routers, PON devices, and xDSL modems. The flaws could allow atta",
+        "cve": []
+    },
+    {
+        "title": "Bring Your Own EDR Attack Turns SentinelOne Into PPL-Protected Trojan Horse to Shield Malware",
+        "date": "Fri, 14 Aug 2026 13:36:51 +0000",
+        "url": "https://cybersecuritynews.com/bring-your-own-edr-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "A “Bring Your Own EDR” attack abuses trusted SentinelOne components to turn endpoint protection into a powerful malware shield. The research was presented at DEF CON 34 in Las Vegas, and SentinelOne f",
+        "cve": []
+    },
+    {
+        "title": "Citrix NetScaler Heap Overflow Flaw Lets Remote Attackers Execute Code as Root – PoC Released",
+        "date": "Fri, 14 Aug 2026 13:32:45 +0000",
+        "url": "https://cybersecuritynews.com/citrix-netscaler-heap-overflow/",
+        "source": "CyberSecurityNews",
+        "summary": "A working proof-of-concept (PoC) exploit demonstrating how a pre-authentication heap overflow in Citrix NetScaler ADC and NetScaler Gateway can be turned into unauthenticated root-level remote code ex",
+        "cve": []
+    },
+    {
+        "title": "AI Agents Don’t Stop When Malware Fails, They Write Another Tool and Keep Attacking",
+        "date": "Fri, 14 Aug 2026 12:44:03 +0000",
+        "url": "https://cybersecuritynews.com/ai-agents/",
+        "source": "CyberSecurityNews",
+        "summary": "AI agents are changing the shape of cyberattacks. Instead of relying on a fixed piece of malware, an agent can test an approach, see it fail, write a replacement tool, and continue toward the same goa",
+        "cve": []
+    },
+    {
         "title": "Dysphoria Botnet Turns Compromised Routers and Cameras Into DDoS Bots and C2 Relay Nodes",
         "date": "Fri, 14 Aug 2026 12:19:37 +0000",
         "url": "https://cybersecuritynews.com/dysphoria-botnet/",
@@ -197,46 +237,6 @@
         "url": "https://cybersecuritynews.com/ai-token-jacking/",
         "source": "CyberSecurityNews",
         "summary": "AI credentials are drawing criminal attention. A growing form of abuse, called AI token jacking, lets intruders take API keys and consume expensive model services on someone else’s account. The result",
-        "cve": []
-    },
-    {
-        "title": "Hackers Using New Blackhat AI Tool MessiahGPT to Generate Ransomware and Phishing Kits",
-        "date": "Fri, 14 Aug 2026 08:48:15 +0000",
-        "url": "https://cybersecuritynews.com/messiahgpt-ai-tool/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly surfaced criminal AI service called MessiahGPT is being openly marketed on BreachForums as a purpose-built offensive model that writes ransomware, phishing kits, stealers, crypters, and rootki",
-        "cve": []
-    },
-    {
-        "title": "GeoServer 0-Day Vulnerability Enables Remote Code Execution Attacks",
-        "date": "Fri, 14 Aug 2026 07:50:12 +0000",
-        "url": "https://cybersecuritynews.com/geoserver-0-day-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly disclosed zero-day vulnerability in GeoServer is being targeted by attackers, raising concern for organizations that publish or manage geospatial data through internet-facing deployments. The ",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Unveils Ultrafast Mode in GPT‑5.6 Sol That Works 14× Faster Than Standard Mode",
-        "date": "Fri, 14 Aug 2026 07:47:13 +0000",
-        "url": "https://cybersecuritynews.com/openai-unveils-ultrafast-mode-in-gpt-5-6-sol/",
-        "source": "CyberSecurityNews",
-        "summary": "OpenAI has introduced Ultrafast, a new service tier for GPT-5.6 Sol that it says can run up to 14× faster than Standard processing. The feature launches first via the OpenAI API and is currently avail",
-        "cve": []
-    },
-    {
-        "title": "Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2",
-        "date": "Fri, 14 Aug 2026 07:33:42 +0000",
-        "url": "https://cybersecuritynews.com/aeternum-botnet-uses-polygon/",
-        "source": "CyberSecurityNews",
-        "summary": "Aeternum is a new botnet loader designed to resist takedowns. It stores instructions on Polygon, a public blockchain, creating a widely replicated control channel that is difficult to remove. The malw",
-        "cve": []
-    },
-    {
-        "title": "Download More RAM Attack Bypasses Windows VBS and Disables Defender Through Memory Aliasing",
-        "date": "Fri, 14 Aug 2026 07:19:42 +0000",
-        "url": "https://cybersecuritynews.com/download-more-ram-attack/",
-        "source": "CyberSecurityNews",
-        "summary": "A new attack dubbed “Download More RAM” can bypass Windows Virtualization-Based Security (VBS), weaken Hypervisor-Enforced Code Integrity (HVCI), and disable Microsoft Defender. Microsoft tracked the ",
         "cve": []
     },
     {
@@ -320,19 +320,19 @@
         "cve": []
     },
     {
+        "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
+        "date": "Fri, 14 Aug 2026 16:31:21 +0000",
+        "url": "https://gbhackers.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
+        "source": "GBHackers",
+        "summary": "Selidan, USA, August 14th, 2026, CyberNewswire New report examines suspicious Reddit activity, coordinated YouTube content and BBB Scam Tracker entries influencing how the vehicle history platform app",
+        "cve": []
+    },
+    {
         "title": "Agentic AI Models Rebuild Malware and Sustain Real-World Cyber Intrusions, SentinelOne Warns",
         "date": "Fri, 14 Aug 2026 11:48:54 +0000",
         "url": "https://gbhackers.com/agentic-ai-models-rebuild-malware/",
         "source": "GBHackers",
         "summary": "Four incidents involving OpenAI, Anthropic, Meta and the UK AI Security Institute (AISI) describe AI agents reaching systems belonging to other organizations without their consent. The defining capabi",
-        "cve": []
-    },
-    {
-        "title": "GeoServer Zero-Day SQL Injection Vulnerability Actively Exploited to Gain RCE",
-        "date": "Fri, 14 Aug 2026 10:39:38 +0000",
-        "url": "https://gbhackers.com/geoserver-zero-day-sql-injection-vulnerability/",
-        "source": "GBHackers",
-        "summary": "A newly disclosed, unpatched SQL injection vulnerability in GeoServer is currently being actively tested across the internet. Researchers have issued warnings that affected deployments may be vulnerab",
         "cve": []
     },
     {
