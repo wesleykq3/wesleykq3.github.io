@@ -1,5 +1,13 @@
 [
     {
+        "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+        "date": "Sat, 15 Aug 2026 10:14:38 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+        "source": "BleepingComputer",
+        "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
+        "cve": []
+    },
+    {
         "title": "How Anthropic plans to watermark Claude's AI-generated text",
         "date": "Fri, 14 Aug 2026 19:24:17 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
         "source": "BleepingComputer",
         "summary": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
-        "cve": []
-    },
-    {
-        "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-        "date": "Thu, 13 Aug 2026 17:12:47 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-        "source": "BleepingComputer",
-        "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,30 @@
         "cve": []
     },
     {
+        "title": "Post-Hugging Face Reflections: The Agentic Attacker Is Already Here",
+        "date": "Sat, 15 Aug 2026 14:34:25 +0000",
+        "url": "https://cybersecuritynews.com/post-hugging-face-reflections-the-agentic-attacker-is-already-here/",
+        "source": "CyberSecurityNews",
+        "summary": "Bill Robbins, CEO of Menlo Security&#160; An AI agent broke out of the sandbox built to contain it and put itself on the open internet. Then it attacked another company. The attack wasn&#8217;t execut",
+        "cve": []
+    },
+    {
+        "title": "Hackers Started to Exploit Critical SAP Commerce Cloud, Still No Public PoC",
+        "date": "Sat, 15 Aug 2026 13:59:41 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploit-sap-commerce-cloud/",
+        "source": "CyberSecurityNews",
+        "summary": "Threat actors have begun actively probing and attempting to exploit a maximum-severity flaw in SAP Commerce Cloud, just three days after official security fixes were released. Defused honeypot telemet",
+        "cve": []
+    },
+    {
+        "title": "Shell Investigating Data Breach Following Cl0p Ransomware Group Claim",
+        "date": "Sat, 15 Aug 2026 12:56:42 +0000",
+        "url": "https://cybersecuritynews.com/shell-investigating-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Multinational energy giant Shell has launched an active investigation after the notorious Cl0p ransomware syndicate claimed responsibility for exfiltrating sensitive internal data. Security researcher",
+        "cve": []
+    },
+    {
         "title": "Microsoft to Make Passkeys Default in Entra ID and Retires SMS and Voice Authentication",
         "date": "Sat, 15 Aug 2026 10:48:25 +0000",
         "url": "https://cybersecuritynews.com/microsoft-make-passkeys-default-in-entra-id/",
@@ -213,30 +237,6 @@
         "url": "https://cybersecuritynews.com/dysphoria-botnet/",
         "source": "CyberSecurityNews",
         "summary": "Dysphoria has turned a large number of everyday internet-connected devices into a potential attack network. The botnet is linked to roughly 296,000 compromised devices, placing routers, cameras, gatew",
-        "cve": []
-    },
-    {
-        "title": "DCRat Campaign Hides Malware Archive Inside SVG Using HTML Smuggling",
-        "date": "Fri, 14 Aug 2026 11:57:04 +0000",
-        "url": "https://cybersecuritynews.com/dcrat-campaign/",
-        "source": "CyberSecurityNews",
-        "summary": "A new DCRat campaign is using a familiar image format to hide a dangerous malware archive. The operation begins with phishing emails that pose as legal notifications and urge recipients to open an att",
-        "cve": []
-    },
-    {
-        "title": "Malware Crypter Services Sell Windows Defender, EDR and SmartScreen Bypasses to Cybercriminals",
-        "date": "Fri, 14 Aug 2026 11:11:43 +0000",
-        "url": "https://cybersecuritynews.com/malware-crypter-services/",
-        "source": "CyberSecurityNews",
-        "summary": "Criminal services that hide malware are becoming easier to buy. These services, known as crypters, change a malicious file so that security tools struggle to recognize it. Their operators promise cust",
-        "cve": []
-    },
-    {
-        "title": "HACKERAI Malware Turns GitHub Gists Into a Command-and-Control Channel",
-        "date": "Fri, 14 Aug 2026 10:21:16 +0000",
-        "url": "https://cybersecuritynews.com/hackerai-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly identified malware framework called HACKERAI C2 Agent is using GitHub Gists as a hidden channel for attacker commands and stolen data. The technique lets operators blend malicious traffic with",
         "cve": []
     },
     {
