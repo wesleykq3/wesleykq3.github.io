@@ -1,5 +1,37 @@
 [
     {
+        "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+        "date": "Sun, 16 Aug 2026 19:47:06 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+        "source": "BleepingComputer",
+        "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now c",
+        "cve": []
+    },
+    {
+        "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+        "date": "Sun, 16 Aug 2026 18:28:57 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+        "source": "BleepingComputer",
+        "summary": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
+        "cve": []
+    },
+    {
+        "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+        "date": "Sun, 16 Aug 2026 13:29:52 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+        "source": "BleepingComputer",
+        "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
+        "cve": []
+    },
+    {
+        "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+        "date": "Sun, 16 Aug 2026 11:07:44 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+        "source": "BleepingComputer",
+        "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web",
+        "cve": []
+    },
+    {
         "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
         "date": "Sat, 15 Aug 2026 10:14:38 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
@@ -45,38 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
         "source": "BleepingComputer",
         "summary": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
-        "cve": []
-    },
-    {
-        "title": "Shell investigates 'potential incident' after Clop data theft claims",
-        "date": "Fri, 14 Aug 2026 07:55:45 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-        "source": "BleepingComputer",
-        "summary": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
-        "cve": []
-    },
-    {
-        "title": "RingCentral data breach exposed info of 1.6 million accounts",
-        "date": "Fri, 14 Aug 2026 06:52:05 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-        "source": "BleepingComputer",
-        "summary": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned",
-        "cve": []
-    },
-    {
-        "title": "Data analyst sent to prison for stealing data, extorting employer",
-        "date": "Fri, 14 Aug 2026 04:27:18 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
-        "source": "BleepingComputer",
-        "summary": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]",
-        "cve": []
-    },
-    {
-        "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
-        "date": "Thu, 13 Aug 2026 21:19:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
-        "source": "BleepingComputer",
-        "summary": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
         "cve": []
     },
     {
@@ -160,6 +160,86 @@
         "cve": []
     },
     {
+        "title": "Cyber Security Weekly Newsletter – Outlook RCE, Palo Alto, Cisco 0-day and Windows 0-Day Flaws +20 Stories",
+        "date": "Sun, 16 Aug 2026 16:24:03 +0000",
+        "url": "https://cybersecuritynews.com/cyber-security-weekly-newsletter-august/",
+        "source": "CyberSecurityNews",
+        "summary": "This week&#8217;s roundup covers a record-setting Microsoft Patch Tuesday, an actively exploited Cisco firewall zero-day, a Lazarus-linked Windows kernel bug, and critical flaws across TP-Link, Palo A",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Begins to Merge Consumer and Enterprise Copilot Apps to Make New Super App",
+        "date": "Sun, 16 Aug 2026 15:58:07 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-combines-copilot-apps/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is moving closer to a unified Copilot experience by merging key elements of its consumer AI assistant with the Microsoft 365 productivity environment. The change positions Copilot as a singl",
+        "cve": []
+    },
+    {
+        "title": "AWS Certificate Manager to Discontinue Email Validation for Public Certificates",
+        "date": "Sun, 16 Aug 2026 15:54:22 +0000",
+        "url": "https://cybersecuritynews.com/aws-certificate-manager-email-validation/",
+        "source": "CyberSecurityNews",
+        "summary": "AWS Certificate Manager (ACM) has announced plans to permanently discontinue email-based domain control validation (DCV) for public certificate renewals by September 30, 2027. The deprecation aligns A",
+        "cve": []
+    },
+    {
+        "title": "McDonald’s, Vodafone Hit by Azure Credential Theft Campaign Exposing Millions of Enterprise Records",
+        "date": "Sun, 16 Aug 2026 14:27:18 +0000",
+        "url": "https://cybersecuritynews.com/azure-credential-theft-campaign/",
+        "source": "CyberSecurityNews",
+        "summary": "A sprawling Azure data exfiltration campaign is unfolding across the dark web, with a threat actor systematically selling off internal employee directories stolen from some of the world&#8217;s larges",
+        "cve": []
+    },
+    {
+        "title": "Post-Hugging Face Reflections: The Agentic Attacker Is Already Here",
+        "date": "Sat, 15 Aug 2026 14:34:25 +0000",
+        "url": "https://cybersecuritynews.com/post-hugging-face-reflections-the-agentic-attacker-is-already-here/",
+        "source": "CyberSecurityNews",
+        "summary": "Bill Robbins, CEO of Menlo Security&#160; An AI agent broke out of the sandbox built to contain it and put itself on the open internet. Then it attacked another company. The attack wasn&#8217;t execut",
+        "cve": []
+    },
+    {
+        "title": "Hackers Started to Exploit Critical SAP Commerce Cloud, Still No Public PoC",
+        "date": "Sat, 15 Aug 2026 13:59:41 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploit-sap-commerce-cloud/",
+        "source": "CyberSecurityNews",
+        "summary": "Threat actors have begun actively probing and attempting to exploit a maximum-severity flaw in SAP Commerce Cloud, just three days after official security fixes were released. Defused honeypot telemet",
+        "cve": []
+    },
+    {
+        "title": "Shell Investigating Data Breach Following Cl0p Ransomware Group Claim",
+        "date": "Sat, 15 Aug 2026 12:56:42 +0000",
+        "url": "https://cybersecuritynews.com/shell-investigating-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Multinational energy giant Shell has launched an active investigation after the notorious Cl0p ransomware syndicate claimed responsibility for exfiltrating sensitive internal data. Security researcher",
+        "cve": []
+    },
+    {
+        "title": "Microsoft to Make Passkeys Default in Entra ID and Retires SMS and Voice Authentication",
+        "date": "Sat, 15 Aug 2026 10:48:25 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-make-passkeys-default-in-entra-id/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft will make passkeys the default authentication experience in Microsoft Entra ID as part of a broader move away from phishing-prone sign-in methods. The company will also retire Microsoft-prov",
+        "cve": []
+    },
+    {
+        "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
+        "date": "Fri, 14 Aug 2026 16:31:04 +0000",
+        "url": "https://cybersecuritynews.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
+        "source": "CyberSecurityNews",
+        "summary": "Selidan, USA, August 14th, 2026, CyberNewswire New report examines suspicious Reddit activity, coordinated YouTube content and BBB Scam Tracker entries influencing how the vehicle history platform app",
+        "cve": []
+    },
+    {
+        "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Bypass Authentication and Escalate Privileges",
+        "date": "Fri, 14 Aug 2026 13:54:56 +0000",
+        "url": "https://cybersecuritynews.com/multiple-tp-link-bypass-authentication-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "TP-Link has disclosed multiple high-severity vulnerabilities affecting ISP-managed Aginet networking products, including mesh systems, routers, PON devices, and xDSL modems. The flaws could allow atta",
+        "cve": []
+    },
+    {
         "title": "Who’s Tracking You? Use This New Service to Find Out",
         "date": "Fri, 14 Aug 2026 11:24:35 +0000",
         "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "AVX-512 xor_gen Continues To Look Exciting For Helping Linux RAID With Modern CPUs",
-        "date": "Sun, 16 Aug 2026 06:54:19 -0400",
-        "url": "https://www.phoronix.com/news/AVX-512-xor-gen-v4",
-        "source": "Phoronix",
-        "summary": "Google engineer Eric Biggers back in June posted an AVX-512 optimization for Linux RAID yielding up to a 41% improvement on a modern AMD Ryzen 9 9950X (Zen 5) processor. A revised patch then put it as",
+        "title": "Microsoft Makes Passkeys Default in Entra ID, Retires SMS and Voice Authentication",
+        "date": "Sat, 15 Aug 2026 08:31:17 +0000",
+        "url": "https://gbhackers.com/microsoft-entra-id-makes-passkeys-default/",
+        "source": "GBHackers",
+        "summary": "Microsoft will make passkeys the default authentication experience in Entra ID beginning September 1, 2026, and will fully retire its native SMS and voice multifactor authentication (MFA) delivery ser",
         "cve": []
     },
     {
-        "title": "Linux 7.3 binfmt_misc To Allow BPF Programs To Dynamically Choose Execution Environments",
-        "date": "Sun, 16 Aug 2026 06:37:13 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-binfmt-misc",
-        "source": "Phoronix",
-        "summary": "The Linux kernel's binfmt_misc functionality allows non-native/custom files to ne run directly such as for Windows EXE files to be handled by Wine or JAR files to be handled by the Java runtime. For t",
+        "title": "Ruby 4.0 Marshal.load RCE Gadget Chain Exposes Critical Deserialization Risk",
+        "date": "Sat, 15 Aug 2026 08:02:08 +0000",
+        "url": "https://gbhackers.com/ruby-4-0-marshal-load-rce-gadget-chain/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed universal deserialization gadget chain shows how a single unsafe Marshal.load operation can reportedly produce remote command execution in Ruby 4.0.6, underscoring the persistent dan",
         "cve": []
     },
     {
-        "title": "New Linux Driver Enables 12VHPWR Monitoring For ASUS ROG Astral Graphics Cards",
-        "date": "Sun, 16 Aug 2026 06:19:06 -0400",
-        "url": "https://www.phoronix.com/news/ASUS-ROG-Astral-12VHPWR",
-        "source": "Phoronix",
-        "summary": "For those concerned about current imbalance or voltage changes with the 12VHPWR power connectors and having an ASUS ROG Astral graphics card, there is now an open-source driver for Linux available tha",
+        "title": "Download More RAM Attack Bypasses Windows VBS, HVCI and Disables Microsoft Defender",
+        "date": "Sat, 15 Aug 2026 07:43:27 +0000",
+        "url": "https://gbhackers.com/download-more-ram-attack-bypasses-windows-vbs/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed Windows attack technique, dubbed “Download More RAM,” can undermine Virtualization-Based Security (VBS), bypass Hypervisor-Protected Code Integrity (HVCI), and disable endpoint prote",
         "cve": []
     },
     {
-        "title": "Marek Olšák's 19 Latest Patches Further Optimizing RADV & ACO",
-        "date": "Sat, 15 Aug 2026 20:17:05 -0400",
-        "url": "https://www.phoronix.com/news/RADV-ACO-19-More-Patches-Valve",
-        "source": "Phoronix",
-        "summary": "Legendary Mesa Radeon Gallium3D driver developer Marek Olšák who was a longtime AMD employee and then joined Valve's Linux graphics driver team earlier this year has continued his focus now on perfect",
+        "title": "Microsoft Copilot App Overhaul Merges Personal Chats and Ends Podcasts, Deep Research",
+        "date": "Sat, 15 Aug 2026 07:20:59 +0000",
+        "url": "https://gbhackers.com/microsoft-copilot-update-merges-chats-retires-podcast/",
+        "source": "GBHackers",
+        "summary": "Microsoft is reshaping its consumer and productivity AI strategy with a major update to its Copilot application, merging personal chat histories and generated content while discontinuing several promi",
         "cve": []
     },
     {
-        "title": "GNOME 51 Beta Released With Many Minor Improvements",
-        "date": "Sat, 15 Aug 2026 13:12:27 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-51-Beta",
-        "source": "Phoronix",
-        "summary": "The beta release of GNOME 51 is now available for testing. This cycle for the beta milestone is mostly a wide collection of minor improvements throughout the vast package set...",
+        "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
+        "date": "Fri, 14 Aug 2026 16:31:21 +0000",
+        "url": "https://gbhackers.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
+        "source": "GBHackers",
+        "summary": "Selidan, USA, August 14th, 2026, CyberNewswire New report examines suspicious Reddit activity, coordinated YouTube content and BBB Scam Tracker entries influencing how the vehicle history platform app",
         "cve": []
     },
     {
-        "title": "Intel's Jay Graphics Shader Compiler Now Passing Vulkan CTS With Xe2/Xe3 Hardware",
-        "date": "Sat, 15 Aug 2026 10:23:19 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Jay-Compiler-Xe2-Xe3-CTS",
-        "source": "Phoronix",
-        "summary": "Last year Alyssa Rosenzweig joined Intel to work on their Linux graphics drivers after previously serving as a contractor for Valve on their graphics stack and also previously leading the Mesa driver ",
+        "title": "Agentic AI Models Rebuild Malware and Sustain Real-World Cyber Intrusions, SentinelOne Warns",
+        "date": "Fri, 14 Aug 2026 11:48:54 +0000",
+        "url": "https://gbhackers.com/agentic-ai-models-rebuild-malware/",
+        "source": "GBHackers",
+        "summary": "Four incidents involving OpenAI, Anthropic, Meta and the UK AI Security Institute (AISI) describe AI agents reaching systems belonging to other organizations without their consent. The defining capabi",
         "cve": []
     },
     {
-        "title": "RustConn 0.20 Continues Further Polishing This GTK4/libadwaita-Based Connection Manager",
-        "date": "Sat, 15 Aug 2026 07:55:04 -0400",
-        "url": "https://www.phoronix.com/news/RustConn-0.20-Released",
-        "source": "Phoronix",
-        "summary": "RustConn has been in development for a while now as a modern GTK4 connection manager supporting a variety of protocols like SSH, RDP, VNC, Telnet, and more. RustConn 0.20 was released this week as the",
+        "title": "Dysphoria Hijacks Routers, Gateways and IP Cameras to Build Massive IoT Botnet",
+        "date": "Fri, 14 Aug 2026 10:26:05 +0000",
+        "url": "https://gbhackers.com/dysphoria-hijacks-routers/",
+        "source": "GBHackers",
+        "summary": "The Dysphoria botnet has expanded into a major Internet of Things threat, with a new Shadowserver Special Report identifying approximately 296,000 compromised devices. The campaign targets exposed rou",
         "cve": []
     },
     {
-        "title": "Late Sound Fixes For Linux 7.2 Bring More Device Quirks, Intel Nova Lake HDMI-In Capture",
-        "date": "Sat, 15 Aug 2026 07:03:00 -0400",
-        "url": "https://www.phoronix.com/news/Last-Sound-Fixes-Linux-7.2",
-        "source": "Phoronix",
-        "summary": "Ahead of the presumed Linux 7.2 stable kernel release tomorrow, some last minute sound fixes/quirks have been merged for this next kernel version...",
+        "title": "Malicious SVG Reconstructs DCRat Archive Entirely Inside Victim’s Browser",
+        "date": "Fri, 14 Aug 2026 10:00:25 +0000",
+        "url": "https://gbhackers.com/malicious-svg-reconstructs-dcrat-archive-entirely-inside-victims-browser/",
+        "source": "GBHackers",
+        "summary": "A newly analyzed DarkCrystal RAT (DCRat) campaign shows how threat actors are turning an apparently harmless SVG attachment into a full malware-delivery mechanism. The operation, investigated by the T",
         "cve": []
     },
     {
-        "title": "KDE Plasma 6.8 To Allow Fine-Tuning Mouse/Touchpad Speeds",
-        "date": "Sat, 15 Aug 2026 06:51:30 -0400",
-        "url": "https://www.phoronix.com/news/Plasma-6.8-Tune-Mouse-Speeds",
-        "source": "Phoronix",
-        "summary": "KDE developers continue to be quite busy this summer baking improvements for the upcoming Plasma 6.8 desktop release. This Week in Plasma is out with its newest issue to outline all of these interesti",
+        "title": "24 Malware Crypter Sellers Turn EDR Evasion and In-Memory Execution Into Paid Services",
+        "date": "Fri, 14 Aug 2026 08:11:22 +0000",
+        "url": "https://gbhackers.com/24-malware-crypter-sellers/",
+        "source": "GBHackers",
+        "summary": "A growing underground market is turning mature malware-evasion techniques into subscription products. An analysis of 24 active crypting-service vendors shows that customers can now buy payload obfusca",
         "cve": []
     },
     {
-        "title": "Debian Developers Begin Voting Over LLM Usage Within The Project",
-        "date": "Sat, 15 Aug 2026 06:40:04 -0400",
-        "url": "https://www.phoronix.com/news/Debian-Votes-On-LLM-Usage",
-        "source": "Phoronix",
-        "summary": "Debian developers have been considering a general resolution over LLM usage within the project. After collecting a variety of proposals, voting has now commenced for Debian developers to decide how co",
+        "title": "New Bring Your Own EDR Attack Turns SentinelOne Into Trojan Horse to Bypass Windows PPL",
+        "date": "Fri, 14 Aug 2026 08:11:19 +0000",
+        "url": "https://gbhackers.com/new-bring-your-own-edr-attack/",
+        "source": "GBHackers",
+        "summary": "Security researchers have introduced a new technique called “Bring Your Own EDR” (BYOEDR) that exploits legitimate SentinelOne components to bypass Windows Protected Process Light (PPL) protections, a",
         "cve": []
     }
 ]
