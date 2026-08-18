@@ -1,5 +1,45 @@
 [
     {
+        "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+        "date": "Mon, 17 Aug 2026 15:35:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+        "source": "BleepingComputer",
+        "summary": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
+        "cve": []
+    },
+    {
+        "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+        "date": "Mon, 17 Aug 2026 15:12:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+        "source": "BleepingComputer",
+        "summary": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistic",
+        "cve": []
+    },
+    {
+        "title": "Microsoft confirms GitHub is down worldwide",
+        "date": "Mon, 17 Aug 2026 10:47:08 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+        "source": "BleepingComputer",
+        "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
+        "cve": []
+    },
+    {
+        "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+        "date": "Mon, 17 Aug 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+        "source": "BleepingComputer",
+        "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier ",
+        "cve": []
+    },
+    {
+        "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+        "date": "Mon, 17 Aug 2026 08:33:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]",
+        "cve": []
+    },
+    {
         "title": "Philips and GE investigating Clop ransomware data theft claims",
         "date": "Mon, 17 Aug 2026 07:25:02 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
@@ -40,43 +80,59 @@
         "cve": []
     },
     {
-        "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-        "date": "Sun, 16 Aug 2026 13:29:52 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-        "source": "BleepingComputer",
-        "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
+        "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+        "date": "Tue, 18 Aug 2026 02:33:04 +0530",
+        "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+        "source": "The Hacker News",
+        "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauth",
         "cve": []
     },
     {
-        "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-        "date": "Sun, 16 Aug 2026 11:07:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-        "source": "BleepingComputer",
-        "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web",
+        "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+        "date": "Tue, 18 Aug 2026 00:14:17 +0530",
+        "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers at Wiz&nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public&nbsp;snowflakedb/snowflake-connector-net repository that it said could ",
         "cve": []
     },
     {
-        "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-        "date": "Sat, 15 Aug 2026 10:14:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-        "source": "BleepingComputer",
-        "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
+        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+        "date": "Mon, 17 Aug 2026 23:52:09 +0530",
+        "url": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+        "source": "The Hacker News",
+        "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on suscepti",
         "cve": []
     },
     {
-        "title": "How Anthropic plans to watermark Claude's AI-generated text",
-        "date": "Fri, 14 Aug 2026 19:24:17 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-        "source": "BleepingComputer",
-        "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
+        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+        "date": "Mon, 17 Aug 2026 23:11:06 +0530",
+        "url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel",
         "cve": []
     },
     {
-        "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-        "date": "Fri, 14 Aug 2026 14:04:26 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-        "source": "BleepingComputer",
-        "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Co",
+        "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+        "date": "Mon, 17 Aug 2026 18:53:51 +0530",
+        "url": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+        "source": "The Hacker News",
+        "summary": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problem",
+        "cve": []
+    },
+    {
+        "title": "How MCP Servers Can Expose Enterprise Secrets",
+        "date": "Mon, 17 Aug 2026 17:28:00 +0530",
+        "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+        "source": "The Hacker News",
+        "summary": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more org",
+        "cve": []
+    },
+    {
+        "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+        "date": "Mon, 17 Aug 2026 16:22:34 +0530",
+        "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+        "source": "The Hacker News",
+        "summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, wit",
         "cve": []
     },
     {
@@ -104,142 +160,6 @@
         "cve": [
             "CVE-2026-58231"
         ]
-    },
-    {
-        "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-        "date": "Sat, 15 Aug 2026 12:54:04 +0530",
-        "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-        "source": "The Hacker News",
-        "summary": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned.\n\nThe ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
-        "date": "Sat, 15 Aug 2026 00:18:46 +0530",
-        "url": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the na",
-        "cve": []
-    },
-    {
-        "title": "IAM Compliance Requirements and Best Practices",
-        "date": "Fri, 14 Aug 2026 22:49:49 +0530",
-        "url": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
-        "source": "The Hacker News",
-        "summary": "IAM compliance is the practice of demonstrating that identity and access controls are not only documented but actually enforced across users, applications, infrastructure, and non-human identities. Th",
-        "cve": []
-    },
-    {
-        "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
-        "date": "Fri, 14 Aug 2026 18:38:56 +0530",
-        "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-        "source": "The Hacker News",
-        "summary": "The threat actor known as HoneyMyte (aka&nbsp;Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and prote",
-        "cve": []
-    },
-    {
-        "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
-        "date": "Fri, 14 Aug 2026 16:37:45 +0530",
-        "url": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have detailed a post-exploitation technique that enables the&nbsp;Chrome DevTools Protocol (CDP)&nbsp;inside a running Google Chrome or Microsoft Edge process on Windows, all",
-        "cve": []
-    },
-    {
-        "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
-        "date": "Fri, 14 Aug 2026 16:27:00 +0530",
-        "url": "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have uncovered a large-scale, global recruitment-themed phishing campaign that uses fake interview scheduling pages and Browser-in-the-Browser (BitB) windows to steal Google ",
-        "cve": []
-    },
-    {
-        "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
-        "date": "Fri, 14 Aug 2026 16:14:34 +0530",
-        "url": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
-        "source": "The Hacker News",
-        "summary": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks.\n\nIn a statement shared with TechCrunch, the iPhone maker said i",
-        "cve": []
-    },
-    {
-        "title": "Threema Secure Messaging Service Hit by Massive DDoS Attack",
-        "date": "Mon, 17 Aug 2026 11:49:33 +0000",
-        "url": "https://cybersecuritynews.com/threema-hit-by-massive-ddos-attack/",
-        "source": "CyberSecurityNews",
-        "summary": "Threema, a privacy-focused secure messaging service, was hit by a series of large-scale distributed denial-of-service (DDoS attacks) that temporarily disrupted access for users. The incidents affected",
-        "cve": []
-    },
-    {
-        "title": "Microsoft SCCM Vulnerability Chained to Execute Malicious Code Remotely",
-        "date": "Mon, 17 Aug 2026 11:26:12 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-sccm-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "Security researchers have disclosed a serious attack chain affecting Microsoft System Center Configuration Manager, commonly known as SCCM or Configuration Manager. The flaws could allow an attacker t",
-        "cve": []
-    },
-    {
-        "title": "Roundcube 1.6.18 and 1.7.3 Released With Fix for RCE and SSRF Vulnerabilities",
-        "date": "Mon, 17 Aug 2026 11:24:35 +0000",
-        "url": "https://cybersecuritynews.com/roundcube-1-6-18-and-1-7-3-released-with-fix/",
-        "source": "CyberSecurityNews",
-        "summary": "Roundcube has released versions 1.6.18 and 1.7.3 to address eleven security vulnerabilities affecting its webmail platform. The updates fix a remote code execution flaw, server-side request forgery by",
-        "cve": []
-    },
-    {
-        "title": "HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",
-        "date": "Mon, 17 Aug 2026 08:55:57 +0000",
-        "url": "https://cybersecuritynews.com/honeymyte-coolclient-backdoor/",
-        "source": "CyberSecurityNews",
-        "summary": "HoneyMyte has upgraded its CoolClient backdoor with a kernel-level rootkit for Windows. The change makes routine investigation much harder for defenders. It gives intruders tools designed to survive o",
-        "cve": []
-    },
-    {
-        "title": "GeoServer’s Unauthenticated SQL injection Vulnerability Enables RCE Attacks",
-        "date": "Mon, 17 Aug 2026 08:36:08 +0000",
-        "url": "https://cybersecuritynews.com/geoservers-unauthenticated-sql-injection-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "GeoServer administrators should urgently update affected systems after researchers disclosed an unauthenticated SQL injection flaw in the jsonArrayContains filter function. The issue can allow attacke",
-        "cve": []
-    },
-    {
-        "title": "Z.ai Unveils GLM-5.3 with Major Enhancements for Coding and Cybersecurity",
-        "date": "Mon, 17 Aug 2026 08:35:01 +0000",
-        "url": "https://cybersecuritynews.com/glm-5-3-major-enhancements/",
-        "source": "CyberSecurityNews",
-        "summary": "Z.ai has released GLM-5.3, a new AI model built to handle complex coding, long-running agent tasks, and cybersecurity analysis. The company says the model uses the same base model as GLM-5.2, with imp",
-        "cve": []
-    },
-    {
-        "title": "New MessiahGPT AI Model Fueling Automated Ransomware and Phishing Attacks",
-        "date": "Mon, 17 Aug 2026 07:28:32 +0000",
-        "url": "https://cybersecuritynews.com/messiahgpt-fueling-ransomware-phishing-attacks/",
-        "source": "CyberSecurityNews",
-        "summary": "A criminal AI service called MessiahGPT is being marketed on BreachForums as an uncensored platform for creating ransomware, phishing kits, stealers, crypters, rootkits, and social-engineering content",
-        "cve": []
-    },
-    {
-        "title": "Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT",
-        "date": "Mon, 17 Aug 2026 07:03:02 +0000",
-        "url": "https://cybersecuritynews.com/fake-web3-interview/",
-        "source": "CyberSecurityNews",
-        "summary": "Fake job interviews are again being used to breach cryptocurrency teams. In a documented case, a convincing Web3 recruitment process led a Windows user to install malware that stole private keys, brow",
-        "cve": []
-    },
-    {
-        "title": "Evooo1Bot Linux Botnet Uses 16 DDoS Methods and SOCKS5 Proxies to Hijack Edge Devices",
-        "date": "Mon, 17 Aug 2026 06:49:16 +0000",
-        "url": "https://cybersecuritynews.com/evooo1bot-linux-botnet/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly tracked Linux botnet is turning exposed edge devices into tools for disruption, remote access, and traffic relaying. Evooo1Bot is the threat that reaches internet-facing edge systems by exploi",
-        "cve": []
-    },
-    {
-        "title": "ChainDrop npm Worm Poisons 444 Packages Through GitHub Actions and Trusted Publishing",
-        "date": "Mon, 17 Aug 2026 06:32:48 +0000",
-        "url": "https://cybersecuritynews.com/chaindrop-npm-worm/",
-        "source": "CyberSecurityNews",
-        "summary": "ChainDrop has made an npm package compromise a warning about developer machines. The self-propagating campaign poisoned 444 packages and more than 1,300 malicious releases after attackers took over th",
-        "cve": []
     },
     {
         "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -322,83 +242,83 @@
         "cve": []
     },
     {
-        "title": "Misconfigured Microsoft Power Pages Likely Exposed 27 Million Records to ExfilSquad",
-        "date": "Mon, 17 Aug 2026 09:33:55 +0000",
-        "url": "https://gbhackers.com/misconfigured-microsoft-power-pages/",
-        "source": "GBHackers",
-        "summary": "A suspected Microsoft Power Pages configuration failure has been linked to the exposure of roughly 27 million records across 13 organizations, after the data-extortion group ExfilSquad published 382.6",
+        "title": "Linux 7.3 To Land Initial Code Improving vRAM Management, More Improvements Coming",
+        "date": "Mon, 17 Aug 2026 17:15:57 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Improving-vRAM-Mgmt",
+        "source": "Phoronix",
+        "summary": "Earlier this year Natalie Vock of Valve's Linux graphics team laid out some patches for improving the Linux gaming experience for systems with limited vRAM. The kernel work for improving that video me",
         "cve": []
     },
     {
-        "title": "HoneyMyte Upgrades CoolClient With Windows Kernel Rootkit to Hide Malware and C2 Connections",
-        "date": "Mon, 17 Aug 2026 09:03:51 +0000",
-        "url": "https://gbhackers.com/honeymyte-upgrades-coolclient/",
-        "source": "GBHackers",
-        "summary": "HoneyMyte, the China-aligned espionage group also tracked as Mustang Panda, has upgraded its CoolClient backdoor with a signed Windows kernel-mode rootkit that can conceal malware artifacts and comman",
+        "title": "FFmpeg Lands H.265 Vulkan Encode Performance Optimizations",
+        "date": "Mon, 17 Aug 2026 16:14:03 -0400",
+        "url": "https://www.phoronix.com/news/FFmpeg-Faster-HEVC-Encode",
+        "source": "Phoronix",
+        "summary": "The FFmpeg multimedia library can now enjoy faster H.265/HEVC video encoding with the Vulkan-powered encode path. With the optimizations merged today, the H.265 encode performance should be roughly at",
         "cve": []
     },
     {
-        "title": "Malicious Google Apps Script Profiles Crypto Victims Before Delivering Signed Windows Malware",
-        "date": "Mon, 17 Aug 2026 07:56:42 +0000",
-        "url": "https://gbhackers.com/malicious-google-apps-script-attack/",
-        "source": "GBHackers",
-        "summary": "A targeted cryptocurrency intrusion has exposed how Google-hosted Apps Script pages can be weaponized to profile prospective victims before delivering signed Windows malware. The campaign used a fake ",
+        "title": "Offloading Rust To GPUs Proves Capable Of High Performance With Memory Safety",
+        "date": "Mon, 17 Aug 2026 15:30:16 -0400",
+        "url": "https://www.phoronix.com/news/LLVM-Offload-Rust-Performance",
+        "source": "Phoronix",
+        "summary": "A new research paper published on LLVM offloading to GPU accelerators using the Rust programming language is talking up the prospects of making use of safe Rust code for GPU kernels while retaining Ru",
         "cve": []
     },
     {
-        "title": "GeoServer Pre-Auth SQL Injection Flaw Lets Attackers Gain Remote Code Execution",
-        "date": "Mon, 17 Aug 2026 07:29:32 +0000",
-        "url": "https://gbhackers.com/geoserver-pre-auth-sql-injection-flaw/",
-        "source": "GBHackers",
-        "summary": "A newly disclosed SQL injection vulnerability in GeoServer allows remote attackers to execute operating system commands on backend PostgreSQL hosts under high-risk configurations. This flaw, detailed ",
+        "title": "ARCTIC Fan Controller: The Best Fan Controller For Linux Desktops, Less Than $10 USD",
+        "date": "Mon, 17 Aug 2026 12:50:00 -0400",
+        "url": "https://www.phoronix.com/review/arctic-fan-controller",
+        "source": "Phoronix",
+        "summary": "Back in March were patches posted by ARCTIC Cooling for an ARCTIC fan controller driver for Linux. Typically we aren't used to seeing desktop/enthusiast focused vendors providing such Linux drivers fo",
         "cve": []
     },
     {
-        "title": "ChainDrop Publishes Initial Malware Without Stealing a Long-Lived npm Token",
-        "date": "Mon, 17 Aug 2026 07:13:40 +0000",
-        "url": "https://gbhackers.com/chaindrop-exploits-npm/",
-        "source": "GBHackers",
-        "summary": "The ChainDrop campaign has exposed a gap in modern software supply-chain defenses: malware no longer needs a durable npm publishing token or even an npm install event to spread through developer envir",
+        "title": "AMD Working On A New Backend For Improving ROCm Compute In QEMU/VMs",
+        "date": "Mon, 17 Aug 2026 11:05:00 -0400",
+        "url": "https://www.phoronix.com/news/AMD-ROCm-Better-QEMU-VM",
+        "source": "Phoronix",
+        "summary": "AMD engineers are working on enhancing the open-source ROCm compute stack for better handling GPU virtualized compute under QEMU...",
         "cve": []
     },
     {
-        "title": "Weekly Recap! – Top 50 Biggest Cybersecurity Stories of the Week: Apple Spyware, Zoom Zero-Click RCE, VMware vCenter Exploits, Microsoft Patch Day & More",
-        "date": "Mon, 17 Aug 2026 06:38:45 +0000",
-        "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-august-10-14-2026/",
-        "source": "GBHackers",
-        "summary": "Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter — your weekly cybersecurity bulletin covering the 50 most important stories from August 10–14, 2026. Zero-days set the to",
+        "title": "Linux 7.3 SMP Improvement To Help Reduce Latency, Improve Real-Time Performance",
+        "date": "Mon, 17 Aug 2026 10:09:01 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-SMP",
+        "source": "Phoronix",
+        "summary": "Among the pull requests sent out today now that the Linux 7.3 merge window is open are the SMP improvements for this next kernel version. Standing out among the SMP code are some enhancements for help",
         "cve": []
     },
     {
-        "title": "Evooo1Bot Turns Compromised Routers Into DDoS Bots and Anonymous Proxy Nodes",
-        "date": "Mon, 17 Aug 2026 06:24:49 +0000",
-        "url": "https://gbhackers.com/linux-botnet-dubbed-evooo1bot/",
-        "source": "GBHackers",
-        "summary": "A newly identified Linux botnet dubbed Evooo1Bot is targeting vulnerable internet-facing routers, edge appliances, cameras, and enterprise systems, combining Mirai-derived DDoS capabilities with proxy",
+        "title": "Firefox 154 Now Available With \"Manage AI\" Quick Action",
+        "date": "Mon, 17 Aug 2026 09:01:22 -0400",
+        "url": "https://www.phoronix.com/news/Firefox-154-Released",
+        "source": "Phoronix",
+        "summary": "Firefox 154 is now available as the newest monthly update bringing a few new features, enhancements, and other alterations to this open-source web browser...",
         "cve": []
     },
     {
-        "title": "MessiahGPT Unrestricted AI Model Lets Hackers Generate Ransomware and Phishing Kits",
-        "date": "Mon, 17 Aug 2026 05:41:48 +0000",
-        "url": "https://gbhackers.com/messiahgpt-unrestricted-ai-model/",
-        "source": "GBHackers",
-        "summary": "A newly surfaced criminal AI service named MessiahGPT is being marketed on BreachForums as an unrestricted offensive model capable of generating ransomware, phishing kits, stealers, crypters, rootkits",
+        "title": "Intel & AMD Power Management Driver Improvements Ready For Linux 7.3",
+        "date": "Mon, 17 Aug 2026 08:11:32 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Power-Management",
+        "source": "Phoronix",
+        "summary": "In advance of the Linux 7.3 merge window opening, Linux power management subsystem maintainer Rafael Wysocki of Intel submitted all the power management, ACPI, and thermal control code. As not too muc",
         "cve": []
     },
     {
-        "title": "12 KB Backdoor Masquerades as Realtek Software and Hides C2 in Windows Whitespace",
-        "date": "Mon, 17 Aug 2026 05:33:19 +0000",
-        "url": "https://gbhackers.com/12-kb-backdoor-mimics/",
-        "source": "GBHackers",
-        "summary": "A compact, custom-built Windows backdoor that impersonates Realtek software, persists through WMI, and conceals its command-and-control address inside what appears to be an almost empty desktop.ini fi",
+        "title": "KTransformers 0.7 Expands AVX-512 Support To Benefit AMD EPYC Servers",
+        "date": "Mon, 17 Aug 2026 07:28:12 -0400",
+        "url": "https://www.phoronix.com/news/KTransformers-0.7",
+        "source": "Phoronix",
+        "summary": "KTransformers as the framework for heterogeneous LLM inference and fine-tune optimizations is out today with its v0.7 feature release...",
         "cve": []
     },
     {
-        "title": "Shell Investigates Data Breach After Cl0p Ransomware Claims Theft of 89GB Corporate Data",
-        "date": "Mon, 17 Aug 2026 05:22:54 +0000",
-        "url": "https://gbhackers.com/shell-investigates-data-breach/",
-        "source": "GBHackers",
-        "summary": "Shell has launched a cybersecurity investigation following claims by the Cl0p ransomware operation that it stole 89GB of corporate information from the multinational energy company. This alleged breac",
+        "title": "Con Kolivas Revives \"-ck\" Patches & MuQSS To Improve Linux Desktop Responsiveness",
+        "date": "Mon, 17 Aug 2026 06:26:08 -0400",
+        "url": "https://www.phoronix.com/news/Con-Kolivas-Linux-Patches-2026",
+        "source": "Phoronix",
+        "summary": "Huge surprise this morning! Longtime Linux users may recall the out-of-tree work done years ago by open-source developer Con Kolivas... And as part of that his work on the Brain F*** Scheduler that ev",
         "cve": []
     }
 ]
