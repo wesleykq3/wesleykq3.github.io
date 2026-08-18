@@ -1,5 +1,37 @@
 [
     {
+        "title": "Microsoft tests faster Windows File Explorer, new context menu",
+        "date": "Tue, 18 Aug 2026 07:14:28 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds rolling out to Insiders this week. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+        "date": "Tue, 18 Aug 2026 06:32:16 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively ex",
+        "cve": []
+    },
+    {
+        "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
+        "date": "Tue, 18 Aug 2026 05:24:49 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint Online, and OneDrive. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+        "date": "Tue, 18 Aug 2026 04:12:08 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
+        "cve": []
+    },
+    {
         "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
         "date": "Mon, 17 Aug 2026 15:35:01 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
@@ -48,35 +80,35 @@
         "cve": []
     },
     {
-        "title": "French tax authority data breach affects 678,000 individuals",
-        "date": "Mon, 17 Aug 2026 06:09:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-        "source": "BleepingComputer",
-        "summary": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 ind",
+        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+        "date": "Tue, 18 Aug 2026 17:10:06 +0530",
+        "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2",
         "cve": []
     },
     {
-        "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-        "date": "Mon, 17 Aug 2026 05:05:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
+        "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+        "date": "Tue, 18 Aug 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+        "source": "The Hacker News",
+        "summary": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week b",
         "cve": []
     },
     {
-        "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-        "date": "Sun, 16 Aug 2026 19:47:06 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-        "source": "BleepingComputer",
-        "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now c",
+        "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+        "date": "Tue, 18 Aug 2026 14:40:45 +0530",
+        "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+        "source": "The Hacker News",
+        "summary": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 custom",
         "cve": []
     },
     {
-        "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
-        "date": "Sun, 16 Aug 2026 18:28:57 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-        "source": "BleepingComputer",
-        "summary": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
+        "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+        "date": "Tue, 18 Aug 2026 12:04:20 +0530",
+        "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitat",
         "cve": []
     },
     {
@@ -126,40 +158,6 @@
         "source": "The Hacker News",
         "summary": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more org",
         "cve": []
-    },
-    {
-        "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-        "date": "Mon, 17 Aug 2026 16:22:34 +0530",
-        "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-        "source": "The Hacker News",
-        "summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, wit",
-        "cve": []
-    },
-    {
-        "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
-        "date": "Mon, 17 Aug 2026 14:59:55 +0530",
-        "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn inte",
-        "cve": []
-    },
-    {
-        "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-        "date": "Mon, 17 Aug 2026 13:06:19 +0530",
-        "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT).\n\nThe attacks involve",
-        "cve": []
-    },
-    {
-        "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
-        "date": "Sat, 15 Aug 2026 14:08:46 +0530",
-        "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-        "source": "The Hacker News",
-        "summary": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.\n\nThe vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring syste",
-        "cve": [
-            "CVE-2026-58231"
-        ]
     },
     {
         "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -242,6 +240,46 @@
         "cve": []
     },
     {
+        "title": "Fedora x86-64-v3 Optimized Packages Pushed Back To At Least Fedora 46",
+        "date": "Tue, 18 Aug 2026 06:21:29 -0400",
+        "url": "https://www.phoronix.com/news/Fedora-x86-64-v3-Delayed-F46",
+        "source": "Phoronix",
+        "summary": "There was a proposal under discussion the past few months on building x86-64-v3 packages for Fedora 45 while retaining x86-64-v1 packages. The hope was building the Fedora packages with x86-64-v3 wher",
+        "cve": []
+    },
+    {
+        "title": "Lenovo Lands New Watchdog Driver In Linux 7.3 For Their SE30G2 + SE60 Edge AI Computers",
+        "date": "Tue, 18 Aug 2026 06:07:05 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Watchdog",
+        "source": "Phoronix",
+        "summary": "When it comes to the watchdog driver changes for Linux 7.3, standing out is the new Lenovo driver for their upcoming ThinkEdge AI edge computing systems...",
+        "cve": []
+    },
+    {
+        "title": "Intel Enables Buffer Compression For Better Gaming Performance With DXVK",
+        "date": "Tue, 18 Aug 2026 05:50:03 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Buffer-Compression-DXVK",
+        "source": "Phoronix",
+        "summary": "Merged today to Mesa 26.3-devel is a nice performance boost for Intel graphics with Valve's Steam Play when using DXVK for Direct3D 8 / 9 / 10 / 11 over the Vulkan API. The open-source Intel ANV drive",
+        "cve": []
+    },
+    {
+        "title": "XFS Lands FALLOC_FL_WRITE_ZEROES For Efficiency Improvement In Linux 7.3",
+        "date": "Tue, 18 Aug 2026 05:35:33 -0400",
+        "url": "https://www.phoronix.com/news/XFS-FALLOC-FL-WRITE-ZEROES",
+        "source": "Phoronix",
+        "summary": "The XFS file-system improvements have been merged for Linux 7.3. For end-users the only notable change for this file-system on the new kernel is adding support for FALLOC_FL_WRITE_ZEROES...",
+        "cve": []
+    },
+    {
+        "title": "EFS & FreeVxFS File-Systems Get Booted While FailFS Merged For Linux 7.3",
+        "date": "Mon, 17 Aug 2026 20:29:44 -0400",
+        "url": "https://www.phoronix.com/news/Linux-File-System-Changes-7.3",
+        "source": "Phoronix",
+        "summary": "Among the early pull requests merged today by Linus Torvalds for the Linux 7.3 kernel cycle were removal of some ancient file-systems while adding in a new pseudo file-system...",
+        "cve": []
+    },
+    {
         "title": "Linux 7.3 To Land Initial Code Improving vRAM Management, More Improvements Coming",
         "date": "Mon, 17 Aug 2026 17:15:57 -0400",
         "url": "https://www.phoronix.com/news/Linux-7.3-Improving-vRAM-Mgmt",
@@ -279,46 +317,6 @@
         "url": "https://www.phoronix.com/news/AMD-ROCm-Better-QEMU-VM",
         "source": "Phoronix",
         "summary": "AMD engineers are working on enhancing the open-source ROCm compute stack for better handling GPU virtualized compute under QEMU...",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.3 SMP Improvement To Help Reduce Latency, Improve Real-Time Performance",
-        "date": "Mon, 17 Aug 2026 10:09:01 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-SMP",
-        "source": "Phoronix",
-        "summary": "Among the pull requests sent out today now that the Linux 7.3 merge window is open are the SMP improvements for this next kernel version. Standing out among the SMP code are some enhancements for help",
-        "cve": []
-    },
-    {
-        "title": "Firefox 154 Now Available With \"Manage AI\" Quick Action",
-        "date": "Mon, 17 Aug 2026 09:01:22 -0400",
-        "url": "https://www.phoronix.com/news/Firefox-154-Released",
-        "source": "Phoronix",
-        "summary": "Firefox 154 is now available as the newest monthly update bringing a few new features, enhancements, and other alterations to this open-source web browser...",
-        "cve": []
-    },
-    {
-        "title": "Intel & AMD Power Management Driver Improvements Ready For Linux 7.3",
-        "date": "Mon, 17 Aug 2026 08:11:32 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Power-Management",
-        "source": "Phoronix",
-        "summary": "In advance of the Linux 7.3 merge window opening, Linux power management subsystem maintainer Rafael Wysocki of Intel submitted all the power management, ACPI, and thermal control code. As not too muc",
-        "cve": []
-    },
-    {
-        "title": "KTransformers 0.7 Expands AVX-512 Support To Benefit AMD EPYC Servers",
-        "date": "Mon, 17 Aug 2026 07:28:12 -0400",
-        "url": "https://www.phoronix.com/news/KTransformers-0.7",
-        "source": "Phoronix",
-        "summary": "KTransformers as the framework for heterogeneous LLM inference and fine-tune optimizations is out today with its v0.7 feature release...",
-        "cve": []
-    },
-    {
-        "title": "Con Kolivas Revives \"-ck\" Patches & MuQSS To Improve Linux Desktop Responsiveness",
-        "date": "Mon, 17 Aug 2026 06:26:08 -0400",
-        "url": "https://www.phoronix.com/news/Con-Kolivas-Linux-Patches-2026",
-        "source": "Phoronix",
-        "summary": "Huge surprise this morning! Longtime Linux users may recall the out-of-tree work done years ago by open-source developer Con Kolivas... And as part of that his work on the Brain F*** Scheduler that ev",
         "cve": []
     }
 ]
