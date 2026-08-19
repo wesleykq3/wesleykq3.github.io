@@ -1,5 +1,29 @@
 [
     {
+        "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+        "date": "Tue, 18 Aug 2026 16:14:58 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+        "source": "BleepingComputer",
+        "summary": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without came",
+        "cve": []
+    },
+    {
+        "title": "Clop created custom web shell for Windchill data theft attacks",
+        "date": "Tue, 18 Aug 2026 13:29:51 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+        "source": "BleepingComputer",
+        "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file reposit",
+        "cve": []
+    },
+    {
+        "title": "Your Controls Block Known Attacks. What About the Behavior?",
+        "date": "Tue, 18 Aug 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+        "source": "BleepingComputer",
+        "summary": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by tec",
+        "cve": []
+    },
+    {
         "title": "Microsoft tests faster Windows File Explorer, new context menu",
         "date": "Tue, 18 Aug 2026 07:14:28 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
@@ -56,35 +80,43 @@
         "cve": []
     },
     {
-        "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-        "date": "Mon, 17 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-        "source": "BleepingComputer",
-        "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier ",
-        "cve": []
-    },
-    {
-        "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
-        "date": "Mon, 17 Aug 2026 08:33:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]",
-        "cve": []
-    },
-    {
-        "title": "Philips and GE investigating Clop ransomware data theft claims",
-        "date": "Mon, 17 Aug 2026 07:25:02 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-        "source": "BleepingComputer",
-        "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
-        "cve": []
-    },
-    {
-        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-        "date": "Tue, 18 Aug 2026 17:10:06 +0530",
-        "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+        "date": "Tue, 18 Aug 2026 23:17:22 +0530",
+        "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2",
+        "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other info",
+        "cve": []
+    },
+    {
+        "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+        "date": "Tue, 18 Aug 2026 23:14:05 +0530",
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+        "source": "The Hacker News",
+        "summary": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and ",
+        "cve": []
+    },
+    {
+        "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+        "date": "Tue, 18 Aug 2026 22:28:16 +0530",
+        "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+        "source": "The Hacker News",
+        "summary": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange fo",
+        "cve": []
+    },
+    {
+        "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+        "date": "Tue, 18 Aug 2026 18:08:36 +0530",
+        "url": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+        "source": "The Hacker News",
+        "summary": "Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system",
+        "cve": []
+    },
+    {
+        "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+        "date": "Tue, 18 Aug 2026 18:08:20 +0530",
+        "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT.\n\n\"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its",
         "cve": []
     },
     {
@@ -93,6 +125,14 @@
         "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
         "source": "The Hacker News",
         "summary": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week b",
+        "cve": []
+    },
+    {
+        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+        "date": "Tue, 18 Aug 2026 16:50:00 +0530",
+        "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2",
         "cve": []
     },
     {
@@ -120,43 +160,83 @@
         "cve": []
     },
     {
-        "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-        "date": "Tue, 18 Aug 2026 00:14:17 +0530",
-        "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers at Wiz&nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public&nbsp;snowflakedb/snowflake-connector-net repository that it said could ",
+        "title": "CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",
+        "date": "Tue, 18 Aug 2026 17:47:28 +0000",
+        "url": "https://cybersecuritynews.com/medusa-ransomware/",
+        "source": "CyberSecurityNews",
+        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.S. Department of Health and Human Services (HHS) have jointly released an updated secu",
         "cve": []
     },
     {
-        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-        "date": "Mon, 17 Aug 2026 23:52:09 +0530",
-        "url": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "source": "The Hacker News",
-        "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on suscepti",
+        "title": "French Tax Authority Data Breach Exposes 600,000+ Users’ Personal Tax-Related Data",
+        "date": "Tue, 18 Aug 2026 17:00:44 +0000",
+        "url": "https://cybersecuritynews.com/french-tax-authority-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "France’s tax authority has confirmed a data breach affecting approximately 678,000 individuals and businesses after threat actors gained unauthorized access to internal information systems. The incide",
         "cve": []
     },
     {
-        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-        "date": "Mon, 17 Aug 2026 23:11:06 +0530",
-        "url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel",
+        "title": "Critical MLflow SSRF Vulnerability Exploited by Hackers in the Wild",
+        "date": "Tue, 18 Aug 2026 16:52:33 +0000",
+        "url": "https://cybersecuritynews.com/mlflow-ssrf-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Threat actors are actively exploiting a critical, unauthenticated server-side request forgery (SSRF) vulnerability in MLflow, the popular open-source platform widely used by data engineering and machi",
         "cve": []
     },
     {
-        "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
-        "date": "Mon, 17 Aug 2026 18:53:51 +0530",
-        "url": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-        "source": "The Hacker News",
-        "summary": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problem",
+        "title": "Hackers Hijack Thousands of WordPress Sites to Use as C2 Servers for StopAndProtect Malware",
+        "date": "Tue, 18 Aug 2026 16:47:24 +0000",
+        "url": "https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly uncovered malware operation dubbed StopAndProtect is transforming thousands of hacked WordPress websites into a sprawling criminal command-and-control (C2) infrastructure. The campaign blends ",
         "cve": []
     },
     {
-        "title": "How MCP Servers Can Expose Enterprise Secrets",
-        "date": "Mon, 17 Aug 2026 17:28:00 +0530",
-        "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
-        "source": "The Hacker News",
-        "summary": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more org",
+        "title": "Microsoft 365 Search Outage Disrupts SharePoint, OneDrive, and Outlook Users Worldwide",
+        "date": "Tue, 18 Aug 2026 16:26:40 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-365-search-outage/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is actively managing a service disruption that has left a subset of enterprise users unable to search for content across SharePoint Online, OneDrive, Outlook on the web, and Outlook desktop.",
+        "cve": []
+    },
+    {
+        "title": "Anthropic Launches New /design Skill for Claude Code UI Workflows",
+        "date": "Tue, 18 Aug 2026 16:03:05 +0000",
+        "url": "https://cybersecuritynews.com/anthropic-launches-design-skill/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic has introduced a new /design skill for Claude Code, expanding its developer-focused AI platform into user interface design workflows. The feature is currently available as a research preview",
+        "cve": []
+    },
+    {
+        "title": "Projextor Shows How Malware Can Hide Behind Trusted Electron Executables",
+        "date": "Tue, 18 Aug 2026 15:34:10 +0000",
+        "url": "https://cybersecuritynews.com/projextor-shows-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "Projextor is a malware campaign that turns ordinary-looking desktop tools into a doorway for hidden code. Its operators package it inside working document converters, meal planners and recipe applicat",
+        "cve": []
+    },
+    {
+        "title": "BTMob Fraud-as-a-Service Platform Uses 1,400 Live Servers to Power Android Device Takeovers",
+        "date": "Tue, 18 Aug 2026 15:10:21 +0000",
+        "url": "https://cybersecuritynews.com/btmob-fraud-as-a-service-platform/",
+        "source": "CyberSecurityNews",
+        "summary": "BTMob is an Android banking malware platform built to turn phones into tools for fraud. It reaches victims through fake apps, cloned download pages, and messages that look like routine customer suppor",
+        "cve": []
+    },
+    {
+        "title": "GEEKOM Mini PC Realtek LAN Driver Package Found Infected With Asruex Trojan",
+        "date": "Tue, 18 Aug 2026 14:27:15 +0000",
+        "url": "https://cybersecuritynews.com/geekom-mini-pc/",
+        "source": "CyberSecurityNews",
+        "summary": "A network driver download is meant to get a computer online. In this case, it became a potential malware route after a Realtek LAN driver package on a legacy GEEKOM support page was flagged as carryin",
+        "cve": []
+    },
+    {
+        "title": "JWR Phishing Framework Uses Real-Time WebSocket Control and AES Encryption to Steal Banking Credentials",
+        "date": "Tue, 18 Aug 2026 14:03:57 +0000",
+        "url": "https://cybersecuritynews.com/jwr-phishing-framework/",
+        "source": "CyberSecurityNews",
+        "summary": "JWR is a phishing framework built for live fraud. It turns a fake payment or bank page into a live channel that lets criminals watch details arrive as they are typed. The campaign uses SMS messages po",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Fedora x86-64-v3 Optimized Packages Pushed Back To At Least Fedora 46",
-        "date": "Tue, 18 Aug 2026 06:21:29 -0400",
-        "url": "https://www.phoronix.com/news/Fedora-x86-64-v3-Delayed-F46",
-        "source": "Phoronix",
-        "summary": "There was a proposal under discussion the past few months on building x86-64-v3 packages for Fedora 45 while retaining x86-64-v1 packages. The hope was building the Fedora packages with x86-64-v3 wher",
+        "title": "Projextor Abuses Cross-Platform Electron Framework to Conceal Malware Activity",
+        "date": "Tue, 18 Aug 2026 13:32:52 +0000",
+        "url": "https://gbhackers.com/projextor-infection-technique/",
+        "source": "GBHackers",
+        "summary": "Threat actors behind the Projextor campaign are abusing Electron-based productivity applications to conceal malware-like capabilities behind fully functioning document converters, meal planners, recip",
         "cve": []
     },
     {
-        "title": "Lenovo Lands New Watchdog Driver In Linux 7.3 For Their SE30G2 + SE60 Edge AI Computers",
-        "date": "Tue, 18 Aug 2026 06:07:05 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Watchdog",
-        "source": "Phoronix",
-        "summary": "When it comes to the watchdog driver changes for Linux 7.3, standing out is the new Lenovo driver for their upcoming ThinkEdge AI edge computing systems...",
+        "title": "Critical MLflow SSRF Flaw Exploited in the Wild",
+        "date": "Tue, 18 Aug 2026 13:09:50 +0000",
+        "url": "https://gbhackers.com/critical-mlflow-ssrf-flaw-exploited-in-the-wild/",
+        "source": "GBHackers",
+        "summary": "A critical unauthenticated server-side request forgery (SSRF) vulnerability in MLflow, tracked as CVE-2026-64849, is being actively exploited within hours of its disclosure, according to watchTowr. Th",
         "cve": []
     },
     {
-        "title": "Intel Enables Buffer Compression For Better Gaming Performance With DXVK",
-        "date": "Tue, 18 Aug 2026 05:50:03 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Buffer-Compression-DXVK",
-        "source": "Phoronix",
-        "summary": "Merged today to Mesa 26.3-devel is a nice performance boost for Intel graphics with Valve's Steam Play when using DXVK for Direct3D 8 / 9 / 10 / 11 over the Vulkan API. The open-source Intel ANV drive",
+        "title": "OpenAI Warns Organizations to Automate Cybersecurity as AI-Powered Attacks Accelerate",
+        "date": "Tue, 18 Aug 2026 12:56:05 +0000",
+        "url": "https://gbhackers.com/openai-warns-organizations-to-automate-cybersecurity-as-ai-powered-attacks-accelerate/",
+        "source": "GBHackers",
+        "summary": "OpenAI has issued a warning that organizations need to quickly automate core cybersecurity functions as increasingly advanced AI systems make it easier and cheaper to identify, exploit, and chain secu",
         "cve": []
     },
     {
-        "title": "XFS Lands FALLOC_FL_WRITE_ZEROES For Efficiency Improvement In Linux 7.3",
-        "date": "Tue, 18 Aug 2026 05:35:33 -0400",
-        "url": "https://www.phoronix.com/news/XFS-FALLOC-FL-WRITE-ZEROES",
-        "source": "Phoronix",
-        "summary": "The XFS file-system improvements have been merged for Linux 7.3. For end-users the only notable change for this file-system on the new kernel is adding support for FALLOC_FL_WRITE_ZEROES...",
+        "title": "BTMob Uses Custom Phishing Apps to Turn Android Users Into Remote-Controlled Fraud Victims",
+        "date": "Tue, 18 Aug 2026 12:36:50 +0000",
+        "url": "https://gbhackers.com/btmob-uses-custom-phishing-apps/",
+        "source": "GBHackers",
+        "summary": "BTMOB has evolved beyond a conventional Android banking trojan into a turnkey fraud platform that lets criminals build branded phishing apps, remotely operate infected phones, and automate theft. Its ",
         "cve": []
     },
     {
-        "title": "EFS & FreeVxFS File-Systems Get Booted While FailFS Merged For Linux 7.3",
-        "date": "Mon, 17 Aug 2026 20:29:44 -0400",
-        "url": "https://www.phoronix.com/news/Linux-File-System-Changes-7.3",
-        "source": "Phoronix",
-        "summary": "Among the early pull requests merged today by Linus Torvalds for the Linux 7.3 kernel cycle were removal of some ancient file-systems while adding in a new pseudo file-system...",
+        "title": "French Tax Authority Cyberattack Exposes Tax Data of 678,000 Individuals and Businesses",
+        "date": "Tue, 18 Aug 2026 12:22:13 +0000",
+        "url": "https://gbhackers.com/french-tax-authority-cyberattack/",
+        "source": "GBHackers",
+        "summary": "France’s Directorate General of Public Finances (DGFiP) has reported a cyberattack that resulted in unauthorized access to and extraction of tax and cadastral data for approximately 678,000 individual",
         "cve": []
     },
     {
-        "title": "Linux 7.3 To Land Initial Code Improving vRAM Management, More Improvements Coming",
-        "date": "Mon, 17 Aug 2026 17:15:57 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Improving-vRAM-Mgmt",
-        "source": "Phoronix",
-        "summary": "Earlier this year Natalie Vock of Valve's Linux graphics team laid out some patches for improving the Linux gaming experience for systems with limited vRAM. The kernel work for improving that video me",
+        "title": "Apple Addresses 28 Security Flaws Across macOS, iOS, and iPadOS",
+        "date": "Tue, 18 Aug 2026 11:17:12 +0000",
+        "url": "https://gbhackers.com/apple-addresses-28-security-flaws/",
+        "source": "GBHackers",
+        "summary": "Apple has released security updates for iPhones, iPads, and Macs to address 28 vulnerabilities across its latest operating systems. These updates, issued on August 17, 2026, include iOS 26.6.1, iPadOS",
         "cve": []
     },
     {
-        "title": "FFmpeg Lands H.265 Vulkan Encode Performance Optimizations",
-        "date": "Mon, 17 Aug 2026 16:14:03 -0400",
-        "url": "https://www.phoronix.com/news/FFmpeg-Faster-HEVC-Encode",
-        "source": "Phoronix",
-        "summary": "The FFmpeg multimedia library can now enjoy faster H.265/HEVC video encoding with the Vulkan-powered encode path. With the optimizations merged today, the H.265 encode performance should be roughly at",
+        "title": "Asruex Trojan Found Embedded in GEEKOM Mini PC Realtek Ethernet Driver",
+        "date": "Tue, 18 Aug 2026 11:08:10 +0000",
+        "url": "https://gbhackers.com/realtek-ethernet-driver/",
+        "source": "GBHackers",
+        "summary": "GEEKOM has confirmed that a malware-flagged Realtek LAN driver package was previously accessible through an outdated support page for its mini PCs, raising fresh supply-chain security concerns around ",
         "cve": []
     },
     {
-        "title": "Offloading Rust To GPUs Proves Capable Of High Performance With Memory Safety",
-        "date": "Mon, 17 Aug 2026 15:30:16 -0400",
-        "url": "https://www.phoronix.com/news/LLVM-Offload-Rust-Performance",
-        "source": "Phoronix",
-        "summary": "A new research paper published on LLVM offloading to GPU accelerators using the Rust programming language is talking up the prospects of making use of safe Rust code for GPU kernels while retaining Ru",
+        "title": "AI Agents Gain Unintended Internet Access During Cybersecurity Evaluations",
+        "date": "Tue, 18 Aug 2026 10:56:15 +0000",
+        "url": "https://gbhackers.com/ai-agents-gain-unintended-internet-access/",
+        "source": "GBHackers",
+        "summary": "AI security evaluation firm has disclosed that several frontier AI models unintentionally accessed and acted against real internet-connected systems during controlled cybersecurity testing. This issue",
         "cve": []
     },
     {
-        "title": "ARCTIC Fan Controller: The Best Fan Controller For Linux Desktops, Less Than $10 USD",
-        "date": "Mon, 17 Aug 2026 12:50:00 -0400",
-        "url": "https://www.phoronix.com/review/arctic-fan-controller",
-        "source": "Phoronix",
-        "summary": "Back in March were patches posted by ARCTIC Cooling for an ARCTIC fan controller driver for Linux. Typically we aren't used to seeing desktop/enthusiast focused vendors providing such Linux drivers fo",
+        "title": "CISA Warns of Active Exploitation of Ray-Project Ray Code Injection Vulnerability",
+        "date": "Tue, 18 Aug 2026 10:49:01 +0000",
+        "url": "https://gbhackers.com/ray-project-ray-code-injection-vulnerability/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability to its Known Exploited Vulnerabilities (KEV) catalog. This vulnerability, tracked as CVE-2025-62593,",
         "cve": []
     },
     {
-        "title": "AMD Working On A New Backend For Improving ROCm Compute In QEMU/VMs",
-        "date": "Mon, 17 Aug 2026 11:05:00 -0400",
-        "url": "https://www.phoronix.com/news/AMD-ROCm-Better-QEMU-VM",
-        "source": "Phoronix",
-        "summary": "AMD engineers are working on enhancing the open-source ROCm compute stack for better handling GPU virtualized compute under QEMU...",
+        "title": "JWR Phishing-as-a-Service Kit Uses WebSockets and AES to Run Real-Time Banking Fraud",
+        "date": "Tue, 18 Aug 2026 10:40:28 +0000",
+        "url": "https://gbhackers.com/jwr-phishing-as-a-service/",
+        "source": "GBHackers",
+        "summary": "JWR, an undocumented phishing-as-a-service (PhaaS) framework that turns conventional credential theft into an operator-led, real-time banking and payment fraud operation. Rather than waiting for a vic",
         "cve": []
     }
 ]
