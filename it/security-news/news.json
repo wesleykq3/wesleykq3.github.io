@@ -1,5 +1,37 @@
 [
     {
+        "title": "Microsoft fixes known issue causing Windows Defender crashes",
+        "date": "Wed, 19 Aug 2026 07:14:28 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]",
+        "cve": []
+    },
+    {
+        "title": "Critical RCE flaw in Windows IKE Extension now actively exploited",
+        "date": "Wed, 19 Aug 2026 06:12:24 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Serv",
+        "cve": []
+    },
+    {
+        "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
+        "date": "Wed, 19 Aug 2026 05:10:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
+        "date": "Wed, 19 Aug 2026 04:00:48 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+        "source": "BleepingComputer",
+        "summary": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
+        "cve": []
+    },
+    {
         "title": "Comcast turns your Xfinity WiFi into a home motion detector",
         "date": "Tue, 18 Aug 2026 16:14:58 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
@@ -48,35 +80,35 @@
         "cve": []
     },
     {
-        "title": "Microsoft starts removing WMIC tool used by cybercriminals",
-        "date": "Tue, 18 Aug 2026 04:12:08 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
+        "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
+        "date": "Wed, 19 Aug 2026 16:55:28 +0530",
+        "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stole",
         "cve": []
     },
     {
-        "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
-        "date": "Mon, 17 Aug 2026 15:35:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
-        "source": "BleepingComputer",
-        "summary": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
+        "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
+        "date": "Wed, 19 Aug 2026 16:31:48 +0530",
+        "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited i",
         "cve": []
     },
     {
-        "title": "Pokémon Center data breach exposes customer info, cancels some orders",
-        "date": "Mon, 17 Aug 2026 15:12:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-        "source": "BleepingComputer",
-        "summary": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistic",
+        "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
+        "date": "Wed, 19 Aug 2026 11:31:53 +0530",
+        "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+        "source": "The Hacker News",
+        "summary": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infr",
         "cve": []
     },
     {
-        "title": "Microsoft confirms GitHub is down worldwide",
-        "date": "Mon, 17 Aug 2026 10:47:08 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
-        "source": "BleepingComputer",
-        "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
+        "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+        "date": "Wed, 19 Aug 2026 11:09:25 +0530",
+        "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+        "source": "The Hacker News",
+        "summary": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Ma",
         "cve": []
     },
     {
@@ -128,115 +160,83 @@
         "cve": []
     },
     {
-        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-        "date": "Tue, 18 Aug 2026 16:50:00 +0530",
-        "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2",
-        "cve": []
-    },
-    {
-        "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
-        "date": "Tue, 18 Aug 2026 14:40:45 +0530",
-        "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-        "source": "The Hacker News",
-        "summary": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 custom",
-        "cve": []
-    },
-    {
-        "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
-        "date": "Tue, 18 Aug 2026 12:04:20 +0530",
-        "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitat",
-        "cve": []
-    },
-    {
-        "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-        "date": "Tue, 18 Aug 2026 02:33:04 +0530",
-        "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-        "source": "The Hacker News",
-        "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauth",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",
-        "date": "Tue, 18 Aug 2026 17:47:28 +0000",
-        "url": "https://cybersecuritynews.com/medusa-ransomware/",
+        "title": "RAVEN Tool Exfiltrates Entire Elasticsearch Databases and Maintains Access After Password Rotation",
+        "date": "Wed, 19 Aug 2026 11:42:58 +0000",
+        "url": "https://cybersecuritynews.com/raven-tool-exfiltrates-entire-elasticsearch/",
         "source": "CyberSecurityNews",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.S. Department of Health and Human Services (HHS) have jointly released an updated secu",
+        "summary": "A newly detailed offensive security tool called RAVEN shows how a compromised Elasticsearch environment can become a data-loss incident with persistent access. The tool demonstrates what an intruder c",
         "cve": []
     },
     {
-        "title": "French Tax Authority Data Breach Exposes 600,000+ Users’ Personal Tax-Related Data",
-        "date": "Tue, 18 Aug 2026 17:00:44 +0000",
-        "url": "https://cybersecuritynews.com/french-tax-authority-data-breach/",
+        "title": "Oracle Releases 943 Security Patches Including Critical WebLogic Full Takeover Vulnerability",
+        "date": "Wed, 19 Aug 2026 10:38:24 +0000",
+        "url": "https://cybersecuritynews.com/oracle-releases-943-security-patches/",
         "source": "CyberSecurityNews",
-        "summary": "France’s tax authority has confirmed a data breach affecting approximately 678,000 individuals and businesses after threat actors gained unauthorized access to internal information systems. The incide",
+        "summary": "Oracle has released 943 new security patches in its August 2026 Critical Security Patch Update, addressing flaws across its enterprise software portfolio. The release includes several critical Oracle ",
         "cve": []
     },
     {
-        "title": "Critical MLflow SSRF Vulnerability Exploited by Hackers in the Wild",
-        "date": "Tue, 18 Aug 2026 16:52:33 +0000",
-        "url": "https://cybersecuritynews.com/mlflow-ssrf-vulnerability/",
+        "title": "Hackers Use Fake Claude Install Guide to Deploy MacSync Stealer and Trojanize Crypto Wallet Apps",
+        "date": "Wed, 19 Aug 2026 10:34:19 +0000",
+        "url": "https://cybersecuritynews.com/fake-claude-install-guide/",
         "source": "CyberSecurityNews",
-        "summary": "Threat actors are actively exploiting a critical, unauthenticated server-side request forgery (SSRF) vulnerability in MLflow, the popular open-source platform widely used by data engineering and machi",
+        "summary": "Mac users searching for help with Claude Code are being lured into a malware campaign that turns a routine installation task into a full device compromise. The operation uses paid Google search result",
         "cve": []
     },
     {
-        "title": "Hackers Hijack Thousands of WordPress Sites to Use as C2 Servers for StopAndProtect Malware",
-        "date": "Tue, 18 Aug 2026 16:47:24 +0000",
-        "url": "https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware/",
+        "title": "BeyondTrust Windows EPM Vulnerabilities Allows Attackers to Escalate Privileges",
+        "date": "Wed, 19 Aug 2026 09:44:48 +0000",
+        "url": "https://cybersecuritynews.com/beyondtrust-windows-epm-vulnerabilities/",
         "source": "CyberSecurityNews",
-        "summary": "A newly uncovered malware operation dubbed StopAndProtect is transforming thousands of hacked WordPress websites into a sprawling criminal command-and-control (C2) infrastructure. The campaign blends ",
+        "summary": "BeyondTrust has disclosed two high-severity vulnerabilities in its Endpoint Privilege Management (EPM) product for Windows that could allow attackers with local access to elevate privileges or bypass ",
         "cve": []
     },
     {
-        "title": "Microsoft 365 Search Outage Disrupts SharePoint, OneDrive, and Outlook Users Worldwide",
-        "date": "Tue, 18 Aug 2026 16:26:40 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-365-search-outage/",
+        "title": "Claude Can Now Send Emails in Gmail and Manage Files in Google Drive",
+        "date": "Wed, 19 Aug 2026 09:30:02 +0000",
+        "url": "https://cybersecuritynews.com/claude-can-now-send-emails-in-gmail/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft is actively managing a service disruption that has left a subset of enterprise users unable to search for content across SharePoint Online, OneDrive, Outlook on the web, and Outlook desktop.",
+        "summary": "Anthropic has moved Claude out of the draft-only inbox and into live Google accounts. In an August 18, 2026 post, the company said users can ask Claude to reply to a Gmail thread and have the assistan",
         "cve": []
     },
     {
-        "title": "Anthropic Launches New /design Skill for Claude Code UI Workflows",
-        "date": "Tue, 18 Aug 2026 16:03:05 +0000",
-        "url": "https://cybersecuritynews.com/anthropic-launches-design-skill/",
+        "title": "CISA Warns of VMware vCenter Path Traversal Vulnerability Actively Exploited in Attacks",
+        "date": "Wed, 19 Aug 2026 09:09:45 +0000",
+        "url": "https://cybersecuritynews.com/vmware-vcenter-path-traversal-vulnerability-exploited/",
         "source": "CyberSecurityNews",
-        "summary": "Anthropic has introduced a new /design skill for Claude Code, expanding its developer-focused AI platform into user interface design workflows. The feature is currently available as a research preview",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has added a critical Broadcom VMware vCenter vulnerability, tracked as CVE-2026-59310, to its Known Exploited Vulnerabilities catalog after ev",
         "cve": []
     },
     {
-        "title": "Projextor Shows How Malware Can Hide Behind Trusted Electron Executables",
-        "date": "Tue, 18 Aug 2026 15:34:10 +0000",
-        "url": "https://cybersecuritynews.com/projextor-shows-malware/",
+        "title": "Google Fixes Two Critical Chrome Flaws in WebGL and Dawn — Update Your Browser",
+        "date": "Wed, 19 Aug 2026 09:06:19 +0000",
+        "url": "https://cybersecuritynews.com/google-fixes-two-chrome-flaws-in-webgl-and-dawn/",
         "source": "CyberSecurityNews",
-        "summary": "Projextor is a malware campaign that turns ordinary-looking desktop tools into a doorway for hidden code. Its operators package it inside working document converters, meal planners and recipe applicat",
+        "summary": "Google has released a new Chrome Stable channel update that fixes two critical security vulnerabilities affecting graphics-related components. Users should update their browsers as soon as the release",
         "cve": []
     },
     {
-        "title": "BTMob Fraud-as-a-Service Platform Uses 1,400 Live Servers to Power Android Device Takeovers",
-        "date": "Tue, 18 Aug 2026 15:10:21 +0000",
-        "url": "https://cybersecuritynews.com/btmob-fraud-as-a-service-platform/",
+        "title": "Critical Cursor 0-day Vulnerability Enables Arbitrary Code Execution Attacks",
+        "date": "Wed, 19 Aug 2026 08:45:14 +0000",
+        "url": "https://cybersecuritynews.com/cursor-0-day-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "BTMob is an Android banking malware platform built to turn phones into tools for fraud. It reaches victims through fake apps, cloned download pages, and messages that look like routine customer suppor",
+        "summary": "A binary planting vulnerability in the Cursor IDE that lets a malicious git.exe file, placed at the root of a repository, run automatically the moment a developer opens that project on Windows. The at",
         "cve": []
     },
     {
-        "title": "GEEKOM Mini PC Realtek LAN Driver Package Found Infected With Asruex Trojan",
-        "date": "Tue, 18 Aug 2026 14:27:15 +0000",
-        "url": "https://cybersecuritynews.com/geekom-mini-pc/",
+        "title": "Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data",
+        "date": "Wed, 19 Aug 2026 05:46:16 +0000",
+        "url": "https://cybersecuritynews.com/cl0p-hackers-exploit-ptc/",
         "source": "CyberSecurityNews",
-        "summary": "A network driver download is meant to get a computer online. In this case, it became a potential malware route after a Realtek LAN driver package on a legacy GEEKOM support page was flagged as carryin",
+        "summary": "Cl0p, also tracked as Cl0P, has returned with a campaign aimed at PTC Windchill servers, putting engineering files, passwords, and company records at risk. The financially motivated group is exploitin",
         "cve": []
     },
     {
-        "title": "JWR Phishing Framework Uses Real-Time WebSocket Control and AES Encryption to Steal Banking Credentials",
-        "date": "Tue, 18 Aug 2026 14:03:57 +0000",
-        "url": "https://cybersecuritynews.com/jwr-phishing-framework/",
+        "title": "Critical Microsoft Copilot CoSnitch Vulnerability Lets Attackers Steal Sensitive Data With One Click",
+        "date": "Wed, 19 Aug 2026 02:32:43 +0000",
+        "url": "https://cybersecuritynews.com/copilot-cosnitch-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "JWR is a phishing framework built for live fraud. It turns a fake payment or bank page into a live channel that lets criminals watch details arrive as they are typed. The campaign uses SMS messages po",
+        "summary": "A critical vulnerability in Microsoft Copilot Personal, tracked as CVE-2026-24301 and nicknamed CoSnitch, lets attackers silently siphon sensitive data from a victim&#8217;s connected accounts with no",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Projextor Abuses Cross-Platform Electron Framework to Conceal Malware Activity",
-        "date": "Tue, 18 Aug 2026 13:32:52 +0000",
-        "url": "https://gbhackers.com/projextor-infection-technique/",
+        "title": "Google Mandiant AI Agents Find Over 100 Critical Vulnerabilities in Source Code Within Two Days",
+        "date": "Wed, 19 Aug 2026 12:14:23 +0000",
+        "url": "https://gbhackers.com/google-mandiant-ai-agents-find-over-100-critical-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "Threat actors behind the Projextor campaign are abusing Electron-based productivity applications to conceal malware-like capabilities behind fully functioning document converters, meal planners, recip",
+        "summary": "Google&#8217;s Threat Intelligence Group has announced that its Agentic Vulnerability Discovery Harness (AVDH) identified over 100 critical true-positive vulnerabilities in stolen corporate source cod",
         "cve": []
     },
     {
-        "title": "Critical MLflow SSRF Flaw Exploited in the Wild",
-        "date": "Tue, 18 Aug 2026 13:09:50 +0000",
-        "url": "https://gbhackers.com/critical-mlflow-ssrf-flaw-exploited-in-the-wild/",
+        "title": "Windows 11 24H2 Home and Pro Support Ends in October 2026",
+        "date": "Wed, 19 Aug 2026 11:46:00 +0000",
+        "url": "https://gbhackers.com/windows-11-24h2-home-and-pro-support-ends/",
         "source": "GBHackers",
-        "summary": "A critical unauthenticated server-side request forgery (SSRF) vulnerability in MLflow, tracked as CVE-2026-64849, is being actively exploited within hours of its disclosure, according to watchTowr. Th",
+        "summary": "Microsoft has issued a 60-day reminder that the Windows 11 version 24H2 Home and Pro editions will reach the end of updates on October 13, 2026. This date also marks the end of servicing for Windows 1",
         "cve": []
     },
     {
-        "title": "OpenAI Warns Organizations to Automate Cybersecurity as AI-Powered Attacks Accelerate",
-        "date": "Tue, 18 Aug 2026 12:56:05 +0000",
-        "url": "https://gbhackers.com/openai-warns-organizations-to-automate-cybersecurity-as-ai-powered-attacks-accelerate/",
+        "title": "Balonx PhaaS Steals Bank OTPs in Real Time While AI Calls and Android RAT Target Victims",
+        "date": "Wed, 19 Aug 2026 11:44:12 +0000",
+        "url": "https://gbhackers.com/balonx-phaas-steals-bank-otps/",
         "source": "GBHackers",
-        "summary": "OpenAI has issued a warning that organizations need to quickly automate core cybersecurity functions as increasingly advanced AI systems make it easier and cheaper to identify, exploit, and chain secu",
+        "summary": "Mexico’s banking sector is facing a more industrialized fraud threat as the Balonx Sistema phishing-as-a-service (PhaaS) operation combines real-time OTP theft, Android malware, and AI-generated vishi",
         "cve": []
     },
     {
-        "title": "BTMob Uses Custom Phishing Apps to Turn Android Users Into Remote-Controlled Fraud Victims",
-        "date": "Tue, 18 Aug 2026 12:36:50 +0000",
-        "url": "https://gbhackers.com/btmob-uses-custom-phishing-apps/",
+        "title": "659 Stripe Merchant API Keys Leaked Online, Exposing 688,000 Customer Records",
+        "date": "Wed, 19 Aug 2026 10:28:53 +0000",
+        "url": "https://gbhackers.com/659-stripe-merchant-api-keys/",
         "source": "GBHackers",
-        "summary": "BTMOB has evolved beyond a conventional Android banking trojan into a turnkey fraud platform that lets criminals build branded phishing apps, remotely operate infected phones, and automate theft. Its ",
+        "summary": "A data leak published on a cybercrime data-trading forum has exposed live Stripe API credentials for 659 merchant accounts, along with approximately 35 GB of customer- and payment-related data. The ex",
         "cve": []
     },
     {
-        "title": "French Tax Authority Cyberattack Exposes Tax Data of 678,000 Individuals and Businesses",
-        "date": "Tue, 18 Aug 2026 12:22:13 +0000",
-        "url": "https://gbhackers.com/french-tax-authority-cyberattack/",
+        "title": "Cursor 0-Day Lets Attackers Execute Malicious Code by Opening a Repository",
+        "date": "Wed, 19 Aug 2026 10:16:57 +0000",
+        "url": "https://gbhackers.com/cursor-0-day-lets-attackers-execute-malicious-code/",
         "source": "GBHackers",
-        "summary": "France’s Directorate General of Public Finances (DGFiP) has reported a cyberattack that resulted in unauthorized access to and extraction of tax and cadastral data for approximately 678,000 individual",
+        "summary": "A recently disclosed security issue in Cursor IDE exposed a serious Windows binary-planting vulnerability that could allow malicious code to execute simply by opening an untrusted repository. This fla",
         "cve": []
     },
     {
-        "title": "Apple Addresses 28 Security Flaws Across macOS, iOS, and iPadOS",
-        "date": "Tue, 18 Aug 2026 11:17:12 +0000",
-        "url": "https://gbhackers.com/apple-addresses-28-security-flaws/",
+        "title": "BeyondTrust Endpoint Privilege Management Flaws Enable Local Privilege Escalation",
+        "date": "Wed, 19 Aug 2026 10:01:40 +0000",
+        "url": "https://gbhackers.com/beyondtrust-endpoint-privilege-management-flaws/",
         "source": "GBHackers",
-        "summary": "Apple has released security updates for iPhones, iPads, and Macs to address 28 vulnerabilities across its latest operating systems. These updates, issued on August 17, 2026, include iOS 26.6.1, iPadOS",
+        "summary": "BeyondTrust has revealed two high-severity vulnerabilities in its Endpoint Privilege Management (EPM) Windows Deployment product, which could lead to local privilege escalation and bypasses of anti-ta",
         "cve": []
     },
     {
-        "title": "Asruex Trojan Found Embedded in GEEKOM Mini PC Realtek Ethernet Driver",
-        "date": "Tue, 18 Aug 2026 11:08:10 +0000",
-        "url": "https://gbhackers.com/realtek-ethernet-driver/",
+        "title": "Oracle Releases 943 Security Patches to Fix Critical Vulnerabilities Across Enterprise Products",
+        "date": "Wed, 19 Aug 2026 09:52:05 +0000",
+        "url": "https://gbhackers.com/oracle-releases-943-security-patches/",
         "source": "GBHackers",
-        "summary": "GEEKOM has confirmed that a malware-flagged Realtek LAN driver package was previously accessible through an outdated support page for its mini PCs, raising fresh supply-chain security concerns around ",
+        "summary": "Oracle has released 943 security patches as part of its August 2026 Critical Security Patch Update (CSPU), addressing newly disclosed vulnerabilities across its enterprise software portfolio. This upd",
         "cve": []
     },
     {
-        "title": "AI Agents Gain Unintended Internet Access During Cybersecurity Evaluations",
-        "date": "Tue, 18 Aug 2026 10:56:15 +0000",
-        "url": "https://gbhackers.com/ai-agents-gain-unintended-internet-access/",
+        "title": "Ransom Busters Ransomware Affiliate Targets Victims With Fake Data Recovery Extortion",
+        "date": "Wed, 19 Aug 2026 09:44:32 +0000",
+        "url": "https://gbhackers.com/ransom-busters-ransomware/",
         "source": "GBHackers",
-        "summary": "AI security evaluation firm has disclosed that several frontier AI models unintentionally accessed and acted against real internet-connected systems during controlled cybersecurity testing. This issue",
+        "summary": "A threat actor calling itself “Ransom Busters” is targeting ransomware victims with a deceptive recovery offer, claiming it can restore encrypted files and delete stolen data from ransomware infrastru",
         "cve": []
     },
     {
-        "title": "CISA Warns of Active Exploitation of Ray-Project Ray Code Injection Vulnerability",
-        "date": "Tue, 18 Aug 2026 10:49:01 +0000",
-        "url": "https://gbhackers.com/ray-project-ray-code-injection-vulnerability/",
+        "title": "Microsoft Links 30+ Domains to MacSync Stealer’s Credential-Theft and Data-Exfiltration Infrastructure",
+        "date": "Wed, 19 Aug 2026 08:13:57 +0000",
+        "url": "https://gbhackers.com/microsoft-links-30-domains/",
         "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability to its Known Exploited Vulnerabilities (KEV) catalog. This vulnerability, tracked as CVE-2025-62593,",
+        "summary": "More than 30 domains tied to MacSync Stealer, exposing a rotating macOS-focused infrastructure that supports payload delivery, command-and-control, credential theft, staging, and chunked data exfiltra",
         "cve": []
     },
     {
-        "title": "JWR Phishing-as-a-Service Kit Uses WebSockets and AES to Run Real-Time Banking Fraud",
-        "date": "Tue, 18 Aug 2026 10:40:28 +0000",
-        "url": "https://gbhackers.com/jwr-phishing-as-a-service/",
+        "title": "D-Link DWR-M961 Router Hit by 15 Command Injection and Buffer Overflow Vulnerabilities",
+        "date": "Wed, 19 Aug 2026 07:54:41 +0000",
+        "url": "https://gbhackers.com/d-link-dwr-m961-router-hit-by-15-command-injection-flaw/",
         "source": "GBHackers",
-        "summary": "JWR, an undocumented phishing-as-a-service (PhaaS) framework that turns conventional credential theft into an operator-led, real-time banking and payment fraud operation. Rather than waiting for a vic",
+        "summary": "D-Link has disclosed and patched 15 Common Vulnerabilities and Exposures (CVEs) affecting its DWR-M961 4G/LTE router, specifically hardware revision C1. This follows the discovery of multiple command ",
         "cve": []
     }
 ]
