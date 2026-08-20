@@ -1,5 +1,45 @@
 [
     {
+        "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
+        "date": "Thu, 20 Aug 2026 08:14:38 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+        "source": "BleepingComputer",
+        "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+        "date": "Thu, 20 Aug 2026 07:06:14 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+        "source": "BleepingComputer",
+        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [.",
+        "cve": []
+    },
+    {
+        "title": "New Manic Android malware can exfiltrate data through nearby devices",
+        "date": "Thu, 20 Aug 2026 06:02:02 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+        "source": "BleepingComputer",
+        "summary": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
+        "cve": []
+    },
+    {
+        "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+        "date": "Thu, 20 Aug 2026 05:46:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft says August Windows updates may cause gaming issues",
+        "date": "Thu, 20 Aug 2026 02:51:03 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
+        "cve": []
+    },
+    {
         "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
         "date": "Wed, 19 Aug 2026 20:20:55 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
@@ -40,43 +80,35 @@
         "cve": []
     },
     {
-        "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
-        "date": "Wed, 19 Aug 2026 13:50:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
-        "source": "BleepingComputer",
-        "summary": "U.S. cybersecurity agencies warn that threat actors are using AI-generated scripts to exploit Siemens S7 Series programmable logic controllers (PLCs) in U.S. critical infrastructure. [...]",
+        "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+        "date": "Thu, 20 Aug 2026 16:35:11 +0530",
+        "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+        "source": "The Hacker News",
+        "summary": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacke",
         "cve": []
     },
     {
-        "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
-        "date": "Wed, 19 Aug 2026 11:56:09 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]",
+        "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
+        "date": "Thu, 20 Aug 2026 16:08:28 +0530",
+        "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting",
         "cve": []
     },
     {
-        "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-        "date": "Wed, 19 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-        "source": "BleepingComputer",
-        "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentica",
+        "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
+        "date": "Thu, 20 Aug 2026 14:12:03 +0530",
+        "url": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
+        "source": "The Hacker News",
+        "summary": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products.\n\nAccording to the Socket Threat ",
         "cve": []
     },
     {
-        "title": "Microsoft fixes known issue causing Windows Defender crashes",
-        "date": "Wed, 19 Aug 2026 07:14:28 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]",
-        "cve": []
-    },
-    {
-        "title": "Critical RCE flaw in Windows IKE Extension now actively exploited",
-        "date": "Wed, 19 Aug 2026 06:12:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Serv",
+        "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+        "date": "Thu, 20 Aug 2026 11:34:34 +0530",
+        "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.\n\nThe vulnerability, trac",
         "cve": []
     },
     {
@@ -125,38 +157,6 @@
         "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
         "source": "The Hacker News",
         "summary": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stole",
-        "cve": []
-    },
-    {
-        "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
-        "date": "Wed, 19 Aug 2026 16:31:48 +0530",
-        "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited i",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
-        "date": "Wed, 19 Aug 2026 11:31:53 +0530",
-        "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
-        "source": "The Hacker News",
-        "summary": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infr",
-        "cve": []
-    },
-    {
-        "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
-        "date": "Wed, 19 Aug 2026 11:09:25 +0530",
-        "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-        "source": "The Hacker News",
-        "summary": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Ma",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-        "date": "Tue, 18 Aug 2026 23:17:22 +0530",
-        "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-        "source": "The Hacker News",
-        "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other info",
         "cve": []
     },
     {
@@ -240,83 +240,51 @@
         "cve": []
     },
     {
-        "title": "Former Ping Identity and CyberArk Executives Join AppViewX to Scale Machine and Agent Identity Security",
-        "date": "Wed, 19 Aug 2026 15:19:55 +0000",
-        "url": "https://gbhackers.com/former-ping-identity-and-cyberark-executives-join-appviewx-to-scale-machine-and-agent-identity-security/",
-        "source": "GBHackers",
-        "summary": "New York, New York, August 19th, 2026, CyberNewswire New revenue leader and board member join as AppViewX&#8217;s identity security business continues its rapid growth&#160; AppViewX, the leading mach",
+        "title": "RPM 6.1 Released With Clang Build Fixes, New Release Model",
+        "date": "Thu, 20 Aug 2026 07:35:11 -0400",
+        "url": "https://www.phoronix.com/news/RPM-6.1-Released",
+        "source": "Phoronix",
+        "summary": "RPM 6.1 is out today as the newest feature release for this package management system. With RPM 6.1 comes a number of features and improvements as well as a new release model...",
         "cve": []
     },
     {
-        "title": "China-Nexus Hackers Target Myanmar Diplomats With QUICAgent Go Backdoor via Malicious VHD Files",
-        "date": "Wed, 19 Aug 2026 13:30:34 +0000",
-        "url": "https://gbhackers.com/myanmar-diplomats-with-quicagent/",
-        "source": "GBHackers",
-        "summary": "A China-nexus threat actor is targeting Myanmar government and diplomatic personnel with a multi-stage malware campaign that delivers a custom Go-based backdoor, dubbed QUICAgent, through Virtual Hard",
+        "title": "Mesa 26.2.1 Released With Dozens Of Fixes",
+        "date": "Thu, 20 Aug 2026 06:35:42 -0400",
+        "url": "https://www.phoronix.com/news/Mesa-26.2.1-Released",
+        "source": "Phoronix",
+        "summary": "For those preferring the tradition of waiting for the first point release of a new Mesa feature release before upgrading, Mesa 26.2.1 is available today with a healthy round of bug fixing...",
         "cve": []
     },
     {
-        "title": "CISA Warns Microsoft Internet Key Exchange RCE Flaw Is Actively Exploited",
-        "date": "Wed, 19 Aug 2026 12:37:19 +0000",
-        "url": "https://gbhackers.com/cisa-warns-microsoft-internet-key-exchange-rce-flaw/",
-        "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Microsoft Internet Key Exchange (IKE) Service Extensions to its Known Exploited Vulnerabilities (",
+        "title": "Linux 7.3 Cleans Up The Code For Disabling Of Legacy 32-bit Time Support",
+        "date": "Thu, 20 Aug 2026 06:21:48 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-vDSO-32-bit-Time",
+        "source": "Phoronix",
+        "summary": "The Linux kernel has supported the CONFIG_COMPAT_32BIT_TIME Kconfig build time option for optionally disabling of legacy 32-bit time system call support. This is intended to disable the code that uses",
         "cve": []
     },
     {
-        "title": "Google Mandiant AI Agents Find Over 100 Critical Vulnerabilities in Source Code Within Two Days",
-        "date": "Wed, 19 Aug 2026 12:14:23 +0000",
-        "url": "https://gbhackers.com/google-mandiant-ai-agents-find-over-100-critical-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "Google&#8217;s Threat Intelligence Group has announced that its Agentic Vulnerability Discovery Harness (AVDH) identified over 100 critical true-positive vulnerabilities in stolen corporate source cod",
+        "title": "KDE Gear 26.08 Delivers The Latest KDE App Experience",
+        "date": "Thu, 20 Aug 2026 05:58:23 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Gear-26.08",
+        "source": "Phoronix",
+        "summary": "KDE Gear 26.08 was released today to deliver the latest collection of KDE application updates...",
         "cve": []
     },
     {
-        "title": "Windows 11 24H2 Home and Pro Support Ends in October 2026",
-        "date": "Wed, 19 Aug 2026 11:46:00 +0000",
-        "url": "https://gbhackers.com/windows-11-24h2-home-and-pro-support-ends/",
-        "source": "GBHackers",
-        "summary": "Microsoft has issued a 60-day reminder that the Windows 11 version 24H2 Home and Pro editions will reach the end of updates on October 13, 2026. This date also marks the end of servicing for Windows 1",
+        "title": "X.Org Server 26.1 RC1 Prepares For First Feature Release In Five Years",
+        "date": "Wed, 19 Aug 2026 22:18:15 -0400",
+        "url": "https://www.phoronix.com/news/X.Org-Server-26.1-RC1",
+        "source": "Phoronix",
+        "summary": "Following today's release of XWayland 26.1 RC1, X.Org Server 26.1 RC1 was tagged. This xorg-server 26.1 release is aiming to become the first major feature release in five years, succeeding  the xorg-",
         "cve": []
     },
     {
-        "title": "Balonx PhaaS Steals Bank OTPs in Real Time While AI Calls and Android RAT Target Victims",
-        "date": "Wed, 19 Aug 2026 11:44:12 +0000",
-        "url": "https://gbhackers.com/balonx-phaas-steals-bank-otps/",
-        "source": "GBHackers",
-        "summary": "Mexico’s banking sector is facing a more industrialized fraud threat as the Balonx Sistema phishing-as-a-service (PhaaS) operation combines real-time OTP theft, Android malware, and AI-generated vishi",
-        "cve": []
-    },
-    {
-        "title": "659 Stripe Merchant API Keys Leaked Online, Exposing 688,000 Customer Records",
-        "date": "Wed, 19 Aug 2026 10:28:53 +0000",
-        "url": "https://gbhackers.com/659-stripe-merchant-api-keys/",
-        "source": "GBHackers",
-        "summary": "A data leak published on a cybercrime data-trading forum has exposed live Stripe API credentials for 659 merchant accounts, along with approximately 35 GB of customer- and payment-related data. The ex",
-        "cve": []
-    },
-    {
-        "title": "Cursor 0-Day Lets Attackers Execute Malicious Code by Opening a Repository",
-        "date": "Wed, 19 Aug 2026 10:16:57 +0000",
-        "url": "https://gbhackers.com/cursor-0-day-lets-attackers-execute-malicious-code/",
-        "source": "GBHackers",
-        "summary": "A recently disclosed security issue in Cursor IDE exposed a serious Windows binary-planting vulnerability that could allow malicious code to execute simply by opening an untrusted repository. This fla",
-        "cve": []
-    },
-    {
-        "title": "BeyondTrust Endpoint Privilege Management Flaws Enable Local Privilege Escalation",
-        "date": "Wed, 19 Aug 2026 10:01:40 +0000",
-        "url": "https://gbhackers.com/beyondtrust-endpoint-privilege-management-flaws/",
-        "source": "GBHackers",
-        "summary": "BeyondTrust has revealed two high-severity vulnerabilities in its Endpoint Privilege Management (EPM) Windows Deployment product, which could lead to local privilege escalation and bypasses of anti-ta",
-        "cve": []
-    },
-    {
-        "title": "Oracle Releases 943 Security Patches to Fix Critical Vulnerabilities Across Enterprise Products",
-        "date": "Wed, 19 Aug 2026 09:52:05 +0000",
-        "url": "https://gbhackers.com/oracle-releases-943-security-patches/",
-        "source": "GBHackers",
-        "summary": "Oracle has released 943 security patches as part of its August 2026 Critical Security Patch Update (CSPU), addressing newly disclosed vulnerabilities across its enterprise software portfolio. This upd",
+        "title": "EXT4 Preps More Performance Improvements For Linux 7.3",
+        "date": "Wed, 19 Aug 2026 20:55:19 -0400",
+        "url": "https://www.phoronix.com/news/EXT4-Linux-7.3",
+        "source": "Phoronix",
+        "summary": "In addition to the IOmap improvements helping EXT4 performance in Linux 7.3, the main EXT4 feature pull request has now been submitted for this next kernel version. That pull is set to land yet more p",
         "cve": []
     },
     {
@@ -349,54 +317,6 @@
         "url": "https://www.phoronix.com/review/dell-epyc-9005-memory-scaling",
         "source": "Phoronix",
         "summary": "With today's memory prices, a frequent question at Phoronix and throughout many organizations is about reducing cost by not necessarily populating all memory channels. Especially with modern servers g",
-        "cve": []
-    },
-    {
-        "title": "XWayland 26.1 RC1 Released With Many New Features",
-        "date": "Wed, 19 Aug 2026 10:11:07 -0400",
-        "url": "https://www.phoronix.com/news/XWayland-26.1-RC1",
-        "source": "Phoronix",
-        "summary": "Olivier Fourdan of Red Hat announced today the first release candidate of XWayland 26.1. This is the first new tagged feature release since XWayland 24.1 back in 2024! As such there are many new featu",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.3 Deprecates Many Older 32-bit ARM Platforms, Orphans Hundreds Of Drivers",
-        "date": "Wed, 19 Aug 2026 08:17:13 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-SoC",
-        "source": "Phoronix",
-        "summary": "All of the SoC updates have been merged for the Linux 7.3 kernel that include adding some new SoCs as well as deprecating several older 32-bit ARM platforms. In turn with those platforms deprecated, \"",
-        "cve": []
-    },
-    {
-        "title": "PHP 7.4 To PHP 8.6 Benchmarks, PHP 8.6 JIT Performance",
-        "date": "Wed, 19 Aug 2026 06:35:33 -0400",
-        "url": "https://www.phoronix.com/news/PHP-8.6-Early-Benchmarks",
-        "source": "Phoronix",
-        "summary": "A Phoronix Premium supporter recently relayed a request to see some fresh PHP performance benchmarks. So here are some fresh numbers of PHP 7.4 through the latest PHP 8.5 code plus the current Git sta",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.3 Scheduler Improvements: Help For Gaming, Hybrid CPUs, Lower Scheduler Latency",
-        "date": "Wed, 19 Aug 2026 06:20:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Scheduler",
-        "source": "Phoronix",
-        "summary": "The exciting set of scheduler updates have been merged for the Linux 7.3 merge window...",
-        "cve": []
-    },
-    {
-        "title": "New AMD Low-Power Core & Unified Intel/AMD CPU Core Type Handling In Linux 7.3",
-        "date": "Wed, 19 Aug 2026 06:04:10 -0400",
-        "url": "https://www.phoronix.com/news/x86-Core-Types-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "Covered first on Phoronix back in June was an AMD Linux patch for introducing a new \"low power\" CPU core type to complement their typical \"performance\" cores and their \"efficiency\" cores like with Zen",
-        "cve": []
-    },
-    {
-        "title": "Raspberry Pi Compute Module 5 Programming Jig Launches",
-        "date": "Wed, 19 Aug 2026 05:36:22 -0400",
-        "url": "https://www.phoronix.com/news/Raspberry-Pi-CM5-Jig",
-        "source": "Phoronix",
-        "summary": "The newest Raspberry Pi product to launch is the Raspberry Pi Compute Module 5 Programming Jig...",
         "cve": []
     }
 ]
