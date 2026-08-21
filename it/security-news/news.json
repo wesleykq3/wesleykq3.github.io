@@ -1,5 +1,29 @@
 [
     {
+        "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+        "date": "Thu, 20 Aug 2026 13:53:52 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+        "source": "BleepingComputer",
+        "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+        "cve": []
+    },
+    {
+        "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+        "date": "Thu, 20 Aug 2026 10:39:48 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+        "source": "BleepingComputer",
+        "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
+        "cve": []
+    },
+    {
+        "title": "How MSPs can catch phishing attacks email filters miss",
+        "date": "Thu, 20 Aug 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+        "source": "BleepingComputer",
+        "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detec",
+        "cve": []
+    },
+    {
         "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
         "date": "Thu, 20 Aug 2026 08:14:38 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
@@ -56,107 +80,83 @@
         "cve": []
     },
     {
-        "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
-        "date": "Wed, 19 Aug 2026 16:53:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
-        "source": "BleepingComputer",
-        "summary": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
-        "cve": []
-    },
-    {
-        "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-        "date": "Wed, 19 Aug 2026 16:07:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-        "source": "BleepingComputer",
-        "summary": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
-        "date": "Wed, 19 Aug 2026 14:09:13 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
-        "source": "BleepingComputer",
-        "summary": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]",
-        "cve": []
-    },
-    {
-        "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-        "date": "Thu, 20 Aug 2026 16:35:11 +0530",
-        "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+        "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+        "date": "Fri, 21 Aug 2026 01:52:35 +0530",
+        "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
         "source": "The Hacker News",
-        "summary": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacke",
+        "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose bui",
         "cve": []
     },
     {
-        "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
-        "date": "Thu, 20 Aug 2026 16:08:28 +0530",
-        "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+        "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+        "date": "Fri, 21 Aug 2026 01:29:19 +0530",
+        "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting",
+        "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, gov",
         "cve": []
     },
     {
-        "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
-        "date": "Thu, 20 Aug 2026 14:12:03 +0530",
-        "url": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
+        "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+        "date": "Thu, 20 Aug 2026 22:53:48 +0530",
+        "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
         "source": "The Hacker News",
-        "summary": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products.\n\nAccording to the Socket Threat ",
+        "summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header ch",
         "cve": []
     },
     {
-        "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-        "date": "Thu, 20 Aug 2026 11:34:34 +0530",
-        "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+        "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+        "date": "Thu, 20 Aug 2026 22:29:44 +0530",
+        "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.\n\nThe vulnerability, trac",
+        "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.\n\nThe activity",
         "cve": []
     },
     {
-        "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-        "date": "Thu, 20 Aug 2026 00:32:40 +0530",
-        "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+        "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+        "date": "Thu, 20 Aug 2026 20:06:27 +0530",
+        "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a&nbsp;remote Spectre attack&nbsp;against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environme",
+        "summary": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to ",
         "cve": []
     },
     {
-        "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-        "date": "Wed, 19 Aug 2026 23:36:44 +0530",
-        "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+        "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+        "date": "Thu, 20 Aug 2026 19:18:24 +0530",
+        "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
         "source": "The Hacker News",
-        "summary": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the",
+        "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape",
         "cve": []
     },
     {
-        "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
-        "date": "Wed, 19 Aug 2026 18:42:17 +0530",
-        "url": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+        "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
+        "date": "Thu, 20 Aug 2026 19:05:13 +0530",
+        "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
         "source": "The Hacker News",
-        "summary": "A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.\n\nThe intrusion set makes use of seven remote access tool (RAT) fami",
+        "summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to th",
         "cve": []
     },
     {
-        "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-        "date": "Wed, 19 Aug 2026 17:04:28 +0530",
-        "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+        "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+        "date": "Thu, 20 Aug 2026 18:54:28 +0530",
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two auth",
+        "summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska).\n\nThe vulnerabil",
         "cve": []
     },
     {
-        "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-        "date": "Wed, 19 Aug 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+        "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+        "date": "Thu, 20 Aug 2026 17:31:24 +0530",
+        "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
         "source": "The Hacker News",
-        "summary": "Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It st",
+        "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a poi",
         "cve": []
     },
     {
-        "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-        "date": "Wed, 19 Aug 2026 16:55:28 +0530",
-        "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+        "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+        "date": "Thu, 20 Aug 2026 17:15:00 +0530",
+        "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stole",
+        "summary": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it.&nbsp;\n\nThe incident began w",
         "cve": []
     },
     {
@@ -240,6 +240,62 @@
         "cve": []
     },
     {
+        "title": "Linux 7.3 Network Changes Merged But Developers \"Completely Overwhelmed\" Due To AI/LLMs",
+        "date": "Thu, 20 Aug 2026 16:05:28 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Networking",
+        "source": "Phoronix",
+        "summary": "All of the networking subsystem feature updates were merged today for the Linux 7.3 kernel's merge window. There are a lot of wired and wireless networking improvements this cycle but also a ton of bu",
+        "cve": []
+    },
+    {
+        "title": "Rust 1.98 Adds Algebraic Floating-Point Methods Akin To \"-ffast-math\"",
+        "date": "Thu, 20 Aug 2026 13:29:25 -0400",
+        "url": "https://www.phoronix.com/news/Rust-1.98-Released",
+        "source": "Phoronix",
+        "summary": "Rust 1.98 released today and is headlined the debut of new algebraic floating-point methods...",
+        "cve": []
+    },
+    {
+        "title": "KMSCON 10.0.2 Brings asciicast Playback Support, Bug Fixes",
+        "date": "Thu, 20 Aug 2026 13:19:37 -0400",
+        "url": "https://www.phoronix.com/news/KMSCON-10.0.2-Released",
+        "source": "Phoronix",
+        "summary": "KMSCON 10.0.2 debuted today as the latest update to this leading user-space terminal emulator for Linux systems. KMSCON is built around Linux's KMS/DRM interfaces and the most viable alternative to da",
+        "cve": []
+    },
+    {
+        "title": "KDE Software Now Has Stable Btrfs Snapshot Integration With KIO-Snapshot 1.0",
+        "date": "Thu, 20 Aug 2026 12:21:31 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Btrfs-Snapshots",
+        "source": "Phoronix",
+        "summary": "With today's release of KIO-Snapshot, KDE software now has stable integration of Btrfs file-system snapshots...",
+        "cve": []
+    },
+    {
+        "title": "Intel Hyper Threading Performance On The Xeon 678X \"Granite Rapids-WS\"",
+        "date": "Thu, 20 Aug 2026 10:21:00 -0400",
+        "url": "https://www.phoronix.com/review/intel-xeon-678x-ht",
+        "source": "Phoronix",
+        "summary": "With the Intel Xeon 678X \"Granite Rapids WS\" processor that I have been recently testing within the HP Z4 G6i workstation, there are 48 cores plus with Hyper Threading is a total of 96 threads for thi",
+        "cve": []
+    },
+    {
+        "title": "FSCRYPT Sees Cleanup With Linux 7.3 To Open Door For More Features Like Btrfs Encryption",
+        "date": "Thu, 20 Aug 2026 09:18:28 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-FSCRYPT",
+        "source": "Phoronix",
+        "summary": "FSCRYPT is the Linux file-system encryption framework for supporting per-directory, transparent encryption. FSCRYPT so far is used by the likes of EXT4, F2FS, and CephFS. For Linux 7.3 there is an imp",
+        "cve": []
+    },
+    {
+        "title": "Linux Driver Posted For The PreSonus Quantum 2626: A ~$700 Thunderbolt Audio Interface",
+        "date": "Thu, 20 Aug 2026 08:28:39 -0400",
+        "url": "https://www.phoronix.com/news/PreSonus-Quantum-2626-Linux",
+        "source": "Phoronix",
+        "summary": "The PreSonus Quantum 2626 is a high-end, Thunderbolt 3 based audio interface. PreSonus just maintains Windows and macOS drivers for this high-end audio interface while now an open-source Linux driver ",
+        "cve": []
+    },
+    {
         "title": "RPM 6.1 Released With Clang Build Fixes, New Release Model",
         "date": "Thu, 20 Aug 2026 07:35:11 -0400",
         "url": "https://www.phoronix.com/news/RPM-6.1-Released",
@@ -261,62 +317,6 @@
         "url": "https://www.phoronix.com/news/Linux-7.3-vDSO-32-bit-Time",
         "source": "Phoronix",
         "summary": "The Linux kernel has supported the CONFIG_COMPAT_32BIT_TIME Kconfig build time option for optionally disabling of legacy 32-bit time system call support. This is intended to disable the code that uses",
-        "cve": []
-    },
-    {
-        "title": "KDE Gear 26.08 Delivers The Latest KDE App Experience",
-        "date": "Thu, 20 Aug 2026 05:58:23 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Gear-26.08",
-        "source": "Phoronix",
-        "summary": "KDE Gear 26.08 was released today to deliver the latest collection of KDE application updates...",
-        "cve": []
-    },
-    {
-        "title": "X.Org Server 26.1 RC1 Prepares For First Feature Release In Five Years",
-        "date": "Wed, 19 Aug 2026 22:18:15 -0400",
-        "url": "https://www.phoronix.com/news/X.Org-Server-26.1-RC1",
-        "source": "Phoronix",
-        "summary": "Following today's release of XWayland 26.1 RC1, X.Org Server 26.1 RC1 was tagged. This xorg-server 26.1 release is aiming to become the first major feature release in five years, succeeding  the xorg-",
-        "cve": []
-    },
-    {
-        "title": "EXT4 Preps More Performance Improvements For Linux 7.3",
-        "date": "Wed, 19 Aug 2026 20:55:19 -0400",
-        "url": "https://www.phoronix.com/news/EXT4-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "In addition to the IOmap improvements helping EXT4 performance in Linux 7.3, the main EXT4 feature pull request has now been submitted for this next kernel version. That pull is set to land yet more p",
-        "cve": []
-    },
-    {
-        "title": "Two Very Exciting Memory Management Optimizations Going Into Linux 7.3",
-        "date": "Wed, 19 Aug 2026 16:31:26 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-MM",
-        "source": "Phoronix",
-        "summary": "Andrew Morton on Tuesday sent out all of the memory management \"MM\" updates for the Linux 7.3 merge window. The MM pull was particularly heavy as he noted 1,250 \"added-to-MM\" emails were sent out this",
-        "cve": []
-    },
-    {
-        "title": "Go Language 1.27 Adds Generic Methods, Struct Improvement & More SIMD",
-        "date": "Wed, 19 Aug 2026 14:23:05 -0400",
-        "url": "https://www.phoronix.com/news/Go-1.27",
-        "source": "Phoronix",
-        "summary": "Go 1.27 was released today as the newest version of this programming language from Google's Go team...",
-        "cve": []
-    },
-    {
-        "title": "Btrfs Ready With More Performance Improvements For Linux 7.3: Some ~3x To ~5x Wins",
-        "date": "Wed, 19 Aug 2026 13:50:46 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Btrfs",
-        "source": "Phoronix",
-        "summary": "David Sterba of SUSE sent in the Btrfs file-system feature updates today that target the Linux 7.3 merge window. Among other changes are more performance improvements for this next version of the Linu",
-        "cve": []
-    },
-    {
-        "title": "AMD EPYC 9005 Series Memory Scaling Performance From 4 To 24 DDR5 RDIMMs",
-        "date": "Wed, 19 Aug 2026 10:20:00 -0400",
-        "url": "https://www.phoronix.com/review/dell-epyc-9005-memory-scaling",
-        "source": "Phoronix",
-        "summary": "With today's memory prices, a frequent question at Phoronix and throughout many organizations is about reducing cost by not necessarily populating all memory channels. Especially with modern servers g",
         "cve": []
     }
 ]
