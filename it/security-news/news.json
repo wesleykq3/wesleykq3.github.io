@@ -48,7 +48,7 @@
         "cve": []
     },
     {
-        "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+        "title": "Microsoft patches max severity code execution, privilege escalation flaws",
         "date": "Fri, 21 Aug 2026 07:04:10 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
         "source": "BleepingComputer",
@@ -162,6 +162,86 @@
         "cve": []
     },
     {
+        "title": "Top 10 Best Wireless / Wi-Fi Security Solutions in 2026",
+        "date": "Sat, 22 Aug 2026 09:31:33 +0000",
+        "url": "https://cybersecuritynews.com/best-wireless-wifi-security-solutions/",
+        "source": "CyberSecurityNews",
+        "summary": "Cisco Meraki scores highest in our 2026 evaluation of automatic Wi-Fi security solutions, combining cloud-managed simplicity with strong policy enforcement, while HPE Aruba leads on enterprise-grade w",
+        "cve": []
+    },
+    {
+        "title": "What specifically allowed the agent to reach a real company’s systems during testing?",
+        "date": "Sat, 22 Aug 2026 05:09:10 +0000",
+        "url": "https://cybersecuritynews.com/what-specifically-allowed-the-agent-to-reach-a-real-companys-systems-during-testing/",
+        "source": "CyberSecurityNews",
+        "summary": "Wayne Anderson, Managing Director, Cybersecurity and Digital Innovation, BDO USA. First and foremost, the technical “walls” were reduced during the testing experience. One of the questions that many o",
+        "cve": []
+    },
+    {
+        "title": "What 45 Million wp2shell Exploit Attempts Reveal About the New Vulnerability Response Window",
+        "date": "Sat, 22 Aug 2026 04:43:01 +0000",
+        "url": "https://cybersecuritynews.com/what-45-million-wp2shell-exploit-attempts-reveal-about-the-new-vulnerability-response-window/",
+        "source": "CyberSecurityNews",
+        "summary": "The latest&#160;wp2shell vulnerability&#160;was one of the biggest WordPress security events in history. The critical vulnerability chain combined two flaws that allowed unauthenticated attackers to e",
+        "cve": []
+    },
+    {
+        "title": "Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection",
+        "date": "Sat, 22 Aug 2026 01:31:34 +0000",
+        "url": "https://cybersecuritynews.com/grok-zero-click-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly disclosed attack can turn a routine “summarize this page” request in xAI’s Grok web chat into a silent theft of the user’s name, coarse location, subscription tier, and the prompt history of t",
+        "cve": []
+    },
+    {
+        "title": "Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning",
+        "date": "Fri, 21 Aug 2026 17:46:37 +0000",
+        "url": "https://cybersecuritynews.com/mythos-5-claude-security-scanning/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic has expanded access to its frontier AI cyber-defense capabilities by making Claude Mythos 5 available in Claude Security, enabling enterprise customers to scan codebases for vulnerabilities ",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Expands Mailbox Storage From 50 GB to 100 GB for Users",
+        "date": "Fri, 21 Aug 2026 16:37:25 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-expands-mailbox-storage-50gb-to-100gb/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has started expanding primary mailbox storage for Microsoft 365 Business Basic, Business Standard, and Business Premium users. Eligible users can now receive up to 100 GB of Exchange Online ",
+        "cve": []
+    },
+    {
+        "title": "Scammers Use WhatsApp Groups to Coordinate Millions in Victim Trades and Pump Real Stocks",
+        "date": "Fri, 21 Aug 2026 14:52:11 +0000",
+        "url": "https://cybersecuritynews.com/scammers-use-whatsapp-groups/",
+        "source": "CyberSecurityNews",
+        "summary": "Scammers are using WhatsApp groups to turn ordinary investors into an unwitting buying force. The operation does not need a hacked trading account or a stolen card. Instead, it persuades people to pla",
+        "cve": []
+    },
+    {
+        "title": "Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks",
+        "date": "Fri, 21 Aug 2026 14:41:55 +0000",
+        "url": "https://cybersecuritynews.com/chinese-hackers-use-ai-agents/",
+        "source": "CyberSecurityNews",
+        "summary": "A Chinese-speaking cybercrime group is using AI-assisted tools to turn vulnerable web servers into entry points. It shows how familiar flaws become more dangerous when attackers automate the work arou",
+        "cve": []
+    },
+    {
+        "title": "Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection",
+        "date": "Fri, 21 Aug 2026 14:14:20 +0000",
+        "url": "https://cybersecuritynews.com/hackers-hide-agent-tesla/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are using Unicode emoji characters to hide an Agent Tesla JScript dropper in a business email compromise campaign aimed at finance teams. The tactic turns a payment-related attachment into a d",
+        "cve": []
+    },
+    {
+        "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
+        "date": "Fri, 21 Aug 2026 13:26:20 +0000",
+        "url": "https://cybersecuritynews.com/claude-opus-5-routes/",
+        "source": "CyberSecurityNews",
+        "summary": "Claude Opus 5 did not crack hardened binaries in a reverse-engineering experiment. Instead, it sought easier ways to recover hidden information, showing AI-assisted analysis can be capable yet unrelia",
+        "cve": []
+    },
+    {
         "title": "Who’s Tracking You? Use This New Service to Find Out",
         "date": "Fri, 14 Aug 2026 11:24:35 +0000",
         "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
@@ -242,83 +322,83 @@
         "cve": []
     },
     {
-        "title": "Wine 11.16 Released With VA-API Hardware Decoding, Better ARM64 Support",
-        "date": "Fri, 21 Aug 2026 18:12:01 -0400",
-        "url": "https://www.phoronix.com/news/Wine-11.16-Released",
-        "source": "Phoronix",
-        "summary": "Wine 11.16 is out today as the newest bi-weekly development release for this software enabling Windows games and applications to run on Linux and other platforms...",
+        "title": "Chinese Hacker Uses DeepSeek and Hermes Agent to Launch Autonomous Cyberattacks",
+        "date": "Sat, 22 Aug 2026 08:03:01 +0000",
+        "url": "https://gbhackers.com/chinese-hacker-uses-deepseek-hermes-agent/",
+        "source": "GBHackers",
+        "summary": "A Chinese-speaking threat actor has been observed using DeepSeek through the Hermes Agent framework to automate reconnaissance, vulnerability research, exploit acquisition, and attack attempts against",
         "cve": []
     },
     {
-        "title": "Proton 11.0-2 Enables More Titles With Steam Play / Linux Gaming",
-        "date": "Fri, 21 Aug 2026 17:14:07 -0400",
-        "url": "https://www.phoronix.com/news/Proton-11.0-2",
-        "source": "Phoronix",
-        "summary": "Just in time for those that enjoy their Linux / Steam Play gaming on weekends, Valve and CodeWeavers today released Proton 11.0-2 as the newest stable release of this Wine 11.0 downstream that powers ",
+        "title": "Apollo Global Management Data Breach Exposes Social Security Numbers and Personal Data",
+        "date": "Sat, 22 Aug 2026 07:45:30 +0000",
+        "url": "https://gbhackers.com/apollo-global-management-data-breach/",
+        "source": "GBHackers",
+        "summary": "Apollo Global Management has disclosed a cyber incident in which attackers gained unauthorized access to cloud platforms and may have acquired highly sensitive personal information. The alternative as",
         "cve": []
     },
     {
-        "title": "AMD Posts Massive Patch Series For Enabling UALink In The Linux Kernel",
-        "date": "Fri, 21 Aug 2026 16:07:08 -0400",
-        "url": "https://www.phoronix.com/news/UALink-Series-2-Linux",
-        "source": "Phoronix",
-        "summary": "Whether coincidental or intentional, AMD engineers tend to drop interesting, feature patches for the open-source/Linux space on Friday afternoons. Hitting the kernel mailing list minutes ago were two ",
+        "title": "Zero-Click Grok Attack Lets Hackers Steal Chat History Using Encrypted Prompt Injection",
+        "date": "Sat, 22 Aug 2026 07:29:17 +0000",
+        "url": "https://gbhackers.com/zero-click-grok-attack-prompt-injection/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed prompt-injection technique could turn a routine request to summarize a webpage in xAI’s Grok web chat into a silent data-exfiltration attack, potentially exposing a user’s name, appr",
         "cve": []
     },
     {
-        "title": "Linux 7.3 Lands Improvements For Voodoo 3 / 4 / 5 & Vintage Atari Computers In 2026",
-        "date": "Fri, 21 Aug 2026 13:53:28 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-FBDEV",
-        "source": "Phoronix",
-        "summary": "At a time when Linux continues dropping older hardware drivers due to the influx of AI/LLM-generated bug reports and patches for hardware extremely unlikely to be used with modern versions of the main",
+        "title": "768 Leaked AWS Keys Still Active With Full Admin Access to Corporate Accounts",
+        "date": "Sat, 22 Aug 2026 07:16:08 +0000",
+        "url": "https://gbhackers.com/768-leaked-aws-keys-still-active-with-full-admin/",
+        "source": "GBHackers",
+        "summary": "A large-scale investigation has uncovered 768 publicly exposed AWS access keys that remain active and grant full administrative privileges to corporate cloud environments, posing a serious risk of acc",
         "cve": []
     },
     {
-        "title": "Framework Laptop 16 With GeForce RTX 5070 12GB, One-Piece Keyboard & Haptic Touchpad",
-        "date": "Fri, 21 Aug 2026 11:54:05 -0400",
-        "url": "https://www.phoronix.com/review/framework-laptop-16-2026",
-        "source": "Phoronix",
-        "summary": "While the past few weeks have been quite busy with the new Framework Laptop 13 Pro testing with that all-new laptop model and paired with Intel's Core Ultra Series 3 \"Panther Lake\", at the same time F",
+        "title": "US Bank Investigates Alleged Data Breach After LockBit Ransomware Extortion Claim",
+        "date": "Fri, 21 Aug 2026 13:08:51 +0000",
+        "url": "https://gbhackers.com/us-bank-investigates-alleged-data-breach/",
+        "source": "GBHackers",
+        "summary": "US Bank is currently investigating claims made by the LockBit ransomware group, which alleges that it breached the bank and stole sensitive data. The group has set a deadline of September 3 for the ba",
         "cve": []
     },
     {
-        "title": "Nginx Dark Mode Support For Error Pages Remains Elusive",
-        "date": "Fri, 21 Aug 2026 11:25:41 -0400",
-        "url": "https://www.phoronix.com/news/Nginx-Dark-Mode-Mystery",
-        "source": "Phoronix",
-        "summary": "In early 2025 I wrote about the upstream Nginx web server rejecting dark mode support for its error pages on the basis of wanting to keep the default error pages simple and developers arguing the extr",
+        "title": "Deepfake Ads Funnel Investors Into WhatsApp Groups Controlled by Fake Financial Analysts",
+        "date": "Fri, 21 Aug 2026 13:06:34 +0000",
+        "url": "https://gbhackers.com/deepfake-investment-scam/",
+        "source": "GBHackers",
+        "summary": "Investment fraud is increasingly exploiting the one action banks struggle most to block: a payment the customer actively wants to make. Deepfake advertisements, impersonated financial experts, and coo",
         "cve": []
     },
     {
-        "title": "Intel Computer Vision Sensing Driver Now Ready For Nova Lake",
-        "date": "Fri, 21 Aug 2026 09:13:26 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Media",
-        "source": "Phoronix",
-        "summary": "The main set of media subsystem updates have been merged for the ongoing Linux 7.3 merge window. Notable this round is the Intel Computer Vision Sensing \"CVS\" driver merged the previous cycle now supp",
+        "title": "UAT-10147 Compromises Web Servers to Deploy BadIIS for SEO Fraud and Data Theft",
+        "date": "Fri, 21 Aug 2026 11:30:16 +0000",
+        "url": "https://gbhackers.com/uat-10147-compromises-web-servers/",
+        "source": "GBHackers",
+        "summary": "A Chinese-speaking cybercrime group, tracked as UAT-10147, targeting vulnerable Windows and Linux web servers worldwide to deploy BadIIS malware, steal data, and manipulate search engine results for f",
         "cve": []
     },
     {
-        "title": "Linux 7.3 Cleans Up Stack Randomization, Ensures It Happen As Early As Possible",
-        "date": "Fri, 21 Aug 2026 08:29:09 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Stack-Randomization",
-        "source": "Phoronix",
-        "summary": "Merged this week for the Linux 7.3 kernel was a big clean-up to the stack randomization code for better security on Linux systems and helping unify some of the architecture-specific code...",
+        "title": "Critical N-Able PassPortal Extension Flaw Gives Attackers Full Password Vault Access",
+        "date": "Fri, 21 Aug 2026 11:23:51 +0000",
+        "url": "https://gbhackers.com/critical-n-able-passportal-extension-flaw/",
+        "source": "GBHackers",
+        "summary": "Cybersecurity researchers have revealed a critical vulnerability in N-able’s PassPortal browser extension that could have allowed a malicious website or embedded iframe to obtain authentication materi",
         "cve": []
     },
     {
-        "title": "Intel Compute Runtime 26.31.39395.13 Continues Prepping For Crescent Island, OpenCL LEO",
-        "date": "Fri, 21 Aug 2026 08:03:07 -0400",
-        "url": "https://www.phoronix.com/news/Intel-CR-26.31.39395.13",
-        "source": "Phoronix",
-        "summary": "Intel today released the Compute Runtime 26.31.39395.13 open-source GPU compute stack update for Windows and Linux systems. Big ongoing trends for the Intel Compute Runtime continue to be preparing fo",
+        "title": "OpenAI Frontier Models Get Zero Data Retention With Private Safety Processing",
+        "date": "Fri, 21 Aug 2026 11:07:22 +0000",
+        "url": "https://gbhackers.com/openai-frontier-models-get-zero-data-retention/",
+        "source": "GBHackers",
+        "summary": "OpenAI has reaffirmed its commitment to Zero Data Retention (ZDR) for eligible API customers using frontier models while introducing the new Private Safety Processing. This safety architecture is desi",
         "cve": []
     },
     {
-        "title": "Linux 7.3 Ready With CXL Type-2 Driver Support For AMD Solarflare NICs",
-        "date": "Fri, 21 Aug 2026 06:33:07 -0400",
-        "url": "https://www.phoronix.com/news/AMD-Solarflare-NIC-CXL-Type-2",
-        "source": "Phoronix",
-        "summary": "With the mainline Linux 7.2 kernel there is now the basic support in place for CXL Type-2 accelerator drivers within the CXL core subsystem code. The first in-tree Type-2 driver with the Linux kernel ",
+        "title": "Hackers Hide Agent Tesla Malware Behind Emojis to Steal Browser and Email Passwords",
+        "date": "Fri, 21 Aug 2026 10:27:17 +0000",
+        "url": "https://gbhackers.com/agent-tesla-malware/",
+        "source": "GBHackers",
+        "summary": "A business email compromise campaign is using emoji-filled JScript to conceal an Agent Tesla v4 infostealer designed to steal browser, email, and messaging credentials. The operation pairs a convincin",
         "cve": []
     }
 ]
