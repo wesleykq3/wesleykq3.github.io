@@ -1,5 +1,53 @@
 [
     {
+        "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+        "date": "Fri, 21 Aug 2026 14:01:30 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
+        "source": "BleepingComputer",
+        "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+        "date": "Fri, 21 Aug 2026 11:55:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+        "source": "BleepingComputer",
+        "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
+        "date": "Fri, 21 Aug 2026 10:54:49 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
+        "cve": []
+    },
+    {
+        "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+        "date": "Fri, 21 Aug 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
+        "source": "BleepingComputer",
+        "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas ",
+        "cve": []
+    },
+    {
+        "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
+        "date": "Fri, 21 Aug 2026 09:39:35 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+        "date": "Fri, 21 Aug 2026 08:25:33 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communic",
+        "cve": []
+    },
+    {
         "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
         "date": "Fri, 21 Aug 2026 07:04:10 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
@@ -32,51 +80,35 @@
         "cve": []
     },
     {
-        "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-        "date": "Thu, 20 Aug 2026 10:39:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-        "source": "BleepingComputer",
-        "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
+        "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+        "date": "Sat, 22 Aug 2026 00:23:00 +0530",
+        "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence ",
         "cve": []
     },
     {
-        "title": "How MSPs can catch phishing attacks email filters miss",
-        "date": "Thu, 20 Aug 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-        "source": "BleepingComputer",
-        "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detec",
+        "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+        "date": "Fri, 21 Aug 2026 21:22:10 +0530",
+        "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+        "source": "The Hacker News",
+        "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Win",
         "cve": []
     },
     {
-        "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
-        "date": "Thu, 20 Aug 2026 08:14:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-        "source": "BleepingComputer",
-        "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
+        "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+        "date": "Fri, 21 Aug 2026 21:11:44 +0530",
+        "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun.\n\nKaspersky, which discovered the threat ",
         "cve": []
     },
     {
-        "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-        "date": "Thu, 20 Aug 2026 07:06:14 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
-        "source": "BleepingComputer",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [.",
-        "cve": []
-    },
-    {
-        "title": "New Manic Android malware can exfiltrate data through nearby devices",
-        "date": "Thu, 20 Aug 2026 06:02:02 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
-        "source": "BleepingComputer",
-        "summary": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
-        "cve": []
-    },
-    {
-        "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
-        "date": "Thu, 20 Aug 2026 05:46:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+        "title": "Wazuh and AI For Enhanced SOC Workflows",
+        "date": "Fri, 21 Aug 2026 16:51:39 +0530",
+        "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+        "source": "The Hacker News",
+        "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repeti",
         "cve": []
     },
     {
@@ -98,11 +130,11 @@
         ]
     },
     {
-        "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+        "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
         "date": "Fri, 21 Aug 2026 11:36:11 +0530",
         "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
         "source": "The Hacker News",
-        "summary": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required.\n\nThe vulnerability, tracked as ",
+        "summary": "Update: The story was updated after publication to note that the vulnerability has not been exploited.\n\nAlthough the security bulletin originally marked the \"Exploited\" field under the Exploitability ",
         "cve": []
     },
     {
@@ -127,118 +159,6 @@
         "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
         "source": "The Hacker News",
         "summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header ch",
-        "cve": []
-    },
-    {
-        "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-        "date": "Thu, 20 Aug 2026 22:29:44 +0530",
-        "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.\n\nThe activity",
-        "cve": []
-    },
-    {
-        "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
-        "date": "Thu, 20 Aug 2026 20:06:27 +0530",
-        "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
-        "source": "The Hacker News",
-        "summary": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to ",
-        "cve": []
-    },
-    {
-        "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-        "date": "Thu, 20 Aug 2026 19:18:24 +0530",
-        "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape",
-        "cve": []
-    },
-    {
-        "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
-        "date": "Thu, 20 Aug 2026 19:05:13 +0530",
-        "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-        "source": "The Hacker News",
-        "summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to th",
-        "cve": []
-    },
-    {
-        "title": "Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts",
-        "date": "Fri, 21 Aug 2026 11:31:54 +0000",
-        "url": "https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp/",
-        "source": "CyberSecurityNews",
-        "summary": "Suspected Russian cyber-espionage groups are increasingly turning ordinary sign-in and device-linking features into tools for account takeover. Their latest campaigns do not depend on breaking passwor",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials",
-        "date": "Fri, 21 Aug 2026 10:56:24 +0000",
-        "url": "https://cybersecuritynews.com/fake-google-gemini-installer/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are abusing interest in generative AI to trick users into downloading malware. In a newly documented incident, a file posing as a Google Gemini installer delivered the Vidar information",
-        "cve": []
-    },
-    {
-        "title": "Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks",
-        "date": "Fri, 21 Aug 2026 09:32:45 +0000",
-        "url": "https://cybersecuritynews.com/bandwidth-sharing-app/",
-        "source": "CyberSecurityNews",
-        "summary": "A bandwidth-sharing app installed by an employee can quietly turn a work device into a gateway for outside traffic. The software may not behave like traditional malware, yet it can expose a company’s ",
-        "cve": []
-    },
-    {
-        "title": "DOJ Charges 17 Iranian Hackers in IRGC-Linked Campaign That Stole 31.5TB of Research Data",
-        "date": "Fri, 21 Aug 2026 07:52:12 +0000",
-        "url": "https://cybersecuritynews.com/doj-charges-17-iranian-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Department of Justice has unsealed a 14-count superseding indictment against 17 alleged members of the Iran-based Mabna Institute, accusing them of conducting a long-running cyber espionage c",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Offers Zero Data Retention for Frontier AI Models With Private Safety Processing",
-        "date": "Fri, 21 Aug 2026 07:50:08 +0000",
-        "url": "https://cybersecuritynews.com/openai-zero-data-retention-for-frontier-models/",
-        "source": "CyberSecurityNews",
-        "summary": "OpenAI has announced Zero Data Retention for eligible API customers using its frontier AI models, alongside a new Private Safety Processing system designed to support safety monitoring without exposin",
-        "cve": []
-    },
-    {
-        "title": "Critical Spring Security Flaw Lets Attackers Gain Admin Access to LDAP Servers",
-        "date": "Fri, 21 Aug 2026 07:46:37 +0000",
-        "url": "https://cybersecuritynews.com/spring-security-flaw-access-ldap-servers/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical vulnerability in Spring Security’s embedded UnboundID LDAP server can allow remote attackers to gain administrative access to exposed in-memory LDAP directories. Tracked as CVE-2026-59270, ",
-        "cve": []
-    },
-    {
-        "title": "Sakura Internet Breach – Hackers Accessed 1.36 million Customers’ Personal Records",
-        "date": "Fri, 21 Aug 2026 07:39:30 +0000",
-        "url": "https://cybersecuritynews.com/sakura-internet-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "Sakura Internet has disclosed a potential breach involving its sales management system, placing the personal records of up to 1.36 million customer accounts at risk. The Japanese cloud and hosting pro",
-        "cve": []
-    },
-    {
-        "title": "Apple’s Private Find My People Reversed to Decrypt Live Shared Locations on Linux",
-        "date": "Fri, 21 Aug 2026 06:27:17 +0000",
-        "url": "https://cybersecuritynews.com/apple-find-my-people-reversed/",
-        "source": "CyberSecurityNews",
-        "summary": "A security researcher has successfully reverse-engineered Apple&#8217;s private Find My People protocol, demonstrating that a Linux machine can register with Apple&#8217;s internal services, receive a",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit TrueConf Servers to Push Malware Through Legitimate Video Conference Downloads",
-        "date": "Fri, 21 Aug 2026 06:21:10 +0000",
-        "url": "https://cybersecuritynews.com/hackers-exploit-trueconf-servers/",
-        "source": "CyberSecurityNews",
-        "summary": "Kaspersky researchers investigating attacks on Russian organizations discovered that legitimate TrueConf video conferencing client installers were secretly bundled with PhantomCore malware, a tool ass",
-        "cve": []
-    },
-    {
-        "title": "Google Chrome 151 Chromoting Flaw Allows Attackers to  Execute Malicious Code Remotely",
-        "date": "Fri, 21 Aug 2026 05:41:34 +0000",
-        "url": "https://cybersecuritynews.com/google-chrome-151-chromoting-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Google has released Chrome 151 Stable, fixing seven security vulnerabilities, including a critical use-after-free flaw in Chromoting that could potentially allow remote code execution. The update is r",
         "cve": []
     },
     {
@@ -322,6 +242,70 @@
         "cve": []
     },
     {
+        "title": "Wine 11.16 Released With VA-API Hardware Decoding, Better ARM64 Support",
+        "date": "Fri, 21 Aug 2026 18:12:01 -0400",
+        "url": "https://www.phoronix.com/news/Wine-11.16-Released",
+        "source": "Phoronix",
+        "summary": "Wine 11.16 is out today as the newest bi-weekly development release for this software enabling Windows games and applications to run on Linux and other platforms...",
+        "cve": []
+    },
+    {
+        "title": "Proton 11.0-2 Enables More Titles With Steam Play / Linux Gaming",
+        "date": "Fri, 21 Aug 2026 17:14:07 -0400",
+        "url": "https://www.phoronix.com/news/Proton-11.0-2",
+        "source": "Phoronix",
+        "summary": "Just in time for those that enjoy their Linux / Steam Play gaming on weekends, Valve and CodeWeavers today released Proton 11.0-2 as the newest stable release of this Wine 11.0 downstream that powers ",
+        "cve": []
+    },
+    {
+        "title": "AMD Posts Massive Patch Series For Enabling UALink In The Linux Kernel",
+        "date": "Fri, 21 Aug 2026 16:07:08 -0400",
+        "url": "https://www.phoronix.com/news/UALink-Series-2-Linux",
+        "source": "Phoronix",
+        "summary": "Whether coincidental or intentional, AMD engineers tend to drop interesting, feature patches for the open-source/Linux space on Friday afternoons. Hitting the kernel mailing list minutes ago were two ",
+        "cve": []
+    },
+    {
+        "title": "Linux 7.3 Lands Improvements For Voodoo 3 / 4 / 5 & Vintage Atari Computers In 2026",
+        "date": "Fri, 21 Aug 2026 13:53:28 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-FBDEV",
+        "source": "Phoronix",
+        "summary": "At a time when Linux continues dropping older hardware drivers due to the influx of AI/LLM-generated bug reports and patches for hardware extremely unlikely to be used with modern versions of the main",
+        "cve": []
+    },
+    {
+        "title": "Framework Laptop 16 With GeForce RTX 5070 12GB, One-Piece Keyboard & Haptic Touchpad",
+        "date": "Fri, 21 Aug 2026 11:54:05 -0400",
+        "url": "https://www.phoronix.com/review/framework-laptop-16-2026",
+        "source": "Phoronix",
+        "summary": "While the past few weeks have been quite busy with the new Framework Laptop 13 Pro testing with that all-new laptop model and paired with Intel's Core Ultra Series 3 \"Panther Lake\", at the same time F",
+        "cve": []
+    },
+    {
+        "title": "Nginx Dark Mode Support For Error Pages Remains Elusive",
+        "date": "Fri, 21 Aug 2026 11:25:41 -0400",
+        "url": "https://www.phoronix.com/news/Nginx-Dark-Mode-Mystery",
+        "source": "Phoronix",
+        "summary": "In early 2025 I wrote about the upstream Nginx web server rejecting dark mode support for its error pages on the basis of wanting to keep the default error pages simple and developers arguing the extr",
+        "cve": []
+    },
+    {
+        "title": "Intel Computer Vision Sensing Driver Now Ready For Nova Lake",
+        "date": "Fri, 21 Aug 2026 09:13:26 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Media",
+        "source": "Phoronix",
+        "summary": "The main set of media subsystem updates have been merged for the ongoing Linux 7.3 merge window. Notable this round is the Intel Computer Vision Sensing \"CVS\" driver merged the previous cycle now supp",
+        "cve": []
+    },
+    {
+        "title": "Linux 7.3 Cleans Up Stack Randomization, Ensures It Happen As Early As Possible",
+        "date": "Fri, 21 Aug 2026 08:29:09 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Stack-Randomization",
+        "source": "Phoronix",
+        "summary": "Merged this week for the Linux 7.3 kernel was a big clean-up to the stack randomization code for better security on Linux systems and helping unify some of the architecture-specific code...",
+        "cve": []
+    },
+    {
         "title": "Intel Compute Runtime 26.31.39395.13 Continues Prepping For Crescent Island, OpenCL LEO",
         "date": "Fri, 21 Aug 2026 08:03:07 -0400",
         "url": "https://www.phoronix.com/news/Intel-CR-26.31.39395.13",
@@ -335,70 +319,6 @@
         "url": "https://www.phoronix.com/news/AMD-Solarflare-NIC-CXL-Type-2",
         "source": "Phoronix",
         "summary": "With the mainline Linux 7.2 kernel there is now the basic support in place for CXL Type-2 accelerator drivers within the CXL core subsystem code. The first in-tree Type-2 driver with the Linux kernel ",
-        "cve": []
-    },
-    {
-        "title": "Linus Torvalds Endures A Debug Session From Hell, \"Enormously Helped\" By AI",
-        "date": "Fri, 21 Aug 2026 06:19:44 -0400",
-        "url": "https://www.phoronix.com/news/Linus-Torvalds-Debug-AI",
-        "source": "Phoronix",
-        "summary": "It's pretty rare to see Linus Torvalds author patches himself pertaining to the open-source Linux graphics drivers, but waking up this morning I was surprised to see he authored and committed an Intel",
-        "cve": []
-    },
-    {
-        "title": "Intel Mesa Linux Drivers Now Treating Nova Lake S / U / H / HX As Stable",
-        "date": "Thu, 20 Aug 2026 20:44:45 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Mesa-Nova-Lake-Stable",
-        "source": "Phoronix",
-        "summary": "Intel's open-source Mesa drivers for Iris Gallium3D (OpenGL) and ANV (Vulkan) on Linux are no longer treating next-gen Nova Lake processors with integrated graphics as experimental and off-by-default.",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.3 Network Changes Merged But Developers \"Completely Overwhelmed\" Due To AI/LLMs",
-        "date": "Thu, 20 Aug 2026 16:05:28 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Networking",
-        "source": "Phoronix",
-        "summary": "All of the networking subsystem feature updates were merged today for the Linux 7.3 kernel's merge window. There are a lot of wired and wireless networking improvements this cycle but also a ton of bu",
-        "cve": []
-    },
-    {
-        "title": "Rust 1.98 Adds Algebraic Floating-Point Methods Akin To \"-ffast-math\"",
-        "date": "Thu, 20 Aug 2026 13:29:25 -0400",
-        "url": "https://www.phoronix.com/news/Rust-1.98-Released",
-        "source": "Phoronix",
-        "summary": "Rust 1.98 released today and is headlined the debut of new algebraic floating-point methods...",
-        "cve": []
-    },
-    {
-        "title": "KMSCON 10.0.2 Brings asciicast Playback Support, Bug Fixes",
-        "date": "Thu, 20 Aug 2026 13:19:37 -0400",
-        "url": "https://www.phoronix.com/news/KMSCON-10.0.2-Released",
-        "source": "Phoronix",
-        "summary": "KMSCON 10.0.2 debuted today as the latest update to this leading user-space terminal emulator for Linux systems. KMSCON is built around Linux's KMS/DRM interfaces and the most viable alternative to da",
-        "cve": []
-    },
-    {
-        "title": "KDE Software Now Has Stable Btrfs Snapshot Integration With KIO-Snapshot 1.0",
-        "date": "Thu, 20 Aug 2026 12:21:31 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Btrfs-Snapshots",
-        "source": "Phoronix",
-        "summary": "With today's release of KIO-Snapshot, KDE software now has stable integration of Btrfs file-system snapshots...",
-        "cve": []
-    },
-    {
-        "title": "Intel Hyper Threading Performance On The Xeon 678X \"Granite Rapids-WS\"",
-        "date": "Thu, 20 Aug 2026 10:21:00 -0400",
-        "url": "https://www.phoronix.com/review/intel-xeon-678x-ht",
-        "source": "Phoronix",
-        "summary": "With the Intel Xeon 678X \"Granite Rapids WS\" processor that I have been recently testing within the HP Z4 G6i workstation, there are 48 cores plus with Hyper Threading is a total of 96 threads for thi",
-        "cve": []
-    },
-    {
-        "title": "FSCRYPT Sees Cleanup With Linux 7.3 To Open Door For More Features Like Btrfs Encryption",
-        "date": "Thu, 20 Aug 2026 09:18:28 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-FSCRYPT",
-        "source": "Phoronix",
-        "summary": "FSCRYPT is the Linux file-system encryption framework for supporting per-directory, transparent encryption. FSCRYPT so far is used by the likes of EXT4, F2FS, and CephFS. For Linux 7.3 there is an imp",
         "cve": []
     }
 ]
