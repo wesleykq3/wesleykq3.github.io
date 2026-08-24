@@ -1,5 +1,21 @@
 [
     {
+        "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
+        "date": "Mon, 24 Aug 2026 06:45:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+        "source": "BleepingComputer",
+        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [..",
+        "cve": []
+    },
+    {
+        "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
+        "date": "Mon, 24 Aug 2026 05:42:05 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
+        "cve": []
+    },
+    {
         "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
         "date": "Sun, 23 Aug 2026 10:23:46 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
@@ -64,19 +80,43 @@
         "cve": []
     },
     {
-        "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
-        "date": "Fri, 21 Aug 2026 08:25:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communic",
+        "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
+        "date": "Mon, 24 Aug 2026 17:28:00 +0530",
+        "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
+        "source": "The Hacker News",
+        "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI c",
         "cve": []
     },
     {
-        "title": "Microsoft patches max severity code execution, privilege escalation flaws",
-        "date": "Fri, 21 Aug 2026 07:04:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+        "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+        "date": "Mon, 24 Aug 2026 17:26:34 +0530",
+        "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+        "source": "The Hacker News",
+        "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker ",
+        "cve": []
+    },
+    {
+        "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
+        "date": "Mon, 24 Aug 2026 17:21:36 +0530",
+        "url": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent.\n\nThe campaign, codenamed O",
+        "cve": []
+    },
+    {
+        "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
+        "date": "Mon, 24 Aug 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
+        "source": "The Hacker News",
+        "summary": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is p",
+        "cve": []
+    },
+    {
+        "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+        "date": "Mon, 24 Aug 2026 13:38:31 +0530",
+        "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology",
         "cve": []
     },
     {
@@ -120,125 +160,83 @@
         "cve": []
     },
     {
-        "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-        "date": "Fri, 21 Aug 2026 15:33:11 +0530",
-        "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-        "source": "The Hacker News",
-        "summary": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review.\n\nFour of the security vulnerab",
-        "cve": []
-    },
-    {
-        "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
-        "date": "Fri, 21 Aug 2026 12:34:25 +0530",
-        "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-        "source": "The Hacker News",
-        "summary": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-19478 (CVSS score: 9.4",
-        "cve": [
-            "CVE-2026-19478"
-        ]
-    },
-    {
-        "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
-        "date": "Fri, 21 Aug 2026 11:36:11 +0530",
-        "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-        "source": "The Hacker News",
-        "summary": "Update: The story was updated after publication to note that the vulnerability has not been exploited.\n\nAlthough the security bulletin originally marked the \"Exploited\" field under the Exploitability ",
-        "cve": []
-    },
-    {
-        "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
-        "date": "Fri, 21 Aug 2026 01:52:35 +0530",
-        "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-        "source": "The Hacker News",
-        "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose bui",
-        "cve": []
-    },
-    {
-        "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-        "date": "Fri, 21 Aug 2026 01:29:19 +0530",
-        "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-        "source": "The Hacker News",
-        "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, gov",
-        "cve": []
-    },
-    {
-        "title": "Iran-Linked Hackers Force UK Power Plant Offline in Unprecedented Four-Day Cyberattack",
-        "date": "Sun, 23 Aug 2026 17:21:38 +0000",
-        "url": "https://cybersecuritynews.com/hackers-force-uk-power-plant-offline/",
+        "title": "Microsoft August 2026 Windows Updates Trigger Issues on Devices Using RGB Lighting Features",
+        "date": "Mon, 24 Aug 2026 11:33:47 +0000",
+        "url": "https://cybersecuritynews.com/windows-updates-triggers-rgb-lighting-issues/",
         "source": "CyberSecurityNews",
-        "summary": "A cyberattack attributed to hackers linked to Iran forced a British power plant offline for four consecutive days last month, marking what officials describe as the first successful attack of its kind",
+        "summary": "Microsoft is investigating a Windows 11 issue in which the August 2026 security updates can cause certain games to freeze, crash, display access-violation errors, or restart affected PCs. The problem ",
         "cve": []
     },
     {
-        "title": "Weekly Cyber Security Newsletter Bulletin – Entra ID RCE, Claude Code Ransomware, T-Mobile Cable, Azure Credential Theft +20 Stories",
-        "date": "Sun, 23 Aug 2026 16:45:52 +0000",
-        "url": "https://cybersecuritynews.com/cyber-security-newsletter-bulletin-august/",
+        "title": "AmnesiaStealer Gives Hackers Hidden Control of Logged-In Browsers on Macs",
+        "date": "Mon, 24 Aug 2026 11:15:30 +0000",
+        "url": "https://cybersecuritynews.com/amnesiastealer-hidden-control/",
         "source": "CyberSecurityNews",
-        "summary": "This week&#8217;s bulletin captures a cybersecurity landscape increasingly shaped by artificial intelligence, both as a weapon and a shield. A ransomware affiliate weaponized Claude Code to autonomous",
+        "summary": "AmnesiaStealer is a newly identified macOS information stealer that does more than copy saved passwords. It can give criminals quiet control of a browser that is already signed in, turning an infected",
         "cve": []
     },
     {
-        "title": "Microsoft Windows 11 App Pushes Bing as Default Search in Chrome, Firefox and Brave",
-        "date": "Sun, 23 Aug 2026 13:24:54 +0000",
-        "url": "https://cybersecuritynews.com/windows-11-default-search-app/",
+        "title": "Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto",
+        "date": "Mon, 24 Aug 2026 09:49:32 +0000",
+        "url": "https://cybersecuritynews.com/fake-captcha-tricks-mac-users/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has built a dedicated Windows 11 app that exists to put Bing in front of users who already chose another search engine. The utility, Microsoft Recommended Search Settings, arrives as a stand",
+        "summary": "Mac users are being lured into a ClickFix campaign that turns a routine CAPTCHA check into a path for password theft, remote control, and cryptocurrency mining. It persuades a visitor to run an attack",
         "cve": []
     },
     {
-        "title": "Top 10 Best Wireless / Wi-Fi Security Solutions in 2026",
-        "date": "Sat, 22 Aug 2026 09:31:33 +0000",
-        "url": "https://cybersecuritynews.com/best-wireless-wifi-security-solutions/",
+        "title": "Hugging Face Reportedly Explores $13 Billion Sale Following Recent AI Security Incident",
+        "date": "Mon, 24 Aug 2026 08:10:09 +0000",
+        "url": "https://cybersecuritynews.com/hugging-face-13-billion-sale/",
         "source": "CyberSecurityNews",
-        "summary": "Cisco Meraki scores highest in our 2026 evaluation of automatic Wi-Fi security solutions, combining cloud-managed simplicity with strong policy enforcement, while HPE Aruba leads on enterprise-grade w",
+        "summary": "Hugging Face is testing a sale that could value the open-source AI hub at $13 billion or more, even as it is still closing out July’s autonomous-agent intrusion. People familiar with the process said ",
         "cve": []
     },
     {
-        "title": "What specifically allowed the agent to reach a real company’s systems during testing?",
-        "date": "Sat, 22 Aug 2026 05:09:10 +0000",
-        "url": "https://cybersecuritynews.com/what-specifically-allowed-the-agent-to-reach-a-real-companys-systems-during-testing/",
+        "title": "Anthropic’s Claude AI Suffers Another Outage With Elevated Errors",
+        "date": "Mon, 24 Aug 2026 08:01:43 +0000",
+        "url": "https://cybersecuritynews.com/claude-ai-suffers-outage/",
         "source": "CyberSecurityNews",
-        "summary": "Wayne Anderson, Managing Director, Cybersecurity and Digital Innovation, BDO USA. First and foremost, the technical “walls” were reduced during the testing experience. One of the questions that many o",
+        "summary": "Anthropic&#8217;s Claude AI platform experienced another wave of elevated errors on August 24, 2026, marking yet another disruption in what has become a troubling pattern of instability for one of the",
         "cve": []
     },
     {
-        "title": "What 45 Million wp2shell Exploit Attempts Reveal About the New Vulnerability Response Window",
-        "date": "Sat, 22 Aug 2026 04:43:01 +0000",
-        "url": "https://cybersecuritynews.com/what-45-million-wp2shell-exploit-attempts-reveal-about-the-new-vulnerability-response-window/",
+        "title": "Hackers Infect Android Car Screens Through Their Built-In Software Update System",
+        "date": "Mon, 24 Aug 2026 07:30:28 +0000",
+        "url": "https://cybersecuritynews.com/hackers-infect-android-car-screens/",
         "source": "CyberSecurityNews",
-        "summary": "The latest&#160;wp2shell vulnerability&#160;was one of the biggest WordPress security events in history. The critical vulnerability chain combined two flaws that allowed unauthenticated attackers to e",
+        "summary": "A newly uncovered Android malware campaign has turned car infotainment screens into an unexpected target. Rather than tricking drivers into installing a suspicious app, attackers used the software upd",
         "cve": []
     },
     {
-        "title": "Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection",
-        "date": "Sat, 22 Aug 2026 01:31:34 +0000",
-        "url": "https://cybersecuritynews.com/grok-zero-click-attack/",
+        "title": "AWS Network Firewall Now Displays Count of Triggered Security Rules",
+        "date": "Mon, 24 Aug 2026 06:27:33 +0000",
+        "url": "https://cybersecuritynews.com/aws-network-firewall-hit-counts/",
         "source": "CyberSecurityNews",
-        "summary": "A newly disclosed attack can turn a routine “summarize this page” request in xAI’s Grok web chat into a silent theft of the user’s name, coarse location, subscription tier, and the prompt history of t",
+        "summary": "AWS has introduced rule hit count support for AWS Network Firewall, giving security teams direct visibility into which stateful firewall rules are matching live network traffic. The new capability is ",
         "cve": []
     },
     {
-        "title": "Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning",
-        "date": "Fri, 21 Aug 2026 17:46:37 +0000",
-        "url": "https://cybersecuritynews.com/mythos-5-claude-security-scanning/",
+        "title": "Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks",
+        "date": "Mon, 24 Aug 2026 06:09:19 +0000",
+        "url": "https://cybersecuritynews.com/malicious-npm-packages/",
         "source": "CyberSecurityNews",
-        "summary": "Anthropic has expanded access to its frontier AI cyber-defense capabilities by making Claude Mythos 5 available in Claude Security, enabling enterprise customers to scan codebases for vulnerabilities ",
+        "summary": "Malicious npm packages are being used to place a Linux backdoor inside calendar and streak-calculation tools. The packages deliver legitimate date functions, making the malicious code easy to miss. Th",
         "cve": []
     },
     {
-        "title": "Microsoft Expands Mailbox Storage From 50 GB to 100 GB for Users",
-        "date": "Fri, 21 Aug 2026 16:37:25 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-expands-mailbox-storage-50gb-to-100gb/",
+        "title": "Critical isolated-vm Flaw Lets Untrusted JavaScript Escape Sandbox and Hijack Host Execution",
+        "date": "Mon, 24 Aug 2026 05:57:44 +0000",
+        "url": "https://cybersecuritynews.com/critical-isolated-vm-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has started expanding primary mailbox storage for Microsoft 365 Business Basic, Business Standard, and Business Premium users. Eligible users can now receive up to 100 GB of Exchange Online ",
+        "summary": "A critical security flaw in the popular Node.js sandboxing library isolated-vm could allow untrusted JavaScript to escape its V8 sandbox and potentially hijack execution in the host process. The issue",
         "cve": []
     },
     {
-        "title": "Scammers Use WhatsApp Groups to Coordinate Millions in Victim Trades and Pump Real Stocks",
-        "date": "Fri, 21 Aug 2026 14:52:11 +0000",
-        "url": "https://cybersecuritynews.com/scammers-use-whatsapp-groups/",
+        "title": "Cybermes – AI Red Teaming Agent for Automated Penetration Testing",
+        "date": "Mon, 24 Aug 2026 05:39:11 +0000",
+        "url": "https://cybersecuritynews.com/cybermes-ai-red-teaming-agent/",
         "source": "CyberSecurityNews",
-        "summary": "Scammers are using WhatsApp groups to turn ordinary investors into an unwitting buying force. The operation does not need a hacked trading account or a stolen card. Instead, it persuades people to pla",
+        "summary": "A new open-source project called Cybermes has entered the crowded field of AI-powered offensive security tooling, positioning itself as an enterprise-grade autonomous agent capable of running full pen",
         "cve": []
     },
     {
@@ -322,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Chinese Hacker Uses DeepSeek and Hermes Agent to Launch Autonomous Cyberattacks",
-        "date": "Sat, 22 Aug 2026 08:03:01 +0000",
-        "url": "https://gbhackers.com/chinese-hacker-uses-deepseek-hermes-agent/",
+        "title": "Mysterious Ox Alpha Stealth AI Model Emerges for Coding and Agentic Work",
+        "date": "Mon, 24 Aug 2026 12:15:04 +0000",
+        "url": "https://gbhackers.com/mysterious-ox-alpha-stealth-ai-model/",
         "source": "GBHackers",
-        "summary": "A Chinese-speaking threat actor has been observed using DeepSeek through the Hermes Agent framework to automate reconnaissance, vulnerability research, exploit acquisition, and attack attempts against",
+        "summary": "A newly discovered AI system called Ox Alpha has emerged on OpenRouter, sparking widespread speculation within the AI community regarding its origin, technical capabilities, and potential connections ",
         "cve": []
     },
     {
-        "title": "Apollo Global Management Data Breach Exposes Social Security Numbers and Personal Data",
-        "date": "Sat, 22 Aug 2026 07:45:30 +0000",
-        "url": "https://gbhackers.com/apollo-global-management-data-breach/",
+        "title": "Zimbra Collaboration Suite Flaw Actively Exploited to Execute Arbitrary Commands",
+        "date": "Mon, 24 Aug 2026 11:24:55 +0000",
+        "url": "https://gbhackers.com/zimbra-collaboration-suite-flaw/",
         "source": "GBHackers",
-        "summary": "Apollo Global Management has disclosed a cyber incident in which attackers gained unauthorized access to cloud platforms and may have acquired highly sensitive personal information. The alternative as",
+        "summary": "Threat actors are actively exploiting a critical operating system command injection vulnerability in Zimbra Collaboration Suite, identified as CVE-2026-73570. This vulnerability allows unauthenticated",
         "cve": []
     },
     {
-        "title": "Zero-Click Grok Attack Lets Hackers Steal Chat History Using Encrypted Prompt Injection",
-        "date": "Sat, 22 Aug 2026 07:29:17 +0000",
-        "url": "https://gbhackers.com/zero-click-grok-attack-prompt-injection/",
+        "title": "Open VSX Unblocks 3 IDs Used in 77-Extension Evil-Twin Malware Campaign",
+        "date": "Mon, 24 Aug 2026 10:12:00 +0000",
+        "url": "https://gbhackers.com/evil-twin-malware-campaign/",
         "source": "GBHackers",
-        "summary": "A newly disclosed prompt-injection technique could turn a routine request to summarize a webpage in xAI’s Grok web chat into a silent data-exfiltration attack, potentially exposing a user’s name, appr",
+        "summary": "Open VSX has removed three extension identifiers from its malicious-extension list after the legitimate projects they impersonated began reclaiming their names. The move restores publishing access for",
         "cve": []
     },
     {
-        "title": "768 Leaked AWS Keys Still Active With Full Admin Access to Corporate Accounts",
-        "date": "Sat, 22 Aug 2026 07:16:08 +0000",
-        "url": "https://gbhackers.com/768-leaked-aws-keys-still-active-with-full-admin/",
+        "title": "New SynkLoader Malware Uses Fake Windows Lock Screen to Steal Passwords and Pivot Networks",
+        "date": "Mon, 24 Aug 2026 08:30:35 +0000",
+        "url": "https://gbhackers.com/new-synkloader-malware/",
         "source": "GBHackers",
-        "summary": "A large-scale investigation has uncovered 768 publicly exposed AWS access keys that remain active and grant full administrative privileges to corporate cloud environments, posing a serious risk of acc",
+        "summary": "SynkLoader, a newly identified modular malware framework that combines Python, C#, C++, PowerShell, and memory-resident payloads to evade endpoint detection. Delivered through Microsoft Teams phishing",
         "cve": []
     },
     {
-        "title": "US Bank Investigates Alleged Data Breach After LockBit Ransomware Extortion Claim",
-        "date": "Fri, 21 Aug 2026 13:08:51 +0000",
-        "url": "https://gbhackers.com/us-bank-investigates-alleged-data-breach/",
+        "title": "New macOS Malware Clones Your Logged-In Browser and Gives Hackers Remote Control.",
+        "date": "Mon, 24 Aug 2026 07:50:05 +0000",
+        "url": "https://gbhackers.com/logged-in-session-theft/",
         "source": "GBHackers",
-        "summary": "US Bank is currently investigating claims made by the LockBit ransomware group, which alleges that it breached the bank and stole sensitive data. The group has set a deadline of September 3 for the ba",
+        "summary": "AmnesiaStealer, a multi-stage macOS infostealer written in Rust that moves beyond conventional credential theft by giving attackers covert, interactive control over a victim’s authenticated Chromium b",
         "cve": []
     },
     {
-        "title": "Deepfake Ads Funnel Investors Into WhatsApp Groups Controlled by Fake Financial Analysts",
-        "date": "Fri, 21 Aug 2026 13:06:34 +0000",
-        "url": "https://gbhackers.com/deepfake-investment-scam/",
+        "title": "Windows 11 Update Triggers Game Crashes on Systems With RGB Lighting Drivers",
+        "date": "Mon, 24 Aug 2026 07:33:07 +0000",
+        "url": "https://gbhackers.com/windows-11-update-triggers-game-crashes/",
         "source": "GBHackers",
-        "summary": "Investment fraud is increasingly exploiting the one action banks struggle most to block: a payment the customer actively wants to make. Deepfake advertisements, impersonated financial experts, and coo",
+        "summary": "Microsoft is currently investigating a compatibility issue with Windows 11, in which certain games crash, freeze, or cause unexpected system restarts on devices equipped with RGB lighting hardware and",
         "cve": []
     },
     {
-        "title": "UAT-10147 Compromises Web Servers to Deploy BadIIS for SEO Fraud and Data Theft",
-        "date": "Fri, 21 Aug 2026 11:30:16 +0000",
-        "url": "https://gbhackers.com/uat-10147-compromises-web-servers/",
+        "title": "Critical WordPress Pods Flaw Lets Unauthenticated Attackers Gain Admin Access",
+        "date": "Mon, 24 Aug 2026 07:22:41 +0000",
+        "url": "https://gbhackers.com/critical-wordpress-pods-flaw/",
         "source": "GBHackers",
-        "summary": "A Chinese-speaking cybercrime group, tracked as UAT-10147, targeting vulnerable Windows and Linux web servers worldwide to deploy BadIIS malware, steal data, and manipulate search engine results for f",
+        "summary": "A critical vulnerability has been identified in the widely used Pods WordPress plugin, which could allow unauthenticated attackers to take complete control of affected websites by escalating privilege",
         "cve": []
     },
     {
-        "title": "Critical N-Able PassPortal Extension Flaw Gives Attackers Full Password Vault Access",
-        "date": "Fri, 21 Aug 2026 11:23:51 +0000",
-        "url": "https://gbhackers.com/critical-n-able-passportal-extension-flaw/",
+        "title": "AWS Network Firewall Adds Rule Hit Counts to Identify Unused Security Rules",
+        "date": "Mon, 24 Aug 2026 07:15:34 +0000",
+        "url": "https://gbhackers.com/aws-network-firewall-adds-rule-hit-counts/",
         "source": "GBHackers",
-        "summary": "Cybersecurity researchers have revealed a critical vulnerability in N-able’s PassPortal browser extension that could have allowed a malicious website or embedded iframe to obtain authentication materi",
+        "summary": "AWS has introduced a new capability for AWS Network Firewall that tracks rule hit counts, providing security teams with direct visibility into how often individual stateful firewall rules match live n",
         "cve": []
     },
     {
-        "title": "OpenAI Frontier Models Get Zero Data Retention With Private Safety Processing",
-        "date": "Fri, 21 Aug 2026 11:07:22 +0000",
-        "url": "https://gbhackers.com/openai-frontier-models-get-zero-data-retention/",
+        "title": "macOS ClickFix Crimekit Uses Polygon Smart Contracts to Deploy AMOS Stealer and XMRig Miner",
+        "date": "Mon, 24 Aug 2026 07:03:24 +0000",
+        "url": "https://gbhackers.com/crimekit-uses-polygon-smart-contracts/",
         "source": "GBHackers",
-        "summary": "OpenAI has reaffirmed its commitment to Zero Data Retention (ZDR) for eligible API customers using frontier models while introducing the new Private Safety Processing. This safety architecture is desi",
+        "summary": "A macOS-focused ClickFix campaign is abusing Polygon smart contracts to conceal its live command-and-control infrastructure while deploying an Atomic macOS Stealer (AMOS) variant, a persistent backdoo",
         "cve": []
     },
     {
-        "title": "Hackers Hide Agent Tesla Malware Behind Emojis to Steal Browser and Email Passwords",
-        "date": "Fri, 21 Aug 2026 10:27:17 +0000",
-        "url": "https://gbhackers.com/agent-tesla-malware/",
+        "title": "First Android Malware Targeting Car Head Units Uses Firmware Updates to Build Proxy Botnet",
+        "date": "Mon, 24 Aug 2026 06:11:10 +0000",
+        "url": "https://gbhackers.com/android-malware-campaign/",
         "source": "GBHackers",
-        "summary": "A business email compromise campaign is using emoji-filled JScript to conceal an Agent Tesla v4 infostealer designed to steal browser, email, and messaging credentials. The operation pairs a convincin",
+        "summary": "A multi-stage Android malware campaign that abuses the firmware-update mechanism of Android-based automotive head units to deploy ad-fraud tooling and enroll vehicles into a residential proxy botnet. ",
         "cve": []
     }
 ]
