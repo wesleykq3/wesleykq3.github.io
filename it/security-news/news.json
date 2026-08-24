@@ -1,5 +1,13 @@
 [
     {
+        "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+        "date": "Sun, 23 Aug 2026 10:23:46 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+        "source": "BleepingComputer",
+        "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+        "cve": []
+    },
+    {
         "title": "Hackers infect Android car head units with proxy botnet malware",
         "date": "Sat, 22 Aug 2026 10:14:24 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
         "source": "BleepingComputer",
         "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-        "date": "Fri, 21 Aug 2026 07:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-        "source": "BleepingComputer",
-        "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
         "cve": []
     },
     {
@@ -162,6 +162,30 @@
         "cve": []
     },
     {
+        "title": "Iran-Linked Hackers Force UK Power Plant Offline in Unprecedented Four-Day Cyberattack",
+        "date": "Sun, 23 Aug 2026 17:21:38 +0000",
+        "url": "https://cybersecuritynews.com/hackers-force-uk-power-plant-offline/",
+        "source": "CyberSecurityNews",
+        "summary": "A cyberattack attributed to hackers linked to Iran forced a British power plant offline for four consecutive days last month, marking what officials describe as the first successful attack of its kind",
+        "cve": []
+    },
+    {
+        "title": "Weekly Cyber Security Newsletter Bulletin – Entra ID RCE, Claude Code Ransomware, T-Mobile Cable, Azure Credential Theft +20 Stories",
+        "date": "Sun, 23 Aug 2026 16:45:52 +0000",
+        "url": "https://cybersecuritynews.com/cyber-security-newsletter-bulletin-august/",
+        "source": "CyberSecurityNews",
+        "summary": "This week&#8217;s bulletin captures a cybersecurity landscape increasingly shaped by artificial intelligence, both as a weapon and a shield. A ransomware affiliate weaponized Claude Code to autonomous",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Windows 11 App Pushes Bing as Default Search in Chrome, Firefox and Brave",
+        "date": "Sun, 23 Aug 2026 13:24:54 +0000",
+        "url": "https://cybersecuritynews.com/windows-11-default-search-app/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has built a dedicated Windows 11 app that exists to put Bing in front of users who already chose another search engine. The utility, Microsoft Recommended Search Settings, arrives as a stand",
+        "cve": []
+    },
+    {
         "title": "Top 10 Best Wireless / Wi-Fi Security Solutions in 2026",
         "date": "Sat, 22 Aug 2026 09:31:33 +0000",
         "url": "https://cybersecuritynews.com/best-wireless-wifi-security-solutions/",
@@ -215,30 +239,6 @@
         "url": "https://cybersecuritynews.com/scammers-use-whatsapp-groups/",
         "source": "CyberSecurityNews",
         "summary": "Scammers are using WhatsApp groups to turn ordinary investors into an unwitting buying force. The operation does not need a hacked trading account or a stolen card. Instead, it persuades people to pla",
-        "cve": []
-    },
-    {
-        "title": "Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks",
-        "date": "Fri, 21 Aug 2026 14:41:55 +0000",
-        "url": "https://cybersecuritynews.com/chinese-hackers-use-ai-agents/",
-        "source": "CyberSecurityNews",
-        "summary": "A Chinese-speaking cybercrime group is using AI-assisted tools to turn vulnerable web servers into entry points. It shows how familiar flaws become more dangerous when attackers automate the work arou",
-        "cve": []
-    },
-    {
-        "title": "Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection",
-        "date": "Fri, 21 Aug 2026 14:14:20 +0000",
-        "url": "https://cybersecuritynews.com/hackers-hide-agent-tesla/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are using Unicode emoji characters to hide an Agent Tesla JScript dropper in a business email compromise campaign aimed at finance teams. The tactic turns a payment-related attachment into a d",
-        "cve": []
-    },
-    {
-        "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
-        "date": "Fri, 21 Aug 2026 13:26:20 +0000",
-        "url": "https://cybersecuritynews.com/claude-opus-5-routes/",
-        "source": "CyberSecurityNews",
-        "summary": "Claude Opus 5 did not crack hardened binaries in a reverse-engineering experiment. Instead, it sought easier ways to recover hidden information, showing AI-assisted analysis can be capable yet unrelia",
         "cve": []
     },
     {
