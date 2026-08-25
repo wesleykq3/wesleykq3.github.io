@@ -1,5 +1,21 @@
 [
     {
+        "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+        "date": "Tue, 25 Aug 2026 08:04:02 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
+        "cve": []
+    },
+    {
+        "title": "Police arrests dozens of suspects in global cybercrime crackdown",
+        "date": "Tue, 25 Aug 2026 06:53:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
+        "source": "BleepingComputer",
+        "summary": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
+        "cve": []
+    },
+    {
         "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
         "date": "Mon, 24 Aug 2026 17:14:30 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
@@ -64,19 +80,19 @@
         "cve": []
     },
     {
-        "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
-        "date": "Mon, 24 Aug 2026 05:42:05 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
+        "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+        "date": "Tue, 25 Aug 2026 14:04:07 +0530",
+        "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+        "source": "The Hacker News",
+        "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as an",
         "cve": []
     },
     {
-        "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-        "date": "Sun, 23 Aug 2026 10:23:46 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-        "source": "BleepingComputer",
-        "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+        "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+        "date": "Tue, 25 Aug 2026 11:42:35 +0530",
+        "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnera",
         "cve": []
     },
     {
@@ -144,19 +160,83 @@
         "cve": []
     },
     {
-        "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-        "date": "Sat, 22 Aug 2026 20:02:41 +0530",
-        "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country.",
+        "title": "Hackers Abuse Google Sites to Host Fake OpenAI Codex Download Pages",
+        "date": "Tue, 25 Aug 2026 11:12:26 +0000",
+        "url": "https://cybersecuritynews.com/hackers-abuse-google-sites/",
+        "source": "CyberSecurityNews",
+        "summary": "Cybercriminals are using Google Sites to host fake download pages for OpenAI Codex, turning a familiar search into a malware trap. The campaign targets macOS users and relies on paid search placements",
         "cve": []
     },
     {
-        "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-        "date": "Sat, 22 Aug 2026 00:23:00 +0530",
-        "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence ",
+        "title": "EvilTokens Doesn’t Just Steal Microsoft Sessions—Its AI Tells Attackers Who to Scam Next",
+        "date": "Tue, 25 Aug 2026 09:59:35 +0000",
+        "url": "https://cybersecuritynews.com/eviltokens-steal-microsoft-sessions/",
+        "source": "CyberSecurityNews",
+        "summary": "EvilTokens is pushing phishing beyond the moment a victim clicks a link. The service steals Microsoft 365 session access, then examines the compromised mailbox to help criminals choose the contacts, p",
+        "cve": []
+    },
+    {
+        "title": "CISA Warns of Oracle HTTP and WebLogic Server Vulnerability Exploited in Attacks",
+        "date": "Tue, 25 Aug 2026 09:38:59 +0000",
+        "url": "https://cybersecuritynews.com/oracle-http-and-weblogic-server-vulnerability-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has added CVE-2026-21962, an improper access control flaw affecting Oracle HTTP Server and the Oracle WebLogic Server Proxy Plug-in, to its Kn",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit Critical miniOrange SAML SSO Flaws to Hijack WordPress Admin Accounts",
+        "date": "Tue, 25 Aug 2026 09:26:52 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploit-critical-miniorange-saml-sso-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Two critical flaws in the miniOrange SAML 2.0 Single Sign-On plugin could allow unauthenticated attackers to log in to vulnerable WordPress sites as any existing user, including administrators. The fl",
+        "cve": []
+    },
+    {
+        "title": "Critical Red Hat Keycloak Flaw Lets Unauthenticated Attackers Take Over Any User Account",
+        "date": "Tue, 25 Aug 2026 09:12:19 +0000",
+        "url": "https://cybersecuritynews.com/red-hat-keycloak-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "Red Hat has disclosed a critical vulnerability in the Red Hat Build of Keycloak that could allow unauthenticated remote attackers to take over arbitrary user accounts. Tracked as CVE-2026-18963, the f",
+        "cve": []
+    },
+    {
+        "title": "Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions",
+        "date": "Tue, 25 Aug 2026 08:20:35 +0000",
+        "url": "https://cybersecuritynews.com/fake-gta-6-demo/",
+        "source": "CyberSecurityNews",
+        "summary": "A fake Grand Theft Auto VI demo is being used to steal passwords and active browser sessions from people looking for early access. The campaign turns excitement around game footage and a forthcoming o",
+        "cve": []
+    },
+    {
+        "title": "Anthropic Rolls Out Enterprise-Managed Auth for Claude’s MCP Connectors",
+        "date": "Tue, 25 Aug 2026 07:13:33 +0000",
+        "url": "https://cybersecuritynews.com/anthropic-enterprise-managed-mcp-connectors/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic has taken its Model Context Protocol (MCP) connector framework a significant step further, announcing on August 24, 2026, that Enterprise-managed authorization is now generally available. Th",
+        "cve": []
+    },
+    {
+        "title": "Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",
+        "date": "Tue, 25 Aug 2026 07:05:46 +0000",
+        "url": "https://cybersecuritynews.com/google-results-minecraft-client/",
+        "source": "CyberSecurityNews",
+        "summary": "Minecraft players searching for a popular client can now land on malware instead of a game tool. A renewed WeedHack campaign is using poisoned search results, copied websites and free-download lures t",
+        "cve": []
+    },
+    {
+        "title": "Multiple TP-Link Archer Vulnerabilities Enable Command Injection Attacks",
+        "date": "Tue, 25 Aug 2026 06:15:54 +0000",
+        "url": "https://cybersecuritynews.com/tp-link-archer-command-injection-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "TP-Link has disclosed three high-severity command injection vulnerabilities affecting Archer BE800 V1, Archer BE3600 V1, and Archer AX75 V1 routers. The flaws could allow nearby attackers to run arbit",
+        "cve": []
+    },
+    {
+        "title": "Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect VPN",
+        "date": "Tue, 25 Aug 2026 01:54:08 +0000",
+        "url": "https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/",
+        "source": "CyberSecurityNews",
+        "summary": "A security researcher has disclosed five vulnerabilities that he responsibly reported to Palo Alto Networks, affecting GlobalProtect, the VPN and endpoint agent used across thousands of enterprise net",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Linux ath11k Driver Improvements For Qualcomm WiFi 6 Hardware Yields 7x Lower Latency",
-        "date": "Mon, 24 Aug 2026 15:29:27 -0400",
-        "url": "https://www.phoronix.com/news/ath11k-7x-Lower-Latency",
-        "source": "Phoronix",
-        "summary": "A patch series being worked on for the ath11k mainline wireless networking driver for Qualcomm WiFi 6 / 802.11ax chipsets is yielding 7x lower latency or 2.2x throughput at identical latency...",
+        "title": "Scammers Impersonate Microsoft to Push Fake Security Scans and Refund Fraud",
+        "date": "Tue, 25 Aug 2026 11:57:02 +0000",
+        "url": "https://gbhackers.com/scammers-impersonate-microsoft-to-push-fake-security-scans-and-refund-fraud/",
+        "source": "GBHackers",
+        "summary": "A cluster of fraudulent websites impersonating Microsoft is using fake “security scans” to pressure victims into uninstalling antivirus products, disclosing personal and banking information, and grant",
         "cve": []
     },
     {
-        "title": "New AF_ALG Restrictions With Linux 7.3 Due To The Security & Maintenance Nightmare",
-        "date": "Mon, 24 Aug 2026 14:17:25 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-AF-ALG-Restrictions",
-        "source": "Phoronix",
-        "summary": "The past few Linux kernel cycles have chipped away at AF_ALG functionality for that interface for user-space programs to access the kernel's internal cryptography API.  Linux has been dropping AF_ALG ",
+        "title": "ASOS Warns Customers of Data Breach Following Credential-Based Account Takeovers",
+        "date": "Tue, 25 Aug 2026 11:27:12 +0000",
+        "url": "https://gbhackers.com/asos-warns-customers-of-data-breach/",
+        "source": "GBHackers",
+        "summary": "ASOS has started notifying affected customers in the U.S. after detecting unauthorized access to accounts linked to login credentials obtained from outside its systems. According to a breach notificat",
         "cve": []
     },
     {
-        "title": "Mozilla Presents Their Plan For Shipping JPEG-XL In Firefox 157",
-        "date": "Mon, 24 Aug 2026 12:43:51 -0400",
-        "url": "https://www.phoronix.com/news/Firefox-JPEG-XL-2026-Plans",
-        "source": "Phoronix",
-        "summary": "While Firefox 152+ already offers experimental JPEG-XL support,  Mozilla formally announced today their plans for officially shipping JPEG-XL image format support in the Firefox web browser...",
+        "title": "Multiple Zscaler Client Connector Flaws Enable Remote Code Execution",
+        "date": "Tue, 25 Aug 2026 11:13:03 +0000",
+        "url": "https://gbhackers.com/multiple-zscaler-client-connector-flaws/",
+        "source": "GBHackers",
+        "summary": "Zscaler has addressed several vulnerabilities in its Client Connector endpoint application that could allow an unauthenticated, unprivileged attacker to execute arbitrary code within the product’s con",
         "cve": []
     },
     {
-        "title": "Early Linux 7.3 Kernel Benchmarks Show Some Performance Improvements, Some Regressions",
-        "date": "Mon, 24 Aug 2026 09:38:00 -0400",
-        "url": "https://www.phoronix.com/review/linux-73-early-benchmarks",
-        "source": "Phoronix",
-        "summary": "Being halfway through the Linux 7.3 kernel merge window and prior to wrapping up and sending back the HP Z4 G6i workstation powered by the Xeon 678X Granite Rapids WS processor, I decided to run some ",
+        "title": "91 Spring CVEs Impact Over 209,000 Software Components Across the Supply Chain",
+        "date": "Tue, 25 Aug 2026 10:06:45 +0000",
+        "url": "https://gbhackers.com/91-spring-cves-impact-over-209000-software-components/",
+        "source": "GBHackers",
+        "summary": "Broadcom has disclosed 91 Common Vulnerabilities and Exposures (CVEs) affecting the Spring Framework and related projects, triggering a software supply chain remediation event that Sonatype estimates ",
         "cve": []
     },
     {
-        "title": "GNU Emacs 31.1 Released With Mouse Control Enabled By Default, Theme For New Users",
-        "date": "Mon, 24 Aug 2026 07:55:01 -0400",
-        "url": "https://www.phoronix.com/news/GNU-Emacs-31.1-Released",
-        "source": "Phoronix",
-        "summary": "GNU Emacs 31.1 is out today as the newest feature release to this popular text editor...",
+        "title": "PavinLoader Uses ClickFix and Fake Downloads to Deploy Amatera Stealer via Blockchain C2",
+        "date": "Tue, 25 Aug 2026 09:48:32 +0000",
+        "url": "https://gbhackers.com/pavinloader-uses-clickfix/",
+        "source": "GBHackers",
+        "summary": "PavinLoader, a multi-stage .NET malware loader, operating across ClickFix, fake software-download, and malicious game campaigns. The activity shows how attackers are moving beyond a single delivery ve",
         "cve": []
     },
     {
-        "title": "VKD3D 2.1 Released With New Features For Direct3D 12 In Upstream Wine",
-        "date": "Mon, 24 Aug 2026 06:34:10 -0400",
-        "url": "https://www.phoronix.com/news/VKD3D-2.1-Released",
-        "source": "Phoronix",
-        "summary": "VKD3D 2.1 was released today by CodeWeavers' Henri Verbeet as the upstream Wine project for getting Direct3D 12 implemented over the Vulkan API...",
+        "title": "Anthropic Expands Claude MCP Security With Enterprise-Managed Identity Controls",
+        "date": "Tue, 25 Aug 2026 08:47:48 +0000",
+        "url": "https://gbhackers.com/anthropic-expands-claude-mcp-security-with-enterprise-managed-identity-controls/",
+        "source": "GBHackers",
+        "summary": "Anthropic has expanded Claude Enterprise’s Model Context Protocol (MCP) security capabilities with enterprise-managed authorization, allowing organizations to centrally provision and govern connector ",
         "cve": []
     },
     {
-        "title": "Intel Engineers Propose DRM Fabric For Linux",
-        "date": "Mon, 24 Aug 2026 06:26:22 -0400",
-        "url": "https://www.phoronix.com/news/DRM-Fabric-Proposal",
-        "source": "Phoronix",
-        "summary": "Coincidentally just days after AMD posted their big UALink patch series for Linux, Intel engineers today announced a proposal called DRM Fabric...",
+        "title": "Critical miniOrange SAML SSO Flaws Let Attackers Take Over WordPress Admin Accounts",
+        "date": "Tue, 25 Aug 2026 08:36:37 +0000",
+        "url": "https://gbhackers.com/critical-miniorange-saml-sso-flaws/",
+        "source": "GBHackers",
+        "summary": "Two critical vulnerabilities have been identified in the miniOrange SAML 2.0 Single Sign-On WordPress plugin, which could allow unauthenticated attackers to forge SAML assertions and log in as any exi",
         "cve": []
     },
     {
-        "title": "Linux 7.3 Adds Support For Several Newer RISC-V Extensions",
-        "date": "Mon, 24 Aug 2026 06:12:56 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-RISC-V",
-        "source": "Phoronix",
-        "summary": "With the in-development Linux 7.3 is support for discovering and enumerating support for several newer RISC-V ISA extensions. Plus there are improvements to its control flow integrity Shadow Stack han",
+        "title": "Critical Red Hat Keycloak Password Reset Flaw Enables Unauthenticated Account Takeover",
+        "date": "Tue, 25 Aug 2026 08:23:26 +0000",
+        "url": "https://gbhackers.com/critical-red-hat-keycloak-password-reset-flaw/",
+        "source": "GBHackers",
+        "summary": "Red Hat has disclosed a critical vulnerability in the Red Hat Build of Keycloak that allows an unauthenticated remote attacker to bypass a key safeguard in the password reset process and seize control",
         "cve": []
     },
     {
-        "title": "AMD k10temp Driver Adds EPYC Zen 5 Per-CCD Temperature Monitoring With Linux 7.3",
-        "date": "Mon, 24 Aug 2026 05:56:08 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-HWMON",
-        "source": "Phoronix",
-        "summary": "Merged last week for the Linux 7.3 kernel were all the hardware monitoring (HWMON) driver updates for Linux 7.3, which included supporting several more ASUS desktop motherboards, a few AIO liquid cool",
+        "title": "Hackers Place Fake Codex Download Above Legitimate OpenAI Result to Infect Mac Users",
+        "date": "Tue, 25 Aug 2026 08:20:43 +0000",
+        "url": "https://gbhackers.com/fake-codex-download/",
+        "source": "GBHackers",
+        "summary": "Threat actors are using sponsored Google Search ads to place a fake OpenAI Codex download page above the legitimate result, steering macOS users into manually executing malware through Terminal. The o",
         "cve": []
     },
     {
-        "title": "Linux 7.3 Improving RAID 5/6 Benchmark-Based Algorithm Selection",
-        "date": "Sun, 23 Aug 2026 20:38:25 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-XOR-RAID6-Benchmark",
-        "source": "Phoronix",
-        "summary": "Following the main set of memory management \"MM\" changes submitted for Linux 7.3, Andrew Morton sent in his \"non-MM\" pull request of the other patches he's been collecting from various developers for ",
+        "title": "EvilTokens Abuses Microsoft Device Codes to Hijack Accounts Without Stealing Passwords",
+        "date": "Tue, 25 Aug 2026 06:55:30 +0000",
+        "url": "https://gbhackers.com/microsoft-device-codes-abuse/",
+        "source": "GBHackers",
+        "summary": "EvilTokens is pushing phishing-as-a-service beyond credential theft by abusing Microsoft’s device authorization flow to obtain valid Microsoft 365 tokens. Victims can complete a legitimate Microsoft s",
         "cve": []
     }
 ]
