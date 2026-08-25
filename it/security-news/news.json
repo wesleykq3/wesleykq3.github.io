@@ -1,5 +1,61 @@
 [
     {
+        "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+        "date": "Mon, 24 Aug 2026 17:14:30 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+        "source": "BleepingComputer",
+        "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can e",
+        "cve": []
+    },
+    {
+        "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+        "date": "Mon, 24 Aug 2026 15:26:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in ",
+        "cve": []
+    },
+    {
+        "title": "TikTok reaches $400M settlement with US over COPPA violations",
+        "date": "Mon, 24 Aug 2026 13:56:24 -0400",
+        "url": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (CO",
+        "cve": []
+    },
+    {
+        "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+        "date": "Mon, 24 Aug 2026 11:17:16 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+        "source": "BleepingComputer",
+        "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams now lets admins block external bots from meetings",
+        "date": "Mon, 24 Aug 2026 10:00:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
+        "cve": []
+    },
+    {
+        "title": "South Korean startup platform breach exposes key management failures",
+        "date": "Mon, 24 Aug 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
+        "source": "BleepingComputer",
+        "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securel",
+        "cve": []
+    },
+    {
+        "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+        "date": "Mon, 24 Aug 2026 08:40:21 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
+        "cve": []
+    },
+    {
         "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
         "date": "Mon, 24 Aug 2026 06:45:12 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
@@ -24,67 +80,35 @@
         "cve": []
     },
     {
-        "title": "Hackers infect Android car head units with proxy botnet malware",
-        "date": "Sat, 22 Aug 2026 10:14:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-        "source": "BleepingComputer",
-        "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [..",
-        "cve": []
-    },
-    {
-        "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-        "date": "Sat, 22 Aug 2026 09:00:09 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-        "source": "BleepingComputer",
-        "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command au",
-        "cve": []
-    },
-    {
-        "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-        "date": "Fri, 21 Aug 2026 14:01:30 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
-        "source": "BleepingComputer",
-        "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-        "date": "Fri, 21 Aug 2026 11:55:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-        "source": "BleepingComputer",
-        "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
-        "date": "Fri, 21 Aug 2026 10:54:49 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
-        "cve": []
-    },
-    {
-        "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-        "date": "Fri, 21 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-        "source": "BleepingComputer",
-        "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
-        "date": "Fri, 21 Aug 2026 09:39:35 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
-        "cve": []
-    },
-    {
         "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-        "date": "Mon, 24 Aug 2026 17:28:00 +0530",
+        "date": "Mon, 24 Aug 2026 23:11:30 +0530",
         "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
         "source": "The Hacker News",
         "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI c",
+        "cve": []
+    },
+    {
+        "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
+        "date": "Mon, 24 Aug 2026 23:11:11 +0530",
+        "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.\n\nMcAfee Labs said it detec",
+        "cve": []
+    },
+    {
+        "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+        "date": "Mon, 24 Aug 2026 20:02:10 +0530",
+        "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+        "source": "The Hacker News",
+        "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.\n\nThat’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh ",
+        "cve": []
+    },
+    {
+        "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+        "date": "Mon, 24 Aug 2026 18:05:36 +0530",
+        "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.\n\nAccording",
         "cve": []
     },
     {
@@ -133,110 +157,6 @@
         "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
         "source": "The Hacker News",
         "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-        "date": "Fri, 21 Aug 2026 21:22:10 +0530",
-        "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-        "source": "The Hacker News",
-        "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Win",
-        "cve": []
-    },
-    {
-        "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-        "date": "Fri, 21 Aug 2026 21:11:44 +0530",
-        "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun.\n\nKaspersky, which discovered the threat ",
-        "cve": []
-    },
-    {
-        "title": "Wazuh and AI For Enhanced SOC Workflows",
-        "date": "Fri, 21 Aug 2026 16:51:39 +0530",
-        "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
-        "source": "The Hacker News",
-        "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repeti",
-        "cve": []
-    },
-    {
-        "title": "Microsoft August 2026 Windows Updates Trigger Issues on Devices Using RGB Lighting Features",
-        "date": "Mon, 24 Aug 2026 11:33:47 +0000",
-        "url": "https://cybersecuritynews.com/windows-updates-triggers-rgb-lighting-issues/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft is investigating a Windows 11 issue in which the August 2026 security updates can cause certain games to freeze, crash, display access-violation errors, or restart affected PCs. The problem ",
-        "cve": []
-    },
-    {
-        "title": "AmnesiaStealer Gives Hackers Hidden Control of Logged-In Browsers on Macs",
-        "date": "Mon, 24 Aug 2026 11:15:30 +0000",
-        "url": "https://cybersecuritynews.com/amnesiastealer-hidden-control/",
-        "source": "CyberSecurityNews",
-        "summary": "AmnesiaStealer is a newly identified macOS information stealer that does more than copy saved passwords. It can give criminals quiet control of a browser that is already signed in, turning an infected",
-        "cve": []
-    },
-    {
-        "title": "Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto",
-        "date": "Mon, 24 Aug 2026 09:49:32 +0000",
-        "url": "https://cybersecuritynews.com/fake-captcha-tricks-mac-users/",
-        "source": "CyberSecurityNews",
-        "summary": "Mac users are being lured into a ClickFix campaign that turns a routine CAPTCHA check into a path for password theft, remote control, and cryptocurrency mining. It persuades a visitor to run an attack",
-        "cve": []
-    },
-    {
-        "title": "Hugging Face Reportedly Explores $13 Billion Sale Following Recent AI Security Incident",
-        "date": "Mon, 24 Aug 2026 08:10:09 +0000",
-        "url": "https://cybersecuritynews.com/hugging-face-13-billion-sale/",
-        "source": "CyberSecurityNews",
-        "summary": "Hugging Face is testing a sale that could value the open-source AI hub at $13 billion or more, even as it is still closing out July’s autonomous-agent intrusion. People familiar with the process said ",
-        "cve": []
-    },
-    {
-        "title": "Anthropic’s Claude AI Suffers Another Outage With Elevated Errors",
-        "date": "Mon, 24 Aug 2026 08:01:43 +0000",
-        "url": "https://cybersecuritynews.com/claude-ai-suffers-outage/",
-        "source": "CyberSecurityNews",
-        "summary": "Anthropic&#8217;s Claude AI platform experienced another wave of elevated errors on August 24, 2026, marking yet another disruption in what has become a troubling pattern of instability for one of the",
-        "cve": []
-    },
-    {
-        "title": "Hackers Infect Android Car Screens Through Their Built-In Software Update System",
-        "date": "Mon, 24 Aug 2026 07:30:28 +0000",
-        "url": "https://cybersecuritynews.com/hackers-infect-android-car-screens/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly uncovered Android malware campaign has turned car infotainment screens into an unexpected target. Rather than tricking drivers into installing a suspicious app, attackers used the software upd",
-        "cve": []
-    },
-    {
-        "title": "AWS Network Firewall Now Displays Count of Triggered Security Rules",
-        "date": "Mon, 24 Aug 2026 06:27:33 +0000",
-        "url": "https://cybersecuritynews.com/aws-network-firewall-hit-counts/",
-        "source": "CyberSecurityNews",
-        "summary": "AWS has introduced rule hit count support for AWS Network Firewall, giving security teams direct visibility into which stateful firewall rules are matching live network traffic. The new capability is ",
-        "cve": []
-    },
-    {
-        "title": "Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks",
-        "date": "Mon, 24 Aug 2026 06:09:19 +0000",
-        "url": "https://cybersecuritynews.com/malicious-npm-packages/",
-        "source": "CyberSecurityNews",
-        "summary": "Malicious npm packages are being used to place a Linux backdoor inside calendar and streak-calculation tools. The packages deliver legitimate date functions, making the malicious code easy to miss. Th",
-        "cve": []
-    },
-    {
-        "title": "Critical isolated-vm Flaw Lets Untrusted JavaScript Escape Sandbox and Hijack Host Execution",
-        "date": "Mon, 24 Aug 2026 05:57:44 +0000",
-        "url": "https://cybersecuritynews.com/critical-isolated-vm-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical security flaw in the popular Node.js sandboxing library isolated-vm could allow untrusted JavaScript to escape its V8 sandbox and potentially hijack execution in the host process. The issue",
-        "cve": []
-    },
-    {
-        "title": "Cybermes – AI Red Teaming Agent for Automated Penetration Testing",
-        "date": "Mon, 24 Aug 2026 05:39:11 +0000",
-        "url": "https://cybersecuritynews.com/cybermes-ai-red-teaming-agent/",
-        "source": "CyberSecurityNews",
-        "summary": "A new open-source project called Cybermes has entered the crowded field of AI-powered offensive security tooling, positioning itself as an enterprise-grade autonomous agent capable of running full pen",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Mysterious Ox Alpha Stealth AI Model Emerges for Coding and Agentic Work",
-        "date": "Mon, 24 Aug 2026 12:15:04 +0000",
-        "url": "https://gbhackers.com/mysterious-ox-alpha-stealth-ai-model/",
-        "source": "GBHackers",
-        "summary": "A newly discovered AI system called Ox Alpha has emerged on OpenRouter, sparking widespread speculation within the AI community regarding its origin, technical capabilities, and potential connections ",
+        "title": "Linux ath11k Driver Improvements For Qualcomm WiFi 6 Hardware Yields 7x Lower Latency",
+        "date": "Mon, 24 Aug 2026 15:29:27 -0400",
+        "url": "https://www.phoronix.com/news/ath11k-7x-Lower-Latency",
+        "source": "Phoronix",
+        "summary": "A patch series being worked on for the ath11k mainline wireless networking driver for Qualcomm WiFi 6 / 802.11ax chipsets is yielding 7x lower latency or 2.2x throughput at identical latency...",
         "cve": []
     },
     {
-        "title": "Zimbra Collaboration Suite Flaw Actively Exploited to Execute Arbitrary Commands",
-        "date": "Mon, 24 Aug 2026 11:24:55 +0000",
-        "url": "https://gbhackers.com/zimbra-collaboration-suite-flaw/",
-        "source": "GBHackers",
-        "summary": "Threat actors are actively exploiting a critical operating system command injection vulnerability in Zimbra Collaboration Suite, identified as CVE-2026-73570. This vulnerability allows unauthenticated",
+        "title": "New AF_ALG Restrictions With Linux 7.3 Due To The Security & Maintenance Nightmare",
+        "date": "Mon, 24 Aug 2026 14:17:25 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-AF-ALG-Restrictions",
+        "source": "Phoronix",
+        "summary": "The past few Linux kernel cycles have chipped away at AF_ALG functionality for that interface for user-space programs to access the kernel's internal cryptography API.  Linux has been dropping AF_ALG ",
         "cve": []
     },
     {
-        "title": "Open VSX Unblocks 3 IDs Used in 77-Extension Evil-Twin Malware Campaign",
-        "date": "Mon, 24 Aug 2026 10:12:00 +0000",
-        "url": "https://gbhackers.com/evil-twin-malware-campaign/",
-        "source": "GBHackers",
-        "summary": "Open VSX has removed three extension identifiers from its malicious-extension list after the legitimate projects they impersonated began reclaiming their names. The move restores publishing access for",
+        "title": "Mozilla Presents Their Plan For Shipping JPEG-XL In Firefox 157",
+        "date": "Mon, 24 Aug 2026 12:43:51 -0400",
+        "url": "https://www.phoronix.com/news/Firefox-JPEG-XL-2026-Plans",
+        "source": "Phoronix",
+        "summary": "While Firefox 152+ already offers experimental JPEG-XL support,  Mozilla formally announced today their plans for officially shipping JPEG-XL image format support in the Firefox web browser...",
         "cve": []
     },
     {
-        "title": "New SynkLoader Malware Uses Fake Windows Lock Screen to Steal Passwords and Pivot Networks",
-        "date": "Mon, 24 Aug 2026 08:30:35 +0000",
-        "url": "https://gbhackers.com/new-synkloader-malware/",
-        "source": "GBHackers",
-        "summary": "SynkLoader, a newly identified modular malware framework that combines Python, C#, C++, PowerShell, and memory-resident payloads to evade endpoint detection. Delivered through Microsoft Teams phishing",
+        "title": "Early Linux 7.3 Kernel Benchmarks Show Some Performance Improvements, Some Regressions",
+        "date": "Mon, 24 Aug 2026 09:38:00 -0400",
+        "url": "https://www.phoronix.com/review/linux-73-early-benchmarks",
+        "source": "Phoronix",
+        "summary": "Being halfway through the Linux 7.3 kernel merge window and prior to wrapping up and sending back the HP Z4 G6i workstation powered by the Xeon 678X Granite Rapids WS processor, I decided to run some ",
         "cve": []
     },
     {
-        "title": "New macOS Malware Clones Your Logged-In Browser and Gives Hackers Remote Control.",
-        "date": "Mon, 24 Aug 2026 07:50:05 +0000",
-        "url": "https://gbhackers.com/logged-in-session-theft/",
-        "source": "GBHackers",
-        "summary": "AmnesiaStealer, a multi-stage macOS infostealer written in Rust that moves beyond conventional credential theft by giving attackers covert, interactive control over a victim’s authenticated Chromium b",
+        "title": "GNU Emacs 31.1 Released With Mouse Control Enabled By Default, Theme For New Users",
+        "date": "Mon, 24 Aug 2026 07:55:01 -0400",
+        "url": "https://www.phoronix.com/news/GNU-Emacs-31.1-Released",
+        "source": "Phoronix",
+        "summary": "GNU Emacs 31.1 is out today as the newest feature release to this popular text editor...",
         "cve": []
     },
     {
-        "title": "Windows 11 Update Triggers Game Crashes on Systems With RGB Lighting Drivers",
-        "date": "Mon, 24 Aug 2026 07:33:07 +0000",
-        "url": "https://gbhackers.com/windows-11-update-triggers-game-crashes/",
-        "source": "GBHackers",
-        "summary": "Microsoft is currently investigating a compatibility issue with Windows 11, in which certain games crash, freeze, or cause unexpected system restarts on devices equipped with RGB lighting hardware and",
+        "title": "VKD3D 2.1 Released With New Features For Direct3D 12 In Upstream Wine",
+        "date": "Mon, 24 Aug 2026 06:34:10 -0400",
+        "url": "https://www.phoronix.com/news/VKD3D-2.1-Released",
+        "source": "Phoronix",
+        "summary": "VKD3D 2.1 was released today by CodeWeavers' Henri Verbeet as the upstream Wine project for getting Direct3D 12 implemented over the Vulkan API...",
         "cve": []
     },
     {
-        "title": "Critical WordPress Pods Flaw Lets Unauthenticated Attackers Gain Admin Access",
-        "date": "Mon, 24 Aug 2026 07:22:41 +0000",
-        "url": "https://gbhackers.com/critical-wordpress-pods-flaw/",
-        "source": "GBHackers",
-        "summary": "A critical vulnerability has been identified in the widely used Pods WordPress plugin, which could allow unauthenticated attackers to take complete control of affected websites by escalating privilege",
+        "title": "Intel Engineers Propose DRM Fabric For Linux",
+        "date": "Mon, 24 Aug 2026 06:26:22 -0400",
+        "url": "https://www.phoronix.com/news/DRM-Fabric-Proposal",
+        "source": "Phoronix",
+        "summary": "Coincidentally just days after AMD posted their big UALink patch series for Linux, Intel engineers today announced a proposal called DRM Fabric...",
         "cve": []
     },
     {
-        "title": "AWS Network Firewall Adds Rule Hit Counts to Identify Unused Security Rules",
-        "date": "Mon, 24 Aug 2026 07:15:34 +0000",
-        "url": "https://gbhackers.com/aws-network-firewall-adds-rule-hit-counts/",
-        "source": "GBHackers",
-        "summary": "AWS has introduced a new capability for AWS Network Firewall that tracks rule hit counts, providing security teams with direct visibility into how often individual stateful firewall rules match live n",
+        "title": "Linux 7.3 Adds Support For Several Newer RISC-V Extensions",
+        "date": "Mon, 24 Aug 2026 06:12:56 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-RISC-V",
+        "source": "Phoronix",
+        "summary": "With the in-development Linux 7.3 is support for discovering and enumerating support for several newer RISC-V ISA extensions. Plus there are improvements to its control flow integrity Shadow Stack han",
         "cve": []
     },
     {
-        "title": "macOS ClickFix Crimekit Uses Polygon Smart Contracts to Deploy AMOS Stealer and XMRig Miner",
-        "date": "Mon, 24 Aug 2026 07:03:24 +0000",
-        "url": "https://gbhackers.com/crimekit-uses-polygon-smart-contracts/",
-        "source": "GBHackers",
-        "summary": "A macOS-focused ClickFix campaign is abusing Polygon smart contracts to conceal its live command-and-control infrastructure while deploying an Atomic macOS Stealer (AMOS) variant, a persistent backdoo",
+        "title": "AMD k10temp Driver Adds EPYC Zen 5 Per-CCD Temperature Monitoring With Linux 7.3",
+        "date": "Mon, 24 Aug 2026 05:56:08 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-HWMON",
+        "source": "Phoronix",
+        "summary": "Merged last week for the Linux 7.3 kernel were all the hardware monitoring (HWMON) driver updates for Linux 7.3, which included supporting several more ASUS desktop motherboards, a few AIO liquid cool",
         "cve": []
     },
     {
-        "title": "First Android Malware Targeting Car Head Units Uses Firmware Updates to Build Proxy Botnet",
-        "date": "Mon, 24 Aug 2026 06:11:10 +0000",
-        "url": "https://gbhackers.com/android-malware-campaign/",
-        "source": "GBHackers",
-        "summary": "A multi-stage Android malware campaign that abuses the firmware-update mechanism of Android-based automotive head units to deploy ad-fraud tooling and enroll vehicles into a residential proxy botnet. ",
+        "title": "Linux 7.3 Improving RAID 5/6 Benchmark-Based Algorithm Selection",
+        "date": "Sun, 23 Aug 2026 20:38:25 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-XOR-RAID6-Benchmark",
+        "source": "Phoronix",
+        "summary": "Following the main set of memory management \"MM\" changes submitted for Linux 7.3, Andrew Morton sent in his \"non-MM\" pull request of the other patches he's been collecting from various developers for ",
         "cve": []
     }
 ]
