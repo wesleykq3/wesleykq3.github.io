@@ -1,5 +1,69 @@
 [
     {
+        "title": "LACMA data breach last year exposed social security and medical data",
+        "date": "Tue, 25 Aug 2026 17:58:14 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+        "source": "BleepingComputer",
+        "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+        "date": "Tue, 25 Aug 2026 17:39:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+        "source": "BleepingComputer",
+        "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
+        "cve": []
+    },
+    {
+        "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+        "date": "Tue, 25 Aug 2026 16:25:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+        "source": "BleepingComputer",
+        "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
+        "cve": []
+    },
+    {
+        "title": "Massive DDoS attack disrupts Norway’s government digital services",
+        "date": "Tue, 25 Aug 2026 11:52:36 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+        "source": "BleepingComputer",
+        "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+        "date": "Tue, 25 Aug 2026 10:44:16 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+        "source": "BleepingComputer",
+        "summary": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
+        "cve": []
+    },
+    {
+        "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+        "date": "Tue, 25 Aug 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+        "source": "BleepingComputer",
+        "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizati",
+        "cve": []
+    },
+    {
+        "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
+        "date": "Tue, 25 Aug 2026 09:51:58 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows more quickly. [...]",
+        "cve": []
+    },
+    {
+        "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
+        "date": "Tue, 25 Aug 2026 09:00:00 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+        "source": "BleepingComputer",
+        "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
+        "cve": []
+    },
+    {
         "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
         "date": "Tue, 25 Aug 2026 08:04:02 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
@@ -16,67 +80,67 @@
         "cve": []
     },
     {
-        "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
-        "date": "Mon, 24 Aug 2026 17:14:30 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
-        "source": "BleepingComputer",
-        "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can e",
+        "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+        "date": "Tue, 25 Aug 2026 23:47:17 +0530",
+        "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and it",
         "cve": []
     },
     {
-        "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-        "date": "Mon, 24 Aug 2026 15:26:32 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in ",
+        "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+        "date": "Tue, 25 Aug 2026 19:37:37 +0530",
+        "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+        "source": "The Hacker News",
+        "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden ",
         "cve": []
     },
     {
-        "title": "TikTok reaches $400M settlement with US over COPPA violations",
-        "date": "Mon, 24 Aug 2026 13:56:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (CO",
+        "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
+        "date": "Tue, 25 Aug 2026 18:49:41 +0530",
+        "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+        "source": "The Hacker News",
+        "summary": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accou",
         "cve": []
     },
     {
-        "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-        "date": "Mon, 24 Aug 2026 11:17:16 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-        "source": "BleepingComputer",
-        "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+        "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+        "date": "Tue, 25 Aug 2026 18:13:51 +0530",
+        "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
+        "source": "The Hacker News",
+        "summary": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted noteboo",
         "cve": []
     },
     {
-        "title": "Microsoft Teams now lets admins block external bots from meetings",
-        "date": "Mon, 24 Aug 2026 10:00:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
+        "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+        "date": "Tue, 25 Aug 2026 17:26:15 +0530",
+        "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+        "source": "The Hacker News",
+        "summary": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and",
         "cve": []
     },
     {
-        "title": "South Korean startup platform breach exposes key management failures",
-        "date": "Mon, 24 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
-        "source": "BleepingComputer",
-        "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securel",
+        "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+        "date": "Tue, 25 Aug 2026 17:22:43 +0530",
+        "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages.\n\n\"While ",
         "cve": []
     },
     {
-        "title": "Microsoft: August updates break printing, PDF export in WPF apps",
-        "date": "Mon, 24 Aug 2026 08:40:21 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
+        "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
+        "date": "Tue, 25 Aug 2026 17:03:44 +0530",
+        "url": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4",
         "cve": []
     },
     {
-        "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
-        "date": "Mon, 24 Aug 2026 06:45:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
-        "source": "BleepingComputer",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [..",
+        "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
+        "date": "Tue, 25 Aug 2026 16:44:07 +0530",
+        "url": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
+        "source": "The Hacker News",
+        "summary": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also exi",
         "cve": []
     },
     {
@@ -93,150 +157,6 @@
         "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
         "source": "The Hacker News",
         "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnera",
-        "cve": []
-    },
-    {
-        "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-        "date": "Mon, 24 Aug 2026 23:11:30 +0530",
-        "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
-        "source": "The Hacker News",
-        "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI c",
-        "cve": []
-    },
-    {
-        "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-        "date": "Mon, 24 Aug 2026 23:11:11 +0530",
-        "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.\n\nMcAfee Labs said it detec",
-        "cve": []
-    },
-    {
-        "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-        "date": "Mon, 24 Aug 2026 20:02:10 +0530",
-        "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-        "source": "The Hacker News",
-        "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.\n\nThat’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh ",
-        "cve": []
-    },
-    {
-        "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-        "date": "Mon, 24 Aug 2026 18:05:36 +0530",
-        "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.\n\nAccording",
-        "cve": []
-    },
-    {
-        "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-        "date": "Mon, 24 Aug 2026 17:26:34 +0530",
-        "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-        "source": "The Hacker News",
-        "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker ",
-        "cve": []
-    },
-    {
-        "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
-        "date": "Mon, 24 Aug 2026 17:21:36 +0530",
-        "url": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent.\n\nThe campaign, codenamed O",
-        "cve": []
-    },
-    {
-        "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
-        "date": "Mon, 24 Aug 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
-        "source": "The Hacker News",
-        "summary": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is p",
-        "cve": []
-    },
-    {
-        "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-        "date": "Mon, 24 Aug 2026 13:38:31 +0530",
-        "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology",
-        "cve": []
-    },
-    {
-        "title": "Hackers Abuse Google Sites to Host Fake OpenAI Codex Download Pages",
-        "date": "Tue, 25 Aug 2026 11:12:26 +0000",
-        "url": "https://cybersecuritynews.com/hackers-abuse-google-sites/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are using Google Sites to host fake download pages for OpenAI Codex, turning a familiar search into a malware trap. The campaign targets macOS users and relies on paid search placements",
-        "cve": []
-    },
-    {
-        "title": "EvilTokens Doesn’t Just Steal Microsoft Sessions—Its AI Tells Attackers Who to Scam Next",
-        "date": "Tue, 25 Aug 2026 09:59:35 +0000",
-        "url": "https://cybersecuritynews.com/eviltokens-steal-microsoft-sessions/",
-        "source": "CyberSecurityNews",
-        "summary": "EvilTokens is pushing phishing beyond the moment a victim clicks a link. The service steals Microsoft 365 session access, then examines the compromised mailbox to help criminals choose the contacts, p",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns of Oracle HTTP and WebLogic Server Vulnerability Exploited in Attacks",
-        "date": "Tue, 25 Aug 2026 09:38:59 +0000",
-        "url": "https://cybersecuritynews.com/oracle-http-and-weblogic-server-vulnerability-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has added CVE-2026-21962, an improper access control flaw affecting Oracle HTTP Server and the Oracle WebLogic Server Proxy Plug-in, to its Kn",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit Critical miniOrange SAML SSO Flaws to Hijack WordPress Admin Accounts",
-        "date": "Tue, 25 Aug 2026 09:26:52 +0000",
-        "url": "https://cybersecuritynews.com/hackers-exploit-critical-miniorange-saml-sso-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "Two critical flaws in the miniOrange SAML 2.0 Single Sign-On plugin could allow unauthenticated attackers to log in to vulnerable WordPress sites as any existing user, including administrators. The fl",
-        "cve": []
-    },
-    {
-        "title": "Critical Red Hat Keycloak Flaw Lets Unauthenticated Attackers Take Over Any User Account",
-        "date": "Tue, 25 Aug 2026 09:12:19 +0000",
-        "url": "https://cybersecuritynews.com/red-hat-keycloak-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Red Hat has disclosed a critical vulnerability in the Red Hat Build of Keycloak that could allow unauthenticated remote attackers to take over arbitrary user accounts. Tracked as CVE-2026-18963, the f",
-        "cve": []
-    },
-    {
-        "title": "Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions",
-        "date": "Tue, 25 Aug 2026 08:20:35 +0000",
-        "url": "https://cybersecuritynews.com/fake-gta-6-demo/",
-        "source": "CyberSecurityNews",
-        "summary": "A fake Grand Theft Auto VI demo is being used to steal passwords and active browser sessions from people looking for early access. The campaign turns excitement around game footage and a forthcoming o",
-        "cve": []
-    },
-    {
-        "title": "Anthropic Rolls Out Enterprise-Managed Auth for Claude’s MCP Connectors",
-        "date": "Tue, 25 Aug 2026 07:13:33 +0000",
-        "url": "https://cybersecuritynews.com/anthropic-enterprise-managed-mcp-connectors/",
-        "source": "CyberSecurityNews",
-        "summary": "Anthropic has taken its Model Context Protocol (MCP) connector framework a significant step further, announcing on August 24, 2026, that Enterprise-managed authorization is now generally available. Th",
-        "cve": []
-    },
-    {
-        "title": "Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",
-        "date": "Tue, 25 Aug 2026 07:05:46 +0000",
-        "url": "https://cybersecuritynews.com/google-results-minecraft-client/",
-        "source": "CyberSecurityNews",
-        "summary": "Minecraft players searching for a popular client can now land on malware instead of a game tool. A renewed WeedHack campaign is using poisoned search results, copied websites and free-download lures t",
-        "cve": []
-    },
-    {
-        "title": "Multiple TP-Link Archer Vulnerabilities Enable Command Injection Attacks",
-        "date": "Tue, 25 Aug 2026 06:15:54 +0000",
-        "url": "https://cybersecuritynews.com/tp-link-archer-command-injection-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "TP-Link has disclosed three high-severity command injection vulnerabilities affecting Archer BE800 V1, Archer BE3600 V1, and Archer AX75 V1 routers. The flaws could allow nearby attackers to run arbit",
-        "cve": []
-    },
-    {
-        "title": "Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect VPN",
-        "date": "Tue, 25 Aug 2026 01:54:08 +0000",
-        "url": "https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/",
-        "source": "CyberSecurityNews",
-        "summary": "A security researcher has disclosed five vulnerabilities that he responsibly reported to Palo Alto Networks, affecting GlobalProtect, the VPN and endpoint agent used across thousands of enterprise net",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Scammers Impersonate Microsoft to Push Fake Security Scans and Refund Fraud",
-        "date": "Tue, 25 Aug 2026 11:57:02 +0000",
-        "url": "https://gbhackers.com/scammers-impersonate-microsoft-to-push-fake-security-scans-and-refund-fraud/",
-        "source": "GBHackers",
-        "summary": "A cluster of fraudulent websites impersonating Microsoft is using fake “security scans” to pressure victims into uninstalling antivirus products, disclosing personal and banking information, and grant",
+        "title": "Linux 7.0-mk2 Released For Multi-Kernel Linux With Promising Performance Results",
+        "date": "Tue, 25 Aug 2026 17:30:00 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.0-mk2-Multikernel",
+        "source": "Phoronix",
+        "summary": "Last year a multi-kernel architecture was proposed for the Linux kernel to allow multiple independent kernel instances to co-exist on a single physical machine. Each kernel with \"multikernel\" Linux ca",
         "cve": []
     },
     {
-        "title": "ASOS Warns Customers of Data Breach Following Credential-Based Account Takeovers",
-        "date": "Tue, 25 Aug 2026 11:27:12 +0000",
-        "url": "https://gbhackers.com/asos-warns-customers-of-data-breach/",
-        "source": "GBHackers",
-        "summary": "ASOS has started notifying affected customers in the U.S. after detecting unauthorized access to accounts linked to login credentials obtained from outside its systems. According to a breach notificat",
+        "title": "COSMIC Epoch 1.7 Released: No Longer Slow Browsing Network Filesystems",
+        "date": "Tue, 25 Aug 2026 16:46:55 -0400",
+        "url": "https://www.phoronix.com/news/COSMIC-Epoch-1.7",
+        "source": "Phoronix",
+        "summary": "COSMIC Epoch 1.7 is out today as the newest update to this Rust-based open-source desktop environment with development led by System76...",
         "cve": []
     },
     {
-        "title": "Multiple Zscaler Client Connector Flaws Enable Remote Code Execution",
-        "date": "Tue, 25 Aug 2026 11:13:03 +0000",
-        "url": "https://gbhackers.com/multiple-zscaler-client-connector-flaws/",
-        "source": "GBHackers",
-        "summary": "Zscaler has addressed several vulnerabilities in its Client Connector endpoint application that could allow an unauthenticated, unprivileged attacker to execute arbitrary code within the product’s con",
+        "title": "LLVM/Clang 23.1 Released With AMD Zen 6 & NVIDIA Rigel Support, Partial C++26 Support",
+        "date": "Tue, 25 Aug 2026 15:40:00 -0400",
+        "url": "https://www.phoronix.com/news/LLVM-23.1-Released",
+        "source": "Phoronix",
+        "summary": "LLVM 23.1 was released today on-schedule as the first stable release of the LLVM 23 series as the H2'2026 update to this open-source compiler stack...",
         "cve": []
     },
     {
-        "title": "91 Spring CVEs Impact Over 209,000 Software Components Across the Supply Chain",
-        "date": "Tue, 25 Aug 2026 10:06:45 +0000",
-        "url": "https://gbhackers.com/91-spring-cves-impact-over-209000-software-components/",
-        "source": "GBHackers",
-        "summary": "Broadcom has disclosed 91 Common Vulnerabilities and Exposures (CVEs) affecting the Spring Framework and related projects, triggering a software supply chain remediation event that Sonatype estimates ",
+        "title": "Wayland Found To Be \"Intrinsically Faster Than X11, But Not Necessarily More Efficient\"",
+        "date": "Tue, 25 Aug 2026 13:37:28 -0400",
+        "url": "https://www.phoronix.com/news/Wayland-X11-Performance-PorteuX",
+        "source": "Phoronix",
+        "summary": "The PorteuX Linux distribution focused on being a high performance, modular, and minimalist distro took to forking Xfce's xfwm4 window manager into \"xfwm4-gl\" for OpenGL compositing support. As part o",
         "cve": []
     },
     {
-        "title": "PavinLoader Uses ClickFix and Fake Downloads to Deploy Amatera Stealer via Blockchain C2",
-        "date": "Tue, 25 Aug 2026 09:48:32 +0000",
-        "url": "https://gbhackers.com/pavinloader-uses-clickfix/",
-        "source": "GBHackers",
-        "summary": "PavinLoader, a multi-stage .NET malware loader, operating across ClickFix, fake software-download, and malicious game campaigns. The activity shows how attackers are moving beyond a single delivery ve",
+        "title": "AI/LLM Usage Becoming A \"Denial of Service Attack\" On Open-Source Project Maintainers",
+        "date": "Tue, 25 Aug 2026 12:20:00 -0400",
+        "url": "https://www.phoronix.com/news/AI-DoS-Attack-Maintainers",
+        "source": "Phoronix",
+        "summary": "The latest criticism of the increased burden placed on open-source software project maintainers caused by AI / LLM agents is around too many bug reports effectively causing a \"denial of service\" attac",
         "cve": []
     },
     {
-        "title": "Anthropic Expands Claude MCP Security With Enterprise-Managed Identity Controls",
-        "date": "Tue, 25 Aug 2026 08:47:48 +0000",
-        "url": "https://gbhackers.com/anthropic-expands-claude-mcp-security-with-enterprise-managed-identity-controls/",
-        "source": "GBHackers",
-        "summary": "Anthropic has expanded Claude Enterprise’s Model Context Protocol (MCP) security capabilities with enterprise-managed authorization, allowing organizations to centrally provision and govern connector ",
+        "title": "Benchmarking Some Incredible Performance Gains With Btrfs On Linux 7.3",
+        "date": "Tue, 25 Aug 2026 10:18:32 -0400",
+        "url": "https://www.phoronix.com/review/linux-73-btrfs",
+        "source": "Phoronix",
+        "summary": "With the Btrfs pull request for Linux 7.3 having delivered more performance optimizations with some ~3x and ~5x gains mentioned in specific areas, I was eager to test out the new Btrfs performance on ",
         "cve": []
     },
     {
-        "title": "Critical miniOrange SAML SSO Flaws Let Attackers Take Over WordPress Admin Accounts",
-        "date": "Tue, 25 Aug 2026 08:36:37 +0000",
-        "url": "https://gbhackers.com/critical-miniorange-saml-sso-flaws/",
-        "source": "GBHackers",
-        "summary": "Two critical vulnerabilities have been identified in the miniOrange SAML 2.0 Single Sign-On WordPress plugin, which could allow unauthenticated attackers to forge SAML assertions and log in as any exi",
+        "title": "Apple Launches The M6 2nm 12-core CPU, Quad-Die M5 Ultra",
+        "date": "Tue, 25 Aug 2026 09:30:00 -0400",
+        "url": "https://www.phoronix.com/news/Apple-M6-M5-Ultra",
+        "source": "Phoronix",
+        "summary": "Apple today unveiled the M6 as their first 2nm SoC design while also introducing the M5 Ultra as their first quad-die product...",
         "cve": []
     },
     {
-        "title": "Critical Red Hat Keycloak Password Reset Flaw Enables Unauthenticated Account Takeover",
-        "date": "Tue, 25 Aug 2026 08:23:26 +0000",
-        "url": "https://gbhackers.com/critical-red-hat-keycloak-password-reset-flaw/",
-        "source": "GBHackers",
-        "summary": "Red Hat has disclosed a critical vulnerability in the Red Hat Build of Keycloak that allows an unauthenticated remote attacker to bypass a key safeguard in the password reset process and seize control",
+        "title": "The Modern NTFS Linux Driver Adds Read Support For Windows System Compression (WOF)",
+        "date": "Tue, 25 Aug 2026 09:19:07 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-NTFS-Driver-WOF",
+        "source": "Phoronix",
+        "summary": "The pull requests for the existing Paragon NTFS3 kernel driver as well as the new modern \"NTFS\" drivers have been submitted for the ongoing Linux 7.3 kernel cycle. Besides bug fixes, most notable amon",
         "cve": []
     },
     {
-        "title": "Hackers Place Fake Codex Download Above Legitimate OpenAI Result to Infect Mac Users",
-        "date": "Tue, 25 Aug 2026 08:20:43 +0000",
-        "url": "https://gbhackers.com/fake-codex-download/",
-        "source": "GBHackers",
-        "summary": "Threat actors are using sponsored Google Search ads to place a fake OpenAI Codex download page above the legitimate result, steering macOS users into manually executing malware through Terminal. The o",
+        "title": "Linux 7.3 Device Mapper Sees Many Fixes, Including Code Cleanups By Claude Opus",
+        "date": "Tue, 25 Aug 2026 08:22:16 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Device-Mapper",
+        "source": "Phoronix",
+        "summary": "The Linux Device Mapper \"DKM\" framework for mapping block devices to higher-level virtual block devices doesn't see any major new features for Linux 7.3 but there are many bug fixes, including code cl",
         "cve": []
     },
     {
-        "title": "EvilTokens Abuses Microsoft Device Codes to Hijack Accounts Without Stealing Passwords",
-        "date": "Tue, 25 Aug 2026 06:55:30 +0000",
-        "url": "https://gbhackers.com/microsoft-device-codes-abuse/",
-        "source": "GBHackers",
-        "summary": "EvilTokens is pushing phishing-as-a-service beyond credential theft by abusing Microsoft’s device authorization flow to obtain valid Microsoft 365 tokens. Victims can complete a legitimate Microsoft s",
+        "title": "DisplayPort 2.1 ALPM Still Being Worked On For Intel Xe3P / Nova Lake",
+        "date": "Tue, 25 Aug 2026 06:25:15 -0400",
+        "url": "https://www.phoronix.com/news/Intel-DP-2.1-ALPM-v5",
+        "source": "Phoronix",
+        "summary": "The in-development Linux 7.3 kernel is marking Nova Lake Xe3P graphics as stable in being enabled by default and no longer hidden behind the \"force probe\" flag. While on-by-default, there still are so",
         "cve": []
     }
 ]
