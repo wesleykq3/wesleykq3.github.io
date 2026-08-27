@@ -1,5 +1,69 @@
 [
     {
+        "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+        "date": "Wed, 26 Aug 2026 17:33:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
+        "source": "BleepingComputer",
+        "summary": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
+        "cve": []
+    },
+    {
+        "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
+        "date": "Wed, 26 Aug 2026 14:48:24 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
+        "source": "BleepingComputer",
+        "summary": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]",
+        "cve": []
+    },
+    {
+        "title": "Meta agrees to $18 billion settlement over teen social media harms",
+        "date": "Wed, 26 Aug 2026 12:41:05 -0400",
+        "url": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
+        "source": "BleepingComputer",
+        "summary": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately designe",
+        "cve": []
+    },
+    {
+        "title": "Boston Scientific says cyberattack disrupted operations globally",
+        "date": "Wed, 26 Aug 2026 11:19:21 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+        "source": "BleepingComputer",
+        "summary": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational disruptions globally. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+        "date": "Wed, 26 Aug 2026 10:47:51 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+        "source": "BleepingComputer",
+        "summary": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused. [.",
+        "cve": []
+    },
+    {
+        "title": "FBI disrupts proxy network enabling Chinese espionage operations",
+        "date": "Wed, 26 Aug 2026 10:17:59 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+        "source": "BleepingComputer",
+        "summary": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activi",
+        "cve": []
+    },
+    {
+        "title": "Snowflake ends service-account passwords. Now comes the hard part",
+        "date": "Wed, 26 Aug 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+        "source": "BleepingComputer",
+        "summary": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifying ",
+        "cve": []
+    },
+    {
+        "title": "Ubiquiti patches three max severity security vulnerabilities",
+        "date": "Wed, 26 Aug 2026 09:17:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
+        "source": "BleepingComputer",
+        "summary": "Ubiquiti has released security patches for three new maximum-severity vulnerabilities that threat actors can exploit remotely without privileges. [...]",
+        "cve": []
+    },
+    {
         "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
         "date": "Wed, 26 Aug 2026 08:06:28 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
@@ -16,67 +80,43 @@
         "cve": []
     },
     {
-        "title": "LACMA data breach last year exposed social security and medical data",
-        "date": "Tue, 25 Aug 2026 17:58:14 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
-        "source": "BleepingComputer",
-        "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
+        "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+        "date": "Wed, 26 Aug 2026 22:12:03 +0530",
+        "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and oth",
         "cve": []
     },
     {
-        "title": "Hackers abuse npm mirrors to host phishing redirect pages",
-        "date": "Tue, 25 Aug 2026 17:39:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
-        "source": "BleepingComputer",
-        "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
+        "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+        "date": "Wed, 26 Aug 2026 21:05:05 +0530",
+        "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the I",
         "cve": []
     },
     {
-        "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-        "date": "Tue, 25 Aug 2026 16:25:26 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-        "source": "BleepingComputer",
-        "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
+        "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+        "date": "Wed, 26 Aug 2026 19:14:31 +0530",
+        "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturing ",
         "cve": []
     },
     {
-        "title": "Massive DDoS attack disrupts Norway’s government digital services",
-        "date": "Tue, 25 Aug 2026 11:52:36 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-        "source": "BleepingComputer",
-        "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
+        "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+        "date": "Wed, 26 Aug 2026 18:37:02 +0530",
+        "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations, us",
         "cve": []
     },
     {
-        "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-        "date": "Tue, 25 Aug 2026 10:44:16 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-        "source": "BleepingComputer",
-        "summary": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
-        "cve": []
-    },
-    {
-        "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-        "date": "Tue, 25 Aug 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-        "source": "BleepingComputer",
-        "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizati",
-        "cve": []
-    },
-    {
-        "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-        "date": "Tue, 25 Aug 2026 09:51:58 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows more quickly. [...]",
-        "cve": []
-    },
-    {
-        "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-        "date": "Tue, 25 Aug 2026 09:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-        "source": "BleepingComputer",
-        "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
+        "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
+        "date": "Wed, 26 Aug 2026 17:25:00 +0530",
+        "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+        "source": "The Hacker News",
+        "summary": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a ",
         "cve": []
     },
     {
@@ -112,7 +152,7 @@
         "cve": []
     },
     {
-        "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+        "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
         "date": "Wed, 26 Aug 2026 12:42:55 +0530",
         "url": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
         "source": "The Hacker News",
@@ -120,43 +160,83 @@
         "cve": []
     },
     {
-        "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-        "date": "Wed, 26 Aug 2026 11:57:07 +0530",
-        "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea.\n\nThe vulnerabilit",
+        "title": "WatchGuard Agent for Windows Vulnerability Allows Code Execution with Elevated Privileges",
+        "date": "Thu, 27 Aug 2026 04:23:03 +0000",
+        "url": "https://cybersecuritynews.com/watchguard-agent-for-windows-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "WatchGuard has disclosed two critical vulnerabilities in its Windows-based WatchGuard Agent that could allow unauthenticated attackers to execute arbitrary code with elevated privileges. The flaws, tr",
         "cve": []
     },
     {
-        "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
-        "date": "Wed, 26 Aug 2026 11:17:28 +0530",
-        "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft vi",
+        "title": "Adobe Campaign Classic Vulnerabilities Enable Arbitrary Code Execution",
+        "date": "Thu, 27 Aug 2026 04:19:28 +0000",
+        "url": "https://cybersecuritynews.com/adobe-campaign-classic-code-execution/",
+        "source": "CyberSecurityNews",
+        "summary": "Adobe has released a Priority 1 security update for Adobe Campaign Classic following the identification of three critical vulnerabilities that could allow unauthenticated remote attackers to execute a",
         "cve": []
     },
     {
-        "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-        "date": "Tue, 25 Aug 2026 23:47:17 +0530",
-        "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and it",
+        "title": "Apache Tomcat Vulnerabilities Let Attackers Bypass Security Controls and Crash Servers",
+        "date": "Thu, 27 Aug 2026 02:39:15 +0000",
+        "url": "https://cybersecuritynews.com/apache-tomcat-vulnerabilities-crash-servers/",
+        "source": "CyberSecurityNews",
+        "summary": "The Apache Software Foundation has patched a dozen security vulnerabilities in Apache Tomcat, the widely deployed open-source Java servlet container, with fixes rolled into version 11.0.25. The flaws,",
         "cve": []
     },
     {
-        "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-        "date": "Tue, 25 Aug 2026 19:37:37 +0530",
-        "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-        "source": "The Hacker News",
-        "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden ",
+        "title": "CISA Warns of Gitea Code Injection Vulnerability Exploited in Attacks",
+        "date": "Thu, 27 Aug 2026 02:29:59 +0000",
+        "url": "https://cybersecuritynews.com/gitea-code-injection-vulnerability-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "The Cybersecurity and Infrastructure Security Agency has added a newly disclosed Gitea vulnerability to its Known Exploited Vulnerabilities catalog, confirming active exploitation in the wild. The fla",
         "cve": []
     },
     {
-        "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-        "date": "Tue, 25 Aug 2026 18:49:41 +0530",
-        "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-        "source": "The Hacker News",
-        "summary": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accou",
+        "title": "21 Critical Ubiquiti UniFi Flaws Enable Authentication Bypass, Command Injection and Privilege Escalation",
+        "date": "Wed, 26 Aug 2026 18:00:02 +0000",
+        "url": "https://cybersecuritynews.com/21-critical-ubiquiti-unifi-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Ubiquiti has patched 21 critical-severity vulnerabilities spanning nearly its entire UniFi product line, warning that attackers with only network access could chain the flaws to bypass authentication,",
+        "cve": []
+    },
+    {
+        "title": "Critical Next.js Vulnerabilities Enables Remote Code Execution Attacks",
+        "date": "Wed, 26 Aug 2026 17:43:02 +0000",
+        "url": "https://cybersecuritynews.com/next-js-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Two critical Next.js flaws allow unauthenticated remote code execution on Windows-hosted applications using the Image Optimization API to process AVIF images. The first flaw, tracked as CVE-2026-75604",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Bans Russia-Linked ChatGPT Accounts Used in Covert Influence Campaign",
+        "date": "Wed, 26 Aug 2026 14:13:02 +0000",
+        "url": "https://cybersecuritynews.com/openai-bans-russia-linked-chatgpt/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenAI has removed a cluster of ChatGPT accounts linked to a covert influence operation from Russia. The accounts produced social-media posts and replies designed to steer people toward the Internatio",
+        "cve": []
+    },
+    {
+        "title": "Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels",
+        "date": "Wed, 26 Aug 2026 13:47:36 +0000",
+        "url": "https://cybersecuritynews.com/iran-linked-hackers/",
+        "source": "CyberSecurityNews",
+        "summary": "Iran-linked hackers have expanded an espionage effort with a Windows backdoor and reverse SSH tunnelling utility. The activity is tied to Tortoiseshell, also tracked as Mirage Kitten, UNC1549 and Nimb",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware",
+        "date": "Wed, 26 Aug 2026 12:15:43 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-fake-claude/",
+        "source": "CyberSecurityNews",
+        "summary": "Cybercriminals are using a counterfeit Claude desktop application to compromise Windows systems, disable key security checks, and install remote-access malware. The campaign turns a familiar AI softwa",
+        "cve": []
+    },
+    {
+        "title": "24 Malicious npm Packages Abuse Trusted Mirrors to Host ClickFix Phishing Pages",
+        "date": "Wed, 26 Aug 2026 11:19:57 +0000",
+        "url": "https://cybersecuritynews.com/24-malicious-npm-packages/",
+        "source": "CyberSecurityNews",
+        "summary": "Twenty-four malicious npm packages have been used to turn trusted package mirrors into staging points for ClickFix phishing pages. The campaign does not infect a developer by installing a package. Ins",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "LibreOffice 26.8 Released With Many Nice Improvements",
-        "date": "Wed, 26 Aug 2026 07:30:28 -0400",
-        "url": "https://www.phoronix.com/news/LibreOffice-26.8",
-        "source": "Phoronix",
-        "summary": "LibreOffice 26.8 is now available as the latest half-year feature update to this leading open-source alternative to Microsoft Office...",
+        "title": "AnonyMousKIT PhaaS Automates Apple ID, Device Passcode, and Live 2FA Harvesting Across Five Channels",
+        "date": "Thu, 27 Aug 2026 05:09:55 +0000",
+        "url": "https://gbhackers.com/anonymouskit-phaas-platform/",
+        "source": "GBHackers",
+        "summary": "AnonyMousKIT, an AI-enabled Phishing-as-a-Service (PhaaS) platform built to turn stolen Apple devices into monetizable assets. The service automates the collection of an owner’s device passcode, Apple",
         "cve": []
     },
     {
-        "title": "AMD Introduces New \"GFX1250-STRICT\" GPU Target In LLVM",
-        "date": "Wed, 26 Aug 2026 06:22:43 -0400",
-        "url": "https://www.phoronix.com/news/AMD-gfx1250-strict",
-        "source": "Phoronix",
-        "summary": "The AMD GFX1250 IP is what's used by the new Instinct MI450 series accelerators. That's been around within the Linux kernel, AMDGPU LLVM compiler back-end, and related codebases the past year. Interes",
+        "title": "Ubiquiti Fixes 22 UniFi Flaws Enabling Command Injection, Authentication Bypass and Privilege Escalation",
+        "date": "Thu, 27 Aug 2026 05:02:53 +0000",
+        "url": "https://gbhackers.com/ubiquiti-fixes-22-unifi-flaws/",
+        "source": "GBHackers",
+        "summary": "Ubiquiti has released security updates to address 22 vulnerabilities across its UniFi ecosystem. These updates include multiple critical flaws that could allow unauthenticated command injection, authe",
         "cve": []
     },
     {
-        "title": "GCC Patches Added -mcpu=native -mtune=native Support For RISC-V",
-        "date": "Wed, 26 Aug 2026 06:08:15 -0400",
-        "url": "https://www.phoronix.com/news/GCC-RISC-V-mcpu-mtune-native",
-        "source": "Phoronix",
-        "summary": "A SiFive engineer posted patches today for the GNU Compiler Collection (GCC) for adding -mtune=native -mcpu=native support for the compiler on RISC-V...",
+        "title": "Apache Tomcat Flaws Let Attackers Bypass Authentication and Security Controls, Trigger DoS Attacks",
+        "date": "Thu, 27 Aug 2026 04:51:32 +0000",
+        "url": "https://gbhackers.com/apache-tomcat-flaws-3/",
+        "source": "GBHackers",
+        "summary": "Apache has released version 11.0.25 of Apache Tomcat to address ten security vulnerabilities, including multiple flaws that could lead to authentication bypasses, access-control evasion, and denial-of",
         "cve": []
     },
     {
-        "title": "Linux 7.3 PCI Code Adds Advisory Non-Fatal Errors, Intel Dunlow Support",
-        "date": "Wed, 26 Aug 2026 05:53:14 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-PCI",
-        "source": "Phoronix",
-        "summary": "All of the PCI/PCIe subsystem updates for the in-development Linux 7.3 kernel were merged this week...",
+        "title": "Russia-Linked Operators Used ChatGPT to Run a Secretive Online Influence Campaign",
+        "date": "Wed, 26 Aug 2026 13:28:27 +0000",
+        "url": "https://gbhackers.com/chatgpt-abuse-exposed/",
+        "source": "GBHackers",
+        "summary": "OpenAI has disrupted a covert influence operation that used ChatGPT to promote a purported Israeli think tank, spread Russia-favorable narratives, and manufacture the appearance of academic legitimacy",
         "cve": []
     },
     {
-        "title": "Chrome/Chromium Experimenting With Flatpak Packaging",
-        "date": "Tue, 25 Aug 2026 20:22:59 -0400",
-        "url": "https://www.phoronix.com/news/Chrome-Chromium-Flatpak",
-        "source": "Phoronix",
-        "summary": "Google engineers responsible for the Chrome/Chromium web browser are experimenting with Flatpak packaging on Linux. They aren't yet committed to officially supporting Flatpak packages but for now are ",
+        "title": "Iran-Linked Hackers Use Reverse SSH Tunnels to Reach Deep Inside Compromised Networks",
+        "date": "Wed, 26 Aug 2026 12:39:47 +0000",
+        "url": "https://gbhackers.com/reverse-ssh-tunnels/",
+        "source": "GBHackers",
+        "summary": "Iran-linked threat actor Tortoiseshell is expanding its espionage toolkit with reverse SSH tunneling utilities and a TWOSTROKE-like backdoor designed to give operators covert, durable access to compro",
         "cve": []
     },
     {
-        "title": "Linux 7.0-mk2 Released For Multi-Kernel Linux With Promising Performance Results",
-        "date": "Tue, 25 Aug 2026 17:30:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.0-mk2-Multikernel",
-        "source": "Phoronix",
-        "summary": "Last year a multi-kernel architecture was proposed for the Linux kernel to allow multiple independent kernel instances to co-exist on a single physical machine. Each kernel with \"multikernel\" Linux ca",
+        "title": "Critical WatchGuard Agent Flaws Let Unauthenticated Attackers Execute Remote Code",
+        "date": "Wed, 26 Aug 2026 12:28:30 +0000",
+        "url": "https://gbhackers.com/critical-watchguard-agent-flaws/",
+        "source": "GBHackers",
+        "summary": "WatchGuard has revealed two critical vulnerabilities in its Windows WatchGuard Agent, which could allow unauthenticated attackers to execute arbitrary code on affected endpoints. These vulnerabilities",
         "cve": []
     },
     {
-        "title": "COSMIC Epoch 1.7 Released: No Longer Slow Browsing Network Filesystems",
-        "date": "Tue, 25 Aug 2026 16:46:55 -0400",
-        "url": "https://www.phoronix.com/news/COSMIC-Epoch-1.7",
-        "source": "Phoronix",
-        "summary": "COSMIC Epoch 1.7 is out today as the newest update to this Rust-based open-source desktop environment with development led by System76...",
+        "title": "SonicWall NetExtender Flaw Lets Attackers Write Arbitrary Files as Root",
+        "date": "Wed, 26 Aug 2026 12:18:33 +0000",
+        "url": "https://gbhackers.com/sonicwall-netextender-flaw/",
+        "source": "GBHackers",
+        "summary": "SonicWall has released security updates for two high-severity vulnerabilities in its NetExtender Linux Client. One of these is a path traversal flaw that could allow attackers to write arbitrary files",
         "cve": []
     },
     {
-        "title": "LLVM/Clang 23.1 Released With AMD Zen 6 & NVIDIA Rigel Support, Partial C++26 Support",
-        "date": "Tue, 25 Aug 2026 15:40:00 -0400",
-        "url": "https://www.phoronix.com/news/LLVM-23.1-Released",
-        "source": "Phoronix",
-        "summary": "LLVM 23.1 was released today on-schedule as the first stable release of the LLVM 23 series as the H2'2026 update to this open-source compiler stack...",
+        "title": "Fake Claude Desktop Installer Deploys SectopRAT Using DLL Sideloading and Blockchain C2",
+        "date": "Wed, 26 Aug 2026 11:57:23 +0000",
+        "url": "https://gbhackers.com/fake-claude-desktop-installer/",
+        "source": "GBHackers",
+        "summary": "A fake Claude Desktop installer campaign is using Bing malvertising to impersonate trusted Claude. ai-hosted content, DLL sideloading, and blockchain-based command-and-control to deploy the SectopRAT ",
         "cve": []
     },
     {
-        "title": "Wayland Found To Be \"Intrinsically Faster Than X11, But Not Necessarily More Efficient\"",
-        "date": "Tue, 25 Aug 2026 13:37:28 -0400",
-        "url": "https://www.phoronix.com/news/Wayland-X11-Performance-PorteuX",
-        "source": "Phoronix",
-        "summary": "The PorteuX Linux distribution focused on being a high performance, modular, and minimalist distro took to forking Xfce's xfwm4 window manager into \"xfwm4-gl\" for OpenGL compositing support. As part o",
+        "title": "Hackers Turn Trusted npm Mirrors Into Hosts for Fake Cloudflare ClickFix Pages.",
+        "date": "Wed, 26 Aug 2026 10:55:50 +0000",
+        "url": "https://gbhackers.com/fake-cloudflare-clickfix-pages/",
+        "source": "GBHackers",
+        "summary": "Threat actors are abusing npm’s package-distribution ecosystem to host convincing fake Cloudflare verification pages on trusted mirror domains, turning developer infrastructure into a phishing deliver",
         "cve": []
     },
     {
-        "title": "AI/LLM Usage Becoming A \"Denial of Service Attack\" On Open-Source Project Maintainers",
-        "date": "Tue, 25 Aug 2026 12:20:00 -0400",
-        "url": "https://www.phoronix.com/news/AI-DoS-Attack-Maintainers",
-        "source": "Phoronix",
-        "summary": "The latest criticism of the increased burden placed on open-source software project maintainers caused by AI / LLM agents is around too many bug reports effectively causing a \"denial of service\" attac",
+        "title": "Iran-Linked Hackers Abuse Legitimate Deno Runtime to Hide Dindoor Backdoor on Windows Systems",
+        "date": "Wed, 26 Aug 2026 10:29:39 +0000",
+        "url": "https://gbhackers.com/windows-backdoor-dubbed-dindoor/",
+        "source": "GBHackers",
+        "summary": "Iran-linked threat actors associated with MuddyWater are using a newly tracked Windows backdoor dubbed Dindoor that hijacks the legitimate Deno runtime to execute malicious JavaScript and TypeScript p",
         "cve": []
     }
 ]
