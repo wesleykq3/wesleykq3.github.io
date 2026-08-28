@@ -1,5 +1,69 @@
 [
     {
+        "title": "PaperCut releases second emergency patch for exploited flaws",
+        "date": "Fri, 28 Aug 2026 15:08:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+        "source": "BleepingComputer",
+        "summary": "PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to by",
+        "cve": []
+    },
+    {
+        "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
+        "date": "Fri, 28 Aug 2026 14:18:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+        "source": "BleepingComputer",
+        "summary": "A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...]",
+        "cve": []
+    },
+    {
+        "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
+        "date": "Fri, 28 Aug 2026 12:36:47 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
+        "source": "BleepingComputer",
+        "summary": "A 68-year-old has been sentenced in the U.K. to more than six years in prison for operating an illegal IPTV (Internet Protocol Television) service that generated £980,812 ($1.3 million) over three yea",
+        "cve": []
+    },
+    {
+        "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+        "date": "Fri, 28 Aug 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
+        "source": "BleepingComputer",
+        "summary": "AI is accelerating vulnerability discovery, putting pressure on systems built to enrich, prioritize, and remediate flaws at a slower pace. Action1 explains why defenders increasingly need to correlate",
+        "cve": []
+    },
+    {
+        "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
+        "date": "Fri, 28 Aug 2026 08:58:43 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [",
+        "cve": []
+    },
+    {
+        "title": "Toy-making giant Hasbro disclose data breach affecting employees",
+        "date": "Fri, 28 Aug 2026 07:46:57 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
+        "source": "BleepingComputer",
+        "summary": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",
+        "cve": []
+    },
+    {
+        "title": "ServiceNow warns of three max severity security vulnerabilities",
+        "date": "Fri, 28 Aug 2026 06:29:42 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+        "source": "BleepingComputer",
+        "summary": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
+        "cve": []
+    },
+    {
+        "title": "Windows 11 KB5120998 update released with 35 changes and fixes",
+        "date": "Fri, 28 Aug 2026 05:10:13 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [.",
+        "cve": []
+    },
+    {
         "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
         "date": "Thu, 27 Aug 2026 17:38:53 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
@@ -16,147 +80,163 @@
         "cve": []
     },
     {
-        "title": "Manchester Airports Group says hackers stole travelers' data",
-        "date": "Thu, 27 Aug 2026 12:12:26 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
-        "source": "BleepingComputer",
-        "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
-        "cve": []
-    },
-    {
-        "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-        "date": "Thu, 27 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-        "source": "BleepingComputer",
-        "summary": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuo",
-        "cve": []
-    },
-    {
-        "title": "Android 17 adds ECH support to make web browsing harder to track",
-        "date": "Thu, 27 Aug 2026 10:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
-        "source": "BleepingComputer",
-        "summary": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-        "date": "Thu, 27 Aug 2026 09:31:13 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft rolls out fix for Windows 11 crashes, gaming issues",
-        "date": "Thu, 27 Aug 2026 08:16:32 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has started rolling out a permanent fix for a known issue that causes system crashes and gaming issues on Windows 11 devices. [...]",
-        "cve": []
-    },
-    {
-        "title": "Webinar: How Google Workspace breaches happen and what to do next",
-        "date": "Thu, 27 Aug 2026 08:16:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/",
-        "source": "BleepingComputer",
-        "summary": "Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the",
-        "cve": []
-    },
-    {
-        "title": "Carhartt data breach exposes information of 12.9 million accounts",
-        "date": "Thu, 27 Aug 2026 07:10:04 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
-        "source": "BleepingComputer",
-        "summary": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification ser",
-        "cve": []
-    },
-    {
-        "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
-        "date": "Thu, 27 Aug 2026 05:16:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-        "date": "Fri, 28 Aug 2026 00:06:19 +0530",
-        "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+        "date": "Sat, 29 Aug 2026 02:08:47 +0530",
+        "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
         "source": "The Hacker News",
-        "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior ",
+        "summary": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.\n\nThe vulnerability",
         "cve": []
     },
     {
-        "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-        "date": "Thu, 27 Aug 2026 20:43:00 +0530",
-        "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+        "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+        "date": "Fri, 28 Aug 2026 22:42:15 +0530",
+        "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
         "source": "The Hacker News",
-        "summary": "Credit:&nbsp;Hacktron\nVercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploi",
+        "summary": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional ha",
         "cve": []
     },
     {
-        "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
-        "date": "Thu, 27 Aug 2026 20:42:16 +0530",
-        "url": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+        "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+        "date": "Fri, 28 Aug 2026 21:50:46 +0530",
+        "url": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
         "source": "The Hacker News",
-        "summary": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.\n\nThe rest of the week gets stranger: botnets borro",
+        "summary": "Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks.\n\nTopping",
         "cve": []
     },
     {
-        "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-        "date": "Thu, 27 Aug 2026 19:09:56 +0530",
-        "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+        "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+        "date": "Fri, 28 Aug 2026 21:26:55 +0530",
+        "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate dat",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports th",
         "cve": []
     },
     {
-        "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-        "date": "Thu, 27 Aug 2026 17:26:30 +0530",
-        "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+        "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+        "date": "Fri, 28 Aug 2026 20:57:26 +0530",
+        "url": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
         "source": "The Hacker News",
-        "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabi",
+        "summary": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and cryptocur",
         "cve": []
     },
     {
-        "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-        "date": "Thu, 27 Aug 2026 17:26:26 +0530",
-        "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+        "date": "Fri, 28 Aug 2026 17:37:24 +0530",
+        "url": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
         "source": "The Hacker News",
-        "summary": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromis",
+        "summary": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root",
         "cve": []
     },
     {
-        "title": "What the Data Says About AI in Security Operations in 2026",
-        "date": "Thu, 27 Aug 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+        "title": "Key Reasons Why Identity Fabric Matters in 2026",
+        "date": "Fri, 28 Aug 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
         "source": "The Hacker News",
-        "summary": "AI is officially mainstream in security operations. According to Prophet Security's State of AI in Security Operations 2026 report (produced from ViB’s survey of 250+ cybersecurity pros), 40% of secur",
+        "summary": "An Identity Fabric knits fragmented identity systems into a coherent layer that observes how identities behave across applications, APIs, and infrastructure. As enterprise access spans more cloud serv",
         "cve": []
     },
     {
-        "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-        "date": "Thu, 27 Aug 2026 16:30:57 +0530",
-        "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
+        "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+        "date": "Fri, 28 Aug 2026 16:50:32 +0530",
+        "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
         "source": "The Hacker News",
-        "summary": "Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT.\n\n\"The samples employ diverse lure theme",
+        "summary": "ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unaut",
         "cve": []
     },
     {
-        "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
-        "date": "Thu, 27 Aug 2026 15:03:38 +0530",
-        "url": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
+        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+        "date": "Fri, 28 Aug 2026 16:28:29 +0530",
+        "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
         "source": "The Hacker News",
-        "summary": "Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence deployed a previously undocumented Go-based malware framework, GoCaracal, during a June 2026 intrusion at an unnamed communic",
+        "summary": "VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the a",
         "cve": []
     },
     {
-        "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
-        "date": "Thu, 27 Aug 2026 13:43:11 +0530",
-        "url": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+        "date": "Fri, 28 Aug 2026 15:15:15 +0530",
+        "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
         "source": "The Hacker News",
-        "summary": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowha",
+        "summary": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user.\n\nThe vul",
+        "cve": []
+    },
+    {
+        "title": "Hackers Target AI Infrastructure With RCE, Prompt Injection and API Key Theft",
+        "date": "Fri, 28 Aug 2026 16:42:35 +0000",
+        "url": "https://cybersecuritynews.com/hackers-target-ai-infrastructure/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are actively probing AI systems, turning exposed gateways and agent tools into routes for remote code execution, credential theft, and cryptomining. AI infrastructure is now a cloud entry poin",
+        "cve": []
+    },
+    {
+        "title": "Hackers Make Phishing Pages Change Their Code Every Time Someone Opens Them",
+        "date": "Fri, 28 Aug 2026 16:31:31 +0000",
+        "url": "https://cybersecuritynews.com/hackers-make-phishing-pages/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are making some phishing pages harder to track by changing the code delivered to every visitor. An examined operation served a credential-stealing form whose appearance stayed familiar while i",
+        "cve": []
+    },
+    {
+        "title": "Iran-Linked Hackers Reportedly Knock UK Power Plant Offline for Four Days",
+        "date": "Fri, 28 Aug 2026 15:31:57 +0000",
+        "url": "https://cybersecuritynews.com/iran-linked-hackers-2/",
+        "source": "CyberSecurityNews",
+        "summary": "A cyber incident reportedly forced a British power plant to halt operations for about four days in July, drawing attention to the security of less-visible energy sites. The shutdown did not cause cust",
+        "cve": []
+    },
+    {
+        "title": "Russian Hackers Use New HOOKEDGE Malware to Spy on European Defense and Diplomatic Targets",
+        "date": "Fri, 28 Aug 2026 15:07:59 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-new-hookedge-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "Russian hackers have used a new backdoor called HOOKEDGE to target defense manufacturers, government bodies, and diplomatic organizations in Romania, Spain, and Türkiye. The campaign relied on Word do",
+        "cve": []
+    },
+    {
+        "title": "Ransomware Gang Claims AI Can Analyze 700GB of Stolen Data Every Hour",
+        "date": "Fri, 28 Aug 2026 15:04:48 +0000",
+        "url": "https://cybersecuritynews.com/ransomware-gang-claims-ai/",
+        "source": "CyberSecurityNews",
+        "summary": "TITAN ransomware is pairing file encryption with an ambitious claim: artificial intelligence that can sort through 700GB of stolen corporate data every hour. The group says the system helps it quickly",
+        "cve": []
+    },
+    {
+        "title": "Hackers Compromise Hundreds of WordPress Sites to Deploy Amatera Stealer via ClickFix",
+        "date": "Fri, 28 Aug 2026 13:31:35 +0000",
+        "url": "https://cybersecuritynews.com/deploy-amatera-stealer/",
+        "source": "CyberSecurityNews",
+        "summary": "A fake student resume is being used to place a remote-access tool on researchers’ Windows computers. The campaign hides a Windows executable inside an archive that appears to contain a graduate-school",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Fake Student Resume to Secretly Install Malware on Researchers’ Computers",
+        "date": "Fri, 28 Aug 2026 11:55:37 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-fake-student-resume/",
+        "source": "CyberSecurityNews",
+        "summary": "A fake student resume is being used to place a remote-access tool on researchers’ Windows computers. The campaign hides a Windows executable inside an archive that appears to contain a graduate-school",
+        "cve": []
+    },
+    {
+        "title": "Russian University Leak Exposes GRU Cyber Training Pipeline Behind APT28 and Sandworm",
+        "date": "Fri, 28 Aug 2026 10:48:32 +0000",
+        "url": "https://cybersecuritynews.com/russian-university-leak/",
+        "source": "CyberSecurityNews",
+        "summary": "Leaked university records have opened an unusual window into Russia’s military cyber ecosystem. The documents point to a structured training program, not a newly discovered piece of malware, that appe",
+        "cve": []
+    },
+    {
+        "title": "Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption",
+        "date": "Fri, 28 Aug 2026 07:54:17 +0000",
+        "url": "https://cybersecuritynews.com/dark-caracal-hackers/",
+        "source": "CyberSecurityNews",
+        "summary": "Dark Caracal has returned with a new tool that helps attackers stay connected when defenders shut down their control servers. The cyberespionage group is linked by researchers to a Venezuelan communic",
+        "cve": []
+    },
+    {
+        "title": "Claude Code Opus 5 Auto Mode Hijacked via Prompt Injection to Execute Malicious Code",
+        "date": "Fri, 28 Aug 2026 07:07:29 +0000",
+        "url": "https://cybersecuritynews.com/claude-code-opus-5-auto-mode-hijacked/",
+        "source": "CyberSecurityNews",
+        "summary": "Claude Code Opus 5 in Auto Mode can be tricked into running malicious code via a simple website summary request. In a limited lab test, the attack reportedly succeeded in 60% to 80% of attempts. The f",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Sovereign Tech Agency Providing Massive Investment Into Flatpak",
-        "date": "Thu, 27 Aug 2026 20:38:03 -0400",
-        "url": "https://www.phoronix.com/news/Sovereign-Tech-Agency-Flatpak",
-        "source": "Phoronix",
-        "summary": "The latest beneficiary of Germany's Sovereign Tech Agency is Flatpak where more than half a million Euros will be invested over the next two years to help with app sandboxing and other functionality..",
+        "title": "Attackers Exploit MCP RCE, Blind Prompt Injection and Memory Credential Theft Against AI Infrastructure",
+        "date": "Fri, 28 Aug 2026 13:31:52 +0000",
+        "url": "https://gbhackers.com/mcp-rce-exploitation/",
+        "source": "GBHackers",
+        "summary": "Attackers are increasingly treating AI infrastructure as a high-value cloud entry point, exploiting exposed Model Context Protocol (MCP) services, agent frameworks, and AI gateways to execute code, va",
         "cve": []
     },
     {
-        "title": "Ubuntu 26.04.1 LTS Released With Initial Collection Of Fixes",
-        "date": "Thu, 27 Aug 2026 20:13:09 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-26.04.1-LTS-Released",
-        "source": "Phoronix",
-        "summary": "Canonical today published Ubuntu 26.04.1 LTS as their first point release in the long-term support series for the \"Resolute Raccoon\"...",
+        "title": "700 OpenAI Agents Coordinate Attack on Hugging Face and Gain Remote Code Execution",
+        "date": "Fri, 28 Aug 2026 12:47:53 +0000",
+        "url": "https://gbhackers.com/700-openai-agents-coordinate-attack-on-hugging-face/",
+        "source": "GBHackers",
+        "summary": "OpenAI’s ExploitGym evaluation environment reportedly became the site of a large-scale, unsanctioned multi-agent campaign after hundreds of models found ways to communicate across supposedly isolated ",
         "cve": []
     },
     {
-        "title": "Intel Linux Driver Orphaned For Limiting RF Exposure To Humans",
-        "date": "Thu, 27 Aug 2026 17:13:01 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Linux-SAR-Driver-Orphaned",
-        "source": "Phoronix",
-        "summary": "Over the past year and a half a number of open-source drivers in the Linux kernel have been orphaned as a result of departures from the company. The impact has ranged from the Intel CPU \"coretemp\" tem",
+        "title": "Polymorphic Phishing Attack Generates Unique Credential-Stealing Page on Every Visit",
+        "date": "Fri, 28 Aug 2026 12:02:11 +0000",
+        "url": "https://gbhackers.com/polymorphic-phishing-attack/",
+        "source": "GBHackers",
+        "summary": "A newly analyzed phishing operation is using server-side polymorphism to generate a distinct credential-harvesting page for virtually every request, undermining detection approaches built around file ",
         "cve": []
     },
     {
-        "title": "AMD Preparing To Enable HDMI 2.1 FRL Support By Default For Linux",
-        "date": "Thu, 27 Aug 2026 15:45:06 -0400",
-        "url": "https://www.phoronix.com/news/AMDGPU-HDMI-2.1-FRL-Default",
-        "source": "Phoronix",
-        "summary": "It was back in May that the surprising event happened of AMD posting HDMI 2.1 FRL patches for their open-source AMDGPU Linux driver as part of their broader HDMI 2.1 bring-up. For years the open-sourc",
+        "title": "Critical WordPress Plugin Flaw Allows Unauthenticated Administrator Account Takeover",
+        "date": "Fri, 28 Aug 2026 11:31:13 +0000",
+        "url": "https://gbhackers.com/critical-wordpress-plugin-flaw-2/",
+        "source": "GBHackers",
+        "summary": "A critical authentication bypass vulnerability has been identified in the WPMU DEV Dashboard WordPress plugin, which could allow unauthenticated attackers to gain administrator-level access to vulnera",
         "cve": []
     },
     {
-        "title": "Linux 7.3 MGLRU Change Helps Executable Code Stays In Memory, Improving Performance",
-        "date": "Thu, 27 Aug 2026 14:20:28 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-MGLRU-Executable-Mem",
-        "source": "Phoronix",
-        "summary": "Following last week's main set of memory management \"MM\" related updates for Linux 7.3, another batch of MM code updates were submitted and merged today as we prepare to close out the Linux 7.3 merge ",
+        "title": "ServiceNow Patches Critical Flaws Enabling Unauthenticated RCE and SQL Injection",
+        "date": "Fri, 28 Aug 2026 11:19:49 +0000",
+        "url": "https://gbhackers.com/servicenow-patches-critical-flaws/",
+        "source": "GBHackers",
+        "summary": "ServiceNow has issued security advisories for four vulnerabilities, including critical flaws in its AI platform. These vulnerabilities could allow unauthenticated attackers to execute arbitrary code, ",
         "cve": []
     },
     {
-        "title": "AMD Jumps From ROCm 7.14 To ROCm 10.0 With ROCm.AI",
-        "date": "Thu, 27 Aug 2026 11:26:53 -0400",
-        "url": "https://www.phoronix.com/news/AMD-ROCm-10.0",
-        "source": "Phoronix",
-        "summary": "Back in July ROCm 7.14 was announced as their new production release built atop TheRock build system and introducing Ryzen AI 400 series support. The versioning choice was a bit odd since ROCm 7.2 was",
+        "title": "Suspected Iran-Linked Cyberattack Knocks UK Power Plant Offline for Four Days",
+        "date": "Fri, 28 Aug 2026 11:11:37 +0000",
+        "url": "https://gbhackers.com/iran-linked-cyberattack/",
+        "source": "GBHackers",
+        "summary": "A cyber incident reportedly forced a small UK power generation facility offline for about four days in July 2026. While the activity has been linked in reporting to Iran-affiliated hackers, the UK gov",
         "cve": []
     },
     {
-        "title": "Btrfs, EXT4, F2FS & XFS On Linux 7.2 vs. Linux 7.3 Performance",
-        "date": "Thu, 27 Aug 2026 11:13:00 -0400",
-        "url": "https://www.phoronix.com/review/linux-73-filesystems",
-        "source": "Phoronix",
-        "summary": "Earlier this week I showed off some of the very nice Btrfs performance gains on Linux 7.3. For those wondering what kernel optimizations may have carried over to other file-systems or other file-syste",
+        "title": "Researchers Execute Code Inside Fortune 500 Companies via AI Agent llms.txt Files",
+        "date": "Fri, 28 Aug 2026 11:09:04 +0000",
+        "url": "https://gbhackers.com/researchers-execute-code-inside-fortune-500-companies/",
+        "source": "GBHackers",
+        "summary": "Security researchers have shown that AI coding agents can be manipulated into installing attacker-controlled packages by following instructions found in organizations&#8217; own llms.txt files. This r",
         "cve": []
     },
     {
-        "title": "Linux 7.3 Adds RWF_DONTCACHE Support For Block Devices",
-        "date": "Thu, 27 Aug 2026 10:15:30 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Block",
-        "source": "Phoronix",
-        "summary": "With the never-ending quest for greater I/O performance in the HPC space and the demands all the more relentless in the AI era, the Linux kernel block subsystem activity continues to be as vibrant as ",
+        "title": "BlueDelta Targets Defense and Diplomatic Organizations With HOOKEDGE Malware",
+        "date": "Fri, 28 Aug 2026 10:35:15 +0000",
+        "url": "https://gbhackers.com/hookedge-malware-campaign/",
+        "source": "GBHackers",
+        "summary": "Russian state-linked threat actor BlueDelta has launched a renewed espionage campaign against defense manufacturing, government, and diplomatic organizations in Romania, Spain, and Türkiye using a lig",
         "cve": []
     },
     {
-        "title": "Lemonade 11.8 Makes It Easy To Run DeepSeek V4 Flash On AMD Strix Halo",
-        "date": "Thu, 27 Aug 2026 09:19:36 -0400",
-        "url": "https://www.phoronix.com/news/AMD-Lemonade-11.8",
-        "source": "Phoronix",
-        "summary": "For those interested in making use of the recently released DeepSeek V4 Flash model, AMD developers have released Lemonade 11.8 that now makes it rather trivial to get DeepSeek V4 Flash up and running",
+        "title": "Unitree G1 Humanoid Robot Flaws Allow Unauthenticated Root RCE Over Bluetooth",
+        "date": "Fri, 28 Aug 2026 08:58:15 +0000",
+        "url": "https://gbhackers.com/unitree-g1-humanoid-robot-flaws/",
+        "source": "GBHackers",
+        "summary": "Security researcher Boschko has revealed two vulnerabilities in Unitree’s G1 humanoid robot that can be exploited to achieve unauthenticated remote code execution (RCE) from nearby devices via Bluetoo",
         "cve": []
     },
     {
-        "title": "Libgcrypt 1.12.3 Brings Intel SM3 / SM4 / SHA512 Optimizations",
-        "date": "Thu, 27 Aug 2026 08:21:33 -0400",
-        "url": "https://www.phoronix.com/news/libgcrypt-1.12.3",
-        "source": "Phoronix",
-        "summary": "Werner Koch announced today the release of Libgcrypt 1.12.3 with various bug fixes and more exciting are the performance improvements...",
+        "title": "TITAN RaaS Uses AI for Data Classification, Regulatory Analysis and Automated Ransom Calculation",
+        "date": "Fri, 28 Aug 2026 08:15:37 +0000",
+        "url": "https://gbhackers.com/titan-raas-uses-ai/",
+        "source": "GBHackers",
+        "summary": "A newly emerged ransomware-as-a-service operation named TITAN is advertising an AI-driven extortion platform that it claims can autonomously classify stolen corporate data, identify regulatory risk. F",
         "cve": []
     }
 ]
