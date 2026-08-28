@@ -1,5 +1,13 @@
 [
     {
+        "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+        "date": "Thu, 27 Aug 2026 17:38:53 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
+        "source": "BleepingComputer",
+        "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
+        "cve": []
+    },
+    {
         "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
         "date": "Thu, 27 Aug 2026 12:31:53 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
         "source": "BleepingComputer",
         "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
-        "cve": []
-    },
-    {
-        "title": "ATF confirms “major incident” after recent Qilin breach claims",
-        "date": "Thu, 27 Aug 2026 04:13:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
-        "source": "BleepingComputer",
-        "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qili",
         "cve": []
     },
     {
@@ -160,86 +160,6 @@
         "cve": []
     },
     {
-        "title": "PaperCut NG/MF Vulnerability Actively Exploited in Attack – All Versions Impacted",
-        "date": "Thu, 27 Aug 2026 17:27:34 +0000",
-        "url": "https://cybersecuritynews.com/papercut-ng-mf-vulnerability-actively-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "PaperCut has confirmed that hackers are actively exploiting an unpatched vulnerability in its widely used PaperCut NG and PaperCut MF print management software, prompting the company to rush out an em",
-        "cve": []
-    },
-    {
-        "title": "Cybercriminals Are Selling Corporate Executives’ Social Security Numbers for Just 25 Cents",
-        "date": "Thu, 27 Aug 2026 16:54:31 +0000",
-        "url": "https://cybersecuritynews.com/executive-social-security-numbers/",
-        "source": "CyberSecurityNews",
-        "summary": "Corporate executives&#8217; most sensitive identity data is being sold on dark web marketplaces for as little as a quarter, according to new threat intelligence from Rapid7. Unlike stolen credit cards",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns of Citrix NetScaler ADC and Gateway Vulnerability Exploited in Attacks",
-        "date": "Thu, 27 Aug 2026 16:46:55 +0000",
-        "url": "https://cybersecuritynews.com/citrix-netscaler-adc-and-gateway-vulnerability-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has added a critical Citrix NetScaler ADC and NetScaler Gateway security flaw, tracked as CVE-2026-8452, to its Known Exploited Vulnerabilitie",
-        "cve": []
-    },
-    {
-        "title": "New Twitter Launches as Startup Claims Elon Musk’s X Abandoned the Twitter Name",
-        "date": "Thu, 27 Aug 2026 16:34:08 +0000",
-        "url": "https://cybersecuritynews.com/new-twitter-launches/",
-        "source": "CyberSecurityNews",
-        "summary": "A startup operating as Operation Bluebird, Inc. has launched early access to a new social media service on Twitter.now, positioning itself as a revival of the Twitter brand that Elon Musk’s X Corp. ab",
-        "cve": []
-    },
-    {
-        "title": "GitLab Fixes Claude AI Agent Flaw That Could Execute Arbitrary Commands in CI Pipeline",
-        "date": "Thu, 27 Aug 2026 16:06:59 +0000",
-        "url": "https://cybersecuritynews.com/gitlab-fixes-claude-ai-agent-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "GitLab has released security updates to fix a high-severity vulnerability in its Duo Claude AI agent that could allow authenticated developers to execute arbitrary commands within CI pipeline contexts",
-        "cve": []
-    },
-    {
-        "title": "TP-Link Kasa Smart Home Devices Vulnerability Allows Attackers to Disrupt Device Functionality",
-        "date": "Thu, 27 Aug 2026 16:03:24 +0000",
-        "url": "https://cybersecuritynews.com/tp-link-kasa-smart-home-devices-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "TP-Link has disclosed a high-severity vulnerability affecting multiple Kasa smart home devices that could allow attackers on the same local network to intercept, replay, or forge device-control comman",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns of Microsoft SQL Server RCE Vulnerability Exploited in Attacks",
-        "date": "Thu, 27 Aug 2026 15:49:42 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-sql-server-rce-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has added a Microsoft SQL Server remote code execution vulnerability, tracked as CVE-2019-1068, to its Known Exploited Vulnerabilities catalog",
-        "cve": []
-    },
-    {
-        "title": "Two Australians Charged Over TeamPCP Supply-Chain Attacks That Hit 1,000+ Organizations",
-        "date": "Thu, 27 Aug 2026 14:15:44 +0000",
-        "url": "https://cybersecuritynews.com/two-australians-teampcp-supply-chain/",
-        "source": "CyberSecurityNews",
-        "summary": "Two Western Australian men have been charged over alleged TeamPCP supply-chain attacks that police say planted malicious open-source code and reached more than 1,000 organizations worldwide. The Austr",
-        "cve": []
-    },
-    {
-        "title": "AWS Shows How Hackers Can Turn Stolen Cloud Credentials Into Full-Scale Attacks",
-        "date": "Thu, 27 Aug 2026 14:02:20 +0000",
-        "url": "https://cybersecuritynews.com/aws-shows-how-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "Stolen cloud credentials can turn an incident into a wider breach. An attacker who gets a valid AWS key or session can enter as an approved user and move toward sensitive systems. It can begin with an",
-        "cve": []
-    },
-    {
-        "title": "Multiple TeamViewer Vulnerabilities Enable Remote Code Execution Attacks",
-        "date": "Thu, 27 Aug 2026 14:00:56 +0000",
-        "url": "https://cybersecuritynews.com/multiple-teamviewer-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "TeamViewer patched high-severity CVE-2026-16444, allowing authenticated remote-session attackers to write files to unintended locations and potentially execute code with user privileges. The issue is ",
-        "cve": []
-    },
-    {
         "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
         "date": "Thu, 27 Aug 2026 11:04:15 +0000",
         "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
@@ -320,85 +240,83 @@
         "cve": []
     },
     {
-        "title": "AWS Security Teams Can Correlate CloudTrail, VPC and Route 53 Logs to Detect Attacks",
-        "date": "Thu, 27 Aug 2026 13:23:30 +0000",
-        "url": "https://gbhackers.com/aws-threat-hunting/",
-        "source": "GBHackers",
-        "summary": "AWS security teams can improve detection of multi-stage intrusions by correlating API activity in CloudTrail with network metadata in VPC Flow Logs and DNS activity in Route 53 Resolver query logs. Th",
+        "title": "Sovereign Tech Agency Providing Massive Investment Into Flatpak",
+        "date": "Thu, 27 Aug 2026 20:38:03 -0400",
+        "url": "https://www.phoronix.com/news/Sovereign-Tech-Agency-Flatpak",
+        "source": "Phoronix",
+        "summary": "The latest beneficiary of Germany's Sovereign Tech Agency is Flatpak where more than half a million Euros will be invested over the next two years to help with app sandboxing and other functionality..",
         "cve": []
     },
     {
-        "title": "Hackers Exploit CVE-2023-49105 to Steal Nuclear Records From Philippine Research Agency",
-        "date": "Thu, 27 Aug 2026 12:55:19 +0000",
-        "url": "https://gbhackers.com/cve-2023-49105-flaw-exploited/",
-        "source": "GBHackers",
-        "summary": "Suspected Chinese-speaking operators exploited the critical ownCloud flaw CVE-2023-49105 to steal nuclear material records, research reactor data, personnel files, and encryption key material from a P",
-        "cve": [
-            "CVE-2023-49105"
-        ]
-    },
-    {
-        "title": "CISA Warns of Actively Exploited Citrix NetScaler ADC and Gateway Vulnerability",
-        "date": "Thu, 27 Aug 2026 11:07:32 +0000",
-        "url": "https://gbhackers.com/cisa-warns-citrix-netscaler-adc-and-gateway-vulnerability/",
-        "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2026-8452, a vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway appliances, to its Known Exploited Vulner",
+        "title": "Ubuntu 26.04.1 LTS Released With Initial Collection Of Fixes",
+        "date": "Thu, 27 Aug 2026 20:13:09 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.04.1-LTS-Released",
+        "source": "Phoronix",
+        "summary": "Canonical today published Ubuntu 26.04.1 LTS as their first point release in the long-term support series for the \"Resolute Raccoon\"...",
         "cve": []
     },
     {
-        "title": "Hackers Are Targeting AI Servers to Steal API Keys and Hijack Computing Power",
-        "date": "Thu, 27 Aug 2026 11:03:57 +0000",
-        "url": "https://gbhackers.com/ai-servers-to-steal-api-keys/",
-        "source": "GBHackers",
-        "summary": "AI infrastructure is rapidly becoming a high-value enterprise attack surface. Attackers targeting LiteLLM AI gateways, RAGFlow retrieval platforms, and Kestra workflow orchestration environments to st",
+        "title": "Intel Linux Driver Orphaned For Limiting RF Exposure To Humans",
+        "date": "Thu, 27 Aug 2026 17:13:01 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Linux-SAR-Driver-Orphaned",
+        "source": "Phoronix",
+        "summary": "Over the past year and a half a number of open-source drivers in the Linux kernel have been orphaned as a result of departures from the company. The impact has ranged from the Intel CPU \"coretemp\" tem",
         "cve": []
     },
     {
-        "title": "TP-Link Kasa Smart Home Flaw Lets Attackers Forge Control Messages and Take Control of Devices",
-        "date": "Thu, 27 Aug 2026 10:52:45 +0000",
-        "url": "https://gbhackers.com/tp-link-kasa-smart-home-flaw/",
-        "source": "GBHackers",
-        "summary": "TP-Link has revealed a critical vulnerability in Kasa smart home devices that could allow an attacker on the same local network to intercept, replay, or forge control messages, potentially manipulatin",
+        "title": "AMD Preparing To Enable HDMI 2.1 FRL Support By Default For Linux",
+        "date": "Thu, 27 Aug 2026 15:45:06 -0400",
+        "url": "https://www.phoronix.com/news/AMDGPU-HDMI-2.1-FRL-Default",
+        "source": "Phoronix",
+        "summary": "It was back in May that the surprising event happened of AMD posting HDMI 2.1 FRL patches for their open-source AMDGPU Linux driver as part of their broader HDMI 2.1 bring-up. For years the open-sourc",
         "cve": []
     },
     {
-        "title": "Ransomware Hacker Uses AI to Plan Attacks and Compromises More Than 20 Organizations",
-        "date": "Thu, 27 Aug 2026 09:57:57 +0000",
-        "url": "https://gbhackers.com/ransomware-hacker-uses-ai/",
-        "source": "GBHackers",
-        "summary": "A Russian-speaking affiliate of the Aurora ransomware operation compromised more than 20 organizations across nine countries between April and July 2026, using the AI coding assistant Cursor to plan i",
+        "title": "Linux 7.3 MGLRU Change Helps Executable Code Stays In Memory, Improving Performance",
+        "date": "Thu, 27 Aug 2026 14:20:28 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-MGLRU-Executable-Mem",
+        "source": "Phoronix",
+        "summary": "Following last week's main set of memory management \"MM\" related updates for Linux 7.3, another batch of MM code updates were submitted and merged today as we prepare to close out the Linux 7.3 merge ",
         "cve": []
     },
     {
-        "title": "CISA Warns of Actively Exploited Microsoft SQL Server RCE Vulnerability",
-        "date": "Thu, 27 Aug 2026 09:49:47 +0000",
-        "url": "https://gbhackers.com/microsoft-sql-server-rce-vulnerability/",
-        "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2019-1068, a remote code execution vulnerability affecting Microsoft SQL Server, to its Known Exploited Vulnerabilities (",
+        "title": "AMD Jumps From ROCm 7.14 To ROCm 10.0 With ROCm.AI",
+        "date": "Thu, 27 Aug 2026 11:26:53 -0400",
+        "url": "https://www.phoronix.com/news/AMD-ROCm-10.0",
+        "source": "Phoronix",
+        "summary": "Back in July ROCm 7.14 was announced as their new production release built atop TheRock build system and introducing Ryzen AI 400 series support. The versioning choice was a bit odd since ROCm 7.2 was",
         "cve": []
     },
     {
-        "title": "FBI Seizes China State-Sponsored Hacker Platforms Used to Target U.S. Critical Infrastructure",
-        "date": "Thu, 27 Aug 2026 09:40:57 +0000",
-        "url": "https://gbhackers.com/fbi-seizes-china-state-sponsored-hacker-platforms/",
-        "source": "GBHackers",
-        "summary": "The U.S. Justice Department and the FBI have seized domains associated with two hacking platforms linked to China, QScan and QTRouter. This court-authorized operation aims to disrupt attacks against U",
+        "title": "Btrfs, EXT4, F2FS & XFS On Linux 7.2 vs. Linux 7.3 Performance",
+        "date": "Thu, 27 Aug 2026 11:13:00 -0400",
+        "url": "https://www.phoronix.com/review/linux-73-filesystems",
+        "source": "Phoronix",
+        "summary": "Earlier this week I showed off some of the very nice Btrfs performance gains on Linux 7.3. For those wondering what kernel optimizations may have carried over to other file-systems or other file-syste",
         "cve": []
     },
     {
-        "title": "AccuKnox Launches AgentZ to Help Enterprises Build, Run, and Govern AI Agents at Scale",
-        "date": "Thu, 27 Aug 2026 09:32:53 +0000",
-        "url": "https://gbhackers.com/accuknox-launches-agentz-to-help-enterprises-build-run-and-govern-ai-agents-at-scale/",
-        "source": "GBHackers",
-        "summary": "Menlo Park, California, USA, August 27th, 2026, CyberNewswire AccuKnox today announced the launch of AgentZ, a platform for building, running, and governing AI agents across teams and workflows. Agent",
+        "title": "Linux 7.3 Adds RWF_DONTCACHE Support For Block Devices",
+        "date": "Thu, 27 Aug 2026 10:15:30 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Block",
+        "source": "Phoronix",
+        "summary": "With the never-ending quest for greater I/O performance in the HPC space and the demands all the more relentless in the AI era, the Linux kernel block subsystem activity continues to be as vibrant as ",
         "cve": []
     },
     {
-        "title": "Critical Veeam ONE Flaw Lets Unauthenticated Attackers Coerce SMB Authentication From Service Accounts",
-        "date": "Thu, 27 Aug 2026 09:30:34 +0000",
-        "url": "https://gbhackers.com/critical-veeam-one-flaw-2/",
-        "source": "GBHackers",
-        "summary": "Veeam has released security updates for a critical vulnerability in Veeam ONE that could allow an unauthenticated network attacker to coerce SMB authentication from the account running an affected ser",
+        "title": "Lemonade 11.8 Makes It Easy To Run DeepSeek V4 Flash On AMD Strix Halo",
+        "date": "Thu, 27 Aug 2026 09:19:36 -0400",
+        "url": "https://www.phoronix.com/news/AMD-Lemonade-11.8",
+        "source": "Phoronix",
+        "summary": "For those interested in making use of the recently released DeepSeek V4 Flash model, AMD developers have released Lemonade 11.8 that now makes it rather trivial to get DeepSeek V4 Flash up and running",
+        "cve": []
+    },
+    {
+        "title": "Libgcrypt 1.12.3 Brings Intel SM3 / SM4 / SHA512 Optimizations",
+        "date": "Thu, 27 Aug 2026 08:21:33 -0400",
+        "url": "https://www.phoronix.com/news/libgcrypt-1.12.3",
+        "source": "Phoronix",
+        "summary": "Werner Koch announced today the release of Libgcrypt 1.12.3 with various bug fixes and more exciting are the performance improvements...",
         "cve": []
     }
 ]
