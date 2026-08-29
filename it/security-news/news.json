@@ -1,5 +1,13 @@
 [
     {
+        "title": "Brave browser adds email aliases to help users evade tracking",
+        "date": "Sat, 29 Aug 2026 10:19:23 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+        "source": "BleepingComputer",
+        "summary": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]",
+        "cve": []
+    },
+    {
         "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
         "date": "Fri, 28 Aug 2026 18:40:17 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
         "source": "BleepingComputer",
         "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [.",
-        "cve": []
-    },
-    {
-        "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-        "date": "Thu, 27 Aug 2026 17:38:53 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-        "source": "BleepingComputer",
-        "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,14 @@
         "cve": []
     },
     {
+        "title": "Malvertising Is Moving From Deceptive Content to Weaponized Infrastructure",
+        "date": "Sat, 29 Aug 2026 07:08:41 +0000",
+        "url": "https://cybersecuritynews.com/malvertising-is-moving-from-deceptive-content-to-weaponized-infrastructure/",
+        "source": "CyberSecurityNews",
+        "summary": "Malvertising is becoming harder to identify by looking at the ad itself. A growing share of malicious advertising activity now depends on what happens after the click: redirect chains, disposable doma",
+        "cve": []
+    },
+    {
         "title": "700 AI Agents Secretly Coordinated to Hack Hugging Face After Breaking Their Isolation",
         "date": "Sat, 29 Aug 2026 01:57:59 +0000",
         "url": "https://cybersecuritynews.com/700-ai-agents-coordinated-to-hack-hugging-face/",
@@ -227,14 +235,6 @@
         "title": "Hackers Compromise Hundreds of WordPress Sites to Deploy Amatera Stealer via ClickFix",
         "date": "Fri, 28 Aug 2026 13:31:35 +0000",
         "url": "https://cybersecuritynews.com/deploy-amatera-stealer/",
-        "source": "CyberSecurityNews",
-        "summary": "A fake student resume is being used to place a remote-access tool on researchers’ Windows computers. The campaign hides a Windows executable inside an archive that appears to contain a graduate-school",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Fake Student Resume to Secretly Install Malware on Researchers’ Computers",
-        "date": "Fri, 28 Aug 2026 11:55:37 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-fake-student-resume/",
         "source": "CyberSecurityNews",
         "summary": "A fake student resume is being used to place a remote-access tool on researchers’ Windows computers. The campaign hides a Windows executable inside an archive that appears to contain a graduate-school",
         "cve": []
@@ -320,6 +320,38 @@
         "cve": []
     },
     {
+        "title": "Hackers Compromise TanStack Query npm Package to Steal Developer Credentials",
+        "date": "Sat, 29 Aug 2026 08:29:01 +0000",
+        "url": "https://gbhackers.com/hackers-compromise-tanstack-query-npm-package/",
+        "source": "GBHackers",
+        "summary": "A supply-chain worm has compromised multiple releases of @7nohe/openapi-react-query-codegen, an npm package that generates type-safe TanStack Query hooks. Aikido Security said it identified 10 malicio",
+        "cve": []
+    },
+    {
+        "title": "Critical Gogs Flaw Enables Remote Code Execution Through Path Traversal",
+        "date": "Sat, 29 Aug 2026 08:03:29 +0000",
+        "url": "https://gbhackers.com/critical-gogs-flaw-enables-remote-code-execution/",
+        "source": "GBHackers",
+        "summary": "A critical vulnerability in Gogs, the self-hosted Git service, could allow authenticated attackers to execute commands on the server by abusing path traversal during creation. Tracked as CVE-2026-5281",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Fake Cloudflare CAPTCHA to Deploy TerminalFix Reverse Tunnel",
+        "date": "Sat, 29 Aug 2026 07:44:38 +0000",
+        "url": "https://gbhackers.com/hackers-use-fake-cloudflare-captcha/",
+        "source": "GBHackers",
+        "summary": "A newly documented TerminalFix campaign is using fake Cloudflare CAPTCHA prompts to trick users into manually executing malicious PowerShell commands, ultimately turning compromised Windows devices in",
+        "cve": []
+    },
+    {
+        "title": "Chinese Hackers Deploy PackClient RAT via Tax-Themed Phishing Attacks to Steal Data",
+        "date": "Sat, 29 Aug 2026 07:19:08 +0000",
+        "url": "https://gbhackers.com/chinese-hackers-deploy-packclient-rat/",
+        "source": "GBHackers",
+        "summary": "A Chinese-speaking threat actor tracked as TA4922 is deploying the PackClient remote access trojan via tax-themed phishing campaigns targeting organizations in mainland China and India. The activity, ",
+        "cve": []
+    },
+    {
         "title": "Attackers Exploit MCP RCE, Blind Prompt Injection and Memory Credential Theft Against AI Infrastructure",
         "date": "Fri, 28 Aug 2026 13:31:52 +0000",
         "url": "https://gbhackers.com/mcp-rce-exploitation/",
@@ -365,38 +397,6 @@
         "url": "https://gbhackers.com/iran-linked-cyberattack/",
         "source": "GBHackers",
         "summary": "A cyber incident reportedly forced a small UK power generation facility offline for about four days in July 2026. While the activity has been linked in reporting to Iran-affiliated hackers, the UK gov",
-        "cve": []
-    },
-    {
-        "title": "Researchers Execute Code Inside Fortune 500 Companies via AI Agent llms.txt Files",
-        "date": "Fri, 28 Aug 2026 11:09:04 +0000",
-        "url": "https://gbhackers.com/researchers-execute-code-inside-fortune-500-companies/",
-        "source": "GBHackers",
-        "summary": "Security researchers have shown that AI coding agents can be manipulated into installing attacker-controlled packages by following instructions found in organizations&#8217; own llms.txt files. This r",
-        "cve": []
-    },
-    {
-        "title": "BlueDelta Targets Defense and Diplomatic Organizations With HOOKEDGE Malware",
-        "date": "Fri, 28 Aug 2026 10:35:15 +0000",
-        "url": "https://gbhackers.com/hookedge-malware-campaign/",
-        "source": "GBHackers",
-        "summary": "Russian state-linked threat actor BlueDelta has launched a renewed espionage campaign against defense manufacturing, government, and diplomatic organizations in Romania, Spain, and Türkiye using a lig",
-        "cve": []
-    },
-    {
-        "title": "Unitree G1 Humanoid Robot Flaws Allow Unauthenticated Root RCE Over Bluetooth",
-        "date": "Fri, 28 Aug 2026 08:58:15 +0000",
-        "url": "https://gbhackers.com/unitree-g1-humanoid-robot-flaws/",
-        "source": "GBHackers",
-        "summary": "Security researcher Boschko has revealed two vulnerabilities in Unitree’s G1 humanoid robot that can be exploited to achieve unauthenticated remote code execution (RCE) from nearby devices via Bluetoo",
-        "cve": []
-    },
-    {
-        "title": "TITAN RaaS Uses AI for Data Classification, Regulatory Analysis and Automated Ransom Calculation",
-        "date": "Fri, 28 Aug 2026 08:15:37 +0000",
-        "url": "https://gbhackers.com/titan-raas-uses-ai/",
-        "source": "GBHackers",
-        "summary": "A newly emerged ransomware-as-a-service operation named TITAN is advertising an AI-driven extortion platform that it claims can autonomously classify stolen corporate data, identify regulatory risk. F",
         "cve": []
     }
 ]
