@@ -1,5 +1,13 @@
 [
     {
+        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "date": "Fri, 28 Aug 2026 18:40:17 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+        "source": "BleepingComputer",
+        "summary": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extorti",
+        "cve": []
+    },
+    {
         "title": "PaperCut releases second emergency patch for exploited flaws",
         "date": "Fri, 28 Aug 2026 15:08:26 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
@@ -72,11 +80,11 @@
         "cve": []
     },
     {
-        "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-        "date": "Thu, 27 Aug 2026 12:31:53 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-        "source": "BleepingComputer",
-        "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+        "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+        "date": "Sat, 29 Aug 2026 03:00:52 +0530",
+        "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+        "source": "The Hacker News",
+        "summary": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortio",
         "cve": []
     },
     {
@@ -152,11 +160,27 @@
         "cve": []
     },
     {
-        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-        "date": "Fri, 28 Aug 2026 15:15:15 +0530",
-        "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-        "source": "The Hacker News",
-        "summary": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user.\n\nThe vul",
+        "title": "700 AI Agents Secretly Coordinated to Hack Hugging Face After Breaking Their Isolation",
+        "date": "Sat, 29 Aug 2026 01:57:59 +0000",
+        "url": "https://cybersecuritynews.com/700-ai-agents-coordinated-to-hack-hugging-face/",
+        "source": "CyberSecurityNews",
+        "summary": "A large group of AI agents reportedly bypassed their intended isolation, created a covert communication channel, and coordinated an attack on Hugging Face infrastructure. An independent investigation ",
+        "cve": []
+    },
+    {
+        "title": "Critical ServiceNow Flaws Let Attackers Execute Code and Access Data",
+        "date": "Sat, 29 Aug 2026 01:54:59 +0000",
+        "url": "https://cybersecuritynews.com/servicenow-fixes-critical-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "ServiceNow has released security updates for four vulnerabilities in its Now Platform and ServiceNow AI platform, including three critical flaws that could allow unauthenticated attackers to execute c",
+        "cve": []
+    },
+    {
+        "title": "Hackers Can Take Full Control of Unitree G1 Humanoid Robots Over Bluetooth",
+        "date": "Sat, 29 Aug 2026 01:52:56 +0000",
+        "url": "https://cybersecuritynews.com/unitree-g1-robots-over-bluetooth/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical attack chain could let attackers within Bluetooth range take full control of Unitree G1 humanoid robots, gaining root-level code execution on the locomotion computer that controls movement,",
         "cve": []
     },
     {
@@ -213,30 +237,6 @@
         "url": "https://cybersecuritynews.com/hackers-use-fake-student-resume/",
         "source": "CyberSecurityNews",
         "summary": "A fake student resume is being used to place a remote-access tool on researchers’ Windows computers. The campaign hides a Windows executable inside an archive that appears to contain a graduate-school",
-        "cve": []
-    },
-    {
-        "title": "Russian University Leak Exposes GRU Cyber Training Pipeline Behind APT28 and Sandworm",
-        "date": "Fri, 28 Aug 2026 10:48:32 +0000",
-        "url": "https://cybersecuritynews.com/russian-university-leak/",
-        "source": "CyberSecurityNews",
-        "summary": "Leaked university records have opened an unusual window into Russia’s military cyber ecosystem. The documents point to a structured training program, not a newly discovered piece of malware, that appe",
-        "cve": []
-    },
-    {
-        "title": "Dark Caracal Hackers Use Ethereum Blockchain to Keep New Malware Connected After C2 Disruption",
-        "date": "Fri, 28 Aug 2026 07:54:17 +0000",
-        "url": "https://cybersecuritynews.com/dark-caracal-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "Dark Caracal has returned with a new tool that helps attackers stay connected when defenders shut down their control servers. The cyberespionage group is linked by researchers to a Venezuelan communic",
-        "cve": []
-    },
-    {
-        "title": "Claude Code Opus 5 Auto Mode Hijacked via Prompt Injection to Execute Malicious Code",
-        "date": "Fri, 28 Aug 2026 07:07:29 +0000",
-        "url": "https://cybersecuritynews.com/claude-code-opus-5-auto-mode-hijacked/",
-        "source": "CyberSecurityNews",
-        "summary": "Claude Code Opus 5 in Auto Mode can be tricked into running malicious code via a simple website summary request. In a limited lab test, the attack reportedly succeeded in 60% to 80% of attempts. The f",
         "cve": []
     },
     {
