@@ -1,5 +1,13 @@
 [
     {
+        "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+        "date": "Sat, 29 Aug 2026 19:11:51 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+        "source": "BleepingComputer",
+        "summary": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]",
+        "cve": []
+    },
+    {
         "title": "Brave browser adds email aliases to help users evade tracking",
         "date": "Sat, 29 Aug 2026 10:19:23 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
@@ -72,11 +80,11 @@
         "cve": []
     },
     {
-        "title": "Windows 11 KB5120998 update released with 35 changes and fixes",
-        "date": "Fri, 28 Aug 2026 05:10:13 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [.",
+        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+        "date": "Sat, 29 Aug 2026 21:55:03 +0530",
+        "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+        "source": "The Hacker News",
+        "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, a",
         "cve": []
     },
     {
@@ -152,11 +160,11 @@
         "cve": []
     },
     {
-        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
-        "date": "Fri, 28 Aug 2026 16:28:29 +0530",
-        "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-        "source": "The Hacker News",
-        "summary": "VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the a",
+        "title": "OpenAI Is Pulling Its AI Models From Cursor Following SpaceX Acquisition",
+        "date": "Sat, 29 Aug 2026 16:44:24 +0000",
+        "url": "https://cybersecuritynews.com/openai-models-ends-with-cursor/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenAI is pulling its AI models from Cursor following SpaceX’s acquisition of the AI coding assistant, notifying SpaceX that it will wind down the contract that supplies those models to the editor. Th",
         "cve": []
     },
     {
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/ransomware-gang-claims-ai/",
         "source": "CyberSecurityNews",
         "summary": "TITAN ransomware is pairing file encryption with an ambitious claim: artificial intelligence that can sort through 700GB of stolen corporate data every hour. The group says the system helps it quickly",
-        "cve": []
-    },
-    {
-        "title": "Hackers Compromise Hundreds of WordPress Sites to Deploy Amatera Stealer via ClickFix",
-        "date": "Fri, 28 Aug 2026 13:31:35 +0000",
-        "url": "https://cybersecuritynews.com/deploy-amatera-stealer/",
-        "source": "CyberSecurityNews",
-        "summary": "A fake student resume is being used to place a remote-access tool on researchers’ Windows computers. The campaign hides a Windows executable inside an archive that appears to contain a graduate-school",
         "cve": []
     },
     {
