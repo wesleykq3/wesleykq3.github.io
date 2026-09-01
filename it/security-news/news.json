@@ -1,5 +1,53 @@
 [
     {
+        "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
+        "date": "Tue, 01 Sep 2026 10:45:06 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
+        "source": "BleepingComputer",
+        "summary": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecting update requests to malicious servers. [...]",
+        "cve": []
+    },
+    {
+        "title": "Novocure data breach affects more than 1,400 cancer patients",
+        "date": "Tue, 01 Sep 2026 10:28:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
+        "source": "BleepingComputer",
+        "summary": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
+        "cve": []
+    },
+    {
+        "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+        "date": "Tue, 01 Sep 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
+        "source": "BleepingComputer",
+        "summary": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment a",
+        "cve": []
+    },
+    {
+        "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+        "date": "Tue, 01 Sep 2026 08:38:35 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
+        "cve": []
+    },
+    {
+        "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
+        "date": "Tue, 01 Sep 2026 05:15:07 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
+        "source": "BleepingComputer",
+        "summary": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]",
+        "cve": []
+    },
+    {
+        "title": "Recently patched PaperCut zero-days used in data theft attacks",
+        "date": "Tue, 01 Sep 2026 03:48:24 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being abused in data theft attacks. [...]",
+        "cve": []
+    },
+    {
         "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
         "date": "Mon, 31 Aug 2026 16:47:54 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
@@ -16,7 +64,7 @@
         "cve": []
     },
     {
-        "title": "Microsoft Exchange Online outage causes email failures, auth issues",
+        "title": "Massive Microsoft 365 outage causes auth issues, service failures",
         "date": "Mon, 31 Aug 2026 12:56:57 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
         "source": "BleepingComputer",
@@ -32,51 +80,51 @@
         "cve": []
     },
     {
-        "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
-        "date": "Mon, 31 Aug 2026 10:52:03 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
-        "source": "BleepingComputer",
-        "summary": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running configur",
+        "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+        "date": "Tue, 01 Sep 2026 19:37:20 +0530",
+        "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install",
         "cve": []
     },
     {
-        "title": "File servers are here to stay. Here’s how to manage them securely",
-        "date": "Mon, 31 Aug 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
-        "source": "BleepingComputer",
-        "summary": "File servers remain a critical part of many IT environments, but managing access securely can become complex as permissions accumulate. tenfold Software outlines five best practices for simplifying fi",
+        "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+        "date": "Tue, 01 Sep 2026 18:38:58 +0530",
+        "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+        "source": "The Hacker News",
+        "summary": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting foo",
         "cve": []
     },
     {
-        "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
-        "date": "Mon, 31 Aug 2026 09:30:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
-        "source": "BleepingComputer",
-        "summary": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
+        "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+        "date": "Tue, 01 Sep 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+        "source": "The Hacker News",
+        "summary": "The most common way into a company last year was to ask.\n\nA web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. ",
         "cve": []
     },
     {
-        "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
-        "date": "Mon, 31 Aug 2026 06:23:46 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that mouse settings are being reverted on Windows 11 systems after installing the KB5120998 August 2026 non-security preview update. [...]",
+        "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+        "date": "Tue, 01 Sep 2026 14:35:30 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+        "source": "The Hacker News",
+        "summary": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-hori",
         "cve": []
     },
     {
-        "title": "Nigerians extradited to US for sextortion, deaths of two teens",
-        "date": "Mon, 31 Aug 2026 05:22:47 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/",
-        "source": "BleepingComputer",
-        "summary": "Two Nigerian men extradited to the U.S. on Thursday have been charged with involvement in sextortion schemes that resulted in the deaths of two minor victims in Mississippi and North Carolina. [...]",
+        "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+        "date": "Tue, 01 Sep 2026 13:56:24 +0530",
+        "url": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interf",
         "cve": []
     },
     {
-        "title": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
-        "date": "Mon, 31 Aug 2026 04:29:42 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft asked customers this week to ignore alerts that Defender Antivirus has been turned off after installing the latest Defender updates. [...]",
+        "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+        "date": "Tue, 01 Sep 2026 12:52:30 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (C",
         "cve": []
     },
     {
@@ -112,131 +160,85 @@
         "cve": []
     },
     {
-        "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-        "date": "Mon, 31 Aug 2026 17:01:47 +0530",
-        "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-        "source": "The Hacker News",
-        "summary": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams their",
-        "cve": []
-    },
-    {
-        "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-        "date": "Mon, 31 Aug 2026 14:34:55 +0530",
-        "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-        "source": "The Hacker News",
-        "summary": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control Sys",
-        "cve": []
-    },
-    {
-        "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-        "date": "Mon, 31 Aug 2026 13:26:53 +0530",
-        "url": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now poin",
-        "cve": []
-    },
-    {
-        "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
-        "date": "Sun, 30 Aug 2026 13:06:33 +0530",
-        "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
-        "source": "The Hacker News",
-        "summary": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.\n\n\"While traditional ClickFix",
-        "cve": []
-    },
-    {
-        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-        "date": "Sat, 29 Aug 2026 21:55:03 +0530",
-        "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-        "source": "The Hacker News",
-        "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, a",
-        "cve": []
-    },
-    {
-        "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-        "date": "Sat, 29 Aug 2026 03:00:52 +0530",
-        "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-        "source": "The Hacker News",
-        "summary": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortio",
-        "cve": []
-    },
-    {
-        "title": "Broadcom Launches VMware AI Factory to Secure Enterprise AI Agents",
-        "date": "Mon, 31 Aug 2026 16:43:51 +0000",
-        "url": "https://cybersecuritynews.com/broadcom-vmware-ai-factory/",
+        "title": "Attackers Abuse Trusted Cloud Services to Hide Phishing Attacks Against Financial Organizations",
+        "date": "Tue, 01 Sep 2026 15:04:20 +0000",
+        "url": "https://cybersecuritynews.com/trusted-cloud-services-phishing-attacks/",
         "source": "CyberSecurityNews",
-        "summary": "Broadcom unveiled VMware AI Factory at VMware Explore 2026 in Las Vegas, introducing a software-defined foundation within VMware Private AI Cloud designed to help enterprises deploy, govern, and secur",
+        "summary": "Cybercriminals are increasingly weaponizing trusted cloud platforms such as Microsoft Azure, Google Firebase, Google Cloud Storage, Amazon Web Services, and Cloudflare to host phishing infrastructure ",
         "cve": []
     },
     {
-        "title": "Microsoft Investigating New Exchange Online Outage Tracked as EX1464935 [Updated]",
-        "date": "Mon, 31 Aug 2026 16:40:42 +0000",
-        "url": "https://cybersecuritynews.com/microsof-new-exchange-online/",
+        "title": "Five Hackers Plead Guilty to ATM Jackpotting Attacks Using Malware to Dispense Cash",
+        "date": "Tue, 01 Sep 2026 13:57:15 +0000",
+        "url": "https://cybersecuritynews.com/hackers-plead-guilty-to-atm-jackpotting-attacks/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has opened an active investigation into a new Exchange Online disruption after a wave of user reports flagged access and mail-flow problems across the cloud-based email service. The incident",
+        "summary": "Five Venezuelan nationals have pleaded guilty in a U.S. federal case involving attempted ATM jackpotting attacks. This criminal technique uses malware to force cash machines to dispense money without ",
         "cve": []
     },
     {
-        "title": "CISA Warns of Multiple PaperCut NG/MF Vulnerabilities Actively Exploited in Attacks",
-        "date": "Mon, 31 Aug 2026 15:56:28 +0000",
-        "url": "https://cybersecuritynews.com/papercut-ng-mf-vulnerabilities-exploited/",
+        "title": "Hackers Actively Exploiting Critical Langflow RCE and Rails Vulnerability",
+        "date": "Tue, 01 Sep 2026 13:52:27 +0000",
+        "url": "https://cybersecuritynews.com/langflow-rce-and-rails-vulnerability-exploited/",
         "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two vulnerabilities affecting PaperCut NG and PaperCut MF to its Known Exploited Vulnerabilities (KEV) Catalog, warning that ",
+        "summary": "Two critical vulnerabilities affecting Langflow and Ruby on Rails deployments are being actively exploited, with attackers quickly moving from public disclosure to reconnaissance, secret harvesting, a",
         "cve": []
     },
     {
-        "title": "D-Link Router Flaws Let Unauthenticated Attackers Change Admin Password and Steal Wi-Fi Credentials",
-        "date": "Mon, 31 Aug 2026 15:44:40 +0000",
-        "url": "https://cybersecuritynews.com/d-link-router-flaws/",
+        "title": "Hackers Pose as Recruiters and Send Fake Coding Tests to Infect Software Developers",
+        "date": "Tue, 01 Sep 2026 13:40:54 +0000",
+        "url": "https://cybersecuritynews.com/fake-coding-tests/",
         "source": "CyberSecurityNews",
-        "summary": "D-Link has released a firmware update for critical access-control and information-disclosure flaws affecting its DIR-X1860Z router. The vulnerabilities could allow an unauthenticated attacker connecte",
+        "summary": "Cybercriminals are posing as recruiters to turn routine job interviews into malware traps for software developers. Their latest campaign delivers two cross-platform remote access tools, NodeRabbit and",
         "cve": []
     },
     {
-        "title": "HardBreacher PoC Claims Kaspersky Endpoint 0-Day Privilege Escalation on Windows 11",
-        "date": "Mon, 31 Aug 2026 15:16:02 +0000",
-        "url": "https://cybersecuritynews.com/hardbreacher-kaspersky-zero-day/",
+        "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
+        "date": "Tue, 01 Sep 2026 13:30:02 +0000",
+        "url": "https://cybersecuritynews.com/hackers-weaponize-microsoft-teams/",
         "source": "CyberSecurityNews",
-        "summary": "HardBreacher’s newly published PoC claims a local privilege-escalation flaw in Kaspersky Endpoint Security on fully patched Windows 11 systems, but the issue remains unverified and has not been public",
+        "summary": "Attackers are turning Microsoft Teams help desk calls into an entry point for malware and network compromise. A campaign tracked as Spring Ring used external accounts that resembled internal IT suppor",
         "cve": []
     },
     {
-        "title": "Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India",
-        "date": "Mon, 31 Aug 2026 14:12:41 +0000",
-        "url": "https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor/",
+        "title": "Boston Scientific Cyberattack Disrupts Medical Device Manufacturing and Global Operations",
+        "date": "Tue, 01 Sep 2026 13:15:21 +0000",
+        "url": "https://cybersecuritynews.com/boston-scientific-cyberattack/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are using adware to deliver ValleyRAT, a Windows backdoor. The campaign primarily affects users in China and India, turning a program expected to display ads into a route for spying, theft, an",
+        "summary": "Boston Scientific is investigating a cybersecurity incident that disrupted parts of its global operations, affecting manufacturing, order processing, and product shipments. The company said the incide",
         "cve": []
     },
     {
-        "title": "Security Risk Advisors Launches SCALR AI as a Free SOC AI Platform for Security Teams",
-        "date": "Mon, 31 Aug 2026 14:04:18 +0000",
-        "url": "https://cybersecuritynews.com/security-risk-advisors-launches-scalr-ai-as-a-free-soc-ai-platform-for-security-teams/",
+        "title": "Hackers Pose as OpenAI, Anthropic and DeepSeek to Steal Credentials and Secrets",
+        "date": "Tue, 01 Sep 2026 13:10:55 +0000",
+        "url": "https://cybersecuritynews.com/hackers-pose-as-openai-anthropic-to-steal-secrets/",
         "source": "CyberSecurityNews",
-        "summary": "Philadelphia, Pennsylvania, United States, August 24th, 2026, CyberNewswire Security Risk Advisors (SRA), the authors of the free VECTR platform, announce today another great free platform launch: SCA",
+        "summary": "Threat actors are impersonating web crawlers from OpenAI, Anthropic, DeepSeek, and other major organizations to scan websites for exposed credentials and sensitive configuration files, targeting misco",
         "cve": []
     },
     {
-        "title": "Top 10 Best Cyber Threat Intelligence Companies in 2026",
-        "date": "Mon, 31 Aug 2026 13:53:26 +0000",
-        "url": "https://cybersecuritynews.com/best-cyber-threat-intelligence-companies-2/",
+        "title": "JFrog Artifactory Auth Bypass Exploited in Attacks to Gain Admin Access",
+        "date": "Tue, 01 Sep 2026 13:06:01 +0000",
+        "url": "https://cybersecuritynews.com/jfrog-artifactory-auth-bypass-exploited/",
         "source": "CyberSecurityNews",
-        "summary": "Cybersecurity defines survival in the digital-first era, where organizations battle advanced persistent threats daily. Cyber Threat Intelligence (CTI) companies deliver real-time insights, actionable ",
+        "summary": "A critical authentication bypass vulnerability in JFrog Artifactory, tracked as CVE-2026-82329, is being actively exploited, allowing unauthenticated attackers with network access to gain administrato",
         "cve": []
     },
     {
-        "title": "EU Designates ChatGPT as Very Large Online Search Engine After Crossing 45 Million Users",
-        "date": "Mon, 31 Aug 2026 13:36:14 +0000",
-        "url": "https://cybersecuritynews.com/eu-designates-chatgpt/",
+        "title": "21,000+ Microsoft Exchange Servers Remain Exposed to Active CVE-2026-62911 Exploitation",
+        "date": "Tue, 01 Sep 2026 12:51:09 +0000",
+        "url": "https://cybersecuritynews.com/exchange-servers-remain-exposed-2026-62911/",
         "source": "CyberSecurityNews",
-        "summary": "The European Commission on Monday designated OpenAI&#8217;s ChatGPT as a Very Large Online Search Engine under the Digital Services Act, after the chatbot declared that it reaches at least 45 million ",
-        "cve": []
+        "summary": "Nearly 22,000 Microsoft Exchange servers worldwide are still running unpatched for CVE-2026-62911, a critical authentication-bypass vulnerability that attackers can exploit to seize control of enterpr",
+        "cve": [
+            "CVE-2026-62911"
+        ]
     },
     {
-        "title": "Brave Unveils New Email Aliases to Keep Your Personal Email Address Private",
-        "date": "Mon, 31 Aug 2026 13:02:11 +0000",
-        "url": "https://cybersecuritynews.com/brave-unveils-new-email-aliases/",
+        "title": "Hackers Abuse Real ChatGPT Links to Trick Windows Users Into Installing Malware",
+        "date": "Tue, 01 Sep 2026 12:45:18 +0000",
+        "url": "https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links/",
         "source": "CyberSecurityNews",
-        "summary": "Brave has introduced a new Email Aliases feature in desktop browser version 1.94, allowing users to sign up for websites without sharing their real email address. The privacy-focused feature generates",
+        "summary": "Windows users are being targeted through a malicious campaign that turns a ChatGPT shared link into the step of a malware infection. Rather than breaking into the AI platform, the operators place a de",
         "cve": []
     },
     {
@@ -320,83 +322,83 @@
         "cve": []
     },
     {
-        "title": "Aurora Ransomware Hackers Use Cursor AI Agent for Hands-On Exploitation and ESXi Attacks",
-        "date": "Mon, 31 Aug 2026 13:33:59 +0000",
-        "url": "https://gbhackers.com/cursor-ai-powered-ransomware/",
+        "title": "Mirage Kitten Hackers Use Fake Coding Challenges to Deploy NodeRabbit and PollCat RATs",
+        "date": "Tue, 01 Sep 2026 13:28:58 +0000",
+        "url": "https://gbhackers.com/mirage-kitten-campaign/",
         "source": "GBHackers",
-        "summary": "Aurora ransomware operators have been observed using Cursor Agent, powered by Claude Sonnet, to support hands-on intrusion activity across ten victim organizations, while deploying a purpose-built Lin",
+        "summary": "Iran-linked threat actor Mirage Kitten is targeting software developers with fake recruitment assessments that hide two newly identified cross-platform remote access trojans: NodeRabbit and PollCat. T",
         "cve": []
     },
     {
-        "title": "HardBreacher Exploit Targets Kaspersky Endpoint Security Zero-Day for Windows 11 Privilege Escalation",
-        "date": "Mon, 31 Aug 2026 13:18:45 +0000",
-        "url": "https://gbhackers.com/hardbreacher-exploit-targets-kaspersky-endpoint-security/",
+        "title": "Hackers Exploit Critical Langflow and Ruby on Rails Flaws in Active RCE Attacks",
+        "date": "Tue, 01 Sep 2026 13:08:17 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-langflow-rce-flaw/",
         "source": "GBHackers",
-        "summary": "A proof of concept called HardBreacher allegedly exploits an unpatched local privilege escalation flaw in Kaspersky Antivirus for Endpoint. This vulnerability allows a local user to control a privileg",
+        "summary": "Threat actors are actively exploiting two newly disclosed remote code execution vulnerabilities affecting Langflow and Ruby on Rails. These campaigns focus on cloud credential theft, host reconnaissan",
         "cve": []
     },
     {
-        "title": "Chrome and Edge Extensions Strip CSP and Inject JavaScript to Drain EVM, Solana and Tron Wallets",
-        "date": "Mon, 31 Aug 2026 12:48:45 +0000",
-        "url": "https://gbhackers.com/chrome-and-edge-extensions/",
+        "title": "Hackers Pose as IT Support on Microsoft Teams to Target More Than 150 Employees",
+        "date": "Tue, 01 Sep 2026 13:00:22 +0000",
+        "url": "https://gbhackers.com/microsoft-teams-it-support-scam/",
         "source": "GBHackers",
-        "summary": "Research identified 19 malicious browser extensions 18 for Google Chrome and 1 for Microsoft Edge that use a modular malware framework to strip website Content Security Policy protections, inject atta",
+        "summary": "A coordinated social-engineering campaign dubbed Spring Ring used external Microsoft Teams accounts to impersonate corporate IT help desk staff and target more than 150 employees across at least 10 or",
         "cve": []
     },
     {
-        "title": "Metasploit Adds Exploit for PaperCut MF/NG Zero-Day RCE Vulnerabilities",
-        "date": "Mon, 31 Aug 2026 12:06:08 +0000",
-        "url": "https://gbhackers.com/metasploit-adds-exploit-for-papercut-mf-ng-zero-day/",
+        "title": "Five Plead Guilty to Using ATM Jackpotting Malware in Cash Theft Scheme",
+        "date": "Tue, 01 Sep 2026 12:49:22 +0000",
+        "url": "https://gbhackers.com/five-plead-guilty-to-using-atm-jackpotting-malware/",
         "source": "GBHackers",
-        "summary": "Rapid7&#8217;s Metasploit Framework is set to add an exploit module targeting the actively exploited chain of vulnerabilities affecting PaperCut MF and PaperCut NG. This addition will provide public o",
+        "summary": "Five Venezuelan nationals have pleaded guilty in a federal case involving attempts to deploy ATM jackpotting malware against cash machines in Kansas. This case highlights a growing cyber-physical thre",
         "cve": []
     },
     {
-        "title": "OpenClaw 2.0 Released With Enhanced AI Agent Security and Credential Protection",
-        "date": "Mon, 31 Aug 2026 12:02:36 +0000",
-        "url": "https://gbhackers.com/openclaw-2-0-released/",
+        "title": "Hackers Abuse Legitimate ChatGPT Shared Links to Deploy NetSupport RAT",
+        "date": "Tue, 01 Sep 2026 12:44:00 +0000",
+        "url": "https://gbhackers.com/chatgpt-links-abused/",
         "source": "GBHackers",
-        "summary": "OpenClaw has launched version 2.0, offering a major overhaul of its AI-agent platform. This update emphasizes streamlined deployment, a rebuilt browser experience, collaborative cloud sessions, and en",
+        "summary": "Threat actors are abusing legitimate ChatGPT shared-conversation URLs to host social-engineering lures that steer victims into a ClickFix-style infection chain, ultimately delivering a NetSupport remo",
         "cve": []
     },
     {
-        "title": "Shai-Hulud Trinitite Worm Infects Popular TanStack Query npm Package to Steal Developer Secrets",
-        "date": "Mon, 31 Aug 2026 10:21:35 +0000",
-        "url": "https://gbhackers.com/shai-hulud-trinitite-worm/",
+        "title": "JSCeal Crypto Stealer Uses V8 Bytecode to Steal Browser Credentials and Intercept HTTPS",
+        "date": "Tue, 01 Sep 2026 12:09:04 +0000",
+        "url": "https://gbhackers.com/jsceal-crypto-stealer/",
         "source": "GBHackers",
-        "summary": "A new Shai-Hulud supply-chain attack dubbed Trinitite has compromised the npm package @7nohe/openapi-react-query-codegen, a TanStack Query code-generation library with more than 150,000 weekly downloa",
+        "summary": "A sophisticated cryptocurrency-focused information stealer that hides its malicious logic inside compiled V8 JavaScript bytecode. JSCeal, also tracked by some vendors as WEEVILPROXY or MeadowLocust, i",
         "cve": []
     },
     {
-        "title": "Microsoft Defender Bug Triggers False “Antivirus Turned Off” Alerts on Windows",
-        "date": "Mon, 31 Aug 2026 09:51:33 +0000",
-        "url": "https://gbhackers.com/microsoft-defender-bug-triggers-false-antivirus-turned-off-alerts/",
+        "title": "Critical JFrog Artifactory Authentication Bypass Exploited in the Wild",
+        "date": "Tue, 01 Sep 2026 12:03:38 +0000",
+        "url": "https://gbhackers.com/critical-jfrog-artifactory-authentication-bypass-exploited/",
         "source": "GBHackers",
-        "summary": "Microsoft has confirmed an issue with Microsoft Defender Antivirus that generates false notifications on Windows systems, claiming &#8220;Microsoft Defender Antivirus is turned off,&#8221; even though",
+        "summary": "Security researchers have issued warnings that attackers are actively exploiting a critical authentication bypass vulnerability in JFrog Artifactory, tracked as CVE-2026-82329. This vulnerability allo",
         "cve": []
     },
     {
-        "title": "AI Shopping Assistant Vulnerabilities Enable Remote Code Execution on Retailer’s Servers",
-        "date": "Mon, 31 Aug 2026 09:33:26 +0000",
-        "url": "https://gbhackers.com/ai-shopping-assistant-vulnerabilities/",
+        "title": "Boston Scientific Cyberattack Disrupts Manufacturing and Product Shipments",
+        "date": "Tue, 01 Sep 2026 10:28:20 +0000",
+        "url": "https://gbhackers.com/boston-scientific-cyberattack/",
         "source": "GBHackers",
-        "summary": "Security researchers have demonstrated how flaws in the AI shopping assistant of a major unnamed U.S. retailer could be exploited to enable remote code execution (RCE) on the company’s backend infrast",
+        "summary": "Boston Scientific is working to restore its manufacturing, order processing, and distribution capabilities following a cybersecurity incident that caused a network outage across certain internal IT sy",
         "cve": []
     },
     {
-        "title": "Android 17 Adds New Network Security Features to Block 2G SMS Blaster Attacks",
-        "date": "Mon, 31 Aug 2026 09:17:07 +0000",
-        "url": "https://gbhackers.com/android-17-adds-new-network-security-features/",
+        "title": "AI-Enhanced BraZetsu Malware Powers Underground Market Selling Access to Corporate Networks",
+        "date": "Tue, 01 Sep 2026 09:39:01 +0000",
+        "url": "https://gbhackers.com/ai-enhanced-brazetsu-malware/",
         "source": "GBHackers",
-        "summary": "Android 17 introduces a new set of network security controls to reduce cellular downgrade attacks, protect local networks, and limit metadata exposure during encrypted web sessions. This update includ",
+        "summary": "BraZetsu, a Python-based Windows malware framework allegedly operated by the Brazilian threat actor Exilware to identify, profile, and monetize compromised corporate systems. Rather than behaving like",
         "cve": []
     },
     {
-        "title": "Magecart Hackers Abuse Ethereum Smart Contracts to Steal Card Data From 40+ Online Stores",
-        "date": "Mon, 31 Aug 2026 09:06:19 +0000",
-        "url": "https://gbhackers.com/magecart-campaign-3/",
+        "title": "Fake OpenAI, Anthropic and DeepSeek Crawlers Target .env Files and Cloud Credentials",
+        "date": "Tue, 01 Sep 2026 08:34:58 +0000",
+        "url": "https://gbhackers.com/fake-openai-anthropic-and-deepseek/",
         "source": "GBHackers",
-        "summary": "A Magecart campaign dubbed HexMage has compromised more than 40 e-commerce storefronts across at least 15 countries, using Ethereum smart contracts as a resilient delivery mechanism for payment-card s",
+        "summary": "Threat actors are impersonating AI web crawlers from organizations such as OpenAI, Anthropic, DeepSeek, Google, Perplexity, and Amazon to scan internet-facing servers for exposed secrets, according to",
         "cve": []
     }
 ]
