@@ -1,5 +1,29 @@
 [
     {
+        "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
+        "date": "Tue, 01 Sep 2026 16:53:23 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+        "source": "BleepingComputer",
+        "summary": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers and install the ScreenConnect remote support softwar",
+        "cve": []
+    },
+    {
+        "title": "Aesto Health says data breach affects over 9.5 million patients",
+        "date": "Tue, 01 Sep 2026 15:28:17 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
+        "source": "BleepingComputer",
+        "summary": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]",
+        "cve": []
+    },
+    {
+        "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+        "date": "Tue, 01 Sep 2026 13:54:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+        "source": "BleepingComputer",
+        "summary": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, an",
+        "cve": []
+    },
+    {
         "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
         "date": "Tue, 01 Sep 2026 10:45:06 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
@@ -56,27 +80,19 @@
         "cve": []
     },
     {
-        "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
-        "date": "Mon, 31 Aug 2026 14:51:04 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-        "source": "BleepingComputer",
-        "summary": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerShell commands in Windows Terminal. [...]",
+        "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+        "date": "Tue, 01 Sep 2026 23:23:11 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-",
         "cve": []
     },
     {
-        "title": "Massive Microsoft 365 outage causes auth issues, service failures",
-        "date": "Mon, 31 Aug 2026 12:56:57 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is investigating a widespread service issue causing authentication issues, email delays and failures, and various other issues for Exchange Online customers. [...]",
-        "cve": []
-    },
-    {
-        "title": "OpenAI confirms ChatGPT outage as users report errors",
-        "date": "Mon, 31 Aug 2026 12:50:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
-        "source": "BleepingComputer",
-        "summary": "ChatGPT Work is experiencing a partial outage, and users across multiple subscription plans may be unable to start or continue tasks. [...]",
+        "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+        "date": "Tue, 01 Sep 2026 22:49:24 +0530",
+        "url": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+        "source": "The Hacker News",
+        "summary": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024.\n\nGoogle Threat Inte",
         "cve": []
     },
     {
@@ -144,101 +160,11 @@
         "cve": []
     },
     {
-        "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-        "date": "Mon, 31 Aug 2026 17:44:00 +0530",
-        "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
-        "source": "The Hacker News",
-        "summary": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past us",
-        "cve": []
-    },
-    {
-        "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-        "date": "Mon, 31 Aug 2026 17:17:24 +0530",
-        "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to ",
-        "cve": []
-    },
-    {
-        "title": "Attackers Abuse Trusted Cloud Services to Hide Phishing Attacks Against Financial Organizations",
-        "date": "Tue, 01 Sep 2026 15:04:20 +0000",
-        "url": "https://cybersecuritynews.com/trusted-cloud-services-phishing-attacks/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are increasingly weaponizing trusted cloud platforms such as Microsoft Azure, Google Firebase, Google Cloud Storage, Amazon Web Services, and Cloudflare to host phishing infrastructure ",
-        "cve": []
-    },
-    {
-        "title": "Five Hackers Plead Guilty to ATM Jackpotting Attacks Using Malware to Dispense Cash",
-        "date": "Tue, 01 Sep 2026 13:57:15 +0000",
-        "url": "https://cybersecuritynews.com/hackers-plead-guilty-to-atm-jackpotting-attacks/",
-        "source": "CyberSecurityNews",
-        "summary": "Five Venezuelan nationals have pleaded guilty in a U.S. federal case involving attempted ATM jackpotting attacks. This criminal technique uses malware to force cash machines to dispense money without ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Actively Exploiting Critical Langflow RCE and Rails Vulnerability",
-        "date": "Tue, 01 Sep 2026 13:52:27 +0000",
-        "url": "https://cybersecuritynews.com/langflow-rce-and-rails-vulnerability-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "Two critical vulnerabilities affecting Langflow and Ruby on Rails deployments are being actively exploited, with attackers quickly moving from public disclosure to reconnaissance, secret harvesting, a",
-        "cve": []
-    },
-    {
-        "title": "Hackers Pose as Recruiters and Send Fake Coding Tests to Infect Software Developers",
-        "date": "Tue, 01 Sep 2026 13:40:54 +0000",
-        "url": "https://cybersecuritynews.com/fake-coding-tests/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are posing as recruiters to turn routine job interviews into malware traps for software developers. Their latest campaign delivers two cross-platform remote access tools, NodeRabbit and",
-        "cve": []
-    },
-    {
-        "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
-        "date": "Tue, 01 Sep 2026 13:30:02 +0000",
-        "url": "https://cybersecuritynews.com/hackers-weaponize-microsoft-teams/",
-        "source": "CyberSecurityNews",
-        "summary": "Attackers are turning Microsoft Teams help desk calls into an entry point for malware and network compromise. A campaign tracked as Spring Ring used external accounts that resembled internal IT suppor",
-        "cve": []
-    },
-    {
-        "title": "Boston Scientific Cyberattack Disrupts Medical Device Manufacturing and Global Operations",
-        "date": "Tue, 01 Sep 2026 13:15:21 +0000",
-        "url": "https://cybersecuritynews.com/boston-scientific-cyberattack/",
-        "source": "CyberSecurityNews",
-        "summary": "Boston Scientific is investigating a cybersecurity incident that disrupted parts of its global operations, affecting manufacturing, order processing, and product shipments. The company said the incide",
-        "cve": []
-    },
-    {
-        "title": "Hackers Pose as OpenAI, Anthropic and DeepSeek to Steal Credentials and Secrets",
-        "date": "Tue, 01 Sep 2026 13:10:55 +0000",
-        "url": "https://cybersecuritynews.com/hackers-pose-as-openai-anthropic-to-steal-secrets/",
-        "source": "CyberSecurityNews",
-        "summary": "Threat actors are impersonating web crawlers from OpenAI, Anthropic, DeepSeek, and other major organizations to scan websites for exposed credentials and sensitive configuration files, targeting misco",
-        "cve": []
-    },
-    {
-        "title": "JFrog Artifactory Auth Bypass Exploited in Attacks to Gain Admin Access",
-        "date": "Tue, 01 Sep 2026 13:06:01 +0000",
-        "url": "https://cybersecuritynews.com/jfrog-artifactory-auth-bypass-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical authentication bypass vulnerability in JFrog Artifactory, tracked as CVE-2026-82329, is being actively exploited, allowing unauthenticated attackers with network access to gain administrato",
-        "cve": []
-    },
-    {
-        "title": "21,000+ Microsoft Exchange Servers Remain Exposed to Active CVE-2026-62911 Exploitation",
-        "date": "Tue, 01 Sep 2026 12:51:09 +0000",
-        "url": "https://cybersecuritynews.com/exchange-servers-remain-exposed-2026-62911/",
-        "source": "CyberSecurityNews",
-        "summary": "Nearly 22,000 Microsoft Exchange servers worldwide are still running unpatched for CVE-2026-62911, a critical authentication-bypass vulnerability that attackers can exploit to seize control of enterpr",
-        "cve": [
-            "CVE-2026-62911"
-        ]
-    },
-    {
-        "title": "Hackers Abuse Real ChatGPT Links to Trick Windows Users Into Installing Malware",
-        "date": "Tue, 01 Sep 2026 12:45:18 +0000",
-        "url": "https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links/",
-        "source": "CyberSecurityNews",
-        "summary": "Windows users are being targeted through a malicious campaign that turns a ChatGPT shared link into the step of a malware infection. Rather than breaking into the AI platform, the operators place a de",
+        "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+        "date": "Tue, 01 Sep 2026 22:40:28 +0000",
+        "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+        "source": "krebsonsecurity",
+        "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with",
         "cve": []
     },
     {
@@ -314,91 +240,83 @@
         "cve": []
     },
     {
-        "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-        "date": "Thu, 02 Jul 2026 19:27:33 +0000",
-        "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-        "source": "krebsonsecurity",
-        "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicl",
+        "title": "Steam On Linux Dips Below 4% For August",
+        "date": "Tue, 01 Sep 2026 20:19:13 -0400",
+        "url": "https://www.phoronix.com/news/Steam-Survey-August-2026",
+        "source": "Phoronix",
+        "summary": "Valve just published the Steam Survey results for August 2026. After jumping above 4% in July, in August it fell back below that threshold. Meanwhile CachyOS continues gaining ground among Linux gamer",
         "cve": []
     },
     {
-        "title": "Mirage Kitten Hackers Use Fake Coding Challenges to Deploy NodeRabbit and PollCat RATs",
-        "date": "Tue, 01 Sep 2026 13:28:58 +0000",
-        "url": "https://gbhackers.com/mirage-kitten-campaign/",
-        "source": "GBHackers",
-        "summary": "Iran-linked threat actor Mirage Kitten is targeting software developers with fake recruitment assessments that hide two newly identified cross-platform remote access trojans: NodeRabbit and PollCat. T",
+        "title": "WinBtrfs 1.10 Released With Two Years Worth Of Improvements For Btrfs On Windows",
+        "date": "Tue, 01 Sep 2026 17:57:42 -0400",
+        "url": "https://www.phoronix.com/news/WinBtrfs-1.10",
+        "source": "Phoronix",
+        "summary": "WinBtrfs is a driver for Microsoft Windows to support reading and writing to Btrfs file-systems. WinBtrfs works with Windows XP and newer. It hadn't seen a new release in over two years but a big feat",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Critical Langflow and Ruby on Rails Flaws in Active RCE Attacks",
-        "date": "Tue, 01 Sep 2026 13:08:17 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-langflow-rce-flaw/",
-        "source": "GBHackers",
-        "summary": "Threat actors are actively exploiting two newly disclosed remote code execution vulnerabilities affecting Langflow and Ruby on Rails. These campaigns focus on cloud credential theft, host reconnaissan",
+        "title": "AMDGPU Linux Driver's Latest Patches For HDMI Passive VRR Support",
+        "date": "Tue, 01 Sep 2026 16:41:59 -0400",
+        "url": "https://www.phoronix.com/news/AMDGPU-HDMI-Passive-VRR",
+        "source": "Phoronix",
+        "summary": "As part of AMD's ongoing effort for getting HDMI 2.1 support squared away in their upstream AMDGPU kernel graphics driver, sent out today were the latest patches around passive variable refresh rate \"",
         "cve": []
     },
     {
-        "title": "Hackers Pose as IT Support on Microsoft Teams to Target More Than 150 Employees",
-        "date": "Tue, 01 Sep 2026 13:00:22 +0000",
-        "url": "https://gbhackers.com/microsoft-teams-it-support-scam/",
-        "source": "GBHackers",
-        "summary": "A coordinated social-engineering campaign dubbed Spring Ring used external Microsoft Teams accounts to impersonate corporate IT help desk staff and target more than 150 employees across at least 10 or",
+        "title": "Linux Gets A Reverse-Engineered Driver For ASUS ROG NVMe Enclosure RGB Lighting",
+        "date": "Tue, 01 Sep 2026 12:28:38 -0400",
+        "url": "https://www.phoronix.com/news/ASUS-ROG-Strix-Arion-RGB-Linux",
+        "source": "Phoronix",
+        "summary": "If you are into RGB lighting, you can even find NVMe external enclosures these days with RGB LEDs like the ASUS ROG Strix Arion. Now thanks to reverse engineering there is a Linux driver for allowing ",
         "cve": []
     },
     {
-        "title": "Five Plead Guilty to Using ATM Jackpotting Malware in Cash Theft Scheme",
-        "date": "Tue, 01 Sep 2026 12:49:22 +0000",
-        "url": "https://gbhackers.com/five-plead-guilty-to-using-atm-jackpotting-malware/",
-        "source": "GBHackers",
-        "summary": "Five Venezuelan nationals have pleaded guilty in a federal case involving attempts to deploy ATM jackpotting malware against cash machines in Kansas. This case highlights a growing cyber-physical thre",
+        "title": "Lekuo SouthBridge Max Puts An AMD B650 Chipset Onto A PCIe Card For More I/O",
+        "date": "Tue, 01 Sep 2026 09:55:50 -0400",
+        "url": "https://www.phoronix.com/review/lekuo-southbridge-max",
+        "source": "Phoronix",
+        "summary": "For those looking at expanding the SATA, NVMe, and/or the USB/USB-C capabilities of your system, the Lekuo SouthBridge Max PB65MX3 is an interesting creation that I have been trying out. The Lekuo Sou",
         "cve": []
     },
     {
-        "title": "Hackers Abuse Legitimate ChatGPT Shared Links to Deploy NetSupport RAT",
-        "date": "Tue, 01 Sep 2026 12:44:00 +0000",
-        "url": "https://gbhackers.com/chatgpt-links-abused/",
-        "source": "GBHackers",
-        "summary": "Threat actors are abusing legitimate ChatGPT shared-conversation URLs to host social-engineering lures that steer victims into a ClickFix-style infection chain, ultimately delivering a NetSupport remo",
+        "title": "systemd 262-rc1 Released With Live Update Orchestrator Integration & More",
+        "date": "Tue, 01 Sep 2026 08:07:54 -0400",
+        "url": "https://www.phoronix.com/news/systemd-262-rc1",
+        "source": "Phoronix",
+        "summary": "Debuting today is systemd 262-rc1 as the first test release of this next major update to this Linux init system and service manager...",
         "cve": []
     },
     {
-        "title": "JSCeal Crypto Stealer Uses V8 Bytecode to Steal Browser Credentials and Intercept HTTPS",
-        "date": "Tue, 01 Sep 2026 12:09:04 +0000",
-        "url": "https://gbhackers.com/jsceal-crypto-stealer/",
-        "source": "GBHackers",
-        "summary": "A sophisticated cryptocurrency-focused information stealer that hides its malicious logic inside compiled V8 JavaScript bytecode. JSCeal, also tracked by some vendors as WEEVILPROXY or MeadowLocust, i",
+        "title": "Linux Changes For CPPC On Zen 6 Clients - Hard-Coded Default Puts Low-Power Core At 0.47x",
+        "date": "Tue, 01 Sep 2026 06:36:00 -0400",
+        "url": "https://www.phoronix.com/news/AMD-Zen-6-Client-CPPC-Changes",
+        "source": "Phoronix",
+        "summary": "Following yesterday's Linux kernel patches for tuning ACPI EPP for Ryzen Zen 6 client processors, another patch series made it out on the mailing list with adjustments for ACPI Collaborative Processor",
         "cve": []
     },
     {
-        "title": "Critical JFrog Artifactory Authentication Bypass Exploited in the Wild",
-        "date": "Tue, 01 Sep 2026 12:03:38 +0000",
-        "url": "https://gbhackers.com/critical-jfrog-artifactory-authentication-bypass-exploited/",
-        "source": "GBHackers",
-        "summary": "Security researchers have issued warnings that attackers are actively exploiting a critical authentication bypass vulnerability in JFrog Artifactory, tracked as CVE-2026-82329. This vulnerability allo",
+        "title": "Intel Graphics Driver Introducing Cold Reset Recovery For Linux 7.4, Panther Lake IBC v3",
+        "date": "Tue, 01 Sep 2026 06:15:20 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Xe-Linux-7.4-First-PR",
+        "source": "Phoronix",
+        "summary": "While the Linux 7.3 merge window just wrapped up this weekend, on Monday Intel already sent out their first feature pull request of new Xe kernel graphics driver material that is destined for Linux 7.",
         "cve": []
     },
     {
-        "title": "Boston Scientific Cyberattack Disrupts Manufacturing and Product Shipments",
-        "date": "Tue, 01 Sep 2026 10:28:20 +0000",
-        "url": "https://gbhackers.com/boston-scientific-cyberattack/",
-        "source": "GBHackers",
-        "summary": "Boston Scientific is working to restore its manufacturing, order processing, and distribution capabilities following a cybersecurity incident that caused a network outage across certain internal IT sy",
+        "title": "The Linux Kernel AI Flood, Linux 7.2 Release & Other August Highlights",
+        "date": "Tue, 01 Sep 2026 06:01:31 -0400",
+        "url": "https://www.phoronix.com/news/August-2026-Highlights",
+        "source": "Phoronix",
+        "summary": "It was a very busy month of August with the Linux kernel developers continue to be flooded with AI/LLM-generated patches and bug reports. Plus there was the general resolution on AI usage within the D",
         "cve": []
     },
     {
-        "title": "AI-Enhanced BraZetsu Malware Powers Underground Market Selling Access to Corporate Networks",
-        "date": "Tue, 01 Sep 2026 09:39:01 +0000",
-        "url": "https://gbhackers.com/ai-enhanced-brazetsu-malware/",
-        "source": "GBHackers",
-        "summary": "BraZetsu, a Python-based Windows malware framework allegedly operated by the Brazilian threat actor Exilware to identify, profile, and monetize compromised corporate systems. Rather than behaving like",
-        "cve": []
-    },
-    {
-        "title": "Fake OpenAI, Anthropic and DeepSeek Crawlers Target .env Files and Cloud Credentials",
-        "date": "Tue, 01 Sep 2026 08:34:58 +0000",
-        "url": "https://gbhackers.com/fake-openai-anthropic-and-deepseek/",
-        "source": "GBHackers",
-        "summary": "Threat actors are impersonating AI web crawlers from organizations such as OpenAI, Anthropic, DeepSeek, Google, Perplexity, and Amazon to scan internet-facing servers for exposed secrets, according to",
+        "title": "EDAC Changes Merged For Linux 7.3 After Being Forgotten About During The Merge Window",
+        "date": "Tue, 01 Sep 2026 05:52:03 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-EDAC",
+        "source": "Phoronix",
+        "summary": "While the Linux 7.3 merge window officially closed on Sunday with the Linux 7.3-rc1 release, the Error Detection And Correction \"EDAC\" subsystem changes were mistakenly forgotten about during the two ",
         "cve": []
     }
 ]
