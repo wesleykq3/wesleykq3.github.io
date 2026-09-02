@@ -1,5 +1,53 @@
 [
     {
+        "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+        "date": "Wed, 02 Sep 2026 10:02:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+        "source": "BleepingComputer",
+        "summary": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting attack",
+        "cve": []
+    },
+    {
+        "title": "Dropbox accounts breached through Lenovo email verification flaw",
+        "date": "Wed, 02 Sep 2026 08:30:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+        "source": "BleepingComputer",
+        "summary": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Defender flags legitimate Google search links as malicious",
+        "date": "Wed, 02 Sep 2026 06:29:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
+        "cve": []
+    },
+    {
+        "title": "US charges Russian for infecting 80,000 freelancers with malware",
+        "date": "Wed, 02 Sep 2026 05:06:48 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+        "source": "BleepingComputer",
+        "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
+        "cve": []
+    },
+    {
+        "title": "Sality botnet infrastructure dismantled in joint global takedown",
+        "date": "Wed, 02 Sep 2026 04:00:43 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+        "source": "BleepingComputer",
+        "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
+        "cve": []
+    },
+    {
+        "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+        "date": "Wed, 02 Sep 2026 02:39:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+        "source": "BleepingComputer",
+        "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
+        "cve": []
+    },
+    {
         "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
         "date": "Tue, 01 Sep 2026 16:53:23 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
@@ -32,131 +80,163 @@
         "cve": []
     },
     {
-        "title": "Novocure data breach affects more than 1,400 cancer patients",
-        "date": "Tue, 01 Sep 2026 10:28:40 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
-        "source": "BleepingComputer",
-        "summary": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
-        "cve": []
-    },
-    {
-        "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
-        "date": "Tue, 01 Sep 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
-        "source": "BleepingComputer",
-        "summary": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment a",
-        "cve": []
-    },
-    {
-        "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
-        "date": "Tue, 01 Sep 2026 08:38:35 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
-        "cve": []
-    },
-    {
-        "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
-        "date": "Tue, 01 Sep 2026 05:15:07 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
-        "source": "BleepingComputer",
-        "summary": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Recently patched PaperCut zero-days used in data theft attacks",
-        "date": "Tue, 01 Sep 2026 03:48:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being abused in data theft attacks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
-        "date": "Mon, 31 Aug 2026 16:47:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
-        "source": "BleepingComputer",
-        "summary": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
-        "cve": []
-    },
-    {
-        "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-        "date": "Tue, 01 Sep 2026 23:23:11 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+        "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+        "date": "Wed, 02 Sep 2026 19:36:59 +0530",
+        "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
         "source": "The Hacker News",
-        "summary": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-",
+        "summary": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's mac",
         "cve": []
     },
     {
-        "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
-        "date": "Tue, 01 Sep 2026 22:49:24 +0530",
-        "url": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+        "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+        "date": "Wed, 02 Sep 2026 19:14:16 +0530",
+        "url": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
         "source": "The Hacker News",
-        "summary": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024.\n\nGoogle Threat Inte",
+        "summary": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions",
         "cve": []
     },
     {
-        "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-        "date": "Tue, 01 Sep 2026 19:37:20 +0530",
-        "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+        "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+        "date": "Wed, 02 Sep 2026 18:42:45 +0530",
+        "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install",
+        "summary": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some",
         "cve": []
     },
     {
-        "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-        "date": "Tue, 01 Sep 2026 18:38:58 +0530",
-        "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+        "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+        "date": "Wed, 02 Sep 2026 17:52:02 +0530",
+        "url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
         "source": "The Hacker News",
-        "summary": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting foo",
+        "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and c",
         "cve": []
     },
     {
-        "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-        "date": "Tue, 01 Sep 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+        "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+        "date": "Wed, 02 Sep 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
         "source": "The Hacker News",
-        "summary": "The most common way into a company last year was to ask.\n\nA web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. ",
+        "summary": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizat",
         "cve": []
     },
     {
-        "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-        "date": "Tue, 01 Sep 2026 14:35:30 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+        "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+        "date": "Wed, 02 Sep 2026 16:23:49 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
         "source": "The Hacker News",
-        "summary": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-hori",
+        "summary": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks.\n\nThe vulnerabili",
         "cve": []
     },
     {
-        "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-        "date": "Tue, 01 Sep 2026 13:56:24 +0530",
-        "url": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+        "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+        "date": "Wed, 02 Sep 2026 14:48:02 +0530",
+        "url": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interf",
+        "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geo",
         "cve": []
     },
     {
-        "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-        "date": "Tue, 01 Sep 2026 12:52:30 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+        "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+        "date": "Wed, 02 Sep 2026 14:40:23 +0530",
+        "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
         "source": "The Hacker News",
-        "summary": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (C",
+        "summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attac",
         "cve": []
     },
     {
-        "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
-        "date": "Mon, 31 Aug 2026 22:54:28 +0530",
-        "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+        "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+        "date": "Wed, 02 Sep 2026 13:17:13 +0530",
+        "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
         "source": "The Hacker News",
-        "summary": "Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent i",
+        "summary": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, ",
         "cve": []
     },
     {
-        "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
-        "date": "Mon, 31 Aug 2026 19:20:00 +0530",
-        "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+        "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+        "date": "Wed, 02 Sep 2026 12:38:50 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
         "source": "The Hacker News",
-        "summary": "The boring parts caused most of the trouble.\n\nA router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs.",
+        "summary": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution.\n\nThe vulnerability in question i",
+        "cve": []
+    },
+    {
+        "title": "Dropbox Says 5,000 Accounts Were Compromised Through Lenovo ID Authentication Flaw",
+        "date": "Wed, 02 Sep 2026 14:43:44 +0000",
+        "url": "https://cybersecuritynews.com/dropbox-lenovo-id-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "Dropbox has disclosed that approximately 5,000 user accounts were compromised in August after attackers exploited a weakness involving its Lenovo ID sign-in integration. The incident highlights the se",
+        "cve": []
+    },
+    {
+        "title": "Russian Hacker Indicted for Using Excel Malware to Target 80,000 Freelancers With TVRAT and DarkVNC",
+        "date": "Wed, 02 Sep 2026 14:22:18 +0000",
+        "url": "https://cybersecuritynews.com/russian-hacker-using-excel-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "A Russian national has been indicted in the United States over an alleged malware operation that targeted roughly 80,000 freelance workers worldwide. Prosecutors say the campaign used fake accounts an",
+        "cve": []
+    },
+    {
+        "title": "Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools",
+        "date": "Wed, 02 Sep 2026 14:05:53 +0000",
+        "url": "https://cybersecuritynews.com/new-tuktuk-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "Ransomware operators are using a previously undocumented remote-control framework called TukTuk to steal credentials, watch compromised machines, and weaken protections. The discovery links the tool t",
+        "cve": []
+    },
+    {
+        "title": "BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers",
+        "date": "Wed, 02 Sep 2026 13:23:38 +0000",
+        "url": "https://cybersecuritynews.com/breeze-comet-hackers/",
+        "source": "CyberSecurityNews",
+        "summary": "Brazilian banks and payment companies are facing a more direct form of cybercrime. BREEZE COMET, a financially motivated group formerly tracked as UNC5669, targets the systems that move money instead ",
+        "cve": []
+    },
+    {
+        "title": "Cleo Harmony Flaw Lets Remote Attackers Escalate Privileges via JWT Refresh Token",
+        "date": "Wed, 02 Sep 2026 13:09:26 +0000",
+        "url": "https://cybersecuritynews.com/cleo-harmony-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly disclosed vulnerability in Cleo Harmony, a widely deployed managed file transfer and integration platform, is putting enterprise networks at risk after security researchers confirmed that remo",
+        "cve": []
+    },
+    {
+        "title": "Authorities Disrupted 20-Year-Old Sality Botnet Controlling 15,000+ Infected Systems",
+        "date": "Wed, 02 Sep 2026 13:04:44 +0000",
+        "url": "https://cybersecuritynews.com/sality-botnet/",
+        "source": "CyberSecurityNews",
+        "summary": "The Department of Justice has confirmed a coordinated international takedown of the Sality botnet, a peer-to-peer malware network that has plagued victims worldwide since 2003. The operation spanned t",
+        "cve": []
+    },
+    {
+        "title": "Claude AI Builds Pre-Auth RCE Exploit for WAGO PLC to Execute ARM Shellcode Without Credentials",
+        "date": "Wed, 02 Sep 2026 12:37:49 +0000",
+        "url": "https://cybersecuritynews.com/claude-ai-builds-pre-auth-rce-exploit/",
+        "source": "CyberSecurityNews",
+        "summary": "Researchers used Claude AI to help port a pre-authentication remote code execution exploit to a WAGO programmable logic controller, demonstrating how AI can assist with low-level operational technolog",
+        "cve": []
+    },
+    {
+        "title": "FreeRDP Fixes 22 Security Flaws and Urges Users to Update Immediately",
+        "date": "Wed, 02 Sep 2026 12:10:12 +0000",
+        "url": "https://cybersecuritynews.com/freerdp-fixes-22-security-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "FreeRDP released version 3.31.0, addressing 22 security flaws and multiple bugs in its open-source Remote Desktop Protocol implementation, and urges users and distributors to update promptly. FreeRDP ",
+        "cve": []
+    },
+    {
+        "title": "Palo Alto Networks Acquires Console to Build AI Agents for Autonomous Security Operations",
+        "date": "Wed, 02 Sep 2026 12:02:15 +0000",
+        "url": "https://cybersecuritynews.com/palo-alto-networks-acquires-console/",
+        "source": "CyberSecurityNews",
+        "summary": "Palo Alto Networks has acquired Console, an AI-native platform that will strengthen Cortex by enabling AI-driven security workflows to investigate, prioritize, and remediate threats at machine speed. ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit LiteLLM Admin API Flaw to Steal Secrets and Target AI Gateway Servers",
+        "date": "Wed, 02 Sep 2026 11:44:12 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploit-litellm-admin-api-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "Attackers are actively probing LiteLLM AI gateway deployments for a known authorization flaw that can turn a low-privilege account into full administrative control. The issue, tracked as CVE-2026-3502",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Steam On Linux Dips Below 4% For August",
-        "date": "Tue, 01 Sep 2026 20:19:13 -0400",
-        "url": "https://www.phoronix.com/news/Steam-Survey-August-2026",
-        "source": "Phoronix",
-        "summary": "Valve just published the Steam Survey results for August 2026. After jumping above 4% in July, in August it fell back below that threshold. Meanwhile CachyOS continues gaining ground among Linux gamer",
+        "title": "Firefox for iPhone Adds Built-In Ad Blocker to Block Third-Party Ads and Trackers",
+        "date": "Wed, 02 Sep 2026 13:25:47 +0000",
+        "url": "https://gbhackers.com/firefox-for-iphone-adds-built-in-ad-blocker/",
+        "source": "GBHackers",
+        "summary": "Mozilla has introduced a built-in ad blocker for Firefox on iOS, providing iPhone users with a native option to block many third-party advertisements and advertising-related trackers before they load ",
         "cve": []
     },
     {
-        "title": "WinBtrfs 1.10 Released With Two Years Worth Of Improvements For Btrfs On Windows",
-        "date": "Tue, 01 Sep 2026 17:57:42 -0400",
-        "url": "https://www.phoronix.com/news/WinBtrfs-1.10",
-        "source": "Phoronix",
-        "summary": "WinBtrfs is a driver for Microsoft Windows to support reading and writing to Btrfs file-systems. WinBtrfs works with Windows XP and newer. It hadn't seen a new release in over two years but a big feat",
+        "title": "255 Fake Accounts Used to Send Malicious Excel Files to 80,000 Freelancers",
+        "date": "Wed, 02 Sep 2026 13:15:27 +0000",
+        "url": "https://gbhackers.com/excel-malware-campaign/",
+        "source": "GBHackers",
+        "summary": "A Russian national has been extradited to the United States to face charges over an alleged phishing operation that used 255 fake accounts on a freelance employment platform to distribute malicious Mi",
         "cve": []
     },
     {
-        "title": "AMDGPU Linux Driver's Latest Patches For HDMI Passive VRR Support",
-        "date": "Tue, 01 Sep 2026 16:41:59 -0400",
-        "url": "https://www.phoronix.com/news/AMDGPU-HDMI-Passive-VRR",
-        "source": "Phoronix",
-        "summary": "As part of AMD's ongoing effort for getting HDMI 2.1 support squared away in their upstream AMDGPU kernel graphics driver, sent out today were the latest patches around passive variable refresh rate \"",
+        "title": "Singularity Rootkit Bypasses Elastic Defend eBPF Module Load Detection",
+        "date": "Wed, 02 Sep 2026 13:00:54 +0000",
+        "url": "https://gbhackers.com/singularity-rootkit-bypasses-elastic-defend/",
+        "source": "GBHackers",
+        "summary": "Security researcher has disclosed a technique used by the Singularity Linux rootkit to evade Elastic Defend by suppressing module-load telemetry to avoid detection across multiple layers. This researc",
         "cve": []
     },
     {
-        "title": "Linux Gets A Reverse-Engineered Driver For ASUS ROG NVMe Enclosure RGB Lighting",
-        "date": "Tue, 01 Sep 2026 12:28:38 -0400",
-        "url": "https://www.phoronix.com/news/ASUS-ROG-Strix-Arion-RGB-Linux",
-        "source": "Phoronix",
-        "summary": "If you are into RGB lighting, you can even find NVMe external enclosures these days with RGB LEDs like the ASUS ROG Strix Arion. Now thanks to reverse engineering there is a Linux driver for allowing ",
+        "title": "Claude AI Develops Working RCE Exploit Against WAGO PLC With Researcher Assistance",
+        "date": "Wed, 02 Sep 2026 12:51:11 +0000",
+        "url": "https://gbhackers.com/claude-ai-develops-working-rce-exploit/",
+        "source": "GBHackers",
+        "summary": "Researchers have demonstrated that Anthropic’s Claude AI can assist in porting a remote code execution exploit between vulnerable models of WAGO programmable logic controllers (PLCs). However, this pr",
         "cve": []
     },
     {
-        "title": "Lekuo SouthBridge Max Puts An AMD B650 Chipset Onto A PCIe Card For More I/O",
-        "date": "Tue, 01 Sep 2026 09:55:50 -0400",
-        "url": "https://www.phoronix.com/review/lekuo-southbridge-max",
-        "source": "Phoronix",
-        "summary": "For those looking at expanding the SATA, NVMe, and/or the USB/USB-C capabilities of your system, the Lekuo SouthBridge Max PB65MX3 is an interesting creation that I have been trying out. The Lekuo Sou",
+        "title": "Hackers Exploit LiteLLM Admin API Flaw to Turn Read-Only Access Into Full Server Takeover",
+        "date": "Wed, 02 Sep 2026 11:35:28 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-litellm-admin-api-flaw/",
+        "source": "GBHackers",
+        "summary": "Attackers are actively exploiting a critical authorization flaw in LiteLLM’s administrative API. This vulnerability allows low-privileged, read-only users to modify proxy configurations, expose sensit",
         "cve": []
     },
     {
-        "title": "systemd 262-rc1 Released With Live Update Orchestrator Integration & More",
-        "date": "Tue, 01 Sep 2026 08:07:54 -0400",
-        "url": "https://www.phoronix.com/news/systemd-262-rc1",
-        "source": "Phoronix",
-        "summary": "Debuting today is systemd 262-rc1 as the first test release of this next major update to this Linux init system and service manager...",
+        "title": "Palo Alto Networks Acquires Console to Add Agentic AI Workflows to Cortex",
+        "date": "Wed, 02 Sep 2026 11:27:51 +0000",
+        "url": "https://gbhackers.com/palo-alto-networks-acquires-console-to-add-agentic-ai-workflows-to-cortex/",
+        "source": "GBHackers",
+        "summary": "Palo Alto Networks has acquired Console, an AI-native platform designed to enable agentic workflows across enterprise operations. This acquisition expands the autonomous capabilities of Palo Alto Netw",
         "cve": []
     },
     {
-        "title": "Linux Changes For CPPC On Zen 6 Clients - Hard-Coded Default Puts Low-Power Core At 0.47x",
-        "date": "Tue, 01 Sep 2026 06:36:00 -0400",
-        "url": "https://www.phoronix.com/news/AMD-Zen-6-Client-CPPC-Changes",
-        "source": "Phoronix",
-        "summary": "Following yesterday's Linux kernel patches for tuning ACPI EPP for Ryzen Zen 6 client processors, another patch series made it out on the mailing list with adjustments for ACPI Collaborative Processor",
+        "title": "The Gentlemen Ransomware Hackers Use TukTuk C2 to Steal Credentials and Disable EDR Security",
+        "date": "Wed, 02 Sep 2026 11:25:41 +0000",
+        "url": "https://gbhackers.com/tuktuk-c2-framework/",
+        "source": "GBHackers",
+        "summary": "The Gentlemen ransomware operation has been linked to a previously undocumented, cross-platform command-and-control framework named&#160;TukTuk, alongside EDR-disabling tooling, DLL sideloading resear",
         "cve": []
     },
     {
-        "title": "Intel Graphics Driver Introducing Cold Reset Recovery For Linux 7.4, Panther Lake IBC v3",
-        "date": "Tue, 01 Sep 2026 06:15:20 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Xe-Linux-7.4-First-PR",
-        "source": "Phoronix",
-        "summary": "While the Linux 7.3 merge window just wrapped up this weekend, on Monday Intel already sent out their first feature pull request of new Xe kernel graphics driver material that is destined for Linux 7.",
+        "title": "FreeRDP 3.31.0 Fixes 22 Security Flaws Including Heap Overflow and Pre-Auth DoS Bugs",
+        "date": "Wed, 02 Sep 2026 11:08:50 +0000",
+        "url": "https://gbhackers.com/freerdp-3-31-0-fixes-22-security-flaws/",
+        "source": "GBHackers",
+        "summary": "FreeRDP version 3.31.0 has been released as a significant security and stability update, addressing 22 disclosed security vulnerabilities in the widely used open-source implementation of the Remote De",
         "cve": []
     },
     {
-        "title": "The Linux Kernel AI Flood, Linux 7.2 Release & Other August Highlights",
-        "date": "Tue, 01 Sep 2026 06:01:31 -0400",
-        "url": "https://www.phoronix.com/news/August-2026-Highlights",
-        "source": "Phoronix",
-        "summary": "It was a very busy month of August with the Linux kernel developers continue to be flooded with AI/LLM-generated patches and bug reports. Plus there was the general resolution on AI usage within the D",
+        "title": "Critical SonicWall SMA 1000 Vulnerabilities Actively Exploited in the Wild",
+        "date": "Wed, 02 Sep 2026 09:57:29 +0000",
+        "url": "https://gbhackers.com/critical-sonicwall-sma-1000-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "SonicWall has issued an urgent security advisory regarding two vulnerabilities affecting its SMA 1000 Series secure access appliances. The company warns that there have been cases indicating active ex",
         "cve": []
     },
     {
-        "title": "EDAC Changes Merged For Linux 7.3 After Being Forgotten About During The Merge Window",
-        "date": "Tue, 01 Sep 2026 05:52:03 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-EDAC",
-        "source": "Phoronix",
-        "summary": "While the Linux 7.3 merge window officially closed on Sunday with the Linux 7.3-rc1 release, the Error Detection And Correction \"EDAC\" subsystem changes were mistakenly forgotten about during the two ",
+        "title": "Hackers Breach Brazilian Financial Firms and Execute Hundreds of Fraudulent Transactions",
+        "date": "Wed, 02 Sep 2026 09:12:20 +0000",
+        "url": "https://gbhackers.com/brazilian-financial-firms/",
+        "source": "GBHackers",
+        "summary": "A financially motivated threat actor tracked as BREEZE COMET has breached Brazilian financial, retail, and eCommerce organizations, using privileged access to payment platforms to execute hundreds of ",
         "cve": []
     }
 ]
