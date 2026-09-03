@@ -1,5 +1,61 @@
 [
     {
+        "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
+        "date": "Thu, 03 Sep 2026 11:13:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+        "source": "BleepingComputer",
+        "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
+        "cve": []
+    },
+    {
+        "title": "Anthropic confirms Claude is down, multiple models affected",
+        "date": "Thu, 03 Sep 2026 11:02:52 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+        "source": "BleepingComputer",
+        "summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
+        "cve": []
+    },
+    {
+        "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+        "date": "Thu, 03 Sep 2026 10:52:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+        "source": "BleepingComputer",
+        "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the",
+        "cve": []
+    },
+    {
+        "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
+        "date": "Thu, 03 Sep 2026 09:50:59 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+        "source": "BleepingComputer",
+        "summary": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine wheth",
+        "cve": []
+    },
+    {
+        "title": "Microsoft says KB5120998 Windows update resets desktop settings",
+        "date": "Thu, 03 Sep 2026 08:16:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [...]",
+        "cve": []
+    },
+    {
+        "title": "Plex warns users to patch security vulnerabilities immediately",
+        "date": "Thu, 03 Sep 2026 07:02:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
+        "source": "BleepingComputer",
+        "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
+        "date": "Thu, 03 Sep 2026 04:55:25 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates released since the August 2026 Patch Tuesday. [...]",
+        "cve": []
+    },
+    {
         "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
         "date": "Wed, 02 Sep 2026 17:00:13 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
@@ -24,59 +80,51 @@
         "cve": []
     },
     {
-        "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
-        "date": "Wed, 02 Sep 2026 10:02:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
-        "source": "BleepingComputer",
-        "summary": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting attack",
+        "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
+        "date": "Thu, 03 Sep 2026 17:28:00 +0530",
+        "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+        "source": "The Hacker News",
+        "summary": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 count",
         "cve": []
     },
     {
-        "title": "Dropbox accounts breached through Lenovo email verification flaw",
-        "date": "Wed, 02 Sep 2026 08:30:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
-        "source": "BleepingComputer",
-        "summary": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
+        "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+        "date": "Thu, 03 Sep 2026 16:13:01 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads.\n\nAccording to a new report published by the Symantec Threat Hunter ",
         "cve": []
     },
     {
-        "title": "Microsoft Defender flags legitimate Google search links as malicious",
-        "date": "Wed, 02 Sep 2026 06:29:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
+        "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+        "date": "Thu, 03 Sep 2026 16:06:39 +0530",
+        "url": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+        "source": "The Hacker News",
+        "summary": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Inte",
         "cve": []
     },
     {
-        "title": "US charges Russian for infecting 80,000 freelancers with malware",
-        "date": "Wed, 02 Sep 2026 05:06:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-        "source": "BleepingComputer",
-        "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
+        "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
+        "date": "Thu, 03 Sep 2026 14:13:17 +0530",
+        "url": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+        "source": "The Hacker News",
+        "summary": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foun",
         "cve": []
     },
     {
-        "title": "Sality botnet infrastructure dismantled in joint global takedown",
-        "date": "Wed, 02 Sep 2026 04:00:43 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
-        "source": "BleepingComputer",
-        "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
+        "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
+        "date": "Thu, 03 Sep 2026 11:56:59 +0530",
+        "url": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+        "source": "The Hacker News",
+        "summary": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Crowd",
         "cve": []
     },
     {
-        "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-        "date": "Wed, 02 Sep 2026 02:39:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-        "source": "BleepingComputer",
-        "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-        "date": "Tue, 01 Sep 2026 16:53:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-        "source": "BleepingComputer",
-        "summary": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers and install the ScreenConnect remote support softwar",
+        "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+        "date": "Thu, 03 Sep 2026 10:49:04 +0530",
+        "url": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs",
         "cve": []
     },
     {
@@ -112,131 +160,83 @@
         "cve": []
     },
     {
-        "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
-        "date": "Wed, 02 Sep 2026 18:42:45 +0530",
-        "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
-        "source": "The Hacker News",
-        "summary": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some",
-        "cve": []
-    },
-    {
-        "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
-        "date": "Wed, 02 Sep 2026 17:52:02 +0530",
-        "url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and c",
-        "cve": []
-    },
-    {
-        "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
-        "date": "Wed, 02 Sep 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
-        "source": "The Hacker News",
-        "summary": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizat",
-        "cve": []
-    },
-    {
-        "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
-        "date": "Wed, 02 Sep 2026 16:23:49 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
-        "source": "The Hacker News",
-        "summary": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks.\n\nThe vulnerabili",
-        "cve": []
-    },
-    {
-        "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-        "date": "Wed, 02 Sep 2026 14:48:02 +0530",
-        "url": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-        "source": "The Hacker News",
-        "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geo",
-        "cve": []
-    },
-    {
-        "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-        "date": "Wed, 02 Sep 2026 14:40:23 +0530",
-        "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attac",
-        "cve": []
-    },
-    {
-        "title": "WhatsApp Video Call Flaw Lets Anyone Bypass Your Android Lock Screen and View Your Photos",
-        "date": "Wed, 02 Sep 2026 17:39:06 +0000",
-        "url": "https://cybersecuritynews.com/whatsapp-video-call-flaw/",
+        "title": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services",
+        "date": "Thu, 03 Sep 2026 15:11:46 +0000",
+        "url": "https://cybersecuritynews.com/openai-investigates-elevated-errors/",
         "source": "CyberSecurityNews",
-        "summary": "A newly disclosed WhatsApp flaw on Android is raising fresh privacy alarms, allowing anyone holding a locked phone to browse through its entire photo gallery simply by answering an incoming video call",
+        "summary": "OpenAI has reported an ongoing service incident involving elevated errors across ChatGPT and Codex, with the company confirming that it is investigating degraded performance affecting the two platform",
         "cve": []
     },
     {
-        "title": "Google Launches Gemini 3.8 Flash Cyber to Identify and Auto-Patch Security Vulnerabilities",
-        "date": "Wed, 02 Sep 2026 16:54:57 +0000",
-        "url": "https://cybersecuritynews.com/gemini-3-8-flash-cyber/",
+        "title": "Phantom Deal Hackers Impersonate Executives and Use Fake NDAs to Steal Corporate Wire Transfers",
+        "date": "Thu, 03 Sep 2026 15:01:27 +0000",
+        "url": "https://cybersecuritynews.com/phantom-deal-hackers/",
         "source": "CyberSecurityNews",
-        "summary": "Google has unveiled Gemini 3.8, its latest reasoning and coding model family, introducing a specialized variant called Gemini 3.8 Flash Cyber that is purpose-built to autonomously discover software vu",
+        "summary": "Cybercriminals are using fake acquisition deals to steer employees toward large wire transfers. The campaign, called Phantom Deal, begins with a believable WhatsApp message from someone appearing to b",
         "cve": []
     },
     {
-        "title": "Firefox on iPhone Can Now Block Ads and Trackers Without Installing an Extension",
-        "date": "Wed, 02 Sep 2026 16:38:10 +0000",
-        "url": "https://cybersecuritynews.com/firefox-on-iphone-block-ads/",
+        "title": "Hackers Weaponize ScreenConnect to Spread Worm-Like Malware Across Windows Systems",
+        "date": "Thu, 03 Sep 2026 14:52:58 +0000",
+        "url": "https://cybersecuritynews.com/hackers-weaponize-screenconnect/",
         "source": "CyberSecurityNews",
-        "summary": "Mozilla has introduced a built-in Ad Blocker for Firefox on iOS, allowing iPhone users to block many third-party advertisements and ad-related trackers without downloading a separate browser extension",
+        "summary": "Hackers are turning rogue remote-support installations into a tool that can spread malicious code between Windows computers. The activity stands out because an infected remote-access client can pass s",
         "cve": []
     },
     {
-        "title": "GitSpawn Flaws Let Malicious Repositories Execute Code in Claude Code, Codex, Cursor, and Grok",
-        "date": "Wed, 02 Sep 2026 16:29:54 +0000",
-        "url": "https://cybersecuritynews.com/gitspawn-flaws-execute-code/",
+        "title": "Chaotic Eclipse Claims Avast Antivirus 0-Day Vulnerability – PoC Released",
+        "date": "Thu, 03 Sep 2026 14:47:29 +0000",
+        "url": "https://cybersecuritynews.com/avast-antivirus-0-day-vulnerability-poc-released/",
         "source": "CyberSecurityNews",
-        "summary": "A newly disclosed class of vulnerabilities, dubbed GitSpawn, allows a booby-trapped repository to silently execute code on a developer&#8217;s machine the moment it is opened with an AI coding agent, ",
+        "summary": "Researcher Chaotic Eclipse has claimed to have discovered a zero-day privilege-escalation vulnerability affecting Avast Antivirus and released a public proof-of-concept repository named PrettyPrague. ",
         "cve": []
     },
     {
-        "title": "Hackers Target US and EU Firms With Microsoft 365 Session Hijacking and RMM Abuse",
-        "date": "Wed, 02 Sep 2026 16:04:43 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-365-session-hijacking/",
+        "title": "Claude AI Faces Outage Impacting Mythos 5.1, Fable 5.1, and Opus 5",
+        "date": "Thu, 03 Sep 2026 14:39:32 +0000",
+        "url": "https://cybersecuritynews.com/claude-ai-faces-outage/",
         "source": "CyberSecurityNews",
-        "summary": "A wave of cyberattacks across the US and Europe in August exploited the trust businesses place in everyday tools, turning Microsoft 365 logins, remote-management software, and routine business documen",
+        "summary": "Anthropic’s Claude AI experienced a partial outage on September 3, 2026, disrupting requests across several Claude models and affecting developers, enterprise users, and individuals relying on the pla",
         "cve": []
     },
     {
-        "title": "Dropbox Says 5,000 Accounts Were Compromised Through Lenovo ID Authentication Flaw",
-        "date": "Wed, 02 Sep 2026 14:43:44 +0000",
-        "url": "https://cybersecuritynews.com/dropbox-lenovo-id-flaw/",
+        "title": "Hackers Use QR Codes in Phishing Emails to Steal Login Credentials",
+        "date": "Thu, 03 Sep 2026 14:24:47 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-qr-codes-2/",
         "source": "CyberSecurityNews",
-        "summary": "Dropbox has disclosed that approximately 5,000 user accounts were compromised in August after attackers exploited a weakness involving its Lenovo ID sign-in integration. The incident highlights the se",
+        "summary": "Hackers are putting QR codes in phishing emails to steal login credentials. Known as quishing, the method hides a dangerous web address inside a square and persuades recipients to scan it with a phone",
         "cve": []
     },
     {
-        "title": "Russian Hacker Indicted for Using Excel Malware to Target 80,000 Freelancers With TVRAT and DarkVNC",
-        "date": "Wed, 02 Sep 2026 14:22:18 +0000",
-        "url": "https://cybersecuritynews.com/russian-hacker-using-excel-malware/",
+        "title": "153 Million Driver’s License Scans Surface on Dark Web as FBI Opens Investigation",
+        "date": "Thu, 03 Sep 2026 14:24:36 +0000",
+        "url": "https://cybersecuritynews.com/153-million-driver-license-exposed/",
         "source": "CyberSecurityNews",
-        "summary": "A Russian national has been indicted in the United States over an alleged malware operation that targeted roughly 80,000 freelance workers worldwide. Prosecutors say the campaign used fake accounts an",
+        "summary": "A dark web identity theft service known as Nexus has reportedly offered scans of more than 153 million driver’s licenses from people in the United States and Canada. The FBI’s New Orleans field office",
         "cve": []
     },
     {
-        "title": "Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools",
-        "date": "Wed, 02 Sep 2026 14:05:53 +0000",
-        "url": "https://cybersecuritynews.com/new-tuktuk-malware/",
+        "title": "New $7 SweepLED Device That Allows Anyone to Detect Hidden Cameras in Hotels",
+        "date": "Thu, 03 Sep 2026 14:04:05 +0000",
+        "url": "https://cybersecuritynews.com/sweepled-gadget/",
         "source": "CyberSecurityNews",
-        "summary": "Ransomware operators are using a previously undocumented remote-control framework called TukTuk to steal credentials, watch compromised machines, and weaken protections. The discovery links the tool t",
+        "summary": "Researchers have developed SweepLED, a low-cost smartphone accessory designed to help travelers find concealed cameras in hotel rooms and short-term rentals. The prototype uses an LED-equipped phone c",
         "cve": []
     },
     {
-        "title": "BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers",
-        "date": "Wed, 02 Sep 2026 13:23:38 +0000",
-        "url": "https://cybersecuritynews.com/breeze-comet-hackers/",
+        "title": "Microsoft to Expand Memory Integrity Protection Across Windows Devices",
+        "date": "Thu, 03 Sep 2026 13:46:56 +0000",
+        "url": "https://cybersecuritynews.com/memory-integrity-protection-windows/",
         "source": "CyberSecurityNews",
-        "summary": "Brazilian banks and payment companies are facing a more direct form of cybercrime. BREEZE COMET, a financially motivated group formerly tracked as UNC5669, targets the systems that move money instead ",
+        "summary": "Microsoft will begin expanding memory integrity protection across eligible Windows devices in October 2026, automatically enabling a stronger kernel-level security baseline for more users and organiza",
         "cve": []
     },
     {
-        "title": "Cleo Harmony Flaw Lets Remote Attackers Escalate Privileges via JWT Refresh Token",
-        "date": "Wed, 02 Sep 2026 13:09:26 +0000",
-        "url": "https://cybersecuritynews.com/cleo-harmony-vulnerability/",
+        "title": "3 High-Severity HP Easy Start Flaws Let Attackers Escalate Privileges on macOS",
+        "date": "Thu, 03 Sep 2026 13:35:41 +0000",
+        "url": "https://cybersecuritynews.com/hp-easy-start-flaws-on-macos/",
         "source": "CyberSecurityNews",
-        "summary": "A newly disclosed vulnerability in Cleo Harmony, a widely deployed managed file transfer and integration platform, is putting enterprise networks at risk after security researchers confirmed that remo",
+        "summary": "Three high-severity vulnerabilities in HP Easy Start for macOS could allow attackers to interfere with printer-software installation workflows and potentially gain elevated privileges. The flaws affec",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Threat Intelligence: Definition, Benefits, and Use Cases",
-        "date": "Wed, 02 Sep 2026 16:46:02 +0000",
-        "url": "https://gbhackers.com/threat-intelligence-definition-benefits-and-use-cases/",
+        "title": "Fake Acquisition Scam Uses Forged NDAs to Demand €626,000 Corporate Payment.",
+        "date": "Thu, 03 Sep 2026 13:34:40 +0000",
+        "url": "https://gbhackers.com/fake-acquisition-scam/",
         "source": "GBHackers",
-        "summary": "Security teams rarely struggle because they lack data. More often, the challenge is deciding which signals actually deserve attention. Modern security environments generate information about suspiciou",
+        "summary": "Threat actors impersonated Gen executives and major consulting firms in a targeted business email compromise-style operation that used forged non-disclosure agreements to isolate a legal employee and ",
         "cve": []
     },
     {
-        "title": "Firefox for iPhone Adds Built-In Ad Blocker to Block Third-Party Ads and Trackers",
-        "date": "Wed, 02 Sep 2026 13:25:47 +0000",
-        "url": "https://gbhackers.com/firefox-for-iphone-adds-built-in-ad-blocker/",
+        "title": "Rogue ScreenConnect Clients Spread Worm-Like Malware Across Connected Windows Systems",
+        "date": "Thu, 03 Sep 2026 13:15:55 +0000",
+        "url": "https://gbhackers.com/rogue-screenconnect-clients/",
         "source": "GBHackers",
-        "summary": "Mozilla has introduced a built-in ad blocker for Firefox on iOS, providing iPhone users with a native option to block many third-party advertisements and advertising-related trackers before they load ",
+        "summary": "A malicious ScreenConnect campaign in which rogue remote-access clients do more than provide attackers with hands-on control: modified clients can automatically push a multi-stage VBScript malware cha",
         "cve": []
     },
     {
-        "title": "255 Fake Accounts Used to Send Malicious Excel Files to 80,000 Freelancers",
-        "date": "Wed, 02 Sep 2026 13:15:27 +0000",
-        "url": "https://gbhackers.com/excel-malware-campaign/",
+        "title": "QR Phishing Hits Record Levels as Attackers Hide Malicious Links Inside QR Codes",
+        "date": "Thu, 03 Sep 2026 12:12:02 +0000",
+        "url": "https://gbhackers.com/qr-codes-attack/",
         "source": "GBHackers",
-        "summary": "A Russian national has been extradited to the United States to face charges over an alleged phishing operation that used 255 fake accounts on a freelance employment platform to distribute malicious Mi",
+        "summary": "QR code phishing, widely known as “quishing,” has reached record levels as threat actors increasingly conceal malicious URLs within scannable images rather than placing clickable links directly in ema",
         "cve": []
     },
     {
-        "title": "Singularity Rootkit Bypasses Elastic Defend eBPF Module Load Detection",
-        "date": "Wed, 02 Sep 2026 13:00:54 +0000",
-        "url": "https://gbhackers.com/singularity-rootkit-bypasses-elastic-defend/",
+        "title": "Microsoft to Automatically Enable Memory Integrity on Windows Devices to Block Kernel Attacks",
+        "date": "Thu, 03 Sep 2026 11:57:34 +0000",
+        "url": "https://gbhackers.com/microsoft-to-automatically-enable-memory-integrity/",
         "source": "GBHackers",
-        "summary": "Security researcher has disclosed a technique used by the Singularity Linux rootkit to evade Elastic Defend by suppressing module-load telemetry to avoid detection across multiple layers. This researc",
+        "summary": "Microsoft will start automatically enabling Memory Integrity protection on eligible Windows devices through quality updates beginning in October 2026. This change aims to strengthen defenses against k",
         "cve": []
     },
     {
-        "title": "Claude AI Develops Working RCE Exploit Against WAGO PLC With Researcher Assistance",
-        "date": "Wed, 02 Sep 2026 12:51:11 +0000",
-        "url": "https://gbhackers.com/claude-ai-develops-working-rce-exploit/",
+        "title": "New $7 SweepLED Gadget Detects Hidden Cameras With 94% Accuracy in 5 Seconds",
+        "date": "Thu, 03 Sep 2026 11:44:53 +0000",
+        "url": "https://gbhackers.com/new-7-sweepled-gadget-detects-hidden-cameras/",
         "source": "GBHackers",
-        "summary": "Researchers have demonstrated that Anthropic’s Claude AI can assist in porting a remote code execution exploit between vulnerable models of WAGO programmable logic controllers (PLCs). However, this pr",
+        "summary": "Researchers have developed SweepLED, a smartphone-based hidden-camera detection system that uses a low-cost LED accessory and computer vision to identify concealed lenses in under five seconds. The sy",
         "cve": []
     },
     {
-        "title": "Hackers Exploit LiteLLM Admin API Flaw to Turn Read-Only Access Into Full Server Takeover",
-        "date": "Wed, 02 Sep 2026 11:35:28 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-litellm-admin-api-flaw/",
+        "title": "Avast Antivirus Zero-Day PoC Lets Attackers Dump SAM Database and Gain SYSTEM Shell",
+        "date": "Thu, 03 Sep 2026 11:25:46 +0000",
+        "url": "https://gbhackers.com/avast-antivirus-zero-day-poc/",
         "source": "GBHackers",
-        "summary": "Attackers are actively exploiting a critical authorization flaw in LiteLLM’s administrative API. This vulnerability allows low-privileged, read-only users to modify proxy configurations, expose sensit",
+        "summary": "A public proof-of-concept (PoC) repository has revealed a local privilege escalation zero-day vulnerability in GenDigital’s Avast Antivirus. This vulnerability allows an attacker to dump the Windows S",
         "cve": []
     },
     {
-        "title": "Palo Alto Networks Acquires Console to Add Agentic AI Workflows to Cortex",
-        "date": "Wed, 02 Sep 2026 11:27:51 +0000",
-        "url": "https://gbhackers.com/palo-alto-networks-acquires-console-to-add-agentic-ai-workflows-to-cortex/",
+        "title": "HTML-Rendered QR Phishing Evades Image Extraction and OCR-Based Email Scanning",
+        "date": "Thu, 03 Sep 2026 11:14:29 +0000",
+        "url": "https://gbhackers.com/html-rendered-qr-phishing/",
         "source": "GBHackers",
-        "summary": "Palo Alto Networks has acquired Console, an AI-native platform designed to enable agentic workflows across enterprise operations. This acquisition expands the autonomous capabilities of Palo Alto Netw",
+        "summary": "QR-code phishing, commonly known as quishing, is evolving beyond image-based payloads. Threat actors are now rendering scannable QR codes directly from HTML tables or text within email bodies, leaving",
         "cve": []
     },
     {
-        "title": "The Gentlemen Ransomware Hackers Use TukTuk C2 to Steal Credentials and Disable EDR Security",
-        "date": "Wed, 02 Sep 2026 11:25:41 +0000",
-        "url": "https://gbhackers.com/tuktuk-c2-framework/",
+        "title": "StreamRAT Abuses Android Accessibility, MediaProjection and HVNC for Full Device Takeover",
+        "date": "Thu, 03 Sep 2026 09:25:46 +0000",
+        "url": "https://gbhackers.com/streamrat-abuses-android/",
         "source": "GBHackers",
-        "summary": "The Gentlemen ransomware operation has been linked to a previously undocumented, cross-platform command-and-control framework named&#160;TukTuk, alongside EDR-disabling tooling, DLL sideloading resear",
+        "summary": "StreamRAT, a newly identified Android banking trojan distributed through fake free-TV streaming advertisements on Meta and TikTok. The campaign, tracked as “Steamtv Esp.,” primarily targeted Spanish-s",
         "cve": []
     },
     {
-        "title": "FreeRDP 3.31.0 Fixes 22 Security Flaws Including Heap Overflow and Pre-Auth DoS Bugs",
-        "date": "Wed, 02 Sep 2026 11:08:50 +0000",
-        "url": "https://gbhackers.com/freerdp-3-31-0-fixes-22-security-flaws/",
+        "title": "WordPress Plugin Flaw Lets Attackers Turn SQL Injection Into Complete Site Takeover",
+        "date": "Thu, 03 Sep 2026 09:19:04 +0000",
+        "url": "https://gbhackers.com/wordpress-plugin-flaw-5/",
         "source": "GBHackers",
-        "summary": "FreeRDP version 3.31.0 has been released as a significant security and stability update, addressing 22 disclosed security vulnerabilities in the widely used open-source implementation of the Remote De",
+        "summary": "A high-severity vulnerability affecting over 5 million active WordPress installations could allow unauthenticated attackers to exploit stored SQL injection vulnerabilities, leading to remote code exec",
         "cve": []
     },
     {
-        "title": "Critical SonicWall SMA 1000 Vulnerabilities Actively Exploited in the Wild",
-        "date": "Wed, 02 Sep 2026 09:57:29 +0000",
-        "url": "https://gbhackers.com/critical-sonicwall-sma-1000-vulnerabilities/",
+        "title": "Sangoma Switchvox RCE Flaw Actively Exploited in Wild via Unauthenticated SQL Injection",
+        "date": "Thu, 03 Sep 2026 09:04:13 +0000",
+        "url": "https://gbhackers.com/sangoma-switchvox-rce-flaw/",
         "source": "GBHackers",
-        "summary": "SonicWall has issued an urgent security advisory regarding two vulnerabilities affecting its SMA 1000 Series secure access appliances. The company warns that there have been cases indicating active ex",
+        "summary": "Security researchers have reported active exploitation attempts targeting a critical vulnerability in Sangoma Switchvox, allowing unauthenticated attackers to execute code remotely via SQL injection. ",
         "cve": []
     }
 ]
