@@ -282,82 +282,66 @@ def check_claude_components():
 # =========================
 # Gemini
 # =========================
-
 def check_gemini():
-
-    url = (
-        "https://www.google.com/"
-        "appsstatus/dashboard/"
-    )
-
+    url = "https://aistudio.google.com/status"
 
     try:
-
         response = requests.get(
             url,
-            headers=HEADERS,
-            timeout=TIMEOUT
+            headers={
+                "User-Agent": "Mozilla/5.0"
+            },
+            timeout=(10, 30)
         )
 
         response.raise_for_status()
 
-        soup = BeautifulSoup(
-            response.text,
-            "html.parser"
-        )
+        text = response.text.lower()
 
-        text = soup.get_text(
-            " ",
-            strip=True
-        )
+        # 根据官方状态页面内容进行简单判断
+        if "resolved" in text and "issue has been resolved" in text:
+            status = "operational"
+            description = "Google AI Studio / Gemini API 当前没有正在处理的故障"
 
+        elif "investigating" in text:
+            status = "degraded"
+            description = "Google AI Studio / Gemini API 正在调查问题"
 
-        if "Gemini" in text:
+        elif "identified" in text:
+            status = "degraded"
+            description = "Google AI Studio / Gemini API 已确认存在问题"
 
-            status = "check_dashboard"
-
-            description = (
-                "Gemini found in "
-                "Google Status Dashboard"
-            )
+        elif "monitoring" in text:
+            status = "degraded"
+            description = "Google AI Studio / Gemini API 正在监控问题恢复情况"
 
         else:
-
-            status = "unknown"
-
-            description = (
-                "Gemini status not detected"
-            )
-
+            status = "operational"
+            description = "Google AI Studio Status 页面可正常访问"
 
         return {
-
-            "service": "Gemini",
-
+            "service": "Gemini / Google AI Studio",
             "status": status,
-
             "description": description,
-
-            "url": url
-
+            "url": url,
+            "http_status": response.status_code
         }
 
+    except requests.exceptions.Timeout:
+        return {
+            "service": "Gemini / Google AI Studio",
+            "status": "unknown",
+            "description": "访问 Google AI Studio Status 页面超时",
+            "url": url
+        }
 
     except Exception as e:
-
         return {
-
-            "service": "Gemini",
-
+            "service": "Gemini / Google AI Studio",
             "status": "unknown",
-
             "description": str(e),
-
             "url": url
-
         }
-
-
 # =========================
 # Grok / xAI
 # =========================
