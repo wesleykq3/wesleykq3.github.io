@@ -160,86 +160,6 @@
         "cve": []
     },
     {
-        "title": "LLMjacking Attack Uses Leaked AWS IAM Key to Steal Paid AI Model Access",
-        "date": "Thu, 03 Sep 2026 16:58:34 +0000",
-        "url": "https://cybersecuritynews.com/llmjacking-attack/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly documented cloud intrusion shows how quickly attackers can turn a single leaked AWS credential into a revenue stream by hijacking access to premium AI models, a technique researchers call LLMj",
-        "cve": []
-    },
-    {
-        "title": "Fewer attacks, more force: Link11’s European Cyber Report finds new DDoS records for the first half of 2026",
-        "date": "Thu, 03 Sep 2026 16:45:29 +0000",
-        "url": "https://cybersecuritynews.com/fewer-attacks-more-force-link11s-european-cyber-report-finds-new-ddos-records-for-the-first-half-of-2026/",
-        "source": "CyberSecurityNews",
-        "summary": "Frankfurt am Main, Germany, September 3rd, 2026, CyberNewswire Super-botnets and hijacked cloud servers drive new bandwidth and packet-rate records as international law-enforcement pressure pushes att",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services",
-        "date": "Thu, 03 Sep 2026 15:11:46 +0000",
-        "url": "https://cybersecuritynews.com/openai-investigates-elevated-errors/",
-        "source": "CyberSecurityNews",
-        "summary": "OpenAI has reported an ongoing service incident involving elevated errors across ChatGPT and Codex, with the company confirming that it is investigating degraded performance affecting the two platform",
-        "cve": []
-    },
-    {
-        "title": "Phantom Deal Hackers Impersonate Executives and Use Fake NDAs to Steal Corporate Wire Transfers",
-        "date": "Thu, 03 Sep 2026 15:01:27 +0000",
-        "url": "https://cybersecuritynews.com/phantom-deal-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are using fake acquisition deals to steer employees toward large wire transfers. The campaign, called Phantom Deal, begins with a believable WhatsApp message from someone appearing to b",
-        "cve": []
-    },
-    {
-        "title": "Hackers Weaponize ScreenConnect to Spread Worm-Like Malware Across Windows Systems",
-        "date": "Thu, 03 Sep 2026 14:52:58 +0000",
-        "url": "https://cybersecuritynews.com/hackers-weaponize-screenconnect/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are turning rogue remote-support installations into a tool that can spread malicious code between Windows computers. The activity stands out because an infected remote-access client can pass s",
-        "cve": []
-    },
-    {
-        "title": "Chaotic Eclipse Claims Avast Antivirus 0-Day Vulnerability – PoC Released",
-        "date": "Thu, 03 Sep 2026 14:47:29 +0000",
-        "url": "https://cybersecuritynews.com/avast-antivirus-0-day-vulnerability-poc-released/",
-        "source": "CyberSecurityNews",
-        "summary": "Researcher Chaotic Eclipse has claimed to have discovered a zero-day privilege-escalation vulnerability affecting Avast Antivirus and released a public proof-of-concept repository named PrettyPrague. ",
-        "cve": []
-    },
-    {
-        "title": "Claude AI Faces Outage Impacting Mythos 5.1, Fable 5.1, and Opus 5",
-        "date": "Thu, 03 Sep 2026 14:39:32 +0000",
-        "url": "https://cybersecuritynews.com/claude-ai-faces-outage/",
-        "source": "CyberSecurityNews",
-        "summary": "Anthropic’s Claude AI experienced a partial outage on September 3, 2026, disrupting requests across several Claude models and affecting developers, enterprise users, and individuals relying on the pla",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use QR Codes in Phishing Emails to Steal Login Credentials",
-        "date": "Thu, 03 Sep 2026 14:24:47 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-qr-codes-2/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are putting QR codes in phishing emails to steal login credentials. Known as quishing, the method hides a dangerous web address inside a square and persuades recipients to scan it with a phone",
-        "cve": []
-    },
-    {
-        "title": "153 Million Driver’s License Scans Surface on Dark Web as FBI Opens Investigation",
-        "date": "Thu, 03 Sep 2026 14:24:36 +0000",
-        "url": "https://cybersecuritynews.com/153-million-driver-license-exposed/",
-        "source": "CyberSecurityNews",
-        "summary": "A dark web identity theft service known as Nexus has reportedly offered scans of more than 153 million driver’s licenses from people in the United States and Canada. The FBI’s New Orleans field office",
-        "cve": []
-    },
-    {
-        "title": "New $7 SweepLED Device That Allows Anyone to Detect Hidden Cameras in Hotels",
-        "date": "Thu, 03 Sep 2026 14:04:05 +0000",
-        "url": "https://cybersecuritynews.com/sweepled-gadget/",
-        "source": "CyberSecurityNews",
-        "summary": "Researchers have developed SweepLED, a low-cost smartphone accessory designed to help travelers find concealed cameras in hotel rooms and short-term rentals. The prototype uses an LED-equipped phone c",
-        "cve": []
-    },
-    {
         "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
         "date": "Tue, 01 Sep 2026 22:40:28 +0000",
         "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -397,6 +317,86 @@
         "url": "https://gbhackers.com/wordpress-plugin-flaw-5/",
         "source": "GBHackers",
         "summary": "A high-severity vulnerability affecting over 5 million active WordPress installations could allow unauthenticated attackers to exploit stored SQL injection vulnerabilities, leading to remote code exec",
+        "cve": []
+    },
+    {
+        "title": "Ubuntu 26.10 Snapshot 3 Monthly ISOs Released For Testing",
+        "date": "Thu, 03 Sep 2026 20:15:30 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Snapshot-3",
+        "source": "Phoronix",
+        "summary": "Released tonight is Ubuntu 26.10 \"Stonking Stingray\" Snapshot 3 as the newest monthly ISO candidates for Ubuntu Linux...",
+        "cve": []
+    },
+    {
+        "title": "Amazon Linux 2027 Now in Preview: Powered By Linux 7.1, x86-64-v3 & Built With LTO",
+        "date": "Thu, 03 Sep 2026 17:13:55 -0400",
+        "url": "https://www.phoronix.com/news/Amazon-Linux-2027-Preview",
+        "source": "Phoronix",
+        "summary": "AWS announced today the public preview of Amazon Linux 2027. Given the time since Amazon Linux 2023, Amazon Linux 2027 comes with a heavy arsenal of software updates as well as many performance optimi",
+        "cve": []
+    },
+    {
+        "title": "Intel Improving Its Content Match Refresh Rate \"CMRR\" Feature With Linux 7.4",
+        "date": "Thu, 03 Sep 2026 13:57:03 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Graphics-CMRR-Linux-7.4",
+        "source": "Phoronix",
+        "summary": "Introduced with the Xe2 Lunar Lake graphics hardware was support for Content Match Refresh Rate (CMRR) as an improvement over typical Variable Refresh Rate (VRR) / Adaptive-Sync to more precisely matc",
+        "cve": []
+    },
+    {
+        "title": "Mir 2.29 Released With Additional Wayland Protocols",
+        "date": "Thu, 03 Sep 2026 13:18:12 -0400",
+        "url": "https://www.phoronix.com/news/Mir-2.29-Released",
+        "source": "Phoronix",
+        "summary": "For those using Canonical's Mir compositor for building Wayland-based shells, Mir 2.29 is now available with various improvements and new Wayland protocol coverage...",
+        "cve": []
+    },
+    {
+        "title": "LLVM Developers Begin Debate Over AGENTS.md For Helping AI Agents",
+        "date": "Thu, 03 Sep 2026 11:45:12 -0400",
+        "url": "https://www.phoronix.com/news/LLVM-Debates-AGENTS-MD",
+        "source": "Phoronix",
+        "summary": "LLVM developers have begun a discussion on whether the project should host an AGENTS.md file (and CLAUDE.md) in their Git repository for helping to guide AI agents...",
+        "cve": []
+    },
+    {
+        "title": "21st Revision Of Patches For Getting Linux To Shutdown Devices Asynchronously",
+        "date": "Thu, 03 Sep 2026 09:03:51 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Shutdown-Async-21",
+        "source": "Phoronix",
+        "summary": "Being worked on for over two years has been the latest attempt for async device shutdown support for Linux for getting Linux systems -- especially servers with lots of hardware like many NVMe drives -",
+        "cve": []
+    },
+    {
+        "title": "NVIDIA Acquiring Hugging Face For $12.93 Billion",
+        "date": "Thu, 03 Sep 2026 08:40:04 -0400",
+        "url": "https://www.phoronix.com/news/NVIDIA-Hugging-Face",
+        "source": "Phoronix",
+        "summary": "Following rumors in recent days of NVIDIA courting Hugging Face, it's now been officially announced that NVIDIA is acquiring Hugging Face...",
+        "cve": []
+    },
+    {
+        "title": "Linux 7.3 Now Disabling RandStruct Security Feature By Default If Rust Support Present",
+        "date": "Thu, 03 Sep 2026 08:22:27 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-RandStruct-Rust",
+        "source": "Phoronix",
+        "summary": "While Rust programming language use may help with memory safety and other security advantages, the default Linux kernel configuration is now losing randomization of sensitive kernel structures if Rust",
+        "cve": []
+    },
+    {
+        "title": "Audacity 4.0 Audio Editor Released With Qt6 Based UI",
+        "date": "Thu, 03 Sep 2026 06:30:52 -0400",
+        "url": "https://www.phoronix.com/news/Audacity-4.0-Released",
+        "source": "Phoronix",
+        "summary": "The longtime Audacity open-source audio editor had been using wxWidgets for years but with today's Audacity 4.0 release they have transitioned to using the Qt6 toolkit...",
+        "cve": []
+    },
+    {
+        "title": "GCC 17 Now Supports Using -mtune=native -mcpu=native On RISC-V",
+        "date": "Thu, 03 Sep 2026 06:20:07 -0400",
+        "url": "https://www.phoronix.com/news/GCC-17-RISC-V-mtune-mcpu-native",
+        "source": "Phoronix",
+        "summary": "As a follow up to last month's article about patches being posted for enabling \"-mcpu=native -mtune=native\" support for RISC-V with the GCC compiler, that code is now merged for what will become the G",
         "cve": []
     }
 ]
