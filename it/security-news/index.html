@@ -10,7 +10,6 @@
 安全资讯中心
 </title>
 
-
 <style>
 
 body{
@@ -37,6 +36,9 @@ padding:30px;
 
 border-radius:10px;
 
+box-shadow:
+0 2px 10px rgba(0,0,0,0.05);
+
 }
 
 
@@ -54,9 +56,23 @@ border-radius:6px;
 
 cursor:pointer;
 
+margin-right:10px;
+
+margin-bottom:20px;
+
+font-size:15px;
+
 }
 
 
+button:hover{
+
+background:#1d4ed8;
+
+}
+
+
+/* 新闻 */
 
 .news{
 
@@ -80,6 +96,13 @@ text-decoration:none;
 }
 
 
+.news a:hover{
+
+text-decoration:underline;
+
+}
+
+
 .date{
 
 color:#777;
@@ -87,60 +110,242 @@ color:#777;
 }
 
 
-</style>
+.news-source{
 
+color:#555;
+
+}
+
+
+/* AI状态 */
+
+.ai-status{
+
+margin-top:20px;
+
+padding:20px;
+
+background:#f8fafc;
+
+border-radius:8px;
+
+border:1px solid #e5e7eb;
+
+}
+
+
+.ai-title{
+
+font-size:22px;
+
+font-weight:bold;
+
+margin-bottom:15px;
+
+}
+
+
+.ai-item{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+padding:14px 10px;
+
+border-bottom:1px solid #e5e7eb;
+
+}
+
+
+.ai-item:last-child{
+
+border-bottom:0;
+
+}
+
+
+.ai-name{
+
+font-size:17px;
+
+font-weight:bold;
+
+}
+
+
+.ai-status-text{
+
+font-weight:bold;
+
+}
+
+
+.operational{
+
+color:#16a34a;
+
+}
+
+
+.degraded{
+
+color:#ca8a04;
+
+}
+
+
+.outage{
+
+color:#dc2626;
+
+}
+
+
+.maintenance{
+
+color:#7c3aed;
+
+}
+
+
+.unknown{
+
+color:#6b7280;
+
+}
+
+
+.ai-time{
+
+margin-top:15px;
+
+font-size:13px;
+
+color:#777;
+
+}
+
+
+.loading{
+
+color:#666;
+
+padding:20px;
+
+}
+
+
+.error{
+
+color:#dc2626;
+
+padding:20px;
+
+background:#fef2f2;
+
+border-radius:6px;
+
+}
+
+</style>
 
 </head>
 
-
-
 <body>
 
-
 <div class="container">
-
 
 <h1>
 🛡️ 安全威胁情报中心
 </h1>
 
-
+<!-- 新闻按钮 -->
 
 <button onclick="loadNews()">
 
-获取最新新闻
+📰 获取最新新闻
 
 </button>
 
+<!-- AI状态按钮 -->
 
+<button onclick="loadAIStatus()">
+
+🤖 AI 服务状态
+
+</button>
+
+<!-- 新闻 -->
 
 <div id="news">
 
 </div>
 
+<!-- AI状态 -->
 
+<div id="ai-status">
 
 </div>
 
-
-
+</div>
 
 <script>
 
 
+// =============================
+// 获取新闻
+// =============================
+
 function loadNews(){
+
+
+document.getElementById("news").innerHTML =
+
+'<div class="loading">正在获取最新新闻...</div>';
 
 
 fetch("news.json")
 
 
-.then(response=>response.json())
+.then(response=>{
+
+if(!response.ok){
+
+throw new Error(
+"news.json 加载失败"
+);
+
+}
+
+return response.json();
+
+})
 
 
 .then(data=>{
 
 
 let html="";
+
+
+html += `
+
+<h2>
+
+📰 最新安全资讯
+
+</h2>
+
+<p>
+
+共 ${data.length} 条新闻
+
+</p>
+
+`;
 
 
 data.forEach(item=>{
@@ -152,9 +357,13 @@ html += `
 <div class="news">
 
 
-<a href="${item.url}" target="_blank">
+<a
+href="${item.url}"
+target="_blank"
+rel="noopener noreferrer"
+>
 
-${item.title}
+${escapeHTML(item.title)}
 
 </a>
 
@@ -162,24 +371,22 @@ ${item.title}
 <p class="date">
 
 发布日期：
-${item.date}
+${escapeHTML(item.date)}
 
 </p>
 
 
-
-<p>
+<p class="news-source">
 
 来源：
-${item.source}
+${escapeHTML(item.source)}
 
 </p>
 
 
-
 <p>
 
-${item.summary}
+${escapeHTML(item.summary || "")}
 
 </p>
 
@@ -193,9 +400,28 @@ ${item.summary}
 });
 
 
+document.getElementById(
+"news"
+).innerHTML=html;
 
-document.getElementById("news").innerHTML=html;
 
+})
+
+
+.catch(error=>{
+
+
+document.getElementById(
+"news"
+).innerHTML=
+
+`<div class="error">
+
+新闻加载失败：
+
+${escapeHTML(error.message)}
+
+</div>`;
 
 
 });
@@ -205,9 +431,324 @@ document.getElementById("news").innerHTML=html;
 
 
 
+// =============================
+// 获取 AI 服务状态
+// =============================
+
+function loadAIStatus(){
+
+
+const container =
+document.getElementById(
+"ai-status"
+);
+
+
+container.innerHTML =
+
+'<div class="loading">正在获取 AI 服务状态...</div>';
+
+
+fetch("ai_status.json?t=" + Date.now())
+
+
+.then(response=>{
+
+if(!response.ok){
+
+throw new Error(
+"ai_status.json 加载失败"
+);
+
+}
+
+return response.json();
+
+})
+
+
+.then(data=>{
+
+
+let html="";
+
+
+html += `
+
+<div class="ai-status">
+
+<div class="ai-title">
+
+🤖 AI 服务状态
+
+</div>
+
+`;
+
+
+if(
+data.services &&
+data.services.length > 0
+){
+
+
+data.services.forEach(item=>{
+
+
+let status =
+item.status || "unknown";
+
+
+let statusInfo =
+getStatusInfo(status);
+
+
+html += `
+
+<div class="ai-item">
+
+
+<div>
+
+<div class="ai-name">
+
+${escapeHTML(
+item.service
+)}
+
+</div>
+
+
+<div
+class="ai-time"
+>
+
+${escapeHTML(
+item.description || ""
+)}
+
+</div>
+
+</div>
+
+
+<div
+class="ai-status-text ${statusInfo.className}"
+>
+
+${statusInfo.icon}
+
+${statusInfo.text}
+
+</div>
+
+
+</div>
+
+`;
+
+
+});
+
+
+}else{
+
+
+html += `
+
+<div class="error">
+
+没有获取到 AI 服务数据
+
+</div>
+
+`;
+
+}
+
+
+if(data.timestamp){
+
+html += `
+
+<div class="ai-time">
+
+最后更新时间：
+
+${escapeHTML(
+data.timestamp
+)}
+
+</div>
+
+`;
+
+}
+
+
+html += `
+
+</div>
+
+`;
+
+
+container.innerHTML=html;
+
+
+})
+
+
+.catch(error=>{
+
+
+container.innerHTML=
+
+`<div class="error">
+
+AI 服务状态获取失败：
+
+${escapeHTML(
+error.message
+)}
+
+<br><br>
+
+请确认：
+
+<br>
+1. ai_status.json 是否存在
+<br>
+2. GitHub Actions 是否已经运行
+<br>
+3. ai_status.py 是否正常执行
+
+</div>`;
+
+
+});
+
+
+}
+
+
+
+// =============================
+// 状态转换
+// =============================
+
+function getStatusInfo(status){
+
+
+status =
+String(status)
+.toLowerCase();
+
+
+switch(status){
+
+
+case "operational":
+
+case "none":
+
+case "ok":
+
+return {
+
+icon:"🟢",
+
+text:"正常",
+
+className:"operational"
+
+};
+
+
+case "degraded":
+
+case "degraded_performance":
+
+case "partial_outage":
+
+return {
+
+icon:"🟡",
+
+text:"性能下降 / 部分故障",
+
+className:"degraded"
+
+};
+
+
+case "outage":
+
+case "major_outage":
+
+return {
+
+icon:"🔴",
+
+text:"服务故障",
+
+className:"outage"
+
+};
+
+
+case "maintenance":
+
+return {
+
+icon:"🟣",
+
+text:"维护中",
+
+className:"maintenance"
+
+};
+
+
+default:
+
+return {
+
+icon:"⚪",
+
+text:"无法检测",
+
+className:"unknown"
+
+};
+
+}
+
+}
+
+
+
+// =============================
+// HTML安全处理
+// =============================
+
+function escapeHTML(text){
+
+
+const div =
+document.createElement("div");
+
+
+div.textContent =
+String(text ?? "");
+
+
+return div.innerHTML;
+
+}
+
+
 </script>
-
-
 
 </body>
 
