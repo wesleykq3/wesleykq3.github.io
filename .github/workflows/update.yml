@@ -41,13 +41,17 @@ jobs:
 
 
 
-    - name: Install package
+    - name: Install feedparser
 
       run:
 
         pip install feedparser
 
+    - name: Install requests
 
+      run:
+
+        pip install requests
 
     - name: Run spider
 
