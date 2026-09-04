@@ -1,5 +1,45 @@
 [
     {
+        "title": "Microsoft says some users can’t open the Teams desktop client",
+        "date": "Fri, 04 Sep 2026 10:30:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
+        "cve": []
+    },
+    {
+        "title": "39 New Methods That Compromise Passkey Authentication",
+        "date": "Fri, 04 Sep 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+        "source": "BleepingComputer",
+        "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prom",
+        "cve": []
+    },
+    {
+        "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+        "date": "Fri, 04 Sep 2026 09:22:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+        "source": "BleepingComputer",
+        "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Window",
+        "cve": []
+    },
+    {
+        "title": "Exchange Online outage causes email delays, 'Server busy' errors",
+        "date": "Fri, 04 Sep 2026 08:22:30 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
+        "cve": []
+    },
+    {
+        "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
+        "date": "Fri, 04 Sep 2026 07:48:17 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
+        "cve": []
+    },
+    {
         "title": "French hospital fined €500,000 after breach exposes data of 727,000",
         "date": "Thu, 03 Sep 2026 18:01:37 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
@@ -40,43 +80,43 @@
         "cve": []
     },
     {
-        "title": "Anthropic confirms Claude is down, multiple models affected",
-        "date": "Thu, 03 Sep 2026 11:02:52 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
-        "source": "BleepingComputer",
-        "summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
+        "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+        "date": "Fri, 04 Sep 2026 20:21:13 +0530",
+        "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+        "source": "The Hacker News",
+        "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served alter",
         "cve": []
     },
     {
-        "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-        "date": "Thu, 03 Sep 2026 10:52:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-        "source": "BleepingComputer",
-        "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the",
+        "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+        "date": "Fri, 04 Sep 2026 14:18:45 +0530",
+        "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.\n\nThe vulnerabilities in question are -\n\n\n  CVE-2026-1",
         "cve": []
     },
     {
-        "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
-        "date": "Thu, 03 Sep 2026 09:50:59 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
-        "source": "BleepingComputer",
-        "summary": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine wheth",
+        "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+        "date": "Fri, 04 Sep 2026 13:05:14 +0530",
+        "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+        "source": "The Hacker News",
+        "summary": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.\n\nThe fixes are available in Plex Media Server 1.43.3 and P",
         "cve": []
     },
     {
-        "title": "Microsoft says KB5120998 Windows update resets desktop settings",
-        "date": "Thu, 03 Sep 2026 08:16:32 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [...]",
+        "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+        "date": "Fri, 04 Sep 2026 12:48:47 +0530",
+        "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "source": "The Hacker News",
+        "summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-85046",
         "cve": []
     },
     {
-        "title": "Plex warns users to patch security vulnerabilities immediately",
-        "date": "Thu, 03 Sep 2026 07:02:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
-        "source": "BleepingComputer",
-        "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
+        "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+        "date": "Fri, 04 Sep 2026 12:17:52 +0530",
+        "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\"\n\nThe development comes days after the artificial intelligence (AI) company s",
         "cve": []
     },
     {
@@ -120,123 +160,83 @@
         "cve": []
     },
     {
-        "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-        "date": "Thu, 03 Sep 2026 16:13:01 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads.\n\nAccording to a new report published by the Symantec Threat Hunter ",
-        "cve": []
-    },
-    {
-        "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
-        "date": "Thu, 03 Sep 2026 16:06:39 +0530",
-        "url": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
-        "source": "The Hacker News",
-        "summary": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Inte",
-        "cve": []
-    },
-    {
-        "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-        "date": "Thu, 03 Sep 2026 14:13:17 +0530",
-        "url": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
-        "source": "The Hacker News",
-        "summary": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foun",
-        "cve": []
-    },
-    {
-        "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
-        "date": "Thu, 03 Sep 2026 11:56:59 +0530",
-        "url": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-        "source": "The Hacker News",
-        "summary": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Crowd",
-        "cve": []
-    },
-    {
-        "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
-        "date": "Thu, 03 Sep 2026 10:49:04 +0530",
-        "url": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs",
-        "cve": []
-    },
-    {
-        "title": "LLMjacking Attack Uses Leaked AWS IAM Key to Steal Paid AI Model Access",
-        "date": "Thu, 03 Sep 2026 16:58:34 +0000",
-        "url": "https://cybersecuritynews.com/llmjacking-attack/",
+        "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
+        "date": "Fri, 04 Sep 2026 14:44:43 +0000",
+        "url": "https://cybersecuritynews.com/popular-messaging-services/",
         "source": "CyberSecurityNews",
-        "summary": "A newly documented cloud intrusion shows how quickly attackers can turn a single leaked AWS credential into a revenue stream by hijacking access to premium AI models, a technique researchers call LLMj",
+        "summary": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a discree",
         "cve": []
     },
     {
-        "title": "Fewer attacks, more force: Link11’s European Cyber Report finds new DDoS records for the first half of 2026",
-        "date": "Thu, 03 Sep 2026 16:45:29 +0000",
-        "url": "https://cybersecuritynews.com/fewer-attacks-more-force-link11s-european-cyber-report-finds-new-ddos-records-for-the-first-half-of-2026/",
+        "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
+        "date": "Fri, 04 Sep 2026 14:29:44 +0000",
+        "url": "https://cybersecuritynews.com/nodestealer-record-everything/",
         "source": "CyberSecurityNews",
-        "summary": "Frankfurt am Main, Germany, September 3rd, 2026, CyberNewswire Super-botnets and hijacked cloud servers drive new bandwidth and packet-rate records as international law-enforcement pressure pushes att",
+        "summary": "NodeStealer has returned with a more invasive toolkit. The Python-based information stealer can now record keystrokes, watch copied text, and capture victims’ screens, turning an account-stealing infe",
         "cve": []
     },
     {
-        "title": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services",
-        "date": "Thu, 03 Sep 2026 15:11:46 +0000",
-        "url": "https://cybersecuritynews.com/openai-investigates-elevated-errors/",
+        "title": "Hackers Use Invisible Unicode Characters to Evade Phishing Detection in Millions of Emails",
+        "date": "Fri, 04 Sep 2026 14:09:55 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-invisible-unicode/",
         "source": "CyberSecurityNews",
-        "summary": "OpenAI has reported an ongoing service incident involving elevated errors across ChatGPT and Codex, with the company confirming that it is investigating degraded performance affecting the two platform",
+        "summary": "Attackers are using invisible Unicode characters to make phishing emails appear harmless while disrupting the security systems built to spot suspicious language. The campaign pushed finance-themed mes",
         "cve": []
     },
     {
-        "title": "Phantom Deal Hackers Impersonate Executives and Use Fake NDAs to Steal Corporate Wire Transfers",
-        "date": "Thu, 03 Sep 2026 15:01:27 +0000",
-        "url": "https://cybersecuritynews.com/phantom-deal-hackers/",
+        "title": "Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",
+        "date": "Fri, 04 Sep 2026 13:21:43 +0000",
+        "url": "https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks/",
         "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are using fake acquisition deals to steer employees toward large wire transfers. The campaign, called Phantom Deal, begins with a believable WhatsApp message from someone appearing to b",
+        "summary": "Hackers have turned commercial AI models into working parts of a cyberattack operation. The campaign paired AI-directed tasking with familiar methods such as vulnerable public-facing servers, stolen c",
         "cve": []
     },
     {
-        "title": "Hackers Weaponize ScreenConnect to Spread Worm-Like Malware Across Windows Systems",
-        "date": "Thu, 03 Sep 2026 14:52:58 +0000",
-        "url": "https://cybersecuritynews.com/hackers-weaponize-screenconnect/",
+        "title": "Microsoft Confirms New Exchange Online Outage Delaying Emails from External Domains",
+        "date": "Fri, 04 Sep 2026 13:00:28 +0000",
+        "url": "https://cybersecuritynews.com/exchange-online-outage-delaying-emails/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are turning rogue remote-support installations into a tool that can spread malicious code between Windows computers. The activity stands out because an infected remote-access client can pass s",
+        "summary": "Microsoft has confirmed a fresh Exchange Online incident, tracked as EX1467029, causing delays for users sending and receiving email messages from external domains. The company first acknowledged the ",
         "cve": []
     },
     {
-        "title": "Chaotic Eclipse Claims Avast Antivirus 0-Day Vulnerability – PoC Released",
-        "date": "Thu, 03 Sep 2026 14:47:29 +0000",
-        "url": "https://cybersecuritynews.com/avast-antivirus-0-day-vulnerability-poc-released/",
+        "title": "Plex Urges Users to Update Media Server Immediately to Fix Multiple Security Flaws",
+        "date": "Fri, 04 Sep 2026 12:17:49 +0000",
+        "url": "https://cybersecuritynews.com/plex-fix-multiple-security-flaws/",
         "source": "CyberSecurityNews",
-        "summary": "Researcher Chaotic Eclipse has claimed to have discovered a zero-day privilege-escalation vulnerability affecting Avast Antivirus and released a public proof-of-concept repository named PrettyPrague. ",
+        "summary": "Plex has issued an urgent security update for Plex Media Server and Plex Desktop, asking users to install the latest releases as soon as possible. The update addresses multiple undisclosed security is",
         "cve": []
     },
     {
-        "title": "Claude AI Faces Outage Impacting Mythos 5.1, Fable 5.1, and Opus 5",
-        "date": "Thu, 03 Sep 2026 14:39:32 +0000",
-        "url": "https://cybersecuritynews.com/claude-ai-faces-outage/",
+        "title": "Multiple TP-Link Archer Vulnerabilities Allow Attackers to Execute Remote Code",
+        "date": "Fri, 04 Sep 2026 12:16:28 +0000",
+        "url": "https://cybersecuritynews.com/multiple-tp-link-archer-vulnerabilities/",
         "source": "CyberSecurityNews",
-        "summary": "Anthropic’s Claude AI experienced a partial outage on September 3, 2026, disrupting requests across several Claude models and affecting developers, enterprise users, and individuals relying on the pla",
+        "summary": "TP-Link has disclosed two security vulnerabilities in its Archer AX55 v4 router that could let attackers on the local network crash a service, steal administrator credentials, and potentially execute ",
         "cve": []
     },
     {
-        "title": "Hackers Use QR Codes in Phishing Emails to Steal Login Credentials",
-        "date": "Thu, 03 Sep 2026 14:24:47 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-qr-codes-2/",
+        "title": "OpenAI Agents Hijack German Wiki in AI Breakout to Share Evasion and Bypass Tactics",
+        "date": "Fri, 04 Sep 2026 12:03:31 +0000",
+        "url": "https://cybersecuritynews.com/openai-agents-hijack-german-wiki/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are putting QR codes in phishing emails to steal login credentials. Known as quishing, the method hides a dangerous web address inside a square and persuades recipients to scan it with a phone",
+        "summary": "Autonomous AI agents that identified themselves as OpenAI systems hijacked an obscure German-language wiki this spring and turned it into a public bulletin board, according to research published at co",
         "cve": []
     },
     {
-        "title": "153 Million Driver’s License Scans Surface on Dark Web as FBI Opens Investigation",
-        "date": "Thu, 03 Sep 2026 14:24:36 +0000",
-        "url": "https://cybersecuritynews.com/153-million-driver-license-exposed/",
+        "title": "Microsoft 365 Phishing Technique Uses Empty Envelope Sender to Evade Direct Send Blocking",
+        "date": "Fri, 04 Sep 2026 11:49:30 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-365-phishing/",
         "source": "CyberSecurityNews",
-        "summary": "A dark web identity theft service known as Nexus has reportedly offered scans of more than 153 million driver’s licenses from people in the United States and Canada. The FBI’s New Orleans field office",
+        "summary": "Microsoft 365 users are facing a phishing technique built on a small change: attackers leave the SMTP envelope sender blank. The omission can let an unauthenticated message pass a Direct Send safeguar",
         "cve": []
     },
     {
-        "title": "New $7 SweepLED Device That Allows Anyone to Detect Hidden Cameras in Hotels",
-        "date": "Thu, 03 Sep 2026 14:04:05 +0000",
-        "url": "https://cybersecuritynews.com/sweepled-gadget/",
+        "title": "Trezor Confirms ShipMonk Data Breach Exposed 67,000 Additional US Customers",
+        "date": "Fri, 04 Sep 2026 11:37:44 +0000",
+        "url": "https://cybersecuritynews.com/trezor-confirms-shipmonk-data-breach/",
         "source": "CyberSecurityNews",
-        "summary": "Researchers have developed SweepLED, a low-cost smartphone accessory designed to help travelers find concealed cameras in hotel rooms and short-term rentals. The prototype uses an LED-equipped phone c",
+        "summary": "Hardware wallet maker Trezor has confirmed that a data breach at logistics partner ShipMonk is substantially larger than first reported, after older U.S. order records that should have been deleted re",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Fewer attacks, more force: Link11’s European Cyber Report finds new DDoS records for the first half of 2026",
-        "date": "Thu, 03 Sep 2026 16:47:51 +0000",
-        "url": "https://gbhackers.com/fewer-attacks-more-force-link11s-european-cyber-report-finds-new-ddos-records-for-the-first-half-of-2026/",
+        "title": "Hackers Turn HiveMQ and Element Messenger Into Control Channels for Windows Backdoors",
+        "date": "Fri, 04 Sep 2026 13:38:33 +0000",
+        "url": "https://gbhackers.com/hivemq-powers-backdoor/",
         "source": "GBHackers",
-        "summary": "Frankfurt am Main, Germany, September 3rd, 2026, CyberNewswire Super-botnets and hijacked cloud servers drive new bandwidth and packet-rate records as international law-enforcement pressure pushes att",
+        "summary": "The financially motivated threat actor Toy Ghouls has expanded its custom malware arsenal with two Windows backdoors that abuse HiveMQ’s public MQTT infrastructure and the Matrix-based Element messagi",
         "cve": []
     },
     {
-        "title": "Fake Acquisition Scam Uses Forged NDAs to Demand €626,000 Corporate Payment.",
-        "date": "Thu, 03 Sep 2026 13:34:40 +0000",
-        "url": "https://gbhackers.com/fake-acquisition-scam/",
+        "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques",
+        "date": "Fri, 04 Sep 2026 13:21:00 +0000",
+        "url": "https://gbhackers.com/openai-agents-collude-on-public-wiki/",
         "source": "GBHackers",
-        "summary": "Threat actors impersonated Gen executives and major consulting firms in a targeted business email compromise-style operation that used forged non-disclosure agreements to isolate a legal employee and ",
+        "summary": "Researchers have discovered a public wiki message board that they claim was used by autonomous AI agents, identifying themselves as OpenAI systems, to exchange answers to tasks, inspect their operatin",
         "cve": []
     },
     {
-        "title": "Rogue ScreenConnect Clients Spread Worm-Like Malware Across Connected Windows Systems",
-        "date": "Thu, 03 Sep 2026 13:15:55 +0000",
-        "url": "https://gbhackers.com/rogue-screenconnect-clients/",
+        "title": "ShipMonk Data Breach Exposes Personal Data of 67,000 Additional Trezor Customers",
+        "date": "Fri, 04 Sep 2026 12:52:42 +0000",
+        "url": "https://gbhackers.com/shipmonk-data-breach-exposes-personal-data/",
         "source": "GBHackers",
-        "summary": "A malicious ScreenConnect campaign in which rogue remote-access clients do more than provide attackers with hands-on control: modified clients can automatically push a multi-stage VBScript malware cha",
+        "summary": "Trezor has revealed that a data breach involving its fulfillment provider, ShipMonk, exposed personal and order information of approximately 67,000 additional US customers. This significantly broadens",
         "cve": []
     },
     {
-        "title": "QR Phishing Hits Record Levels as Attackers Hide Malicious Links Inside QR Codes",
-        "date": "Thu, 03 Sep 2026 12:12:02 +0000",
-        "url": "https://gbhackers.com/qr-codes-attack/",
+        "title": "NodeStealer Spyware Adds Keylogging, Screenshot Capture and Facebook Data Theft",
+        "date": "Fri, 04 Sep 2026 12:18:19 +0000",
+        "url": "https://gbhackers.com/nodestealer-spyware-malware/",
         "source": "GBHackers",
-        "summary": "QR code phishing, widely known as “quishing,” has reached record levels as threat actors increasingly conceal malicious URLs within scannable images rather than placing clickable links directly in ema",
+        "summary": "A major upgrade to the Python-based NodeStealer malware, transforming the Facebook-focused infostealer into a broader spyware platform capable of logging keystrokes, monitoring clipboard data, capturi",
         "cve": []
     },
     {
-        "title": "Microsoft to Automatically Enable Memory Integrity on Windows Devices to Block Kernel Attacks",
-        "date": "Thu, 03 Sep 2026 11:57:34 +0000",
-        "url": "https://gbhackers.com/microsoft-to-automatically-enable-memory-integrity/",
+        "title": "Microsoft Teams Adds QR Code Protection to Block Phishing and Fraud",
+        "date": "Fri, 04 Sep 2026 11:32:45 +0000",
+        "url": "https://gbhackers.com/microsoft-teams-adds-qr-code-protection/",
         "source": "GBHackers",
-        "summary": "Microsoft will start automatically enabling Memory Integrity protection on eligible Windows devices through quality updates beginning in October 2026. This change aims to strengthen defenses against k",
+        "summary": "Microsoft is developing a new security feature for Teams messaging that will obscure QR codes sent by external users. This measure aims to help organizations reduce phishing and fraud risks associated",
         "cve": []
     },
     {
-        "title": "New $7 SweepLED Gadget Detects Hidden Cameras With 94% Accuracy in 5 Seconds",
-        "date": "Thu, 03 Sep 2026 11:44:53 +0000",
-        "url": "https://gbhackers.com/new-7-sweepled-gadget-detects-hidden-cameras/",
+        "title": "MECCHA CHAMELEON Flaw Lets Malicious Custom Maps Achieve Remote Code Execution",
+        "date": "Fri, 04 Sep 2026 11:16:43 +0000",
+        "url": "https://gbhackers.com/meccha-chameleon-flaw/",
         "source": "GBHackers",
-        "summary": "Researchers have developed SweepLED, a smartphone-based hidden-camera detection system that uses a low-cost LED accessory and computer vision to identify concealed lenses in under five seconds. The sy",
+        "summary": "A recently patched vulnerability in MECCHA CHAMELEON allowed attacker-controlled Steam Workshop maps to write files to arbitrary locations on Windows systems, potentially resulting in remote code exec",
         "cve": []
     },
     {
-        "title": "Avast Antivirus Zero-Day PoC Lets Attackers Dump SAM Database and Gain SYSTEM Shell",
-        "date": "Thu, 03 Sep 2026 11:25:46 +0000",
-        "url": "https://gbhackers.com/avast-antivirus-zero-day-poc/",
+        "title": "Critical Super Forms WordPress Flaw Actively Exploited to Achieve Remote Code Execution",
+        "date": "Fri, 04 Sep 2026 10:50:38 +0000",
+        "url": "https://gbhackers.com/critical-super-forms-wordpress-flaw-actively-exploited/",
         "source": "GBHackers",
-        "summary": "A public proof-of-concept (PoC) repository has revealed a local privilege escalation zero-day vulnerability in GenDigital’s Avast Antivirus. This vulnerability allows an attacker to dump the Windows S",
+        "summary": "Threat actors are actively exploiting a critical vulnerability in the Super Forms WordPress plugin, allowing them to upload PHP backdoors and gain remote code execution. This flaw, tracked as CVE-2026",
         "cve": []
     },
     {
-        "title": "HTML-Rendered QR Phishing Evades Image Extraction and OCR-Based Email Scanning",
-        "date": "Thu, 03 Sep 2026 11:14:29 +0000",
-        "url": "https://gbhackers.com/html-rendered-qr-phishing/",
+        "title": "Plex Urges Users to Update Media Server as Multiple Security Flaws Are Discovered",
+        "date": "Fri, 04 Sep 2026 10:39:42 +0000",
+        "url": "https://gbhackers.com/plex-urges-users-to-update-media-server/",
         "source": "GBHackers",
-        "summary": "QR-code phishing, commonly known as quishing, is evolving beyond image-based payloads. Threat actors are now rendering scannable QR codes directly from HTML tables or text within email bodies, leaving",
+        "summary": "Plex has urged users to promptly update their Plex Media Server and Plex Desktop software following the release of fixes for several undisclosed security issues in older versions. The recommended vers",
         "cve": []
     },
     {
-        "title": "StreamRAT Abuses Android Accessibility, MediaProjection and HVNC for Full Device Takeover",
-        "date": "Thu, 03 Sep 2026 09:25:46 +0000",
-        "url": "https://gbhackers.com/streamrat-abuses-android/",
+        "title": "Hackers Abuse AI-Era ASCII Smuggling to Hide Phishing Content in Millions of Emails",
+        "date": "Fri, 04 Sep 2026 10:14:43 +0000",
+        "url": "https://gbhackers.com/ai-era-ascii-smuggling/",
         "source": "GBHackers",
-        "summary": "StreamRAT, a newly identified Android banking trojan distributed through fake free-TV streaming advertisements on Meta and TikTok. The campaign, tracked as “Steamtv Esp.,” primarily targeted Spanish-s",
+        "summary": "Threat actors have repurposed an AI prompt-injection technique known as ASCII smuggling to evade email security controls at massive scale, hiding invisible Unicode characters within financial phishing",
         "cve": []
     },
     {
-        "title": "WordPress Plugin Flaw Lets Attackers Turn SQL Injection Into Complete Site Takeover",
-        "date": "Thu, 03 Sep 2026 09:19:04 +0000",
-        "url": "https://gbhackers.com/wordpress-plugin-flaw-5/",
+        "title": "Chinese-Speaking Hackers Use Claude, Qwen and DeepSeek AI Agents to Attack Government Systems",
+        "date": "Fri, 04 Sep 2026 09:00:44 +0000",
+        "url": "https://gbhackers.com/ai-powered-government-attacks/",
         "source": "GBHackers",
-        "summary": "A high-severity vulnerability affecting over 5 million active WordPress installations could allow unauthenticated attackers to exploit stored SQL injection vulnerabilities, leading to remote code exec",
+        "summary": "Chinese-speaking threat operators have been observed using Claude, Qwen and DeepSeek-powered AI agents as operational components in a second intrusion campaign targeting government, political, educati",
         "cve": []
     }
 ]
