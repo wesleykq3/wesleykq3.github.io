@@ -54,6 +54,7 @@ jobs:
       run:
 
         python it/security-news/crawler/spider.py
+        python it/security-news/crawler/ai_status_monitor.py
 
 
 
