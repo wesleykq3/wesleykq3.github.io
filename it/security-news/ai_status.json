@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-04T02:42:41.217169",
+    "timestamp": "2026-09-04T02:54:06.778009",
     "services": [
         {
             "service": "OpenAI",
@@ -14,10 +14,11 @@
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
-            "service": "Gemini",
-            "status": "check_dashboard",
-            "description": "Gemini found in Google Status Dashboard",
-            "url": "https://www.google.com/appsstatus/dashboard/"
+            "service": "Gemini / Google AI Studio",
+            "status": "operational",
+            "description": "Google AI Studio Status 页面可正常访问",
+            "url": "https://aistudio.google.com/status",
+            "http_status": 200
         },
         {
             "service": "Grok / xAI",
