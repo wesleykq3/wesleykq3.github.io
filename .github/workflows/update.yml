@@ -52,8 +52,11 @@ jobs:
     - name: Run spider
 
       run:
-
         python it/security-news/crawler/spider.py
+        
+    - name: Run spider
+
+      run:
         python it/security-news/crawler/ai_status_monitor.py
 
 
