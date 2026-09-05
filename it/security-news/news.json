@@ -1,5 +1,21 @@
 [
     {
+        "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+        "date": "Fri, 04 Sep 2026 12:56:45 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+        "source": "BleepingComputer",
+        "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
+        "cve": []
+    },
+    {
+        "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+        "date": "Fri, 04 Sep 2026 11:25:59 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
+        "cve": []
+    },
+    {
         "title": "Microsoft says some users can’t open the Teams desktop client",
         "date": "Fri, 04 Sep 2026 10:30:15 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
@@ -64,19 +80,19 @@
         "cve": []
     },
     {
-        "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-        "date": "Thu, 03 Sep 2026 11:22:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
+        "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+        "date": "Fri, 04 Sep 2026 21:27:15 +0530",
+        "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+        "source": "The Hacker News",
+        "summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people w",
         "cve": []
     },
     {
-        "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
-        "date": "Thu, 03 Sep 2026 11:13:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
-        "source": "BleepingComputer",
-        "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
+        "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+        "date": "Fri, 04 Sep 2026 20:50:19 +0530",
+        "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+        "source": "The Hacker News",
+        "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe fl",
         "cve": []
     },
     {
@@ -144,19 +160,11 @@
         "cve": []
     },
     {
-        "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-        "date": "Thu, 03 Sep 2026 20:09:05 +0530",
-        "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
-        "source": "The Hacker News",
-        "summary": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting",
-        "cve": []
-    },
-    {
-        "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
-        "date": "Thu, 03 Sep 2026 17:28:00 +0530",
-        "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-        "source": "The Hacker News",
-        "summary": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 count",
+        "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
+        "date": "Fri, 04 Sep 2026 16:44:18 +0000",
+        "url": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significa",
         "cve": []
     },
     {
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/microsoft-365-phishing/",
         "source": "CyberSecurityNews",
         "summary": "Microsoft 365 users are facing a phishing technique built on a small change: attackers leave the SMTP envelope sender blank. The omission can let an unauthenticated message pass a Direct Send safeguar",
-        "cve": []
-    },
-    {
-        "title": "Trezor Confirms ShipMonk Data Breach Exposed 67,000 Additional US Customers",
-        "date": "Fri, 04 Sep 2026 11:37:44 +0000",
-        "url": "https://cybersecuritynews.com/trezor-confirms-shipmonk-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "Hardware wallet maker Trezor has confirmed that a data breach at logistics partner ShipMonk is substantially larger than first reported, after older U.S. order records that should have been deleted re",
         "cve": []
     },
     {
