@@ -1,5 +1,13 @@
 [
     {
+        "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+        "date": "Sat, 05 Sep 2026 07:11:50 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as mode",
+        "cve": []
+    },
+    {
         "title": "IDScan sued over alleged data breach affecting 153 million drivers",
         "date": "Fri, 04 Sep 2026 12:56:45 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
@@ -72,11 +80,19 @@
         "cve": []
     },
     {
-        "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-        "date": "Thu, 03 Sep 2026 14:28:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-        "source": "BleepingComputer",
-        "summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
+        "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+        "date": "Sat, 05 Sep 2026 13:25:10 +0530",
+        "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+        "source": "The Hacker News",
+        "summary": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, ",
+        "cve": []
+    },
+    {
+        "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+        "date": "Sat, 05 Sep 2026 13:01:53 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Tea",
         "cve": []
     },
     {
@@ -144,19 +160,19 @@
         "cve": []
     },
     {
-        "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-        "date": "Thu, 03 Sep 2026 21:22:07 +0530",
-        "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-        "source": "The Hacker News",
-        "summary": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongsid",
+        "title": "Microsoft Teams Desktop Client Fails to Load on Windows System – Microsoft Investigating",
+        "date": "Sat, 05 Sep 2026 09:20:18 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged the p",
         "cve": []
     },
     {
-        "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-        "date": "Thu, 03 Sep 2026 20:56:47 +0530",
-        "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised h",
+        "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
+        "date": "Sat, 05 Sep 2026 07:46:07 +0000",
+        "url": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
+        "source": "CyberSecurityNews",
+        "summary": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams ro",
         "cve": []
     },
     {
@@ -221,22 +237,6 @@
         "url": "https://cybersecuritynews.com/multiple-tp-link-archer-vulnerabilities/",
         "source": "CyberSecurityNews",
         "summary": "TP-Link has disclosed two security vulnerabilities in its Archer AX55 v4 router that could let attackers on the local network crash a service, steal administrator credentials, and potentially execute ",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Agents Hijack German Wiki in AI Breakout to Share Evasion and Bypass Tactics",
-        "date": "Fri, 04 Sep 2026 12:03:31 +0000",
-        "url": "https://cybersecuritynews.com/openai-agents-hijack-german-wiki/",
-        "source": "CyberSecurityNews",
-        "summary": "Autonomous AI agents that identified themselves as OpenAI systems hijacked an obscure German-language wiki this spring and turned it into a public bulletin board, according to research published at co",
-        "cve": []
-    },
-    {
-        "title": "Microsoft 365 Phishing Technique Uses Empty Envelope Sender to Evade Direct Send Blocking",
-        "date": "Fri, 04 Sep 2026 11:49:30 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-365-phishing/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft 365 users are facing a phishing technique built on a small change: attackers leave the SMTP envelope sender blank. The omission can let an unauthenticated message pass a Direct Send safeguar",
         "cve": []
     },
     {
@@ -320,6 +320,54 @@
         "cve": []
     },
     {
+        "title": "Chainguard Hits 1 Billion Build Manifests With AI-Powered Software Supply Chain Security",
+        "date": "Sat, 05 Sep 2026 09:47:35 +0000",
+        "url": "https://gbhackers.com/chainguard-hits-1-billion-build-manifests/",
+        "source": "GBHackers",
+        "summary": "Chainguard has surpassed 1 billion container build manifests, doubling production from 500 million in six months as it expands its AI-assisted software supply-chain security platform. The company now ",
+        "cve": []
+    },
+    {
+        "title": "Russian Hackers Deploy New HOOKEDGE Backdoor in Espionage Attacks Across Europe",
+        "date": "Sat, 05 Sep 2026 09:27:32 +0000",
+        "url": "https://gbhackers.com/russian-apt28-linked-hackers-deploy-hookedge-backdoor/",
+        "source": "GBHackers",
+        "summary": "Russian state-sponsored threat actor BlueDelta, also tracked as APT28, Fancy Bear, and Forest Blizzard, has deployed a lightweight Windows backdoor named HOOKEDGE in espionage operations targeting gov",
+        "cve": []
+    },
+    {
+        "title": "New Panzer Ransomware Hits 16 Victims Across 11 Countries With Data Theft and Encryption",
+        "date": "Sat, 05 Sep 2026 07:53:57 +0000",
+        "url": "https://gbhackers.com/new-panzer-ransomware-hits-16-victim/",
+        "source": "GBHackers",
+        "summary": "Panzer ransomware has emerged as a new Ransomware-as-a-Service (RaaS) operation, publishing 16 alleged victims across 11 countries while combining data theft with file encryption. Documented by CyberX",
+        "cve": []
+    },
+    {
+        "title": "12-Year-Old PostgreSQL Flaw Lets Attackers Execute Code and Take Over Database Servers",
+        "date": "Sat, 05 Sep 2026 07:34:32 +0000",
+        "url": "https://gbhackers.com/12-year-old-postgresql-flaw/",
+        "source": "GBHackers",
+        "summary": "A critical PostgreSQL vulnerability dubbed PostGREShell could allow low-privileged replication accounts to execute attacker-controlled code, escalate to database superuser, and establish persistent ba",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Frontier AI Agents to Breach Enterprise Network in Under 10 Hours",
+        "date": "Sat, 05 Sep 2026 07:18:41 +0000",
+        "url": "https://gbhackers.com/hackers-use-frontier-ai-agents/",
+        "source": "GBHackers",
+        "summary": "A threat actor used frontier artificial-intelligence models and attack-specific agentic frameworks to breach an enterprise environment, harvest root credentials, and hijack cloud AI infrastructure in ",
+        "cve": []
+    },
+    {
+        "title": "CARS24 Data Breach Exposes 3,100 Customer Records, Leads Allegedly Sold for ₹1,000 Each",
+        "date": "Sat, 05 Sep 2026 06:59:50 +0000",
+        "url": "https://gbhackers.com/cars24-data-breach-exposes-3100-customer-records/",
+        "source": "GBHackers",
+        "summary": "Used-car platform CARS24 has alleged that confidential information belonging to approximately 3,100 customers was stolen and supplied to a rival business and outside dealers. The company claims that l",
+        "cve": []
+    },
+    {
         "title": "Hackers Turn HiveMQ and Element Messenger Into Control Channels for Windows Backdoors",
         "date": "Fri, 04 Sep 2026 13:38:33 +0000",
         "url": "https://gbhackers.com/hivemq-powers-backdoor/",
@@ -349,54 +397,6 @@
         "url": "https://gbhackers.com/nodestealer-spyware-malware/",
         "source": "GBHackers",
         "summary": "A major upgrade to the Python-based NodeStealer malware, transforming the Facebook-focused infostealer into a broader spyware platform capable of logging keystrokes, monitoring clipboard data, capturi",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Teams Adds QR Code Protection to Block Phishing and Fraud",
-        "date": "Fri, 04 Sep 2026 11:32:45 +0000",
-        "url": "https://gbhackers.com/microsoft-teams-adds-qr-code-protection/",
-        "source": "GBHackers",
-        "summary": "Microsoft is developing a new security feature for Teams messaging that will obscure QR codes sent by external users. This measure aims to help organizations reduce phishing and fraud risks associated",
-        "cve": []
-    },
-    {
-        "title": "MECCHA CHAMELEON Flaw Lets Malicious Custom Maps Achieve Remote Code Execution",
-        "date": "Fri, 04 Sep 2026 11:16:43 +0000",
-        "url": "https://gbhackers.com/meccha-chameleon-flaw/",
-        "source": "GBHackers",
-        "summary": "A recently patched vulnerability in MECCHA CHAMELEON allowed attacker-controlled Steam Workshop maps to write files to arbitrary locations on Windows systems, potentially resulting in remote code exec",
-        "cve": []
-    },
-    {
-        "title": "Critical Super Forms WordPress Flaw Actively Exploited to Achieve Remote Code Execution",
-        "date": "Fri, 04 Sep 2026 10:50:38 +0000",
-        "url": "https://gbhackers.com/critical-super-forms-wordpress-flaw-actively-exploited/",
-        "source": "GBHackers",
-        "summary": "Threat actors are actively exploiting a critical vulnerability in the Super Forms WordPress plugin, allowing them to upload PHP backdoors and gain remote code execution. This flaw, tracked as CVE-2026",
-        "cve": []
-    },
-    {
-        "title": "Plex Urges Users to Update Media Server as Multiple Security Flaws Are Discovered",
-        "date": "Fri, 04 Sep 2026 10:39:42 +0000",
-        "url": "https://gbhackers.com/plex-urges-users-to-update-media-server/",
-        "source": "GBHackers",
-        "summary": "Plex has urged users to promptly update their Plex Media Server and Plex Desktop software following the release of fixes for several undisclosed security issues in older versions. The recommended vers",
-        "cve": []
-    },
-    {
-        "title": "Hackers Abuse AI-Era ASCII Smuggling to Hide Phishing Content in Millions of Emails",
-        "date": "Fri, 04 Sep 2026 10:14:43 +0000",
-        "url": "https://gbhackers.com/ai-era-ascii-smuggling/",
-        "source": "GBHackers",
-        "summary": "Threat actors have repurposed an AI prompt-injection technique known as ASCII smuggling to evade email security controls at massive scale, hiding invisible Unicode characters within financial phishing",
-        "cve": []
-    },
-    {
-        "title": "Chinese-Speaking Hackers Use Claude, Qwen and DeepSeek AI Agents to Attack Government Systems",
-        "date": "Fri, 04 Sep 2026 09:00:44 +0000",
-        "url": "https://gbhackers.com/ai-powered-government-attacks/",
-        "source": "GBHackers",
-        "summary": "Chinese-speaking threat operators have been observed using Claude, Qwen and DeepSeek-powered AI agents as operational components in a second intrusion campaign targeting government, political, educati",
         "cve": []
     }
 ]
