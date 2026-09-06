@@ -80,6 +80,22 @@
         "cve": []
     },
     {
+        "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+        "date": "Sun, 06 Sep 2026 15:02:38 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+        "source": "The Hacker News",
+        "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, accordi",
+        "cve": []
+    },
+    {
+        "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+        "date": "Sun, 06 Sep 2026 14:04:20 +0530",
+        "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+        "source": "The Hacker News",
+        "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer delet",
+        "cve": []
+    },
+    {
         "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
         "date": "Sun, 06 Sep 2026 01:44:47 +0530",
         "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
@@ -144,19 +160,83 @@
         "cve": []
     },
     {
-        "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-        "date": "Fri, 04 Sep 2026 20:21:13 +0530",
-        "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-        "source": "The Hacker News",
-        "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served alter",
+        "title": "CrowdStrike Launches SafeMind – First Agentic Cybersecurity Solution Built for Defenders",
+        "date": "Sun, 06 Sep 2026 13:03:56 +0000",
+        "url": "https://cybersecuritynews.com/crowdstrike-launches-safemind/",
+        "source": "CyberSecurityNews",
+        "summary": "CrowdStrike has unveiled SafeMind, a family of purpose-built security models and harnesses that the company is calling the first agentic system engineered specifically for cyber defenders. Announced a",
         "cve": []
     },
     {
-        "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-        "date": "Fri, 04 Sep 2026 14:18:45 +0530",
-        "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.\n\nThe vulnerabilities in question are -\n\n\n  CVE-2026-1",
+        "title": "ASUS Control Center Flaw Allows Attackers to Gain Full Admin Control of the System",
+        "date": "Sun, 06 Sep 2026 10:57:47 +0000",
+        "url": "https://cybersecuritynews.com/asus-control-center-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "ASUS has issued an urgent security update for ASUS Control Center Enterprise (ACC) after researchers uncovered a maximum-severity vulnerability that lets remote attackers seize complete administrative",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploiting MikroTik RouterOS Vulnerability in the Wild to Gain Complete Network Access",
+        "date": "Sun, 06 Sep 2026 10:25:15 +0000",
+        "url": "https://cybersecuritynews.com/mikrotik-routeros-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Attackers are actively exploiting an unauthenticated remote access flaw in MikroTik RouterOS, and network administrators worldwide are being urged to patch their devices immediately before compromise ",
+        "cve": []
+    },
+    {
+        "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
+        "date": "Sun, 06 Sep 2026 04:48:58 +0000",
+        "url": "https://cybersecuritynews.com/best-ztna-solutions/",
+        "source": "CyberSecurityNews",
+        "summary": "Zero Trust Network Access (ZTNA) anchors 2026 cybersecurity amid remote, cloud, and hybrid booms. ZTNA solutions aren&#8217;t hype—they&#8217;re vital for data locks, compliance wins, and borderless t",
+        "cve": []
+    },
+    {
+        "title": "Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability",
+        "date": "Sun, 06 Sep 2026 03:52:46 +0000",
+        "url": "https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly discovered zero-day vulnerability in Magento Open Source and Adobe Commerce is being actively exploited by attackers to seize full control of online stores, and there is still no official patc",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams Desktop Client Fails to Load on Windows System – Microsoft Investigating",
+        "date": "Sat, 05 Sep 2026 09:20:18 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged the p",
+        "cve": []
+    },
+    {
+        "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
+        "date": "Sat, 05 Sep 2026 07:46:07 +0000",
+        "url": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
+        "source": "CyberSecurityNews",
+        "summary": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams ro",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
+        "date": "Fri, 04 Sep 2026 16:44:18 +0000",
+        "url": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significa",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
+        "date": "Fri, 04 Sep 2026 14:44:43 +0000",
+        "url": "https://cybersecuritynews.com/popular-messaging-services/",
+        "source": "CyberSecurityNews",
+        "summary": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a discree",
+        "cve": []
+    },
+    {
+        "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
+        "date": "Fri, 04 Sep 2026 14:29:44 +0000",
+        "url": "https://cybersecuritynews.com/nodestealer-record-everything/",
+        "source": "CyberSecurityNews",
+        "summary": "NodeStealer has returned with a more invasive toolkit. The Python-based information stealer can now record keystrokes, watch copied text, and capture victims’ screens, turning an account-stealing infe",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Slackware-Based Zenwalk ISOs Updated With Linux 7.1, Flatpak Integrated + Xfce 4.20",
-        "date": "Sat, 05 Sep 2026 18:27:47 -0400",
-        "url": "https://www.phoronix.com/news/Zenwalk-2026-Current",
-        "source": "Phoronix",
-        "summary": "It's been over four years since the original release of Zenwalk 15.0 while released today is a new Zenwalk Current Milestone snapshot. This Slackware-based Linux distribution with a long history has a",
+        "title": "Chainguard Hits 1 Billion Build Manifests With AI-Powered Software Supply Chain Security",
+        "date": "Sat, 05 Sep 2026 09:47:35 +0000",
+        "url": "https://gbhackers.com/chainguard-hits-1-billion-build-manifests/",
+        "source": "GBHackers",
+        "summary": "Chainguard has surpassed 1 billion container build manifests, doubling production from 500 million in six months as it expands its AI-assisted software supply-chain security platform. The company now ",
         "cve": []
     },
     {
-        "title": "Ikey Doherty Plans To Show How To \"Properly\" Build A Modern Linux Distro",
-        "date": "Sat, 05 Sep 2026 14:35:41 -0400",
-        "url": "https://www.phoronix.com/news/Ikey-Doherty-Plans-Linux-Build",
-        "source": "Phoronix",
-        "summary": "Ikey Doherty is back in the Linux distribution space. Sort of. Ikey Doherty who was the founder of the Solus Linux distribution as well as Serpent OS (now AerynOS) as well as having been employed by I",
+        "title": "Russian Hackers Deploy New HOOKEDGE Backdoor in Espionage Attacks Across Europe",
+        "date": "Sat, 05 Sep 2026 09:27:32 +0000",
+        "url": "https://gbhackers.com/russian-apt28-linked-hackers-deploy-hookedge-backdoor/",
+        "source": "GBHackers",
+        "summary": "Russian state-sponsored threat actor BlueDelta, also tracked as APT28, Fancy Bear, and Forest Blizzard, has deployed a lightweight Windows backdoor named HOOKEDGE in espionage operations targeting gov",
         "cve": []
     },
     {
-        "title": "NVIDIA Posts vGPU Manager & VFIO Variant Driver For Open-Source Nova",
-        "date": "Sat, 05 Sep 2026 11:02:15 -0400",
-        "url": "https://www.phoronix.com/news/NVIDIA-Nova-vGPU-Manager",
-        "source": "Phoronix",
-        "summary": "NVIDIA continues building out more functionality around the open-source, upstream Nova kernel graphics driver within the Linux kernel. Making it out to the mailing list this Saturday is a set of 13 pa",
+        "title": "New Panzer Ransomware Hits 16 Victims Across 11 Countries With Data Theft and Encryption",
+        "date": "Sat, 05 Sep 2026 07:53:57 +0000",
+        "url": "https://gbhackers.com/new-panzer-ransomware-hits-16-victim/",
+        "source": "GBHackers",
+        "summary": "Panzer ransomware has emerged as a new Ransomware-as-a-Service (RaaS) operation, publishing 16 alleged victims across 11 countries while combining data theft with file encryption. Documented by CyberX",
         "cve": []
     },
     {
-        "title": "Nouveau Lands Display Fixes For NVIDIA Blackwell GPUs As It Works Toward HDMI 2.1",
-        "date": "Sat, 05 Sep 2026 07:20:00 -0400",
-        "url": "https://www.phoronix.com/news/Nouveau-Blackwell-Display-Fixes",
-        "source": "Phoronix",
-        "summary": "This week's Direct Rendering Manager (DRM) fixes that were merged ahead of Sunday's Linux 7.3-rc2 release contain a number of fixes to the open-source Nouveau driver's display support for current-gene",
+        "title": "12-Year-Old PostgreSQL Flaw Lets Attackers Execute Code and Take Over Database Servers",
+        "date": "Sat, 05 Sep 2026 07:34:32 +0000",
+        "url": "https://gbhackers.com/12-year-old-postgresql-flaw/",
+        "source": "GBHackers",
+        "summary": "A critical PostgreSQL vulnerability dubbed PostGREShell could allow low-privileged replication accounts to execute attacker-controlled code, escalate to database superuser, and establish persistent ba",
         "cve": []
     },
     {
-        "title": "Linux Patches Posted For Initial Enablement Of The Apple A18 Pro + MacBook Neo",
-        "date": "Sat, 05 Sep 2026 07:11:11 -0400",
-        "url": "https://www.phoronix.com/news/Apple-A18-Pro-MacBook-Neo-Patch",
-        "source": "Phoronix",
-        "summary": "In addition to Linux developers focused on Apple  Silicon being busy enabling functionality for the M3 and newer SoCs under the Linux kernel, there are also developers working on enabling the A18 Pro ",
+        "title": "Hackers Use Frontier AI Agents to Breach Enterprise Network in Under 10 Hours",
+        "date": "Sat, 05 Sep 2026 07:18:41 +0000",
+        "url": "https://gbhackers.com/hackers-use-frontier-ai-agents/",
+        "source": "GBHackers",
+        "summary": "A threat actor used frontier artificial-intelligence models and attack-specific agentic frameworks to breach an enterprise environment, harvest root credentials, and hijack cloud AI infrastructure in ",
         "cve": []
     },
     {
-        "title": "AMD Working To \"Push Rust Deep Into The GPU Stack\"",
-        "date": "Sat, 05 Sep 2026 06:48:48 -0400",
-        "url": "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack",
-        "source": "Phoronix",
-        "summary": "AMD is building out what they are describing as an \"elite\" team of developers for driving Rust code \"deep into the GPU stack\" from firmware to drivers, shader compilers, and other GPU software in Rust",
+        "title": "CARS24 Data Breach Exposes 3,100 Customer Records, Leads Allegedly Sold for ₹1,000 Each",
+        "date": "Sat, 05 Sep 2026 06:59:50 +0000",
+        "url": "https://gbhackers.com/cars24-data-breach-exposes-3100-customer-records/",
+        "source": "GBHackers",
+        "summary": "Used-car platform CARS24 has alleged that confidential information belonging to approximately 3,100 customers was stolen and supplied to a rival business and outside dealers. The company claims that l",
         "cve": []
     },
     {
-        "title": "GNOME Stakeholders Discussing RFC Process For Solving Major Technical Changes",
-        "date": "Sat, 05 Sep 2026 06:31:45 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-RFC-Process-Discussion",
-        "source": "Phoronix",
-        "summary": "GNOME has been working to establish a formal request for comments (RFC) process for solving major technical questions and changes moving forward. A drafted RFC is now under discussion by GNOME stakeho",
+        "title": "Hackers Turn HiveMQ and Element Messenger Into Control Channels for Windows Backdoors",
+        "date": "Fri, 04 Sep 2026 13:38:33 +0000",
+        "url": "https://gbhackers.com/hivemq-powers-backdoor/",
+        "source": "GBHackers",
+        "summary": "The financially motivated threat actor Toy Ghouls has expanded its custom malware arsenal with two Windows backdoors that abuse HiveMQ’s public MQTT infrastructure and the Matrix-based Element messagi",
         "cve": []
     },
     {
-        "title": "KDE Plasma 6.8 Lands Windows-Like Auto-Scrolling, Lower vRAM Usage For Breeze Theme",
-        "date": "Fri, 04 Sep 2026 17:00:04 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Plasma-6.8-Autoscroll",
-        "source": "Phoronix",
-        "summary": "It's been an exciting start to the month of September for KDE Plasma developers with continuing to land last minute improvements for Plasma 6.8 ahead of its official release in mid-October...",
+        "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques",
+        "date": "Fri, 04 Sep 2026 13:21:00 +0000",
+        "url": "https://gbhackers.com/openai-agents-collude-on-public-wiki/",
+        "source": "GBHackers",
+        "summary": "Researchers have discovered a public wiki message board that they claim was used by autonomous AI agents, identifying themselves as OpenAI systems, to exchange answers to tasks, inspect their operatin",
         "cve": []
     },
     {
-        "title": "Wine 11.17 Released With Initial Support For Display Mode Emulation",
-        "date": "Fri, 04 Sep 2026 16:11:12 -0400",
-        "url": "https://www.phoronix.com/news/Wine-11.17-Released",
-        "source": "Phoronix",
-        "summary": "Wine 11.17 is out today as the newest bi-weekly feature development release for this software enabling Windows games and apps to run on Linux...",
+        "title": "ShipMonk Data Breach Exposes Personal Data of 67,000 Additional Trezor Customers",
+        "date": "Fri, 04 Sep 2026 12:52:42 +0000",
+        "url": "https://gbhackers.com/shipmonk-data-breach-exposes-personal-data/",
+        "source": "GBHackers",
+        "summary": "Trezor has revealed that a data breach involving its fulfillment provider, ShipMonk, exposed personal and order information of approximately 67,000 additional US customers. This significantly broadens",
         "cve": []
     },
     {
-        "title": "Amazon Linux 2027 Shows Off Nice Performance Gains On AMD EPYC In The AWS Cloud",
-        "date": "Fri, 04 Sep 2026 11:33:21 -0400",
-        "url": "https://www.phoronix.com/review/amazon-linux-2027-benchmarks",
-        "source": "Phoronix",
-        "summary": "Yesterday AWS announced the public preview of Amazon Linux 2027 as their successor to the current Amazon Linux 2023 in-house distribution. With all the software upgrades and improvements like building",
+        "title": "NodeStealer Spyware Adds Keylogging, Screenshot Capture and Facebook Data Theft",
+        "date": "Fri, 04 Sep 2026 12:18:19 +0000",
+        "url": "https://gbhackers.com/nodestealer-spyware-malware/",
+        "source": "GBHackers",
+        "summary": "A major upgrade to the Python-based NodeStealer malware, transforming the Facebook-focused infostealer into a broader spyware platform capable of logging keystrokes, monitoring clipboard data, capturi",
         "cve": []
     }
 ]
