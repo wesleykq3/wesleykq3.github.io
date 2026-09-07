@@ -1,5 +1,61 @@
 [
     {
+        "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+        "date": "Mon, 07 Sep 2026 11:39:51 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+        "source": "BleepingComputer",
+        "summary": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
+        "cve": []
+    },
+    {
+        "title": "Mathspace discloses data breach affecting over 1 million people",
+        "date": "Mon, 07 Sep 2026 09:05:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+        "source": "BleepingComputer",
+        "summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting syst",
+        "cve": []
+    },
+    {
+        "title": "Trezor data breach impact now reaches 81,000 customers",
+        "date": "Mon, 07 Sep 2026 08:16:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+        "source": "BleepingComputer",
+        "summary": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
+        "cve": []
+    },
+    {
+        "title": "ChatGPT can now connect to your personal apps to mimic writing style",
+        "date": "Mon, 07 Sep 2026 06:36:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI appears to be testing a new \"Writing Style\" feature for ChatGPT that can learn how you write by looking at examples from your connected apps. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+        "date": "Mon, 07 Sep 2026 06:32:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+        "source": "BleepingComputer",
+        "summary": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
+        "cve": []
+    },
+    {
+        "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+        "date": "Mon, 07 Sep 2026 06:06:38 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+        "source": "BleepingComputer",
+        "summary": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...]",
+        "cve": []
+    },
+    {
+        "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+        "date": "Mon, 07 Sep 2026 02:17:41 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+        "source": "BleepingComputer",
+        "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform. [...]",
+        "cve": []
+    },
+    {
         "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
         "date": "Sun, 06 Sep 2026 21:15:43 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
@@ -24,59 +80,59 @@
         "cve": []
     },
     {
-        "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-        "date": "Sat, 05 Sep 2026 07:11:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as mode",
+        "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+        "date": "Mon, 07 Sep 2026 21:21:56 +0530",
+        "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+        "source": "The Hacker News",
+        "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information techno",
         "cve": []
     },
     {
-        "title": "IDScan sued over alleged data breach affecting 153 million drivers",
-        "date": "Fri, 04 Sep 2026 12:56:45 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
-        "source": "BleepingComputer",
-        "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
+        "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+        "date": "Mon, 07 Sep 2026 20:06:07 +0530",
+        "url": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+        "source": "The Hacker News",
+        "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, bu",
         "cve": []
     },
     {
-        "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
-        "date": "Fri, 04 Sep 2026 11:25:59 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
+        "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+        "date": "Mon, 07 Sep 2026 17:15:00 +0530",
+        "url": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+        "source": "The Hacker News",
+        "summary": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organi",
         "cve": []
     },
     {
-        "title": "Microsoft says some users can’t open the Teams desktop client",
-        "date": "Fri, 04 Sep 2026 10:30:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
+        "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+        "date": "Mon, 07 Sep 2026 17:06:39 +0530",
+        "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems",
         "cve": []
     },
     {
-        "title": "39 New Methods That Compromise Passkey Authentication",
-        "date": "Fri, 04 Sep 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-        "source": "BleepingComputer",
-        "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prom",
+        "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+        "date": "Mon, 07 Sep 2026 16:50:14 +0530",
+        "url": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+        "source": "The Hacker News",
+        "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default config",
         "cve": []
     },
     {
-        "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
-        "date": "Fri, 04 Sep 2026 09:22:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-        "source": "BleepingComputer",
-        "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Window",
+        "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+        "date": "Mon, 07 Sep 2026 14:01:12 +0530",
+        "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+        "source": "The Hacker News",
+        "summary": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its r",
         "cve": []
     },
     {
-        "title": "Exchange Online outage causes email delays, 'Server busy' errors",
-        "date": "Fri, 04 Sep 2026 08:22:30 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
+        "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+        "date": "Mon, 07 Sep 2026 13:23:04 +0530",
+        "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities.\n\n\"The payloads are",
         "cve": []
     },
     {
@@ -104,139 +160,83 @@
         "cve": []
     },
     {
-        "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-        "date": "Sat, 05 Sep 2026 22:22:33 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-        "source": "The Hacker News",
-        "summary": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerabilit",
-        "cve": []
-    },
-    {
-        "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-        "date": "Sat, 05 Sep 2026 21:35:08 +0530",
-        "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-        "source": "The Hacker News",
-        "summary": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions",
-        "cve": []
-    },
-    {
-        "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
-        "date": "Sat, 05 Sep 2026 19:47:02 +0530",
-        "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
-        "source": "The Hacker News",
-        "summary": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk.\n\nThe exposed information includes ",
-        "cve": []
-    },
-    {
-        "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
-        "date": "Sat, 05 Sep 2026 13:25:10 +0530",
-        "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
-        "source": "The Hacker News",
-        "summary": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, ",
-        "cve": []
-    },
-    {
-        "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-        "date": "Sat, 05 Sep 2026 13:01:53 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Tea",
-        "cve": []
-    },
-    {
-        "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-        "date": "Fri, 04 Sep 2026 21:27:15 +0530",
-        "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-        "source": "The Hacker News",
-        "summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people w",
-        "cve": []
-    },
-    {
-        "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-        "date": "Fri, 04 Sep 2026 20:50:19 +0530",
-        "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-        "source": "The Hacker News",
-        "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe fl",
-        "cve": []
-    },
-    {
-        "title": "CrowdStrike Launches SafeMind – First Agentic Cybersecurity Solution Built for Defenders",
-        "date": "Sun, 06 Sep 2026 13:03:56 +0000",
-        "url": "https://cybersecuritynews.com/crowdstrike-launches-safemind/",
+        "title": "Linux Rootkit Injects Fileless PHP Web Shells Into Compromised F5 BIG-IP Servers",
+        "date": "Mon, 07 Sep 2026 15:02:56 +0000",
+        "url": "https://cybersecuritynews.com/linux-rootkit/",
         "source": "CyberSecurityNews",
-        "summary": "CrowdStrike has unveiled SafeMind, a family of purpose-built security models and harnesses that the company is calling the first agentic system engineered specifically for cyber defenders. Announced a",
+        "summary": "A stealthy Linux rootkit is giving attackers a new way to keep control of compromised F5 BIG-IP Access Policy Manager servers. Instead of leaving an obvious malicious PHP file behind, it places a web ",
         "cve": []
     },
     {
-        "title": "ASUS Control Center Flaw Allows Attackers to Gain Full Admin Control of the System",
-        "date": "Sun, 06 Sep 2026 10:57:47 +0000",
-        "url": "https://cybersecuritynews.com/asus-control-center-vulnerability/",
+        "title": "Online Maths Learning Platform Mathspace Disclosed Data Breach Impacts 1 Million Users",
+        "date": "Mon, 07 Sep 2026 14:59:44 +0000",
+        "url": "https://cybersecuritynews.com/mathspace-data-breach/",
         "source": "CyberSecurityNews",
-        "summary": "ASUS has issued an urgent security update for ASUS Control Center Enterprise (ACC) after researchers uncovered a maximum-severity vulnerability that lets remote attackers seize complete administrative",
+        "summary": "Online maths learning platform Mathspace has confirmed a data breach that exposed the personal information of more than one million students, parents, guardians, and school staff across Australia and ",
         "cve": []
     },
     {
-        "title": "Hackers Exploiting MikroTik RouterOS Vulnerability in the Wild to Gain Complete Network Access",
-        "date": "Sun, 06 Sep 2026 10:25:15 +0000",
-        "url": "https://cybersecuritynews.com/mikrotik-routeros-vulnerability/",
+        "title": "Switzerland Moves Away From Microsoft 365 to Open-Source Alternatives",
+        "date": "Mon, 07 Sep 2026 14:51:57 +0000",
+        "url": "https://cybersecuritynews.com/switzerland-moves-away-from-microsoft-365/",
         "source": "CyberSecurityNews",
-        "summary": "Attackers are actively exploiting an unauthenticated remote access flaw in MikroTik RouterOS, and network administrators worldwide are being urged to patch their devices immediately before compromise ",
+        "summary": "Switzerland’s federal administration is preparing to test a sovereign, open-source digital workplace that could reduce its long-term dependence on Microsoft 365 for sensitive government operations. Th",
         "cve": []
     },
     {
-        "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
-        "date": "Sun, 06 Sep 2026 04:48:58 +0000",
-        "url": "https://cybersecuritynews.com/best-ztna-solutions/",
+        "title": "Hackers Abuse Trusted Google Services to Hide Credential-Stealing Phishing Attacks",
+        "date": "Mon, 07 Sep 2026 14:43:24 +0000",
+        "url": "https://cybersecuritynews.com/trusted-google-services/",
         "source": "CyberSecurityNews",
-        "summary": "Zero Trust Network Access (ZTNA) anchors 2026 cybersecurity amid remote, cloud, and hybrid booms. ZTNA solutions aren&#8217;t hype—they&#8217;re vital for data locks, compliance wins, and borderless t",
+        "summary": "Criminals are using trusted Google services as cover for a wide phishing campaign that steals corporate credentials and, in some cases, installs remote-access software. The malicious path runs through",
         "cve": []
     },
     {
-        "title": "Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability",
-        "date": "Sun, 06 Sep 2026 03:52:46 +0000",
-        "url": "https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/",
+        "title": "Natural Resources Wales Exposes Sensitive Employee Data in Spreadsheet Breach",
+        "date": "Mon, 07 Sep 2026 14:25:24 +0000",
+        "url": "https://cybersecuritynews.com/natural-resources-wales-expose/",
         "source": "CyberSecurityNews",
-        "summary": "A newly discovered zero-day vulnerability in Magento Open Source and Adobe Commerce is being actively exploited by attackers to seize full control of online stores, and there is still no official patc",
+        "summary": "Natural Resources Wales has disclosed a personal data breach involving a spreadsheet containing sensitive diversity information belonging to former and current employees. The incident affected people ",
         "cve": []
     },
     {
-        "title": "Microsoft Teams Desktop Client Fails to Load on Windows System – Microsoft Investigating",
-        "date": "Sat, 05 Sep 2026 09:20:18 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
+        "title": "Microsoft to Retire Manifest V2 Extensions and Switch to V3 for Improved Security and Performance",
+        "date": "Mon, 07 Sep 2026 14:24:00 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-to-retire-manifest-v2-extensions/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged the p",
+        "summary": "Microsoft will retire support for Manifest V2 browser extensions in Microsoft Edge by early 2027, requiring users, enterprises, and developers to move to Manifest V3. The transition is intended to str",
         "cve": []
     },
     {
-        "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
-        "date": "Sat, 05 Sep 2026 07:46:07 +0000",
-        "url": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
+        "title": "ConnectWise Warns of New ScreenConnect Remote Access Flaw – Released Mitigation Steps",
+        "date": "Mon, 07 Sep 2026 14:14:40 +0000",
+        "url": "https://cybersecuritynews.com/connectwise-screenconnect-remote-access-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams ro",
+        "summary": "ConnectWise has warned customers about a newly identified security issue affecting file transfer behavior in ScreenConnect Remote Access Support and Access sessions. The issue impacts both cloud-hoste",
         "cve": []
     },
     {
-        "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
-        "date": "Fri, 04 Sep 2026 16:44:18 +0000",
-        "url": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
+        "title": "New Linux Bot Hides as Kernel Process and Launches DDoS Attacks",
+        "date": "Mon, 07 Sep 2026 14:12:38 +0000",
+        "url": "https://cybersecuritynews.com/new-linux-bot/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significa",
+        "summary": "A new Linux bot called Tengu is built to stay hidden and turn compromised systems into tools for disruption. The 32-bit malware poses as a routine kernel worker, persists across several Linux setups, ",
         "cve": []
     },
     {
-        "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
-        "date": "Fri, 04 Sep 2026 14:44:43 +0000",
-        "url": "https://cybersecuritynews.com/popular-messaging-services/",
+        "title": "OpenAI Commits $1 Billion to Give Critical Infrastructure Defenders Frontier AI Cyber Tools",
+        "date": "Mon, 07 Sep 2026 14:10:00 +0000",
+        "url": "https://cybersecuritynews.com/openai-commits-1-billion/",
         "source": "CyberSecurityNews",
-        "summary": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a discree",
+        "summary": "OpenAI has launched Daybreak for Frontline Defenders, a global cybersecurity initiative designed to help organizations protecting essential services use frontier AI capabilities against increasingly a",
         "cve": []
     },
     {
-        "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
-        "date": "Fri, 04 Sep 2026 14:29:44 +0000",
-        "url": "https://cybersecuritynews.com/nodestealer-record-everything/",
+        "title": "LG Smart TVs Caught Scanning Networks and Logging Audio in Standby",
+        "date": "Mon, 07 Sep 2026 13:50:28 +0000",
+        "url": "https://cybersecuritynews.com/lg-smart-tvs-caught-scanning-networks/",
         "source": "CyberSecurityNews",
-        "summary": "NodeStealer has returned with a more invasive toolkit. The Python-based information stealer can now record keystrokes, watch copied text, and capture victims’ screens, turning an account-stealing infe",
+        "summary": "Your LG smart TV may be doing far more than displaying your favorite shows while it sits &#8220;off&#8221; in the corner of your living room. A new investigation from Gamers Nexus, conducted alongside",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Chainguard Hits 1 Billion Build Manifests With AI-Powered Software Supply Chain Security",
-        "date": "Sat, 05 Sep 2026 09:47:35 +0000",
-        "url": "https://gbhackers.com/chainguard-hits-1-billion-build-manifests/",
+        "title": "PoisonedRefresh Malware Backdoors F5 BIG-IP Servers With Memory-Only PHP Web Shells",
+        "date": "Mon, 07 Sep 2026 13:14:17 +0000",
+        "url": "https://gbhackers.com/poisonedrefresh-malware/",
         "source": "GBHackers",
-        "summary": "Chainguard has surpassed 1 billion container build manifests, doubling production from 500 million in six months as it expands its AI-assisted software supply-chain security platform. The company now ",
+        "summary": "A sophisticated Linux implant linked to compromised F5 BIG-IP Access Policy Management (APM) environments. The activity has been associated with exploitation of CVE-2025-53521, an unauthenticated remo",
         "cve": []
     },
     {
-        "title": "Russian Hackers Deploy New HOOKEDGE Backdoor in Espionage Attacks Across Europe",
-        "date": "Sat, 05 Sep 2026 09:27:32 +0000",
-        "url": "https://gbhackers.com/russian-apt28-linked-hackers-deploy-hookedge-backdoor/",
+        "title": "Natural Resources Wales Data Breach Exposes Sensitive Employee Diversity Data",
+        "date": "Mon, 07 Sep 2026 12:16:39 +0000",
+        "url": "https://gbhackers.com/natural-resources-wales-data-breach/",
         "source": "GBHackers",
-        "summary": "Russian state-sponsored threat actor BlueDelta, also tracked as APT28, Fancy Bear, and Forest Blizzard, has deployed a lightweight Windows backdoor named HOOKEDGE in espionage operations targeting gov",
+        "summary": "Natural Resources Wales (NRW) has reported a personal data breach involving sensitive diversity-monitoring information from both former and current employees. The breach affected individuals whom NRW ",
         "cve": []
     },
     {
-        "title": "New Panzer Ransomware Hits 16 Victims Across 11 Countries With Data Theft and Encryption",
-        "date": "Sat, 05 Sep 2026 07:53:57 +0000",
-        "url": "https://gbhackers.com/new-panzer-ransomware-hits-16-victim/",
+        "title": "ConnectWise ScreenConnect Remote Access Flaw Impacts Guest File Transfer Sessions",
+        "date": "Mon, 07 Sep 2026 12:02:00 +0000",
+        "url": "https://gbhackers.com/connectwise-screenconnect-remote-access-flaw/",
         "source": "GBHackers",
-        "summary": "Panzer ransomware has emerged as a new Ransomware-as-a-Service (RaaS) operation, publishing 16 alleged victims across 11 countries while combining data theft with file encryption. Documented by CyberX",
+        "summary": "ConnectWise has announced a security issue affecting file transfer functionality in ScreenConnect Remote Access Support and Access sessions. This issue affects both cloud-hosted and on-premises Screen",
         "cve": []
     },
     {
-        "title": "12-Year-Old PostgreSQL Flaw Lets Attackers Execute Code and Take Over Database Servers",
-        "date": "Sat, 05 Sep 2026 07:34:32 +0000",
-        "url": "https://gbhackers.com/12-year-old-postgresql-flaw/",
+        "title": "Global Phishing Campaign Abuses Google Infrastructure to Evade Security and Steal Credentials",
+        "date": "Mon, 07 Sep 2026 11:59:21 +0000",
+        "url": "https://gbhackers.com/global-phishing-campaign/",
         "source": "GBHackers",
-        "summary": "A critical PostgreSQL vulnerability dubbed PostGREShell could allow low-privileged replication accounts to execute attacker-controlled code, escalate to database superuser, and establish persistent ba",
+        "summary": "A large-scale phishing operation is abusing trusted Google services as a multi-stage redirect network to bypass email security controls, deliver highly personalized credential-harvesting pages, and, i",
         "cve": []
     },
     {
-        "title": "Hackers Use Frontier AI Agents to Breach Enterprise Network in Under 10 Hours",
-        "date": "Sat, 05 Sep 2026 07:18:41 +0000",
-        "url": "https://gbhackers.com/hackers-use-frontier-ai-agents/",
+        "title": "OpenAI Commits $1 Billion in Daybreak AI Cyber Tools to Protect Critical Infrastructure",
+        "date": "Mon, 07 Sep 2026 11:49:34 +0000",
+        "url": "https://gbhackers.com/openai-commits-1-billion-in-daybreak-ai-cyber-tools/",
         "source": "GBHackers",
-        "summary": "A threat actor used frontier artificial-intelligence models and attack-specific agentic frameworks to breach an enterprise environment, harvest root credentials, and hijack cloud AI infrastructure in ",
+        "summary": "OpenAI has announced a $1 billion global commitment to expanding access to its Daybreak AI cybersecurity platform for frontline defenders who protect critical infrastructure, public services, and unde",
         "cve": []
     },
     {
-        "title": "CARS24 Data Breach Exposes 3,100 Customer Records, Leads Allegedly Sold for ₹1,000 Each",
-        "date": "Sat, 05 Sep 2026 06:59:50 +0000",
-        "url": "https://gbhackers.com/cars24-data-breach-exposes-3100-customer-records/",
+        "title": "Tengu Mirai-Style Linux Bot Hides as Kernel Worker to Launch DDoS and Proxy Attacks",
+        "date": "Mon, 07 Sep 2026 11:31:58 +0000",
+        "url": "https://gbhackers.com/tengu-mirai-style-linux-bot/",
         "source": "GBHackers",
-        "summary": "Used-car platform CARS24 has alleged that confidential information belonging to approximately 3,100 customers was stolen and supplied to a rival business and outside dealers. The company claims that l",
+        "summary": "A newly analyzed Linux malware sample, dubbed Tengu, combines Mirai-style botnet tradecraft with broad persistence, DDoS, SSH probing, and proxy capabilities. The stripped 32-bit ELF masquerades as a ",
         "cve": []
     },
     {
-        "title": "Hackers Turn HiveMQ and Element Messenger Into Control Channels for Windows Backdoors",
-        "date": "Fri, 04 Sep 2026 13:38:33 +0000",
-        "url": "https://gbhackers.com/hivemq-powers-backdoor/",
+        "title": "The 12 Best Wireless / Wi-Fi Security Solutions, Compared and Priced",
+        "date": "Mon, 07 Sep 2026 11:25:23 +0000",
+        "url": "https://gbhackers.com/best-wifi-security-solutions-compared/",
         "source": "GBHackers",
-        "summary": "The financially motivated threat actor Toy Ghouls has expanded its custom malware arsenal with two Windows backdoors that abuse HiveMQ’s public MQTT infrastructure and the Matrix-based Element messagi",
+        "summary": "Best value overall: Ubiquiti. Published hardware pricing, no mandatory licensing, and WPA3 with VLAN segmentation included for organizations whose compliance requirements don’t demand enterprise wirel",
         "cve": []
     },
     {
-        "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques",
-        "date": "Fri, 04 Sep 2026 13:21:00 +0000",
-        "url": "https://gbhackers.com/openai-agents-collude-on-public-wiki/",
+        "title": "The 12 Best Network Sandboxing Solutions, Compared and Priced",
+        "date": "Mon, 07 Sep 2026 11:24:01 +0000",
+        "url": "https://gbhackers.com/best-network-sandboxing-compared/",
         "source": "GBHackers",
-        "summary": "Researchers have discovered a public wiki message board that they claim was used by autonomous AI agents, identifying themselves as OpenAI systems, to exchange answers to tasks, inspect their operatin",
+        "summary": "Best value overall: ANY.RUN. It publishes its pricing, offers a free community tier that analysts genuinely use daily, and its interactive model lets you click through the malware yourself which defea",
         "cve": []
     },
     {
-        "title": "ShipMonk Data Breach Exposes Personal Data of 67,000 Additional Trezor Customers",
-        "date": "Fri, 04 Sep 2026 12:52:42 +0000",
-        "url": "https://gbhackers.com/shipmonk-data-breach-exposes-personal-data/",
+        "title": "The 12 Best Software-Defined Perimeter (SDP) Solutions, Compared and Priced",
+        "date": "Mon, 07 Sep 2026 11:22:30 +0000",
+        "url": "https://gbhackers.com/best-sdp-solutions-compared/",
         "source": "GBHackers",
-        "summary": "Trezor has revealed that a data breach involving its fulfillment provider, ShipMonk, exposed personal and order information of approximately 67,000 additional US customers. This significantly broadens",
+        "summary": "Best value overall: Cloudflare. Published per-user pricing, a free tier you can genuinely deploy on, and a global edge network behind it. Best for small technical teams: Twingate. Best enterprise scal",
         "cve": []
     },
     {
-        "title": "NodeStealer Spyware Adds Keylogging, Screenshot Capture and Facebook Data Theft",
-        "date": "Fri, 04 Sep 2026 12:18:19 +0000",
-        "url": "https://gbhackers.com/nodestealer-spyware-malware/",
+        "title": "The 12 Best Secure Web Gateway (SWG) Solutions, Compared and Priced",
+        "date": "Mon, 07 Sep 2026 11:19:07 +0000",
+        "url": "https://gbhackers.com/best-secure-web-gateway-compared/",
         "source": "GBHackers",
-        "summary": "A major upgrade to the Python-based NodeStealer malware, transforming the Facebook-focused infostealer into a broader spyware platform capable of logging keystrokes, monitoring clipboard data, capturi",
+        "summary": "Best value overall: Cloudflare. It publishes per-user pricing, offers a free tier that lets you test the model properly, and delivers from one of the largest edge networks in the world. Best capabilit",
         "cve": []
     }
 ]
