@@ -1,5 +1,13 @@
 [
     {
+        "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+        "date": "Mon, 07 Sep 2026 12:50:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+        "source": "BleepingComputer",
+        "summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
+        "cve": []
+    },
+    {
         "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
         "date": "Mon, 07 Sep 2026 11:39:51 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
@@ -72,11 +80,11 @@
         "cve": []
     },
     {
-        "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-        "date": "Sat, 05 Sep 2026 10:29:13 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
-        "source": "BleepingComputer",
-        "summary": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+        "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+        "date": "Mon, 07 Sep 2026 23:42:09 +0530",
+        "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.\n\n\"Requiring prior admi",
         "cve": []
     },
     {
@@ -149,94 +157,6 @@
         "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
         "source": "The Hacker News",
         "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer delet",
-        "cve": []
-    },
-    {
-        "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-        "date": "Sun, 06 Sep 2026 01:44:47 +0530",
-        "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-        "source": "The Hacker News",
-        "summary": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce secu",
-        "cve": []
-    },
-    {
-        "title": "Linux Rootkit Injects Fileless PHP Web Shells Into Compromised F5 BIG-IP Servers",
-        "date": "Mon, 07 Sep 2026 15:02:56 +0000",
-        "url": "https://cybersecuritynews.com/linux-rootkit/",
-        "source": "CyberSecurityNews",
-        "summary": "A stealthy Linux rootkit is giving attackers a new way to keep control of compromised F5 BIG-IP Access Policy Manager servers. Instead of leaving an obvious malicious PHP file behind, it places a web ",
-        "cve": []
-    },
-    {
-        "title": "Online Maths Learning Platform Mathspace Disclosed Data Breach Impacts 1 Million Users",
-        "date": "Mon, 07 Sep 2026 14:59:44 +0000",
-        "url": "https://cybersecuritynews.com/mathspace-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "Online maths learning platform Mathspace has confirmed a data breach that exposed the personal information of more than one million students, parents, guardians, and school staff across Australia and ",
-        "cve": []
-    },
-    {
-        "title": "Switzerland Moves Away From Microsoft 365 to Open-Source Alternatives",
-        "date": "Mon, 07 Sep 2026 14:51:57 +0000",
-        "url": "https://cybersecuritynews.com/switzerland-moves-away-from-microsoft-365/",
-        "source": "CyberSecurityNews",
-        "summary": "Switzerland’s federal administration is preparing to test a sovereign, open-source digital workplace that could reduce its long-term dependence on Microsoft 365 for sensitive government operations. Th",
-        "cve": []
-    },
-    {
-        "title": "Hackers Abuse Trusted Google Services to Hide Credential-Stealing Phishing Attacks",
-        "date": "Mon, 07 Sep 2026 14:43:24 +0000",
-        "url": "https://cybersecuritynews.com/trusted-google-services/",
-        "source": "CyberSecurityNews",
-        "summary": "Criminals are using trusted Google services as cover for a wide phishing campaign that steals corporate credentials and, in some cases, installs remote-access software. The malicious path runs through",
-        "cve": []
-    },
-    {
-        "title": "Natural Resources Wales Exposes Sensitive Employee Data in Spreadsheet Breach",
-        "date": "Mon, 07 Sep 2026 14:25:24 +0000",
-        "url": "https://cybersecuritynews.com/natural-resources-wales-expose/",
-        "source": "CyberSecurityNews",
-        "summary": "Natural Resources Wales has disclosed a personal data breach involving a spreadsheet containing sensitive diversity information belonging to former and current employees. The incident affected people ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft to Retire Manifest V2 Extensions and Switch to V3 for Improved Security and Performance",
-        "date": "Mon, 07 Sep 2026 14:24:00 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-to-retire-manifest-v2-extensions/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft will retire support for Manifest V2 browser extensions in Microsoft Edge by early 2027, requiring users, enterprises, and developers to move to Manifest V3. The transition is intended to str",
-        "cve": []
-    },
-    {
-        "title": "ConnectWise Warns of New ScreenConnect Remote Access Flaw – Released Mitigation Steps",
-        "date": "Mon, 07 Sep 2026 14:14:40 +0000",
-        "url": "https://cybersecuritynews.com/connectwise-screenconnect-remote-access-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "ConnectWise has warned customers about a newly identified security issue affecting file transfer behavior in ScreenConnect Remote Access Support and Access sessions. The issue impacts both cloud-hoste",
-        "cve": []
-    },
-    {
-        "title": "New Linux Bot Hides as Kernel Process and Launches DDoS Attacks",
-        "date": "Mon, 07 Sep 2026 14:12:38 +0000",
-        "url": "https://cybersecuritynews.com/new-linux-bot/",
-        "source": "CyberSecurityNews",
-        "summary": "A new Linux bot called Tengu is built to stay hidden and turn compromised systems into tools for disruption. The 32-bit malware poses as a routine kernel worker, persists across several Linux setups, ",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Commits $1 Billion to Give Critical Infrastructure Defenders Frontier AI Cyber Tools",
-        "date": "Mon, 07 Sep 2026 14:10:00 +0000",
-        "url": "https://cybersecuritynews.com/openai-commits-1-billion/",
-        "source": "CyberSecurityNews",
-        "summary": "OpenAI has launched Daybreak for Frontline Defenders, a global cybersecurity initiative designed to help organizations protecting essential services use frontier AI capabilities against increasingly a",
-        "cve": []
-    },
-    {
-        "title": "LG Smart TVs Caught Scanning Networks and Logging Audio in Standby",
-        "date": "Mon, 07 Sep 2026 13:50:28 +0000",
-        "url": "https://cybersecuritynews.com/lg-smart-tvs-caught-scanning-networks/",
-        "source": "CyberSecurityNews",
-        "summary": "Your LG smart TV may be doing far more than displaying your favorite shows while it sits &#8220;off&#8221; in the corner of your living room. A new investigation from Gamers Nexus, conducted alongside",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "PoisonedRefresh Malware Backdoors F5 BIG-IP Servers With Memory-Only PHP Web Shells",
-        "date": "Mon, 07 Sep 2026 13:14:17 +0000",
-        "url": "https://gbhackers.com/poisonedrefresh-malware/",
-        "source": "GBHackers",
-        "summary": "A sophisticated Linux implant linked to compromised F5 BIG-IP Access Policy Management (APM) environments. The activity has been associated with exploitation of CVE-2025-53521, an unauthenticated remo",
+        "title": "FreeBSD 14.5 Released With Hardware Support Improvements, Many Bug & Security Fixes",
+        "date": "Mon, 07 Sep 2026 20:35:33 -0400",
+        "url": "https://www.phoronix.com/news/FreeBSD-14.5-RELEASE",
+        "source": "Phoronix",
+        "summary": "For those that haven't yet made the move to FreeBSD 15 with still relying on FreeBSD 14 in production, out today is FreeBSD 14.5-RELEASE...",
         "cve": []
     },
     {
-        "title": "Natural Resources Wales Data Breach Exposes Sensitive Employee Diversity Data",
-        "date": "Mon, 07 Sep 2026 12:16:39 +0000",
-        "url": "https://gbhackers.com/natural-resources-wales-data-breach/",
-        "source": "GBHackers",
-        "summary": "Natural Resources Wales (NRW) has reported a personal data breach involving sensitive diversity-monitoring information from both former and current employees. The breach affected individuals whom NRW ",
+        "title": "Mysterious x86 CPU Already Has APX, x86S Where Intel Left Off For Legacy-Free x86",
+        "date": "Mon, 07 Sep 2026 15:54:23 -0400",
+        "url": "https://www.phoronix.com/news/x86-CPU-With-APX-x86S",
+        "source": "Phoronix",
+        "summary": "The mystery deepens around an x86 implementation from a corporate entity other than AMD and Intel and has been making some very intriguing changes for coming from a seeming start-up. Beyond 16 tile an",
         "cve": []
     },
     {
-        "title": "ConnectWise ScreenConnect Remote Access Flaw Impacts Guest File Transfer Sessions",
-        "date": "Mon, 07 Sep 2026 12:02:00 +0000",
-        "url": "https://gbhackers.com/connectwise-screenconnect-remote-access-flaw/",
-        "source": "GBHackers",
-        "summary": "ConnectWise has announced a security issue affecting file transfer functionality in ScreenConnect Remote Access Support and Access sessions. This issue affects both cloud-hosted and on-premises Screen",
+        "title": "Ubuntu 26.10 amd64v3 Daily ISOs Now Being Published",
+        "date": "Mon, 07 Sep 2026 09:36:20 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-amd64v3-Daily",
+        "source": "Phoronix",
+        "summary": "As an interesting development for Ubuntu 26.10, the daily ISOs of the \"Stonking Stingray\" now include amd64v3 images...",
         "cve": []
     },
     {
-        "title": "Global Phishing Campaign Abuses Google Infrastructure to Evade Security and Steal Credentials",
-        "date": "Mon, 07 Sep 2026 11:59:21 +0000",
-        "url": "https://gbhackers.com/global-phishing-campaign/",
-        "source": "GBHackers",
-        "summary": "A large-scale phishing operation is abusing trusted Google services as a multi-stage redirect network to bypass email security controls, deliver highly personalized credential-harvesting pages, and, i",
+        "title": "Linux Preps For New AMD Zen 6 BTB CTX Isolation Security Feature",
+        "date": "Mon, 07 Sep 2026 07:55:33 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Preps-AMD-BTB-CTX",
+        "source": "Phoronix",
+        "summary": "A recently posted Linux kernel patch has revealed a new security improvement with Zen 6 processors...",
         "cve": []
     },
     {
-        "title": "OpenAI Commits $1 Billion in Daybreak AI Cyber Tools to Protect Critical Infrastructure",
-        "date": "Mon, 07 Sep 2026 11:49:34 +0000",
-        "url": "https://gbhackers.com/openai-commits-1-billion-in-daybreak-ai-cyber-tools/",
-        "source": "GBHackers",
-        "summary": "OpenAI has announced a $1 billion global commitment to expanding access to its Daybreak AI cybersecurity platform for frontline defenders who protect critical infrastructure, public services, and unde",
+        "title": "Nouveau Preparations For HDMI 2.1 DSC, AMD HDMI FreeSync Fixes For Linux 7.4",
+        "date": "Mon, 07 Sep 2026 06:48:48 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-DRM-Misc-Next-1",
+        "source": "Phoronix",
+        "summary": "Last week's set of DRM-Misc-Next changes submitted to DRM-Next with targeting the upcoming Linux 7.4 kernel cycle features HDMI 2.1 related work for both the AMDGPU kernel driver as well as the Nouvea",
         "cve": []
     },
     {
-        "title": "Tengu Mirai-Style Linux Bot Hides as Kernel Worker to Launch DDoS and Proxy Attacks",
-        "date": "Mon, 07 Sep 2026 11:31:58 +0000",
-        "url": "https://gbhackers.com/tengu-mirai-style-linux-bot/",
-        "source": "GBHackers",
-        "summary": "A newly analyzed Linux malware sample, dubbed Tengu, combines Mirai-style botnet tradecraft with broad persistence, DDoS, SSH probing, and proxy capabilities. The stripped 32-bit ELF masquerades as a ",
+        "title": "Intel's Dynamic PAMT Appears Ready For Linux 7.4  To Help With TDX Memory Overhead",
+        "date": "Mon, 07 Sep 2026 06:21:12 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Dynamic-PAMT-For-7.4",
+        "source": "Phoronix",
+        "summary": "Intel's Dynamic PAMT feature looks like it's finally going to be ready for mainline with Linux 7.4. The Intel Dynamic PAMT is used for helping to reduce memory overhead when making use of Trusted Doma",
         "cve": []
     },
     {
-        "title": "The 12 Best Wireless / Wi-Fi Security Solutions, Compared and Priced",
-        "date": "Mon, 07 Sep 2026 11:25:23 +0000",
-        "url": "https://gbhackers.com/best-wifi-security-solutions-compared/",
-        "source": "GBHackers",
-        "summary": "Best value overall: Ubiquiti. Published hardware pricing, no mandatory licensing, and WPA3 with VLAN segmentation included for organizations whose compliance requirements don’t demand enterprise wirel",
+        "title": "Rustls 0.23.44 Released With ML-DSA Certificates Enabled By Default",
+        "date": "Mon, 07 Sep 2026 05:59:42 -0400",
+        "url": "https://www.phoronix.com/news/Rustls-0.23.44-Released",
+        "source": "Phoronix",
+        "summary": "Rustls as the modern TLS library implementation written in the Rust programming language is out with a new feature release. This morning's Rustls 0.23.44 release enables post-quantum secure ML-DSA cer",
         "cve": []
     },
     {
-        "title": "The 12 Best Network Sandboxing Solutions, Compared and Priced",
-        "date": "Mon, 07 Sep 2026 11:24:01 +0000",
-        "url": "https://gbhackers.com/best-network-sandboxing-compared/",
-        "source": "GBHackers",
-        "summary": "Best value overall: ANY.RUN. It publishes its pricing, offers a free community tier that analysts genuinely use daily, and its interactive model lets you click through the malware yourself which defea",
+        "title": "Linux 7.3-rc2 Released Following Another Busy Week",
+        "date": "Sun, 06 Sep 2026 18:22:25 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-rc2-Released",
+        "source": "Phoronix",
+        "summary": "After the Linux 7.3 merge window concluded last weekend, today we are up to the Linux 7.3-rc2 test kernel release in working toward the stable v7.3 kernel during the second half of October...",
         "cve": []
     },
     {
-        "title": "The 12 Best Software-Defined Perimeter (SDP) Solutions, Compared and Priced",
-        "date": "Mon, 07 Sep 2026 11:22:30 +0000",
-        "url": "https://gbhackers.com/best-sdp-solutions-compared/",
-        "source": "GBHackers",
-        "summary": "Best value overall: Cloudflare. Published per-user pricing, a free tier you can genuinely deploy on, and a global edge network behind it. Best for small technical teams: Twingate. Best enterprise scal",
+        "title": "Shotcut 26.9 Video Editor Beta Brings UI Improvements, Better Audio Quality",
+        "date": "Sun, 06 Sep 2026 15:58:05 -0400",
+        "url": "https://www.phoronix.com/news/Shotcut-26.9-Beta",
+        "source": "Phoronix",
+        "summary": "Following the recent Shotcut stable release with a stock asset library and other improvements, Shotcut 26.9 Beta is out today with yet more improvements for this open-source video editing application ",
         "cve": []
     },
     {
-        "title": "The 12 Best Secure Web Gateway (SWG) Solutions, Compared and Priced",
-        "date": "Mon, 07 Sep 2026 11:19:07 +0000",
-        "url": "https://gbhackers.com/best-secure-web-gateway-compared/",
-        "source": "GBHackers",
-        "summary": "Best value overall: Cloudflare. It publishes per-user pricing, offers a free tier that lets you test the model properly, and delivers from one of the largest edge networks in the world. Best capabilit",
+        "title": "NetBSD 9.5 Released To Cap Off The Series",
+        "date": "Sun, 06 Sep 2026 13:52:15 -0400",
+        "url": "https://www.phoronix.com/news/NetBSD-9.5-Released",
+        "source": "Phoronix",
+        "summary": "NetBSD 9.5 released today as the final release of the NetBSD 9 stable branch...",
         "cve": []
     }
 ]
