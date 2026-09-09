@@ -1,82 +1,90 @@
 [
     {
-        "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
-        "date": "Tue, 08 Sep 2026 10:55:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
+        "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
+        "date": "Tue, 08 Sep 2026 21:16:27 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
         "source": "BleepingComputer",
-        "summary": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]",
+        "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]",
         "cve": []
     },
     {
-        "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
-        "date": "Tue, 08 Sep 2026 10:40:32 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+        "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
+        "date": "Tue, 08 Sep 2026 16:35:14 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
         "source": "BleepingComputer",
-        "summary": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
+        "summary": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]",
         "cve": []
     },
     {
-        "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
-        "date": "Tue, 08 Sep 2026 09:34:47 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+        "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
+        "date": "Tue, 08 Sep 2026 16:24:16 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
         "source": "BleepingComputer",
-        "summary": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [.",
+        "summary": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why ",
         "cve": []
     },
     {
-        "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
-        "date": "Tue, 08 Sep 2026 08:40:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
+        "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+        "date": "Tue, 08 Sep 2026 16:08:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
         "source": "BleepingComputer",
-        "summary": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how overly permissive integrations contribute to breaches",
+        "summary": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. ",
         "cve": []
     },
     {
-        "title": "Hackers build AI frameworks for widescale credential theft",
-        "date": "Tue, 08 Sep 2026 08:03:03 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
+        "title": "Microsoft releases Windows 10 KB5122878 extended security update",
+        "date": "Tue, 08 Sep 2026 14:49:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
         "source": "BleepingComputer",
-        "summary": "Threat actors are increasingly switching from AI-powered coding assistants to multi-agent frameworks that automate every stage of an attack. [...]",
+        "summary": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]",
         "cve": []
     },
     {
-        "title": "Microsoft: Windows Server 2025 changes causing app crashes",
-        "date": "Tue, 08 Sep 2026 07:57:51 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-changes-may-cause-app-crashes/",
+        "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+        "date": "Tue, 08 Sep 2026 14:18:05 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
         "source": "BleepingComputer",
-        "summary": "Microsoft warned customers last week that they may experience application crashes on some Windows Server 2025 due to recent memory management changes. [...]",
+        "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
         "cve": []
     },
     {
-        "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
-        "date": "Tue, 08 Sep 2026 03:35:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+        "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
+        "date": "Tue, 08 Sep 2026 13:57:03 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
         "source": "BleepingComputer",
-        "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight det",
+        "summary": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
         "cve": []
     },
     {
-        "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
-        "date": "Mon, 07 Sep 2026 12:50:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+        "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
+        "date": "Tue, 08 Sep 2026 12:35:47 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
         "source": "BleepingComputer",
-        "summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
+        "summary": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. ",
         "cve": []
     },
     {
-        "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
-        "date": "Mon, 07 Sep 2026 11:39:51 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+        "title": "OpenAI says ChatGPT outage causes image generation errors",
+        "date": "Tue, 08 Sep 2026 12:28:42 -0400",
+        "url": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/",
         "source": "BleepingComputer",
-        "summary": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
+        "summary": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
         "cve": []
     },
     {
-        "title": "Mathspace discloses data breach affecting over 1 million people",
-        "date": "Mon, 07 Sep 2026 09:05:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+        "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
+        "date": "Tue, 08 Sep 2026 11:22:33 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
         "source": "BleepingComputer",
-        "summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting syst",
+        "summary": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
+        "cve": []
+    },
+    {
+        "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
+        "date": "Tue, 08 Sep 2026 21:50:23 +0530",
+        "url": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+        "source": "The Hacker News",
+        "summary": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026.\n\nCybersecurity company CrowdStrike is trac",
         "cve": []
     },
     {
@@ -152,91 +160,11 @@
         "cve": []
     },
     {
-        "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-        "date": "Mon, 07 Sep 2026 23:42:09 +0530",
-        "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.\n\n\"Requiring prior admi",
-        "cve": []
-    },
-    {
-        "title": "Dell Secure Connect Gateway Vulnerabilities Allow Hackers to Gain Unauthorized Access",
-        "date": "Tue, 08 Sep 2026 15:22:46 +0000",
-        "url": "https://cybersecuritynews.com/dell-secure-connect-gateway-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Dell has disclosed three critical vulnerabilities in its Secure Connect Gateway 5.0 platform that could allow attackers to gain unauthorized access, execute commands remotely, and obtain root-level co",
-        "cve": []
-    },
-    {
-        "title": "ChatGPT Sandbox Flaw Lets Attackers Steal Gmail Data Across Accounts via Hidden Channel",
-        "date": "Tue, 08 Sep 2026 15:20:31 +0000",
-        "url": "https://cybersecuritynews.com/chatgpt-sandbox-gmail-data/",
-        "source": "CyberSecurityNews",
-        "summary": "A covert cross-account communication channel inside ChatGPT let an attacker hijack a victim&#8217;s session and silently exfiltrate data from connected apps like Gmail, all while the victim saw nothin",
-        "cve": []
-    },
-    {
-        "title": "Reflectiz Launches Agentic Pentesting for Websites: Up to 10x Coverage vs Conventional Pentests",
-        "date": "Tue, 08 Sep 2026 14:02:40 +0000",
-        "url": "https://cybersecuritynews.com/reflectiz-launches-agentic-pentesting-for-websites-up-to-10x-coverage-vs-conventional-pentests/",
-        "source": "CyberSecurityNews",
-        "summary": "Boston, MA, USA, September 8th, 2026, CyberNewswire Specialized team of AI agents that discover, attack, and validate web vulnerabilities, leveraging pre-existing site context to eliminate noise and s",
-        "cve": []
-    },
-    {
-        "title": "Mars Security Launches Real-Time Intel-to-Detection Engine That Turns Live Threat Intelligence Into Backtested Detections in Minutes",
-        "date": "Tue, 08 Sep 2026 13:20:42 +0000",
-        "url": "https://cybersecuritynews.com/mars-security-launches-real-time-intel-to-detection-engine-that-turns-live-threat-intelligence-into-backtested-detections-in-minutes/",
-        "source": "CyberSecurityNews",
-        "summary": "New York, NY, United States, September 8th, 2026, CyberNewswire Mars Security, the autonomous threat hunting and detection engineering platform founded by offensive security veterans, today announced ",
-        "cve": []
-    },
-    {
-        "title": "Claude Mythos AI Autonomously Executes Full Cyber Kill Chain Without Human Guidance",
-        "date": "Tue, 08 Sep 2026 12:50:47 +0000",
-        "url": "https://cybersecuritynews.com/claude-mythos-ai/",
-        "source": "CyberSecurityNews",
-        "summary": "Claude Mythos is the first model reported to complete a cyber kill chain without step-by-step human direction. The finding does not describe malware or a confirmed victim breach. It is a controlled te",
-        "cve": []
-    },
-    {
-        "title": "Hackers Disable Endpoint Protection and Deploy Sliver Across Compromised Windows Domain",
-        "date": "Tue, 08 Sep 2026 12:10:57 +0000",
-        "url": "https://cybersecuritynews.com/hackers-disable-endpoint-protection/",
-        "source": "CyberSecurityNews",
-        "summary": "A new intrusion campaign shows how quickly a Windows domain can be turned into a launchpad for deeper compromise. The operators used a Sliver command-and-control beacon, account creation, credential t",
-        "cve": []
-    },
-    {
-        "title": "WeWorm – First 0-Click Worm Spreading Through WeChat Calls Across iOS and Android",
-        "date": "Tue, 08 Sep 2026 12:09:47 +0000",
-        "url": "https://cybersecuritynews.com/weworm-first-0-click-worm/",
-        "source": "CyberSecurityNews",
-        "summary": "A proof-of-concept zero-click worm dubbed “WeWorm” that it says can spread through WeChat voice calls on both iOS and Android, compromising a target’s WeChat account in seconds without the victim answ",
-        "cve": []
-    },
-    {
-        "title": "SAP Security Updates September 2026 – Critical Flaws Patched in SAP NetWeaver, Cloud and Extended Passport",
-        "date": "Tue, 08 Sep 2026 11:19:03 +0000",
-        "url": "https://cybersecuritynews.com/sap-security-updates-september-2026/",
-        "source": "CyberSecurityNews",
-        "summary": "SAP has released its September 2026 Security Patch Day updates, delivering 19 new security notes and one update to a previously issued note. The patches address vulnerabilities across SAP NetWeaver, S",
-        "cve": []
-    },
-    {
-        "title": "U.S. Offers $10 Million Reward for Iranian IRGC Cyber Chief Linked to Critical Infrastructure Attacks",
-        "date": "Tue, 08 Sep 2026 09:14:03 +0000",
-        "url": "https://cybersecuritynews.com/u-s-offers-10-million-reward-for-iranian-irgc-cyber-chief/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Department of State’s Rewards for Justice program has announced a reward of up to $10 million for information leading to the identification or whereabouts of Amir Yaryab, a senior figure in I",
-        "cve": []
-    },
-    {
-        "title": "Panzer Ransomware Targets Italian Manufacturers and Telecom Firms With ESXi-Ready RaaS",
-        "date": "Tue, 08 Sep 2026 09:10:50 +0000",
-        "url": "https://cybersecuritynews.com/panzer-ransomware-targets/",
-        "source": "CyberSecurityNews",
-        "summary": "Panzer ransomware has entered Italy amid a sharp rise in attacks. The ransomware-as-a-service, or RaaS, operation surfaced on August 5 and listed a kitchen manufacturer in Treviso and a telecommunicat",
+        "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+        "date": "Tue, 08 Sep 2026 21:44:22 +0000",
+        "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+        "source": "krebsonsecurity",
+        "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial inte",
         "cve": []
     },
     {
@@ -312,91 +240,83 @@
         "cve": []
     },
     {
-        "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-        "date": "Wed, 08 Jul 2026 12:31:39 +0000",
-        "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-        "source": "krebsonsecurity",
-        "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most",
+        "title": "AI Made A Lot Of \"Hideous\" Code But Found Major Bottlenecks For Faster Linux Compilation",
+        "date": "Tue, 08 Sep 2026 20:49:03 -0400",
+        "url": "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp",
+        "source": "Phoronix",
+        "summary": "An ARM Linux engineer leveraged AI/LLMs to help uncover some improvements to \"significant speed up\" the Linux kernel build times. In the process the LLM used generated \"a lot of code, much of it hideo",
         "cve": []
     },
     {
-        "title": "Reflectiz Launches Agentic Pentesting for Websites: Up to 10x Coverage vs Conventional Pentests",
-        "date": "Tue, 08 Sep 2026 14:03:32 +0000",
-        "url": "https://gbhackers.com/reflectiz-launches-agentic-pentesting-for-websites-up-to-10x-coverage-vs-conventional-pentests/",
-        "source": "GBHackers",
-        "summary": "Boston, MA, USA, September 8th, 2026, CyberNewswire Specialized team of AI agents that discover, attack, and validate web vulnerabilities, leveraging pre-existing site context to eliminate noise and s",
+        "title": "systemd 262-rc2 Adds An AI Canary For Detecting Unreviewed AI/LLM Code Contributions",
+        "date": "Tue, 08 Sep 2026 18:30:34 -0400",
+        "url": "https://www.phoronix.com/news/systemd-262-rc2",
+        "source": "Phoronix",
+        "summary": "One week after releasing systemd 262-rc1, systemd 262-rc2 is now available with further fixes and refinements for this init system and service manager. Systemd is also the latest open-source project i",
         "cve": []
     },
     {
-        "title": "Hackers Impersonate IT Support on Microsoft Teams to Take Control of Employee PCs",
-        "date": "Tue, 08 Sep 2026 13:28:45 +0000",
-        "url": "https://gbhackers.com/it-support-on-microsoft-teams/",
-        "source": "GBHackers",
-        "summary": "A human-operated intrusion campaign in which attackers abuse Microsoft Teams external collaboration to impersonate internal IT or helpdesk staff, persuade employees to grant remote control of their PC",
+        "title": "DLSS5VKLayer Wires Up NVIDIA DLSS 5 For Native Linux Games & Steam Play",
+        "date": "Tue, 08 Sep 2026 15:31:22 -0400",
+        "url": "https://www.phoronix.com/news/DLSS5VKLayer",
+        "source": "Phoronix",
+        "summary": "An interesting new open-source project for those looking to make use of NVIDIA DLSS 5 on Linux is DLSS5VKLayer. The DLSS5VKLayer is a Linux Vulkan layer that works for both native Linux games as well ",
         "cve": []
     },
     {
-        "title": "Jellyfin 12.0 Released With Security Fixes for Unauthorized File Access and XSS Flaws",
-        "date": "Tue, 08 Sep 2026 12:23:40 +0000",
-        "url": "https://gbhackers.com/jellyfin-12-0-released-with-security-fixes/",
-        "source": "GBHackers",
-        "summary": "Jellyfin has released version 12.0, a significant update to its open-source media server. This version includes a wide range of platform improvements and essential security updates affecting both the ",
+        "title": "KDE's KWin Merges Wayland Commit-Timing Protocol Support",
+        "date": "Tue, 08 Sep 2026 12:55:36 -0400",
+        "url": "https://www.phoronix.com/news/KDE-KWin-Wayland-Commit-Timing",
+        "source": "Phoronix",
+        "summary": "Merged today to the latest KDE KWin compositor development code is support for Wayland's important commit-timing protocol that is useful for video playback as well as for gamers relying on Adaptive-Sy",
         "cve": []
     },
     {
-        "title": "Dell Secure Connect Gateway Critical Flaws Allow Unauthenticated Remote Code Execution and Admin Access",
-        "date": "Tue, 08 Sep 2026 12:04:05 +0000",
-        "url": "https://gbhackers.com/dell-secure-connect-gateway-critical-flaws/",
-        "source": "GBHackers",
-        "summary": "Dell has released security updates for the Secure Connect Gateway (SCG) Application and Appliance after discovering three critical vulnerabilities. These flaws can expose enterprise deployments to una",
+        "title": "The Linux Kernel Planning To Remove Around ~55k Lines Of Old ARM Platform Code",
+        "date": "Tue, 08 Sep 2026 12:06:16 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Dropping-Old-ARM-Ahead",
+        "source": "Phoronix",
+        "summary": "For the current Linux 7.3 kernel many older 32-bit ARM platforms are deprecated and in turn orphaning hundreds of drivers only relevant to those out-of-date ARM platforms. The removal of that now depr",
         "cve": []
     },
     {
-        "title": "Claude Mythos Executes End-to-End Intrusion From Initial Access to Full Domain Compromise",
-        "date": "Tue, 08 Sep 2026 11:31:36 +0000",
-        "url": "https://gbhackers.com/end-to-end-intrusion/",
-        "source": "GBHackers",
-        "summary": "Anthropic’s Claude Mythos Preview has demonstrated the ability to complete an end-to-end enterprise intrusion simulation, progressing from initial access through chained exploitation and network trave",
+        "title": "CHUWI UniBook With Intel Wildcat Lake For A $449 Linux-Friendly Laptop",
+        "date": "Tue, 08 Sep 2026 10:05:00 -0400",
+        "url": "https://www.phoronix.com/review/chuwi-unibook-wildcat-lake",
+        "source": "Phoronix",
+        "summary": "CHUWI recently launched the UniBook laptop powered by the Intel Core 3 304 \"Wildcat Lake\" SOC and priced at just $449 USD. Especially with today's high component pricing, a brand new sub-$500 laptop i",
         "cve": []
     },
     {
-        "title": "WhatsApp Testing Guest Calls for People Without a WhatsApp Account",
-        "date": "Tue, 08 Sep 2026 11:16:17 +0000",
-        "url": "https://gbhackers.com/whatsapp-testing-guest-calls/",
-        "source": "GBHackers",
-        "summary": "WhatsApp is developing a guest-call feature that would let people without a WhatsApp account join encrypted calls through a web link. This capability would extend WhatsApp’s existing Call Links featur",
+        "title": "DaVinci Resolve 21.1 Released - Now With AI Assistant Integration",
+        "date": "Tue, 08 Sep 2026 09:58:41 -0400",
+        "url": "https://www.phoronix.com/news/DaVinci-Resolve-21.1",
+        "source": "Phoronix",
+        "summary": "For those using the Linux-friendly DaVinci Resolve video editing and color correction/grading and visual effects software, DaVinci Resolve 21.1 is out today as a major update to this cross-platform so",
         "cve": []
     },
     {
-        "title": "ASUS Control Center Critical Flaw Allows Unauthenticated Attackers to Gain Root Access",
-        "date": "Tue, 08 Sep 2026 10:37:47 +0000",
-        "url": "https://gbhackers.com/asus-control-center-critical-flaw/",
-        "source": "GBHackers",
-        "summary": "ASUS has released a security update for the Control Center Express Agent to address CVE-2026-19397, a high-severity vulnerability related to missing authentication. This vulnerability allows an unauth",
+        "title": "New Patches Provide HDMI 1.4 3D Mode Support For AMD Radeon Graphics On Linux",
+        "date": "Tue, 08 Sep 2026 09:11:10 -0400",
+        "url": "https://www.phoronix.com/news/AMDGPU-HDMI-1.4-3D-Mode",
+        "source": "Phoronix",
+        "summary": "It turns out one of the feature limitations of the AMDGPU Linux graphics driver is HDMI 1.4 3D output support with frame packing, top-and-bottom, and side-by-side options for transmitting simultaneous",
         "cve": []
     },
     {
-        "title": "The 12 Best Antivirus (Endpoint Protection) Software for Business, Compared and Priced",
-        "date": "Tue, 08 Sep 2026 10:24:23 +0000",
-        "url": "https://gbhackers.com/best-business-antivirus-compared/",
-        "source": "GBHackers",
-        "summary": "Best value overall: Microsoft Defender for Endpoint — if you hold Microsoft 365 E5, you already own competitive enterprise endpoint protection and the marginal cost is zero. Best published pricing: Bi",
+        "title": "Linux 7.4 To Support Realtek RTL8127atf & RTL8116af Networking",
+        "date": "Tue, 08 Sep 2026 06:41:09 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-RTL8127atf-RTL8116af",
+        "source": "Phoronix",
+        "summary": "Queued this past week into the net-next development tree of the latest networking additions for the Linux kernel is enabling support for Realtek's newer RTL8127atf and RTL8116af wired networking ASICs",
         "cve": []
     },
     {
-        "title": "SAP September 2026 Security Update Fixes 4 Critical Vulnerabilities and 15 Other Flaws",
-        "date": "Tue, 08 Sep 2026 10:24:18 +0000",
-        "url": "https://gbhackers.com/sap-september-2026-security-update/",
-        "source": "GBHackers",
-        "summary": "SAP released 19 new Security Notes addressing four critical vulnerabilities and 15 additional flaws throughout its enterprise portfolio. The vendor also updated one note from August. The most urgent i",
-        "cve": []
-    },
-    {
-        "title": "The 12 Best Managed Firewall Services, Compared and Priced",
-        "date": "Tue, 08 Sep 2026 10:20:03 +0000",
-        "url": "https://gbhackers.com/best-managed-firewall-services-compared/",
-        "source": "GBHackers",
-        "summary": "Best value overall: Fortinet. Delivered directly and through the largest partner network in security, at price points the premium providers can’t approach provided you vet the actual delivery partner.",
+        "title": "DirectX Support Promoted To Official Target Within LLVM",
+        "date": "Tue, 08 Sep 2026 06:21:51 -0400",
+        "url": "https://www.phoronix.com/news/LLVM-DirectX-Backend-Official",
+        "source": "Phoronix",
+        "summary": "Over the past four years there has been a lot of work on a DirectX back-end within the LLVM compiler stack. Microsoft has backed the initiative for being able to lower LLVM IR into the DirectX Interme",
         "cve": []
     }
 ]
