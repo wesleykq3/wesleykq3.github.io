@@ -1,5 +1,45 @@
 [
     {
+        "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
+        "date": "Wed, 09 Sep 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+        "source": "BleepingComputer",
+        "summary": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verificati",
+        "cve": []
+    },
+    {
+        "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+        "date": "Wed, 09 Sep 2026 06:11:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+        "source": "BleepingComputer",
+        "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
+        "cve": []
+    },
+    {
+        "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+        "date": "Wed, 09 Sep 2026 04:44:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+        "source": "BleepingComputer",
+        "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
+        "cve": []
+    },
+    {
+        "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+        "date": "Wed, 09 Sep 2026 03:30:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+        "source": "BleepingComputer",
+        "summary": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday",
+        "cve": []
+    },
+    {
+        "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+        "date": "Wed, 09 Sep 2026 02:25:48 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+        "source": "BleepingComputer",
+        "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
+        "cve": []
+    },
+    {
         "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
         "date": "Tue, 08 Sep 2026 21:16:27 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
@@ -40,123 +80,163 @@
         "cve": []
     },
     {
-        "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
-        "date": "Tue, 08 Sep 2026 14:18:05 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
-        "source": "BleepingComputer",
-        "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
-        "cve": []
-    },
-    {
-        "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
-        "date": "Tue, 08 Sep 2026 13:57:03 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-        "cve": []
-    },
-    {
-        "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-        "date": "Tue, 08 Sep 2026 12:35:47 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
-        "source": "BleepingComputer",
-        "summary": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. ",
-        "cve": []
-    },
-    {
-        "title": "OpenAI says ChatGPT outage causes image generation errors",
-        "date": "Tue, 08 Sep 2026 12:28:42 -0400",
-        "url": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
-        "cve": []
-    },
-    {
-        "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
-        "date": "Tue, 08 Sep 2026 11:22:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
-        "cve": []
-    },
-    {
-        "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
-        "date": "Tue, 08 Sep 2026 21:50:23 +0530",
-        "url": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+        "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+        "date": "Wed, 09 Sep 2026 19:53:55 +0530",
+        "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
         "source": "The Hacker News",
-        "summary": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026.\n\nCybersecurity company CrowdStrike is trac",
+        "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthro",
         "cve": []
     },
     {
-        "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
-        "date": "Tue, 08 Sep 2026 20:24:30 +0530",
-        "url": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
+        "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+        "date": "Wed, 09 Sep 2026 17:27:36 +0530",
+        "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
         "source": "The Hacker News",
-        "summary": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLi",
+        "summary": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability s",
         "cve": []
     },
     {
-        "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
-        "date": "Tue, 08 Sep 2026 19:49:17 +0530",
-        "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+        "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+        "date": "Wed, 09 Sep 2026 16:47:07 +0530",
+        "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
         "source": "The Hacker News",
-        "summary": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user",
+        "summary": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command.\n\nThe tool runs an a",
         "cve": []
     },
     {
-        "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-        "date": "Tue, 08 Sep 2026 19:18:16 +0530",
-        "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+        "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
+        "date": "Wed, 09 Sep 2026 16:13:04 +0530",
+        "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
         "source": "The Hacker News",
-        "summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework",
+        "summary": "Bitcoin wallet company Alby has&nbsp;warned of a critical flaw&nbsp;in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachab",
         "cve": []
     },
     {
-        "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
-        "date": "Tue, 08 Sep 2026 17:24:29 +0530",
-        "url": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+        "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+        "date": "Wed, 09 Sep 2026 15:02:26 +0530",
+        "url": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
         "source": "The Hacker News",
-        "summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and&nbsp;demonstrated it spreading&nbsp;among three test phones.\n\nThe person being called",
+        "summary": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of Am",
         "cve": []
     },
     {
-        "title": "What It Took to Reach 1 Billion Build Manifests",
-        "date": "Tue, 08 Sep 2026 17:19:02 +0530",
-        "url": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
+        "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+        "date": "Wed, 09 Sep 2026 14:41:03 +0530",
+        "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
         "source": "The Hacker News",
-        "summary": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in o",
+        "summary": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE ident",
         "cve": []
     },
     {
-        "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-        "date": "Tue, 08 Sep 2026 16:52:07 +0530",
-        "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+        "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+        "date": "Wed, 09 Sep 2026 13:49:32 +0530",
+        "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
         "source": "The Hacker News",
-        "summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.\n\nFreeIPA is the system th",
+        "summary": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing o",
         "cve": []
     },
     {
-        "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-        "date": "Tue, 08 Sep 2026 14:43:47 +0530",
-        "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+        "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+        "date": "Wed, 09 Sep 2026 13:06:49 +0530",
+        "url": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
         "source": "The Hacker News",
-        "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild.\n\nThe vulnerability, n",
+        "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen ",
         "cve": []
     },
     {
-        "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-        "date": "Tue, 08 Sep 2026 14:13:51 +0530",
-        "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+        "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+        "date": "Wed, 09 Sep 2026 12:17:27 +0530",
+        "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams.\n\nThe campaign, dis",
+        "summary": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a pat",
         "cve": []
     },
     {
-        "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
-        "date": "Tue, 08 Sep 2026 12:30:43 +0530",
-        "url": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+        "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+        "date": "Wed, 09 Sep 2026 11:55:45 +0530",
+        "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
         "source": "The Hacker News",
-        "summary": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with thir",
+        "summary": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentialit",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Hundreds of AI Agents to Exploit PaperCut Flaws and Compromise 440 Servers Worldwide",
+        "date": "Wed, 09 Sep 2026 14:40:47 +0000",
+        "url": "https://cybersecuritynews.com/papercut-flaws-compromised-using-ai/",
+        "source": "CyberSecurityNews",
+        "summary": "A Russian-speaking threat actor has weaponized artificial intelligence at an unprecedented scale, deploying hundreds of autonomous AI agents to exploit critical vulnerabilities in PaperCut NG/MF print",
+        "cve": []
+    },
+    {
+        "title": "ClearFake Deploys Crypto Stealer That Uses Vulnerable Driver to Kill EDR Security Tools",
+        "date": "Wed, 09 Sep 2026 14:26:47 +0000",
+        "url": "https://cybersecuritynews.com/clearfake-deploys-crypto-stealer/",
+        "source": "CyberSecurityNews",
+        "summary": "ClearFake has expanded a fake CAPTCHA scam into a chain that steals cryptocurrency and credentials while disabling endpoint protection. It turns compromised websites into launchpads, relying on visito",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Fake LinkedIn Job Offers to Infect Developers With New Cross-Platform RATs",
+        "date": "Wed, 09 Sep 2026 14:07:24 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-fake-linkedin-job-offers/",
+        "source": "CyberSecurityNews",
+        "summary": "Software developers are being targeted with fake job offers that turn routine coding tests into a path for remote access malware. The campaign uses recruiter personas on LinkedIn and other employment ",
+        "cve": []
+    },
+    {
+        "title": "MapLibre Vulnerability Exposes 2.7M Users to Zero-Click Attacks",
+        "date": "Wed, 09 Sep 2026 14:05:10 +0000",
+        "url": "https://cybersecuritynews.com/maplibre-zero-click-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical cross-site scripting vulnerability in the widely used MapLibre GL JS library could expose applications and an estimated 2.7 million users to zero-click attacks. The flaw, tracked as CVE-202",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Expands Windows Family Safety With Built-In Age Verification and Parental Controls",
+        "date": "Wed, 09 Sep 2026 14:00:50 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-expands-windows-family-safety/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is expanding Windows Family Safety with account-based age verification, privacy-focused age signals, and improved parental controls. The company said the updates are designed to help Windows",
+        "cve": []
+    },
+    {
+        "title": "Critical ArangoDB Flaws Allow Authentication Bypass and Remote Code Execution as Root",
+        "date": "Wed, 09 Sep 2026 13:50:25 +0000",
+        "url": "https://cybersecuritynews.com/critical-arangodb-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Two critical flaws in ArangoDB can let an outsider bypass login controls, read or alter database data, and then gain root-level code execution on the underlying host. The issues affect installations t",
+        "cve": []
+    },
+    {
+        "title": "Android Security Update September 2026 – Fix for Critical Flaws that Enable RCE Attacks",
+        "date": "Wed, 09 Sep 2026 13:44:29 +0000",
+        "url": "https://cybersecuritynews.com/android-security-update-september-2026/",
+        "source": "CyberSecurityNews",
+        "summary": "Google released the Android Security Bulletin for September 2026, addressing several critical vulnerabilities that could let attackers execute code remotely on affected devices. The update, published ",
+        "cve": []
+    },
+    {
+        "title": "CISA Warns of N-able N-central RCE Vulnerability Exploited in the Wild",
+        "date": "Wed, 09 Sep 2026 13:31:10 +0000",
+        "url": "https://cybersecuritynews.com/n-able-n-central-rce/",
+        "source": "CyberSecurityNews",
+        "summary": "The Cybersecurity and Infrastructure Security Agency has added a maximum-severity flaw in N-able&#8217;s N-central remote monitoring and management platform to its Known Exploited Vulnerabilities cata",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams for Android Vulnerability Exposes Sensitive Information",
+        "date": "Wed, 09 Sep 2026 13:14:09 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-teams-android-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has released a security update for CVE-2026-65812, a vulnerability in Microsoft Teams for Android that could allow an authorized attacker to disclose sensitive information, including user cr",
+        "cve": []
+    },
+    {
+        "title": "Hackers Clone Banking Apps Into Hidden Android Work Profiles to Evade Fraud Detection",
+        "date": "Wed, 09 Sep 2026 13:11:36 +0000",
+        "url": "https://cybersecuritynews.com/hackers-clone-banking-apps/",
+        "source": "CyberSecurityNews",
+        "summary": "Android banking fraud is entering a deceptive phase. Attackers are using malware that copies targeted banking apps into a concealed Android work profile, separating a fraudulent session from warning s",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "AI Made A Lot Of \"Hideous\" Code But Found Major Bottlenecks For Faster Linux Compilation",
-        "date": "Tue, 08 Sep 2026 20:49:03 -0400",
-        "url": "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp",
-        "source": "Phoronix",
-        "summary": "An ARM Linux engineer leveraged AI/LLMs to help uncover some improvements to \"significant speed up\" the Linux kernel build times. In the process the LLM used generated \"a lot of code, much of it hideo",
+        "title": "Hackers Abuse Google CAPTCHA, WebDAV and BNB Smart Chain to Deploy Credential-Stealing Malware",
+        "date": "Wed, 09 Sep 2026 13:27:51 +0000",
+        "url": "https://gbhackers.com/google-captcha-abuse/",
+        "source": "GBHackers",
+        "summary": "A multi-stage malware operation that combines fake Google CAPTCHA prompts, WebDAV-hosted DLL execution, malicious Cloudflare Workers and BNB Smart Chain smart contracts to deploy the Amatera informati",
         "cve": []
     },
     {
-        "title": "systemd 262-rc2 Adds An AI Canary For Detecting Unreviewed AI/LLM Code Contributions",
-        "date": "Tue, 08 Sep 2026 18:30:34 -0400",
-        "url": "https://www.phoronix.com/news/systemd-262-rc2",
-        "source": "Phoronix",
-        "summary": "One week after releasing systemd 262-rc1, systemd 262-rc2 is now available with further fixes and refinements for this init system and service manager. Systemd is also the latest open-source project i",
+        "title": "FortiPAM Chrome Extension Vulnerability Lets Malicious Sites Control Browser Proxy and Record Tabs",
+        "date": "Wed, 09 Sep 2026 13:18:50 +0000",
+        "url": "https://gbhackers.com/fortipam-chrome-extension-vulnerability/",
+        "source": "GBHackers",
+        "summary": "A critical vulnerability has been identified in the Fortinet FortiPAM Chrome extension that could allow a malicious website to manipulate browser proxy settings, open tabs at the attacker&#8217;s disc",
         "cve": []
     },
     {
-        "title": "DLSS5VKLayer Wires Up NVIDIA DLSS 5 For Native Linux Games & Steam Play",
-        "date": "Tue, 08 Sep 2026 15:31:22 -0400",
-        "url": "https://www.phoronix.com/news/DLSS5VKLayer",
-        "source": "Phoronix",
-        "summary": "An interesting new open-source project for those looking to make use of NVIDIA DLSS 5 on Linux is DLSS5VKLayer. The DLSS5VKLayer is a Linux Vulkan layer that works for both native Linux games as well ",
+        "title": "SpyCloud 2026 Identity Threat Report Finds Non-Human Identities Are Now the Leading Path into the Enterprise",
+        "date": "Wed, 09 Sep 2026 12:54:03 +0000",
+        "url": "https://gbhackers.com/spycloud-2026-identity-threat-report-finds-non-human-identities-are-now-the-leading-path-into-the-enterprise/",
+        "source": "GBHackers",
+        "summary": "Austin, Texas / USA, September 9th, 2026, CyberNewswire Ninety-five percent of organizations believe they have visibility into their AI and machine identity exposures, yet only 36% are actually monito",
         "cve": []
     },
     {
-        "title": "KDE's KWin Merges Wayland Commit-Timing Protocol Support",
-        "date": "Tue, 08 Sep 2026 12:55:36 -0400",
-        "url": "https://www.phoronix.com/news/KDE-KWin-Wayland-Commit-Timing",
-        "source": "Phoronix",
-        "summary": "Merged today to the latest KDE KWin compositor development code is support for Wayland's important commit-timing protocol that is useful for video playback as well as for gamers relying on Adaptive-Sy",
+        "title": "Iran-Linked Hackers Use Fake LinkedIn Job Offers to Deploy NodeRabbit and PollCat RATs",
+        "date": "Wed, 09 Sep 2026 12:52:20 +0000",
+        "url": "https://gbhackers.com/fake-linkedin-job-offers/",
+        "source": "GBHackers",
+        "summary": "Iran-linked cyberespionage group Mirage Kitten is targeting software engineers with fake recruiter outreach on LinkedIn and job-search platforms. Using trojanized coding assessments to deploy two prev",
         "cve": []
     },
     {
-        "title": "The Linux Kernel Planning To Remove Around ~55k Lines Of Old ARM Platform Code",
-        "date": "Tue, 08 Sep 2026 12:06:16 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Dropping-Old-ARM-Ahead",
-        "source": "Phoronix",
-        "summary": "For the current Linux 7.3 kernel many older 32-bit ARM platforms are deprecated and in turn orphaning hundreds of drivers only relevant to those out-of-date ARM platforms. The removal of that now depr",
+        "title": "Critical ArangoDB Bugs Expose Entire Databases and Enable Remote Code Execution as Root",
+        "date": "Wed, 09 Sep 2026 12:28:35 +0000",
+        "url": "https://gbhackers.com/arango-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Two critical ArangoDB vulnerabilities can allow unauthenticated attackers to access protected database APIs and, after obtaining valid database access, escalate to root-level code execution on affecte",
         "cve": []
     },
     {
-        "title": "CHUWI UniBook With Intel Wildcat Lake For A $449 Linux-Friendly Laptop",
-        "date": "Tue, 08 Sep 2026 10:05:00 -0400",
-        "url": "https://www.phoronix.com/review/chuwi-unibook-wildcat-lake",
-        "source": "Phoronix",
-        "summary": "CHUWI recently launched the UniBook laptop powered by the Intel Core 3 304 \"Wildcat Lake\" SOC and priced at just $449 USD. Especially with today's high component pricing, a brand new sub-$500 laptop i",
+        "title": "Critical MapLibre GL JS Vulnerability Enables Zero-Click XSS Attacks",
+        "date": "Wed, 09 Sep 2026 11:34:34 +0000",
+        "url": "https://gbhackers.com/critical-maplibre-gl-js-vulnerability/",
+        "source": "GBHackers",
+        "summary": "MapLibre GL JS users are advised to upgrade their software following the disclosure of an XSS vulnerability, identified as CVE-2026-85061 and documented in GitHub advisory GHSA-jrc7-96c5-q579. This vu",
         "cve": []
     },
     {
-        "title": "DaVinci Resolve 21.1 Released - Now With AI Assistant Integration",
-        "date": "Tue, 08 Sep 2026 09:58:41 -0400",
-        "url": "https://www.phoronix.com/news/DaVinci-Resolve-21.1",
-        "source": "Phoronix",
-        "summary": "For those using the Linux-friendly DaVinci Resolve video editing and color correction/grading and visual effects software, DaVinci Resolve 21.1 is out today as a major update to this cross-platform so",
+        "title": "GoldFactory Weaponizes Open-Source Vwork App Cloner in Gigabud Banking Malware Attacks",
+        "date": "Wed, 09 Sep 2026 10:49:58 +0000",
+        "url": "https://gbhackers.com/gigabud-banking-malware/",
+        "source": "GBHackers",
+        "summary": "GoldFactory has expanded the evasion capabilities of its Gigabud Android banking trojan by deploying Vwork, a weaponized fork of the open-source Shelter application. The companion tool abuses Android ",
         "cve": []
     },
     {
-        "title": "New Patches Provide HDMI 1.4 3D Mode Support For AMD Radeon Graphics On Linux",
-        "date": "Tue, 08 Sep 2026 09:11:10 -0400",
-        "url": "https://www.phoronix.com/news/AMDGPU-HDMI-1.4-3D-Mode",
-        "source": "Phoronix",
-        "summary": "It turns out one of the feature limitations of the AMDGPU Linux graphics driver is HDMI 1.4 3D output support with frame packing, top-and-bottom, and side-by-side options for transmitting simultaneous",
+        "title": "Windows BitLocker Flaw Lets Attackers Execute Code on Vulnerable Systems",
+        "date": "Wed, 09 Sep 2026 10:28:35 +0000",
+        "url": "https://gbhackers.com/windows-bitlocker-flaw-2/",
+        "source": "GBHackers",
+        "summary": "Microsoft disclosed CVE-2026-69449, an Important-severity vulnerability in Windows BitLocker. This issue is classified as a heap-based buffer overflow (CWE-122) and may allow remote code execution (RC",
         "cve": []
     },
     {
-        "title": "Linux 7.4 To Support Realtek RTL8127atf & RTL8116af Networking",
-        "date": "Tue, 08 Sep 2026 06:41:09 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-RTL8127atf-RTL8116af",
-        "source": "Phoronix",
-        "summary": "Queued this past week into the net-next development tree of the latest networking additions for the Linux kernel is enabling support for Realtek's newer RTL8127atf and RTL8116af wired networking ASICs",
+        "title": "ChatGPT Flaw Could Let Attackers Steal Gmail Data Across User Accounts",
+        "date": "Wed, 09 Sep 2026 10:19:04 +0000",
+        "url": "https://gbhackers.com/chatgpt-flaw/",
+        "source": "GBHackers",
+        "summary": "Security researchers have revealed a recently patched flaw in ChatGPT&#8217;s isolation system that could have allowed attackers to access data from a victim&#8217;s connected Gmail account and send i",
         "cve": []
     },
     {
-        "title": "DirectX Support Promoted To Official Target Within LLVM",
-        "date": "Tue, 08 Sep 2026 06:21:51 -0400",
-        "url": "https://www.phoronix.com/news/LLVM-DirectX-Backend-Official",
-        "source": "Phoronix",
-        "summary": "Over the past four years there has been a lot of work on a DirectX back-end within the LLVM compiler stack. Microsoft has backed the initiative for being able to lower LLVM IR into the DirectX Interme",
+        "title": "Hackers Weaponize Agentic AI to Automate Reconnaissance, Exploitation and Post-Exploitation",
+        "date": "Wed, 09 Sep 2026 09:12:08 +0000",
+        "url": "https://gbhackers.com/agentic-ai-automates-cyberattacks/",
+        "source": "GBHackers",
+        "summary": "Threat actors are increasingly operationalizing agentic artificial intelligence to compress cyberattack timelines, automating reconnaissance, vulnerability research, exploit development and credential",
         "cve": []
     }
 ]
