@@ -1,5 +1,45 @@
 [
     {
+        "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+        "date": "Fri, 11 Sep 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+        "source": "BleepingComputer",
+        "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponi",
+        "cve": []
+    },
+    {
+        "title": "GitLab urges users to patch max severity path traversal flaw",
+        "date": "Fri, 11 Sep 2026 07:15:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+        "source": "BleepingComputer",
+        "summary": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
+        "date": "Fri, 11 Sep 2026 05:39:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
+        "cve": []
+    },
+    {
+        "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
+        "date": "Fri, 11 Sep 2026 03:55:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
+        "source": "BleepingComputer",
+        "summary": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
+        "cve": []
+    },
+    {
+        "title": "Conti ransomware gang member sentenced to 4 years in prison",
+        "date": "Fri, 11 Sep 2026 02:48:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
+        "source": "BleepingComputer",
+        "summary": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
+        "cve": []
+    },
+    {
         "title": "New Android malware encrypts files, steals data, and harasses victims",
         "date": "Thu, 10 Sep 2026 17:40:43 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
@@ -40,43 +80,43 @@
         "cve": []
     },
     {
-        "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
-        "date": "Thu, 10 Sep 2026 11:43:58 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
-        "source": "BleepingComputer",
-        "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [.",
+        "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+        "date": "Fri, 11 Sep 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+        "source": "The Hacker News",
+        "summary": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually cre",
         "cve": []
     },
     {
-        "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
-        "date": "Thu, 10 Sep 2026 10:55:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
-        "source": "BleepingComputer",
-        "summary": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 15",
+        "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+        "date": "Fri, 11 Sep 2026 13:01:05 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+        "source": "The Hacker News",
+        "summary": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security ",
         "cve": []
     },
     {
-        "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
-        "date": "Thu, 10 Sep 2026 10:11:34 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
-        "source": "BleepingComputer",
-        "summary": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
+        "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+        "date": "Fri, 11 Sep 2026 12:44:09 +0530",
+        "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+        "source": "The Hacker News",
+        "summary": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security c",
         "cve": []
     },
     {
-        "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
-        "date": "Thu, 10 Sep 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
-        "source": "BleepingComputer",
-        "summary": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across customer environments between May and July 2026, and",
+        "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+        "date": "Fri, 11 Sep 2026 12:16:18 +0530",
+        "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+        "source": "The Hacker News",
+        "summary": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exp",
         "cve": []
     },
     {
-        "title": "Microsoft says September updates fix mouse settings reset issues",
-        "date": "Thu, 10 Sep 2026 07:14:28 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has fixed a known issue that wiped mouse settings on some Windows 11 systems after installing the KB5120998 August 2026 preview update. [...]",
+        "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+        "date": "Fri, 11 Sep 2026 11:49:59 +0530",
+        "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+        "source": "The Hacker News",
+        "summary": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilitie",
         "cve": []
     },
     {
@@ -120,43 +160,83 @@
         "cve": []
     },
     {
-        "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-        "date": "Thu, 10 Sep 2026 16:06:46 +0530",
-        "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog, requi",
+        "title": "Russia-Aligned Hackers Use GuardBreaker Prompt Injection to Disrupt AI Malware Analysis",
+        "date": "Fri, 11 Sep 2026 14:32:13 +0000",
+        "url": "https://cybersecuritynews.com/hackers-guardbreaker-prompt-injection/",
+        "source": "CyberSecurityNews",
+        "summary": "Russia-aligned operators are testing a new way to make artificial intelligence overlook malicious code. The technique, called GuardBreaker, hides a safety-sensitive request inside an otherwise ordinar",
         "cve": []
     },
     {
-        "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-        "date": "Thu, 10 Sep 2026 12:42:55 +0530",
-        "url": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-        "source": "The Hacker News",
-        "summary": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key in LiteLLM's own setup guide.\n\nLiteLLM is an open-",
+        "title": "New KATARU IoT Malware Packs Linux Privilege Escalation Exploits and Mirai-Style DDoS Attacks",
+        "date": "Fri, 11 Sep 2026 14:17:53 +0000",
+        "url": "https://cybersecuritynews.com/new-kataru-iot-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "KATARU is a newly observed IoT malware strain that can turn poorly secured devices into DDoS attack nodes. The sample was captured after an attacker used repeated Telnet password guesses against a hon",
         "cve": []
     },
     {
-        "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-        "date": "Thu, 10 Sep 2026 12:34:01 +0530",
-        "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
-        "source": "The Hacker News",
-        "summary": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised c",
+        "title": "Hackers Impersonate CEOs in 1 Million Emails to Trick Employees Into $50,000 Payments",
+        "date": "Fri, 11 Sep 2026 13:38:23 +0000",
+        "url": "https://cybersecuritynews.com/hackers-impersonate-ceos/",
+        "source": "CyberSecurityNews",
+        "summary": "A large email fraud campaign used fake CEO messages and invoices to push employees toward payments of nearly $50,000. The operation did not rely on a malicious attachment or software flaw. Instead, it",
         "cve": []
     },
     {
-        "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-        "date": "Wed, 09 Sep 2026 23:56:05 +0530",
-        "url": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram cha",
+        "title": "Windows 11 Security Update KB5124008 Breaks Always-On VPN Connections",
+        "date": "Fri, 11 Sep 2026 13:11:35 +0000",
+        "url": "https://cybersecuritynews.com/windows-11-security-update-kb5124008/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft’s September 2026 security update KB5124008 is knocking some Windows 11 enterprise clients off Always On VPN after the Patch Tuesday package landed on September 8. Administrators who can repr",
         "cve": []
     },
     {
-        "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-        "date": "Wed, 09 Sep 2026 22:04:05 +0530",
-        "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-        "source": "The Hacker News",
-        "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows",
+        "title": "Conti Ransomware Hacker Sentenced After Group Attacked Over 1,000 Victims Worldwide",
+        "date": "Fri, 11 Sep 2026 12:31:07 +0000",
+        "url": "https://cybersecuritynews.com/conti-ransomware-hacker-sentenced/",
+        "source": "CyberSecurityNews",
+        "summary": "A Ukrainian national has been sentenced to four years in U.S. prison for his role in the Conti ransomware operation, which compromised more than 1,000 victims worldwide and generated at least $150 mil",
+        "cve": []
+    },
+    {
+        "title": "New Android Ransomware Records Screens, Steals OTPs and Secretly Takes Photos of Victims",
+        "date": "Fri, 11 Sep 2026 12:14:12 +0000",
+        "url": "https://cybersecuritynews.com/new-android-ransomware/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly uncovered Android threat combines ransomware with spying, creating a trap for people who install apps from untrusted links. Called Mantax Otax, the malware can lock files, watch the screen, in",
+        "cve": []
+    },
+    {
+        "title": "Ubuntu 24.04.5 LTS Released With Linux 7.0 Kernel and Latest Security Updates",
+        "date": "Fri, 11 Sep 2026 12:03:45 +0000",
+        "url": "https://cybersecuritynews.com/ubuntu-24-04-5-lts-linux-7/",
+        "source": "CyberSecurityNews",
+        "summary": "Canonical has officially rolled out Ubuntu 24.04.5 LTS, the fifth maintenance update to the &#8220;Noble Numbat&#8221; long-term support release, delivering a fresh installation image packed with the ",
+        "cve": []
+    },
+    {
+        "title": "cPanel ConfigServer Security & Firewall Vulnerability Allows Remote Attacker to Execute Arbitrary Commands",
+        "date": "Fri, 11 Sep 2026 11:28:53 +0000",
+        "url": "https://cybersecuritynews.com/cpanel-configserver-security-firewall-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical vulnerability in ConfigServer Security &#38; Firewall (CSF), used on cPanel and WHM servers, could allow an unauthenticated remote attacker to execute arbitrary commands through the softwar",
+        "cve": []
+    },
+    {
+        "title": "IDScan Confirms Data Breach Following 153 Million Driver’s Licenses Leaked on the Dark Web",
+        "date": "Fri, 11 Sep 2026 09:59:45 +0000",
+        "url": "https://cybersecuritynews.com/idscan-confirms-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "IDScan.net, a Louisiana-based identity verification firm whose technology underpins age and identity checks for retailers, bars, and other Fortune 500 clients, has confirmed a data breach after a crim",
+        "cve": []
+    },
+    {
+        "title": "Hackers Deploy New SloppyRAT via ClickFix to Enable Ransomware Lateral Movement",
+        "date": "Fri, 11 Sep 2026 09:12:37 +0000",
+        "url": "https://cybersecuritynews.com/hackers-deploy-new-sloppyrat/",
+        "source": "CyberSecurityNews",
+        "summary": "SloppyRAT is a remote access tool that appears designed to help ransomware operators move deeper into compromised networks. The malware arrives through ClickFix, a social-engineering method that trick",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "BeOS-Inspired Haiku Now Supports Changing Audio Outputs Live, Other Improvements",
-        "date": "Thu, 10 Sep 2026 20:55:29 -0400",
-        "url": "https://www.phoronix.com/news/Haiku-OS-August-2026",
-        "source": "Phoronix",
-        "summary": "In addition to August bringing the long-awaited Haiku R1 Beta 6 release, there was also a lot of development progress on this BeOS-inspired operating system too during the course of the past month...",
+        "title": "Researchers Uncover 10,000+ Malware Loaders Behind YouTube and SEO Poisoning Campaign",
+        "date": "Fri, 11 Sep 2026 12:24:51 +0000",
+        "url": "https://gbhackers.com/10000-malware-loaders/",
+        "source": "GBHackers",
+        "summary": "A long-running pay-per-install (PPI) operation that used YouTube gaming channels and SEO-poisoned software downloads to distribute malware at scale. The cluster, tracked as CL-CRI-1171, is linked to m",
         "cve": []
     },
     {
-        "title": "GIMP 3.2.6 Released With Some Early Preparations Toward Eventual GTK4 Port",
-        "date": "Thu, 10 Sep 2026 18:12:22 -0400",
-        "url": "https://www.phoronix.com/news/GIMP-3.2.6-Released",
-        "source": "Phoronix",
-        "summary": "The long-awaited GIMP 3.0 release for transitioning from GTK2 to GTK3 only saw its stable release last year. But with GTK4 already being out for years, GIMP developers have begun making some very earl",
+        "title": "VLC Media Player Flaws Let Attackers Corrupt Memory and Leak Sensitive Data",
+        "date": "Fri, 11 Sep 2026 12:03:52 +0000",
+        "url": "https://gbhackers.com/vlc-media-player-flaws/",
+        "source": "GBHackers",
+        "summary": "Two security vulnerabilities in VLC media player versions 3.0.0 through 3.0.23 could allow attackers to exploit heap memory issues. These vulnerabilities can be triggered by processing a malicious PNG",
         "cve": []
     },
     {
-        "title": "Mesa 26.3 RADV + RadeonSI Ready With DRM Format Modifiers For Older AMD GPUs",
-        "date": "Thu, 10 Sep 2026 17:19:11 -0400",
-        "url": "https://www.phoronix.com/news/Mesa-26.3-GFX6-GFX8-Modifiers",
-        "source": "Phoronix",
-        "summary": "Coming with Linux 7.3 is DRM format modifiers for GFX6 through GFX8 era GPUs covering the original Raddeon HD 7000 (GCN 1.0) graphics cards up through the Polaris and Fiji series. This work by Valve's",
+        "title": "CISA Adds Exploited MikroTik RouterOS Flaws to Security Alert",
+        "date": "Fri, 11 Sep 2026 11:57:40 +0000",
+        "url": "https://gbhackers.com/cisa-adds-exploited-mikrotik-routeros-flaws/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two vulnerabilities in MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, warning that these flaws are a",
         "cve": []
     },
     {
-        "title": "Ubuntu 24.04.5 LTS Released With Linux 7.0 HWE Stack",
-        "date": "Thu, 10 Sep 2026 13:49:03 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-24.04.5-LTS",
-        "source": "Phoronix",
-        "summary": "For those continuing to make use of the Ubuntu 24.04 Long Term Support \"LTS\" series, Ubuntu 24.04.5 LTS is out today as the newest point release...",
+        "title": "cPanel Urges Users to Patch ConfigServer Firewall Remote Code Execution Flaw",
+        "date": "Fri, 11 Sep 2026 11:20:03 +0000",
+        "url": "https://gbhackers.com/cpanel-urges-users-to-patch-configserver-firewall/",
+        "source": "GBHackers",
+        "summary": "A recently disclosed vulnerability in ConfigServer Security &#38; Firewall (CSF) could allow unauthenticated remote attackers to execute arbitrary commands through the product’s MESSENGER service. Thi",
         "cve": []
     },
     {
-        "title": "Intel Xeon 600 Workstation Performance vs. AMD Threadripper 9000 In Nearly 400 Benchmarks",
-        "date": "Thu, 10 Sep 2026 12:43:00 -0400",
-        "url": "https://www.phoronix.com/review/intel-xeon-600-amd-threadripper-9000",
-        "source": "Phoronix",
-        "summary": "Last month I had the chance to test the Xeon 678X workstation processor as my first hands-on opportunity with the Xeon 600 \"Granite Rapids WS\" series. The Intel Xeon 678X was within the HP Z4 G6i work",
+        "title": "Hackers Weaponize AI Safety Guardrails to Hide Malware From LLM-Powered Security Scanners",
+        "date": "Fri, 11 Sep 2026 10:51:16 +0000",
+        "url": "https://gbhackers.com/ai-safety-guardrails/",
+        "source": "GBHackers",
+        "summary": "Threat actors are adapting malware not only for conventional endpoint defenses and sandboxes, but also for large language model-powered tools increasingly used to triage suspicious code. ESET research",
         "cve": []
     },
     {
-        "title": "KDE Plasma 6.8 Beta Released With Many Great Improvements, Kup Backup Scheduler",
-        "date": "Thu, 10 Sep 2026 12:39:24 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Plasma-6.8-Beta",
-        "source": "Phoronix",
-        "summary": "Ahead of the stable release of Plasma 6.8 due out on 14 October that also marks the 30th anniversary of the KDE project, out today is the much anticipated beta release...",
+        "title": "Critical GitLab Flaws Let Attackers Read Arbitrary Files, Steal Credentials and Execute Code",
+        "date": "Fri, 11 Sep 2026 10:13:55 +0000",
+        "url": "https://gbhackers.com/critical-gitlab-flaws/",
+        "source": "GBHackers",
+        "summary": "GitLab has issued an emergency security update to address two critical vulnerabilities that could lead to unauthenticated file disclosure and authenticated credential theft, as well as a high-severity",
         "cve": []
     },
     {
-        "title": "Intel BFF Driver Slated For Linux 7.4 Introduction",
-        "date": "Thu, 10 Sep 2026 08:54:35 -0400",
-        "url": "https://www.phoronix.com/news/Intel-BFF-Driver-For-Linux-7.4",
-        "source": "Phoronix",
-        "summary": "Last month I covered Intel posting a new driver named \"BFF\" for the Linux kernel. This BFF driver is for a new hardware feature debuting with next-gen Diamond Rapids processors for better dealing with",
+        "title": "Hackers Exploit JFrog Artifactory Flaws to Bypass Authentication and Gain Admin Access",
+        "date": "Fri, 11 Sep 2026 09:59:29 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-jfrog-artifactory-flaws/",
+        "source": "GBHackers",
+        "summary": "Threat actors are actively exploiting three vulnerabilities in JFrog Artifactory, CVE-2026-42016, CVE-2026-42018, and CVE-2026-82329, to bypass authentication, escalate privileges, and gain administra",
         "cve": []
     },
     {
-        "title": "NVIDIA NVK Driver Lands Improvement To Help With Valve's Gamescope",
-        "date": "Thu, 10 Sep 2026 07:17:47 -0400",
-        "url": "https://www.phoronix.com/news/NVIDIA-NVK-BAR-Host-Cached",
-        "source": "Phoronix",
-        "summary": "Merged today for next quarter's Mesa 26.3 release is an improvement for the open-source NVIDIA \"NVK\" Vulkan driver paired with the Nouveau kernel driver. This latest NVK improvement benefits usage of ",
+        "title": "Okta Patches Auth0 and Access Gateway Vulnerabilities Let Attackers Enable XSS, Authentication Bypass and SQL Injection",
+        "date": "Fri, 11 Sep 2026 09:42:59 +0000",
+        "url": "https://gbhackers.com/okta-patches-auth0-and-access-gateway-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Okta has released security updates for three high-severity vulnerabilities affecting the Auth0 AD/LDAP Connector and Okta Access Gateway. These vulnerabilities could allow authenticated attackers to t",
         "cve": []
     },
     {
-        "title": "X.Org Server 26.1 Moves Closer To Release As Half-Decade Update",
-        "date": "Thu, 10 Sep 2026 06:29:00 -0400",
-        "url": "https://www.phoronix.com/news/X.Org-Server-26.1-Released",
-        "source": "Phoronix",
-        "summary": "We're getting closer to the X.Org Server 26.1 stable release as the first new tagged feature release since X.Org Server 21.1 debuted back in October 2021. There have been some new features, many code ",
+        "title": "New IoT Malware Uses Public Linux Exploits to Gain Root and Launch DDoS Attacks",
+        "date": "Fri, 11 Sep 2026 09:07:58 +0000",
+        "url": "https://gbhackers.com/iot-malware-attacks/",
+        "source": "GBHackers",
+        "summary": "A newly observed IoT malware family dubbed KATARU targets internet-exposed devices through Telnet credential brute-forcing, then attempts to gain root privileges with publicly available Linux kernel e",
         "cve": []
     },
     {
-        "title": "GNOME 51 Adds Support For Custom Pointer Acceleration Profiles",
-        "date": "Thu, 10 Sep 2026 06:16:56 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-51-Custom-Accel-Profiles",
-        "source": "Phoronix",
-        "summary": "As a last minute change ahead of next week's GNOME 51 desktop release, changes to Mutter and gsettings-desktop-schemas have now landed for supporting custom pointer acceleration profiles...",
+        "title": "CISA Urges Service Providers to Provide Transparent Updates During Major IT and OT Outages",
+        "date": "Fri, 11 Sep 2026 07:47:42 +0000",
+        "url": "https://gbhackers.com/cisa-urges-service-providers-to-provide-transparent-updates/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has released new guidance urging service providers to deliver timely, accurate, and transparent communications during major information",
         "cve": []
     }
 ]

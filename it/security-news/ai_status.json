@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-11T01:35:15.471758",
+    "timestamp": "2026-09-11T15:18:36.943887",
     "services": [
         {
             "service": "OpenAI",
@@ -10,7 +10,7 @@
         {
             "service": "Claude",
             "status": "minor",
-            "description": "Partially Degraded Service",
+            "description": "Minor Service Outage",
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
@@ -46,7 +46,7 @@
         },
         {
             "name": "Claude Cowork",
-            "status": "degraded_performance"
+            "status": "partial_outage"
         },
         {
             "name": "Claude for Government",
