@@ -1,5 +1,53 @@
 [
     {
+        "title": "New Android malware encrypts files, steals data, and harasses victims",
+        "date": "Thu, 10 Sep 2026 17:40:43 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+        "source": "BleepingComputer",
+        "summary": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
+        "cve": []
+    },
+    {
+        "title": "September Windows Server updates break Remote Desktop Services",
+        "date": "Thu, 10 Sep 2026 16:34:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
+        "source": "BleepingComputer",
+        "summary": "Windows admins report that the September 2026 security updates are causing Remote Desktop Services (RDS) failures on Windows Server 2019, 2022, and 2025 servers, preventing users from connecting and, ",
+        "cve": []
+    },
+    {
+        "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+        "date": "Thu, 10 Sep 2026 15:15:07 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+        "source": "BleepingComputer",
+        "summary": "Surfshark disclosed that hackers accessed one of its internal test servers after a configuration error exposed it to the internet. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+        "date": "Thu, 10 Sep 2026 15:07:33 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affected users saying that removing or rolling back the ",
+        "cve": []
+    },
+    {
+        "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+        "date": "Thu, 10 Sep 2026 11:55:56 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+        "source": "BleepingComputer",
+        "summary": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
+        "cve": []
+    },
+    {
+        "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+        "date": "Thu, 10 Sep 2026 11:43:58 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+        "source": "BleepingComputer",
+        "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [.",
+        "cve": []
+    },
+    {
         "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
         "date": "Thu, 10 Sep 2026 10:55:33 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
@@ -32,53 +80,11 @@
         "cve": []
     },
     {
-        "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
-        "date": "Thu, 10 Sep 2026 05:10:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which it flagged as activ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft fixes bug that wiped Windows desktop settings",
-        "date": "Thu, 10 Sep 2026 04:08:16 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft says the September 2026 Patch Tuesday updates fix a known issue causing desktop settings to be lost or reset on some Windows devices. [...]",
-        "cve": []
-    },
-    {
-        "title": "Trezor warns users of email provider breach, phishing attacks",
-        "date": "Thu, 10 Sep 2026 02:56:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-        "date": "Wed, 09 Sep 2026 17:40:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks",
-        "cve": [
-            "CVE-2026-20079"
-        ]
-    },
-    {
-        "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
-        "date": "Wed, 09 Sep 2026 17:30:36 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
-        "source": "BleepingComputer",
-        "summary": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
-        "cve": []
-    },
-    {
-        "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
-        "date": "Wed, 09 Sep 2026 17:02:14 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
-        "source": "BleepingComputer",
-        "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring us",
+        "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+        "date": "Thu, 10 Sep 2026 23:17:38 +0530",
+        "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+        "source": "The Hacker News",
+        "summary": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a ph",
         "cve": []
     },
     {
@@ -151,94 +157,6 @@
         "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
         "source": "The Hacker News",
         "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows",
-        "cve": []
-    },
-    {
-        "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-        "date": "Wed, 09 Sep 2026 19:53:55 +0530",
-        "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-        "source": "The Hacker News",
-        "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthro",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Fake GTA 6 Downloads to Deploy RATs, Infostealers and Data-Wiping Malware",
-        "date": "Thu, 10 Sep 2026 14:23:36 +0000",
-        "url": "https://cybersecuritynews.com/fake-gta-6-downloads/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are exploiting intense interest in Grand Theft Auto VI by pushing fake game downloads that install several types of malware instead of a playable game. The campaign targets people looki",
-        "cve": []
-    },
-    {
-        "title": "WordPress Uses AI to Stop Malicious Plugin Updates Before They Reach Millions of Websites",
-        "date": "Thu, 10 Sep 2026 14:08:51 +0000",
-        "url": "https://cybersecuritynews.com/wordpress-uses-ai-to-stop-malicious-plugin/",
-        "source": "CyberSecurityNews",
-        "summary": "WordPress has rolled out an automated, AI-driven security review that screens every plugin release before it reaches the WordPress.org update API, adding a critical checkpoint to a distribution pipeli",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Blob URLs and Microsoft Teams to Create Phishing Pages Inside Victims’ Browsers",
-        "date": "Thu, 10 Sep 2026 14:04:56 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-blob-urls/",
-        "source": "CyberSecurityNews",
-        "summary": "A new phishing campaign is moving fake login pages into victims’ browsers. Rather than sending people to a malicious website, its operators use browser-generated blob URLs to assemble the page in loca",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit Critical Cisco Firewall Flaw to Gain Root Access and Deploy Malware",
-        "date": "Thu, 10 Sep 2026 13:33:41 +0000",
-        "url": "https://cybersecuritynews.com/cisco-firewall-root-access-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Cisco Talos has confirmed active exploitation of two vulnerabilities affecting Cisco Secure Firewall Management Center (FMC) Software, with state-sponsored hacking groups and a ransomware affiliate le",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns of Citrix NetScaler Authentication Bypass Vulnerability Exploited in Attacks",
-        "date": "Thu, 10 Sep 2026 13:23:50 +0000",
-        "url": "https://cybersecuritynews.com/cisa-citrix-netscaler-authentication/",
-        "source": "CyberSecurityNews",
-        "summary": "CISA added a critical Citrix NetScaler authentication bypass flaw (CVE-2026-19490) to its Known Exploited Vulnerabilities catalog after observing in-the-wild attacks targeting the issue. Federal civil",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Passkey-Themed Phishing to Hijack Microsoft 365 Accounts and Steal Cloud Data",
-        "date": "Thu, 10 Sep 2026 13:23:09 +0000",
-        "url": "https://cybersecuritynews.com/passkey-themed-phishing/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are using passkey-themed phishing to take control of Microsoft 365 accounts and collect cloud data. It can defeat MFA protections. The campaign starts with calls and texts to employees. Attack",
-        "cve": []
-    },
-    {
-        "title": "Hackers Can Turn AI Workflows Into Privileged Data-Stealing Proxies Without Jailbreaking Models",
-        "date": "Thu, 10 Sep 2026 12:57:15 +0000",
-        "url": "https://cybersecuritynews.com/ai-workflows-stealing-proxies/",
-        "source": "CyberSecurityNews",
-        "summary": "Enterprise AI workflows can be vulnerable to misuse that exposes sensitive information without prompt injection, account compromise, or jailbreaking a large language model. This vulnerability, termed ",
-        "cve": []
-    },
-    {
-        "title": "Critical Check Point VPN Vulnerabilities Enable Remote Code Execution Attacks",
-        "date": "Thu, 10 Sep 2026 12:31:31 +0000",
-        "url": "https://cybersecuritynews.com/check-point-vpn-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Check Point Software has disclosed and patched two critical VPN-related vulnerabilities, CVE-2026-85102 and CVE-2026-85103, both carrying a maximum CVSS score of 9.8 and both capable of allowing unaut",
-        "cve": []
-    },
-    {
-        "title": "LiteLLM Flaws Let Attackers Execute Code as Root and Steal Cloud Credentials",
-        "date": "Thu, 10 Sep 2026 12:26:49 +0000",
-        "url": "https://cybersecuritynews.com/litellm-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "LiteLLM deployments can expose far more than an organization’s AI spending. Newly disclosed weaknesses in the open-source gateway could let attackers run code as root inside a container, reach connect",
-        "cve": []
-    },
-    {
-        "title": "Hackers Pose as Domain Controllers to Steal Active Directory Password Hashes",
-        "date": "Thu, 10 Sep 2026 11:29:46 +0000",
-        "url": "https://cybersecuritynews.com/active-directory-password-hashes/",
-        "source": "CyberSecurityNews",
-        "summary": "Threat actors are increasingly abusing Active Directory replication to impersonate domain controllers and steal password hashes from enterprise networks. This technique, known as a DCSync attack, can ",
         "cve": []
     },
     {
@@ -322,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Hackers Can Turn Vulnerable LiteLLM AI Gateways Into Root Access and Cloud Credential Theft",
-        "date": "Thu, 10 Sep 2026 12:56:58 +0000",
-        "url": "https://gbhackers.com/litellm-ai-gateways/",
-        "source": "GBHackers",
-        "summary": "Nearly one in 10 internet-exposed LiteLLM AI gateways accepted the widely documented default master key, sk-1234, or required no authentication, creating a direct path to LLMjacking, sensitive credent",
+        "title": "BeOS-Inspired Haiku Now Supports Changing Audio Outputs Live, Other Improvements",
+        "date": "Thu, 10 Sep 2026 20:55:29 -0400",
+        "url": "https://www.phoronix.com/news/Haiku-OS-August-2026",
+        "source": "Phoronix",
+        "summary": "In addition to August bringing the long-awaited Haiku R1 Beta 6 release, there was also a lot of development progress on this BeOS-inspired operating system too during the course of the past month...",
         "cve": []
     },
     {
-        "title": "Skullcandy Dime 3 Bluetooth Flaw Lets Nearby Attackers Hijack Audio and Microphone",
-        "date": "Thu, 10 Sep 2026 12:28:44 +0000",
-        "url": "https://gbhackers.com/skullcandy-dime-3-bluetooth-flaw/",
-        "source": "GBHackers",
-        "summary": "Skullcandy Dime 3 wireless earbuds have a serious vulnerability related to unauthenticated Bluetooth pairing. This flaw allows nearby attackers to silently pair with the earbuds, disrupt legitimate au",
+        "title": "GIMP 3.2.6 Released With Some Early Preparations Toward Eventual GTK4 Port",
+        "date": "Thu, 10 Sep 2026 18:12:22 -0400",
+        "url": "https://www.phoronix.com/news/GIMP-3.2.6-Released",
+        "source": "Phoronix",
+        "summary": "The long-awaited GIMP 3.0 release for transitioning from GTK2 to GTK3 only saw its stable release last year. But with GTK4 already being out for years, GIMP developers have begun making some very earl",
         "cve": []
     },
     {
-        "title": "Hackers Steal Active Directory Password Hashes Without Attacking Domain Controllers Directly",
-        "date": "Thu, 10 Sep 2026 12:00:28 +0000",
-        "url": "https://gbhackers.com/hackers-steal-active-directory-password-hashes/",
-        "source": "GBHackers",
-        "summary": "Threat actors are increasingly exploiting Active Directory replication mechanisms to steal password hashes without directly compromising a domain controller. This technique, known as DCSync, allows at",
+        "title": "Mesa 26.3 RADV + RadeonSI Ready With DRM Format Modifiers For Older AMD GPUs",
+        "date": "Thu, 10 Sep 2026 17:19:11 -0400",
+        "url": "https://www.phoronix.com/news/Mesa-26.3-GFX6-GFX8-Modifiers",
+        "source": "Phoronix",
+        "summary": "Coming with Linux 7.3 is DRM format modifiers for GFX6 through GFX8 era GPUs covering the original Raddeon HD 7000 (GCN 1.0) graphics cards up through the Polaris and Fiji series. This work by Valve's",
         "cve": []
     },
     {
-        "title": "Fake GTA 6 Installer Steals Browser Passwords, Discord Tokens and Crypto Data From Gamers",
-        "date": "Thu, 10 Sep 2026 11:43:44 +0000",
-        "url": "https://gbhackers.com/fake-gta-6-installer/",
-        "source": "GBHackers",
-        "summary": "Threat actors are exploiting anticipation around Grand Theft Auto VI by pushing fraudulent “leaked” game downloads that install a layered malware bundle that steals browser credentials, Discord tokens",
+        "title": "Ubuntu 24.04.5 LTS Released With Linux 7.0 HWE Stack",
+        "date": "Thu, 10 Sep 2026 13:49:03 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-24.04.5-LTS",
+        "source": "Phoronix",
+        "summary": "For those continuing to make use of the Ubuntu 24.04 Long Term Support \"LTS\" series, Ubuntu 24.04.5 LTS is out today as the newest point release...",
         "cve": []
     },
     {
-        "title": "Apple Xcode Integer Underflow Flaw Lets Crafted Archives Leak Memory and Crash Builds",
-        "date": "Thu, 10 Sep 2026 11:41:46 +0000",
-        "url": "https://gbhackers.com/apple-xcode-integer-underflow-flaw/",
-        "source": "GBHackers",
-        "summary": "A recently disclosed integer-underflow vulnerability in Apple’s modern Mach-O archive parser could allow a malicious static library to crash Xcode build processes or expose process memory through buil",
+        "title": "Intel Xeon 600 Workstation Performance vs. AMD Threadripper 9000 In Nearly 400 Benchmarks",
+        "date": "Thu, 10 Sep 2026 12:43:00 -0400",
+        "url": "https://www.phoronix.com/review/intel-xeon-600-amd-threadripper-9000",
+        "source": "Phoronix",
+        "summary": "Last month I had the chance to test the Xeon 678X workstation processor as my first hands-on opportunity with the Xeon 600 \"Granite Rapids WS\" series. The Intel Xeon 678X was within the HP Z4 G6i work",
         "cve": []
     },
     {
-        "title": "Palo Alto PAN-OS Buffer Overflow Lets Attackers Execute Arbitrary Code as Root",
-        "date": "Thu, 10 Sep 2026 11:39:18 +0000",
-        "url": "https://gbhackers.com/palo-alto-pan-os-buffer-overflow/",
-        "source": "GBHackers",
-        "summary": "Palo Alto Networks has announced a high-severity buffer overflow vulnerability in PAN-OS that may allow unauthenticated, network-based attackers to execute arbitrary code with root privileges on affec",
+        "title": "KDE Plasma 6.8 Beta Released With Many Great Improvements, Kup Backup Scheduler",
+        "date": "Thu, 10 Sep 2026 12:39:24 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Plasma-6.8-Beta",
+        "source": "Phoronix",
+        "summary": "Ahead of the stable release of Plasma 6.8 due out on 14 October that also marks the 30th anniversary of the KDE project, out today is the much anticipated beta release...",
         "cve": []
     },
     {
-        "title": "New Phishing Attack Uses Blob URLs to Hide Malicious Pages From Security Scanners",
-        "date": "Thu, 10 Sep 2026 10:57:11 +0000",
-        "url": "https://gbhackers.com/phishing-attack-uses-blob-urls/",
-        "source": "GBHackers",
-        "summary": "A phishing campaign that moves the credential-harvesting page out of attacker-controlled web infrastructure and into the victim’s browser. Unlike ordinary phishing kits, which host cloned login portal",
+        "title": "Intel BFF Driver Slated For Linux 7.4 Introduction",
+        "date": "Thu, 10 Sep 2026 08:54:35 -0400",
+        "url": "https://www.phoronix.com/news/Intel-BFF-Driver-For-Linux-7.4",
+        "source": "Phoronix",
+        "summary": "Last month I covered Intel posting a new driver named \"BFF\" for the Linux kernel. This BFF driver is for a new hardware feature debuting with next-gen Diamond Rapids processors for better dealing with",
         "cve": []
     },
     {
-        "title": "OpenAI Builds ‘Defense Factory’ as AI Agents Gain Ability to Chain Cyber Exploits",
-        "date": "Thu, 10 Sep 2026 09:24:37 +0000",
-        "url": "https://gbhackers.com/openai-builds-defense-factory/",
-        "source": "GBHackers",
-        "summary": "OpenAI has announced its plans for a &#8220;Defense Factory,&#8221; a cybersecurity operation that prioritizes agent-driven actions. This initiative is designed to continuously discover, validate, rem",
+        "title": "NVIDIA NVK Driver Lands Improvement To Help With Valve's Gamescope",
+        "date": "Thu, 10 Sep 2026 07:17:47 -0400",
+        "url": "https://www.phoronix.com/news/NVIDIA-NVK-BAR-Host-Cached",
+        "source": "Phoronix",
+        "summary": "Merged today for next quarter's Mesa 26.3 release is an improvement for the open-source NVIDIA \"NVK\" Vulkan driver paired with the Nouveau kernel driver. This latest NVK improvement benefits usage of ",
         "cve": []
     },
     {
-        "title": "Hackers Pose as IT Support to Hijack Microsoft 365 Accounts With Fake Passkey Alerts",
-        "date": "Thu, 10 Sep 2026 09:19:40 +0000",
-        "url": "https://gbhackers.com/microsoft-365-accounts-hijacked/",
-        "source": "GBHackers",
-        "summary": "Threat actors are impersonating corporate IT helpdesk staff in an active social-engineering campaign that hijacks Microsoft 365 identities, establishes MFA persistence, and systematically collects dat",
+        "title": "X.Org Server 26.1 Moves Closer To Release As Half-Decade Update",
+        "date": "Thu, 10 Sep 2026 06:29:00 -0400",
+        "url": "https://www.phoronix.com/news/X.Org-Server-26.1-Released",
+        "source": "Phoronix",
+        "summary": "We're getting closer to the X.Org Server 26.1 stable release as the first new tagged feature release since X.Org Server 21.1 debuted back in October 2021. There have been some new features, many code ",
         "cve": []
     },
     {
-        "title": "12 Best Application Control & Allowlisting Tools Compared (2026): Features & Pricing",
-        "date": "Thu, 10 Sep 2026 08:24:10 +0000",
-        "url": "https://gbhackers.com/best-application-control-compared-2/",
-        "source": "GBHackers",
-        "summary": "Quick Answer: For dedicated deny-by-default allowlisting, ThreatLocker and Airlock Digital lead in 2026; Microsoft WDAC/AppLocker is the free native option for Windows estates with engineering capacit",
+        "title": "GNOME 51 Adds Support For Custom Pointer Acceleration Profiles",
+        "date": "Thu, 10 Sep 2026 06:16:56 -0400",
+        "url": "https://www.phoronix.com/news/GNOME-51-Custom-Accel-Profiles",
+        "source": "Phoronix",
+        "summary": "As a last minute change ahead of next week's GNOME 51 desktop release, changes to Mutter and gsettings-desktop-schemas have now landed for supporting custom pointer acceleration profiles...",
         "cve": []
     }
 ]
