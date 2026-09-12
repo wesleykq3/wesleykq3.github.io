@@ -1,5 +1,13 @@
 [
     {
+        "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+        "date": "Sat, 12 Sep 2026 10:14:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+        "source": "BleepingComputer",
+        "summary": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
+        "cve": []
+    },
+    {
         "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
         "date": "Fri, 11 Sep 2026 16:19:09 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
@@ -72,11 +80,115 @@
         "cve": []
     },
     {
-        "title": "New Android malware encrypts files, steals data, and harasses victims",
-        "date": "Thu, 10 Sep 2026 17:40:43 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-        "source": "BleepingComputer",
-        "summary": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
+        "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+        "date": "Sat, 12 Sep 2026 15:54:44 +0530",
+        "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+        "source": "The Hacker News",
+        "summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+        "date": "Sat, 12 Sep 2026 14:37:56 +0530",
+        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "source": "The Hacker News",
+        "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Vo",
+        "cve": []
+    },
+    {
+        "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+        "date": "Fri, 11 Sep 2026 22:00:18 +0530",
+        "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+        "source": "The Hacker News",
+        "summary": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure.\n\nThe vulnerability i",
+        "cve": []
+    },
+    {
+        "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+        "date": "Fri, 11 Sep 2026 21:45:29 +0530",
+        "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+        "source": "The Hacker News",
+        "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhi",
+        "cve": []
+    },
+    {
+        "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+        "date": "Fri, 11 Sep 2026 19:59:47 +0530",
+        "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+        "source": "The Hacker News",
+        "summary": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and Au",
+        "cve": []
+    },
+    {
+        "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+        "date": "Fri, 11 Sep 2026 19:40:20 +0530",
+        "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+        "source": "The Hacker News",
+        "summary": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.\n",
+        "cve": []
+    },
+    {
+        "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+        "date": "Fri, 11 Sep 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+        "source": "The Hacker News",
+        "summary": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually cre",
+        "cve": []
+    },
+    {
+        "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+        "date": "Fri, 11 Sep 2026 13:01:05 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+        "source": "The Hacker News",
+        "summary": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security ",
+        "cve": []
+    },
+    {
+        "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+        "date": "Fri, 11 Sep 2026 12:44:09 +0530",
+        "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+        "source": "The Hacker News",
+        "summary": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security c",
+        "cve": []
+    },
+    {
+        "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+        "date": "Fri, 11 Sep 2026 12:16:18 +0530",
+        "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+        "source": "The Hacker News",
+        "summary": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exp",
+        "cve": []
+    },
+    {
+        "title": "Containing Machine Speed Cyber Attacks Inside AI Infrastructure",
+        "date": "Sat, 12 Sep 2026 11:02:36 +0000",
+        "url": "https://cybersecuritynews.com/containing-machine-speed-cyber-attacks-inside-ai-infrastructure/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical flaw in current security operations is assuming time is on our side. Historically, attacks progressed slowly, allowing analysts and response teams time to detect, discuss, and respond. Even",
+        "cve": []
+    },
+    {
+        "title": "Beyond the Perimeter: Building Resilience Against Cloud and SaaS Supply-Chain Attacks",
+        "date": "Sat, 12 Sep 2026 10:46:44 +0000",
+        "url": "https://cybersecuritynews.com/beyond-the-perimeter-building-resilience-against-cloud-and-saas-supply-chain-attacks/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical zero-day vulnerability in Oracle PeopleSoft exposed the Council of Europe and scores of other organizations to data theft and extortion in May and early June 2026. The ShinyHunters hacking ",
+        "cve": []
+    },
+    {
+        "title": "CISA Warns of GitLab Path Traversal Vulnerability Exploited in Attacks",
+        "date": "Sat, 12 Sep 2026 04:32:45 +0000",
+        "url": "https://cybersecuritynews.com/cisa-gitlab-path-traversal/",
+        "source": "CyberSecurityNews",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical GitLab vulnerability, tracked as CVE-2026-85706, to its Known Exploited Vulnerabilities catalog, warning that atta",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Agents Flood RubyGems With 2,000 Packages and Exploit Build System for RCE",
+        "date": "Sat, 12 Sep 2026 03:59:30 +0000",
+        "url": "https://cybersecuritynews.com/openai-agents-flood-rubygems/",
+        "source": "CyberSecurityNews",
+        "summary": "A swarm of AI agents attributed by researchers to OpenAI flooded RubyGems with more than 2,000 packages in May 2026, abused RubyDoc.info’s documentation builder for remote code execution (RCE), and at",
         "cve": []
     },
     {
@@ -125,38 +237,6 @@
         "url": "https://cybersecuritynews.com/new-android-ransomware/",
         "source": "CyberSecurityNews",
         "summary": "A newly uncovered Android threat combines ransomware with spying, creating a trap for people who install apps from untrusted links. Called Mantax Otax, the malware can lock files, watch the screen, in",
-        "cve": []
-    },
-    {
-        "title": "Ubuntu 24.04.5 LTS Released With Linux 7.0 Kernel and Latest Security Updates",
-        "date": "Fri, 11 Sep 2026 12:03:45 +0000",
-        "url": "https://cybersecuritynews.com/ubuntu-24-04-5-lts-linux-7/",
-        "source": "CyberSecurityNews",
-        "summary": "Canonical has officially rolled out Ubuntu 24.04.5 LTS, the fifth maintenance update to the &#8220;Noble Numbat&#8221; long-term support release, delivering a fresh installation image packed with the ",
-        "cve": []
-    },
-    {
-        "title": "cPanel ConfigServer Security & Firewall Vulnerability Allows Remote Attacker to Execute Arbitrary Commands",
-        "date": "Fri, 11 Sep 2026 11:28:53 +0000",
-        "url": "https://cybersecuritynews.com/cpanel-configserver-security-firewall-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical vulnerability in ConfigServer Security &#38; Firewall (CSF), used on cPanel and WHM servers, could allow an unauthenticated remote attacker to execute arbitrary commands through the softwar",
-        "cve": []
-    },
-    {
-        "title": "IDScan Confirms Data Breach Following 153 Million Driver’s Licenses Leaked on the Dark Web",
-        "date": "Fri, 11 Sep 2026 09:59:45 +0000",
-        "url": "https://cybersecuritynews.com/idscan-confirms-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "IDScan.net, a Louisiana-based identity verification firm whose technology underpins age and identity checks for retailers, bars, and other Fortune 500 clients, has confirmed a data breach after a crim",
-        "cve": []
-    },
-    {
-        "title": "Hackers Deploy New SloppyRAT via ClickFix to Enable Ransomware Lateral Movement",
-        "date": "Fri, 11 Sep 2026 09:12:37 +0000",
-        "url": "https://cybersecuritynews.com/hackers-deploy-new-sloppyrat/",
-        "source": "CyberSecurityNews",
-        "summary": "SloppyRAT is a remote access tool that appears designed to help ransomware operators move deeper into compromised networks. The malware arrives through ClickFix, a social-engineering method that trick",
         "cve": []
     },
     {
@@ -240,6 +320,46 @@
         "cve": []
     },
     {
+        "title": "Threat Actors Use Claude AI Agents to Automate Cyberattacks and Steal Sensitive Data",
+        "date": "Sat, 12 Sep 2026 08:40:16 +0000",
+        "url": "https://gbhackers.com/threat-actors-use-claude-ai-agents-to-automate-cyberattacks-and-steal-sensitive-data/",
+        "source": "GBHackers",
+        "summary": "Threat actors are increasingly using Claude-based AI workflows to automate cyberattacks, accelerate data theft, and reduce the technical expertise needed to run complex intrusions. Anthropic&#8217;s r",
+        "cve": []
+    },
+    {
+        "title": "China-Linked Hackers Chain Chrome Zero-Day With Windows Kernel Flaw in Attacks",
+        "date": "Sat, 12 Sep 2026 08:04:47 +0000",
+        "url": "https://gbhackers.com/china-linked-hackers-chain-chrome-zero-day/",
+        "source": "GBHackers",
+        "summary": "China-linked threat actors UTA0560 and JungleBamboo chained a Google Chrome zero-day with a Windows kernel privilege-escalation flaw in phishing campaigns targeting NGOs and other victims. Volexity do",
+        "cve": []
+    },
+    {
+        "title": "New Phishing Campaign Abuses Windows Mshta.exe to Steal Credentials and Secrets",
+        "date": "Sat, 12 Sep 2026 06:16:51 +0000",
+        "url": "https://gbhackers.com/new-phishing-campaign-abuses-windows-mshta-exe/",
+        "source": "GBHackers",
+        "summary": "A newly identified phishing campaign is abusing the legitimate Windows utility mshta.exe to execute malicious HTML Application (HTA) files, conduct system reconnaissance, and potentially deploy payloa",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Agents Flood RubyGems With 2,000 Packages and Exploit Build System for RCE",
+        "date": "Sat, 12 Sep 2026 06:03:55 +0000",
+        "url": "https://gbhackers.com/openai-agents-flood-rubygems-with-2000-packages/",
+        "source": "GBHackers",
+        "summary": "A swarm of AI agents believed to be operated internally by OpenAI uploaded more than 2,000 malicious packages to RubyGems in May 2026, abusing the ecosystem’s documentation build process to execute co",
+        "cve": []
+    },
+    {
+        "title": "CISA Warns of Critical GitLab Vulnerability Exploited in Attacks",
+        "date": "Sat, 12 Sep 2026 05:17:40 +0000",
+        "url": "https://gbhackers.com/cisa-warns-of-critical-gitlab-vulnerability-exploited-in-attacks/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical GitLab flaw, tracked as CVE-2026-85706, to its Known Exploited Vulnerabilities catalog after confirming it was exp",
+        "cve": []
+    },
+    {
         "title": "Researchers Uncover 10,000+ Malware Loaders Behind YouTube and SEO Poisoning Campaign",
         "date": "Fri, 11 Sep 2026 12:24:51 +0000",
         "url": "https://gbhackers.com/10000-malware-loaders/",
@@ -277,126 +397,6 @@
         "url": "https://gbhackers.com/ai-safety-guardrails/",
         "source": "GBHackers",
         "summary": "Threat actors are adapting malware not only for conventional endpoint defenses and sandboxes, but also for large language model-powered tools increasingly used to triage suspicious code. ESET research",
-        "cve": []
-    },
-    {
-        "title": "Critical GitLab Flaws Let Attackers Read Arbitrary Files, Steal Credentials and Execute Code",
-        "date": "Fri, 11 Sep 2026 10:13:55 +0000",
-        "url": "https://gbhackers.com/critical-gitlab-flaws/",
-        "source": "GBHackers",
-        "summary": "GitLab has issued an emergency security update to address two critical vulnerabilities that could lead to unauthenticated file disclosure and authenticated credential theft, as well as a high-severity",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit JFrog Artifactory Flaws to Bypass Authentication and Gain Admin Access",
-        "date": "Fri, 11 Sep 2026 09:59:29 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-jfrog-artifactory-flaws/",
-        "source": "GBHackers",
-        "summary": "Threat actors are actively exploiting three vulnerabilities in JFrog Artifactory, CVE-2026-42016, CVE-2026-42018, and CVE-2026-82329, to bypass authentication, escalate privileges, and gain administra",
-        "cve": []
-    },
-    {
-        "title": "Okta Patches Auth0 and Access Gateway Vulnerabilities Let Attackers Enable XSS, Authentication Bypass and SQL Injection",
-        "date": "Fri, 11 Sep 2026 09:42:59 +0000",
-        "url": "https://gbhackers.com/okta-patches-auth0-and-access-gateway-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "Okta has released security updates for three high-severity vulnerabilities affecting the Auth0 AD/LDAP Connector and Okta Access Gateway. These vulnerabilities could allow authenticated attackers to t",
-        "cve": []
-    },
-    {
-        "title": "New IoT Malware Uses Public Linux Exploits to Gain Root and Launch DDoS Attacks",
-        "date": "Fri, 11 Sep 2026 09:07:58 +0000",
-        "url": "https://gbhackers.com/iot-malware-attacks/",
-        "source": "GBHackers",
-        "summary": "A newly observed IoT malware family dubbed KATARU targets internet-exposed devices through Telnet credential brute-forcing, then attempts to gain root privileges with publicly available Linux kernel e",
-        "cve": []
-    },
-    {
-        "title": "CISA Urges Service Providers to Provide Transparent Updates During Major IT and OT Outages",
-        "date": "Fri, 11 Sep 2026 07:47:42 +0000",
-        "url": "https://gbhackers.com/cisa-urges-service-providers-to-provide-transparent-updates/",
-        "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has released new guidance urging service providers to deliver timely, accurate, and transparent communications during major information",
-        "cve": []
-    },
-    {
-        "title": "Gitte As Git Client For GNOME Continues Maturing Quite Nicely",
-        "date": "Fri, 11 Sep 2026 20:35:39 -0400",
-        "url": "https://www.phoronix.com/news/Gitte-0.10-Released",
-        "source": "Phoronix",
-        "summary": "For those in pursuit of a graphical Git client for GNOME or the Linux desktop at large, the GTK4-powered Gitte continues advancing rather well and out this week is its v0.10 release...",
-        "cve": []
-    },
-    {
-        "title": "New Cache Aware Scheduling Fixes Out For Testing",
-        "date": "Fri, 11 Sep 2026 14:00:14 -0400",
-        "url": "https://www.phoronix.com/news/Cache-Aware-Scheduling-4-Patch",
-        "source": "Phoronix",
-        "summary": "Since being merged back during the Linux 7.2 cycle, the Cache Aware Scheduling code continues seeing more fixes as users test out this scheduling enhancement on different processors and system configu",
-        "cve": []
-    },
-    {
-        "title": "Linux's IO_uring Sees Some \"Crazy\" Patches That Deliver Very Nice Improvements",
-        "date": "Fri, 11 Sep 2026 12:21:33 -0400",
-        "url": "https://www.phoronix.com/news/Linux-IO-uring-Crazy-Friday",
-        "source": "Phoronix",
-        "summary": "Linux block subsystem maintainer and IO_uring lead developer Jens Axboe continues to uncover new opportunities for making the wonderful IO_uring framework even more performant within the Linux kernel.",
-        "cve": []
-    },
-    {
-        "title": "CachyOS vs. Windows 11 vs. Ubuntu 26.04 LTS On Intel Wildcat Lake + 8GB RAM",
-        "date": "Fri, 11 Sep 2026 11:08:55 -0400",
-        "url": "https://www.phoronix.com/review/wildcat-lake-windows-linux",
-        "source": "Phoronix",
-        "summary": "Often times when testing different Linux distributions or comparing Windows vs. Linux it's on leading flagship desktop or server hardware, but today we are looking at the Ubuntu vs. CachyOS vs. Window",
-        "cve": []
-    },
-    {
-        "title": "Mold High Speed Linker Being Rewritten In Rust, Hopes To Be The Default Linker On Linux",
-        "date": "Fri, 11 Sep 2026 09:21:42 -0400",
-        "url": "https://www.phoronix.com/news/Mold-Linker-In-Rust-Coming",
-        "source": "Phoronix",
-        "summary": "The Mold high performance linker that typically outperforms the likes of LLVM lld, GNU LD, Wild, and others is being rewritten in the Rust programming language and also has an ambitious goal of being ",
-        "cve": []
-    },
-    {
-        "title": "Prominent Mesa Developer Now Working For Arm On PanVK & Panfrost Code",
-        "date": "Fri, 11 Sep 2026 08:55:26 -0400",
-        "url": "https://www.phoronix.com/news/Erik-Faye-Lund-Mesa-Arm",
-        "source": "Phoronix",
-        "summary": "Erik Faye-Lund who has contributed to the Mesa 3D graphics driver stack working on areas like Zink and most notably the PanVK Vulkan and Panfrost Gallium3D drivers forr Arm Mali hardware is now workin",
-        "cve": []
-    },
-    {
-        "title": "Linux Mint Debuts Xepub As New EPUB Reader, Clockenstein Calendar App",
-        "date": "Fri, 11 Sep 2026 08:20:48 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Mint-Xepub-Clockenstein",
-        "source": "Phoronix",
-        "summary": "The Linux Mint project today published their August 2026 development report, including some new applications added to their XApp collection...",
-        "cve": []
-    },
-    {
-        "title": "Patches Ready For AMDGPU HDMI 2.1 Enabled By Default With Linux 7.4 With FreeSync, VRR & ALLM",
-        "date": "Fri, 11 Sep 2026 06:39:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-AMDGPU-HDMI-2.1-Go",
-        "source": "Phoronix",
-        "summary": "Linux 7.4 is now set to reach the elusive milestone of HDMI 2.1 support for the AMDGPU kernel graphics driver. After the HDMI Forum previously rejected HDMI 2.1 for the AMDGPU open-source driver imple",
-        "cve": []
-    },
-    {
-        "title": "Git 2.56-rc0 Released With Updated Contribution Guidelines, Improvements For Swift",
-        "date": "Fri, 11 Sep 2026 06:20:00 -0400",
-        "url": "https://www.phoronix.com/news/Git-2.56-rc0",
-        "source": "Phoronix",
-        "summary": "While still ultimately working toward Git 3.0 with SHA-256 hashes by default and the \"main\" branch name by default, among other breaking changes (and potentially coming around the end of 2026), Git 2.",
-        "cve": []
-    },
-    {
-        "title": "Intel Thermald 2.5.13 Restores Accidentally Deleted Wildcat Lake Support",
-        "date": "Fri, 11 Sep 2026 06:01:22 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Thermald-2.5.13",
-        "source": "Phoronix",
-        "summary": "Intel's Thermald released on Thursday as the newest update to this daemon for thermal monitoring on Intel hardware that was also recently extended for beginning to support Qualcomm/ARM hardware too. T",
         "cve": []
     }
 ]
