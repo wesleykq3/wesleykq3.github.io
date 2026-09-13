@@ -80,6 +80,14 @@
         "cve": []
     },
     {
+        "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+        "date": "Sat, 12 Sep 2026 21:24:45 +0530",
+        "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vuln",
+        "cve": []
+    },
+    {
         "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
         "date": "Sat, 12 Sep 2026 15:54:44 +0530",
         "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
@@ -152,11 +160,11 @@
         "cve": []
     },
     {
-        "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-        "date": "Fri, 11 Sep 2026 12:16:18 +0530",
-        "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-        "source": "The Hacker News",
-        "summary": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exp",
+        "title": "Multiple VLC Media Player Vulnerabilities Allow Attackers to Corrupt or Read Heap Memory",
+        "date": "Sat, 12 Sep 2026 14:31:50 +0000",
+        "url": "https://cybersecuritynews.com/multiple-vlc-media-player-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Two security vulnerabilities in VLC Media Player could allow attackers to corrupt heap memory or disclose sensitive data from a victim’s memory. The flaws, tracked as CVE-2026-56711 and CVE-2026-73324",
         "cve": []
     },
     {
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/conti-ransomware-hacker-sentenced/",
         "source": "CyberSecurityNews",
         "summary": "A Ukrainian national has been sentenced to four years in U.S. prison for his role in the Conti ransomware operation, which compromised more than 1,000 victims worldwide and generated at least $150 mil",
-        "cve": []
-    },
-    {
-        "title": "New Android Ransomware Records Screens, Steals OTPs and Secretly Takes Photos of Victims",
-        "date": "Fri, 11 Sep 2026 12:14:12 +0000",
-        "url": "https://cybersecuritynews.com/new-android-ransomware/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly uncovered Android threat combines ransomware with spying, creating a trap for people who install apps from untrusted links. Called Mantax Otax, the malware can lock files, watch the screen, in",
         "cve": []
     },
     {
