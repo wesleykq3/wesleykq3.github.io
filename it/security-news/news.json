@@ -1,5 +1,61 @@
 [
     {
+        "title": "BambooToken malware controls Windows and Linux systems via MQTT",
+        "date": "Tue, 15 Sep 2026 11:00:00 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+        "source": "BleepingComputer",
+        "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux system",
+        "cve": []
+    },
+    {
+        "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
+        "date": "Tue, 15 Sep 2026 10:45:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+        "source": "BleepingComputer",
+        "summary": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
+        "cve": []
+    },
+    {
+        "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
+        "date": "Tue, 15 Sep 2026 09:45:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+        "source": "BleepingComputer",
+        "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, s",
+        "cve": []
+    },
+    {
+        "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+        "date": "Tue, 15 Sep 2026 08:16:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched ",
+        "cve": []
+    },
+    {
+        "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+        "date": "Tue, 15 Sep 2026 05:50:25 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+        "source": "BleepingComputer",
+        "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and mo",
+        "cve": []
+    },
+    {
+        "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+        "date": "Tue, 15 Sep 2026 04:40:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+        "cve": []
+    },
+    {
+        "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+        "date": "Tue, 15 Sep 2026 03:31:09 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+        "source": "BleepingComputer",
+        "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+        "cve": []
+    },
+    {
         "title": "Microsoft releases emergency Windows updates to fix RDS failures",
         "date": "Mon, 14 Sep 2026 16:52:18 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
@@ -24,59 +80,59 @@
         "cve": []
     },
     {
-        "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
-        "date": "Mon, 14 Sep 2026 15:03:51 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
-        "source": "BleepingComputer",
-        "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
+        "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+        "date": "Tue, 15 Sep 2026 20:53:19 +0530",
+        "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux",
         "cve": []
     },
     {
-        "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
-        "date": "Mon, 14 Sep 2026 14:34:16 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
-        "source": "BleepingComputer",
-        "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
+        "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+        "date": "Tue, 15 Sep 2026 17:22:28 +0530",
+        "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+        "source": "The Hacker News",
+        "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled hum",
         "cve": []
     },
     {
-        "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
-        "date": "Mon, 14 Sep 2026 12:15:58 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
-        "source": "BleepingComputer",
-        "summary": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
+        "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+        "date": "Tue, 15 Sep 2026 16:56:36 +0530",
+        "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+        "source": "The Hacker News",
+        "summary": "Introduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rul",
         "cve": []
     },
     {
-        "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
-        "date": "Mon, 14 Sep 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
-        "source": "BleepingComputer",
-        "summary": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 explains how update rings, predefined success criteria,",
+        "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+        "date": "Tue, 15 Sep 2026 16:42:32 +0530",
+        "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.\n\nThe first is an automated effort aimed at internet-exposed Vite ",
         "cve": []
     },
     {
-        "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
-        "date": "Mon, 14 Sep 2026 08:15:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
-        "source": "BleepingComputer",
-        "summary": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show",
+        "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+        "date": "Tue, 15 Sep 2026 12:22:16 +0530",
+        "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+        "source": "The Hacker News",
+        "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September",
         "cve": []
     },
     {
-        "title": "Microsoft: September updates cause RDS failures on Windows Server",
-        "date": "Mon, 14 Sep 2026 05:50:25 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
+        "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+        "date": "Tue, 15 Sep 2026 11:41:11 +0530",
+        "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+        "source": "The Hacker News",
+        "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-764",
         "cve": []
     },
     {
-        "title": "Revolut discloses data breach exposing financial info, passports",
-        "date": "Mon, 14 Sep 2026 04:48:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
-        "source": "BleepingComputer",
-        "summary": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...]",
+        "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+        "date": "Tue, 15 Sep 2026 11:01:05 +0530",
+        "url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+        "source": "The Hacker News",
+        "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor ",
         "cve": []
     },
     {
@@ -101,142 +157,6 @@
         "url": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
         "source": "The Hacker News",
         "summary": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a&nbsp;writeup&nbsp;published on Septembe",
-        "cve": []
-    },
-    {
-        "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
-        "date": "Mon, 14 Sep 2026 22:26:30 +0530",
-        "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
-        "source": "The Hacker News",
-        "summary": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as p",
-        "cve": []
-    },
-    {
-        "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
-        "date": "Mon, 14 Sep 2026 21:30:04 +0530",
-        "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
-        "source": "The Hacker News",
-        "summary": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential securit",
-        "cve": []
-    },
-    {
-        "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
-        "date": "Mon, 14 Sep 2026 20:10:34 +0530",
-        "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
-        "source": "The Hacker News",
-        "summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great",
-        "cve": []
-    },
-    {
-        "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-        "date": "Mon, 14 Sep 2026 17:28:00 +0530",
-        "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-        "source": "The Hacker News",
-        "summary": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much g",
-        "cve": []
-    },
-    {
-        "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-        "date": "Mon, 14 Sep 2026 12:54:39 +0530",
-        "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-        "source": "The Hacker News",
-        "summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.\n\nThe extension, named \"Twitc",
-        "cve": []
-    },
-    {
-        "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-        "date": "Sun, 13 Sep 2026 15:41:48 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-        "source": "The Hacker News",
-        "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social eng",
-        "cve": []
-    },
-    {
-        "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-        "date": "Sat, 12 Sep 2026 21:24:45 +0530",
-        "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vuln",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit FortiGate SSL-VPN Vulnerability to Attack Broadband Provider",
-        "date": "Mon, 14 Sep 2026 17:08:51 +0000",
-        "url": "https://cybersecuritynews.com/fortigate-ssl-vpn-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "Researchers have uncovered an exposed attacker-controlled staging server containing evidence of a wide-ranging intrusion targeting 3BB, the consumer brand operated by Thailand’s Triple T Broadband. Th",
-        "cve": []
-    },
-    {
-        "title": "Hackers Mass-Scan Exposed Vite Servers to Steal AWS and Azure Cloud Credentials",
-        "date": "Mon, 14 Sep 2026 16:59:19 +0000",
-        "url": "https://cybersecuritynews.com/vite-servers-under-attack/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are conducting a large-scale automated scanning campaign against internet-exposed Vite development servers, attempting to steal AWS credentials, Azure access tokens, environment variables, and",
-        "cve": []
-    },
-    {
-        "title": "UK Government Begins Moving 23 Million Users Away From Passwords",
-        "date": "Mon, 14 Sep 2026 16:52:28 +0000",
-        "url": "https://cybersecuritynews.com/uk-government-passwordless/",
-        "source": "CyberSecurityNews",
-        "summary": "The UK government has begun rolling out passkeys across GOV.UK One Login, offering more than 23 million users a passwordless way to access public services. The deployment covers everything from childc",
-        "cve": []
-    },
-    {
-        "title": "Nintendo Switch Vulnerability Allows Attackers to Run Unauthorized Code on Your Console",
-        "date": "Mon, 14 Sep 2026 16:23:56 +0000",
-        "url": "https://cybersecuritynews.com/nintendo-switch-code-execution-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Nintendo has patched a high-severity vulnerability in the original Nintendo Switch that could let a nearby attacker execute unauthorized code and access information stored on the console. Tracked as C",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Offers Up to $30,000 for Critical AI Flaws in Dynamics 365 and Power Platform",
-        "date": "Mon, 14 Sep 2026 16:11:38 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-ai-bug-bounty/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft is offering security researchers up to $30,000 for finding critical AI vulnerabilities in Dynamics 365 and Power Platform, sharpening its focus on flaws that could manipulate AI inference or",
-        "cve": []
-    },
-    {
-        "title": "AWS Systems Manager Agent Vulnerability Allows Attackers to Bypass Port-Forwarding Restrictions",
-        "date": "Mon, 14 Sep 2026 15:14:39 +0000",
-        "url": "https://cybersecuritynews.com/aws-systems-manager-agent-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical vulnerability in the AWS Systems Manager Agent could let authenticated attackers bypass remote-host port-forwarding restrictions and access sensitive link-local services, including the Amaz",
-        "cve": []
-    },
-    {
-        "title": "Malicious Twitch Extension Exposes OAuth Tokens of 30,000 Chrome and Firefox Users",
-        "date": "Mon, 14 Sep 2026 13:50:00 +0000",
-        "url": "https://cybersecuritynews.com/malicious-twitch-extension/",
-        "source": "CyberSecurityNews",
-        "summary": "A browser extension promoted as a Twitch viewing helper has been found sending live account tokens through servers controlled by its operator. The add-on, called “Twitch Enhanced Viewer &#124; JeetBot",
-        "cve": []
-    },
-    {
-        "title": "WhatsApp’s New Restricted Chat Feature Locks Conversation on Your Primary Phone",
-        "date": "Mon, 14 Sep 2026 13:40:09 +0000",
-        "url": "https://cybersecuritynews.com/whatsapps-new-restricted-chat-feature/",
-        "source": "CyberSecurityNews",
-        "summary": "WhatsApp is developing a new privacy control called Restricted Chat that will keep selected conversations accessible only from a user’s primary mobile phone. The feature is designed to prevent protect",
-        "cve": []
-    },
-    {
-        "title": "Cyclops Blink Evolves Into x86-64 Linux Implant With Packet Sniffing and Internal Network Scanning",
-        "date": "Mon, 14 Sep 2026 13:33:25 +0000",
-        "url": "https://cybersecuritynews.com/cyclops-blink-evolves/",
-        "source": "CyberSecurityNews",
-        "summary": "Cyclops Blink has returned in a form that gives attackers a deeper view inside corporate networks. The malware was found on compromised Cisco Firewall Management Center devices, where it can maintain ",
-        "cve": []
-    },
-    {
-        "title": "New ZcopyReaper Linux Kernel Vulnerability Enables Privilege Escalation Attacks",
-        "date": "Mon, 14 Sep 2026 13:29:59 +0000",
-        "url": "https://cybersecuritynews.com/zcopyreaper-linux-kernel-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A new Linux kernel vulnerability dubbed ZcopyReaper allows an unprivileged local attacker to escalate privileges and potentially gain root-level control. Tracked as CVE-2026-43502, the flaw was demons",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Sandworm-Linked Cyclops Blink Returns With Network Scanning and Packet-Sniffing Capabilities",
-        "date": "Mon, 14 Sep 2026 09:27:43 +0000",
-        "url": "https://gbhackers.com/cyclops-blink-variant/",
-        "source": "GBHackers",
-        "summary": "A newly identified Cyclops Blink variant has resurfaced on compromised Cisco Secure Firewall Management Center (FMC) appliances, adding active internal-network scanning and programmable packet-sniffin",
+        "title": "Ubuntu 26.10 Set To Deliver Better Performance For Intel Core 3 Wildcat Lake",
+        "date": "Tue, 15 Sep 2026 11:34:07 -0400",
+        "url": "https://www.phoronix.com/review/ubuntu-2610-wildcat-lake",
+        "source": "Phoronix",
+        "summary": "While Ubuntu 26.04 LTS is working fine out-of-the-box on new Intel Core 3 \"Wildcat Lake\" laptops like the CHUWI UniBook, next month's release of Ubuntu 26.10 will help deliver better performance out o",
         "cve": []
     },
     {
-        "title": "China-Linked Hackers Exploit Sogou One-Click RCE to Deploy GRAYRABBIT Backdoor",
-        "date": "Mon, 14 Sep 2026 08:09:26 +0000",
-        "url": "https://gbhackers.com/grayrabbit-backdoor/",
-        "source": "GBHackers",
-        "summary": "China-linked threat actors tracked as UNC3569 have exploited a critical one-click remote code execution vulnerability in Tencent’s Sogou Input Method for Windows to deploy the GRAYRABBIT backdoor on t",
+        "title": "Fedora 45 Beta Released With KMSCON Console, GNOME 51 & Other Updates",
+        "date": "Tue, 15 Sep 2026 10:30:08 -0400",
+        "url": "https://www.phoronix.com/news/Fedora-45-Beta",
+        "source": "Phoronix",
+        "summary": "The beta release of Fedora 45 is out today and right on schedule for this wonderful Linux distribution...",
         "cve": []
     },
     {
-        "title": "Casbaneiro Banking Trojan Uses Distributed C2 Servers to Evade Detection and Target Bank Users",
-        "date": "Mon, 14 Sep 2026 05:56:58 +0000",
-        "url": "https://gbhackers.com/casbaneiro-banking-trojan/",
-        "source": "GBHackers",
-        "summary": "A Casbaneiro banking Trojan campaign targeting users across Latin America, using phishing lures, geofenced delivery infrastructure, and distributed command-and-control (C2) servers to obscure maliciou",
+        "title": "Java 27 Reaches GA With The G1 Garbage Collector By Default Everywhere",
+        "date": "Tue, 15 Sep 2026 09:39:00 -0400",
+        "url": "https://www.phoronix.com/news/OpenJDK-27-Java-27",
+        "source": "Phoronix",
+        "summary": "Oracle christened Java 27 today with the OpenJDK 27 release reaching general availability (GA) status...",
         "cve": []
     },
     {
-        "title": "AsyncRAT Malware Abuses AutoIt and PowerShell to Hide Inside Legitimate Windows Process",
-        "date": "Mon, 14 Sep 2026 05:24:48 +0000",
-        "url": "https://gbhackers.com/asyncrat-in-hides-windows-process/",
-        "source": "GBHackers",
-        "summary": "A five-stage AsyncRAT campaign that chains a socially engineered batch file, hidden PowerShell execution, AutoIt abuse and process injection to conceal a .NET remote-access trojan inside Microsoft’s l",
+        "title": "Sound Open Firmware 2.15 Released With AMD ACP 7.x Support, Intel UAOL",
+        "date": "Tue, 15 Sep 2026 09:04:40 -0400",
+        "url": "https://www.phoronix.com/news/Sound-Open-Firmware-2.15",
+        "source": "Phoronix",
+        "summary": "Sound Open Firmware as the open-source, vendor-independent audio DSP firmware stack and driver framework is out today with a new feature update...",
         "cve": []
     },
     {
-        "title": "Threat Actors Use Claude AI Agents to Automate Cyberattacks and Steal Sensitive Data",
-        "date": "Sat, 12 Sep 2026 08:40:16 +0000",
-        "url": "https://gbhackers.com/threat-actors-use-claude-ai-agents-to-automate-cyberattacks-and-steal-sensitive-data/",
-        "source": "GBHackers",
-        "summary": "Threat actors are increasingly using Claude-based AI workflows to automate cyberattacks, accelerate data theft, and reduce the technical expertise needed to run complex intrusions. Anthropic&#8217;s r",
+        "title": "Firefox 157 Beta Released With Latest Enhancements",
+        "date": "Tue, 15 Sep 2026 08:31:03 -0400",
+        "url": "https://www.phoronix.com/news/Firefox-157-Beta",
+        "source": "Phoronix",
+        "summary": "The Firefox release train keeps on rolling. With Firefox 156 released, Firefox 157 is now in beta ahead of the planned release coming up at the end of September...",
         "cve": []
     },
     {
-        "title": "China-Linked Hackers Chain Chrome Zero-Day With Windows Kernel Flaw in Attacks",
-        "date": "Sat, 12 Sep 2026 08:04:47 +0000",
-        "url": "https://gbhackers.com/china-linked-hackers-chain-chrome-zero-day/",
-        "source": "GBHackers",
-        "summary": "China-linked threat actors UTA0560 and JungleBamboo chained a Google Chrome zero-day with a Windows kernel privilege-escalation flaw in phishing campaigns targeting NGOs and other victims. Volexity do",
+        "title": "New Linux Patches Improving Hibernation Speed In 2026",
+        "date": "Tue, 15 Sep 2026 06:30:22 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Improv-Hibernation-2026",
+        "source": "Phoronix",
+        "summary": "A new patch series being worked on is enhancing the Linux kernel's hibernation allocator to allow for faster performance when hibernating the system...",
         "cve": []
     },
     {
-        "title": "New Phishing Campaign Abuses Windows Mshta.exe to Steal Credentials and Secrets",
-        "date": "Sat, 12 Sep 2026 06:16:51 +0000",
-        "url": "https://gbhackers.com/new-phishing-campaign-abuses-windows-mshta-exe/",
-        "source": "GBHackers",
-        "summary": "A newly identified phishing campaign is abusing the legitimate Windows utility mshta.exe to execute malicious HTML Application (HTA) files, conduct system reconnaissance, and potentially deploy payloa",
+        "title": "Raspberry Pi Desktop Overhauled On Raspberry Pi OS, Adds Icon Dock",
+        "date": "Tue, 15 Sep 2026 06:14:58 -0400",
+        "url": "https://www.phoronix.com/news/Raspberry-Pi-Desktop-2026",
+        "source": "Phoronix",
+        "summary": "The Raspberry Pi Desktop on Raspberry Pi OS has seen a major  overhaul to better modernize the desktop computing experience on the ARM64 single board computers...",
         "cve": []
     },
     {
-        "title": "OpenAI Agents Flood RubyGems With 2,000 Packages and Exploit Build System for RCE",
-        "date": "Sat, 12 Sep 2026 06:03:55 +0000",
-        "url": "https://gbhackers.com/openai-agents-flood-rubygems-with-2000-packages/",
-        "source": "GBHackers",
-        "summary": "A swarm of AI agents believed to be operated internally by OpenAI uploaded more than 2,000 malicious packages to RubyGems in May 2026, abusing the ecosystem’s documentation build process to execute co",
+        "title": "Linux Patch Coming To Fix Under-Reported AMD Zen 5 TLB Sizes",
+        "date": "Tue, 15 Sep 2026 06:05:51 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Fix-AMD-Zen-5-TLB-Sizes",
+        "source": "Phoronix",
+        "summary": "A minor reporting issue on Linux that has gone unaddressed until now is for properly conveying the Translation Lookaside Buffer (TLB) sizes on AMD Zen 5 processors...",
         "cve": []
     },
     {
-        "title": "CISA Warns of Critical GitLab Vulnerability Exploited in Attacks",
-        "date": "Sat, 12 Sep 2026 05:17:40 +0000",
-        "url": "https://gbhackers.com/cisa-warns-of-critical-gitlab-vulnerability-exploited-in-attacks/",
-        "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical GitLab flaw, tracked as CVE-2026-85706, to its Known Exploited Vulnerabilities catalog after confirming it was exp",
+        "title": "OpenAPV Sees Big Update For Advancing The Advanced Professional Video Codec",
+        "date": "Tue, 15 Sep 2026 05:56:41 -0400",
+        "url": "https://www.phoronix.com/news/OpenAPV-1.1.1",
+        "source": "Phoronix",
+        "summary": "OpenAPV as the open-source reference implementation of the Advanced Professional Video (APV) codec today saw its v1.1.1 release, succeeding v0.3.0 as the prior release...",
         "cve": []
     },
     {
-        "title": "Researchers Uncover 10,000+ Malware Loaders Behind YouTube and SEO Poisoning Campaign",
-        "date": "Fri, 11 Sep 2026 12:24:51 +0000",
-        "url": "https://gbhackers.com/10000-malware-loaders/",
-        "source": "GBHackers",
-        "summary": "A long-running pay-per-install (PPI) operation that used YouTube gaming channels and SEO-poisoned software downloads to distribute malware at scale. The cluster, tracked as CL-CRI-1171, is linked to m",
+        "title": "AMD Preparing Linux For Enhanced SMT Protection \"ESMTP\" For EPYC VMs",
+        "date": "Mon, 14 Sep 2026 14:03:38 -0400",
+        "url": "https://www.phoronix.com/news/AMD-Enhanced-SMT-Protection",
+        "source": "Phoronix",
+        "summary": "AMD engineers today sent out patches on the Linux kernel mailing list for beginning to enable Enhanced SMT Protection \"ESMTP\" for better security with virtual machines running atop EPYC server process",
         "cve": []
     }
 ]
