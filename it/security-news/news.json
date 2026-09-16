@@ -1,5 +1,53 @@
 [
     {
+        "title": "The true cost of a ransomware attack, with and without BCDR",
+        "date": "Wed, 16 Sep 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
+        "source": "BleepingComputer",
+        "summary": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature ",
+        "cve": []
+    },
+    {
+        "title": "Microsoft says Copilot buttons still missing in classic Outlook",
+        "date": "Wed, 16 Sep 2026 08:16:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft says it's still investigating a known issue that causes the Copilot and Copilot Chat buttons in Classic Outlook to disappear for some Windows users. [...]",
+        "cve": []
+    },
+    {
+        "title": "Webinar: What happens in the first hours of a Google Workspace breach",
+        "date": "Wed, 16 Sep 2026 08:11:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
+        "source": "BleepingComputer",
+        "summary": "The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches to show which early response decisions can limit the impact",
+        "cve": []
+    },
+    {
+        "title": "Critical ScreenConnect flaw now actively exploited in attacks",
+        "date": "Wed, 16 Sep 2026 07:14:28 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+        "source": "BleepingComputer",
+        "summary": "Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+        "cve": []
+    },
+    {
+        "title": "Windows Server 2022 reaches end of mainstream support next month",
+        "date": "Wed, 16 Sep 2026 05:10:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has reminded customers that Windows Server 2022 will reach the end of mainstream support next month and enter extended support until October 2031. [...]",
+        "cve": []
+    },
+    {
+        "title": "Google fixes actively exploited Android zero-day on Pixel devices",
+        "date": "Wed, 16 Sep 2026 03:00:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+        "source": "BleepingComputer",
+        "summary": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
+        "cve": []
+    },
+    {
         "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
         "date": "Tue, 15 Sep 2026 17:37:35 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
@@ -32,51 +80,67 @@
         "cve": []
     },
     {
-        "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
-        "date": "Tue, 15 Sep 2026 10:45:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
-        "source": "BleepingComputer",
-        "summary": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
+        "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+        "date": "Wed, 16 Sep 2026 19:07:07 +0530",
+        "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+        "source": "The Hacker News",
+        "summary": "Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&nbsp;Shai-Hulud&nbsp;across about 100 internal code repositories.",
         "cve": []
     },
     {
-        "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
-        "date": "Tue, 15 Sep 2026 09:45:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
-        "source": "BleepingComputer",
-        "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, s",
+        "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+        "date": "Wed, 16 Sep 2026 18:44:05 +0530",
+        "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+        "source": "The Hacker News",
+        "summary": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.\n\nThe attack needs code already r",
         "cve": []
     },
     {
-        "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
-        "date": "Tue, 15 Sep 2026 08:16:32 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched ",
+        "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+        "date": "Wed, 16 Sep 2026 17:28:00 +0530",
+        "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+        "source": "The Hacker News",
+        "summary": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat ",
         "cve": []
     },
     {
-        "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
-        "date": "Tue, 15 Sep 2026 05:50:25 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
-        "source": "BleepingComputer",
-        "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and mo",
+        "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+        "date": "Wed, 16 Sep 2026 16:45:58 +0530",
+        "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+        "source": "The Hacker News",
+        "summary": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privi",
         "cve": []
     },
     {
-        "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
-        "date": "Tue, 15 Sep 2026 04:40:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+        "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+        "date": "Wed, 16 Sep 2026 16:45:48 +0530",
+        "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+        "source": "The Hacker News",
+        "summary": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged th",
         "cve": []
     },
     {
-        "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
-        "date": "Tue, 15 Sep 2026 03:31:09 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
-        "source": "BleepingComputer",
-        "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+        "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+        "date": "Wed, 16 Sep 2026 16:38:54 +0530",
+        "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+        "source": "The Hacker News",
+        "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-878",
+        "cve": []
+    },
+    {
+        "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+        "date": "Wed, 16 Sep 2026 11:18:28 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged ",
+        "cve": []
+    },
+    {
+        "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+        "date": "Wed, 16 Sep 2026 10:48:06 +0530",
+        "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+        "source": "The Hacker News",
+        "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), ",
         "cve": []
     },
     {
@@ -96,147 +160,83 @@
         "cve": []
     },
     {
-        "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-        "date": "Tue, 15 Sep 2026 20:53:19 +0530",
-        "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux",
-        "cve": []
-    },
-    {
-        "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-        "date": "Tue, 15 Sep 2026 17:22:28 +0530",
-        "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-        "source": "The Hacker News",
-        "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled hum",
-        "cve": []
-    },
-    {
-        "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-        "date": "Tue, 15 Sep 2026 16:56:36 +0530",
-        "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-        "source": "The Hacker News",
-        "summary": "Introduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rul",
-        "cve": []
-    },
-    {
-        "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-        "date": "Tue, 15 Sep 2026 16:42:32 +0530",
-        "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.\n\nThe first is an automated effort aimed at internet-exposed Vite ",
-        "cve": []
-    },
-    {
-        "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-        "date": "Tue, 15 Sep 2026 12:22:16 +0530",
-        "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-        "source": "The Hacker News",
-        "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September",
-        "cve": []
-    },
-    {
-        "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
-        "date": "Tue, 15 Sep 2026 11:41:11 +0530",
-        "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
-        "source": "The Hacker News",
-        "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-764",
-        "cve": []
-    },
-    {
-        "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-        "date": "Tue, 15 Sep 2026 11:01:05 +0530",
-        "url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
-        "source": "The Hacker News",
-        "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor ",
-        "cve": []
-    },
-    {
-        "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
-        "date": "Mon, 14 Sep 2026 23:32:13 +0530",
-        "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
-        "source": "The Hacker News",
-        "summary": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the proce",
-        "cve": []
-    },
-    {
-        "title": "CISA and NIST Release Technical Checklist for Safeguarding Identity Tokens From Theft and Misuse",
-        "date": "Tue, 15 Sep 2026 17:04:37 +0000",
-        "url": "https://cybersecuritynews.com/cisa-nist-identity-token-security/",
+        "title": "CenterPoint Energy Data Breach – Hackers Stolen Customer’s Personal Data",
+        "date": "Wed, 16 Sep 2026 15:32:51 +0000",
+        "url": "https://cybersecuritynews.com/centerpoint-energy-data-breach/",
         "source": "CyberSecurityNews",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) and the National Institute of Standards and Technology (NIST) have released final technical guidance to stop attackers from forging, stealin",
+        "summary": "CenterPoint Energy disclosed a data breach after an unauthorized third party obtained personal information from some of its customers through an internet-facing company system. The Houston-based utili",
         "cve": []
     },
     {
-        "title": "CISA Shares 17 Techniques Used by Hackers to Compromise Active Directory Environments",
-        "date": "Tue, 15 Sep 2026 16:05:54 +0000",
-        "url": "https://cybersecuritynews.com/cisa-active-directory-attack-techniques/",
+        "title": "CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks",
+        "date": "Wed, 16 Sep 2026 15:31:36 +0000",
+        "url": "https://cybersecuritynews.com/screenconnect-vulnerability-exploited/",
         "source": "CyberSecurityNews",
-        "summary": "CISA and five international cybersecurity agencies have released detailed guidance describing 17 common techniques hackers use to compromise Microsoft Active Directory environments. The technical guid",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical ConnectWise ScreenConnect vulnerability, tracked as CVE-2026-84869, to its Known Exploited Vulnerabilities (KEV) C",
         "cve": []
     },
     {
-        "title": "Apple Rolls Out Massive Security Update Fixing 273 Vulnerabilities Across Its Devices",
-        "date": "Tue, 15 Sep 2026 15:51:12 +0000",
-        "url": "https://cybersecuritynews.com/apple-security-update-273-vulnerabilities/",
+        "title": "German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints",
+        "date": "Wed, 16 Sep 2026 15:12:24 +0000",
+        "url": "https://cybersecuritynews.com/german-manufacturer-security-alerts/",
         "source": "CyberSecurityNews",
-        "summary": "Apple has released one of its largest coordinated security rollouts, addressing 273 distinct critical vulnerabilities across iPhone, iPad, Mac, Apple Watch, Apple TV, Vision Pro, Safari, and Xcode. Th",
+        "summary": "A five-person security team at an unnamed German manufacturer has cut a reported 15 minutes from each alert investigation after replacing an air-gapped forensic laptop with ANY.RUN’s cloud-managed Int",
         "cve": []
     },
     {
-        "title": "How to Keep Malware’s Rotating Infrastructure From Becoming a Detection Gap",
-        "date": "Tue, 15 Sep 2026 15:36:38 +0000",
-        "url": "https://cybersecuritynews.com/how-to-keep-malwares-rotating-infrastructure-from-becoming-a-detection-gap/",
+        "title": "Critical WSO2 Vulnerability Allow Hackers to Gain Full Admin Access",
+        "date": "Wed, 16 Sep 2026 15:05:48 +0000",
+        "url": "https://cybersecuritynews.com/critical-wso2-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "You can’t detect today&#8217;s attacks with yesterday’s threat intelligence; that’s how you could briefly formulate the challenge many modern SOCs face.  Indicators lose relevance quickly. New infrast",
+        "summary": "WSO2 has disclosed a critical authentication bypass vulnerability that could allow remote attackers to take over accounts, including administrative accounts, in affected API management products. Track",
         "cve": []
     },
     {
-        "title": "Microsoft Bans Its AI Models From Launching Cyberattacks or Escalating Their Own Access",
-        "date": "Tue, 15 Sep 2026 15:26:49 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-ai-cyberattack-ban/",
+        "title": "GhostCode Phishing Kit Bypasses Microsoft 365 MFA to Hijack Accounts in 78 Seconds",
+        "date": "Wed, 16 Sep 2026 14:54:18 +0000",
+        "url": "https://cybersecuritynews.com/ghostcode-phishing-kit/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has published a draft Humanist AI Code of Conduct that would prohibit its in-house MAI models from launching cyberattacks, supplying operational attack capabilities, or increasing their own ",
+        "summary": "GhostCode is a newly identified phishing kit that turns a normal Microsoft 365 sign-in into an account takeover. It does not need to steal a password. Instead, it persuades people to approve a login t",
         "cve": []
     },
     {
-        "title": "Hackers Advertise Uncensored Luciferus AI Service on Underground Forums",
-        "date": "Tue, 15 Sep 2026 14:59:59 +0000",
-        "url": "https://cybersecuritynews.com/hackers-advertise-luciferus-ai-service/",
+        "title": "Microsoft 365 Hit by New Outage as Users Report Widespread 502 and 503 Errors",
+        "date": "Wed, 16 Sep 2026 14:37:38 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are advertising a new “uncensored” artificial intelligence service called Luciferus, positioning it as a subscription assistant willing to process malware-development requests that mainstream ",
+        "summary": "Microsoft has confirmed a fresh service degradation affecting its Microsoft 365 suite, with users worldwide reporting an inability to access core applications since the evening of September 16, 2026. ",
         "cve": []
     },
     {
-        "title": "CISA Warns of Cisco Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
-        "date": "Tue, 15 Sep 2026 14:46:21 +0000",
-        "url": "https://cybersecuritynews.com/cisco-secure-email-gateway-0-day-vulnerability-exploited/",
+        "title": "Hackers Can Rent VectraRAT for $250 a Month to Take Control of Windows PCs",
+        "date": "Wed, 16 Sep 2026 14:36:15 +0000",
+        "url": "https://cybersecuritynews.com/hackers-can-rent-vectrarat/",
         "source": "CyberSecurityNews",
-        "summary": "CISA has added a critical Cisco Secure Email Gateway vulnerability to its Known Exploited Vulnerabilities catalog, warning that attackers are actively exploiting the flaw in real-world attacks. The is",
+        "summary": "Hackers can now rent a Windows-focused remote access tool called VectraRAT for $250 a month, lowering the barrier to deep and persistent compromise. The malware gives paying operators a way to watch v",
         "cve": []
     },
     {
-        "title": "Japan’s Digital Agency Breach Exposes 240,000+ Users’ Personal Records to Hackers",
-        "date": "Tue, 15 Sep 2026 14:43:47 +0000",
-        "url": "https://cybersecuritynews.com/japan-digital-agency-data-breach/",
+        "title": "Hackers Use Cross-Platform Noodle RAT to Secretly Control Windows and Linux Systems",
+        "date": "Wed, 16 Sep 2026 14:03:51 +0000",
+        "url": "https://cybersecuritynews.com/cross-platform-noodle-rat/",
         "source": "CyberSecurityNews",
-        "summary": "Japan&#8217;s Digital Agency has confirmed a significant data breach affecting the Government Solution Service (GSS), a shared IT platform used across multiple ministries and government bodies, after ",
+        "summary": "Noodle RAT is a remote-access trojan that gives attackers control of compromised computers and servers. Its renewed visibility matters because it runs on both Windows and Linux, allowing one malware f",
         "cve": []
     },
     {
-        "title": "Homebrew 7.0.0 Adds Built-In Vulnerability Scanner and Stronger Package Sandboxing",
-        "date": "Tue, 15 Sep 2026 13:55:02 +0000",
-        "url": "https://cybersecuritynews.com/homebrew-7-0-0-adds-vulnerability-scanner/",
+        "title": "Smishing Hackers Can Watch Every Keystroke as Victims Enter Card Details and OTPs",
+        "date": "Wed, 16 Sep 2026 13:39:36 +0000",
+        "url": "https://cybersecuritynews.com/smishing-hackers/",
         "source": "CyberSecurityNews",
-        "summary": "Homebrew has released version 7.0.0, introducing a native vulnerability scanner, a Homebrew-specific advisory database, stronger sandboxing, and faster package installation workflows. The release also",
+        "summary": "A new SMS phishing campaign turns a routine payment check into a live fraud session. Victims who tap a link reach convincing pages seeking card details, passwords, and one-time passcodes, while crimin",
         "cve": []
     },
     {
-        "title": "cPanel LiteSpeed Web Server Vulnerability Allows Shared Server Users to Gain Root-Level Access",
-        "date": "Tue, 15 Sep 2026 13:52:07 +0000",
-        "url": "https://cybersecuritynews.com/cpanel-litespeed-web-server-vulnerability/",
+        "title": "TP-Link Cameras 0-Day Vulnerabilities Allow Attackers to Spy on Users",
+        "date": "Wed, 16 Sep 2026 13:27:04 +0000",
+        "url": "https://cybersecuritynews.com/tp-link-cameras-0-day-vulnerabilities/",
         "source": "CyberSecurityNews",
-        "summary": "cPanel has issued an urgent security advisory warning that a critical vulnerability in LiteSpeed Web Server Enterprise could allow a low-privileged shared-hosting user to gain root-level access to an ",
+        "summary": "TP-Link Tapo C200 smart cameras were affected by two zero-day vulnerabilities that could allow attackers on the same network to bypass authentication or disrupt camera services. The flaws, tracked as ",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Google Search Makes It Harder to See Where a Link Really Goes Before You Click",
-        "date": "Tue, 15 Sep 2026 13:42:27 +0000",
-        "url": "https://gbhackers.com/harder-link-verification/",
+        "title": "GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation",
+        "date": "Wed, 16 Sep 2026 13:41:39 +0000",
+        "url": "https://gbhackers.com/ghostcode-abuses-microsoft-entra/",
         "source": "GBHackers",
-        "summary": "Google has begun routing some organic Search result links through opaque google.com/goto?url=&#8230; redirects, reducing users’ ability to independently inspect a destination URL before clicking. The ",
+        "summary": "A newly identified device-code phishing kit dubbed GhostCode exploits Microsoft Entra device enrollment to maintain access after stolen tokens are revoked. GhostCode begins with business-email social ",
         "cve": []
     },
     {
-        "title": "Phishing Attacks Abuse Trusted Email Infrastructure and URL Cloaking to Evade Security Filters",
-        "date": "Tue, 15 Sep 2026 13:04:34 +0000",
-        "url": "https://gbhackers.com/trusted-email-abuse/",
+        "title": "VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems",
+        "date": "Wed, 16 Sep 2026 13:11:23 +0000",
+        "url": "https://gbhackers.com/vectrarat-malware-as-a-service/",
         "source": "GBHackers",
-        "summary": "Phishing operators are increasingly shifting away from malware-laden attachments and toward trusted delivery services, authenticated domains, and multi-stage URL cloaking designed to defeat convention",
+        "summary": "VectraRAT, a previously undocumented Malware-as-a-Service platform that combines remote-access trojan capabilities with automated credential theft and a silent Windows privilege-escalation chain. Unli",
         "cve": []
     },
     {
-        "title": "Hackers Actively Exploit Critical WooCommerce Plugin Vulnerability to Upload PHP Backdoors",
-        "date": "Tue, 15 Sep 2026 12:05:55 +0000",
-        "url": "https://gbhackers.com/woocommerce-plugin-vulnerability/",
+        "title": "TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password",
+        "date": "Wed, 16 Sep 2026 12:33:57 +0000",
+        "url": "https://gbhackers.com/tp-link-tapo-camera-flaw/",
         "source": "GBHackers",
-        "summary": "Threat actors are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture plugin that lets unauthenticated attackers upload malicious PHP files and potentially seize ful",
+        "summary": "Security researchers have revealed two vulnerabilities in TP-Link’s Tapo C200 smart camera that could enable nearby network attackers to bypass administrator authentication or disrupt the device&#8217",
         "cve": []
     },
     {
-        "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
-        "date": "Tue, 15 Sep 2026 11:44:54 +0000",
-        "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-september-7-12-2026/",
+        "title": "Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems",
+        "date": "Wed, 16 Sep 2026 12:28:34 +0000",
+        "url": "https://gbhackers.com/noodle-rat-backdoor/",
         "source": "GBHackers",
-        "summary": "Microsoft Patches 973 CVEs, Claude Agents Automate Attacks, China Chains Chrome Zero-Day, Cisco FMC Exploited &#38; More. Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter",
+        "summary": "Chinese-speaking threat actors are continuing to rely on Noodle RAT, a cross-platform remote access trojan designed to maintain covert access to compromised Windows workstations and Linux servers. Als",
         "cve": []
     },
     {
-        "title": "WordPress Events Calendar Vulnerabilities Let Hackers Take Over 600,000 Websites",
-        "date": "Tue, 15 Sep 2026 11:24:16 +0000",
-        "url": "https://gbhackers.com/wordpress-events-calendar-vulnerabilities/",
+        "title": "Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional",
+        "date": "Wed, 16 Sep 2026 11:58:22 +0000",
+        "url": "https://gbhackers.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/",
         "source": "GBHackers",
-        "summary": "Two critical unauthenticated vulnerability chains in the widely used The Events Calendar WordPress plugin could allow attackers to execute code and fully compromise affected websites remotely. These f",
+        "summary": "Stamford, CT, September 16th, 2026, CyberNewswire Now in early access, AxoDetect runs Sigma rules in stream alerts travel to the SIEM, and full-fidelity logs land in AxoLake, a low-cost security data ",
         "cve": []
     },
     {
-        "title": "Red Heron Hackers Exploit Critical Gitea RCE to Steal Source Code and Deploy Linux Rootkit",
-        "date": "Tue, 15 Sep 2026 11:16:17 +0000",
-        "url": "https://gbhackers.com/red-heron-hackers-exploit-critical-gitea-rce/",
+        "title": "Smishing Triad Hackers Use JWR Phishing Kit to Steal Cards, OTPs and Bank Credentials",
+        "date": "Wed, 16 Sep 2026 11:57:57 +0000",
+        "url": "https://gbhackers.com/jwr-phishing-kit/",
         "source": "GBHackers",
-        "summary": "A Chinese-speaking threat actor known as Red Heron has exploited a critical remote code execution (RCE) vulnerability in Gitea to steal private source code, harvest credentials, establish persistent a",
+        "summary": "A large-scale SMS phishing campaign linked to the Smishing Triad is using a sophisticated phishing kit dubbed JWR to harvest payment-card data, one-time passwords, online-banking credentials, identity",
         "cve": []
     },
     {
-        "title": "Telegram Desktop XSS Vulnerability Lets Attackers Steal Entire Chat Histories",
-        "date": "Tue, 15 Sep 2026 10:11:25 +0000",
-        "url": "https://gbhackers.com/telegram-desktop-xss-vulnerability-lets-attackers-steal-entire-chat-histories/",
+        "title": "CenterPoint Energy Confirms Data Breach Exposing Customers’ Personal Information",
+        "date": "Wed, 16 Sep 2026 11:40:21 +0000",
+        "url": "https://gbhackers.com/centerpoint-energy-confirms-data-breach/",
         "source": "GBHackers",
-        "summary": "A stored cross-site scripting (XSS) vulnerability in Telegram Desktop could enable attackers to steal the contents of exported chat histories by embedding malicious code in an inline keyboard button, ",
+        "summary": "CenterPoint Energy has confirmed that an unauthorized third party accessed personal information belonging to some of its customers by compromising one of the utility provider’s external systems. The H",
         "cve": []
     },
     {
-        "title": "Marimo RCE Flaw Lets Hackers Steal AWS Credentials and Pivot to Bastion Host in 8 Seconds",
-        "date": "Tue, 15 Sep 2026 09:58:24 +0000",
-        "url": "https://gbhackers.com/marimo-rce-flaw/",
+        "title": "Parallels Desktop Flaw Lets Unprivileged Mac Users Gain Root Access",
+        "date": "Wed, 16 Sep 2026 11:29:45 +0000",
+        "url": "https://gbhackers.com/parallels-desktop-flaw/",
         "source": "GBHackers",
-        "summary": "A threat actor exploited a critical pre-authentication remote code execution vulnerability in marimo to harvest AWS credentials, retrieve an SSH private key from AWS Secrets Manager, and authenticate ",
+        "summary": "A critical local privilege escalation vulnerability in Parallels Desktop could allow an unprivileged macOS user or a malicious process to gain root-level access to the host system. The issue, tracked ",
         "cve": []
     },
     {
-        "title": "DDRop Attack Forces Intel TDX Confidential VMs Into Debug Mode and Exposes Memory",
-        "date": "Tue, 15 Sep 2026 09:57:18 +0000",
-        "url": "https://gbhackers.com/intel-tdx-under-attack/",
+        "title": "Acronis Backup Plugin Vulnerability Exploited in the Wild to Gain Elevated Linux Privileges",
+        "date": "Wed, 16 Sep 2026 09:57:44 +0000",
+        "url": "https://gbhackers.com/acronis-backup-plugin-vulnerability/",
         "source": "GBHackers",
-        "summary": "A newly disclosed hardware attack dubbed DDRop can undermine Intel Trust Domain Extensions (TDX) by manipulating DDR5 memory traffic, allowing an attacker with physical server access to force confiden",
+        "summary": "Acronis has released an urgent security update for a high-severity local privilege escalation vulnerability affecting its Backup plugin for cPanel &#38; WHM on Linux. The company confirmed that attack",
         "cve": []
     },
     {
-        "title": "Linux Kernel ZcopyReaper Vulnerability Lets Local Attackers Gain Root Privileges",
-        "date": "Tue, 15 Sep 2026 08:18:47 +0000",
-        "url": "https://gbhackers.com/linux-kernel-zcopyreaper-vulnerability/",
+        "title": "12 Best Kubernetes Security Tools Compared (2026): Features & Pricing",
+        "date": "Wed, 16 Sep 2026 09:52:52 +0000",
+        "url": "https://gbhackers.com/12-best-kubernetes-security-tools-compared-2026-features-pricing/",
         "source": "GBHackers",
-        "summary": "Security researchers have disclosed a local privilege escalation vulnerability in the Linux kernel related to the Reliable Datagram Sockets (RDS) zero-copy send path. This vulnerability could let an u",
+        "summary": "Quick Answer: Kubernetes security quotes hinge on the node-vs-cluster-vs-developer unit choice, and the OSS floor (Kubescape, Falco, Calico, NeuVector, Cilium/Tetragon) resets every negotiation. Sysdi",
         "cve": []
     }
 ]
