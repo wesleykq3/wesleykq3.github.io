@@ -1,5 +1,45 @@
 [
     {
+        "title": "Anthropic wants Claude to analyze your bank account and financial data",
+        "date": "Wed, 16 Sep 2026 20:35:48 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+        "source": "BleepingComputer",
+        "summary": "Anthropic is testing a new personal finance feature called \"Claude Money\" that will allow you to connect your bank accounts directly to Claude and \"understand your money.\" [...]",
+        "cve": []
+    },
+    {
+        "title": "Windows 11 KB5124008 update breaks domain trust for some users",
+        "date": "Wed, 16 Sep 2026 16:39:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, preventing users from logging in with valid domain c",
+        "cve": []
+    },
+    {
+        "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+        "date": "Wed, 16 Sep 2026 16:24:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
+        "source": "BleepingComputer",
+        "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
+        "cve": []
+    },
+    {
+        "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
+        "date": "Wed, 16 Sep 2026 14:50:53 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
+        "source": "BleepingComputer",
+        "summary": "A banking malware operation active since mid-2025 has been using a toolkit named KREMLIN to install malicious Chrome and Edge extensions that steal credentials, session tokens, and sensitive data. [..",
+        "cve": []
+    },
+    {
+        "title": "Spain's data agency gets first report of AI-powered data breach",
+        "date": "Wed, 16 Sep 2026 13:26:41 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+        "source": "BleepingComputer",
+        "summary": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
+        "cve": []
+    },
+    {
         "title": "The true cost of a ransomware attack, with and without BCDR",
         "date": "Wed, 16 Sep 2026 10:00:10 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
@@ -40,43 +80,27 @@
         "cve": []
     },
     {
-        "title": "Google fixes actively exploited Android zero-day on Pixel devices",
-        "date": "Wed, 16 Sep 2026 03:00:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
-        "source": "BleepingComputer",
-        "summary": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
+        "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+        "date": "Wed, 16 Sep 2026 21:20:59 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+        "source": "The Hacker News",
+        "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.\n\nThe vulnerability in question is CVE-",
         "cve": []
     },
     {
-        "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
-        "date": "Tue, 15 Sep 2026 17:37:35 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
-        "source": "BleepingComputer",
-        "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
+        "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+        "date": "Wed, 16 Sep 2026 20:57:49 +0530",
+        "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+        "source": "The Hacker News",
+        "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity ",
         "cve": []
     },
     {
-        "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-        "date": "Tue, 15 Sep 2026 16:34:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
-        "source": "BleepingComputer",
-        "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that ",
-        "cve": []
-    },
-    {
-        "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
-        "date": "Tue, 15 Sep 2026 12:40:14 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
-        "source": "BleepingComputer",
-        "summary": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
-        "cve": []
-    },
-    {
-        "title": "BambooToken malware controls Windows and Linux systems via MQTT",
-        "date": "Tue, 15 Sep 2026 11:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
-        "source": "BleepingComputer",
-        "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux system",
+        "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+        "date": "Wed, 16 Sep 2026 20:06:44 +0530",
+        "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+        "source": "The Hacker News",
+        "summary": "Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome",
         "cve": []
     },
     {
@@ -136,107 +160,11 @@
         "cve": []
     },
     {
-        "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-        "date": "Wed, 16 Sep 2026 10:48:06 +0530",
-        "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-        "source": "The Hacker News",
-        "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), ",
-        "cve": []
-    },
-    {
-        "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-        "date": "Wed, 16 Sep 2026 00:24:14 +0530",
-        "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.\n\nElastic Security Labs is tracking the activity under",
-        "cve": []
-    },
-    {
-        "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-        "date": "Tue, 15 Sep 2026 21:59:51 +0530",
-        "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, a",
-        "cve": []
-    },
-    {
-        "title": "CenterPoint Energy Data Breach – Hackers Stolen Customer’s Personal Data",
-        "date": "Wed, 16 Sep 2026 15:32:51 +0000",
-        "url": "https://cybersecuritynews.com/centerpoint-energy-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "CenterPoint Energy disclosed a data breach after an unauthorized third party obtained personal information from some of its customers through an internet-facing company system. The Houston-based utili",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks",
-        "date": "Wed, 16 Sep 2026 15:31:36 +0000",
-        "url": "https://cybersecuritynews.com/screenconnect-vulnerability-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical ConnectWise ScreenConnect vulnerability, tracked as CVE-2026-84869, to its Known Exploited Vulnerabilities (KEV) C",
-        "cve": []
-    },
-    {
-        "title": "German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints",
-        "date": "Wed, 16 Sep 2026 15:12:24 +0000",
-        "url": "https://cybersecuritynews.com/german-manufacturer-security-alerts/",
-        "source": "CyberSecurityNews",
-        "summary": "A five-person security team at an unnamed German manufacturer has cut a reported 15 minutes from each alert investigation after replacing an air-gapped forensic laptop with ANY.RUN’s cloud-managed Int",
-        "cve": []
-    },
-    {
-        "title": "Critical WSO2 Vulnerability Allow Hackers to Gain Full Admin Access",
-        "date": "Wed, 16 Sep 2026 15:05:48 +0000",
-        "url": "https://cybersecuritynews.com/critical-wso2-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "WSO2 has disclosed a critical authentication bypass vulnerability that could allow remote attackers to take over accounts, including administrative accounts, in affected API management products. Track",
-        "cve": []
-    },
-    {
-        "title": "GhostCode Phishing Kit Bypasses Microsoft 365 MFA to Hijack Accounts in 78 Seconds",
-        "date": "Wed, 16 Sep 2026 14:54:18 +0000",
-        "url": "https://cybersecuritynews.com/ghostcode-phishing-kit/",
-        "source": "CyberSecurityNews",
-        "summary": "GhostCode is a newly identified phishing kit that turns a normal Microsoft 365 sign-in into an account takeover. It does not need to steal a password. Instead, it persuades people to approve a login t",
-        "cve": []
-    },
-    {
-        "title": "Microsoft 365 Hit by New Outage as Users Report Widespread 502 and 503 Errors",
-        "date": "Wed, 16 Sep 2026 14:37:38 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft has confirmed a fresh service degradation affecting its Microsoft 365 suite, with users worldwide reporting an inability to access core applications since the evening of September 16, 2026. ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Can Rent VectraRAT for $250 a Month to Take Control of Windows PCs",
-        "date": "Wed, 16 Sep 2026 14:36:15 +0000",
-        "url": "https://cybersecuritynews.com/hackers-can-rent-vectrarat/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers can now rent a Windows-focused remote access tool called VectraRAT for $250 a month, lowering the barrier to deep and persistent compromise. The malware gives paying operators a way to watch v",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Cross-Platform Noodle RAT to Secretly Control Windows and Linux Systems",
-        "date": "Wed, 16 Sep 2026 14:03:51 +0000",
-        "url": "https://cybersecuritynews.com/cross-platform-noodle-rat/",
-        "source": "CyberSecurityNews",
-        "summary": "Noodle RAT is a remote-access trojan that gives attackers control of compromised computers and servers. Its renewed visibility matters because it runs on both Windows and Linux, allowing one malware f",
-        "cve": []
-    },
-    {
-        "title": "Smishing Hackers Can Watch Every Keystroke as Victims Enter Card Details and OTPs",
-        "date": "Wed, 16 Sep 2026 13:39:36 +0000",
-        "url": "https://cybersecuritynews.com/smishing-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "A new SMS phishing campaign turns a routine payment check into a live fraud session. Victims who tap a link reach convincing pages seeking card details, passwords, and one-time passcodes, while crimin",
-        "cve": []
-    },
-    {
-        "title": "TP-Link Cameras 0-Day Vulnerabilities Allow Attackers to Spy on Users",
-        "date": "Wed, 16 Sep 2026 13:27:04 +0000",
-        "url": "https://cybersecuritynews.com/tp-link-cameras-0-day-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "TP-Link Tapo C200 smart cameras were affected by two zero-day vulnerabilities that could allow attackers on the same network to bypass authentication or disrupt camera services. The flaws, tracked as ",
+        "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+        "date": "Wed, 16 Sep 2026 18:14:22 +0000",
+        "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+        "source": "krebsonsecurity",
+        "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up wit",
         "cve": []
     },
     {
@@ -312,91 +240,83 @@
         "cve": []
     },
     {
-        "title": "Lessons Learned from CISA’s Recent GitHub Leak",
-        "date": "Mon, 13 Jul 2026 15:03:28 +0000",
-        "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-        "source": "krebsonsecurity",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys --",
+        "title": "Mir/Wayland-Powered Miracle-WM 0.11 Released With New Overview Mode, Window Urgency",
+        "date": "Wed, 16 Sep 2026 20:58:42 -0400",
+        "url": "https://www.phoronix.com/news/Miracle-WM-0.11",
+        "source": "Phoronix",
+        "summary": "Canonical engineer Matthew Kosarek rolled out Miracle-WM 0.11 today as an end-of-summer update to this Wayland compositor built atop the Mir library...",
         "cve": []
     },
     {
-        "title": "GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation",
-        "date": "Wed, 16 Sep 2026 13:41:39 +0000",
-        "url": "https://gbhackers.com/ghostcode-abuses-microsoft-entra/",
-        "source": "GBHackers",
-        "summary": "A newly identified device-code phishing kit dubbed GhostCode exploits Microsoft Entra device enrollment to maintain access after stolen tokens are revoked. GhostCode begins with business-email social ",
+        "title": "Mesa 26.2.3 Released With AMD GFX1171 Support, Other Fixes",
+        "date": "Wed, 16 Sep 2026 17:18:50 -0400",
+        "url": "https://www.phoronix.com/news/Mesa-26.2.3-Released",
+        "source": "Phoronix",
+        "summary": "Mesa 26.2.3 is out today as the newest stable point release in this quarter's Mesa 26.2 series...",
         "cve": []
     },
     {
-        "title": "VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems",
-        "date": "Wed, 16 Sep 2026 13:11:23 +0000",
-        "url": "https://gbhackers.com/vectrarat-malware-as-a-service/",
-        "source": "GBHackers",
-        "summary": "VectraRAT, a previously undocumented Malware-as-a-Service platform that combines remote-access trojan capabilities with automated credential theft and a silent Windows privilege-escalation chain. Unli",
+        "title": "Ubuntu 26.10 amd64v3 Can Provide A Nice Boost For Low-End/Budget Hardware",
+        "date": "Wed, 16 Sep 2026 13:37:00 -0400",
+        "url": "https://www.phoronix.com/review/ubuntu-2610-amd64v3-lowend",
+        "source": "Phoronix",
+        "summary": "Canonical recently began producing Ubuntu 26.10 amd64v3 daily ISOs to complement their experimental amd64v3 package archive that they have been trialing the past few release cycles. While we still don",
         "cve": []
     },
     {
-        "title": "TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password",
-        "date": "Wed, 16 Sep 2026 12:33:57 +0000",
-        "url": "https://gbhackers.com/tp-link-tapo-camera-flaw/",
-        "source": "GBHackers",
-        "summary": "Security researchers have revealed two vulnerabilities in TP-Link’s Tapo C200 smart camera that could enable nearby network attackers to bypass administrator authentication or disrupt the device&#8217",
+        "title": "GNOME 51 Released With Improved Frame Scheduling, Many App Improvements",
+        "date": "Wed, 16 Sep 2026 12:25:21 -0400",
+        "url": "https://www.phoronix.com/news/GNOME-51-Released",
+        "source": "Phoronix",
+        "summary": "Right on schedule and in time for appearing in the likes of Ubuntu 26.10 and Fedora Workstation 45, the GNOME 51 desktop is officially released...",
         "cve": []
     },
     {
-        "title": "Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems",
-        "date": "Wed, 16 Sep 2026 12:28:34 +0000",
-        "url": "https://gbhackers.com/noodle-rat-backdoor/",
-        "source": "GBHackers",
-        "summary": "Chinese-speaking threat actors are continuing to rely on Noodle RAT, a cross-platform remote access trojan designed to maintain covert access to compromised Windows workstations and Linux servers. Als",
+        "title": "Crash-Safe & Copy-On-Write GEFS As The \"Good Enough File-System\" For OpenBSD",
+        "date": "Wed, 16 Sep 2026 09:42:00 -0400",
+        "url": "https://www.phoronix.com/news/OpenBSD-GEFS-File-System",
+        "source": "Phoronix",
+        "summary": "Ori Bernstein announced an early preview of his Good Enough File-System \"GEFS\" for OpenBSD. GEFS is a crash-safe, snapshotting, copy-on-write file-system that he wrote  initially for 9front and now po",
         "cve": []
     },
     {
-        "title": "Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional",
-        "date": "Wed, 16 Sep 2026 11:58:22 +0000",
-        "url": "https://gbhackers.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/",
-        "source": "GBHackers",
-        "summary": "Stamford, CT, September 16th, 2026, CyberNewswire Now in early access, AxoDetect runs Sigma rules in stream alerts travel to the SIEM, and full-fidelity logs land in AxoLake, a low-cost security data ",
+        "title": "Linux Randomly Picking Idle CPU Cores Shows Modest Win On High Core Count Systems",
+        "date": "Wed, 16 Sep 2026 09:30:04 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Random-Equal-Idle-CPUs",
+        "source": "Phoronix",
+        "summary": "Arm engineer Christian Loehle sent out a patch series today proposing that the Linux scheduler code randomize its picking of equally shallow idle CPU cores. This  randomization is showing to deliver a",
         "cve": []
     },
     {
-        "title": "Smishing Triad Hackers Use JWR Phishing Kit to Steal Cards, OTPs and Bank Credentials",
-        "date": "Wed, 16 Sep 2026 11:57:57 +0000",
-        "url": "https://gbhackers.com/jwr-phishing-kit/",
-        "source": "GBHackers",
-        "summary": "A large-scale SMS phishing campaign linked to the Smishing Triad is using a sophisticated phishing kit dubbed JWR to harvest payment-card data, one-time passwords, online-banking credentials, identity",
+        "title": "AMD Sends Out Linux Patches For Enabling SEV-TIO TDISP With PCIe 6.0",
+        "date": "Wed, 16 Sep 2026 09:02:52 -0400",
+        "url": "https://www.phoronix.com/news/AMD-SEV-TIO-TDISP-Linux-Patches",
+        "source": "Phoronix",
+        "summary": "The newest Linux kernel patches out of AMD for enhancing the upstream support with the new AMD EPYC 9006 \"Venice\" processors is for enabling SEV-TIO TDISP that is supported with PCI Express 6.0 and be",
         "cve": []
     },
     {
-        "title": "CenterPoint Energy Confirms Data Breach Exposing Customers’ Personal Information",
-        "date": "Wed, 16 Sep 2026 11:40:21 +0000",
-        "url": "https://gbhackers.com/centerpoint-energy-confirms-data-breach/",
-        "source": "GBHackers",
-        "summary": "CenterPoint Energy has confirmed that an unauthorized third party accessed personal information belonging to some of its customers by compromising one of the utility provider’s external systems. The H",
+        "title": "Ubuntu 26.10 Moves cp, mv & rm Over To Rust Coreutils For 100% Transition",
+        "date": "Wed, 16 Sep 2026 08:26:49 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-Completes-Rust-Coreutils",
+        "source": "Phoronix",
+        "summary": "While Ubuntu Linux has been making use of the Rust Coreutils project over the past year since Ubuntu 25.10  as an alternative to GNU Coreutils and part of their effort to  get more system components i",
         "cve": []
     },
     {
-        "title": "Parallels Desktop Flaw Lets Unprivileged Mac Users Gain Root Access",
-        "date": "Wed, 16 Sep 2026 11:29:45 +0000",
-        "url": "https://gbhackers.com/parallels-desktop-flaw/",
-        "source": "GBHackers",
-        "summary": "A critical local privilege escalation vulnerability in Parallels Desktop could allow an unprivileged macOS user or a malicious process to gain root-level access to the host system. The issue, tracked ",
+        "title": "Linux's Yogafan Driver Prepares Support For Newer Lenovo Laptops",
+        "date": "Wed, 16 Sep 2026 06:29:22 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Yogafan-More-Laptops",
+        "source": "Phoronix",
+        "summary": "Introduced back in Linux 7.1 was the Yogafan HWMON driver for supporting fan speed monitoring across various Lenovo Yoga, Legion, Flex, Slim, and IdeaPad laptops. An initial set of Lenovo laptops was ",
         "cve": []
     },
     {
-        "title": "Acronis Backup Plugin Vulnerability Exploited in the Wild to Gain Elevated Linux Privileges",
-        "date": "Wed, 16 Sep 2026 09:57:44 +0000",
-        "url": "https://gbhackers.com/acronis-backup-plugin-vulnerability/",
-        "source": "GBHackers",
-        "summary": "Acronis has released an urgent security update for a high-severity local privilege escalation vulnerability affecting its Backup plugin for cPanel &#38; WHM on Linux. The company confirmed that attack",
-        "cve": []
-    },
-    {
-        "title": "12 Best Kubernetes Security Tools Compared (2026): Features & Pricing",
-        "date": "Wed, 16 Sep 2026 09:52:52 +0000",
-        "url": "https://gbhackers.com/12-best-kubernetes-security-tools-compared-2026-features-pricing/",
-        "source": "GBHackers",
-        "summary": "Quick Answer: Kubernetes security quotes hinge on the node-vs-cluster-vs-developer unit choice, and the OSS floor (Kubescape, Falco, Calico, NeuVector, Cilium/Tetragon) resets every negotiation. Sysdi",
+        "title": "AMD's GAIA Local AI Now Able To Transcribe & Summarize Meeting Recordings",
+        "date": "Wed, 16 Sep 2026 06:19:10 -0400",
+        "url": "https://www.phoronix.com/news/AMD-GAIA-0.24-Local-AI",
+        "source": "Phoronix",
+        "summary": "AMD's GAIA software for building AI agents on your PC and leveraging generative AI locally with the power of AMD Ryzen and Radeon hardware continues becoming more featureful. Out today is AMD GAIA 0.2",
         "cve": []
     }
 ]
