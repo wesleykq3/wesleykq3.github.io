@@ -1,5 +1,53 @@
 [
     {
+        "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+        "date": "Fri, 18 Sep 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold S",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams will let admins block custom file extensions",
+        "date": "Fri, 18 Sep 2026 09:58:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
+        "cve": []
+    },
+    {
+        "title": "Webinar: Which Google Workspace security controls actually matter?",
+        "date": "Fri, 18 Sep 2026 09:10:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+        "source": "BleepingComputer",
+        "summary": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security ",
+        "cve": []
+    },
+    {
+        "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
+        "date": "Fri, 18 Sep 2026 08:16:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
+        "cve": []
+    },
+    {
+        "title": "New Check Point flaw lets hackers execute code with root privileges",
+        "date": "Fri, 18 Sep 2026 05:34:33 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+        "source": "BleepingComputer",
+        "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+        "date": "Fri, 18 Sep 2026 03:35:31 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+        "cve": []
+    },
+    {
         "title": "New RatHat Android malware uses AI to automate device control",
         "date": "Thu, 17 Sep 2026 17:50:26 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
@@ -32,131 +80,163 @@
         "cve": []
     },
     {
-        "title": "Windows 11 24H2 Home and Pro reach end of support in October",
-        "date": "Thu, 17 Sep 2026 09:09:09 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [...]",
-        "cve": []
-    },
-    {
-        "title": "US takes down NightmareStresser DDoS-for-hire platform",
-        "date": "Thu, 17 Sep 2026 07:33:35 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed denial-of-service (DDoS) platforms. [...]",
-        "cve": []
-    },
-    {
-        "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
-        "date": "Thu, 17 Sep 2026 05:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft shares workaround for Windows domain login issues",
-        "date": "Thu, 17 Sep 2026 04:24:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft shared a temporary fix on Wednesday for a known issue that prevents Windows 11 users from logging in with valid domain credentials after installing the September 2026 security updates. [...]",
-        "cve": []
-    },
-    {
-        "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
-        "date": "Thu, 17 Sep 2026 03:20:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
-        "cve": []
-    },
-    {
-        "title": "Anthropic wants Claude to analyze your bank account and financial data",
-        "date": "Wed, 16 Sep 2026 20:35:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
-        "source": "BleepingComputer",
-        "summary": "Anthropic is testing a new personal finance feature called \"Claude Money\" that will allow you to connect your bank accounts directly to Claude and \"understand your money.\" [...]",
-        "cve": []
-    },
-    {
-        "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-        "date": "Thu, 17 Sep 2026 18:00:00 +0530",
-        "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+        "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+        "date": "Fri, 18 Sep 2026 18:17:04 +0530",
+        "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
         "source": "The Hacker News",
-        "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who control",
+        "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, track",
         "cve": []
     },
     {
-        "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-        "date": "Thu, 17 Sep 2026 17:20:00 +0530",
-        "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+        "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+        "date": "Fri, 18 Sep 2026 16:31:16 +0530",
+        "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
         "source": "The Hacker News",
-        "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is ",
+        "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire",
         "cve": []
     },
     {
-        "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-        "date": "Thu, 17 Sep 2026 16:20:53 +0530",
-        "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+        "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+        "date": "Fri, 18 Sep 2026 16:31:01 +0530",
+        "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
         "source": "The Hacker News",
-        "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how a",
+        "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a spec",
         "cve": []
     },
     {
-        "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-        "date": "Thu, 17 Sep 2026 15:35:45 +0530",
-        "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+        "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+        "date": "Fri, 18 Sep 2026 16:10:06 +0530",
+        "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
         "source": "The Hacker News",
-        "summary": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin A",
+        "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, pe",
         "cve": []
     },
     {
-        "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-        "date": "Thu, 17 Sep 2026 15:23:38 +0530",
-        "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+        "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+        "date": "Fri, 18 Sep 2026 14:48:03 +0530",
+        "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
         "source": "The Hacker News",
-        "summary": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigat",
+        "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The develo",
         "cve": []
     },
     {
-        "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
-        "date": "Thu, 17 Sep 2026 13:30:29 +0530",
-        "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+        "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+        "date": "Fri, 18 Sep 2026 11:47:25 +0530",
+        "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
         "source": "The Hacker News",
-        "summary": "The Internet Systems Consortium (ISC) has released&nbsp;BIND 9.20.29 and 9.21.26&nbsp;to fix fourteen security flaws it&nbsp;disclosed&nbsp;on 16 September in BIND 9, its open-source DNS server softwa",
+        "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to na",
         "cve": []
     },
     {
-        "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
-        "date": "Thu, 17 Sep 2026 13:00:01 +0530",
-        "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+        "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+        "date": "Thu, 17 Sep 2026 23:38:28 +0530",
+        "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
         "source": "The Hacker News",
-        "summary": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a&nbsp;notice&nbs",
+        "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.\n\nThe Security Man",
         "cve": []
     },
     {
-        "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-        "date": "Thu, 17 Sep 2026 12:09:40 +0530",
-        "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+        "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+        "date": "Thu, 17 Sep 2026 23:02:22 +0530",
+        "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
         "source": "The Hacker News",
-        "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-76460 (CVSS score: ",
+        "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold",
         "cve": []
     },
     {
-        "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
-        "date": "Thu, 17 Sep 2026 10:43:46 +0530",
-        "url": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+        "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+        "date": "Thu, 17 Sep 2026 21:07:56 +0530",
+        "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
         "source": "The Hacker News",
-        "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStr",
+        "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;s",
         "cve": []
     },
     {
-        "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-        "date": "Wed, 16 Sep 2026 21:20:59 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+        "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+        "date": "Thu, 17 Sep 2026 19:33:13 +0530",
+        "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
         "source": "The Hacker News",
-        "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.\n\nThe vulnerability in question is CVE-",
+        "summary": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.\n\n\"HEAVYGRAM ",
+        "cve": []
+    },
+    {
+        "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
+        "date": "Fri, 18 Sep 2026 14:14:16 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthen",
+        "cve": []
+    },
+    {
+        "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
+        "date": "Fri, 18 Sep 2026 13:59:26 +0000",
+        "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
+        "source": "CyberSecurityNews",
+        "summary": "Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can",
+        "cve": []
+    },
+    {
+        "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
+        "date": "Fri, 18 Sep 2026 13:44:33 +0000",
+        "url": "https://cybersecuritynews.com/new-settra-ransomware/",
+        "source": "CyberSecurityNews",
+        "summary": "Settra ransomware is emerging as a serious threat to Windows networks after investigators linked it to two recent intrusions involving remote-management software and recovery-blocking actions. The ope",
+        "cve": []
+    },
+    {
+        "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
+        "date": "Fri, 18 Sep 2026 13:24:09 +0000",
+        "url": "https://cybersecuritynews.com/ai-agents-3/",
+        "source": "CyberSecurityNews",
+        "summary": "Ransomware attacks are entering a new phase. Researchers have documented a campaign in which an AI agent planned, executed, and escalated an extortion operation without evidence that a human approved ",
+        "cve": []
+    },
+    {
+        "title": "Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access",
+        "date": "Fri, 18 Sep 2026 13:13:23 +0000",
+        "url": "https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Four newly disclosed Linux kernel vulnerabilities could allow local attackers to corrupt kernel memory and escalate privileges to root on affected systems. The flaws, named DirtyAH6, TUNderflow, PPPoE",
+        "cve": []
+    },
+    {
+        "title": "Hackers Impersonate ChatGPT Subscription Alerts to Steal OpenAI Account Credentials",
+        "date": "Fri, 18 Sep 2026 12:30:16 +0000",
+        "url": "https://cybersecuritynews.com/chatgpt-subscription/",
+        "source": "CyberSecurityNews",
+        "summary": "ChatGPT subscription notices have become the latest cover for credential-stealing emails. The campaign uses a familiar billing problem to push recipients toward a fake sign-in page, where attackers ca",
+        "cve": []
+    },
+    {
+        "title": "Tutor LMS Flaw Exposes 100,000+ WordPress Sites to Remote Code Execution",
+        "date": "Fri, 18 Sep 2026 11:52:01 +0000",
+        "url": "https://cybersecuritynews.com/tutor-lms-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "A high-severity flaw in the Tutor LMS WordPress plugin could let a low-privileged user take control of an affected server. The issue affects more than 100,000 sites that use the e-learning plugin, par",
+        "cve": []
+    },
+    {
+        "title": "Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws",
+        "date": "Fri, 18 Sep 2026 11:24:13 +0000",
+        "url": "https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Google has released Chrome 153 to the Stable channel for Windows, macOS, and Linux, addressing 16 security vulnerabilities, including two critical memory-safety flaws in Dawn and WebGL. The update is ",
+        "cve": []
+    },
+    {
+        "title": "Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches",
+        "date": "Fri, 18 Sep 2026 10:46:01 +0000",
+        "url": "https://cybersecuritynews.com/android-apps-check-security-patches/",
+        "source": "CyberSecurityNews",
+        "summary": "Android has released new Security State libraries that allow apps and enterprise tools to check whether a device is missing important security patches. The update gives developers a more detailed view",
+        "cve": []
+    },
+    {
+        "title": "MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login",
+        "date": "Fri, 18 Sep 2026 09:59:32 +0000",
+        "url": "https://cybersecuritynews.com/mikrotrick-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "MikroTik router owners face a security problem after researchers reproduced a takeover chain that can hand an outsider full administrator control without a password. The attack, MikroTrick, targets ex",
         "cve": []
     },
     {
@@ -240,163 +320,83 @@
         "cve": []
     },
     {
-        "title": "“Zero-Code Cloaking”: Attackers Weaponize Google Search and Hacked .ac.th Domain to Bypass Ad Moderation",
-        "date": "Thu, 17 Sep 2026 14:01:33 +0000",
-        "url": "https://gbhackers.com/zero-code-cloaking-attackers-weaponize-google-search-and-hacked-ac-th-domain-to-bypass-ad-moderation/",
+        "title": "PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains",
+        "date": "Fri, 18 Sep 2026 13:43:38 +0000",
+        "url": "https://gbhackers.com/casino-domains-hide-c2-traffic/",
         "source": "GBHackers",
-        "summary": "Security researchers at ADEX have documented a cloaking technique that requires no cloaking code at all. Instead of running user-agent detection on attacker-controlled servers, the operators chained t",
+        "summary": "China-aligned threat actors are using low-quality Chinese-language casino and adult websites to conceal PeckBirdy command-and-control infrastructure, creating a detection challenge for enterprises tha",
         "cve": []
     },
     {
-        "title": "Handala Hack Uses CRUDEEXCLUDE to Disable Defender Protections and Deploy HEAVYGRAM",
-        "date": "Thu, 17 Sep 2026 13:46:47 +0000",
-        "url": "https://gbhackers.com/heavygram-malware-deployment/",
+        "title": "Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware",
+        "date": "Fri, 18 Sep 2026 13:02:07 +0000",
+        "url": "https://gbhackers.com/genielocker-ransomware/",
         "source": "GBHackers",
-        "summary": "A previously undocumented HEAVYGRAM and CRUDEEXCLUDE malware samples linked with moderate confidence to the Iran-aligned Handala Hack operation. The campaign combines targeted social engineering, Micr",
+        "summary": "Feral Wolf has expanded its ransomware tradecraft by abusing exposed Atlassian Confluence servers and insecure 1C:Enterprise deployments to gain access to Russian corporate networks before deploying G",
         "cve": []
     },
     {
-        "title": "SilkParasite Hackers Use SpiceRAT Infrastructure to Target Central Asian Governments and Energy Firms",
-        "date": "Thu, 17 Sep 2026 13:12:50 +0000",
-        "url": "https://gbhackers.com/spicerat-infrastructure/",
+        "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
+        "date": "Fri, 18 Sep 2026 12:50:05 +0000",
+        "url": "https://gbhackers.com/settra-ransomware/",
         "source": "GBHackers",
-        "summary": "A wider cluster of SpiceRAT command-and-control infrastructure has been linked to the SilkParasite cyber-espionage activity targeting government, telecommunications, and energy-related entities across",
+        "summary": "A newly observed ransomware operation dubbed SETTRA is abusing the legitimate MeshAgent remote monitoring and management platform for persistence while using recovery-inhibition and defense-evasion te",
         "cve": []
     },
     {
-        "title": "North Korean IT Workers Pay People to Sit Through Job Interviews While They Control the Computer",
-        "date": "Thu, 17 Sep 2026 12:51:13 +0000",
-        "url": "https://gbhackers.com/proxy-interviews-scam/",
+        "title": "JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data",
+        "date": "Fri, 18 Sep 2026 12:23:02 +0000",
+        "url": "https://gbhackers.com/agentic-ransomware-to-target-ai-models/",
         "source": "GBHackers",
-        "summary": "North Korean IT-worker operators are recruiting foreign nationals to sit on camera during remote job interviews. At the same time, the real candidate provides answers, completes coding tasks, or remot",
+        "summary": "JADEPUFFER, the agentic threat actor first linked to an autonomous ransomware operation against exposed Langflow infrastructure, has evolved its tooling to target artificial intelligence models, train",
         "cve": []
     },
     {
-        "title": "GPT4Free Privacy Risks Expose AI Prompts to Third-Party Servers and Hidden Logs",
-        "date": "Thu, 17 Sep 2026 12:04:20 +0000",
-        "url": "https://gbhackers.com/gpt4free-privacy-risks-expose-ai-prompts/",
+        "title": "Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities",
+        "date": "Fri, 18 Sep 2026 10:36:04 +0000",
+        "url": "https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/",
         "source": "GBHackers",
-        "summary": "Users of the GPT4Free hosted platform might believe they are directly interacting with the selected artificial intelligence model in its web interface. However, recent research suggests that prompts s",
+        "summary": "Google has released Chrome version 153 to the Stable desktop channel, addressing 16 security vulnerabilities, including two critical-severity flaws affecting the Dawn graphics component and WebGL. Thi",
         "cve": []
     },
     {
-        "title": "BIND 9.20.29 Fixes 14 Security Flaws Enabling DNSSEC Bypass and Denial-of-Service Attacks",
-        "date": "Thu, 17 Sep 2026 11:24:46 +0000",
-        "url": "https://gbhackers.com/bind-9-20-29-fixes-14-security-flaws/",
+        "title": "ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts",
+        "date": "Fri, 18 Sep 2026 10:22:51 +0000",
+        "url": "https://gbhackers.com/chatgpt-phishing-campaign/",
         "source": "GBHackers",
-        "summary": "The Internet Systems Consortium (ISC) has released BIND 9.20.29, which addresses 14 security vulnerabilities. These vulnerabilities could enable remote attackers to bypass DNSSEC protections, poison r",
+        "summary": "Threat actors are increasingly impersonating OpenAI’s ChatGPT service in credential-phishing campaigns, exploiting the growing use of generative AI across both enterprise and personal environments. A ",
         "cve": []
     },
     {
-        "title": "FamousSparrow Deploys New SparroWocky Backdoor Against Latin American Governments",
-        "date": "Thu, 17 Sep 2026 11:04:21 +0000",
-        "url": "https://gbhackers.com/sparrowocky-backdoor/",
+        "title": "Linux Kernel Hit by 4 LPE Flaws Enabling Attackers to Gain Root Shell",
+        "date": "Fri, 18 Sep 2026 10:22:48 +0000",
+        "url": "https://gbhackers.com/linux-kernel-hit-by-4-lpe-flaws/",
         "source": "GBHackers",
-        "summary": "China-aligned advanced persistent threat group FamousSparrow has replaced its long-running SparrowDoor implant with a new modular C++ backdoor, SparroWocky, in a sustained cyberespionage campaign agai",
+        "summary": "Linux administrators are being urged to patch four newly disclosed local privilege escalation (LPE) vulnerabilities, collectively known as DirtyAH6, TUNderflow, PPPoEject, and DiagSpill. These vulnera",
         "cve": []
     },
     {
-        "title": "CISA Urges Organizations to Deploy Cyber Decoys to Detect Hackers Inside Networks",
-        "date": "Thu, 17 Sep 2026 11:01:22 +0000",
-        "url": "https://gbhackers.com/cisa-urges-organizations-to-deploy-cyber-decoys/",
+        "title": "Over 100,000 WordPress Sites Exposed to RCE Through Tutor LMS Vulnerability",
+        "date": "Fri, 18 Sep 2026 10:04:39 +0000",
+        "url": "https://gbhackers.com/tutor-lms-vulnerability/",
         "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to deploy cyber decoys, which include fake credentials, systems, data, and services. This strategy aims to expo",
+        "summary": "More than 100,000 WordPress sites using the Tutor LMS e-learning plugin were exposed to a high-severity remote code execution vulnerability that could allow low-privileged users to take control of vul",
         "cve": []
     },
     {
-        "title": "Kubernetes Attack Lets Hackers Steal SPIFFE Workload Identities and Impersonate Applications",
-        "date": "Thu, 17 Sep 2026 10:36:55 +0000",
-        "url": "https://gbhackers.com/kubernetes-identity-attack/",
+        "title": "Researchers Find Security Risks in 73.6% of 61,500 Abandoned IoT Apps",
+        "date": "Fri, 18 Sep 2026 09:45:37 +0000",
+        "url": "https://gbhackers.com/researchers-find-security-risks-in-73-6-of-61500-abandoned-iot-apps/",
         "source": "GBHackers",
-        "summary": "A post-exploitation technique that lets attackers with root-level access to a Kubernetes node steal workload identities issued through SPIFFE/SPIRE and impersonate legitimate applications running on t",
+        "summary": "Researchers have identified significant security and privacy risks across 61,500 abandoned Android Internet-of-Things (IoT) companion applications. Their study found that 73.6% of these apps contained",
         "cve": []
     },
     {
-        "title": "12 Best DSPM Tools Compared (2026): Features & Pricing",
-        "date": "Thu, 17 Sep 2026 10:33:38 +0000",
-        "url": "https://gbhackers.com/best-dspm-compared/",
+        "title": "Critical pgAdmin Authentication Bypass Lets Attackers Login as Administrator Without Credentials",
+        "date": "Fri, 18 Sep 2026 09:31:53 +0000",
+        "url": "https://gbhackers.com/critical-pgadmin-authentication-bypass/",
         "source": "GBHackers",
-        "summary": "Quick Answer: DSPM has the scariest pricing curve in security bills track data volume, and data only grows. Microsoft Purview publishes pay-as-you-go rates (the anchor); Cyera leads the independents; ",
-        "cve": []
-    },
-    {
-        "title": "OpenCL 3.1.2 Released With cl_khr_command_buffer Promoted",
-        "date": "Thu, 17 Sep 2026 20:33:22 -0400",
-        "url": "https://www.phoronix.com/news/OpenCL-3.1.2-Released",
-        "source": "Phoronix",
-        "summary": "The Khronos Group today released the newest revision of the OpenCL specification with a handful of changes...",
-        "cve": []
-    },
-    {
-        "title": "Jemalloc 5.4 Released With Portability Improvements, Code Cleanups",
-        "date": "Thu, 17 Sep 2026 18:37:11 -0400",
-        "url": "https://www.phoronix.com/news/Jemalloc-5.4",
-        "source": "Phoronix",
-        "summary": "Earlier this year Meta announced a renewed investment into the jemalloc memory allocator that's been popular for server and HPC use among various desktop use-cases too. After stagnating a bit in recen",
-        "cve": []
-    },
-    {
-        "title": "Intel Granite Rapids WS vs. AMD Threadripper Zen 5 SMT Performance",
-        "date": "Thu, 17 Sep 2026 15:14:14 -0400",
-        "url": "https://www.phoronix.com/review/amd-zen5-intel-gnr-ws-smt",
-        "source": "Phoronix",
-        "summary": "As a follow-up to the article earlier this month of the Intel Xeon 600 workstation performance against AMD Ryzen Threadripper 9000 series in over 400 benchmarks -- including when carried out at the sa",
-        "cve": []
-    },
-    {
-        "title": "Rust Issues Warning Over Key Developers Being Targeted For Compromise",
-        "date": "Thu, 17 Sep 2026 14:11:30 -0400",
-        "url": "https://www.phoronix.com/news/Rust-Developers-Targeted",
-        "source": "Phoronix",
-        "summary": "The Rust security response working group and Crates.io team have issued a warning that a targeted attack is underway against key Rust programming language developers...",
-        "cve": []
-    },
-    {
-        "title": "Mojo 1.1 Released, Now Accepting Community Contributions To The Compiler",
-        "date": "Thu, 17 Sep 2026 12:26:41 -0400",
-        "url": "https://www.phoronix.com/news/Mojo-1.1-Released",
-        "source": "Phoronix",
-        "summary": "Last month Modular's Mojo language was open-sourced following the acquisition of Modular by Qualcomm. Modular was the AI startup founded by Chris Lattner of LLVM and Swift fame. Released today was Moj",
-        "cve": []
-    },
-    {
-        "title": "Ubuntu 26.10 Snapshot 4 ISOs Published",
-        "date": "Thu, 17 Sep 2026 11:54:15 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Snapshot-4",
-        "source": "Phoronix",
-        "summary": "The fourth monthly-ish snapshot of Ubuntu 26.10 \"Stonking Stingray\" is now available for testing and comes ahead of next week's Ubuntu 26.10 beta milestone...",
-        "cve": []
-    },
-    {
-        "title": "Proposal Raised To Finally Standardize Video Memory Stats Reporting Under Linux",
-        "date": "Thu, 17 Sep 2026 11:17:24 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Standardize-vRAM-Stats",
-        "source": "Phoronix",
-        "summary": "The idea has been talked about before but in 2026 still hasn't made it to the mainline Linux kernel.... Standardized reporting of video memory statistics that would work across different vendors / ker",
-        "cve": []
-    },
-    {
-        "title": "Fujitsu Formally Announces Their MONAKA 144 Core CPU",
-        "date": "Thu, 17 Sep 2026 09:42:37 -0400",
-        "url": "https://www.phoronix.com/news/Fujitsu-MONAKA-Launches",
-        "source": "Phoronix",
-        "summary": "For two years now we have been curious about the Fujitsu MONAKA CPU since some slides about this Arm-based server processor first appeared and they upstreamed compiler support in GCC 15. This week Fuj",
-        "cve": []
-    },
-    {
-        "title": "Intel Compute Stack Enables LEO For Nova Lake, Introduces Intel Portable ISA \"PISA\"",
-        "date": "Thu, 17 Sep 2026 09:05:07 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Compute-Runtime-26.35.397",
-        "source": "Phoronix",
-        "summary": "Released today was the Intel Compute Runtime 26.35.39758.10 update for Windows and Linux systems. With this updated OpenCL and Level Zero GPU compute driver stack comes some exciting updates for this ",
-        "cve": []
-    },
-    {
-        "title": "New Linux Driver Coming To Improve ASUS Zenbook Snapdragon X2 Support",
-        "date": "Thu, 17 Sep 2026 08:04:09 -0400",
-        "url": "https://www.phoronix.com/news/ASUS-Zenbook-Snapdragon-X2-EC",
-        "source": "Phoronix",
-        "summary": "For those hopeful of running Linux well on the ASUS Zenbook A14 or A16 laptops powered by the latest Qualcomm Snapdragon X2 SoC, a new ASUS EC driver has been developed for enhancing the support...",
+        "summary": "A critical vulnerability in pgAdmin 4 could allow unauthenticated remote attackers to impersonate arbitrary users, including existing administrator accounts, by supplying a malicious HTTP identity hea",
         "cve": []
     }
 ]
