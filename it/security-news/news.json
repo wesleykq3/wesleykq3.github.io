@@ -1,5 +1,29 @@
 [
     {
+        "title": "New RatHat Android malware uses AI to automate device control",
+        "date": "Thu, 17 Sep 2026 17:50:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+        "source": "BleepingComputer",
+        "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
+        "cve": []
+    },
+    {
+        "title": "OpenAI details more cases of AI agents taking unauthorized actions",
+        "date": "Thu, 17 Sep 2026 14:55:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and l",
+        "cve": []
+    },
+    {
+        "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+        "date": "Thu, 17 Sep 2026 13:11:34 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+        "source": "BleepingComputer",
+        "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...",
+        "cve": []
+    },
+    {
         "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
         "date": "Thu, 17 Sep 2026 10:01:11 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
@@ -53,30 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
         "source": "BleepingComputer",
         "summary": "Anthropic is testing a new personal finance feature called \"Claude Money\" that will allow you to connect your bank accounts directly to Claude and \"understand your money.\" [...]",
-        "cve": []
-    },
-    {
-        "title": "Windows 11 KB5124008 update breaks domain trust for some users",
-        "date": "Wed, 16 Sep 2026 16:39:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, preventing users from logging in with valid domain c",
-        "cve": []
-    },
-    {
-        "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
-        "date": "Wed, 16 Sep 2026 16:24:55 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
-        "source": "BleepingComputer",
-        "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
-        "cve": []
-    },
-    {
-        "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
-        "date": "Wed, 16 Sep 2026 14:50:53 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
-        "source": "BleepingComputer",
-        "summary": "A banking malware operation active since mid-2025 has been using a toolkit named KREMLIN to install malicious Chrome and Edge extensions that steal credentials, session tokens, and sensitive data. [..",
         "cve": []
     },
     {
@@ -157,86 +157,6 @@
         "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
         "source": "The Hacker News",
         "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.\n\nThe vulnerability in question is CVE-",
-        "cve": []
-    },
-    {
-        "title": "BIND DNS Servers Hit by 14 Security Flaws Enabling Cache Poisoning and Remote Crashes",
-        "date": "Thu, 17 Sep 2026 14:58:48 +0000",
-        "url": "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "Internet Systems Consortium has released security updates for BIND 9 after identifying 14 vulnerabilities that could allow attackers to poison DNS caches, crash exposed servers remotely, exhaust resou",
-        "cve": []
-    },
-    {
-        "title": "CISA Wants Defenders to Plant Fake Credentials and Systems to Catch Hackers",
-        "date": "Thu, 17 Sep 2026 14:28:51 +0000",
-        "url": "https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "CISA has urged organizations to deploy fake credentials, systems, files, and data assets inside their environments to expose attackers after an initial compromise. The agency published its new guidanc",
-        "cve": []
-    },
-    {
-        "title": "Hacked Thai College Website Abused to Redirect Google Searchers to Illegal Online Casino",
-        "date": "Thu, 17 Sep 2026 13:34:09 +0000",
-        "url": "https://cybersecuritynews.com/hacked-thai-college-website-abused-to-redirect-google-searchers-to-illegal-online-casino/",
-        "source": "CyberSecurityNews",
-        "summary": "A compromised Thai college website was quietly turned into a springboard for an illegal online casino, according to new findings from anti-fraud platform ADEX, which says the campaign achieved full ad",
-        "cve": []
-    },
-    {
-        "title": "Hackers Turn Telegram Into a Command Center for HEAVYGRAM Surveillance Malware",
-        "date": "Thu, 17 Sep 2026 12:53:07 +0000",
-        "url": "https://cybersecuritynews.com/heavygram-surveillance-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "HEAVYGRAM is a Windows surveillance backdoor that turns Telegram into an operational command center for attackers. Rather than relying on a dedicated server, it uses bots, accounts and groups to recei",
-        "cve": []
-    },
-    {
-        "title": "SilkParasite-Linked Malware Infrastructure Traced Back Four Years Across Central Asia",
-        "date": "Thu, 17 Sep 2026 12:26:57 +0000",
-        "url": "https://cybersecuritynews.com/silkparasite-linked-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "SilkParasite is a cyberespionage operation aimed at government, energy and telecommunications interests in Central Asia. New infrastructure analysis indicates that the activity behind the campaign may",
-        "cve": []
-    },
-    {
-        "title": "North Korean IT Workers Use AI and Remote Desktop Tools to Fake Technical Interviews",
-        "date": "Thu, 17 Sep 2026 11:56:41 +0000",
-        "url": "https://cybersecuritynews.com/north-korean-it-workers-2/",
-        "source": "CyberSecurityNews",
-        "summary": "North Korean operators are using artificial intelligence, remote-control software, and hired stand-ins to make fraudulent job candidates look genuine during technical interviews. The scheme turns rout",
-        "cve": []
-    },
-    {
-        "title": "FamousSparrow Exploits Public-Facing Exchange Servers to Deploy SparroWocky Backdoor",
-        "date": "Thu, 17 Sep 2026 11:20:03 +0000",
-        "url": "https://cybersecuritynews.com/famoussparrow-exploits/",
-        "source": "CyberSecurityNews",
-        "summary": "FamousSparrow has introduced a new backdoor called SparroWocky after breaking into public-facing Microsoft Exchange servers. The campaign shows how a known espionage group can turn an exposed email sy",
-        "cve": []
-    },
-    {
-        "title": "Critical Docker Sandbox Vulnerabilities Enable Malicious Guests to Escape Isolated microVM Workspaces",
-        "date": "Thu, 17 Sep 2026 11:15:48 +0000",
-        "url": "https://cybersecuritynews.com/critical-docker-sandboxes-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Docker patched two serious vulnerabilities in Docker Sandboxes that could let a malicious guest workload break out of its intended shared workspace and access sensitive host-side resources. The flaws,",
-        "cve": []
-    },
-    {
-        "title": "Cisco Warns of Critical ISE 0-Day Vulnerability Exploited in Attacks",
-        "date": "Thu, 17 Sep 2026 11:10:16 +0000",
-        "url": "https://cybersecuritynews.com/cisco-warns-of-critical-ise-0-day-vulnerability-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "Cisco has issued an urgent security advisory for a critical zero-day vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC). The flaw, tracked as CVE-",
-        "cve": []
-    },
-    {
-        "title": "One Compromised Kubernetes Node Can Expose Every Workload Identity Running on It",
-        "date": "Thu, 17 Sep 2026 11:02:59 +0000",
-        "url": "https://cybersecuritynews.com/kubernetes-node/",
-        "source": "CyberSecurityNews",
-        "summary": "A Kubernetes node becomes an identity breach point when an attacker gains root access. Research shows a hostile process can impersonate other workloads and obtain their credentials, turning one footho",
         "cve": []
     },
     {
@@ -397,6 +317,86 @@
         "url": "https://gbhackers.com/best-dspm-compared/",
         "source": "GBHackers",
         "summary": "Quick Answer: DSPM has the scariest pricing curve in security bills track data volume, and data only grows. Microsoft Purview publishes pay-as-you-go rates (the anchor); Cyera leads the independents; ",
+        "cve": []
+    },
+    {
+        "title": "OpenCL 3.1.2 Released With cl_khr_command_buffer Promoted",
+        "date": "Thu, 17 Sep 2026 20:33:22 -0400",
+        "url": "https://www.phoronix.com/news/OpenCL-3.1.2-Released",
+        "source": "Phoronix",
+        "summary": "The Khronos Group today released the newest revision of the OpenCL specification with a handful of changes...",
+        "cve": []
+    },
+    {
+        "title": "Jemalloc 5.4 Released With Portability Improvements, Code Cleanups",
+        "date": "Thu, 17 Sep 2026 18:37:11 -0400",
+        "url": "https://www.phoronix.com/news/Jemalloc-5.4",
+        "source": "Phoronix",
+        "summary": "Earlier this year Meta announced a renewed investment into the jemalloc memory allocator that's been popular for server and HPC use among various desktop use-cases too. After stagnating a bit in recen",
+        "cve": []
+    },
+    {
+        "title": "Intel Granite Rapids WS vs. AMD Threadripper Zen 5 SMT Performance",
+        "date": "Thu, 17 Sep 2026 15:14:14 -0400",
+        "url": "https://www.phoronix.com/review/amd-zen5-intel-gnr-ws-smt",
+        "source": "Phoronix",
+        "summary": "As a follow-up to the article earlier this month of the Intel Xeon 600 workstation performance against AMD Ryzen Threadripper 9000 series in over 400 benchmarks -- including when carried out at the sa",
+        "cve": []
+    },
+    {
+        "title": "Rust Issues Warning Over Key Developers Being Targeted For Compromise",
+        "date": "Thu, 17 Sep 2026 14:11:30 -0400",
+        "url": "https://www.phoronix.com/news/Rust-Developers-Targeted",
+        "source": "Phoronix",
+        "summary": "The Rust security response working group and Crates.io team have issued a warning that a targeted attack is underway against key Rust programming language developers...",
+        "cve": []
+    },
+    {
+        "title": "Mojo 1.1 Released, Now Accepting Community Contributions To The Compiler",
+        "date": "Thu, 17 Sep 2026 12:26:41 -0400",
+        "url": "https://www.phoronix.com/news/Mojo-1.1-Released",
+        "source": "Phoronix",
+        "summary": "Last month Modular's Mojo language was open-sourced following the acquisition of Modular by Qualcomm. Modular was the AI startup founded by Chris Lattner of LLVM and Swift fame. Released today was Moj",
+        "cve": []
+    },
+    {
+        "title": "Ubuntu 26.10 Snapshot 4 ISOs Published",
+        "date": "Thu, 17 Sep 2026 11:54:15 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Snapshot-4",
+        "source": "Phoronix",
+        "summary": "The fourth monthly-ish snapshot of Ubuntu 26.10 \"Stonking Stingray\" is now available for testing and comes ahead of next week's Ubuntu 26.10 beta milestone...",
+        "cve": []
+    },
+    {
+        "title": "Proposal Raised To Finally Standardize Video Memory Stats Reporting Under Linux",
+        "date": "Thu, 17 Sep 2026 11:17:24 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Standardize-vRAM-Stats",
+        "source": "Phoronix",
+        "summary": "The idea has been talked about before but in 2026 still hasn't made it to the mainline Linux kernel.... Standardized reporting of video memory statistics that would work across different vendors / ker",
+        "cve": []
+    },
+    {
+        "title": "Fujitsu Formally Announces Their MONAKA 144 Core CPU",
+        "date": "Thu, 17 Sep 2026 09:42:37 -0400",
+        "url": "https://www.phoronix.com/news/Fujitsu-MONAKA-Launches",
+        "source": "Phoronix",
+        "summary": "For two years now we have been curious about the Fujitsu MONAKA CPU since some slides about this Arm-based server processor first appeared and they upstreamed compiler support in GCC 15. This week Fuj",
+        "cve": []
+    },
+    {
+        "title": "Intel Compute Stack Enables LEO For Nova Lake, Introduces Intel Portable ISA \"PISA\"",
+        "date": "Thu, 17 Sep 2026 09:05:07 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Compute-Runtime-26.35.397",
+        "source": "Phoronix",
+        "summary": "Released today was the Intel Compute Runtime 26.35.39758.10 update for Windows and Linux systems. With this updated OpenCL and Level Zero GPU compute driver stack comes some exciting updates for this ",
+        "cve": []
+    },
+    {
+        "title": "New Linux Driver Coming To Improve ASUS Zenbook Snapdragon X2 Support",
+        "date": "Thu, 17 Sep 2026 08:04:09 -0400",
+        "url": "https://www.phoronix.com/news/ASUS-Zenbook-Snapdragon-X2-EC",
+        "source": "Phoronix",
+        "summary": "For those hopeful of running Linux well on the ASUS Zenbook A14 or A16 laptops powered by the latest Qualcomm Snapdragon X2 SoC, a new ASUS EC driver has been developed for enhancing the support...",
         "cve": []
     }
 ]
