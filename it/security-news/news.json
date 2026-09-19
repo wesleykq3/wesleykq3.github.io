@@ -1,5 +1,21 @@
 [
     {
+        "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+        "date": "Fri, 18 Sep 2026 12:00:38 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+        "source": "BleepingComputer",
+        "summary": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
+        "cve": []
+    },
+    {
+        "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
+        "date": "Fri, 18 Sep 2026 11:19:06 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+        "source": "BleepingComputer",
+        "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
+        "cve": []
+    },
+    {
         "title": "Secure enterprise sharing with access reviews for Microsoft 365",
         "date": "Fri, 18 Sep 2026 10:00:10 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
@@ -64,19 +80,27 @@
         "cve": []
     },
     {
-        "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-        "date": "Thu, 17 Sep 2026 13:11:34 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
-        "source": "BleepingComputer",
-        "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...",
+        "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+        "date": "Fri, 18 Sep 2026 23:32:24 +0530",
+        "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+        "source": "The Hacker News",
+        "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all f",
         "cve": []
     },
     {
-        "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
-        "date": "Thu, 17 Sep 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
-        "source": "BleepingComputer",
-        "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication",
+        "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+        "date": "Fri, 18 Sep 2026 22:26:19 +0530",
+        "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+        "source": "The Hacker News",
+        "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the",
+        "cve": []
+    },
+    {
+        "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+        "date": "Fri, 18 Sep 2026 20:54:16 +0530",
+        "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+        "source": "The Hacker News",
+        "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India an",
         "cve": []
     },
     {
@@ -133,110 +157,6 @@
         "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
         "source": "The Hacker News",
         "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.\n\nThe Security Man",
-        "cve": []
-    },
-    {
-        "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-        "date": "Thu, 17 Sep 2026 23:02:22 +0530",
-        "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
-        "source": "The Hacker News",
-        "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold",
-        "cve": []
-    },
-    {
-        "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-        "date": "Thu, 17 Sep 2026 21:07:56 +0530",
-        "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-        "source": "The Hacker News",
-        "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;s",
-        "cve": []
-    },
-    {
-        "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
-        "date": "Thu, 17 Sep 2026 19:33:13 +0530",
-        "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
-        "source": "The Hacker News",
-        "summary": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.\n\n\"HEAVYGRAM ",
-        "cve": []
-    },
-    {
-        "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
-        "date": "Fri, 18 Sep 2026 14:14:16 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthen",
-        "cve": []
-    },
-    {
-        "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
-        "date": "Fri, 18 Sep 2026 13:59:26 +0000",
-        "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
-        "source": "CyberSecurityNews",
-        "summary": "Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can",
-        "cve": []
-    },
-    {
-        "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-        "date": "Fri, 18 Sep 2026 13:44:33 +0000",
-        "url": "https://cybersecuritynews.com/new-settra-ransomware/",
-        "source": "CyberSecurityNews",
-        "summary": "Settra ransomware is emerging as a serious threat to Windows networks after investigators linked it to two recent intrusions involving remote-management software and recovery-blocking actions. The ope",
-        "cve": []
-    },
-    {
-        "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
-        "date": "Fri, 18 Sep 2026 13:24:09 +0000",
-        "url": "https://cybersecuritynews.com/ai-agents-3/",
-        "source": "CyberSecurityNews",
-        "summary": "Ransomware attacks are entering a new phase. Researchers have documented a campaign in which an AI agent planned, executed, and escalated an extortion operation without evidence that a human approved ",
-        "cve": []
-    },
-    {
-        "title": "Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access",
-        "date": "Fri, 18 Sep 2026 13:13:23 +0000",
-        "url": "https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "Four newly disclosed Linux kernel vulnerabilities could allow local attackers to corrupt kernel memory and escalate privileges to root on affected systems. The flaws, named DirtyAH6, TUNderflow, PPPoE",
-        "cve": []
-    },
-    {
-        "title": "Hackers Impersonate ChatGPT Subscription Alerts to Steal OpenAI Account Credentials",
-        "date": "Fri, 18 Sep 2026 12:30:16 +0000",
-        "url": "https://cybersecuritynews.com/chatgpt-subscription/",
-        "source": "CyberSecurityNews",
-        "summary": "ChatGPT subscription notices have become the latest cover for credential-stealing emails. The campaign uses a familiar billing problem to push recipients toward a fake sign-in page, where attackers ca",
-        "cve": []
-    },
-    {
-        "title": "Tutor LMS Flaw Exposes 100,000+ WordPress Sites to Remote Code Execution",
-        "date": "Fri, 18 Sep 2026 11:52:01 +0000",
-        "url": "https://cybersecuritynews.com/tutor-lms-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "A high-severity flaw in the Tutor LMS WordPress plugin could let a low-privileged user take control of an affected server. The issue affects more than 100,000 sites that use the e-learning plugin, par",
-        "cve": []
-    },
-    {
-        "title": "Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws",
-        "date": "Fri, 18 Sep 2026 11:24:13 +0000",
-        "url": "https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Google has released Chrome 153 to the Stable channel for Windows, macOS, and Linux, addressing 16 security vulnerabilities, including two critical memory-safety flaws in Dawn and WebGL. The update is ",
-        "cve": []
-    },
-    {
-        "title": "Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches",
-        "date": "Fri, 18 Sep 2026 10:46:01 +0000",
-        "url": "https://cybersecuritynews.com/android-apps-check-security-patches/",
-        "source": "CyberSecurityNews",
-        "summary": "Android has released new Security State libraries that allow apps and enterprise tools to check whether a device is missing important security patches. The update gives developers a more detailed view",
-        "cve": []
-    },
-    {
-        "title": "MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login",
-        "date": "Fri, 18 Sep 2026 09:59:32 +0000",
-        "url": "https://cybersecuritynews.com/mikrotrick-attack/",
-        "source": "CyberSecurityNews",
-        "summary": "MikroTik router owners face a security problem after researchers reproduced a takeover chain that can hand an outsider full administrator control without a password. The attack, MikroTrick, targets ex",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains",
-        "date": "Fri, 18 Sep 2026 13:43:38 +0000",
-        "url": "https://gbhackers.com/casino-domains-hide-c2-traffic/",
-        "source": "GBHackers",
-        "summary": "China-aligned threat actors are using low-quality Chinese-language casino and adult websites to conceal PeckBirdy command-and-control infrastructure, creating a detection challenge for enterprises tha",
+        "title": "Ubuntu 26.10 Switches To The Linux 7.3 Kernel",
+        "date": "Fri, 18 Sep 2026 20:50:25 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-With-Linux-7.3",
+        "source": "Phoronix",
+        "summary": "As a very pleasant surprise, the upcoming Ubuntu 26.10 release will now be powered by the Linux 7.3 kernel rather than their original plans and switch over to the Linux 7.2 kernel...",
         "cve": []
     },
     {
-        "title": "Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware",
-        "date": "Fri, 18 Sep 2026 13:02:07 +0000",
-        "url": "https://gbhackers.com/genielocker-ransomware/",
-        "source": "GBHackers",
-        "summary": "Feral Wolf has expanded its ransomware tradecraft by abusing exposed Atlassian Confluence servers and insecure 1C:Enterprise deployments to gain access to Russian corporate networks before deploying G",
+        "title": "Wine 11.18 Continues Building Out Its NTOSKRNL Implementation",
+        "date": "Fri, 18 Sep 2026 17:24:50 -0400",
+        "url": "https://www.phoronix.com/news/Wine-11.18-Released",
+        "source": "Phoronix",
+        "summary": "Wine 11.18 is out today as the newest bi-weekly development release of this open-source software for running Windows games and apps on Linux, macOS, and other platforms...",
         "cve": []
     },
     {
-        "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-        "date": "Fri, 18 Sep 2026 12:50:05 +0000",
-        "url": "https://gbhackers.com/settra-ransomware/",
-        "source": "GBHackers",
-        "summary": "A newly observed ransomware operation dubbed SETTRA is abusing the legitimate MeshAgent remote monitoring and management platform for persistence while using recovery-inhibition and defense-evasion te",
+        "title": "Steam Frame Making Use Of Zink For OpenGL On Vulkan",
+        "date": "Fri, 18 Sep 2026 16:13:08 -0400",
+        "url": "https://www.phoronix.com/news/Steam-Frame-Uses-Zink",
+        "source": "Phoronix",
+        "summary": "Valve's Steam Frame VR headset that makes use of a Qualcomm Snapdragon 8 Gen 3 SoC with Adreno graphics is using the open-source \"Turnip\" Vulkan driver from Mesa as reported last year. For OpenGL it t",
         "cve": []
     },
     {
-        "title": "JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data",
-        "date": "Fri, 18 Sep 2026 12:23:02 +0000",
-        "url": "https://gbhackers.com/agentic-ransomware-to-target-ai-models/",
-        "source": "GBHackers",
-        "summary": "JADEPUFFER, the agentic threat actor first linked to an autonomous ransomware operation against exposed Langflow infrastructure, has evolved its tooling to target artificial intelligence models, train",
+        "title": "Google's \"Painful To Maintain\" Binder C Linux Driver Being Removed In Favor Of Rust",
+        "date": "Fri, 18 Sep 2026 12:26:32 -0400",
+        "url": "https://www.phoronix.com/news/Google-Binder-C-Goodbye",
+        "source": "Phoronix",
+        "summary": "Google's Binder driver written in the C programming language has long been part of the mainline kernel as the inter-process communication (IPC) mechanism used on Android. The past few years the Binder",
         "cve": []
     },
     {
-        "title": "Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities",
-        "date": "Fri, 18 Sep 2026 10:36:04 +0000",
-        "url": "https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/",
-        "source": "GBHackers",
-        "summary": "Google has released Chrome version 153 to the Stable desktop channel, addressing 16 security vulnerabilities, including two critical-severity flaws affecting the Dawn graphics component and WebGL. Thi",
+        "title": "Help Linux Hardware Testing & Reviews Continue While Enjoying Phoronix Without Ads",
+        "date": "Fri, 18 Sep 2026 12:00:00 -0400",
+        "url": "https://www.phoronix.com/news/Phoronix-Oktoberfest-2026",
+        "source": "Phoronix",
+        "summary": "If you missed out on the Phoronix Premium special back during the 22nd birthday of Phoronix.com in June, there is another promotion now active for helping to support the site and allow for continued d",
         "cve": []
     },
     {
-        "title": "ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts",
-        "date": "Fri, 18 Sep 2026 10:22:51 +0000",
-        "url": "https://gbhackers.com/chatgpt-phishing-campaign/",
-        "source": "GBHackers",
-        "summary": "Threat actors are increasingly impersonating OpenAI’s ChatGPT service in credential-phishing campaigns, exploiting the growing use of generative AI across both enterprise and personal environments. A ",
+        "title": "Apple Video Decode Driver Posted For Upstream Linux Kernel Review",
+        "date": "Fri, 18 Sep 2026 11:52:30 -0400",
+        "url": "https://www.phoronix.com/news/Apple-Video-Decode-AVD-Linux",
+        "source": "Phoronix",
+        "summary": "The latest Apple Silicon enablement code working its way from the Asahi Linux project toward the upstream Linux kernel is the AVD driver used for accelerated video playback across Apple M1 / M2 / M3 S",
         "cve": []
     },
     {
-        "title": "Linux Kernel Hit by 4 LPE Flaws Enabling Attackers to Gain Root Shell",
-        "date": "Fri, 18 Sep 2026 10:22:48 +0000",
-        "url": "https://gbhackers.com/linux-kernel-hit-by-4-lpe-flaws/",
-        "source": "GBHackers",
-        "summary": "Linux administrators are being urged to patch four newly disclosed local privilege escalation (LPE) vulnerabilities, collectively known as DirtyAH6, TUNderflow, PPPoEject, and DiagSpill. These vulnera",
+        "title": "AMD Strix Halo Enjoys Some Performance Gains On Ubuntu 26.10, Especially With amd64v3",
+        "date": "Fri, 18 Sep 2026 10:00:00 -0400",
+        "url": "https://www.phoronix.com/review/ubuntu-2610-strix-halo",
+        "source": "Phoronix",
+        "summary": "Ahead of next week's Ubuntu 26.10 beta release I have been testing the \"Stonking Stingray\" on a variety of systems. Ubuntu 26.10 is performing well overall with some nice upgrades over Ubuntu 26.04 LT",
         "cve": []
     },
     {
-        "title": "Over 100,000 WordPress Sites Exposed to RCE Through Tutor LMS Vulnerability",
-        "date": "Fri, 18 Sep 2026 10:04:39 +0000",
-        "url": "https://gbhackers.com/tutor-lms-vulnerability/",
-        "source": "GBHackers",
-        "summary": "More than 100,000 WordPress sites using the Tutor LMS e-learning plugin were exposed to a high-severity remote code execution vulnerability that could allow low-privileged users to take control of vul",
+        "title": "Linux Ready With Fix For Intel's FRED Crashing Some Games Under Wine / Steam Play",
+        "date": "Fri, 18 Sep 2026 09:03:06 -0400",
+        "url": "https://www.phoronix.com/news/Linux-FRED-Fix-For-Wine-Games",
+        "source": "Phoronix",
+        "summary": "Recently there have been some bug reports to Mesa around Intel Panther Lake graphics crashing with some games like Red Dead Redemption 2 and Elden Ring crashing or freezing quite quickly. This turns o",
         "cve": []
     },
     {
-        "title": "Researchers Find Security Risks in 73.6% of 61,500 Abandoned IoT Apps",
-        "date": "Fri, 18 Sep 2026 09:45:37 +0000",
-        "url": "https://gbhackers.com/researchers-find-security-risks-in-73-6-of-61500-abandoned-iot-apps/",
-        "source": "GBHackers",
-        "summary": "Researchers have identified significant security and privacy risks across 61,500 abandoned Android Internet-of-Things (IoT) companion applications. Their study found that 73.6% of these apps contained",
+        "title": "Ubuntu 26.10 Desktop Adjusting Its Behavior Under Memory Pressure",
+        "date": "Fri, 18 Sep 2026 06:40:00 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-OOM-Adjustments",
+        "source": "Phoronix",
+        "summary": "The Ubuntu 26.10 desktop is adjusting its default out-of-memory (OOM) daemon behavior when dealing with memory pressure on the system...",
         "cve": []
     },
     {
-        "title": "Critical pgAdmin Authentication Bypass Lets Attackers Login as Administrator Without Credentials",
-        "date": "Fri, 18 Sep 2026 09:31:53 +0000",
-        "url": "https://gbhackers.com/critical-pgadmin-authentication-bypass/",
-        "source": "GBHackers",
-        "summary": "A critical vulnerability in pgAdmin 4 could allow unauthenticated remote attackers to impersonate arbitrary users, including existing administrator accounts, by supplying a malicious HTTP identity hea",
+        "title": "Linux Kernel Build Times Ready To Be Significantly Reduced With Latest Patches",
+        "date": "Fri, 18 Sep 2026 06:26:22 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Kbuild-Faster-v3",
+        "source": "Phoronix",
+        "summary": "The past few weeks we have eagerly been following a Linux kernel patch series after AI found some major bottlenecks in the Linux kernel build code. With AI helping to address these bottlenecks, Linux ",
         "cve": []
     }
 ]
