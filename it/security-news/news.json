@@ -1,5 +1,21 @@
 [
     {
+        "title": "Malicious npm packages evade install-script defenses at runtime",
+        "date": "Sun, 20 Sep 2026 10:11:21 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+        "source": "BleepingComputer",
+        "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than i",
+        "cve": []
+    },
+    {
+        "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+        "date": "Sun, 20 Sep 2026 08:00:00 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+        "source": "BleepingComputer",
+        "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
+        "cve": []
+    },
+    {
         "title": "BragJack attacks hijack AI browser agents through malicious extensions",
         "date": "Sat, 19 Sep 2026 10:56:31 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
@@ -61,22 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
         "source": "BleepingComputer",
         "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
-        "cve": []
-    },
-    {
-        "title": "Webinar: Which Google Workspace security controls actually matter?",
-        "date": "Fri, 18 Sep 2026 09:10:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
-        "source": "BleepingComputer",
-        "summary": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
-        "date": "Fri, 18 Sep 2026 08:16:32 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,86 @@
         "cve": []
     },
     {
+        "title": "Business Survival in the Age of AI",
+        "date": "Sun, 20 Sep 2026 08:54:42 +0000",
+        "url": "https://cybersecuritynews.com/business-survival-in-the-age-of-ai/",
+        "source": "CyberSecurityNews",
+        "summary": "Adam Ochayon, VP of Strategy, Oasis Security&#160; Deploying agentic AI in the enterprise is no longer optional &#8211;&#160;it’s&#160;fundamental to survival.&#160;And the main unlock to ensure secur",
+        "cve": []
+    },
+    {
+        "title": "Autonomous AI Attacks: The Hugging Face Reality Check",
+        "date": "Sun, 20 Sep 2026 05:09:00 +0000",
+        "url": "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check/",
+        "source": "CyberSecurityNews",
+        "summary": "For several years the forecast has been constant: AI lowers the skill barrier, AI&#160;writes&#160;novel&#160;malware,&#160;AI will soon run attacks end to end with minimal human direction. It is wort",
+        "cve": []
+    },
+    {
+        "title": "When Ransomware Targets AI Models: Defending the AI/ML Recovery Chain",
+        "date": "Sun, 20 Sep 2026 04:42:15 +0000",
+        "url": "https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain/",
+        "source": "CyberSecurityNews",
+        "summary": "By Crystal Morin&#160; Ransomware crews have always followed the money. For years, that meant targets like banks and hospitals organizations with high-value assets and sensitive data who couldn’t affo",
+        "cve": []
+    },
+    {
+        "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
+        "date": "Sat, 19 Sep 2026 15:09:43 +0000",
+        "url": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation dea",
+        "cve": []
+    },
+    {
+        "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
+        "date": "Sat, 19 Sep 2026 11:21:50 +0000",
+        "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee’s account was compromised through May’s TanStack npm supply chain attack. The May 22 theft re",
+        "cve": []
+    },
+    {
+        "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
+        "date": "Sat, 19 Sep 2026 08:59:08 +0000",
+        "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
+        "source": "CyberSecurityNews",
+        "summary": "Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to ",
+        "cve": []
+    },
+    {
+        "title": "Click2Shell WordPress Flaw Lets Attackers Gain RCE With a Single Malicious Link",
+        "date": "Sat, 19 Sep 2026 04:30:11 +0000",
+        "url": "https://cybersecuritynews.com/click2shell-wordpress-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "WordPress administrators are being urged to update after researchers disclosed Click2Shell, an exploit chain that can turn one malicious link into remote code execution (RCE) on a vulnerable website. ",
+        "cve": []
+    },
+    {
+        "title": "BragJack Attack Lets Malicious Extensions Hijack AI Agents Across 5 Major Browsers",
+        "date": "Sat, 19 Sep 2026 03:05:12 +0000",
+        "url": "https://cybersecuritynews.com/bragjack-ai-agent-hijacking/",
+        "source": "CyberSecurityNews",
+        "summary": "A new attack technique dubbed &#8220;BragJack&#8221; allows a malicious browser extension to seize trusted communication channels used by AI assistants in Chrome, Edge, Opera Neon, Comet, and Claude i",
+        "cve": []
+    },
+    {
+        "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
+        "date": "Fri, 18 Sep 2026 14:14:16 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthen",
+        "cve": []
+    },
+    {
+        "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
+        "date": "Fri, 18 Sep 2026 13:59:26 +0000",
+        "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
+        "source": "CyberSecurityNews",
+        "summary": "Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can",
+        "cve": []
+    },
+    {
         "title": "Data Broker Radaris Loses Domains in Privacy Fight",
         "date": "Wed, 16 Sep 2026 18:14:22 +0000",
         "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Linux 7.3-rc4 To Address Two Unfortunate Bugs With Btrfs",
-        "date": "Sat, 19 Sep 2026 20:26:58 -0400",
-        "url": "https://www.phoronix.com/news/Btrfs-Fixes-For-Linux-7.3-rc4",
-        "source": "Phoronix",
-        "summary": "Merged today were this week's set of Btrfs file-system fixes for the Linux 7.3-rc4 kernel, which include two notable bug fixes...",
+        "title": "Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet",
+        "date": "Sat, 19 Sep 2026 13:16:43 +0000",
+        "url": "https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/",
+        "source": "GBHackers",
+        "summary": "Google has confirmed that its Gemini artificial intelligence model accidentally accessed protected systems belonging to three real companies during a cybersecurity evaluation. The incident stemmed fro",
         "cve": []
     },
     {
-        "title": "Simple Optimization For Linux 7.4 Can Open Files For Reading ~39% Faster",
-        "date": "Sat, 19 Sep 2026 12:28:05 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-Faster-Do-Open",
-        "source": "Phoronix",
-        "summary": "More than two years in the making, Linux 7.4 is poised to introduce a patch that amounts to a rather simple optimization to avoid unnecessary/duplicative work that can net some nice gains when opening",
+        "title": "North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto",
+        "date": "Sat, 19 Sep 2026 09:01:16 +0000",
+        "url": "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/",
+        "source": "GBHackers",
+        "summary": "North Korean threat actors, known as WaterPlum (also referred to as Contagious Interview), have infected at least 30,000 devices in over 100 countries by luring software developers and IT professional",
         "cve": []
     },
     {
-        "title": "Wine-Staging 11.18 Adds New Patches To Further Improve WoW64",
-        "date": "Sat, 19 Sep 2026 09:22:39 -0400",
-        "url": "https://www.phoronix.com/news/Wine-Staging-11.18",
-        "source": "Phoronix",
-        "summary": "Building off yesterday's Wine 11.18 bi-weekly development release is now Wine-Staging 11.18. This experimental flavor of Wine is presently carrying 273 extra patches over that upstream Git state, incl",
+        "title": "AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes",
+        "date": "Sat, 19 Sep 2026 08:29:06 +0000",
+        "url": "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/",
+        "source": "GBHackers",
+        "summary": "Researchers have identified a new Android banking Trojan called RatHat that utilizes artificial intelligence to automate device compromise and steal financial credentials, PINs, and one-time passcodes",
         "cve": []
     },
     {
-        "title": "GNOME OS Turns To Zswap To Deal With OOM Issues, Progress On Geary Email Client Fork",
-        "date": "Sat, 19 Sep 2026 06:38:08 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-OS-Goes-Zswap",
-        "source": "Phoronix",
-        "summary": "In addition to this week's GNOME 51 release were several other exciting developments in the GNOME desktop space...",
+        "title": "PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner",
+        "date": "Sat, 19 Sep 2026 07:11:04 +0000",
+        "url": "https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/",
+        "source": "GBHackers",
+        "summary": "A sophisticated cryptomining campaign is employing multiple layers of obfuscation to conceal malicious PowerShell payloads and ultimately deploy an XMRig-based cryptocurrency miner. This obfuscation i",
         "cve": []
     },
     {
-        "title": "Intel Xe Driver For Linux 7.4 Adds vRAM Health Check, Degraded Memory Handling",
-        "date": "Sat, 19 Sep 2026 06:24:15 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Xe-vRAM-Health-Check",
-        "source": "Phoronix",
-        "summary": "Sent out this week were more Intel Xe kernel graphics driver changes targeting the upcoming Linux 7.4 kernel cycle. The theme this week was around dealing with video memory health and also being able ",
+        "title": "PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains",
+        "date": "Fri, 18 Sep 2026 13:43:38 +0000",
+        "url": "https://gbhackers.com/casino-domains-hide-c2-traffic/",
+        "source": "GBHackers",
+        "summary": "China-aligned threat actors are using low-quality Chinese-language casino and adult websites to conceal PeckBirdy command-and-control infrastructure, creating a detection challenge for enterprises tha",
         "cve": []
     },
     {
-        "title": "KDE Plasma 6.8 Seeing More Polishing & Fixes, Plasma 6.9 Begins Seeing More Activity",
-        "date": "Sat, 19 Sep 2026 06:10:34 -0400",
-        "url": "https://www.phoronix.com/news/Plasma-6.8-Post-Beta-Fixes",
-        "source": "Phoronix",
-        "summary": "Following last week's Plasma 6.8 beta release, KDE desktop developers have spent this week mostly working on bug fixes as well as some early changes toward Plasma 6.9...",
+        "title": "Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware",
+        "date": "Fri, 18 Sep 2026 13:02:07 +0000",
+        "url": "https://gbhackers.com/genielocker-ransomware/",
+        "source": "GBHackers",
+        "summary": "Feral Wolf has expanded its ransomware tradecraft by abusing exposed Atlassian Confluence servers and insecure 1C:Enterprise deployments to gain access to Russian corporate networks before deploying G",
         "cve": []
     },
     {
-        "title": "Help Linux Hardware Testing & Reviews Continue While Enjoying Phoronix Without Ads",
-        "date": "Fri, 18 Sep 2026 21:00:00 -0400",
-        "url": "https://www.phoronix.com/news/Phoronix-Oktoberfest-2026",
-        "source": "Phoronix",
-        "summary": "If you missed out on the Phoronix Premium special back during the 22nd birthday of Phoronix.com in June, there is another promotion now active for helping to support the site and allow for continued d",
+        "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
+        "date": "Fri, 18 Sep 2026 12:50:05 +0000",
+        "url": "https://gbhackers.com/settra-ransomware/",
+        "source": "GBHackers",
+        "summary": "A newly observed ransomware operation dubbed SETTRA is abusing the legitimate MeshAgent remote monitoring and management platform for persistence while using recovery-inhibition and defense-evasion te",
         "cve": []
     },
     {
-        "title": "Ubuntu 26.10 Switches To The Linux 7.3 Kernel",
-        "date": "Fri, 18 Sep 2026 20:50:25 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-26.10-With-Linux-7.3",
-        "source": "Phoronix",
-        "summary": "As a very pleasant surprise, the upcoming Ubuntu 26.10 release will now be powered by the Linux 7.3 kernel rather than their original plans and switch over to the Linux 7.2 kernel...",
+        "title": "JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data",
+        "date": "Fri, 18 Sep 2026 12:23:02 +0000",
+        "url": "https://gbhackers.com/agentic-ransomware-to-target-ai-models/",
+        "source": "GBHackers",
+        "summary": "JADEPUFFER, the agentic threat actor first linked to an autonomous ransomware operation against exposed Langflow infrastructure, has evolved its tooling to target artificial intelligence models, train",
         "cve": []
     },
     {
-        "title": "Wine 11.18 Continues Building Out Its NTOSKRNL Implementation",
-        "date": "Fri, 18 Sep 2026 17:24:50 -0400",
-        "url": "https://www.phoronix.com/news/Wine-11.18-Released",
-        "source": "Phoronix",
-        "summary": "Wine 11.18 is out today as the newest bi-weekly development release of this open-source software for running Windows games and apps on Linux, macOS, and other platforms...",
+        "title": "Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities",
+        "date": "Fri, 18 Sep 2026 10:36:04 +0000",
+        "url": "https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/",
+        "source": "GBHackers",
+        "summary": "Google has released Chrome version 153 to the Stable desktop channel, addressing 16 security vulnerabilities, including two critical-severity flaws affecting the Dawn graphics component and WebGL. Thi",
         "cve": []
     },
     {
-        "title": "Steam Frame Making Use Of Zink For OpenGL On Vulkan",
-        "date": "Fri, 18 Sep 2026 16:13:08 -0400",
-        "url": "https://www.phoronix.com/news/Steam-Frame-Uses-Zink",
-        "source": "Phoronix",
-        "summary": "Valve's Steam Frame VR headset that makes use of a Qualcomm Snapdragon 8 Gen 3 SoC with Adreno graphics is using the open-source \"Turnip\" Vulkan driver from Mesa as reported last year. For OpenGL it t",
+        "title": "ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts",
+        "date": "Fri, 18 Sep 2026 10:22:51 +0000",
+        "url": "https://gbhackers.com/chatgpt-phishing-campaign/",
+        "source": "GBHackers",
+        "summary": "Threat actors are increasingly impersonating OpenAI’s ChatGPT service in credential-phishing campaigns, exploiting the growing use of generative AI across both enterprise and personal environments. A ",
         "cve": []
     }
 ]
