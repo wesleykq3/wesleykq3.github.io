@@ -1,5 +1,13 @@
 [
     {
+        "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+        "date": "Sat, 19 Sep 2026 10:56:31 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+        "source": "BleepingComputer",
+        "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. Th",
+        "cve": []
+    },
+    {
         "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
         "date": "Sat, 19 Sep 2026 10:05:15 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
@@ -16,9 +24,9 @@
         "cve": []
     },
     {
-        "title": "Calling viral AI actress Tilly Norwood? Agree to a face scan first",
+        "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
         "date": "Sat, 19 Sep 2026 07:38:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/",
+        "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
         "source": "BleepingComputer",
         "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses call",
         "cve": []
@@ -72,11 +80,11 @@
         "cve": []
     },
     {
-        "title": "New Check Point flaw lets hackers execute code with root privileges",
-        "date": "Fri, 18 Sep 2026 05:34:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
-        "source": "BleepingComputer",
-        "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
+        "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+        "date": "Sun, 20 Sep 2026 00:06:53 +0530",
+        "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+        "source": "The Hacker News",
+        "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an inte",
         "cve": []
     },
     {
@@ -93,14 +101,6 @@
         "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
         "source": "The Hacker News",
         "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including",
-        "cve": []
-    },
-    {
-        "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-        "date": "Sat, 19 Sep 2026 18:58:35 +0530",
-        "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-        "source": "The Hacker News",
-        "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an inte",
         "cve": []
     },
     {
@@ -240,6 +240,22 @@
         "cve": []
     },
     {
+        "title": "Linux 7.3-rc4 To Address Two Unfortunate Bugs With Btrfs",
+        "date": "Sat, 19 Sep 2026 20:26:58 -0400",
+        "url": "https://www.phoronix.com/news/Btrfs-Fixes-For-Linux-7.3-rc4",
+        "source": "Phoronix",
+        "summary": "Merged today were this week's set of Btrfs file-system fixes for the Linux 7.3-rc4 kernel, which include two notable bug fixes...",
+        "cve": []
+    },
+    {
+        "title": "Simple Optimization For Linux 7.4 Can Open Files For Reading ~39% Faster",
+        "date": "Sat, 19 Sep 2026 12:28:05 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Faster-Do-Open",
+        "source": "Phoronix",
+        "summary": "More than two years in the making, Linux 7.4 is poised to introduce a patch that amounts to a rather simple optimization to avoid unnecessary/duplicative work that can net some nice gains when opening",
+        "cve": []
+    },
+    {
         "title": "Wine-Staging 11.18 Adds New Patches To Further Improve WoW64",
         "date": "Sat, 19 Sep 2026 09:22:39 -0400",
         "url": "https://www.phoronix.com/news/Wine-Staging-11.18",
@@ -301,22 +317,6 @@
         "url": "https://www.phoronix.com/news/Steam-Frame-Uses-Zink",
         "source": "Phoronix",
         "summary": "Valve's Steam Frame VR headset that makes use of a Qualcomm Snapdragon 8 Gen 3 SoC with Adreno graphics is using the open-source \"Turnip\" Vulkan driver from Mesa as reported last year. For OpenGL it t",
-        "cve": []
-    },
-    {
-        "title": "Google's \"Painful To Maintain\" Binder C Linux Driver Being Removed In Favor Of Rust",
-        "date": "Fri, 18 Sep 2026 12:26:32 -0400",
-        "url": "https://www.phoronix.com/news/Google-Binder-C-Goodbye",
-        "source": "Phoronix",
-        "summary": "Google's Binder driver written in the C programming language has long been part of the mainline kernel as the inter-process communication (IPC) mechanism used on Android. The past few years the Binder",
-        "cve": []
-    },
-    {
-        "title": "Apple Video Decode Driver Posted For Upstream Linux Kernel Review",
-        "date": "Fri, 18 Sep 2026 11:52:30 -0400",
-        "url": "https://www.phoronix.com/news/Apple-Video-Decode-AVD-Linux",
-        "source": "Phoronix",
-        "summary": "The latest Apple Silicon enablement code working its way from the Asahi Linux project toward the upstream Linux kernel is the AVD driver used for accelerated video playback across Apple M1 / M2 / M3 S",
         "cve": []
     }
 ]
