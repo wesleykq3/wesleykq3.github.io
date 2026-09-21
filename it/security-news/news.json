@@ -1,5 +1,45 @@
 [
     {
+        "title": "Google fined €403 million over location data privacy violations",
+        "date": "Mon, 21 Sep 2026 11:41:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+        "source": "BleepingComputer",
+        "summary": "Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft fixes broken Excel copy and paste for all Office users",
+        "date": "Mon, 21 Sep 2026 10:42:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
+        "cve": []
+    },
+    {
+        "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+        "date": "Mon, 21 Sep 2026 10:02:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+        "source": "BleepingComputer",
+        "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what c",
+        "cve": []
+    },
+    {
+        "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+        "date": "Mon, 21 Sep 2026 09:16:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [",
+        "cve": []
+    },
+    {
+        "title": "Microsoft: September updates break File History backup feature",
+        "date": "Mon, 21 Sep 2026 07:45:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
+        "cve": []
+    },
+    {
         "title": "Malicious npm packages evade install-script defenses at runtime",
         "date": "Sun, 20 Sep 2026 10:11:21 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
@@ -40,43 +80,35 @@
         "cve": []
     },
     {
-        "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-        "date": "Sat, 19 Sep 2026 07:38:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-        "source": "BleepingComputer",
-        "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses call",
+        "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+        "date": "Mon, 21 Sep 2026 19:54:13 +0530",
+        "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+        "source": "The Hacker News",
+        "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.\n\nThe trouble keeps showing up inside things people already trust: code that takes a bad turn, old",
         "cve": []
     },
     {
-        "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-        "date": "Fri, 18 Sep 2026 12:00:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-        "source": "BleepingComputer",
-        "summary": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
+        "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+        "date": "Mon, 21 Sep 2026 19:45:40 +0530",
+        "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.\n\nThe backdoor \"autom",
         "cve": []
     },
     {
-        "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
-        "date": "Fri, 18 Sep 2026 11:19:06 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
-        "source": "BleepingComputer",
-        "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
+        "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+        "date": "Mon, 21 Sep 2026 14:09:38 +0530",
+        "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.\n\n\"ChainScript has appeared under multiple build names, including Co",
         "cve": []
     },
     {
-        "title": "Secure enterprise sharing with access reviews for Microsoft 365",
-        "date": "Fri, 18 Sep 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold S",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Teams will let admins block custom file extensions",
-        "date": "Fri, 18 Sep 2026 09:58:40 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
+        "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+        "date": "Mon, 21 Sep 2026 11:36:44 +0530",
+        "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+        "source": "The Hacker News",
+        "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again h",
         "cve": []
     },
     {
@@ -128,115 +160,83 @@
         "cve": []
     },
     {
-        "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-        "date": "Sat, 19 Sep 2026 12:44:54 +0530",
-        "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-        "source": "The Hacker News",
-        "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.\n\nThe French security company ha",
-        "cve": []
-    },
-    {
-        "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-        "date": "Sat, 19 Sep 2026 11:54:10 +0530",
-        "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence o",
-        "cve": []
-    },
-    {
-        "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-        "date": "Fri, 18 Sep 2026 23:32:24 +0530",
-        "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-        "source": "The Hacker News",
-        "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all f",
-        "cve": []
-    },
-    {
-        "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-        "date": "Fri, 18 Sep 2026 22:26:19 +0530",
-        "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-        "source": "The Hacker News",
-        "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the",
-        "cve": []
-    },
-    {
-        "title": "Business Survival in the Age of AI",
-        "date": "Sun, 20 Sep 2026 08:54:42 +0000",
-        "url": "https://cybersecuritynews.com/business-survival-in-the-age-of-ai/",
+        "title": "Google Fined €403 Million for GDPR Violations Over Users’ Location Data",
+        "date": "Mon, 21 Sep 2026 16:43:32 +0000",
+        "url": "https://cybersecuritynews.com/google-fined-e403-million/",
         "source": "CyberSecurityNews",
-        "summary": "Adam Ochayon, VP of Strategy, Oasis Security&#160; Deploying agentic AI in the enterprise is no longer optional &#8211;&#160;it’s&#160;fundamental to survival.&#160;And the main unlock to ensure secur",
+        "summary": "Ireland’s Data Protection Commission (DPC) has fined Google Ireland Limited €403 million after concluding that the technology giant violated the General Data Protection Regulation (GDPR) while process",
         "cve": []
     },
     {
-        "title": "Autonomous AI Attacks: The Hugging Face Reality Check",
-        "date": "Sun, 20 Sep 2026 05:09:00 +0000",
-        "url": "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check/",
+        "title": "AWS Automatically Quarantines Exposed IAM Keys Within 10 Seconds of GitHub Leak",
+        "date": "Mon, 21 Sep 2026 16:19:59 +0000",
+        "url": "https://cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys/",
         "source": "CyberSecurityNews",
-        "summary": "For several years the forecast has been constant: AI lowers the skill barrier, AI&#160;writes&#160;novel&#160;malware,&#160;AI will soon run attacks end to end with minimal human direction. It is wort",
+        "summary": "Amazon Web Services can move from detection to containment in seconds when an Identity and Access Management access key appears in a public GitHub repository. In a controlled Unit 42 exposure test, AW",
         "cve": []
     },
     {
-        "title": "When Ransomware Targets AI Models: Defending the AI/ML Recovery Chain",
-        "date": "Sun, 20 Sep 2026 04:42:15 +0000",
-        "url": "https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain/",
+        "title": "Claude Code Agent Allegedly Deletes 48,000 Files in 103 Seconds",
+        "date": "Mon, 21 Sep 2026 16:12:31 +0000",
+        "url": "https://cybersecuritynews.com/claude-code-agent-file-deletion/",
         "source": "CyberSecurityNews",
-        "summary": "By Crystal Morin&#160; Ransomware crews have always followed the money. For years, that meant targets like banks and hospitals organizations with high-value assets and sensitive data who couldn’t affo",
+        "summary": "A Claude Code user has reported a severe data-loss incident in which an autonomous coding agent allegedly deleted 48,218 live files from a Windows project tree and destroyed the repository’s Git objec",
         "cve": []
     },
     {
-        "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
-        "date": "Sat, 19 Sep 2026 15:09:43 +0000",
-        "url": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/",
+        "title": "Microsoft Entra ID to Block SMS First-Factor Sign-Ins Worldwide in February 2027",
+        "date": "Mon, 21 Sep 2026 14:40:37 +0000",
+        "url": "https://cybersecuritynews.com/entra-id-sms-sign-in-retirement/",
         "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation dea",
+        "summary": "Microsoft is retiring SMS first-factor sign-in for Microsoft Entra ID workforce tenants worldwide and requires organizations to migrate affected users before February 1, 2027. The security-focused cha",
         "cve": []
     },
     {
-        "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
-        "date": "Sat, 19 Sep 2026 11:21:50 +0000",
-        "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
+        "title": "Microsoft Investigating Teams Calling Issue Blocking Users From Making or Receiving Calls",
+        "date": "Mon, 21 Sep 2026 14:18:59 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-teams-calling-issue/",
         "source": "CyberSecurityNews",
-        "summary": "CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee’s account was compromised through May’s TanStack npm supply chain attack. The May 22 theft re",
+        "summary": "Microsoft is investigating a service incident that is preventing some users from placing or receiving calls through Microsoft Teams. The company disclosed the issue through its verified Microsoft 365 ",
         "cve": []
     },
     {
-        "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
-        "date": "Sat, 19 Sep 2026 08:59:08 +0000",
-        "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
+        "title": "PAYLOAD Ransomware Hijacks Active Directory GPO to Disrupt Entire Windows Domain Without Encryption",
+        "date": "Mon, 21 Sep 2026 14:03:12 +0000",
+        "url": "https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/",
         "source": "CyberSecurityNews",
-        "summary": "Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to ",
+        "summary": "A PAYLOAD ransomware attack used Active Directory Group Policy Objects to disrupt an entire Windows domain without encrypting files or deploying ransomware binaries. The operation targeted a manufactu",
         "cve": []
     },
     {
-        "title": "Click2Shell WordPress Flaw Lets Attackers Gain RCE With a Single Malicious Link",
-        "date": "Sat, 19 Sep 2026 04:30:11 +0000",
-        "url": "https://cybersecuritynews.com/click2shell-wordpress-vulnerability/",
+        "title": "Malicious npm Package With 2 Million Downloads Hides Malware in Runtime Code",
+        "date": "Mon, 21 Sep 2026 13:55:52 +0000",
+        "url": "https://cybersecuritynews.com/malicious-npm-package/",
         "source": "CyberSecurityNews",
-        "summary": "WordPress administrators are being urged to update after researchers disclosed Click2Shell, an exploit chain that can turn one malicious link into remote code execution (RCE) on a vulnerable website. ",
+        "summary": "A malicious npm package that appeared to be an ordinary data-indexing tool has exposed a weakness in software supply-chain defenses. The package, indexed-btree, copied the identity of the legitimate s",
         "cve": []
     },
     {
-        "title": "BragJack Attack Lets Malicious Extensions Hijack AI Agents Across 5 Major Browsers",
-        "date": "Sat, 19 Sep 2026 03:05:12 +0000",
-        "url": "https://cybersecuritynews.com/bragjack-ai-agent-hijacking/",
+        "title": "Microsoft Confirms September 2026 Windows Updates Break File History Backups",
+        "date": "Mon, 21 Sep 2026 13:18:56 +0000",
+        "url": "https://cybersecuritynews.com/windows-updates-breaks-file-history-backup/",
         "source": "CyberSecurityNews",
-        "summary": "A new attack technique dubbed &#8220;BragJack&#8221; allows a malicious browser extension to seize trusted communication channels used by AI assistants in Chrome, Edge, Opera Neon, Comet, and Claude i",
+        "summary": "Microsoft has confirmed that its September 2026 Windows security updates can prevent File History from creating or updating backups on some systems. The regression places users who rely on the built-i",
         "cve": []
     },
     {
-        "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
-        "date": "Fri, 18 Sep 2026 14:14:16 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
+        "title": "ChatGPT Ad Tracking Cookie Follows Users Across Third-Party Advertiser Websites",
+        "date": "Mon, 21 Sep 2026 13:02:53 +0000",
+        "url": "https://cybersecuritynews.com/chatgpt-ad-tracking-cookie-follows-users/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthen",
+        "summary": "OpenAI’s advertising measurement system appears to use a cross-site cookie that can link activity on advertiser websites to a person’s ChatGPT account. The cookie, named __obi, is created. At the same",
         "cve": []
     },
     {
-        "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
-        "date": "Fri, 18 Sep 2026 13:59:26 +0000",
-        "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
+        "title": "Leaky TLS Certificate Exposes North Korea’s Hangro VPN Infrastructure Across Two Countries",
+        "date": "Mon, 21 Sep 2026 12:57:10 +0000",
+        "url": "https://cybersecuritynews.com/leaky-tls-certificate/",
         "source": "CyberSecurityNews",
-        "summary": "Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can",
+        "summary": "North Korea’s Hangro platform has exposed an unusually detailed view of infrastructure used to connect officials and trade representatives abroad with systems inside the country. A newly observed TLS ",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet",
-        "date": "Sat, 19 Sep 2026 13:16:43 +0000",
-        "url": "https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/",
+        "title": "NightEagle Uses BlueKeep and DCSync to Move Toward Active Directory Domain Controllers",
+        "date": "Mon, 21 Sep 2026 13:27:36 +0000",
+        "url": "https://gbhackers.com/nighteagle-attack-chain/",
         "source": "GBHackers",
-        "summary": "Google has confirmed that its Gemini artificial intelligence model accidentally accessed protected systems belonging to three real companies during a cybersecurity evaluation. The incident stemmed fro",
+        "summary": "NightEagle, an espionage-focused threat group also tracked as APT-Q-95, has expanded its operations from Asian targets to Russian organizations, using a layered intrusion chain that culminates in atte",
         "cve": []
     },
     {
-        "title": "North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto",
-        "date": "Sat, 19 Sep 2026 09:01:16 +0000",
-        "url": "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/",
+        "title": "10 Malicious npm Packages Linked to Runtime Malware Campaign With Millions of Downloads",
+        "date": "Mon, 21 Sep 2026 12:49:50 +0000",
+        "url": "https://gbhackers.com/10-malicious-npm-packages/",
         "source": "GBHackers",
-        "summary": "North Korean threat actors, known as WaterPlum (also referred to as Contagious Interview), have infected at least 30,000 devices in over 100 countries by luring software developers and IT professional",
+        "summary": "A sophisticated npm supply-chain campaign has been linked to 10 malicious JavaScript packages that collectively recorded millions of downloads while bypassing npm’s lifecycle-script protections. The o",
         "cve": []
     },
     {
-        "title": "AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes",
-        "date": "Sat, 19 Sep 2026 08:29:06 +0000",
-        "url": "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/",
+        "title": "PAYLOAD Ransomware Abuses Active Directory Group Policy to Disrupt Entire Windows Domain",
+        "date": "Mon, 21 Sep 2026 11:54:18 +0000",
+        "url": "https://gbhackers.com/payload-ransomware-abuses-active-directory-group-policy/",
         "source": "GBHackers",
-        "summary": "Researchers have identified a new Android banking Trojan called RatHat that utilizes artificial intelligence to automate device compromise and steal financial credentials, PINs, and one-time passcodes",
+        "summary": "A ransomware incident in which attackers used Active Directory Group Policy to disrupt operations without deploying a Windows encryptor or leaving malware running on endpoints. In April 2026, the atta",
         "cve": []
     },
     {
-        "title": "PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner",
-        "date": "Sat, 19 Sep 2026 07:11:04 +0000",
-        "url": "https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/",
+        "title": "New Rapuncel Infostealer Abuses Microsoft-Signed Driver to Disable 145 Security Tools",
+        "date": "Mon, 21 Sep 2026 11:36:46 +0000",
+        "url": "https://gbhackers.com/new-rapuncel-infostealer-abuses-microsoft-signed-driver/",
         "source": "GBHackers",
-        "summary": "A sophisticated cryptomining campaign is employing multiple layers of obfuscation to conceal malicious PowerShell payloads and ultimately deploy an XMRig-based cryptocurrency miner. This obfuscation i",
+        "summary": "A newly identified information-stealing campaign, tracked as Rapuncel, is exploiting a Microsoft-attested kernel driver to terminate up to 145 antivirus (AV) and endpoint detection and response (EDR) ",
         "cve": []
     },
     {
-        "title": "PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains",
-        "date": "Fri, 18 Sep 2026 13:43:38 +0000",
-        "url": "https://gbhackers.com/casino-domains-hide-c2-traffic/",
+        "title": "BigDiskBuster Windows Defender DoS Vulnerability Blocks Platform and Signature Updates",
+        "date": "Mon, 21 Sep 2026 11:01:28 +0000",
+        "url": "https://gbhackers.com/bigdiskbuster-windows-defender-dos-vulnerability/",
         "source": "GBHackers",
-        "summary": "China-aligned threat actors are using low-quality Chinese-language casino and adult websites to conceal PeckBirdy command-and-control infrastructure, creating a detection challenge for enterprises tha",
+        "summary": "A recently published proof-of-concept project named BigDiskBuster claims to prevent Microsoft Defender from completing its platform and security intelligence signature updates. This could create a pot",
         "cve": []
     },
     {
-        "title": "Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware",
-        "date": "Fri, 18 Sep 2026 13:02:07 +0000",
-        "url": "https://gbhackers.com/genielocker-ransomware/",
+        "title": "North Korea’s Hangro VPN Certificate Exposes Internal Network and Russia-Linked Infrastructure",
+        "date": "Mon, 21 Sep 2026 09:33:25 +0000",
+        "url": "https://gbhackers.com/hangro-vpn-exposure/",
         "source": "GBHackers",
-        "summary": "Feral Wolf has expanded its ransomware tradecraft by abusing exposed Atlassian Confluence servers and insecure 1C:Enterprise deployments to gain access to Russian corporate networks before deploying G",
+        "summary": "North Korea’s Hangro VPN and mail platform has deployed a new certificate hierarchy that exposes an apparent cross-border management environment spanning systems in Pyongyang and Russia’s Far East. Th",
         "cve": []
     },
     {
-        "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-        "date": "Fri, 18 Sep 2026 12:50:05 +0000",
-        "url": "https://gbhackers.com/settra-ransomware/",
+        "title": "Hackers Abuse Microsoft Teams to Pose as IT Support and Steal Employee Passwords",
+        "date": "Mon, 21 Sep 2026 09:09:24 +0000",
+        "url": "https://gbhackers.com/hackers-abuse-microsoft-teams/",
         "source": "GBHackers",
-        "summary": "A newly observed ransomware operation dubbed SETTRA is abusing the legitimate MeshAgent remote monitoring and management platform for persistence while using recovery-inhibition and defense-evasion te",
+        "summary": "Threat actors are increasingly abusing Microsoft Teams&#8217; external chat capabilities to impersonate corporate IT help desks. They trick employees into installing malware, granting remote access, a",
         "cve": []
     },
     {
-        "title": "JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data",
-        "date": "Fri, 18 Sep 2026 12:23:02 +0000",
-        "url": "https://gbhackers.com/agentic-ransomware-to-target-ai-models/",
+        "title": "New Cache Key Injection Attack Lets Hackers Bypass Access Controls and Poison Nginx Caches",
+        "date": "Mon, 21 Sep 2026 08:58:08 +0000",
+        "url": "https://gbhackers.com/new-cache-key-injection-attack/",
         "source": "GBHackers",
-        "summary": "JADEPUFFER, the agentic threat actor first linked to an autonomous ransomware operation against exposed Langflow infrastructure, has evolved its tooling to target artificial intelligence models, train",
+        "summary": "Security researchers have unveiled a cache poisoning technique called cache key injection that lets attackers bypass access controls, expose cached sensitive pages, trigger denial-of-service condition",
         "cve": []
     },
     {
-        "title": "Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities",
-        "date": "Fri, 18 Sep 2026 10:36:04 +0000",
-        "url": "https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/",
+        "title": "Hackers Weaponize Terraform Lock Files to Infect DevOps Engineers With macOS Backdoors",
+        "date": "Mon, 21 Sep 2026 08:53:58 +0000",
+        "url": "https://gbhackers.com/terraform-lock-files/",
         "source": "GBHackers",
-        "summary": "Google has released Chrome version 153 to the Stable desktop channel, addressing 16 security vulnerabilities, including two critical-severity flaws affecting the Dawn graphics component and WebGL. Thi",
+        "summary": "North Korea-linked threat actor TraderTraitor has expanded its developer-focused intrusion activity beyond cryptocurrency targets, using weaponized Terraform lock files in fake job-interview repositor",
         "cve": []
     },
     {
-        "title": "ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts",
-        "date": "Fri, 18 Sep 2026 10:22:51 +0000",
-        "url": "https://gbhackers.com/chatgpt-phishing-campaign/",
+        "title": "HEIF Heist Image Flaws Let Attackers Gain RCE Across Meta, Slack and GitHub Enterprise",
+        "date": "Mon, 21 Sep 2026 08:17:05 +0000",
+        "url": "https://gbhackers.com/heif-heist-image-flaws/",
         "source": "GBHackers",
-        "summary": "Threat actors are increasingly impersonating OpenAI’s ChatGPT service in credential-phishing campaigns, exploiting the growing use of generative AI across both enterprise and personal environments. A ",
+        "summary": "“HEIF Heist,” a broad class of image-processing attack paths that could allow threat actors to turn malicious HEIF, HEIC, and AVIF uploads into remote code execution, sensitive-data exposure, and acco",
         "cve": []
     }
 ]
