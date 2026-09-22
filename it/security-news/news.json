@@ -1,5 +1,45 @@
 [
     {
+        "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
+        "date": "Tue, 22 Sep 2026 11:00:00 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
+        "source": "BleepingComputer",
+        "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
+        "cve": []
+    },
+    {
+        "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+        "date": "Tue, 22 Sep 2026 08:57:07 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+        "source": "BleepingComputer",
+        "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Lea",
+        "cve": []
+    },
+    {
+        "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+        "date": "Tue, 22 Sep 2026 08:48:06 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+        "source": "BleepingComputer",
+        "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
+        "cve": []
+    },
+    {
+        "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+        "date": "Tue, 22 Sep 2026 05:55:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+        "source": "BleepingComputer",
+        "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+        "date": "Tue, 22 Sep 2026 04:53:09 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+        "source": "BleepingComputer",
+        "summary": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+        "cve": []
+    },
+    {
         "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
         "date": "Mon, 21 Sep 2026 17:18:49 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
@@ -40,203 +80,163 @@
         "cve": []
     },
     {
-        "title": "Microsoft fixes broken Excel copy and paste for all Office users",
-        "date": "Mon, 21 Sep 2026 10:42:37 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
-        "cve": []
-    },
-    {
-        "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
-        "date": "Mon, 21 Sep 2026 10:02:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
-        "source": "BleepingComputer",
-        "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what c",
-        "cve": []
-    },
-    {
-        "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
-        "date": "Mon, 21 Sep 2026 09:16:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [",
-        "cve": []
-    },
-    {
-        "title": "Microsoft: September updates break File History backup feature",
-        "date": "Mon, 21 Sep 2026 07:45:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-        "cve": []
-    },
-    {
-        "title": "Malicious npm packages evade install-script defenses at runtime",
-        "date": "Sun, 20 Sep 2026 10:11:21 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-        "source": "BleepingComputer",
-        "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than i",
-        "cve": []
-    },
-    {
-        "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-        "date": "Mon, 21 Sep 2026 23:01:01 +0530",
-        "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+        "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+        "date": "Tue, 22 Sep 2026 18:00:00 +0530",
+        "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
         "source": "The Hacker News",
-        "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and",
+        "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the acces",
         "cve": []
     },
     {
-        "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-        "date": "Mon, 21 Sep 2026 22:49:00 +0530",
-        "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+        "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+        "date": "Tue, 22 Sep 2026 17:59:00 +0530",
+        "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
         "source": "The Hacker News",
-        "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over ",
+        "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.\n\nThe flaw, tracked as CVE-",
         "cve": []
     },
     {
-        "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
-        "date": "Mon, 21 Sep 2026 22:27:31 +0530",
-        "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+        "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+        "date": "Tue, 22 Sep 2026 17:15:00 +0530",
+        "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
         "source": "The Hacker News",
-        "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020.\n\nIrela",
+        "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establis",
         "cve": []
     },
     {
-        "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-        "date": "Mon, 21 Sep 2026 19:54:13 +0530",
-        "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+        "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+        "date": "Tue, 22 Sep 2026 17:08:40 +0530",
+        "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
         "source": "The Hacker News",
-        "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.\n\nThe trouble keeps showing up inside things people already trust: code that takes a bad turn, old",
+        "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.\n\nTh",
         "cve": []
     },
     {
-        "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-        "date": "Mon, 21 Sep 2026 19:45:40 +0530",
-        "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+        "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+        "date": "Tue, 22 Sep 2026 16:47:41 +0530",
+        "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.\n\nThe backdoor \"autom",
+        "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical",
         "cve": []
     },
     {
-        "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-        "date": "Mon, 21 Sep 2026 14:09:38 +0530",
-        "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+        "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+        "date": "Tue, 22 Sep 2026 15:08:18 +0530",
+        "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
         "source": "The Hacker News",
-        "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.\n\n\"ChainScript has appeared under multiple build names, including Co",
+        "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shif",
         "cve": []
     },
     {
-        "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-        "date": "Mon, 21 Sep 2026 11:36:44 +0530",
-        "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+        "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+        "date": "Tue, 22 Sep 2026 13:22:03 +0530",
+        "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
         "source": "The Hacker News",
-        "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again h",
+        "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaig",
         "cve": []
     },
     {
-        "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-        "date": "Sun, 20 Sep 2026 00:06:53 +0530",
-        "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+        "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+        "date": "Tue, 22 Sep 2026 12:03:57 +0530",
+        "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
         "source": "The Hacker News",
-        "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an inte",
+        "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept",
         "cve": []
     },
     {
-        "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-        "date": "Sat, 19 Sep 2026 18:58:48 +0530",
-        "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+        "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+        "date": "Tue, 22 Sep 2026 11:33:14 +0530",
+        "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
         "source": "The Hacker News",
-        "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is ",
+        "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the si",
         "cve": []
     },
     {
-        "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-        "date": "Sat, 19 Sep 2026 18:58:41 +0530",
-        "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+        "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+        "date": "Tue, 22 Sep 2026 11:01:59 +0530",
+        "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
         "source": "The Hacker News",
-        "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog",
         "cve": []
     },
     {
-        "title": "Google Fined €403 Million for GDPR Violations Over Users’ Location Data",
-        "date": "Mon, 21 Sep 2026 16:43:32 +0000",
-        "url": "https://cybersecuritynews.com/google-fined-e403-million/",
+        "title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control",
+        "date": "Tue, 22 Sep 2026 15:27:12 +0000",
+        "url": "https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/",
         "source": "CyberSecurityNews",
-        "summary": "Ireland’s Data Protection Commission (DPC) has fined Google Ireland Limited €403 million after concluding that the technology giant violated the General Data Protection Regulation (GDPR) while process",
+        "summary": "Cisco Talos has released CAIRN, an open-source toolkit designed to hunt, classify, and track AI-integrated malware by examining the digital markers developers leave behind. The Cognitive Artifact Inte",
         "cve": []
     },
     {
-        "title": "AWS Automatically Quarantines Exposed IAM Keys Within 10 Seconds of GitHub Leak",
-        "date": "Mon, 21 Sep 2026 16:19:59 +0000",
-        "url": "https://cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys/",
+        "title": "Microsoft SharePoint Flaw Lets Attackers Execute Code Remotely With Low Privileges",
+        "date": "Tue, 22 Sep 2026 13:59:11 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-sharepoint-rce-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "Amazon Web Services can move from detection to containment in seconds when an Identity and Access Management access key appears in a public GitHub repository. In a controlled Unit 42 exposure test, AW",
+        "summary": "Microsoft has confirmed a high-severity remote code execution vulnerability in on-premises SharePoint Server that lets an authenticated, low-privileged attacker run arbitrary code over a network witho",
         "cve": []
     },
     {
-        "title": "Claude Code Agent Allegedly Deletes 48,000 Files in 103 Seconds",
-        "date": "Mon, 21 Sep 2026 16:12:31 +0000",
-        "url": "https://cybersecuritynews.com/claude-code-agent-file-deletion/",
+        "title": "New TASK#STOMP Backdoor Uses PowerShell to Steal Documents and Wi-Fi Passwords",
+        "date": "Tue, 22 Sep 2026 13:45:24 +0000",
+        "url": "https://cybersecuritynews.com/new-taskstomp-backdoor/",
         "source": "CyberSecurityNews",
-        "summary": "A Claude Code user has reported a severe data-loss incident in which an autonomous coding agent allegedly deleted 48,218 live files from a Windows project tree and destroyed the repository’s Git objec",
+        "summary": "TASK#STOMP is a newly analyzed Windows backdoor that turns ordinary built-in tools into a durable spying operation. It uses a Visual Basic Script installer, hidden PowerShell, scheduled tasks, and run",
         "cve": []
     },
     {
-        "title": "Microsoft Entra ID to Block SMS First-Factor Sign-Ins Worldwide in February 2027",
-        "date": "Mon, 21 Sep 2026 14:40:37 +0000",
-        "url": "https://cybersecuritynews.com/entra-id-sms-sign-in-retirement/",
+        "title": "Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access",
+        "date": "Tue, 22 Sep 2026 13:37:26 +0000",
+        "url": "https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft is retiring SMS first-factor sign-in for Microsoft Entra ID workforce tenants worldwide and requires organizations to migrate affected users before February 1, 2027. The security-focused cha",
+        "summary": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-89775, could let attackers escape an ARM64 virtual machine and access the underlying host system. The issue affects KVM/arm64 environm",
         "cve": []
     },
     {
-        "title": "Microsoft Investigating Teams Calling Issue Blocking Users From Making or Receiving Calls",
-        "date": "Mon, 21 Sep 2026 14:18:59 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-teams-calling-issue/",
+        "title": "Veeam Agent Flaw Actively Exploited to Gain SYSTEM Privileges on Windows",
+        "date": "Tue, 22 Sep 2026 12:55:07 +0000",
+        "url": "https://cybersecuritynews.com/veeam-agent-flaw-exploited/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft is investigating a service incident that is preventing some users from placing or receiving calls through Microsoft Teams. The company disclosed the issue through its verified Microsoft 365 ",
+        "summary": "A critical local privilege escalation flaw in Veeam Agent for Microsoft Windows is drawing attention after public proof-of-concept exploit code became available. The vulnerability, tracked as CVE-2026",
         "cve": []
     },
     {
-        "title": "PAYLOAD Ransomware Hijacks Active Directory GPO to Disrupt Entire Windows Domain Without Encryption",
-        "date": "Mon, 21 Sep 2026 14:03:12 +0000",
-        "url": "https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/",
+        "title": "Red Hat OpenShift Flaw Lets Attackers Bypass PGP Checks and Push Malicious Releases",
+        "date": "Tue, 22 Sep 2026 12:49:43 +0000",
+        "url": "https://cybersecuritynews.com/red-hat-openshift-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "A PAYLOAD ransomware attack used Active Directory Group Policy Objects to disrupt an entire Windows domain without encrypting files or deploying ransomware binaries. The operation targeted a manufactu",
+        "summary": "Red Hat has disclosed an Important security vulnerability in the OpenShift oc-mirror tool that could allow attackers to bypass PGP signature verification and introduce malicious release images into di",
         "cve": []
     },
     {
-        "title": "Malicious npm Package With 2 Million Downloads Hides Malware in Runtime Code",
-        "date": "Mon, 21 Sep 2026 13:55:52 +0000",
-        "url": "https://cybersecuritynews.com/malicious-npm-package/",
+        "title": "BambooToken Linux Backdoor Uses MQTT C2 to Execute Shell Commands and Exfiltrate Files",
+        "date": "Tue, 22 Sep 2026 12:29:37 +0000",
+        "url": "https://cybersecuritynews.com/bambootoken-linux-backdoor/",
         "source": "CyberSecurityNews",
-        "summary": "A malicious npm package that appeared to be an ordinary data-indexing tool has exposed a weakness in software supply-chain defenses. The package, indexed-btree, copied the identity of the legitimate s",
+        "summary": "BambooToken is a Linux backdoor that turns a lightweight messaging protocol into a remote control channel. The newly analysed sample can collect information about a host, run shell commands, and move ",
         "cve": []
     },
     {
-        "title": "Microsoft Confirms September 2026 Windows Updates Break File History Backups",
-        "date": "Mon, 21 Sep 2026 13:18:56 +0000",
-        "url": "https://cybersecuritynews.com/windows-updates-breaks-file-history-backup/",
+        "title": "Hackers Clone Legitimate Websites to Silently Trigger Chrome and Windows Zero-Day Exploits",
+        "date": "Tue, 22 Sep 2026 11:25:01 +0000",
+        "url": "https://cybersecuritynews.com/hackers-clone-legitimate-websites/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has confirmed that its September 2026 Windows security updates can prevent File History from creating or updating backups on some systems. The regression places users who rely on the built-i",
+        "summary": "Hackers are using convincing copies of trusted websites to turn an ordinary browser visit into a full Windows compromise. The campaign pairs targeted phishing emails with a chained set of previously u",
         "cve": []
     },
     {
-        "title": "ChatGPT Ad Tracking Cookie Follows Users Across Third-Party Advertiser Websites",
-        "date": "Mon, 21 Sep 2026 13:02:53 +0000",
-        "url": "https://cybersecuritynews.com/chatgpt-ad-tracking-cookie-follows-users/",
+        "title": "Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense",
+        "date": "Tue, 22 Sep 2026 10:50:04 +0000",
+        "url": "https://cybersecuritynews.com/aikido-security-unveils-altar-1/",
         "source": "CyberSecurityNews",
-        "summary": "OpenAI’s advertising measurement system appears to use a cross-site cookie that can link activity on advertiser websites to a person’s ChatGPT account. The cookie, named __obi, is created. At the same",
+        "summary": "Aikido Security has unveiled Altar-1, an open-weight artificial intelligence model designed to run defensive cybersecurity workloads entirely inside an organization’s own infrastructure. The model aim",
         "cve": []
     },
     {
-        "title": "Leaky TLS Certificate Exposes North Korea’s Hangro VPN Infrastructure Across Two Countries",
-        "date": "Mon, 21 Sep 2026 12:57:10 +0000",
-        "url": "https://cybersecuritynews.com/leaky-tls-certificate/",
+        "title": "Context Bombs Trick Autonomous Qwen AI Agents Into Stopping Cyberattacks",
+        "date": "Tue, 22 Sep 2026 10:21:44 +0000",
+        "url": "https://cybersecuritynews.com/context-bombs/",
         "source": "CyberSecurityNews",
-        "summary": "North Korea’s Hangro platform has exposed an unusually detailed view of infrastructure used to connect officials and trade representatives abroad with systems inside the country. A newly observed TLS ",
+        "summary": "A hidden “context bomb” prompt in a cloud decoy can disrupt AI agents and force Qwen3.8-27B to stop simulated attacks. The technique worked against both the original and modified “abliterated” version",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "NightEagle Uses BlueKeep and DCSync to Move Toward Active Directory Domain Controllers",
-        "date": "Mon, 21 Sep 2026 13:27:36 +0000",
-        "url": "https://gbhackers.com/nighteagle-attack-chain/",
+        "title": "Critical Linux KVM Flaw Enables Guest-to-Host Escape on ARM64 Systems",
+        "date": "Tue, 22 Sep 2026 12:26:58 +0000",
+        "url": "https://gbhackers.com/critical-linux-kvm-flaw/",
         "source": "GBHackers",
-        "summary": "NightEagle, an espionage-focused threat group also tracked as APT-Q-95, has expanded its operations from Asian targets to Russian organizations, using a layered intrusion chain that culminates in atte",
+        "summary": "A critical vulnerability in the Linux Kernel-based Virtual Machine (KVM) for ARM64 systems could let attackers escape a virtual machine and gain read and write access to host kernel memory. This flaw,",
         "cve": []
     },
     {
-        "title": "10 Malicious npm Packages Linked to Runtime Malware Campaign With Millions of Downloads",
-        "date": "Mon, 21 Sep 2026 12:49:50 +0000",
-        "url": "https://gbhackers.com/10-malicious-npm-packages/",
+        "title": "TASK#STOMP PowerShell Backdoor Steals Business Documents and Executes Remote Commands",
+        "date": "Tue, 22 Sep 2026 11:34:01 +0000",
+        "url": "https://gbhackers.com/taskstomp-powershell-backdoor/",
         "source": "GBHackers",
-        "summary": "A sophisticated npm supply-chain campaign has been linked to 10 malicious JavaScript packages that collectively recorded millions of downloads while bypassing npm’s lifecycle-script protections. The o",
+        "summary": "A Windows-focused backdoor dubbed TASK#STOMP that uses VBScript, PowerShell, Scheduled Tasks, and runtime C# compilation to establish resilient persistence and continuously steal business documents. T",
         "cve": []
     },
     {
-        "title": "PAYLOAD Ransomware Abuses Active Directory Group Policy to Disrupt Entire Windows Domain",
-        "date": "Mon, 21 Sep 2026 11:54:18 +0000",
-        "url": "https://gbhackers.com/payload-ransomware-abuses-active-directory-group-policy/",
+        "title": "Hackers Exploit Veeam Agent Vulnerability to Gain SYSTEM-Level Access on Windows",
+        "date": "Tue, 22 Sep 2026 11:22:39 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-veeam-agent-vulnerability/",
         "source": "GBHackers",
-        "summary": "A ransomware incident in which attackers used Active Directory Group Policy to disrupt operations without deploying a Windows encryptor or leaving malware running on endpoints. In April 2026, the atta",
+        "summary": "A newly discovered privilege escalation flaw in Veeam Agent for Microsoft Windows could allow attackers with local access to compromised endpoints to execute commands as NT AUTHORITY\\SYSTEM. Public pr",
         "cve": []
     },
     {
-        "title": "New Rapuncel Infostealer Abuses Microsoft-Signed Driver to Disable 145 Security Tools",
-        "date": "Mon, 21 Sep 2026 11:36:46 +0000",
-        "url": "https://gbhackers.com/new-rapuncel-infostealer-abuses-microsoft-signed-driver/",
+        "title": "Red Hat OpenShift Flaw Lets Attackers Poison Disconnected Registries With Malicious Releases",
+        "date": "Tue, 22 Sep 2026 11:10:07 +0000",
+        "url": "https://gbhackers.com/red-hat-openshift-flaw/",
         "source": "GBHackers",
-        "summary": "A newly identified information-stealing campaign, tracked as Rapuncel, is exploiting a Microsoft-attested kernel driver to terminate up to 145 antivirus (AV) and endpoint detection and response (EDR) ",
+        "summary": "Red Hat disclosed an important OpenShift vulnerability that could let attackers bypass release-image signature checks and introduce malicious payloads into disconnected registries. This issue, tracked",
         "cve": []
     },
     {
-        "title": "BigDiskBuster Windows Defender DoS Vulnerability Blocks Platform and Signature Updates",
-        "date": "Mon, 21 Sep 2026 11:01:28 +0000",
-        "url": "https://gbhackers.com/bigdiskbuster-windows-defender-dos-vulnerability/",
+        "title": "Linux BambooToken Malware Uses MQTT C2 for Remote Shell Access and File Exfiltration",
+        "date": "Tue, 22 Sep 2026 10:46:11 +0000",
+        "url": "https://gbhackers.com/linux-bambootoken-malware/",
         "source": "GBHackers",
-        "summary": "A recently published proof-of-concept project named BigDiskBuster claims to prevent Microsoft Defender from completing its platform and security intelligence signature updates. This could create a pot",
+        "summary": "A Linux variant of the BambooToken backdoor uses MQTT as its command-and-control channel, enabling operators to profile compromised hosts, execute shell commands, and transfer files through broker-med",
         "cve": []
     },
     {
-        "title": "North Korea’s Hangro VPN Certificate Exposes Internal Network and Russia-Linked Infrastructure",
-        "date": "Mon, 21 Sep 2026 09:33:25 +0000",
-        "url": "https://gbhackers.com/hangro-vpn-exposure/",
+        "title": "Critical MaxKB AI Agent Flaw Lets Prompt Injection Execute System Commands",
+        "date": "Tue, 22 Sep 2026 10:43:40 +0000",
+        "url": "https://gbhackers.com/critical-maxkb-ai-agent-flaw/",
         "source": "GBHackers",
-        "summary": "North Korea’s Hangro VPN and mail platform has deployed a new certificate hierarchy that exposes an apparent cross-border management environment spanning systems in Pyongyang and Russia’s Far East. Th",
+        "summary": "A critical vulnerability in the MaxKB AI knowledge-base platform could let attackers exploit prompt injection and run operating system commands on vulnerable deployments, including directly on the und",
         "cve": []
     },
     {
-        "title": "Hackers Abuse Microsoft Teams to Pose as IT Support and Steal Employee Passwords",
-        "date": "Mon, 21 Sep 2026 09:09:24 +0000",
-        "url": "https://gbhackers.com/hackers-abuse-microsoft-teams/",
+        "title": "Hackers Abuse Stolen BigCommerce App Key to Steal Master of Malt Customer Data",
+        "date": "Tue, 22 Sep 2026 09:11:59 +0000",
+        "url": "https://gbhackers.com/hackers-abuse-stolen-bigcommerce-app-key/",
         "source": "GBHackers",
-        "summary": "Threat actors are increasingly abusing Microsoft Teams&#8217; external chat capabilities to impersonate corporate IT help desks. They trick employees into installing malware, granting remote access, a",
+        "summary": "Master of Malt reported a customer data breach after attackers allegedly compromised an application key linked to Ribon, a third-party BigCommerce app managed by Be A Part Of that identifies itself as",
         "cve": []
     },
     {
-        "title": "New Cache Key Injection Attack Lets Hackers Bypass Access Controls and Poison Nginx Caches",
-        "date": "Mon, 21 Sep 2026 08:58:08 +0000",
-        "url": "https://gbhackers.com/new-cache-key-injection-attack/",
+        "title": "Chinese APT Clones Legitimate Websites to Deliver Chrome and Windows Zero-Day Exploits",
+        "date": "Tue, 22 Sep 2026 09:01:14 +0000",
+        "url": "https://gbhackers.com/apt-exploits-chrome-and-windows/",
         "source": "GBHackers",
-        "summary": "Security researchers have unveiled a cache poisoning technique called cache key injection that lets attackers bypass access controls, expose cached sensitive pages, trigger denial-of-service condition",
+        "summary": "A third Chinese threat actor has been linked to phishing campaigns that cloned trusted websites and chained Chrome and Windows zero-day exploits to deploy a previously undocumented backdoor. The activ",
         "cve": []
     },
     {
-        "title": "Hackers Weaponize Terraform Lock Files to Infect DevOps Engineers With macOS Backdoors",
-        "date": "Mon, 21 Sep 2026 08:53:58 +0000",
-        "url": "https://gbhackers.com/terraform-lock-files/",
+        "title": "D-Link DIR-822A Router Vulnerability Scores CVSS 10.0 With Public PoC Available",
+        "date": "Tue, 22 Sep 2026 08:58:31 +0000",
+        "url": "https://gbhackers.com/d-link-dir-822a-router-vulnerability/",
         "source": "GBHackers",
-        "summary": "North Korea-linked threat actor TraderTraitor has expanded its developer-focused intrusion activity beyond cryptocurrency targets, using weaponized Terraform lock files in fake job-interview repositor",
+        "summary": "D-Link has announced a critical stack-based buffer overflow vulnerability affecting the non-US DIR-822A router, identified as CVE-2026-86296. This vulnerability has received a maximum CVSS v3.1 score ",
         "cve": []
     },
     {
-        "title": "HEIF Heist Image Flaws Let Attackers Gain RCE Across Meta, Slack and GitHub Enterprise",
-        "date": "Mon, 21 Sep 2026 08:17:05 +0000",
-        "url": "https://gbhackers.com/heif-heist-image-flaws/",
+        "title": "CISA Flags Actively Exploited Flaw in Zyxel GS1900 Switches",
+        "date": "Tue, 22 Sep 2026 08:37:34 +0000",
+        "url": "https://gbhackers.com/cisa-flags-actively-exploited-flaw/",
         "source": "GBHackers",
-        "summary": "“HEIF Heist,” a broad class of image-processing attack paths that could allow threat actors to turn malicious HEIF, HEIC, and AVIF uploads into remote code execution, sensitive-data exposure, and acco",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has included a high-severity vulnerability affecting Zyxel GS1900 Series switches in its Known Exploited Vulnerabilities (KEV) Catalog.",
         "cve": []
     }
 ]
