@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-21T17:14:21.950113",
+    "timestamp": "2026-09-22T01:59:03.175209",
     "services": [
         {
             "service": "OpenAI",
@@ -9,8 +9,8 @@
         },
         {
             "service": "Claude",
-            "status": "none",
-            "description": "All Systems Operational",
+            "status": "minor",
+            "description": "Minor Service Outage",
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
@@ -30,7 +30,7 @@
     "claude_components": [
         {
             "name": "claude.ai",
-            "status": "operational"
+            "status": "partial_outage"
         },
         {
             "name": "Claude Console (platform.claude.com)",
@@ -38,15 +38,15 @@
         },
         {
             "name": "Claude API (api.anthropic.com)",
-            "status": "operational"
+            "status": "partial_outage"
         },
         {
             "name": "Claude Code",
-            "status": "operational"
+            "status": "partial_outage"
         },
         {
             "name": "Claude Cowork",
-            "status": "operational"
+            "status": "partial_outage"
         },
         {
             "name": "Claude for Government",
