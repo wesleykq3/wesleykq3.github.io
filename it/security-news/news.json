@@ -1,5 +1,53 @@
 [
     {
+        "title": "InfraTrust report warns network management systems under attack",
+        "date": "Wed, 23 Sep 2026 10:35:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+        "source": "BleepingComputer",
+        "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclose",
+        "cve": []
+    },
+    {
+        "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+        "date": "Wed, 23 Sep 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+        "source": "BleepingComputer",
+        "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explai",
+        "cve": []
+    },
+    {
+        "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+        "date": "Wed, 23 Sep 2026 08:29:53 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+        "source": "BleepingComputer",
+        "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft: September Windows updates break Always On VPN connections",
+        "date": "Wed, 23 Sep 2026 07:18:13 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
+        "cve": []
+    },
+    {
+        "title": "Ryuk ransomware member sentenced to 24 months in prison",
+        "date": "Wed, 23 Sep 2026 04:20:05 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+        "source": "BleepingComputer",
+        "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
+        "cve": []
+    },
+    {
+        "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+        "date": "Wed, 23 Sep 2026 03:17:23 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+        "cve": []
+    },
+    {
         "title": "Rogue external MFA providers can steal passwords during logins",
         "date": "Tue, 22 Sep 2026 17:45:45 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
@@ -32,211 +80,83 @@
         "cve": []
     },
     {
-        "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-        "date": "Tue, 22 Sep 2026 14:04:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-        "source": "BleepingComputer",
-        "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
-        "cve": []
-    },
-    {
-        "title": "Reducing shadow IT visibility gaps with Wazuh",
-        "date": "Tue, 22 Sep 2026 13:17:41 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
-        "source": "BleepingComputer",
-        "summary": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monit",
-        "cve": []
-    },
-    {
-        "title": "Check Point warns of Management Server zero-day exploited in attacks",
-        "date": "Tue, 22 Sep 2026 12:32:47 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
-        "cve": []
-    },
-    {
-        "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-        "date": "Tue, 22 Sep 2026 11:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-        "source": "BleepingComputer",
-        "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
-        "cve": []
-    },
-    {
-        "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
-        "date": "Tue, 22 Sep 2026 08:57:07 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
-        "source": "BleepingComputer",
-        "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Lea",
-        "cve": []
-    },
-    {
-        "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-        "date": "Tue, 22 Sep 2026 08:48:06 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-        "source": "BleepingComputer",
-        "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
-        "cve": []
-    },
-    {
-        "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-        "date": "Tue, 22 Sep 2026 23:59:39 +0530",
-        "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+        "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+        "date": "Wed, 23 Sep 2026 19:47:58 +0530",
+        "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
         "source": "The Hacker News",
-        "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.\n\nThe flaw, CVE-2026-93616, allows an attac",
+        "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to",
         "cve": []
     },
     {
-        "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-        "date": "Tue, 22 Sep 2026 23:33:10 +0530",
-        "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+        "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+        "date": "Wed, 23 Sep 2026 19:22:46 +0530",
+        "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
         "source": "The Hacker News",
-        "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.\n\nOn some servers, that can go further, allowi",
+        "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit",
         "cve": []
     },
     {
-        "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-        "date": "Tue, 22 Sep 2026 23:28:15 +0530",
-        "url": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+        "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+        "date": "Wed, 23 Sep 2026 17:46:00 +0530",
+        "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications",
+        "summary": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22.\n\nA&nbsp;seco",
         "cve": []
     },
     {
-        "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-        "date": "Tue, 22 Sep 2026 22:33:31 +0530",
-        "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+        "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+        "date": "Wed, 23 Sep 2026 17:17:19 +0530",
+        "url": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
         "source": "The Hacker News",
-        "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out ",
+        "summary": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: co",
         "cve": []
     },
     {
-        "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-        "date": "Tue, 22 Sep 2026 22:11:12 +0530",
-        "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+        "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+        "date": "Wed, 23 Sep 2026 17:17:13 +0530",
+        "url": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
         "source": "The Hacker News",
-        "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway serv",
+        "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.\n\nOpus ",
         "cve": []
     },
     {
-        "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-        "date": "Tue, 22 Sep 2026 21:44:04 +0530",
-        "url": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+        "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+        "date": "Wed, 23 Sep 2026 16:42:18 +0530",
+        "url": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
         "source": "The Hacker News",
-        "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.\n\nTh",
+        "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&nbsp;said in research published September 22.\n\nThe",
         "cve": []
     },
     {
-        "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-        "date": "Tue, 22 Sep 2026 18:00:00 +0530",
-        "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+        "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+        "date": "Wed, 23 Sep 2026 13:59:48 +0530",
+        "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
         "source": "The Hacker News",
-        "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the acces",
+        "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.\n\nThe flaw,&nbsp;CVE-2026-94127, affects only s",
         "cve": []
     },
     {
-        "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
-        "date": "Tue, 22 Sep 2026 17:59:00 +0530",
-        "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+        "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+        "date": "Wed, 23 Sep 2026 13:59:24 +0530",
+        "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
         "source": "The Hacker News",
-        "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.\n\nThe flaw, tracked as CVE-",
+        "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.\n\nThe attacks, detected on",
         "cve": []
     },
     {
-        "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
-        "date": "Tue, 22 Sep 2026 17:15:00 +0530",
-        "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+        "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+        "date": "Wed, 23 Sep 2026 12:34:40 +0530",
+        "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
         "source": "The Hacker News",
-        "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establis",
+        "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.\n\nThe r",
         "cve": []
     },
     {
-        "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-        "date": "Tue, 22 Sep 2026 17:08:40 +0530",
-        "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+        "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+        "date": "Wed, 23 Sep 2026 11:00:09 +0530",
+        "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
         "source": "The Hacker News",
-        "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.\n\nTh",
-        "cve": []
-    },
-    {
-        "title": "Check Point Management Server 0-Day Vulnerability Actively Exploited in Attacks",
-        "date": "Tue, 22 Sep 2026 17:17:03 +0000",
-        "url": "https://cybersecuritynews.com/check-point-management-server-0-day-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "Check Point has warned customers that attackers are exploiting a critical zero-day vulnerability in its Security Management infrastructure. Tracked as CVE-2026-93616, the flaw carries a CVSS score of ",
-        "cve": []
-    },
-    {
-        "title": "Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents",
-        "date": "Tue, 22 Sep 2026 16:58:55 +0000",
-        "url": "https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/",
-        "source": "CyberSecurityNews",
-        "summary": "Silver Spring, Maryland, USA, September 22nd, 2026, CyberNewswire Aembit, the identity and access management (IAM) company for AI agents, today announced support for Cross App Access (XAA), an open pr",
-        "cve": []
-    },
-    {
-        "title": "Scaling SOC Capabilities: How Threat Intelligence Cuts Triage Time and Burnout",
-        "date": "Tue, 22 Sep 2026 16:46:05 +0000",
-        "url": "https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout/",
-        "source": "CyberSecurityNews",
-        "summary": "A suspicious IP, unfamiliar domain, or file hash can trigger an investigation in seconds. Understanding what that indicator means can take much longer.&#160; An IOC rarely tells the full story. Analys",
-        "cve": []
-    },
-    {
-        "title": "Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards",
-        "date": "Tue, 22 Sep 2026 15:51:18 +0000",
-        "url": "https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/",
-        "source": "CyberSecurityNews",
-        "summary": "A financially motivated operator has been running three open-source AI tools against many online retailers, mostly without supervision. The results are shocking: over 600,000 credit card records have ",
-        "cve": []
-    },
-    {
-        "title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control",
-        "date": "Tue, 22 Sep 2026 15:27:12 +0000",
-        "url": "https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "Cisco Talos has released CAIRN, an open-source toolkit designed to hunt, classify, and track AI-integrated malware by examining the digital markers developers leave behind. The Cognitive Artifact Inte",
-        "cve": []
-    },
-    {
-        "title": "Microsoft SharePoint Flaw Lets Attackers Execute Code Remotely With Low Privileges",
-        "date": "Tue, 22 Sep 2026 13:59:11 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-sharepoint-rce-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft has confirmed a high-severity remote code execution vulnerability in on-premises SharePoint Server that lets an authenticated, low-privileged attacker run arbitrary code over a network witho",
-        "cve": []
-    },
-    {
-        "title": "New TASK#STOMP Backdoor Uses PowerShell to Steal Documents and Wi-Fi Passwords",
-        "date": "Tue, 22 Sep 2026 13:45:24 +0000",
-        "url": "https://cybersecuritynews.com/new-taskstomp-backdoor/",
-        "source": "CyberSecurityNews",
-        "summary": "TASK#STOMP is a newly analyzed Windows backdoor that turns ordinary built-in tools into a durable spying operation. It uses a Visual Basic Script installer, hidden PowerShell, scheduled tasks, and run",
-        "cve": []
-    },
-    {
-        "title": "Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access",
-        "date": "Tue, 22 Sep 2026 13:37:26 +0000",
-        "url": "https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-89775, could let attackers escape an ARM64 virtual machine and access the underlying host system. The issue affects KVM/arm64 environm",
-        "cve": []
-    },
-    {
-        "title": "Veeam Agent Flaw Actively Exploited to Gain SYSTEM Privileges on Windows",
-        "date": "Tue, 22 Sep 2026 12:55:07 +0000",
-        "url": "https://cybersecuritynews.com/veeam-agent-flaw-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical local privilege escalation flaw in Veeam Agent for Microsoft Windows is drawing attention after public proof-of-concept exploit code became available. The vulnerability, tracked as CVE-2026",
-        "cve": []
-    },
-    {
-        "title": "Red Hat OpenShift Flaw Lets Attackers Bypass PGP Checks and Push Malicious Releases",
-        "date": "Tue, 22 Sep 2026 12:49:43 +0000",
-        "url": "https://cybersecuritynews.com/red-hat-openshift-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Red Hat has disclosed an Important security vulnerability in the OpenShift oc-mirror tool that could allow attackers to bypass PGP signature verification and introduce malicious release images into di",
+        "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.\n\n\"W",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents",
-        "date": "Tue, 22 Sep 2026 17:00:36 +0000",
-        "url": "https://gbhackers.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/",
-        "source": "GBHackers",
-        "summary": "Silver Spring, Maryland, USA, September 22nd, 2026, CyberNewswire Aembit, the identity and access management (IAM) company for AI agents, today announced support for Cross App Access (XAA), an open pr",
+        "title": "Intel Developing Their DXVK-IGDEXT For Improved Linux Gaming On Arc Graphics",
+        "date": "Wed, 23 Sep 2026 10:54:44 -0400",
+        "url": "https://www.phoronix.com/news/DXVK-IGDEXT",
+        "source": "Phoronix",
+        "summary": "Intel engineers have been quietly developing dxvk-igdext as their own component for DXVK Direct3D 8 / 9 / 10 / 11 atop the Vulkan API for leveraging Intel Direct3D 11 Graphics Extensions...",
         "cve": []
     },
     {
-        "title": "Critical Linux KVM Flaw Enables Guest-to-Host Escape on ARM64 Systems",
-        "date": "Tue, 22 Sep 2026 12:26:58 +0000",
-        "url": "https://gbhackers.com/critical-linux-kvm-flaw/",
-        "source": "GBHackers",
-        "summary": "A critical vulnerability in the Linux Kernel-based Virtual Machine (KVM) for ARM64 systems could let attackers escape a virtual machine and gain read and write access to host kernel memory. This flaw,",
+        "title": "Benchmarking Java Performance Of JDK 8 Through OpenJDK 27",
+        "date": "Wed, 23 Sep 2026 10:17:09 -0400",
+        "url": "https://www.phoronix.com/review/java-8-openjdk-27-benchmarks",
+        "source": "Phoronix",
+        "summary": "With the recent release of Java/OpenJDK 27 I began some fresh benchmarks in not having looked at the OpenJDK Java performance in a few years. Carried away, I ended up re-testing all the major OpenJDK ",
         "cve": []
     },
     {
-        "title": "TASK#STOMP PowerShell Backdoor Steals Business Documents and Executes Remote Commands",
-        "date": "Tue, 22 Sep 2026 11:34:01 +0000",
-        "url": "https://gbhackers.com/taskstomp-powershell-backdoor/",
-        "source": "GBHackers",
-        "summary": "A Windows-focused backdoor dubbed TASK#STOMP that uses VBScript, PowerShell, Scheduled Tasks, and runtime C# compilation to establish resilient persistence and continuously steal business documents. T",
+        "title": "NTFS-3G Update Brings Many Security Fixes",
+        "date": "Wed, 23 Sep 2026 08:27:01 -0400",
+        "url": "https://www.phoronix.com/news/NTFS-3G-2026.9.18",
+        "source": "Phoronix",
+        "summary": "NTFS-3G 2026.9.18 was released this morning as the newest update to this FUSE-based open-source driver for NTFS file-system support...",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Veeam Agent Vulnerability to Gain SYSTEM-Level Access on Windows",
-        "date": "Tue, 22 Sep 2026 11:22:39 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-veeam-agent-vulnerability/",
-        "source": "GBHackers",
-        "summary": "A newly discovered privilege escalation flaw in Veeam Agent for Microsoft Windows could allow attackers with local access to compromised endpoints to execute commands as NT AUTHORITY\\SYSTEM. Public pr",
+        "title": "Qualcomm Posts Open-Source GPU Driver Patches For Adreno 850 One Day After Announcement",
+        "date": "Wed, 23 Sep 2026 07:45:48 -0400",
+        "url": "https://www.phoronix.com/news/Qualcomm-Adreno-850-Open-Source",
+        "source": "Phoronix",
+        "summary": "Yesterday Qualcomm announced the Snapdragon 8 Elite Extreme Gen 6 as quite an interesting mobile SoC. The Qualcomm Snapdragon 8 Elite Extreme Gen 6 features Adreno 850 graphics and already one-day lat",
         "cve": []
     },
     {
-        "title": "Red Hat OpenShift Flaw Lets Attackers Poison Disconnected Registries With Malicious Releases",
-        "date": "Tue, 22 Sep 2026 11:10:07 +0000",
-        "url": "https://gbhackers.com/red-hat-openshift-flaw/",
-        "source": "GBHackers",
-        "summary": "Red Hat disclosed an important OpenShift vulnerability that could let attackers bypass release-image signature checks and introduce malicious payloads into disconnected registries. This issue, tracked",
+        "title": "AMD Upstreams AVX10_V2_AUX Support Into LLVM Clang 24",
+        "date": "Wed, 23 Sep 2026 06:25:58 -0400",
+        "url": "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX",
+        "source": "Phoronix",
+        "summary": "In addition to AMD working on AVX10_V2_AUX support for the GCC compiler, this summer they also posted AVX10_V2_AUX support for the LLVM/Clang compiler. As of yesterday that enablement was merged for L",
         "cve": []
     },
     {
-        "title": "Linux BambooToken Malware Uses MQTT C2 for Remote Shell Access and File Exfiltration",
-        "date": "Tue, 22 Sep 2026 10:46:11 +0000",
-        "url": "https://gbhackers.com/linux-bambootoken-malware/",
-        "source": "GBHackers",
-        "summary": "A Linux variant of the BambooToken backdoor uses MQTT as its command-and-control channel, enabling operators to profile compromised hosts, execute shell commands, and transfer files through broker-med",
+        "title": "Linux 7.3 Reverting Logitech Bolt Receiver HID++ After Too Many Bugs Encountered",
+        "date": "Wed, 23 Sep 2026 06:15:37 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Reverting-Logitech-Bolt",
+        "source": "Phoronix",
+        "summary": "Merged at the start of the Linux 7.3 kernel cycle was adding Logitech Bolt USB receiver support for Logitech HID++ devices to the hid-logitech-dj driver code. That has resulted in too many bug reports",
         "cve": []
     },
     {
-        "title": "Critical MaxKB AI Agent Flaw Lets Prompt Injection Execute System Commands",
-        "date": "Tue, 22 Sep 2026 10:43:40 +0000",
-        "url": "https://gbhackers.com/critical-maxkb-ai-agent-flaw/",
-        "source": "GBHackers",
-        "summary": "A critical vulnerability in the MaxKB AI knowledge-base platform could let attackers exploit prompt injection and run operating system commands on vulnerable deployments, including directly on the und",
+        "title": "Promotion Reminder For Ad-Free Viewing, Multi-Page Articles On A Single Page",
+        "date": "Tue, 22 Sep 2026 21:00:00 -0400",
+        "url": "https://www.phoronix.com/news/September-2026-Phoronix-Ad-Free",
+        "source": "Phoronix",
+        "summary": "As a friendly reminder in case you missed it from over the weekend, the Phoronix autumn \"Oktoberfest\" premium sale is taking place through the rest of this week for those wishing to help support the s",
         "cve": []
     },
     {
-        "title": "Hackers Abuse Stolen BigCommerce App Key to Steal Master of Malt Customer Data",
-        "date": "Tue, 22 Sep 2026 09:11:59 +0000",
-        "url": "https://gbhackers.com/hackers-abuse-stolen-bigcommerce-app-key/",
-        "source": "GBHackers",
-        "summary": "Master of Malt reported a customer data breach after attackers allegedly compromised an application key linked to Ribon, a third-party BigCommerce app managed by Be A Part Of that identifies itself as",
+        "title": "Open-Source NVIDIA \"Nouveau\" Driver Sees Patches For HDMI Deep Color Support",
+        "date": "Tue, 22 Sep 2026 20:54:21 -0400",
+        "url": "https://www.phoronix.com/news/Nouveau-Deep-Color-Patches",
+        "source": "Phoronix",
+        "summary": "The Nouveau Linux kernel graphics driver for open-source NVIDIA driver support has new patches posted for enabling HDMI Deep Color support...",
         "cve": []
     },
     {
-        "title": "Chinese APT Clones Legitimate Websites to Deliver Chrome and Windows Zero-Day Exploits",
-        "date": "Tue, 22 Sep 2026 09:01:14 +0000",
-        "url": "https://gbhackers.com/apt-exploits-chrome-and-windows/",
-        "source": "GBHackers",
-        "summary": "A third Chinese threat actor has been linked to phishing campaigns that cloned trusted websites and chained Chrome and Windows zero-day exploits to deploy a previously undocumented backdoor. The activ",
+        "title": "Linux 7.2 vs. Linux 7.3 Shows A Few Improvements With AMD Strix Halo",
+        "date": "Tue, 22 Sep 2026 15:23:48 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-Strix-Halo",
+        "source": "Phoronix",
+        "summary": "Last week I ran some benchmarks showing performance gains for AMD Ryzen AI Max+ \"Strix Halo\" on Ubuntu 26.10. Then shortly after that testing on its daily state, which used the Linux 7.2 kernel, Canon",
         "cve": []
     },
     {
-        "title": "D-Link DIR-822A Router Vulnerability Scores CVSS 10.0 With Public PoC Available",
-        "date": "Tue, 22 Sep 2026 08:58:31 +0000",
-        "url": "https://gbhackers.com/d-link-dir-822a-router-vulnerability/",
-        "source": "GBHackers",
-        "summary": "D-Link has announced a critical stack-based buffer overflow vulnerability affecting the non-US DIR-822A router, identified as CVE-2026-86296. This vulnerability has received a maximum CVSS v3.1 score ",
+        "title": "Ubuntu Linux Maker Canonical Achieved $345M USD In Revenue For 2025",
+        "date": "Tue, 22 Sep 2026 14:26:13 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-Canonical-Did-345M-2025",
+        "source": "Phoronix",
+        "summary": "In 2024 Canonical generated nearly $300M USD in revenue for this company behind Ubuntu Linux and other services and software solutions. For 2025, they not only broke $300M but well exceeded it with $3",
         "cve": []
     }
 ]
