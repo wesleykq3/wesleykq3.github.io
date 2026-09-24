@@ -1,5 +1,45 @@
 [
     {
+        "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+        "date": "Wed, 23 Sep 2026 18:46:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+        "source": "BleepingComputer",
+        "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into exec",
+        "cve": []
+    },
+    {
+        "title": "New RemControl Android banking malware targets users in Europe and Canada",
+        "date": "Wed, 23 Sep 2026 17:25:13 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+        "source": "BleepingComputer",
+        "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
+        "cve": []
+    },
+    {
+        "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+        "date": "Wed, 23 Sep 2026 15:53:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+        "source": "BleepingComputer",
+        "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of i",
+        "cve": []
+    },
+    {
+        "title": "Hackers start exploiting critical WordPress flaw for code execution",
+        "date": "Wed, 23 Sep 2026 14:31:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+        "source": "BleepingComputer",
+        "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+        "cve": []
+    },
+    {
+        "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+        "date": "Wed, 23 Sep 2026 12:20:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+        "source": "BleepingComputer",
+        "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
+        "cve": []
+    },
+    {
         "title": "InfraTrust report warns network management systems under attack",
         "date": "Wed, 23 Sep 2026 10:35:26 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
@@ -40,43 +80,27 @@
         "cve": []
     },
     {
-        "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-        "date": "Wed, 23 Sep 2026 03:17:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+        "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+        "date": "Wed, 23 Sep 2026 23:36:30 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted b",
         "cve": []
     },
     {
-        "title": "Rogue external MFA providers can steal passwords during logins",
-        "date": "Tue, 22 Sep 2026 17:45:45 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-        "source": "BleepingComputer",
-        "summary": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts. [...]",
+        "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+        "date": "Wed, 23 Sep 2026 22:23:10 +0530",
+        "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+        "source": "The Hacker News",
+        "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including m",
         "cve": []
     },
     {
-        "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-        "date": "Tue, 22 Sep 2026 17:40:37 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-        "source": "BleepingComputer",
-        "summary": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security measures leading to a breach in August 2025 affecting 2.2 m",
-        "cve": []
-    },
-    {
-        "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-        "date": "Tue, 22 Sep 2026 16:35:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-        "source": "BleepingComputer",
-        "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in",
-        "cve": []
-    },
-    {
-        "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-        "date": "Tue, 22 Sep 2026 15:13:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-        "source": "BleepingComputer",
-        "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and jo",
+        "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+        "date": "Wed, 23 Sep 2026 21:36:41 +0530",
+        "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+        "source": "The Hacker News",
+        "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe cha",
         "cve": []
     },
     {
@@ -136,27 +160,83 @@
         "cve": []
     },
     {
-        "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-        "date": "Wed, 23 Sep 2026 13:59:24 +0530",
-        "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-        "source": "The Hacker News",
-        "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.\n\nThe attacks, detected on",
+        "title": "GitLab Email Feature Vulnerability Lets Attackers Push Code Into Private Repositories",
+        "date": "Wed, 23 Sep 2026 15:40:39 +0000",
+        "url": "https://cybersecuritynews.com/gitlab-email-private-repository-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "GitLab’s “Email work item to this project” feature can become a repository-compromise primitive when its private address is exposed, according to research published by Aikido Security researcher Joe L",
         "cve": []
     },
     {
-        "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-        "date": "Wed, 23 Sep 2026 12:34:40 +0530",
-        "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-        "source": "The Hacker News",
-        "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.\n\nThe r",
+        "title": "The Visibility Gap in Phishing Detection: Where Sandboxing Makes a Difference",
+        "date": "Wed, 23 Sep 2026 15:40:01 +0000",
+        "url": "https://cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference/",
+        "source": "CyberSecurityNews",
+        "summary": "The difficult part of phishing detection for a security team often begins after the initial alert.&#160; A suspicious URL may look clean at first glance, leaving the analyst with a familiar question: ",
         "cve": []
     },
     {
-        "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-        "date": "Wed, 23 Sep 2026 11:00:09 +0530",
-        "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-        "source": "The Hacker News",
-        "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.\n\n\"W",
+        "title": "Outerlimit Raises $16M to Build Zero Trust Security Layer for Autonomous AI Agents",
+        "date": "Wed, 23 Sep 2026 15:24:38 +0000",
+        "url": "https://cybersecuritynews.com/outerlimit-ai-agent-zero-trust/",
+        "source": "CyberSecurityNews",
+        "summary": "Outerlimit has emerged from stealth with $16 million in pre-seed funding to develop a decentralized security and authorization layer for autonomous AI agents. Announced on September 22, 2026, the roun",
+        "cve": []
+    },
+    {
+        "title": "New Cpanel Vulnerability Allows Attackers to Access Other Users’ Accounts",
+        "date": "Wed, 23 Sep 2026 15:18:34 +0000",
+        "url": "https://cybersecuritynews.com/cpanel-user-account-access-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "cPanel has patched three newly disclosed security vulnerabilities that threaten tenant isolation on shared-hosting servers, including a permissions flaw that exposes other users’ calendars and contact",
+        "cve": []
+    },
+    {
+        "title": "Critical IBM FTM Flaws Let Attackers Execute Code and Access Payment Systems",
+        "date": "Wed, 23 Sep 2026 14:43:31 +0000",
+        "url": "https://cybersecuritynews.com/critical-ibm-ftm-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "IBM has released security fixes for Financial Transaction Manager for Red Hat OpenShift after identifying multiple vulnerabilities that could enable remote code execution, unauthorized payment actions",
+        "cve": []
+    },
+    {
+        "title": "Ryuk Ransomware Operator Sentenced for Deploying Malware and Extorting Victim Networks",
+        "date": "Wed, 23 Sep 2026 14:28:35 +0000",
+        "url": "https://cybersecuritynews.com/ryuk-ransomware-operator-sentenced/",
+        "source": "CyberSecurityNews",
+        "summary": "An Armenian national extradited from Ukraine to the United States has been sentenced to federal prison for his role in Ryuk ransomware attacks that targeted organizations worldwide, including a compan",
+        "cve": []
+    },
+    {
+        "title": "AWS Lambda Flaw Lets Attackers Bypass IAM Permissions and Access Cloud Services",
+        "date": "Wed, 23 Sep 2026 14:23:53 +0000",
+        "url": "https://cybersecuritynews.com/aws-lambda-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "AWS disclosed a high-severity authorization flaw in its Amazon Connect Salesforce Lambda application that could let attackers perform privileged cloud actions beyond their assigned IAM permissions. Th",
+        "cve": []
+    },
+    {
+        "title": "Critical NEXT.JS Flaw Enables RCE Attacks Via Weaponized SVG File",
+        "date": "Wed, 23 Sep 2026 13:43:37 +0000",
+        "url": "https://cybersecuritynews.com/critical-next-js-flaw-allows-remote-code-execution/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical Next.js vulnerability, tracked as CVE-2026-94545, affects the Node.js ImageResponse implementation in the next/og package and could allow remote code execution by exploiting malicious SVG c",
+        "cve": []
+    },
+    {
+        "title": "Fake Crypto Wallet App Spreads PamStealer Malware to Steal Mac Passwords",
+        "date": "Wed, 23 Sep 2026 12:44:40 +0000",
+        "url": "https://cybersecuritynews.com/fake-crypto-wallet-app-spreads-pamstealer-malware-to-steal-mac-passwords/",
+        "source": "CyberSecurityNews",
+        "summary": "A fake cryptocurrency wallet download is delivering a new version of PamStealer to Mac users. The attack starts with a convincing website whose installer asks visitors to follow instructions. Running ",
+        "cve": []
+    },
+    {
+        "title": "The Domains Keep Disappearing, but the Malware Infrastructure Behind Them Never Moves",
+        "date": "Wed, 23 Sep 2026 11:53:15 +0000",
+        "url": "https://cybersecuritynews.com/domains-keep-disappearing/",
+        "source": "CyberSecurityNews",
+        "summary": "Fake verification pages are steering people toward malware, but the web addresses behind the lures keep changing. Over five months, investigators tracked four different attack chains that began with t",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Intel Developing Their DXVK-IGDEXT For Improved Linux Gaming On Arc Graphics",
-        "date": "Wed, 23 Sep 2026 10:54:44 -0400",
-        "url": "https://www.phoronix.com/news/DXVK-IGDEXT",
-        "source": "Phoronix",
-        "summary": "Intel engineers have been quietly developing dxvk-igdext as their own component for DXVK Direct3D 8 / 9 / 10 / 11 atop the Vulkan API for leveraging Intel Direct3D 11 Graphics Extensions...",
+        "title": "Fake Crypto Wallet App Delivers PamStealer Malware That Hijacks Mac Credentials",
+        "date": "Wed, 23 Sep 2026 13:21:30 +0000",
+        "url": "https://gbhackers.com/fake-crypto-wallet-app/",
+        "source": "GBHackers",
+        "summary": "A new variant of the macOS infostealer PamStealer is being distributed through a fake cryptocurrency wallet application, using a server-assisted decryption chain and Swift-based payload to steal crede",
         "cve": []
     },
     {
-        "title": "Benchmarking Java Performance Of JDK 8 Through OpenJDK 27",
-        "date": "Wed, 23 Sep 2026 10:17:09 -0400",
-        "url": "https://www.phoronix.com/review/java-8-openjdk-27-benchmarks",
-        "source": "Phoronix",
-        "summary": "With the recent release of Java/OpenJDK 27 I began some fresh benchmarks in not having looked at the OpenJDK Java performance in a few years. Carried away, I ended up re-testing all the major OpenJDK ",
+        "title": "Exvicy ClickFix Malware-as-a-Service Copies ErrTraffic to Hijack WordPress Sites",
+        "date": "Wed, 23 Sep 2026 12:29:44 +0000",
+        "url": "https://gbhackers.com/exvicy-clickfix-malware/",
+        "source": "GBHackers",
+        "summary": "A new Malware-as-a-Service platform, Exvicy, is actively abusing compromised WordPress websites to deliver ClickFix lures disguised as Cloudflare Turnstile verification pages. Researchers at Sekoia as",
         "cve": []
     },
     {
-        "title": "NTFS-3G Update Brings Many Security Fixes",
-        "date": "Wed, 23 Sep 2026 08:27:01 -0400",
-        "url": "https://www.phoronix.com/news/NTFS-3G-2026.9.18",
-        "source": "Phoronix",
-        "summary": "NTFS-3G 2026.9.18 was released this morning as the newest update to this FUSE-based open-source driver for NTFS file-system support...",
+        "title": "HPE Networking Analytics Engine Flaws Let Attackers Gain Root Access",
+        "date": "Wed, 23 Sep 2026 11:47:34 +0000",
+        "url": "https://gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access/",
+        "source": "GBHackers",
+        "summary": "Hewlett Packard Enterprise (HPE) has announced security updates for its Networking Analytics and Location Engine (ALE), addressing 10 vulnerabilities that could lead to complete appliance compromise a",
         "cve": []
     },
     {
-        "title": "Qualcomm Posts Open-Source GPU Driver Patches For Adreno 850 One Day After Announcement",
-        "date": "Wed, 23 Sep 2026 07:45:48 -0400",
-        "url": "https://www.phoronix.com/news/Qualcomm-Adreno-850-Open-Source",
-        "source": "Phoronix",
-        "summary": "Yesterday Qualcomm announced the Snapdragon 8 Elite Extreme Gen 6 as quite an interesting mobile SoC. The Qualcomm Snapdragon 8 Elite Extreme Gen 6 features Adreno 850 graphics and already one-day lat",
+        "title": "Cybercriminals Abandon Domains but Keep the Hosting Networks Behind Malware Campaigns",
+        "date": "Wed, 23 Sep 2026 11:40:52 +0000",
+        "url": "https://gbhackers.com/malware-hosting-networks/",
+        "source": "GBHackers",
+        "summary": "Cybercriminals are rapidly rotating lure domains, cloud storage buckets and command-and-control channels, but one infrastructure component is proving far harder to replace: the bulletproof hosting net",
         "cve": []
     },
     {
-        "title": "AMD Upstreams AVX10_V2_AUX Support Into LLVM Clang 24",
-        "date": "Wed, 23 Sep 2026 06:25:58 -0400",
-        "url": "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX",
-        "source": "Phoronix",
-        "summary": "In addition to AMD working on AVX10_V2_AUX support for the GCC compiler, this summer they also posted AVX10_V2_AUX support for the LLVM/Clang compiler. As of yesterday that enablement was merged for L",
+        "title": "SolarWinds Observability Flaws Let Unauthenticated Attackers Execute Remote Code",
+        "date": "Wed, 23 Sep 2026 11:32:55 +0000",
+        "url": "https://gbhackers.com/solarwinds-observability-flaws/",
+        "source": "GBHackers",
+        "summary": "SolarWinds has released SolarWinds Observability Self-Hosted version 2026.2.3 to address two critical remote code execution (RCE) vulnerabilities. These vulnerabilities could allow unauthenticated att",
         "cve": []
     },
     {
-        "title": "Linux 7.3 Reverting Logitech Bolt Receiver HID++ After Too Many Bugs Encountered",
-        "date": "Wed, 23 Sep 2026 06:15:37 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Reverting-Logitech-Bolt",
-        "source": "Phoronix",
-        "summary": "Merged at the start of the Linux 7.3 kernel cycle was adding Logitech Bolt USB receiver support for Logitech HID++ devices to the hid-logitech-dj driver code. That has resulted in too many bug reports",
+        "title": "Microsoft Warns of EvilTokens AI Phishing Service Hijacking Thousands of Accounts",
+        "date": "Wed, 23 Sep 2026 10:25:35 +0000",
+        "url": "https://gbhackers.com/eviltokens-ai-phishing/",
+        "source": "GBHackers",
+        "summary": "Microsoft has warned that the EvilTokens phishing-as-a-service platform has become a major driver of AI-enabled device-code phishing, compromising more than 12,000 email inboxes across over 10,000 org",
         "cve": []
     },
     {
-        "title": "Promotion Reminder For Ad-Free Viewing, Multi-Page Articles On A Single Page",
-        "date": "Tue, 22 Sep 2026 21:00:00 -0400",
-        "url": "https://www.phoronix.com/news/September-2026-Phoronix-Ad-Free",
-        "source": "Phoronix",
-        "summary": "As a friendly reminder in case you missed it from over the weekend, the Phoronix autumn \"Oktoberfest\" premium sale is taking place through the rest of this week for those wishing to help support the s",
+        "title": "Graphalgo Malware Uses Malicious Terraform Providers and Go Modules to Deploy RAT",
+        "date": "Wed, 23 Sep 2026 10:00:39 +0000",
+        "url": "https://gbhackers.com/graphalgo-malware/",
+        "source": "GBHackers",
+        "summary": "A threat actor linked to the ongoing Graphalgo software supply-chain campaign has expanded beyond npm and PyPI, using malicious Terraform providers and Go modules to deliver a targeted Go-based remote",
         "cve": []
     },
     {
-        "title": "Open-Source NVIDIA \"Nouveau\" Driver Sees Patches For HDMI Deep Color Support",
-        "date": "Tue, 22 Sep 2026 20:54:21 -0400",
-        "url": "https://www.phoronix.com/news/Nouveau-Deep-Color-Patches",
-        "source": "Phoronix",
-        "summary": "The Nouveau Linux kernel graphics driver for open-source NVIDIA driver support has new patches posted for enabling HDMI Deep Color support...",
+        "title": "NVIDIA Infrastructure Controller Hit by 14 Flaws Enabling Code Execution and Privilege Escalation",
+        "date": "Wed, 23 Sep 2026 09:25:02 +0000",
+        "url": "https://gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation/",
+        "source": "GBHackers",
+        "summary": "NVIDIA has released version 2.0 of its Infrastructure Controller to address 14 vulnerabilities found in its Linux-based infrastructure management software. This update includes a critical flaw involvi",
         "cve": []
     },
     {
-        "title": "Linux 7.2 vs. Linux 7.3 Shows A Few Improvements With AMD Strix Halo",
-        "date": "Tue, 22 Sep 2026 15:23:48 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Strix-Halo",
-        "source": "Phoronix",
-        "summary": "Last week I ran some benchmarks showing performance gains for AMD Ryzen AI Max+ \"Strix Halo\" on Ubuntu 26.10. Then shortly after that testing on its daily state, which used the Linux 7.2 kernel, Canon",
+        "title": "ManageEngine RCE Flaw Enables SYSTEM Code Execution From Windows Login Screen",
+        "date": "Wed, 23 Sep 2026 09:17:33 +0000",
+        "url": "https://gbhackers.com/manageengine-rce-flaw/",
+        "source": "GBHackers",
+        "summary": "ManageEngine has addressed a critical remote code execution vulnerability in ADSelfService Plus, which could allow an unauthenticated attacker to execute arbitrary code as NT AUTHORITY\\SYSTEM from the",
         "cve": []
     },
     {
-        "title": "Ubuntu Linux Maker Canonical Achieved $345M USD In Revenue For 2025",
-        "date": "Tue, 22 Sep 2026 14:26:13 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-Canonical-Did-345M-2025",
-        "source": "Phoronix",
-        "summary": "In 2024 Canonical generated nearly $300M USD in revenue for this company behind Ubuntu Linux and other services and software solutions. For 2025, they not only broke $300M but well exceeded it with $3",
+        "title": "Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code",
+        "date": "Wed, 23 Sep 2026 09:10:16 +0000",
+        "url": "https://gbhackers.com/critical-wordpress-flaw/",
+        "source": "GBHackers",
+        "summary": "WordPress has released version 7.1.2 to address a critical path-traversal vulnerability, tracked as CVE-2026-87902, which could allow unauthenticated remote code execution (RCE) under specific server ",
         "cve": []
     }
 ]
