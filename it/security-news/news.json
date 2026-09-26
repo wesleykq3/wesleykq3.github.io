@@ -1,5 +1,21 @@
 [
     {
+        "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+        "date": "Sat, 26 Sep 2026 10:19:46 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+        "source": "BleepingComputer",
+        "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious",
+        "cve": []
+    },
+    {
+        "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+        "date": "Sat, 26 Sep 2026 08:28:41 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+        "cve": []
+    },
+    {
         "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
         "date": "Fri, 25 Sep 2026 17:41:07 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
@@ -64,19 +80,43 @@
         "cve": []
     },
     {
-        "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
-        "date": "Fri, 25 Sep 2026 07:35:14 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
-        "source": "BleepingComputer",
-        "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
+        "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+        "date": "Sat, 26 Sep 2026 17:16:40 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+        "source": "The Hacker News",
+        "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\n\nThe ShinyHunters-linked activity invol",
         "cve": []
     },
     {
-        "title": "Microsoft: Recent Windows updates cause desktop loading issues",
-        "date": "Fri, 25 Sep 2026 06:30:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
+        "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+        "date": "Sat, 26 Sep 2026 16:00:00 +0530",
+        "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+        "source": "The Hacker News",
+        "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents a",
+        "cve": []
+    },
+    {
+        "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+        "date": "Sat, 26 Sep 2026 15:25:22 +0530",
+        "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+        "source": "The Hacker News",
+        "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts",
+        "cve": []
+    },
+    {
+        "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+        "date": "Sat, 26 Sep 2026 14:19:53 +0530",
+        "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) ca",
+        "cve": []
+    },
+    {
+        "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+        "date": "Sat, 26 Sep 2026 13:18:33 +0530",
+        "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+        "source": "The Hacker News",
+        "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber a",
         "cve": []
     },
     {
@@ -120,43 +160,83 @@
         "cve": []
     },
     {
-        "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
-        "date": "Fri, 25 Sep 2026 10:19:22 +0530",
-        "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-        "source": "The Hacker News",
-        "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.\n\nThe ",
+        "title": "OpenAI’s AI Agents Tried Hacking 4 Websites Without Being Prompted",
+        "date": "Sat, 26 Sep 2026 04:36:57 +0000",
+        "url": "https://cybersecuritynews.com/openais-ai-agents-tried-hacking-4-websites/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenAI’s autonomous AI agents attempted to hack four government, university, and public-data systems while carrying out routine information-gathering tasks, according to researchers and government off",
         "cve": []
     },
     {
-        "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-        "date": "Fri, 25 Sep 2026 10:16:34 +0530",
-        "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (K",
+        "title": "16-Year-Old Researcher Finds Microsoft Auth Vulnerability that Exposes 17.3 Trillion Stored Records",
+        "date": "Sat, 26 Sep 2026 03:55:43 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-auth-vulnerability-expose-records/",
+        "source": "CyberSecurityNews",
+        "summary": "A 16-year-old security researcher known as Faav uncovered an authentication flaw in Microsoft’s internal Titan analytics service that potentially exposed an estimated 17.3 trillion database rows. The ",
         "cve": []
     },
     {
-        "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-        "date": "Thu, 24 Sep 2026 23:40:18 +0530",
-        "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-        "source": "The Hacker News",
-        "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus'",
+        "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+        "date": "Fri, 25 Sep 2026 18:02:16 +0000",
+        "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+        "source": "CyberSecurityNews",
+        "summary": "Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vu",
         "cve": []
     },
     {
-        "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-        "date": "Thu, 24 Sep 2026 23:22:43 +0530",
-        "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-        "source": "The Hacker News",
-        "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\n\nThat is the thread r",
+        "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
+        "date": "Fri, 25 Sep 2026 17:56:35 +0000",
+        "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "A 14-year-old Linux kernel vulnerability can let a local attacker escalate to root privileges and, in a proof-of-concept environment, escape a Docker container to compromise the underlying host. The f",
         "cve": []
     },
     {
-        "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-        "date": "Thu, 24 Sep 2026 20:57:32 +0530",
-        "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-        "source": "The Hacker News",
-        "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.\n\n\"third-pa",
+        "title": "Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems",
+        "date": "Fri, 25 Sep 2026 14:34:58 +0000",
+        "url": "https://cybersecuritynews.com/samsung-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "Attackers broke into a Windows system through a known flaw in Samsung&#8217;s MagicINFO software, then built a cryptocurrency miner on the compromised machine. Rather than arriving as a finished progr",
+        "cve": []
+    },
+    {
+        "title": "Researchers Found a Botnet That Uses an AI Agent to Operate Inside Compromised Servers",
+        "date": "Fri, 25 Sep 2026 14:17:54 +0000",
+        "url": "https://cybersecuritynews.com/botnet-uses-ai-agent/",
+        "source": "CyberSecurityNews",
+        "summary": "CARBONATO is a botnet that turns Docker servers into footholds for attackers. It places an AI agent inside compromised systems, letting operators send tasks through Telegram and receive results. The c",
+        "cve": []
+    },
+    {
+        "title": "Sauron Loader Malware Uses DLL Side-Loading and In-Memory Decryption to Evade Detection",
+        "date": "Fri, 25 Sep 2026 13:47:28 +0000",
+        "url": "https://cybersecuritynews.com/sauron-loader-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "Sauron Loader has surfaced in attacks on German organizations, giving intruders a way to deliver more malware. The new tool need not be the first thing a victim encounters. In the cases examined, it a",
+        "cve": []
+    },
+    {
+        "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
+        "date": "Fri, 25 Sep 2026 13:35:24 +0000",
+        "url": "https://cybersecuritynews.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
+        "source": "CyberSecurityNews",
+        "summary": "San Francisco, USA, September 25th, 2026, CyberNewswire Archipelo today announced Salmon, Execution Verification Infrastructure (EVI) for AI agents and autonomous systems, powered by a cryptographic p",
+        "cve": []
+    },
+    {
+        "title": "TWEAKOS Malware Turns Telegram Into a Stealer, C2 Platform and Stolen Account Marketplace",
+        "date": "Fri, 25 Sep 2026 12:53:52 +0000",
+        "url": "https://cybersecuritynews.com/tweakos-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "TWEAKOS steals messaging accounts and turns them into items for sale. The operation pairs a Windows stealer with a Telegram bot for managing victims and selling stolen access. The threat surfaced afte",
+        "cve": []
+    },
+    {
+        "title": "Critical ServiceNow Vulnerabilities Let Attackers Bypass Authorization – Update Now!",
+        "date": "Fri, 25 Sep 2026 12:18:09 +0000",
+        "url": "https://cybersecuritynews.com/critical-servicenow-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "ServiceNow released security updates for five AI Platform flaws, including two critical vulnerabilities that could let unauthenticated attackers access, modify, or extract sensitive instance data, urg",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "New FUTEX Syscalls Back To Being Worked On For Helping Valve's ARM64 Gaming Ambitions",
-        "date": "Fri, 25 Sep 2026 18:42:16 -0400",
-        "url": "https://www.phoronix.com/news/FUTEX-Robust-List2-Syscalls",
-        "source": "Phoronix",
-        "summary": "Going back to last year the Igalia open-source consulting firm has been working on enhancing the Linux kernel to help Steam Play gaming on ARM64 and ensuring the FEX emulator is operating efficiently ",
+        "title": "Red Heron Exploits Critical Gitea Flaw to Steal Repositories and Deploy Linux Rootkit",
+        "date": "Sat, 26 Sep 2026 08:15:11 +0000",
+        "url": "https://gbhackers.com/red-heron-exploits-critical-gitea-flaw/",
+        "source": "GBHackers",
+        "summary": "A threat actor tracked as Red Heron has exploited the critical Gitea remote code execution vulnerability CVE-2026-60004 to steal source-code repositories, establish persistent access, and deploy a cov",
         "cve": []
     },
     {
-        "title": "GDB 18.1 Debugger Brings Better Windows Support",
-        "date": "Fri, 25 Sep 2026 12:47:52 -0400",
-        "url": "https://www.phoronix.com/news/GNU-Debugger-GDB-18.1",
-        "source": "Phoronix",
-        "summary": "GDB 18.1 is out today as the newest version of the GNU Debugger that works across C/C++, Fortran, Rust, and other languages like Go, Ada, and more...",
+        "title": "Windows 11 Update Causes Black Screen and Desktop Loading Issues After Sign-In",
+        "date": "Sat, 26 Sep 2026 08:02:06 +0000",
+        "url": "https://gbhackers.com/windows-11-update-causes-black-screen/",
+        "source": "GBHackers",
+        "summary": "Microsoft has confirmed a Windows 11 issue that can leave users with a black screen after sign-in or prevent the desktop from loading automatically. The problem affects devices that installed the Augu",
         "cve": []
     },
     {
-        "title": "Redox OS Adds IO_uring-Like API, NUMA & Gets QEMU Working",
-        "date": "Fri, 25 Sep 2026 11:51:38 -0400",
-        "url": "https://www.phoronix.com/news/Redox-OS-August-2026",
-        "source": "Phoronix",
-        "summary": "The Redox OS open-source, Rust-based operating system has seen a lot of activity in recent weeks with many notable improvements landing...",
+        "title": "Kiteworks Warns Users to Take Systems Offline Amid Suspected Zero-Day Threat",
+        "date": "Sat, 26 Sep 2026 07:45:21 +0000",
+        "url": "https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day/",
+        "source": "GBHackers",
+        "summary": "Kiteworks has urged customers worldwide to temporarily shut down their servers after receiving credible law-enforcement intelligence that a threat actor may target Kiteworks deployments over the weeke",
         "cve": []
     },
     {
-        "title": "Approaching A 10 Second Linux Kernel Build",
-        "date": "Fri, 25 Sep 2026 10:46:26 -0400",
-        "url": "https://www.phoronix.com/review/near-10-sec-kernel-build",
-        "source": "Phoronix",
-        "summary": "The coffee window is closing. Going back many years with the time it's taken to compile the Linux kernel has been a well known opportunity for a coffee break or even eating a meal during the lengthy L",
+        "title": "Uncensored Local AI Model Bypasses EDR to Dump Windows LSASS Credentials",
+        "date": "Sat, 26 Sep 2026 07:28:09 +0000",
+        "url": "https://gbhackers.com/uncensored-local-ai-model-bypasses-edr/",
+        "source": "GBHackers",
+        "summary": "A new demonstration shows how a locally hosted, uncensored AI model can help generate a Windows LSASS credential-dumping utility that reportedly evaded endpoint detection and response products during ",
         "cve": []
     },
     {
-        "title": "Patches Posted For Enabling NVMe On All Apple M3 Based SoCs With Linux",
-        "date": "Fri, 25 Sep 2026 06:27:51 -0400",
-        "url": "https://www.phoronix.com/news/NVMe-Apple-M3-Linux-Patches",
-        "source": "Phoronix",
-        "summary": "While Linux 7.2 brought initial Apple M3 support and Linux 7.3 brought M3 Pro / Max / Ultra support, the mainline Linux kernel support for the M3 series hardware remains very basic and not yet ready f",
+        "title": "Storm-3168 Hackers Abuse Compromised Service Principals to Destroy Azure Cloud Resources",
+        "date": "Sat, 26 Sep 2026 07:09:54 +0000",
+        "url": "https://gbhackers.com/storm-3168-hackers-abuse-compromised-service-principals/",
+        "source": "GBHackers",
+        "summary": "Microsoft has uncovered a destructive Azure campaign linked to Storm-3168, also known as JADEPUFFER, in which attackers abused compromised service principals to map cloud environments, delete critical",
         "cve": []
     },
     {
-        "title": "AMD Sends Out New Linux Patches Further Enhancing HDMI 2.1 Reliability",
-        "date": "Fri, 25 Sep 2026 06:12:09 -0400",
-        "url": "https://www.phoronix.com/news/AMDGPU-HDMI-2.1-Reliability",
-        "source": "Phoronix",
-        "summary": "Linux 7.4 is going to be the big kernel release where the AMD graphics driver will finally expose HDMI 2.1 by default and comes with features including HDMI FreeSync, VRR, and ALLM. Ahead of that mile",
+        "title": "OpenAI Says Misaligned AI Agents Hacked Hugging Face and Bypassed Security Controls",
+        "date": "Sat, 26 Sep 2026 06:54:16 +0000",
+        "url": "https://gbhackers.com/openai-says-misaligned-ai-agents-hacked-hugging-face/",
+        "source": "GBHackers",
+        "summary": "OpenAI has disclosed that autonomous AI agents compromised portions of Hugging Face’s infrastructure during internal cybersecurity evaluations after pursuing misaligned strategies to complete difficul",
         "cve": []
     },
     {
-        "title": "Last Call For The Autumn Special For Ad-Free Viewing & Supporting Linux Hardware Testing",
-        "date": "Fri, 25 Sep 2026 06:00:26 -0400",
-        "url": "https://www.phoronix.com/news/Autumn-2026-Special-Final-Call",
-        "source": "Phoronix",
-        "summary": "Last call for the Phoronix autumn \"Oktoberfest\" Premium sale: it runs through end of day Sunday, 27 September (any timezone - I'm not particularly strict). If you have been meaning to support the site",
+        "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
+        "date": "Fri, 25 Sep 2026 13:37:32 +0000",
+        "url": "https://gbhackers.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
+        "source": "GBHackers",
+        "summary": "San Francisco, USA, September 25th, 2026, CyberNewswire Archipelo today announced Salmon, Execution Verification Infrastructure (EVI) for AI agents and autonomous systems, powered by a cryptographic p",
         "cve": []
     },
     {
-        "title": "Go's Improving SIMD Support, Platform-Independent SIMD Interface",
-        "date": "Fri, 25 Sep 2026 05:50:22 -0400",
-        "url": "https://www.phoronix.com/news/Go-SIMD-2026",
-        "source": "Phoronix",
-        "summary": "A new blog post published on Thursday covers the experimental support for SIMD with the Go programming language. This expanding Go SIMD support also includes a platform-independent API for  making use",
+        "title": "14-Year-Old Linux Kernel Vulnerability Enables Root Access and Docker Escape",
+        "date": "Fri, 25 Sep 2026 12:48:13 +0000",
+        "url": "https://gbhackers.com/14-year-old-linux-kernel-vulnerability/",
+        "source": "GBHackers",
+        "summary": "A vulnerability in the Linux kernel’s AF_ALG cryptographic interface, which has existed for 14 years, can let an unprivileged local attacker gain root access and escape a Docker container by exploitin",
         "cve": []
     },
     {
-        "title": "Samba 4.25 Released With Experimental SMB3 Persistent Handles",
-        "date": "Fri, 25 Sep 2026 05:38:43 -0400",
-        "url": "https://www.phoronix.com/news/Samba-4.25-Released",
-        "source": "Phoronix",
-        "summary": "Samba 4.25 is out as the newest stable release for this open-source software enabling file and print services sharing between Linux servers and Windows systems...",
+        "title": "ServiceNow Security Flaws Allow Attackers to Execute SQL and Modify Instance Data",
+        "date": "Fri, 25 Sep 2026 10:58:04 +0000",
+        "url": "https://gbhackers.com/servicenow-security-flaws/",
+        "source": "GBHackers",
+        "summary": "ServiceNow has disclosed five vulnerabilities affecting its AI Platform, including two critical flaws that could allow unauthenticated attackers to execute arbitrary SQL commands, extract sensitive in",
         "cve": []
     },
     {
-        "title": "Linux Kernel Developers Consider Adding AGENTS.md To Help Guide AI/LLM Agents",
-        "date": "Thu, 24 Sep 2026 20:53:14 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Considers-AGENTS-MD",
-        "source": "Phoronix",
-        "summary": "While the Linux kernel continues to be bombarded with patches from AI/LLM agents, to date the kernel hasn't carried an AGENTS.md Markdown file with instructions catering to AI/LLM agents. But a patch ",
+        "title": "Rogue AI Agents Tried to Hack Public Websites After Data Retrieval Failed",
+        "date": "Fri, 25 Sep 2026 10:41:35 +0000",
+        "url": "https://gbhackers.com/rogue-ai-agents-tried-to-hack-public-websites/",
+        "source": "GBHackers",
+        "summary": "Research from Transluce shows that autonomous AI agents shifted from standard web data collection to probing for vulnerabilities in three public-facing services after traditional data retrieval method",
         "cve": []
     }
 ]
