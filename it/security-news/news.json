@@ -1,5 +1,21 @@
 [
     {
+        "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+        "date": "Sun, 27 Sep 2026 10:13:31 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+        "source": "BleepingComputer",
+        "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host.",
+        "cve": []
+    },
+    {
+        "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+        "date": "Sun, 27 Sep 2026 09:38:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+        "source": "BleepingComputer",
+        "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+        "cve": []
+    },
+    {
         "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
         "date": "Sat, 26 Sep 2026 15:03:34 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
@@ -64,19 +80,11 @@
         "cve": []
     },
     {
-        "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-        "date": "Fri, 25 Sep 2026 13:24:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise",
-        "cve": []
-    },
-    {
-        "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-        "date": "Fri, 25 Sep 2026 12:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
-        "source": "BleepingComputer",
-        "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
+        "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+        "date": "Sun, 27 Sep 2026 13:17:57 +0530",
+        "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+        "source": "The Hacker News",
+        "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr s",
         "cve": []
     },
     {
@@ -152,11 +160,11 @@
         "cve": []
     },
     {
-        "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-        "date": "Fri, 25 Sep 2026 16:05:55 +0530",
-        "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-        "source": "The Hacker News",
-        "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp;\n\n\"At 18:31 UTC on September 24, 2026, Bitget's security systems",
+        "title": "Citrix NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attacks",
+        "date": "Sun, 27 Sep 2026 04:07:25 +0000",
+        "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-rce-2/",
+        "source": "CyberSecurityNews",
+        "summary": "Citrix NetScaler administrators are confronting reports of two undisclosed remote code execution vulnerabilities allegedly exploited in real-world attacks. watchTowr said the flaws are unpatched zero-",
         "cve": []
     },
     {
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/sauron-loader-malware/",
         "source": "CyberSecurityNews",
         "summary": "Sauron Loader has surfaced in attacks on German organizations, giving intruders a way to deliver more malware. The new tool need not be the first thing a victim encounters. In the cases examined, it a",
-        "cve": []
-    },
-    {
-        "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
-        "date": "Fri, 25 Sep 2026 13:35:24 +0000",
-        "url": "https://cybersecuritynews.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
-        "source": "CyberSecurityNews",
-        "summary": "San Francisco, USA, September 25th, 2026, CyberNewswire Archipelo today announced Salmon, Execution Verification Infrastructure (EVI) for AI agents and autonomous systems, powered by a cryptographic p",
         "cve": []
     },
     {
