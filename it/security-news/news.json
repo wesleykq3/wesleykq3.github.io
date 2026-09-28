@@ -1,5 +1,45 @@
 [
     {
+        "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+        "date": "Mon, 28 Sep 2026 11:49:27 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+        "source": "BleepingComputer",
+        "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+        "cve": []
+    },
+    {
+        "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+        "date": "Mon, 28 Sep 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+        "source": "BleepingComputer",
+        "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing m",
+        "cve": []
+    },
+    {
+        "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+        "date": "Mon, 28 Sep 2026 05:25:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+        "source": "BleepingComputer",
+        "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
+        "cve": []
+    },
+    {
+        "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+        "date": "Mon, 28 Sep 2026 03:30:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+        "source": "BleepingComputer",
+        "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+        "date": "Mon, 28 Sep 2026 02:24:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+        "source": "BleepingComputer",
+        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulne",
+        "cve": []
+    },
+    {
         "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
         "date": "Sun, 27 Sep 2026 19:40:39 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
@@ -40,43 +80,67 @@
         "cve": []
     },
     {
-        "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
-        "date": "Sat, 26 Sep 2026 12:26:58 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
-        "source": "BleepingComputer",
-        "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+        "title": "IAM for AI agents: A Practical Enterprise Framework",
+        "date": "Mon, 28 Sep 2026 23:50:38 +0530",
+        "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+        "source": "The Hacker News",
+        "summary": "What is IAM for AI agents?\n\nAI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those ",
         "cve": []
     },
     {
-        "title": "Microsoft pauses KB5002907 update after Office license deactivations",
-        "date": "Sat, 26 Sep 2026 11:50:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations.",
+        "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+        "date": "Mon, 28 Sep 2026 23:12:18 +0530",
+        "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+        "source": "The Hacker News",
+        "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday.\n\nThe",
         "cve": []
     },
     {
-        "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-        "date": "Sat, 26 Sep 2026 10:19:46 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-        "source": "BleepingComputer",
-        "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious",
+        "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+        "date": "Mon, 28 Sep 2026 23:08:33 +0530",
+        "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+        "source": "The Hacker News",
+        "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp",
         "cve": []
     },
     {
-        "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-        "date": "Sat, 26 Sep 2026 08:28:41 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+        "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+        "date": "Mon, 28 Sep 2026 19:30:53 +0530",
+        "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+        "source": "The Hacker News",
+        "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assump",
         "cve": []
     },
     {
-        "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-        "date": "Fri, 25 Sep 2026 17:41:07 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a p",
+        "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+        "date": "Mon, 28 Sep 2026 17:28:00 +0530",
+        "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+        "source": "The Hacker News",
+        "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same con",
+        "cve": []
+    },
+    {
+        "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+        "date": "Mon, 28 Sep 2026 17:16:00 +0530",
+        "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework ",
+        "cve": []
+    },
+    {
+        "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+        "date": "Mon, 28 Sep 2026 14:38:21 +0530",
+        "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+        "source": "The Hacker News",
+        "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.\n\nMicrosoft, which is tracking the ac",
+        "cve": []
+    },
+    {
+        "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+        "date": "Mon, 28 Sep 2026 12:51:49 +0530",
+        "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following rep",
         "cve": []
     },
     {
@@ -96,147 +160,91 @@
         "cve": []
     },
     {
-        "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-        "date": "Sat, 26 Sep 2026 17:16:40 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-        "source": "The Hacker News",
-        "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\n\nThe ShinyHunters-linked activity invol",
-        "cve": []
-    },
-    {
-        "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-        "date": "Sat, 26 Sep 2026 16:00:00 +0530",
-        "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-        "source": "The Hacker News",
-        "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents a",
-        "cve": []
-    },
-    {
-        "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-        "date": "Sat, 26 Sep 2026 15:25:22 +0530",
-        "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-        "source": "The Hacker News",
-        "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts",
-        "cve": []
-    },
-    {
-        "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-        "date": "Sat, 26 Sep 2026 14:19:53 +0530",
-        "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) ca",
-        "cve": []
-    },
-    {
-        "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-        "date": "Sat, 26 Sep 2026 13:18:33 +0530",
-        "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-        "source": "The Hacker News",
-        "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber a",
-        "cve": []
-    },
-    {
-        "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
-        "date": "Fri, 25 Sep 2026 20:14:41 +0530",
-        "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-        "source": "The Hacker News",
-        "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign",
-        "cve": []
-    },
-    {
-        "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-        "date": "Fri, 25 Sep 2026 18:48:06 +0530",
-        "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain.\n\nThe latest artifacts, per Jamf Threat",
-        "cve": []
-    },
-    {
-        "title": "The SOC Doesn't Need to Start Over with Every Alert",
-        "date": "Fri, 25 Sep 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-        "source": "The Hacker News",
-        "summary": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry.\n\nThe routine ",
-        "cve": []
-    },
-    {
-        "title": "Citrix Confirms NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attack",
-        "date": "Sun, 27 Sep 2026 16:41:48 +0000",
-        "url": "https://cybersecuritynews.com/citrix-confirms-netscaler-0-day/",
+        "title": "Florida AG Seeks Emergency Injunction to Restrict OpenAI and ChatGPT Over AI Safety Risks",
+        "date": "Mon, 28 Sep 2026 16:46:12 +0000",
+        "url": "https://cybersecuritynews.com/florida-ag-seeks-emergency-injunction-on-chatgpt/",
         "source": "CyberSecurityNews",
-        "summary": "Citrix has released emergency security updates for NetScaler ADC and NetScaler Gateway after confirming that attackers are exploiting two critical remote code execution vulnerabilities against unmitig",
+        "summary": "Florida Attorney General James Uthmeier has asked a Highlands County judge to impose sweeping temporary restrictions on OpenAI, CEO Sam Altman, and affiliated companies while Florida’s ChatGPT lawsuit",
         "cve": []
     },
     {
-        "title": "New Windows Process Injection Attack Evades EDR Monitoring Without WriteProcessMemory",
-        "date": "Sun, 27 Sep 2026 16:00:24 +0000",
-        "url": "https://cybersecuritynews.com/windows-process-injection-evades-edr/",
+        "title": "Microsoft Finds New Malware Used by Hackers to Maintain Secret Access Inside Target Networks",
+        "date": "Mon, 28 Sep 2026 16:35:03 +0000",
+        "url": "https://cybersecuritynews.com/needymantis-malware-secret-network-access/",
         "source": "CyberSecurityNews",
-        "summary": "A Windows process injection method disclosed by security researcher Two Seven One Three sidesteps two APIs closely associated with remote code injection: VirtualAllocEx and WriteProcessMemory. Dubbed ",
+        "summary": "Microsoft Threat Intelligence has uncovered NeedyMantis, a modular post-compromise malware framework designed to preserve covert access inside already-breached networks. The malware has appeared in a ",
         "cve": []
     },
     {
-        "title": "Citrix NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attacks",
-        "date": "Sun, 27 Sep 2026 04:07:25 +0000",
-        "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-rce-2/",
+        "title": "NCSC Urges UK organizations to Patch for Citrix NetScaler ADC and Gateway 0-Day Vulnerabilities",
+        "date": "Mon, 28 Sep 2026 14:56:26 +0000",
+        "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-vulnerabilities/",
         "source": "CyberSecurityNews",
-        "summary": "Citrix NetScaler administrators are confronting reports of two undisclosed remote code execution vulnerabilities allegedly exploited in real-world attacks. watchTowr said the flaws are unpatched zero-",
+        "summary": "The UK National Cyber Security Center (NCSC) has urged organizations to take immediate action against eight vulnerabilities affecting customer-managed Citrix NetScaler ADC and NetScaler Gateway applia",
         "cve": []
     },
     {
-        "title": "Local AI Model Modifies Windows Credential Dumper to Bypass EDR Detection",
-        "date": "Sat, 26 Sep 2026 16:40:07 +0000",
-        "url": "https://cybersecuritynews.com/local-ai-bypasses-edr/",
+        "title": "New File Notification Attack Lets Hackers Track User Activity Across Linux, Windows and macOS",
+        "date": "Mon, 28 Sep 2026 14:33:25 +0000",
+        "url": "https://cybersecuritynews.com/new-file-notification-attack/",
         "source": "CyberSecurityNews",
-        "summary": "A locally hosted, uncensored artificial intelligence model modified a Windows credential-dumping utility until it evaded two Endpoint Detection and Response (EDR) products in a controlled lab, highlig",
+        "summary": "A cross-platform side-channel attack that abuses file-notification services to monitor user activity on Linux, Windows and macOS. The technique turns inotify, ReadDirectoryChangesW, and FSEvents, whic",
         "cve": []
     },
     {
-        "title": "F-Droid 2.0 Released After 10 years With Major Redesign to Transform Open-Source Android App Discovery",
-        "date": "Sat, 26 Sep 2026 15:56:43 +0000",
-        "url": "https://cybersecuritynews.com/f-droid-2-0-released/",
+        "title": "Hackers Built an AI-Powered Attack Machine and Accidentally Left the Control Panel Open",
+        "date": "Mon, 28 Sep 2026 14:26:54 +0000",
+        "url": "https://cybersecuritynews.com/ai-powered-attack-machine/",
         "source": "CyberSecurityNews",
-        "summary": "F-Droid has released version 2.0 of its official Android app, delivering its largest client update in a decade. The open-source Android app repository said the release follows more than a year of deve",
+        "summary": "A criminal crew linked to Blackhatsect0r and DXQRTXX built an automated system designed to find weaknesses across the internet. Its exposed server revealed a credential vault, source code, chat logs, ",
         "cve": []
     },
     {
-        "title": "OpenAI’s AI Agents Tried Hacking 4 Websites Without Being Prompted",
-        "date": "Sat, 26 Sep 2026 04:36:57 +0000",
-        "url": "https://cybersecuritynews.com/openais-ai-agents-tried-hacking-4-websites/",
+        "title": "OpenCode AI Coding Agent Flaw Lets Malicious Websites Execute Code on Developer Machines",
+        "date": "Mon, 28 Sep 2026 14:22:43 +0000",
+        "url": "https://cybersecuritynews.com/opencode-ai-coding-agent-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "OpenAI’s autonomous AI agents attempted to hack four government, university, and public-data systems while carrying out routine information-gathering tasks, according to researchers and government off",
+        "summary": "A critical attack path in OpenCode, an open-source AI coding agent, could let a malicious website execute commands on a developer’s computer. Tracked as GHSA-632h-h47v-g4x4, the remote code execution ",
         "cve": []
     },
     {
-        "title": "16-Year-Old Researcher Finds Microsoft Auth Vulnerability that Exposes 17.3 Trillion Stored Records",
-        "date": "Sat, 26 Sep 2026 03:55:43 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-auth-vulnerability-expose-records/",
+        "title": "Bitget Backend Breach Drains $387.5 Million as DPRK-Linked Launderers Expose Themselves",
+        "date": "Mon, 28 Sep 2026 14:07:52 +0000",
+        "url": "https://cybersecuritynews.com/bitget-backend-breach/",
         "source": "CyberSecurityNews",
-        "summary": "A 16-year-old security researcher known as Faav uncovered an authentication flaw in Microsoft’s internal Titan analytics service that potentially exposed an estimated 17.3 trillion database rows. The ",
+        "summary": "Cryptocurrency exchange Bitget has begun restoring withdrawals after attackers exploited its backend wallet infrastructure on September 24, stealing approximately $387.5 million from hot and warm wall",
         "cve": []
     },
     {
-        "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
-        "date": "Fri, 25 Sep 2026 18:02:16 +0000",
-        "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+        "title": "ShinyHunters Bypasses WAF Protections to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+        "date": "Mon, 28 Sep 2026 13:46:26 +0000",
+        "url": "https://cybersecuritynews.com/shinyhunters-bypasses/",
         "source": "CyberSecurityNews",
-        "summary": "Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vu",
+        "summary": "ShinyHunters has renewed attacks against Oracle PeopleSoft systems by slipping past web application firewall protections and planting web shells. The campaign shows how a small change in an attack req",
         "cve": []
     },
     {
-        "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
-        "date": "Fri, 25 Sep 2026 17:56:35 +0000",
-        "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+        "title": "CISA Warns of Microsoft SharePoint Code Injection Vulnerability Exploited in Attacks",
+        "date": "Mon, 28 Sep 2026 13:21:22 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-sharepoint-code-injection/",
         "source": "CyberSecurityNews",
-        "summary": "A 14-year-old Linux kernel vulnerability can let a local attacker escalate to root privileges and, in a proof-of-concept environment, escape a Docker container to compromise the underlying host. The f",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a Microsoft SharePoint code injection vulnerability, tracked as CVE-2026-65660, to its KEV Catalog after evidence showed the ",
         "cve": []
     },
     {
-        "title": "Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems",
-        "date": "Fri, 25 Sep 2026 14:34:58 +0000",
-        "url": "https://cybersecuritynews.com/samsung-flaw/",
+        "title": "Attackers Create Fake Jev AI Stores to Intercept Prompts Through Third-Party Servers",
+        "date": "Mon, 28 Sep 2026 13:02:37 +0000",
+        "url": "https://cybersecuritynews.com/fake-jev-ai-stores/",
         "source": "CyberSecurityNews",
-        "summary": "Attackers broke into a Windows system through a known flaw in Samsung&#8217;s MagicINFO software, then built a cryptocurrency miner on the compromised machine. Rather than arriving as a finished progr",
+        "summary": "Fake storefronts appeared days after the launch of Jev, an artificial intelligence model that returns decisions rather than written answers. The sites offer access to the service, but they put an unre",
+        "cve": []
+    },
+    {
+        "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+        "date": "Mon, 28 Sep 2026 15:08:57 +0000",
+        "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+        "source": "krebsonsecurity",
+        "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediate",
         "cve": []
     },
     {
@@ -312,91 +320,85 @@
         "cve": []
     },
     {
-        "title": "LG to Ban Residential Proxies from Smart TV Apps",
-        "date": "Wed, 22 Jul 2026 01:10:38 +0000",
-        "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-        "source": "krebsonsecurity",
-        "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less",
+        "title": "Researchers Discover Cybercrime Server Containing AI Tools, Phishing Kits and Stolen Data",
+        "date": "Mon, 28 Sep 2026 13:22:17 +0000",
+        "url": "https://gbhackers.com/ai-tools-for-attack/",
+        "source": "GBHackers",
+        "summary": "An internet-exposed cybercrime server linked to the BlackHatSect0r and DXQRTXX personas, revealing an operational environment that allegedly combined AI-assisted automation. Custom command-and-control",
         "cve": []
     },
     {
-        "title": "Red Heron Exploits Critical Gitea Flaw to Steal Repositories and Deploy Linux Rootkit",
-        "date": "Sat, 26 Sep 2026 08:15:11 +0000",
-        "url": "https://gbhackers.com/red-heron-exploits-critical-gitea-flaw/",
+        "title": "OpenAI Agent Swarm Used Nearly 1 Million URLs to Hack Hugging Face",
+        "date": "Mon, 28 Sep 2026 12:54:52 +0000",
+        "url": "https://gbhackers.com/openai-agent-swarm-used-nearly-1-million-urls-to-hack-hugging-face/",
         "source": "GBHackers",
-        "summary": "A threat actor tracked as Red Heron has exploited the critical Gitea remote code execution vulnerability CVE-2026-60004 to steal source-code repositories, establish persistent access, and deploy a cov",
+        "summary": "A newly released forensic investigation has reconstructed how a swarm of about 700 OpenAI evaluation agents allegedly used nearly one million chained URLs to bypass restricted internet access and comp",
         "cve": []
     },
     {
-        "title": "Windows 11 Update Causes Black Screen and Desktop Loading Issues After Sign-In",
-        "date": "Sat, 26 Sep 2026 08:02:06 +0000",
-        "url": "https://gbhackers.com/windows-11-update-causes-black-screen/",
+        "title": "NVIDIA Launches In-Silicon Security Platform to Monitor and Control Autonomous AI Agents",
+        "date": "Mon, 28 Sep 2026 12:25:56 +0000",
+        "url": "https://gbhackers.com/nvidia-launches-in-silicon-security-platform/",
         "source": "GBHackers",
-        "summary": "Microsoft has confirmed a Windows 11 issue that can leave users with a black screen after sign-in or prevent the desktop from loading automatically. The problem affects devices that installed the Augu",
+        "summary": "NVIDIA has launched its Open Agent Safety Platform, a security architecture designed for out-of-band monitoring, runtime policy enforcement, and hardware-backed control for autonomous AI agents. This ",
         "cve": []
     },
     {
-        "title": "Kiteworks Warns Users to Take Systems Offline Amid Suspected Zero-Day Threat",
-        "date": "Sat, 26 Sep 2026 07:45:21 +0000",
-        "url": "https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day/",
+        "title": "Oracle PeopleSoft Servers Targeted Again as ShinyHunters Expands Extortion Operations",
+        "date": "Mon, 28 Sep 2026 11:36:17 +0000",
+        "url": "https://gbhackers.com/oracle-peoplesoft-servers/",
         "source": "GBHackers",
-        "summary": "Kiteworks has urged customers worldwide to temporarily shut down their servers after receiving credible law-enforcement intelligence that a threat actor may target Kiteworks deployments over the weeke",
+        "summary": "The ShinyHunters-linked threat cluster tracked as UNC6240 has renewed mass exploitation of Oracle PeopleSoft servers vulnerable to CVE-2026-35273. Expanding beyond its earlier focus on higher educatio",
         "cve": []
     },
     {
-        "title": "Uncensored Local AI Model Bypasses EDR to Dump Windows LSASS Credentials",
-        "date": "Sat, 26 Sep 2026 07:28:09 +0000",
-        "url": "https://gbhackers.com/uncensored-local-ai-model-bypasses-edr/",
+        "title": "670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users",
+        "date": "Mon, 28 Sep 2026 10:21:58 +0000",
+        "url": "https://gbhackers.com/670-jev-domains-registered/",
         "source": "GBHackers",
-        "summary": "A new demonstration shows how a locally hosted, uncensored AI model can help generate a Windows LSASS credential-dumping utility that reportedly evaded endpoint detection and response products during ",
+        "summary": "A surge of lookalike domains targeting users of TypeSafe AI’s newly launched Jev decision model, with roughly 670 “jev”-branded domains obtaining TLS certificates within eight days of the product’s de",
         "cve": []
     },
     {
-        "title": "Storm-3168 Hackers Abuse Compromised Service Principals to Destroy Azure Cloud Resources",
-        "date": "Sat, 26 Sep 2026 07:09:54 +0000",
-        "url": "https://gbhackers.com/storm-3168-hackers-abuse-compromised-service-principals/",
+        "title": "Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords",
+        "date": "Mon, 28 Sep 2026 09:33:31 +0000",
+        "url": "https://gbhackers.com/microsoft-entra-trustsink/",
         "source": "GBHackers",
-        "summary": "Microsoft has uncovered a destructive Azure campaign linked to Storm-3168, also known as JADEPUFFER, in which attackers abused compromised service principals to map cloud environments, delete critical",
+        "summary": "TrustSink, a post-compromise credential-phishing technique that abuses Microsoft Entra External Authentication Methods (EAMs) to place a rogue password prompt inside an otherwise legitimate Microsoft ",
         "cve": []
     },
     {
-        "title": "OpenAI Says Misaligned AI Agents Hacked Hugging Face and Bypassed Security Controls",
-        "date": "Sat, 26 Sep 2026 06:54:16 +0000",
-        "url": "https://gbhackers.com/openai-says-misaligned-ai-agents-hacked-hugging-face/",
+        "title": "Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns",
+        "date": "Mon, 28 Sep 2026 09:12:23 +0000",
+        "url": "https://gbhackers.com/infostealer-malware-3/",
         "source": "GBHackers",
-        "summary": "OpenAI has disclosed that autonomous AI agents compromised portions of Hugging Face’s infrastructure during internal cybersecurity evaluations after pursuing misaligned strategies to complete difficul",
+        "summary": "Infostealer malware is increasingly becoming the bridge between a compromised developer workstation and an enterprise cloud environment, with Lumma, RedLine, and Vidar emerging as major threats to cre",
         "cve": []
     },
     {
-        "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
-        "date": "Fri, 25 Sep 2026 13:37:32 +0000",
-        "url": "https://gbhackers.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
+        "title": "Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks",
+        "date": "Mon, 28 Sep 2026 08:33:08 +0000",
+        "url": "https://gbhackers.com/adaptixc2-deployment/",
         "source": "GBHackers",
-        "summary": "San Francisco, USA, September 25th, 2026, CyberNewswire Archipelo today announced Salmon, Execution Verification Infrastructure (EVI) for AI agents and autonomous systems, powered by a cryptographic p",
+        "summary": "“Operation Master,” an end-to-end cybercrime operation that combined GlobalProtect VPN exploitation, web-application attacks, credential theft, data monetization, and an industrial-scale invoice-fraud",
+        "cve": [
+            "CVE-2026-0257"
+        ]
+    },
+    {
+        "title": "New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies",
+        "date": "Mon, 28 Sep 2026 07:26:13 +0000",
+        "url": "https://gbhackers.com/python-infostealer-campaign/",
+        "source": "GBHackers",
+        "summary": "A Python-based information stealer that targets data from 17 Chromium-based browsers, alongside Firefox, to harvest saved credentials, payment-card details, browsing history and active session cookies",
         "cve": []
     },
     {
-        "title": "14-Year-Old Linux Kernel Vulnerability Enables Root Access and Docker Escape",
-        "date": "Fri, 25 Sep 2026 12:48:13 +0000",
-        "url": "https://gbhackers.com/14-year-old-linux-kernel-vulnerability/",
+        "title": "12 Best Cloud Encryption Solutions Compared (2026): Features & Pricing",
+        "date": "Mon, 28 Sep 2026 07:11:46 +0000",
+        "url": "https://gbhackers.com/best-cloud-encryption-compared/",
         "source": "GBHackers",
-        "summary": "A vulnerability in the Linux kernel’s AF_ALG cryptographic interface, which has existed for 14 years, can let an unprivileged local attacker gain root access and escape a Docker container by exploitin",
-        "cve": []
-    },
-    {
-        "title": "ServiceNow Security Flaws Allow Attackers to Execute SQL and Modify Instance Data",
-        "date": "Fri, 25 Sep 2026 10:58:04 +0000",
-        "url": "https://gbhackers.com/servicenow-security-flaws/",
-        "source": "GBHackers",
-        "summary": "ServiceNow has disclosed five vulnerabilities affecting its AI Platform, including two critical flaws that could allow unauthenticated attackers to execute arbitrary SQL commands, extract sensitive in",
-        "cve": []
-    },
-    {
-        "title": "Rogue AI Agents Tried to Hack Public Websites After Data Retrieval Failed",
-        "date": "Fri, 25 Sep 2026 10:41:35 +0000",
-        "url": "https://gbhackers.com/rogue-ai-agents-tried-to-hack-public-websites/",
-        "source": "GBHackers",
-        "summary": "Research from Transluce shows that autonomous AI agents shifted from standard web data collection to probing for vulnerabilities in three public-facing services after traditional data retrieval method",
+        "summary": "For most estates, native KMS is the best starting point AWS KMS, Azure Key Vault, and Google Cloud KMS are usage-priced, deeply integrated, and publish their rates. Ensuring robust cloud storage encry",
         "cve": []
     }
 ]
