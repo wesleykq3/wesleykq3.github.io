@@ -1,5 +1,21 @@
 [
     {
+        "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+        "date": "Sun, 27 Sep 2026 19:40:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+        "cve": []
+    },
+    {
+        "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+        "date": "Sun, 27 Sep 2026 12:02:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+        "source": "BleepingComputer",
+        "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security u",
+        "cve": []
+    },
+    {
         "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
         "date": "Sun, 27 Sep 2026 10:13:31 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
@@ -64,27 +80,11 @@
         "cve": []
     },
     {
-        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-        "date": "Fri, 25 Sep 2026 16:57:55 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-        "source": "BleepingComputer",
-        "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has",
-        "cve": []
-    },
-    {
-        "title": "Elementor WordPress flaw lets attackers create admin accounts",
-        "date": "Fri, 25 Sep 2026 14:13:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
-        "source": "BleepingComputer",
-        "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
-        "cve": []
-    },
-    {
         "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
         "date": "Sun, 27 Sep 2026 13:17:57 +0530",
         "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
         "source": "The Hacker News",
-        "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr s",
+        "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for bot",
         "cve": []
     },
     {
@@ -160,6 +160,22 @@
         "cve": []
     },
     {
+        "title": "Citrix Confirms NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attack",
+        "date": "Sun, 27 Sep 2026 16:41:48 +0000",
+        "url": "https://cybersecuritynews.com/citrix-confirms-netscaler-0-day/",
+        "source": "CyberSecurityNews",
+        "summary": "Citrix has released emergency security updates for NetScaler ADC and NetScaler Gateway after confirming that attackers are exploiting two critical remote code execution vulnerabilities against unmitig",
+        "cve": []
+    },
+    {
+        "title": "New Windows Process Injection Attack Evades EDR Monitoring Without WriteProcessMemory",
+        "date": "Sun, 27 Sep 2026 16:00:24 +0000",
+        "url": "https://cybersecuritynews.com/windows-process-injection-evades-edr/",
+        "source": "CyberSecurityNews",
+        "summary": "A Windows process injection method disclosed by security researcher Two Seven One Three sidesteps two APIs closely associated with remote code injection: VirtualAllocEx and WriteProcessMemory. Dubbed ",
+        "cve": []
+    },
+    {
         "title": "Citrix NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attacks",
         "date": "Sun, 27 Sep 2026 04:07:25 +0000",
         "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-rce-2/",
@@ -221,22 +237,6 @@
         "url": "https://cybersecuritynews.com/samsung-flaw/",
         "source": "CyberSecurityNews",
         "summary": "Attackers broke into a Windows system through a known flaw in Samsung&#8217;s MagicINFO software, then built a cryptocurrency miner on the compromised machine. Rather than arriving as a finished progr",
-        "cve": []
-    },
-    {
-        "title": "Researchers Found a Botnet That Uses an AI Agent to Operate Inside Compromised Servers",
-        "date": "Fri, 25 Sep 2026 14:17:54 +0000",
-        "url": "https://cybersecuritynews.com/botnet-uses-ai-agent/",
-        "source": "CyberSecurityNews",
-        "summary": "CARBONATO is a botnet that turns Docker servers into footholds for attackers. It places an AI agent inside compromised systems, letting operators send tasks through Telegram and receive results. The c",
-        "cve": []
-    },
-    {
-        "title": "Sauron Loader Malware Uses DLL Side-Loading and In-Memory Decryption to Evade Detection",
-        "date": "Fri, 25 Sep 2026 13:47:28 +0000",
-        "url": "https://cybersecuritynews.com/sauron-loader-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "Sauron Loader has surfaced in attacks on German organizations, giving intruders a way to deliver more malware. The new tool need not be the first thing a victim encounters. In the cases examined, it a",
         "cve": []
     },
     {
