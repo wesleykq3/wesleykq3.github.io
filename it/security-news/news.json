@@ -1,5 +1,45 @@
 [
     {
+        "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+        "date": "Tue, 29 Sep 2026 11:39:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+        "source": "BleepingComputer",
+        "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
+        "cve": []
+    },
+    {
+        "title": "Catch threats before they escalate with real-time Identity Telemetry",
+        "date": "Tue, 29 Sep 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+        "source": "BleepingComputer",
+        "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security",
+        "cve": []
+    },
+    {
+        "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
+        "date": "Tue, 29 Sep 2026 07:41:53 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+        "source": "BleepingComputer",
+        "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]",
+        "cve": []
+    },
+    {
+        "title": "Kiteworks patches critical flaw, brings customer systems online",
+        "date": "Tue, 29 Sep 2026 05:04:06 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+        "source": "BleepingComputer",
+        "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
+        "cve": []
+    },
+    {
+        "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+        "date": "Tue, 29 Sep 2026 03:33:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+        "cve": []
+    },
+    {
         "title": "Japan's Keio confirms ransomware attack disrupted business systems",
         "date": "Mon, 28 Sep 2026 16:56:47 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
@@ -40,43 +80,51 @@
         "cve": []
     },
     {
-        "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
-        "date": "Mon, 28 Sep 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
-        "source": "BleepingComputer",
-        "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing m",
+        "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+        "date": "Tue, 29 Sep 2026 19:43:20 +0530",
+        "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+        "source": "The Hacker News",
+        "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown.\n",
         "cve": []
     },
     {
-        "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
-        "date": "Mon, 28 Sep 2026 05:25:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
-        "source": "BleepingComputer",
-        "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
+        "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+        "date": "Tue, 29 Sep 2026 19:15:10 +0530",
+        "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub.\n\n\"The malicious packages abuse the",
         "cve": []
     },
     {
-        "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
-        "date": "Mon, 28 Sep 2026 03:30:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
-        "source": "BleepingComputer",
-        "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
+        "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+        "date": "Tue, 29 Sep 2026 14:05:10 +0530",
+        "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+        "source": "The Hacker News",
+        "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrest",
         "cve": []
     },
     {
-        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-        "date": "Mon, 28 Sep 2026 02:24:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-        "source": "BleepingComputer",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulne",
+        "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+        "date": "Tue, 29 Sep 2026 11:38:25 +0530",
+        "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+        "source": "The Hacker News",
+        "summary": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said",
         "cve": []
     },
     {
-        "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
-        "date": "Sun, 27 Sep 2026 19:40:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+        "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+        "date": "Tue, 29 Sep 2026 10:42:32 +0530",
+        "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audi",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+        "date": "Tue, 29 Sep 2026 10:15:20 +0530",
+        "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loo",
         "cve": []
     },
     {
@@ -112,131 +160,83 @@
         "cve": []
     },
     {
-        "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-        "date": "Mon, 28 Sep 2026 23:08:33 +0530",
-        "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-        "source": "The Hacker News",
-        "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp",
-        "cve": []
-    },
-    {
-        "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-        "date": "Mon, 28 Sep 2026 19:30:53 +0530",
-        "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-        "source": "The Hacker News",
-        "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assump",
-        "cve": []
-    },
-    {
-        "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-        "date": "Mon, 28 Sep 2026 17:28:00 +0530",
-        "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-        "source": "The Hacker News",
-        "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same con",
-        "cve": []
-    },
-    {
-        "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-        "date": "Mon, 28 Sep 2026 17:16:00 +0530",
-        "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework ",
-        "cve": []
-    },
-    {
-        "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-        "date": "Mon, 28 Sep 2026 14:38:21 +0530",
-        "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-        "source": "The Hacker News",
-        "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.\n\nMicrosoft, which is tracking the ac",
-        "cve": []
-    },
-    {
-        "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-        "date": "Mon, 28 Sep 2026 12:51:49 +0530",
-        "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following rep",
-        "cve": []
-    },
-    {
-        "title": "Florida AG Seeks Emergency Injunction to Restrict OpenAI and ChatGPT Over AI Safety Risks",
-        "date": "Mon, 28 Sep 2026 16:46:12 +0000",
-        "url": "https://cybersecuritynews.com/florida-ag-seeks-emergency-injunction-on-chatgpt/",
+        "title": "FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader",
+        "date": "Tue, 29 Sep 2026 16:33:09 +0000",
+        "url": "https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/",
         "source": "CyberSecurityNews",
-        "summary": "Florida Attorney General James Uthmeier has asked a Highlands County judge to impose sweeping temporary restrictions on OpenAI, CEO Sam Altman, and affiliated companies while Florida’s ChatGPT lawsuit",
+        "summary": "FBI Director Kash Patel has announced the arrest of an alleged leader of ShinyHunters, the cyber-extortion group linked to attacks across the United States, the Netherlands, and other countries. Dutch",
         "cve": []
     },
     {
-        "title": "Microsoft Finds New Malware Used by Hackers to Maintain Secret Access Inside Target Networks",
-        "date": "Mon, 28 Sep 2026 16:35:03 +0000",
-        "url": "https://cybersecuritynews.com/needymantis-malware-secret-network-access/",
+        "title": "How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier",
+        "date": "Tue, 29 Sep 2026 16:06:22 +0000",
+        "url": "https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft Threat Intelligence has uncovered NeedyMantis, a modular post-compromise malware framework designed to preserve covert access inside already-breached networks. The malware has appeared in a ",
+        "summary": "Phishing remains one of the most persistent problems for security teams, as the challenge is no longer limited to identifying suspicious emails.&#160; Behind a single malicious link there may be a new",
         "cve": []
     },
     {
-        "title": "NCSC Urges UK organizations to Patch for Citrix NetScaler ADC and Gateway 0-Day Vulnerabilities",
-        "date": "Mon, 28 Sep 2026 14:56:26 +0000",
-        "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-vulnerabilities/",
+        "title": "Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique",
+        "date": "Tue, 29 Sep 2026 14:46:00 +0000",
+        "url": "https://cybersecuritynews.com/malware-inside-7-zip-installers/",
         "source": "CyberSecurityNews",
-        "summary": "The UK National Cyber Security Center (NCSC) has urged organizations to take immediate action against eight vulnerabilities affecting customer-managed Citrix NetScaler ADC and NetScaler Gateway applia",
+        "summary": "Malware operators are hiding code inside the part of a 7-Zip installer that unpacks files. A seemingly ordinary installation can start while a concealed loader contacts an attacker-controlled server. ",
         "cve": []
     },
     {
-        "title": "New File Notification Attack Lets Hackers Track User Activity Across Linux, Windows and macOS",
-        "date": "Mon, 28 Sep 2026 14:33:25 +0000",
-        "url": "https://cybersecuritynews.com/new-file-notification-attack/",
+        "title": "Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits",
+        "date": "Tue, 29 Sep 2026 14:33:06 +0000",
+        "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
         "source": "CyberSecurityNews",
-        "summary": "A cross-platform side-channel attack that abuses file-notification services to monitor user activity on Linux, Windows and macOS. The technique turns inotify, ReadDirectoryChangesW, and FSEvents, whic",
+        "summary": "A Windows botnet called x47.c can spend victims’ paid AI credits, steal data, and flood websites. Its operator markets it as an attack toolkit for remote use, but the evidence describes advertised cap",
         "cve": []
     },
     {
-        "title": "Hackers Built an AI-Powered Attack Machine and Accidentally Left the Control Panel Open",
-        "date": "Mon, 28 Sep 2026 14:26:54 +0000",
-        "url": "https://cybersecuritynews.com/ai-powered-attack-machine/",
+        "title": "Hackers Turned Ethereum Into a Secret Messaging System for Malware",
+        "date": "Tue, 29 Sep 2026 14:07:33 +0000",
+        "url": "https://cybersecuritynews.com/ethereum-secret-messaging-system/",
         "source": "CyberSecurityNews",
-        "summary": "A criminal crew linked to Blackhatsect0r and DXQRTXX built an automated system designed to find weaknesses across the internet. Its exposed server revealed a credential vault, source code, chat logs, ",
+        "summary": "A North Korea-linked malware campaign has found a way to keep infected computers connected to its operators. Instead of storing malware on Ethereum, the attackers hide the location of a control server",
         "cve": []
     },
     {
-        "title": "OpenCode AI Coding Agent Flaw Lets Malicious Websites Execute Code on Developer Machines",
-        "date": "Mon, 28 Sep 2026 14:22:43 +0000",
-        "url": "https://cybersecuritynews.com/opencode-ai-coding-agent-flaw/",
+        "title": "SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers",
+        "date": "Tue, 29 Sep 2026 13:37:05 +0000",
+        "url": "https://cybersecuritynews.com/silverfox-hackers/",
         "source": "CyberSecurityNews",
-        "summary": "A critical attack path in OpenCode, an open-source AI coding agent, could let a malicious website execute commands on a developer’s computer. Tracked as GHSA-632h-h47v-g4x4, the remote code execution ",
+        "summary": "Fake software download pages are drawing Windows users into a Silver Fox-linked malware campaign. The pages imitate familiar vendors and supply installers that can leave an infected computer vulnerabl",
         "cve": []
     },
     {
-        "title": "Bitget Backend Breach Drains $387.5 Million as DPRK-Linked Launderers Expose Themselves",
-        "date": "Mon, 28 Sep 2026 14:07:52 +0000",
-        "url": "https://cybersecuritynews.com/bitget-backend-breach/",
+        "title": "OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns",
+        "date": "Tue, 29 Sep 2026 13:16:30 +0000",
+        "url": "https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/",
         "source": "CyberSecurityNews",
-        "summary": "Cryptocurrency exchange Bitget has begun restoring withdrawals after attackers exploited its backend wallet infrastructure on September 24, stealing approximately $387.5 million from hot and warm wall",
+        "summary": "OpenAI has scrapped the release of GPT-6.1 Astra after internal safety testing exposed troubling failures involving deception, authorization boundaries, and unsafe tool use. The agentic AI model had b",
         "cve": []
     },
     {
-        "title": "ShinyHunters Bypasses WAF Protections to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-        "date": "Mon, 28 Sep 2026 13:46:26 +0000",
-        "url": "https://cybersecuritynews.com/shinyhunters-bypasses/",
+        "title": "GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains",
+        "date": "Tue, 29 Sep 2026 12:46:20 +0000",
+        "url": "https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/",
         "source": "CyberSecurityNews",
-        "summary": "ShinyHunters has renewed attacks against Oracle PeopleSoft systems by slipping past web application firewall protections and planting web shells. The campaign shows how a small change in an attack req",
+        "summary": "The UK AI Security Institute (AISI) recently disclosed that during cybersecurity evaluations, the GPT-6 Astra model executed simulated, unauthorized supply-chain attacks. This was part of a pre-releas",
         "cve": []
     },
     {
-        "title": "CISA Warns of Microsoft SharePoint Code Injection Vulnerability Exploited in Attacks",
-        "date": "Mon, 28 Sep 2026 13:21:22 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-sharepoint-code-injection/",
+        "title": "GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws",
+        "date": "Tue, 29 Sep 2026 12:42:51 +0000",
+        "url": "https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/",
         "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a Microsoft SharePoint code injection vulnerability, tracked as CVE-2026-65660, to its KEV Catalog after evidence showed the ",
+        "summary": "GitHub Security Lab has disclosed that its open-source AI security agent identified 24 vulnerabilities in Android applications, including flaws that could enable covert location tracking in OsmAnd and",
         "cve": []
     },
     {
-        "title": "Attackers Create Fake Jev AI Stores to Intercept Prompts Through Third-Party Servers",
-        "date": "Mon, 28 Sep 2026 13:02:37 +0000",
-        "url": "https://cybersecuritynews.com/fake-jev-ai-stores/",
+        "title": "Hackers Weaponizing ChatGPT’s Custom GPT Feature to Trick Victims into Installing Malware",
+        "date": "Tue, 29 Sep 2026 12:01:26 +0000",
+        "url": "https://cybersecuritynews.com/chatgpt-custom-gpt-malware/",
         "source": "CyberSecurityNews",
-        "summary": "Fake storefronts appeared days after the launch of Jev, an artificial intelligence model that returns decisions rather than written answers. The sites offer access to the service, but they put an unre",
+        "summary": "Hackers are abusing ChatGPT’s Custom GPT feature to impersonate AI products and trick users into installing a sophisticated remote access trojan (RAT), according to Huntress researchers. The campaign ",
         "cve": []
     },
     {
@@ -320,85 +320,83 @@
         "cve": []
     },
     {
-        "title": "Researchers Discover Cybercrime Server Containing AI Tools, Phishing Kits and Stolen Data",
-        "date": "Mon, 28 Sep 2026 13:22:17 +0000",
-        "url": "https://gbhackers.com/ai-tools-for-attack/",
+        "title": "OpenAI Cancels GPT-6.1 Astra Release Over Internal Safety Concerns",
+        "date": "Tue, 29 Sep 2026 13:31:13 +0000",
+        "url": "https://gbhackers.com/openai-cancels-gpt-6-1-astra-release/",
         "source": "GBHackers",
-        "summary": "An internet-exposed cybercrime server linked to the BlackHatSect0r and DXQRTXX personas, revealing an operational environment that allegedly combined AI-assisted automation. Custom command-and-control",
+        "summary": "OpenAI has canceled the planned October release of GPT-6.1 Astra after internal testing revealed that the next-generation model did not meet the company&#8217;s safety and alignment standards. This de",
         "cve": []
     },
     {
-        "title": "OpenAI Agent Swarm Used Nearly 1 Million URLs to Hack Hugging Face",
-        "date": "Mon, 28 Sep 2026 12:54:52 +0000",
-        "url": "https://gbhackers.com/openai-agent-swarm-used-nearly-1-million-urls-to-hack-hugging-face/",
+        "title": "Anthropic MCP Python SDK Flaw Enables OAuth Credential Theft and Account Takeover",
+        "date": "Tue, 29 Sep 2026 13:13:50 +0000",
+        "url": "https://gbhackers.com/anthropic-mcp-python-sdk-flaw/",
         "source": "GBHackers",
-        "summary": "A newly released forensic investigation has reconstructed how a swarm of about 700 OpenAI evaluation agents allegedly used nearly one million chained URLs to bypass restricted internet access and comp",
+        "summary": "Security researchers have disclosed a high-severity vulnerability in Anthropic’s Model Context Protocol (MCP) Python SDK. This flaw could allow a malicious MCP server to steal OAuth credentials, poten",
         "cve": []
     },
     {
-        "title": "NVIDIA Launches In-Silicon Security Platform to Monitor and Control Autonomous AI Agents",
-        "date": "Mon, 28 Sep 2026 12:25:56 +0000",
-        "url": "https://gbhackers.com/nvidia-launches-in-silicon-security-platform/",
+        "title": "Octopus Server Flaw Lets Authenticated Attackers Execute Arbitrary Code",
+        "date": "Tue, 29 Sep 2026 12:40:26 +0000",
+        "url": "https://gbhackers.com/octopus-server-flaw/",
         "source": "GBHackers",
-        "summary": "NVIDIA has launched its Open Agent Safety Platform, a security architecture designed for out-of-band monitoring, runtime policy enforcement, and hardware-backed control for autonomous AI agents. This ",
+        "summary": "Octopus Deploy has announced a high-severity vulnerability in Octopus Server that could allow authenticated users with project or environment editing permissions to execute arbitrary code within the O",
         "cve": []
     },
     {
-        "title": "Oracle PeopleSoft Servers Targeted Again as ShinyHunters Expands Extortion Operations",
-        "date": "Mon, 28 Sep 2026 11:36:17 +0000",
-        "url": "https://gbhackers.com/oracle-peoplesoft-servers/",
+        "title": "OpenSUpdater Malware Hides Inside 7-Zip Installers to Evade Detection",
+        "date": "Tue, 29 Sep 2026 12:16:52 +0000",
+        "url": "https://gbhackers.com/opensupdater-malware/",
         "source": "GBHackers",
-        "summary": "The ShinyHunters-linked threat cluster tracked as UNC6240 has renewed mass exploitation of Oracle PeopleSoft servers vulnerable to CVE-2026-35273. Expanding beyond its earlier focus on higher educatio",
+        "summary": "Threat actors behind the OpenSUpdater malware family are concealing a reflective loader inside recompiled 7-Zip self-extracting archive components, allowing malicious code to blend into otherwise legi",
         "cve": []
     },
     {
-        "title": "670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users",
-        "date": "Mon, 28 Sep 2026 10:21:58 +0000",
-        "url": "https://gbhackers.com/670-jev-domains-registered/",
+        "title": "GPT-6 Astra Launches Unsanctioned Supply-Chain Attacks in Cyber Simulations",
+        "date": "Tue, 29 Sep 2026 12:00:54 +0000",
+        "url": "https://gbhackers.com/gpt-6-astra-launches-unsanctioned-supply-chain-attacks/",
         "source": "GBHackers",
-        "summary": "A surge of lookalike domains targeting users of TypeSafe AI’s newly launched Jev decision model, with roughly 670 “jev”-branded domains obtaining TLS certificates within eight days of the product’s de",
+        "summary": "A recent evaluation by the UK AI Safety Institute (AISI) revealed that GPT-6 Astra engaged in unauthorized supply-chain attack activities in simulated cybersecurity environments more frequently than e",
         "cve": []
     },
     {
-        "title": "Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords",
-        "date": "Mon, 28 Sep 2026 09:33:31 +0000",
-        "url": "https://gbhackers.com/microsoft-entra-trustsink/",
+        "title": "GitHub AI Agent Uncovers 24 Android App Vulnerabilities",
+        "date": "Tue, 29 Sep 2026 11:42:54 +0000",
+        "url": "https://gbhackers.com/github-ai-agent-uncovers-24-android-app-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "TrustSink, a post-compromise credential-phishing technique that abuses Microsoft Entra External Authentication Methods (EAMs) to place a rogue password prompt inside an otherwise legitimate Microsoft ",
+        "summary": "GitHub Security Lab has disclosed 24 vulnerabilities in Android applications discovered through its open-source AI security agent and specialized audit taskflows. The findings highlight issues that co",
         "cve": []
     },
     {
-        "title": "Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns",
-        "date": "Mon, 28 Sep 2026 09:12:23 +0000",
-        "url": "https://gbhackers.com/infostealer-malware-3/",
+        "title": "New AI-Powered Botnet x47.c Steals Credentials and Drains AI Account Credits",
+        "date": "Tue, 29 Sep 2026 11:06:53 +0000",
+        "url": "https://gbhackers.com/ai-powered-botnet-x47-c/",
         "source": "GBHackers",
-        "summary": "Infostealer malware is increasingly becoming the bridge between a compromised developer workstation and an enterprise cloud environment, with Lumma, RedLine, and Vidar emerging as major threats to cre",
+        "summary": "A newly identified Windows botnet dubbed x47.c is marketing a blend of conventional DDoS tooling, credential theft, SOCKS5 proxying, fast-flux command-and-control infrastructure, and an “AI API drain”",
         "cve": []
     },
     {
-        "title": "Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks",
-        "date": "Mon, 28 Sep 2026 08:33:08 +0000",
-        "url": "https://gbhackers.com/adaptixc2-deployment/",
+        "title": "OpenAI Model Gained Unauthorized Access to Australian Government Systems",
+        "date": "Tue, 29 Sep 2026 10:30:06 +0000",
+        "url": "https://gbhackers.com/openai-model-gained-unauthorized-access-to-australian-government-systems/",
         "source": "GBHackers",
-        "summary": "“Operation Master,” an end-to-end cybercrime operation that combined GlobalProtect VPN exploitation, web-application attacks, credential theft, data monetization, and an industrial-scale invoice-fraud",
-        "cve": [
-            "CVE-2026-0257"
-        ]
-    },
-    {
-        "title": "New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies",
-        "date": "Mon, 28 Sep 2026 07:26:13 +0000",
-        "url": "https://gbhackers.com/python-infostealer-campaign/",
-        "source": "GBHackers",
-        "summary": "A Python-based information stealer that targets data from 17 Chromium-based browsers, alongside Firefox, to harvest saved credentials, payment-card details, browsing history and active session cookies",
+        "summary": "OpenAI has disclosed that an experimental internal AI model accessed several Australian government systems without authorization during training and evaluation activities in June. This included access",
         "cve": []
     },
     {
-        "title": "12 Best Cloud Encryption Solutions Compared (2026): Features & Pricing",
-        "date": "Mon, 28 Sep 2026 07:11:46 +0000",
-        "url": "https://gbhackers.com/best-cloud-encryption-compared/",
+        "title": "wolfSSL 5.9.4 Patches 11 Security Flaws Affecting TLS and Certificate Validation",
+        "date": "Tue, 29 Sep 2026 10:18:04 +0000",
+        "url": "https://gbhackers.com/wolfssl-5-9-4-patches-11-security-flaws/",
         "source": "GBHackers",
-        "summary": "For most estates, native KMS is the best starting point AWS KMS, Azure Key Vault, and Google Cloud KMS are usage-priced, deeply integrated, and publish their rates. Ensuring robust cloud storage encry",
+        "summary": "wolfSSL has released version 5.9.4, which addresses 11 security vulnerabilities related to TLS and DTLS handshakes, X.509 certificate validation, certificate revocation, OCSP stapling, session resumpt",
+        "cve": []
+    },
+    {
+        "title": "DPRK-Linked Hackers Add HashHiding to Blockchain C2 Network for Takedown-Resistant Malware",
+        "date": "Tue, 29 Sep 2026 10:08:30 +0000",
+        "url": "https://gbhackers.com/hashhiding-to-blockchain-c2/",
+        "source": "GBHackers",
+        "summary": "DPRK-linked operators behind the Cross-Chain TxDataHiding (XCTDH) campaign have expanded their blockchain-backed command-and-control infrastructure with a new Ethereum-based recovery channel dubbed Ha",
         "cve": []
     }
 ]
