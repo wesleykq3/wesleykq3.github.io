@@ -1,5 +1,69 @@
 [
     {
+        "title": "Microsoft is rolling out Linux container support to WSL",
+        "date": "Tue, 29 Sep 2026 20:40:57 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
+        "cve": []
+    },
+    {
+        "title": "Signal adds encypted local backup support to iOS, desktop apps",
+        "date": "Tue, 29 Sep 2026 17:30:08 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+        "source": "BleepingComputer",
+        "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
+        "cve": []
+    },
+    {
+        "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+        "date": "Tue, 29 Sep 2026 16:59:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+        "source": "BleepingComputer",
+        "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
+        "cve": []
+    },
+    {
+        "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
+        "date": "Tue, 29 Sep 2026 16:09:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+        "source": "BleepingComputer",
+        "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+        "date": "Tue, 29 Sep 2026 14:37:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+        "source": "BleepingComputer",
+        "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into interna",
+        "cve": []
+    },
+    {
+        "title": "Former US Air Force members sent to prison over BEC attacks",
+        "date": "Tue, 29 Sep 2026 14:09:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing",
+        "cve": []
+    },
+    {
+        "title": "Windows 11 2026 Update released, here's everything you need to know",
+        "date": "Tue, 29 Sep 2026 13:37:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massive difference after installing it. [...]",
+        "cve": []
+    },
+    {
+        "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
+        "date": "Tue, 29 Sep 2026 13:10:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+        "source": "BleepingComputer",
+        "summary": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]",
+        "cve": []
+    },
+    {
         "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
         "date": "Tue, 29 Sep 2026 11:39:19 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
@@ -16,67 +80,27 @@
         "cve": []
     },
     {
-        "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
-        "date": "Tue, 29 Sep 2026 07:41:53 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
-        "source": "BleepingComputer",
-        "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]",
+        "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+        "date": "Tue, 29 Sep 2026 23:17:01 +0530",
+        "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+        "source": "The Hacker News",
+        "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July.\n\nNeither the tax administration nor Fr",
         "cve": []
     },
     {
-        "title": "Kiteworks patches critical flaw, brings customer systems online",
-        "date": "Tue, 29 Sep 2026 05:04:06 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
-        "source": "BleepingComputer",
-        "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
+        "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+        "date": "Tue, 29 Sep 2026 22:50:17 +0530",
+        "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+        "source": "The Hacker News",
+        "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, langua",
         "cve": []
     },
     {
-        "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-        "date": "Tue, 29 Sep 2026 03:33:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-        "cve": []
-    },
-    {
-        "title": "Japan's Keio confirms ransomware attack disrupted business systems",
-        "date": "Mon, 28 Sep 2026 16:56:47 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
-        "source": "BleepingComputer",
-        "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting  some of its business systems. [...]",
-        "cve": []
-    },
-    {
-        "title": "Times Car confirms data breach affecting 6.6 million user accounts",
-        "date": "Mon, 28 Sep 2026 16:31:16 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
-        "source": "BleepingComputer",
-        "summary": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week. [...]",
-        "cve": []
-    },
-    {
-        "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
-        "date": "Mon, 28 Sep 2026 15:49:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
-        "source": "BleepingComputer",
-        "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
-        "cve": []
-    },
-    {
-        "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
-        "date": "Mon, 28 Sep 2026 14:50:59 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
-        "source": "BleepingComputer",
-        "summary": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or authentication tokens. [...]",
-        "cve": []
-    },
-    {
-        "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-        "date": "Mon, 28 Sep 2026 11:49:27 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
-        "source": "BleepingComputer",
-        "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+        "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+        "date": "Tue, 29 Sep 2026 22:50:08 +0530",
+        "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+        "source": "The Hacker News",
+        "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,&nbsp;according to Microsoft.\n\nThe campaigns, ",
         "cve": []
     },
     {
@@ -133,110 +157,6 @@
         "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
         "source": "The Hacker News",
         "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-        "date": "Tue, 29 Sep 2026 00:05:42 +0530",
-        "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-        "source": "The Hacker News",
-        "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis.\n\nThe malware has been seen in a s",
-        "cve": []
-    },
-    {
-        "title": "IAM for AI agents: A Practical Enterprise Framework",
-        "date": "Mon, 28 Sep 2026 23:50:38 +0530",
-        "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-        "source": "The Hacker News",
-        "summary": "What is IAM for AI agents?\n\nAI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those ",
-        "cve": []
-    },
-    {
-        "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-        "date": "Mon, 28 Sep 2026 23:12:18 +0530",
-        "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-        "source": "The Hacker News",
-        "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday.\n\nThe",
-        "cve": []
-    },
-    {
-        "title": "FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader",
-        "date": "Tue, 29 Sep 2026 16:33:09 +0000",
-        "url": "https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/",
-        "source": "CyberSecurityNews",
-        "summary": "FBI Director Kash Patel has announced the arrest of an alleged leader of ShinyHunters, the cyber-extortion group linked to attacks across the United States, the Netherlands, and other countries. Dutch",
-        "cve": []
-    },
-    {
-        "title": "How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier",
-        "date": "Tue, 29 Sep 2026 16:06:22 +0000",
-        "url": "https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/",
-        "source": "CyberSecurityNews",
-        "summary": "Phishing remains one of the most persistent problems for security teams, as the challenge is no longer limited to identifying suspicious emails.&#160; Behind a single malicious link there may be a new",
-        "cve": []
-    },
-    {
-        "title": "Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique",
-        "date": "Tue, 29 Sep 2026 14:46:00 +0000",
-        "url": "https://cybersecuritynews.com/malware-inside-7-zip-installers/",
-        "source": "CyberSecurityNews",
-        "summary": "Malware operators are hiding code inside the part of a 7-Zip installer that unpacks files. A seemingly ordinary installation can start while a concealed loader contacts an attacker-controlled server. ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits",
-        "date": "Tue, 29 Sep 2026 14:33:06 +0000",
-        "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
-        "source": "CyberSecurityNews",
-        "summary": "A Windows botnet called x47.c can spend victims’ paid AI credits, steal data, and flood websites. Its operator markets it as an attack toolkit for remote use, but the evidence describes advertised cap",
-        "cve": []
-    },
-    {
-        "title": "Hackers Turned Ethereum Into a Secret Messaging System for Malware",
-        "date": "Tue, 29 Sep 2026 14:07:33 +0000",
-        "url": "https://cybersecuritynews.com/ethereum-secret-messaging-system/",
-        "source": "CyberSecurityNews",
-        "summary": "A North Korea-linked malware campaign has found a way to keep infected computers connected to its operators. Instead of storing malware on Ethereum, the attackers hide the location of a control server",
-        "cve": []
-    },
-    {
-        "title": "SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers",
-        "date": "Tue, 29 Sep 2026 13:37:05 +0000",
-        "url": "https://cybersecuritynews.com/silverfox-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "Fake software download pages are drawing Windows users into a Silver Fox-linked malware campaign. The pages imitate familiar vendors and supply installers that can leave an infected computer vulnerabl",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns",
-        "date": "Tue, 29 Sep 2026 13:16:30 +0000",
-        "url": "https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/",
-        "source": "CyberSecurityNews",
-        "summary": "OpenAI has scrapped the release of GPT-6.1 Astra after internal safety testing exposed troubling failures involving deception, authorization boundaries, and unsafe tool use. The agentic AI model had b",
-        "cve": []
-    },
-    {
-        "title": "GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains",
-        "date": "Tue, 29 Sep 2026 12:46:20 +0000",
-        "url": "https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/",
-        "source": "CyberSecurityNews",
-        "summary": "The UK AI Security Institute (AISI) recently disclosed that during cybersecurity evaluations, the GPT-6 Astra model executed simulated, unauthorized supply-chain attacks. This was part of a pre-releas",
-        "cve": []
-    },
-    {
-        "title": "GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws",
-        "date": "Tue, 29 Sep 2026 12:42:51 +0000",
-        "url": "https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "GitHub Security Lab has disclosed that its open-source AI security agent identified 24 vulnerabilities in Android applications, including flaws that could enable covert location tracking in OsmAnd and",
-        "cve": []
-    },
-    {
-        "title": "Hackers Weaponizing ChatGPT’s Custom GPT Feature to Trick Victims into Installing Malware",
-        "date": "Tue, 29 Sep 2026 12:01:26 +0000",
-        "url": "https://cybersecuritynews.com/chatgpt-custom-gpt-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are abusing ChatGPT’s Custom GPT feature to impersonate AI products and trick users into installing a sophisticated remote access trojan (RAT), according to Huntress researchers. The campaign ",
         "cve": []
     },
     {
@@ -397,6 +317,86 @@
         "url": "https://gbhackers.com/hashhiding-to-blockchain-c2/",
         "source": "GBHackers",
         "summary": "DPRK-linked operators behind the Cross-Chain TxDataHiding (XCTDH) campaign have expanded their blockchain-backed command-and-control infrastructure with a new Ethereum-based recovery channel dubbed Ha",
+        "cve": []
+    },
+    {
+        "title": "Archinstall 4.5 For Arch Linux Brings AArch64 Improvements, RT Kernel Options",
+        "date": "Tue, 29 Sep 2026 20:25:51 -0400",
+        "url": "https://www.phoronix.com/news/Arch-Linux-Archinstall-4.5",
+        "source": "Phoronix",
+        "summary": "Ahead of the October ISO refresh of the Arch Linux media, Archinstall 4.5 released today as the newest update to this convenient, text-based Arch Linux installer...",
+        "cve": []
+    },
+    {
+        "title": "AMD Boosting AI/LLM Performance For Radeon iGPUs As Much As 18~23% With Linux 7.4",
+        "date": "Tue, 29 Sep 2026 14:57:00 -0400",
+        "url": "https://www.phoronix.com/review/amd-perfopt",
+        "source": "Phoronix",
+        "summary": "If you have an AMD Ryzen laptop/desktop and looking to leverage AI/LLM capabilities with the integrated graphics, Linux 7.4 is going to be a real treat especially for lower-end hardware. AMD's new Per",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Announces General Availability Of WSLC: Linux Containers On Windows",
+        "date": "Tue, 29 Sep 2026 13:09:12 -0400",
+        "url": "https://www.phoronix.com/news/Microsoft-WSLC-Linux-Containers",
+        "source": "Phoronix",
+        "summary": "Following the public preview of Linux containers on WSL, Microsoft today announced the general availability of WSLC for supporting Linux containers on Windows...",
+        "cve": []
+    },
+    {
+        "title": "Branch Target Reuse, BTR: New Spectre V2 Attack Targeting JIT Compilers",
+        "date": "Tue, 29 Sep 2026 13:00:00 -0400",
+        "url": "https://www.phoronix.com/news/Branch-Target-Reuse-BTR",
+        "source": "Phoronix",
+        "summary": "It's been a while since any new Spectre vulnerabilities have come to light but that's changing today. The embargo has now lifted on BTR, Branch Target Reuse as a new Spectre-V2 attack affecting just-i",
+        "cve": []
+    },
+    {
+        "title": "New Ubuntu Concept ISO For Snapdragon Laptops Brings First X2 Laptop Support",
+        "date": "Tue, 29 Sep 2026 12:15:36 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Snapdragon-Concept",
+        "source": "Phoronix",
+        "summary": "It's been a while since Canonical announced any new ISOs of their Ubuntu builds targeting Qualcomm Snapdragon X series laptops. But ahead of this week's Ubuntu 26.10 beta release, they shipped new Ubu",
+        "cve": []
+    },
+    {
+        "title": "Meta Releases OpenZL 0.3 With Decompression Speed 144% Faster Than Zstd",
+        "date": "Tue, 29 Sep 2026 12:06:44 -0400",
+        "url": "https://www.phoronix.com/news/OpenZL-0.3-Released",
+        "source": "Phoronix",
+        "summary": "Just shy of one year ago Meta announced OpenZL as a format-ware compression framework focused on delivering both high compression ratios and high speed compression/decompression. OpenZL has continued ",
+        "cve": []
+    },
+    {
+        "title": "hw-monitor 0.6 Released With Per-Process GPU Usage & Memory Reporting",
+        "date": "Tue, 29 Sep 2026 10:23:58 -0400",
+        "url": "https://www.phoronix.com/news/hw-monitor-0.6",
+        "source": "Phoronix",
+        "summary": "For those after in-depth hardware and system monitoring support from the Linux desktop, hw-monitor continues to advance as one of the modern options. Released on Monday was hw-monitor 0.6 with per-pro",
+        "cve": []
+    },
+    {
+        "title": "NOCL Making Progress As Mesa Gallium/OpenCL Atop NVIDIA CUDA",
+        "date": "Tue, 29 Sep 2026 09:53:05 -0400",
+        "url": "https://www.phoronix.com/news/NOCL-OpenCL-CUDA",
+        "source": "Phoronix",
+        "summary": "In development the past year has been the Mesa Gallium3D API implemented atop NVIDIA's CUDA driver API. Initially named \"CLUDA\" and now going by \"NOCL\", this Mesa code paired with Rusticl is working w",
+        "cve": []
+    },
+    {
+        "title": "Mesa 26.3 Enables Intel's New Jay Shader Compiler By Default, Compile Times 55% Faster Or 66% Faster Than Windows",
+        "date": "Tue, 29 Sep 2026 08:31:30 -0400",
+        "url": "https://www.phoronix.com/news/Mesa-26.3-Intel-Jay-Compiler",
+        "source": "Phoronix",
+        "summary": "Over the past year  Jay has been in development as a new open-source shader compiler for Intel GPUs. Alyssa Rosenzweig has been leading its development since joining Intel in 2025. For Mesa 26.3 the J",
+        "cve": []
+    },
+    {
+        "title": "BPF-Based Display Panel Drivers Being Explored For Linux",
+        "date": "Tue, 29 Sep 2026 08:10:26 -0400",
+        "url": "https://www.phoronix.com/news/Linux-BPF-Panel-Drivers",
+        "source": "Phoronix",
+        "summary": "BPF-based HID drivers have helped to deliver quirks/fixes for different HID devices more quickly than being bound by the conventional kernel cycle. Loading these eBPF programs from user-space have sho",
         "cve": []
     }
 ]
