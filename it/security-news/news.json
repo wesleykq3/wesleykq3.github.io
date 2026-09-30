@@ -1,5 +1,53 @@
 [
     {
+        "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+        "date": "Wed, 30 Sep 2026 11:49:29 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service c",
+        "cve": []
+    },
+    {
+        "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+        "date": "Wed, 30 Sep 2026 10:46:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+        "cve": []
+    },
+    {
+        "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+        "date": "Wed, 30 Sep 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+        "source": "BleepingComputer",
+        "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need ",
+        "cve": []
+    },
+    {
+        "title": "Microsoft to block Entra ID script injection attacks starting October",
+        "date": "Wed, 30 Sep 2026 09:37:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
+        "cve": []
+    },
+    {
+        "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
+        "date": "Wed, 30 Sep 2026 08:25:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+        "source": "BleepingComputer",
+        "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
+        "cve": []
+    },
+    {
+        "title": "Bitget hacked via zero-day in third-party security products",
+        "date": "Wed, 30 Sep 2026 07:11:46 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+        "source": "BleepingComputer",
+        "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
+        "cve": []
+    },
+    {
         "title": "Microsoft is rolling out Linux container support to WSL",
         "date": "Tue, 29 Sep 2026 20:40:57 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
@@ -32,52 +80,70 @@
         "cve": []
     },
     {
-        "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-        "date": "Tue, 29 Sep 2026 14:37:12 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-        "source": "BleepingComputer",
-        "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into interna",
+        "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+        "date": "Wed, 30 Sep 2026 20:54:54 +0530",
+        "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+        "source": "The Hacker News",
+        "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September",
         "cve": []
     },
     {
-        "title": "Former US Air Force members sent to prison over BEC attacks",
-        "date": "Tue, 29 Sep 2026 14:09:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing",
+        "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+        "date": "Wed, 30 Sep 2026 20:30:15 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.\n\nHuntre",
         "cve": []
     },
     {
-        "title": "Windows 11 2026 Update released, here's everything you need to know",
-        "date": "Tue, 29 Sep 2026 13:37:40 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massive difference after installing it. [...]",
+        "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+        "date": "Wed, 30 Sep 2026 17:28:00 +0530",
+        "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+        "source": "The Hacker News",
+        "summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, wi",
         "cve": []
     },
     {
-        "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
-        "date": "Tue, 29 Sep 2026 13:10:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
-        "source": "BleepingComputer",
-        "summary": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]",
+        "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+        "date": "Wed, 30 Sep 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+        "source": "The Hacker News",
+        "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said.\n\nIts researchers found more than 13,0",
         "cve": []
     },
     {
-        "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-        "date": "Tue, 29 Sep 2026 11:39:19 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
-        "source": "BleepingComputer",
-        "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
+        "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+        "date": "Wed, 30 Sep 2026 16:15:00 +0530",
+        "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+        "source": "The Hacker News",
+        "summary": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulti",
         "cve": []
     },
     {
-        "title": "Catch threats before they escalate with real-time Identity Telemetry",
-        "date": "Tue, 29 Sep 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
-        "source": "BleepingComputer",
-        "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security",
+        "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+        "date": "Wed, 30 Sep 2026 13:54:35 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+        "source": "The Hacker News",
+        "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.\n\nThe act",
         "cve": []
+    },
+    {
+        "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+        "date": "Wed, 30 Sep 2026 13:39:28 +0530",
+        "url": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+        "source": "The Hacker News",
+        "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.\n\nDTLS, the TLS variant used ",
+        "cve": []
+    },
+    {
+        "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+        "date": "Wed, 30 Sep 2026 11:00:30 +0530",
+        "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.\n\nThe vu",
+        "cve": [
+            "CVE-2026-88772"
+        ]
     },
     {
         "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
@@ -96,67 +162,83 @@
         "cve": []
     },
     {
-        "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-        "date": "Tue, 29 Sep 2026 22:50:08 +0530",
-        "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-        "source": "The Hacker News",
-        "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,&nbsp;according to Microsoft.\n\nThe campaigns, ",
+        "title": "Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS",
+        "date": "Wed, 30 Sep 2026 17:01:17 +0000",
+        "url": "https://cybersecuritynews.com/cloudflare-post-quantum-ca/",
+        "source": "CyberSecurityNews",
+        "summary": "Cloudflare is building a certificate authority to make post-quantum website authentication practical without burdening TLS connections with oversized signatures. The company plans to issue conventiona",
         "cve": []
     },
     {
-        "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
-        "date": "Tue, 29 Sep 2026 19:43:20 +0530",
-        "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
-        "source": "The Hacker News",
-        "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown.\n",
+        "title": "Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux",
+        "date": "Wed, 30 Sep 2026 16:58:15 +0000",
+        "url": "https://cybersecuritynews.com/chrome-update-with-32-security-fixes/",
+        "source": "CyberSecurityNews",
+        "summary": "Google released a Chrome Stable update fixing 32 security vulnerabilities across Windows, macOS, and Linux, including one critical and multiple high-severity flaws in V8, ANGLE, GPU, WebGPU, Bluetooth",
         "cve": []
     },
     {
-        "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-        "date": "Tue, 29 Sep 2026 19:15:10 +0530",
-        "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub.\n\n\"The malicious packages abuse the",
+        "title": "Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells",
+        "date": "Wed, 30 Sep 2026 16:50:03 +0000",
+        "url": "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/",
+        "source": "CyberSecurityNews",
+        "summary": "Google has warned that threat actors are actively exploiting two critical Citrix NetScaler zero-day vulnerabilities to gain root access, install stealthy web shells, and move into victim networks. The",
         "cve": []
     },
     {
-        "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-        "date": "Tue, 29 Sep 2026 14:05:10 +0530",
-        "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-        "source": "The Hacker News",
-        "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrest",
+        "title": "Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack",
+        "date": "Wed, 30 Sep 2026 16:28:35 +0000",
+        "url": "https://cybersecuritynews.com/russian-hackers-2/",
+        "source": "CyberSecurityNews",
+        "summary": "Russian state-linked hackers have expanded a phishing operation that uses a new RedFlick delivery chain to reach more than 100 organizations. The campaign replaces an obvious malicious attachment with",
         "cve": []
     },
     {
-        "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-        "date": "Tue, 29 Sep 2026 11:38:25 +0530",
-        "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-        "source": "The Hacker News",
-        "summary": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said",
+        "title": "Phishing Response: 3 Steps SOC Teams Can Take to Investigate Threats Faster",
+        "date": "Wed, 30 Sep 2026 16:06:16 +0000",
+        "url": "https://cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster/",
+        "source": "CyberSecurityNews",
+        "summary": "Investigating a phishing alert often means working through several layers of activity before an analyst can confidently close or escalate the case. Modern campaigns can hide malicious activity behind ",
         "cve": []
     },
     {
-        "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-        "date": "Tue, 29 Sep 2026 10:42:32 +0530",
-        "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
-        "source": "The Hacker News",
-        "summary": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audi",
+        "title": "PaperPhone Headless Browser Network Uses 75,000 IPs and Fabricated Mobile Identities Across 43 Countries",
+        "date": "Wed, 30 Sep 2026 16:05:54 +0000",
+        "url": "https://cybersecuritynews.com/paperphone-headless/",
+        "source": "CyberSecurityNews",
+        "summary": "PaperPhone is a large headless-browser network built to make automated web requests look like ordinary mobile traffic. It does not rely on a single obvious source. Instead, it spreads activity across ",
         "cve": []
     },
     {
-        "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
-        "date": "Tue, 29 Sep 2026 10:15:20 +0530",
-        "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
-        "source": "The Hacker News",
-        "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loo",
+        "title": "Supply Chain Attacks Turn Developer Machines Into Gateways for Cloud Breaches",
+        "date": "Wed, 30 Sep 2026 15:02:09 +0000",
+        "url": "https://cybersecuritynews.com/supply-chain-attacks/",
+        "source": "CyberSecurityNews",
+        "summary": "A routine software update can now open the door to a cloud breach. Attackers are hiding credential stealing malware inside trusted packages and development tools, allowing malicious code to run on dev",
         "cve": []
     },
     {
-        "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-        "date": "Tue, 29 Sep 2026 00:48:01 +0530",
-        "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-        "source": "The Hacker News",
-        "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-",
+        "title": "Hackers Disguise Remote Access Tools as Zoom and PDF Installers to Take Over PCs",
+        "date": "Wed, 30 Sep 2026 14:35:10 +0000",
+        "url": "https://cybersecuritynews.com/remote-access-tools/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are using familiar Zoom setup files and PDF reader downloads to place remote-control software on business computers. The campaign turns ordinary workplace prompts into a path for outsiders to ",
+        "cve": []
+    },
+    {
+        "title": "AI Coding Agents Leak 13,000+ Internal Screenshots From 300+ Companies on GitHub",
+        "date": "Wed, 30 Sep 2026 14:14:53 +0000",
+        "url": "https://cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots/",
+        "source": "CyberSecurityNews",
+        "summary": "AI coding agents exposed more than 13,000 internal screenshots from over 300 organizations by publishing them in publicly accessible GitHub repositories, according to “PixelLeak” research from Glow La",
+        "cve": []
+    },
+    {
+        "title": "Hackers Turned a PaperCut Print Server Into a Path to the Domain Controller",
+        "date": "Wed, 30 Sep 2026 13:36:00 +0000",
+        "url": "https://cybersecuritynews.com/hackers-turned-a-papercut-print-server/",
+        "source": "CyberSecurityNews",
+        "summary": "A vulnerable print server became the entry point for an Active Directory compromise after attackers exploited two PaperCut MF zero-day flaws. The intrusion shows how an overlooked business system can ",
         "cve": []
     },
     {
@@ -240,163 +322,85 @@
         "cve": []
     },
     {
-        "title": "OpenAI Cancels GPT-6.1 Astra Release Over Internal Safety Concerns",
-        "date": "Tue, 29 Sep 2026 13:31:13 +0000",
-        "url": "https://gbhackers.com/openai-cancels-gpt-6-1-astra-release/",
+        "title": "RedFlick Uses Scheduled Tasks and Password-Protected Archives to Deploy CosmicPulse Backdoor",
+        "date": "Wed, 30 Sep 2026 13:38:39 +0000",
+        "url": "https://gbhackers.com/redflick-backdoor/",
         "source": "GBHackers",
-        "summary": "OpenAI has canceled the planned October release of GPT-6.1 Astra after internal testing revealed that the next-generation model did not meet the company&#8217;s safety and alignment standards. This de",
+        "summary": "Russian state-linked threat actor Star Blizzard has expanded its cyberespionage operations in 2026 with a phishing and malware-delivery technique tracked by Microsoft as RedFlick. Microsoft Threat Int",
         "cve": []
     },
     {
-        "title": "Anthropic MCP Python SDK Flaw Enables OAuth Credential Theft and Account Takeover",
-        "date": "Tue, 29 Sep 2026 13:13:50 +0000",
-        "url": "https://gbhackers.com/anthropic-mcp-python-sdk-flaw/",
+        "title": "Docker CopyEscape CVE-2026-17106 Lets Malicious Containers Overwrite Host Files",
+        "date": "Wed, 30 Sep 2026 12:42:59 +0000",
+        "url": "https://gbhackers.com/docker-copyescape-cve-2026-17106/",
         "source": "GBHackers",
-        "summary": "Security researchers have disclosed a high-severity vulnerability in Anthropic’s Model Context Protocol (MCP) Python SDK. This flaw could allow a malicious MCP server to steal OAuth credentials, poten",
-        "cve": []
+        "summary": "A critical Docker vulnerability tracked as CVE-2026-17106, also known as CopyEscape, could allow a malicious container to overwrite files on the host machine when a user runs the `docker cp` command. ",
+        "cve": [
+            "CVE-2026-17106"
+        ]
     },
     {
-        "title": "Octopus Server Flaw Lets Authenticated Attackers Execute Arbitrary Code",
-        "date": "Tue, 29 Sep 2026 12:40:26 +0000",
-        "url": "https://gbhackers.com/octopus-server-flaw/",
+        "title": "PaperPhone Cluster Shows How One Bot Operator Can Look Like Thousands of Mobile Users",
+        "date": "Wed, 30 Sep 2026 12:31:57 +0000",
+        "url": "https://gbhackers.com/paperphone-cluster/",
         "source": "GBHackers",
-        "summary": "Octopus Deploy has announced a high-severity vulnerability in Octopus Server that could allow authenticated users with project or environment editing permissions to execute arbitrary code within the O",
+        "summary": "A large-scale scraping cluster dubbed PaperPhone, exposing how one operator can manufacture the appearance of tens of thousands of legitimate mobile users across dozens of countries. The operation use",
         "cve": []
     },
     {
-        "title": "OpenSUpdater Malware Hides Inside 7-Zip Installers to Evade Detection",
-        "date": "Tue, 29 Sep 2026 12:16:52 +0000",
-        "url": "https://gbhackers.com/opensupdater-malware/",
+        "title": "Claude Compliance API Lets Security Teams Monitor Chats, Files and Agent Activity",
+        "date": "Wed, 30 Sep 2026 12:29:20 +0000",
+        "url": "https://gbhackers.com/claude-compliance-api/",
         "source": "GBHackers",
-        "summary": "Threat actors behind the OpenSUpdater malware family are concealing a reflective loader inside recompiled 7-Zip self-extracting archive components, allowing malicious code to blend into otherwise legi",
+        "summary": "Anthropic has enhanced enterprise security visibility for its AI assistant, Claude, with the Compliance API. This feature lets organizations extract data on activity, conversations, files, projects, a",
         "cve": []
     },
     {
-        "title": "GPT-6 Astra Launches Unsanctioned Supply-Chain Attacks in Cyber Simulations",
-        "date": "Tue, 29 Sep 2026 12:00:54 +0000",
-        "url": "https://gbhackers.com/gpt-6-astra-launches-unsanctioned-supply-chain-attacks/",
+        "title": "Critical MikroTik RouterOS Vulnerability Exposes Devices to Remote Code Execution",
+        "date": "Wed, 30 Sep 2026 12:02:10 +0000",
+        "url": "https://gbhackers.com/critical-mikrotik-routeros-vulnerability/",
         "source": "GBHackers",
-        "summary": "A recent evaluation by the UK AI Safety Institute (AISI) revealed that GPT-6 Astra engaged in unauthorized supply-chain attack activities in simulated cybersecurity environments more frequently than e",
+        "summary": "A critical vulnerability in MikroTik RouterOS could allow unauthenticated remote attackers to execute code on vulnerable devices or trigger a denial-of-service condition. This vulnerability, tracked a",
         "cve": []
     },
     {
-        "title": "GitHub AI Agent Uncovers 24 Android App Vulnerabilities",
-        "date": "Tue, 29 Sep 2026 11:42:54 +0000",
-        "url": "https://gbhackers.com/github-ai-agent-uncovers-24-android-app-vulnerabilities/",
+        "title": "Attackers Target Developer Credentials to Expand Supply Chain Intrusions Beyond Source Code",
+        "date": "Wed, 30 Sep 2026 12:00:47 +0000",
+        "url": "https://gbhackers.com/supply-chain-intrusions/",
         "source": "GBHackers",
-        "summary": "GitHub Security Lab has disclosed 24 vulnerabilities in Android applications discovered through its open-source AI security agent and specialized audit taskflows. The findings highlight issues that co",
+        "summary": "Software supply chain attacks are increasingly evolving into cloud identity breaches, as attackers weaponize trusted packages to steal credentials from developer workstations and CI/CD environments be",
         "cve": []
     },
     {
-        "title": "New AI-Powered Botnet x47.c Steals Credentials and Drains AI Account Credits",
-        "date": "Tue, 29 Sep 2026 11:06:53 +0000",
-        "url": "https://gbhackers.com/ai-powered-botnet-x47-c/",
+        "title": "12 Best IGA Tools in 2026: The Ranked Buyer’s Guide",
+        "date": "Wed, 30 Sep 2026 11:59:48 +0000",
+        "url": "https://gbhackers.com/best-iga-tools/",
         "source": "GBHackers",
-        "summary": "A newly identified Windows botnet dubbed x47.c is marketing a blend of conventional DDoS tooling, credential theft, SOCKS5 proxying, fast-flux command-and-control infrastructure, and an “AI API drain”",
+        "summary": "Identity governance and administration has become essential as organizations manage employees, contractors, service accounts, machine identities, and AI agents across increasingly complex environments",
         "cve": []
     },
     {
-        "title": "OpenAI Model Gained Unauthorized Access to Australian Government Systems",
-        "date": "Tue, 29 Sep 2026 10:30:06 +0000",
-        "url": "https://gbhackers.com/openai-model-gained-unauthorized-access-to-australian-government-systems/",
+        "title": "Google Chrome 154 Update Fixes 32 Security Flaws Including Critical ANGLE Bug",
+        "date": "Wed, 30 Sep 2026 11:43:52 +0000",
+        "url": "https://gbhackers.com/google-chrome-154-update/",
         "source": "GBHackers",
-        "summary": "OpenAI has disclosed that an experimental internal AI model accessed several Australian government systems without authorization during training and evaluation activities in June. This included access",
+        "summary": "Google has released Chrome version 154 for desktop platforms, addressing 32 security vulnerabilities, including a critical buffer overflow flaw in the ANGLE graphics translation layer. This update is ",
         "cve": []
     },
     {
-        "title": "wolfSSL 5.9.4 Patches 11 Security Flaws Affecting TLS and Certificate Validation",
-        "date": "Tue, 29 Sep 2026 10:18:04 +0000",
-        "url": "https://gbhackers.com/wolfssl-5-9-4-patches-11-security-flaws/",
+        "title": "Hackers Abuse MSP360 and ScreenConnect RMM Tools for Persistent Access and Credential Theft",
+        "date": "Wed, 30 Sep 2026 10:25:40 +0000",
+        "url": "https://gbhackers.com/msp360-and-rmm-abuse/",
         "source": "GBHackers",
-        "summary": "wolfSSL has released version 5.9.4, which addresses 11 security vulnerabilities related to TLS and DTLS handshakes, X.509 certificate validation, certificate revocation, OCSP stapling, session resumpt",
+        "summary": "The phishing campaigns that weaponize legitimate remote monitoring and management software to establish persistent access and support credential theft on Windows systems. The campaign demonstrates a r",
         "cve": []
     },
     {
-        "title": "DPRK-Linked Hackers Add HashHiding to Blockchain C2 Network for Takedown-Resistant Malware",
-        "date": "Tue, 29 Sep 2026 10:08:30 +0000",
-        "url": "https://gbhackers.com/hashhiding-to-blockchain-c2/",
+        "title": "Hackers Exploit Citrix NetScaler Zero-Day to Gain Root Access and Deploy Web Shells",
+        "date": "Wed, 30 Sep 2026 09:47:33 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-day/",
         "source": "GBHackers",
-        "summary": "DPRK-linked operators behind the Cross-Chain TxDataHiding (XCTDH) campaign have expanded their blockchain-backed command-and-control infrastructure with a new Ethereum-based recovery channel dubbed Ha",
-        "cve": []
-    },
-    {
-        "title": "Archinstall 4.5 For Arch Linux Brings AArch64 Improvements, RT Kernel Options",
-        "date": "Tue, 29 Sep 2026 20:25:51 -0400",
-        "url": "https://www.phoronix.com/news/Arch-Linux-Archinstall-4.5",
-        "source": "Phoronix",
-        "summary": "Ahead of the October ISO refresh of the Arch Linux media, Archinstall 4.5 released today as the newest update to this convenient, text-based Arch Linux installer...",
-        "cve": []
-    },
-    {
-        "title": "AMD Boosting AI/LLM Performance For Radeon iGPUs As Much As 18~23% With Linux 7.4",
-        "date": "Tue, 29 Sep 2026 14:57:00 -0400",
-        "url": "https://www.phoronix.com/review/amd-perfopt",
-        "source": "Phoronix",
-        "summary": "If you have an AMD Ryzen laptop/desktop and looking to leverage AI/LLM capabilities with the integrated graphics, Linux 7.4 is going to be a real treat especially for lower-end hardware. AMD's new Per",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Announces General Availability Of WSLC: Linux Containers On Windows",
-        "date": "Tue, 29 Sep 2026 13:09:12 -0400",
-        "url": "https://www.phoronix.com/news/Microsoft-WSLC-Linux-Containers",
-        "source": "Phoronix",
-        "summary": "Following the public preview of Linux containers on WSL, Microsoft today announced the general availability of WSLC for supporting Linux containers on Windows...",
-        "cve": []
-    },
-    {
-        "title": "Branch Target Reuse, BTR: New Spectre V2 Attack Targeting JIT Compilers",
-        "date": "Tue, 29 Sep 2026 13:00:00 -0400",
-        "url": "https://www.phoronix.com/news/Branch-Target-Reuse-BTR",
-        "source": "Phoronix",
-        "summary": "It's been a while since any new Spectre vulnerabilities have come to light but that's changing today. The embargo has now lifted on BTR, Branch Target Reuse as a new Spectre-V2 attack affecting just-i",
-        "cve": []
-    },
-    {
-        "title": "New Ubuntu Concept ISO For Snapdragon Laptops Brings First X2 Laptop Support",
-        "date": "Tue, 29 Sep 2026 12:15:36 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Snapdragon-Concept",
-        "source": "Phoronix",
-        "summary": "It's been a while since Canonical announced any new ISOs of their Ubuntu builds targeting Qualcomm Snapdragon X series laptops. But ahead of this week's Ubuntu 26.10 beta release, they shipped new Ubu",
-        "cve": []
-    },
-    {
-        "title": "Meta Releases OpenZL 0.3 With Decompression Speed 144% Faster Than Zstd",
-        "date": "Tue, 29 Sep 2026 12:06:44 -0400",
-        "url": "https://www.phoronix.com/news/OpenZL-0.3-Released",
-        "source": "Phoronix",
-        "summary": "Just shy of one year ago Meta announced OpenZL as a format-ware compression framework focused on delivering both high compression ratios and high speed compression/decompression. OpenZL has continued ",
-        "cve": []
-    },
-    {
-        "title": "hw-monitor 0.6 Released With Per-Process GPU Usage & Memory Reporting",
-        "date": "Tue, 29 Sep 2026 10:23:58 -0400",
-        "url": "https://www.phoronix.com/news/hw-monitor-0.6",
-        "source": "Phoronix",
-        "summary": "For those after in-depth hardware and system monitoring support from the Linux desktop, hw-monitor continues to advance as one of the modern options. Released on Monday was hw-monitor 0.6 with per-pro",
-        "cve": []
-    },
-    {
-        "title": "NOCL Making Progress As Mesa Gallium/OpenCL Atop NVIDIA CUDA",
-        "date": "Tue, 29 Sep 2026 09:53:05 -0400",
-        "url": "https://www.phoronix.com/news/NOCL-OpenCL-CUDA",
-        "source": "Phoronix",
-        "summary": "In development the past year has been the Mesa Gallium3D API implemented atop NVIDIA's CUDA driver API. Initially named \"CLUDA\" and now going by \"NOCL\", this Mesa code paired with Rusticl is working w",
-        "cve": []
-    },
-    {
-        "title": "Mesa 26.3 Enables Intel's New Jay Shader Compiler By Default, Compile Times 55% Faster Or 66% Faster Than Windows",
-        "date": "Tue, 29 Sep 2026 08:31:30 -0400",
-        "url": "https://www.phoronix.com/news/Mesa-26.3-Intel-Jay-Compiler",
-        "source": "Phoronix",
-        "summary": "Over the past year  Jay has been in development as a new open-source shader compiler for Intel GPUs. Alyssa Rosenzweig has been leading its development since joining Intel in 2025. For Mesa 26.3 the J",
-        "cve": []
-    },
-    {
-        "title": "BPF-Based Display Panel Drivers Being Explored For Linux",
-        "date": "Tue, 29 Sep 2026 08:10:26 -0400",
-        "url": "https://www.phoronix.com/news/Linux-BPF-Panel-Drivers",
-        "source": "Phoronix",
-        "summary": "BPF-based HID drivers have helped to deliver quirks/fixes for different HID devices more quickly than being bound by the conventional kernel cycle. Loading these eBPF programs from user-space have sho",
+        "summary": "Threat actors are actively exploiting a critical zero-day vulnerability in Citrix NetScaler, identified as CVE-2026-88772, to gain unauthenticated root-level access to vulnerable Application Delivery ",
         "cve": []
     }
 ]
