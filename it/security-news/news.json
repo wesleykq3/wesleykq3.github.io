@@ -1,5 +1,29 @@
 [
     {
+        "title": "Russian state hackers use new RedFlick technique to push malware",
+        "date": "Wed, 30 Sep 2026 16:34:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
+        "source": "BleepingComputer",
+        "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
+        "cve": []
+    },
+    {
+        "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+        "date": "Wed, 30 Sep 2026 15:49:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+        "source": "BleepingComputer",
+        "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing syste",
+        "cve": []
+    },
+    {
+        "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+        "date": "Wed, 30 Sep 2026 14:08:34 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+        "source": "BleepingComputer",
+        "summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
+        "cve": []
+    },
+    {
         "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
         "date": "Wed, 30 Sep 2026 11:49:29 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
@@ -56,27 +80,19 @@
         "cve": []
     },
     {
-        "title": "Signal adds encypted local backup support to iOS, desktop apps",
-        "date": "Tue, 29 Sep 2026 17:30:08 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
-        "source": "BleepingComputer",
-        "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
+        "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+        "date": "Wed, 30 Sep 2026 22:16:29 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research t",
         "cve": []
     },
     {
-        "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-        "date": "Tue, 29 Sep 2026 16:59:39 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
-        "source": "BleepingComputer",
-        "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
-        "cve": []
-    },
-    {
-        "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
-        "date": "Tue, 29 Sep 2026 16:09:55 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
-        "source": "BleepingComputer",
-        "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
+        "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+        "date": "Wed, 30 Sep 2026 22:02:59 +0530",
+        "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+        "source": "The Hacker News",
+        "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software u",
         "cve": []
     },
     {
@@ -144,102 +160,6 @@
         "cve": [
             "CVE-2026-88772"
         ]
-    },
-    {
-        "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
-        "date": "Tue, 29 Sep 2026 23:17:01 +0530",
-        "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
-        "source": "The Hacker News",
-        "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July.\n\nNeither the tax administration nor Fr",
-        "cve": []
-    },
-    {
-        "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
-        "date": "Tue, 29 Sep 2026 22:50:17 +0530",
-        "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-        "source": "The Hacker News",
-        "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, langua",
-        "cve": []
-    },
-    {
-        "title": "Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS",
-        "date": "Wed, 30 Sep 2026 17:01:17 +0000",
-        "url": "https://cybersecuritynews.com/cloudflare-post-quantum-ca/",
-        "source": "CyberSecurityNews",
-        "summary": "Cloudflare is building a certificate authority to make post-quantum website authentication practical without burdening TLS connections with oversized signatures. The company plans to issue conventiona",
-        "cve": []
-    },
-    {
-        "title": "Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux",
-        "date": "Wed, 30 Sep 2026 16:58:15 +0000",
-        "url": "https://cybersecuritynews.com/chrome-update-with-32-security-fixes/",
-        "source": "CyberSecurityNews",
-        "summary": "Google released a Chrome Stable update fixing 32 security vulnerabilities across Windows, macOS, and Linux, including one critical and multiple high-severity flaws in V8, ANGLE, GPU, WebGPU, Bluetooth",
-        "cve": []
-    },
-    {
-        "title": "Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells",
-        "date": "Wed, 30 Sep 2026 16:50:03 +0000",
-        "url": "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/",
-        "source": "CyberSecurityNews",
-        "summary": "Google has warned that threat actors are actively exploiting two critical Citrix NetScaler zero-day vulnerabilities to gain root access, install stealthy web shells, and move into victim networks. The",
-        "cve": []
-    },
-    {
-        "title": "Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack",
-        "date": "Wed, 30 Sep 2026 16:28:35 +0000",
-        "url": "https://cybersecuritynews.com/russian-hackers-2/",
-        "source": "CyberSecurityNews",
-        "summary": "Russian state-linked hackers have expanded a phishing operation that uses a new RedFlick delivery chain to reach more than 100 organizations. The campaign replaces an obvious malicious attachment with",
-        "cve": []
-    },
-    {
-        "title": "Phishing Response: 3 Steps SOC Teams Can Take to Investigate Threats Faster",
-        "date": "Wed, 30 Sep 2026 16:06:16 +0000",
-        "url": "https://cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster/",
-        "source": "CyberSecurityNews",
-        "summary": "Investigating a phishing alert often means working through several layers of activity before an analyst can confidently close or escalate the case. Modern campaigns can hide malicious activity behind ",
-        "cve": []
-    },
-    {
-        "title": "PaperPhone Headless Browser Network Uses 75,000 IPs and Fabricated Mobile Identities Across 43 Countries",
-        "date": "Wed, 30 Sep 2026 16:05:54 +0000",
-        "url": "https://cybersecuritynews.com/paperphone-headless/",
-        "source": "CyberSecurityNews",
-        "summary": "PaperPhone is a large headless-browser network built to make automated web requests look like ordinary mobile traffic. It does not rely on a single obvious source. Instead, it spreads activity across ",
-        "cve": []
-    },
-    {
-        "title": "Supply Chain Attacks Turn Developer Machines Into Gateways for Cloud Breaches",
-        "date": "Wed, 30 Sep 2026 15:02:09 +0000",
-        "url": "https://cybersecuritynews.com/supply-chain-attacks/",
-        "source": "CyberSecurityNews",
-        "summary": "A routine software update can now open the door to a cloud breach. Attackers are hiding credential stealing malware inside trusted packages and development tools, allowing malicious code to run on dev",
-        "cve": []
-    },
-    {
-        "title": "Hackers Disguise Remote Access Tools as Zoom and PDF Installers to Take Over PCs",
-        "date": "Wed, 30 Sep 2026 14:35:10 +0000",
-        "url": "https://cybersecuritynews.com/remote-access-tools/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are using familiar Zoom setup files and PDF reader downloads to place remote-control software on business computers. The campaign turns ordinary workplace prompts into a path for outsiders to ",
-        "cve": []
-    },
-    {
-        "title": "AI Coding Agents Leak 13,000+ Internal Screenshots From 300+ Companies on GitHub",
-        "date": "Wed, 30 Sep 2026 14:14:53 +0000",
-        "url": "https://cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots/",
-        "source": "CyberSecurityNews",
-        "summary": "AI coding agents exposed more than 13,000 internal screenshots from over 300 organizations by publishing them in publicly accessible GitHub repositories, according to “PixelLeak” research from Glow La",
-        "cve": []
-    },
-    {
-        "title": "Hackers Turned a PaperCut Print Server Into a Path to the Domain Controller",
-        "date": "Wed, 30 Sep 2026 13:36:00 +0000",
-        "url": "https://cybersecuritynews.com/hackers-turned-a-papercut-print-server/",
-        "source": "CyberSecurityNews",
-        "summary": "A vulnerable print server became the entry point for an Active Directory compromise after attackers exploited two PaperCut MF zero-day flaws. The intrusion shows how an overlooked business system can ",
-        "cve": []
     },
     {
         "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
@@ -322,85 +242,83 @@
         "cve": []
     },
     {
-        "title": "RedFlick Uses Scheduled Tasks and Password-Protected Archives to Deploy CosmicPulse Backdoor",
-        "date": "Wed, 30 Sep 2026 13:38:39 +0000",
-        "url": "https://gbhackers.com/redflick-backdoor/",
-        "source": "GBHackers",
-        "summary": "Russian state-linked threat actor Star Blizzard has expanded its cyberespionage operations in 2026 with a phishing and malware-delivery technique tracked by Microsoft as RedFlick. Microsoft Threat Int",
+        "title": "OpenMandriva ROME 26.09 Released With More AI Apps, Snaps & PGO + LTO Optimizations",
+        "date": "Wed, 30 Sep 2026 21:36:25 -0400",
+        "url": "https://www.phoronix.com/news/OpenMandriva-ROME-26.09",
+        "source": "Phoronix",
+        "summary": "For ending out the month of September the OpenMandriva Linux distribution crew released OpenMandriva ROME 26.0 as their long overdue release held up by various technical issues and a reported sabotage",
         "cve": []
     },
     {
-        "title": "Docker CopyEscape CVE-2026-17106 Lets Malicious Containers Overwrite Host Files",
-        "date": "Wed, 30 Sep 2026 12:42:59 +0000",
-        "url": "https://gbhackers.com/docker-copyescape-cve-2026-17106/",
-        "source": "GBHackers",
-        "summary": "A critical Docker vulnerability tracked as CVE-2026-17106, also known as CopyEscape, could allow a malicious container to overwrite files on the host machine when a user runs the `docker cp` command. ",
-        "cve": [
-            "CVE-2026-17106"
-        ]
-    },
-    {
-        "title": "PaperPhone Cluster Shows How One Bot Operator Can Look Like Thousands of Mobile Users",
-        "date": "Wed, 30 Sep 2026 12:31:57 +0000",
-        "url": "https://gbhackers.com/paperphone-cluster/",
-        "source": "GBHackers",
-        "summary": "A large-scale scraping cluster dubbed PaperPhone, exposing how one operator can manufacture the appearance of tens of thousands of legitimate mobile users across dozens of countries. The operation use",
+        "title": "Valve's Work On Foveated Rendering For The Open-Source Turnip Driver On The Steam Frame",
+        "date": "Wed, 30 Sep 2026 20:18:48 -0400",
+        "url": "https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated",
+        "source": "Phoronix",
+        "summary": "As part of Valve's work on developing the Steam Frame VR headset, they worked on foveated rendering support for the Mesa Turnip driver that supports the Qualcomm Adreno graphics with open-source Vulka",
         "cve": []
     },
     {
-        "title": "Claude Compliance API Lets Security Teams Monitor Chats, Files and Agent Activity",
-        "date": "Wed, 30 Sep 2026 12:29:20 +0000",
-        "url": "https://gbhackers.com/claude-compliance-api/",
-        "source": "GBHackers",
-        "summary": "Anthropic has enhanced enterprise security visibility for its AI assistant, Claude, with the Compliance API. This feature lets organizations extract data on activity, conversations, files, projects, a",
+        "title": "More AI In Open-Source, CachyOS, Ryzen AI Halo, Framework Laptop 13 Pro & Other Q3 Hits",
+        "date": "Wed, 30 Sep 2026 14:57:43 -0400",
+        "url": "https://www.phoronix.com/news/Q3-2026-Highlights",
+        "source": "Phoronix",
+        "summary": "With the third quarter wrapping up, here is a look back at the most interesting content on Phoronix over the past three months...",
         "cve": []
     },
     {
-        "title": "Critical MikroTik RouterOS Vulnerability Exposes Devices to Remote Code Execution",
-        "date": "Wed, 30 Sep 2026 12:02:10 +0000",
-        "url": "https://gbhackers.com/critical-mikrotik-routeros-vulnerability/",
-        "source": "GBHackers",
-        "summary": "A critical vulnerability in MikroTik RouterOS could allow unauthenticated remote attackers to execute code on vulnerable devices or trigger a denial-of-service condition. This vulnerability, tracked a",
+        "title": "EDG C/C++ Front-End Open-Sourced",
+        "date": "Wed, 30 Sep 2026 13:53:32 -0400",
+        "url": "https://www.phoronix.com/news/EDG-CPP-Open-Sourced",
+        "source": "Phoronix",
+        "summary": "Edison Design Group has open-sourced their EDG C/C++ front-end that has been known in the commercial world for its extensive dialect support and other features. The EDG C++ front-end has been used by ",
         "cve": []
     },
     {
-        "title": "Attackers Target Developer Credentials to Expand Supply Chain Intrusions Beyond Source Code",
-        "date": "Wed, 30 Sep 2026 12:00:47 +0000",
-        "url": "https://gbhackers.com/supply-chain-intrusions/",
-        "source": "GBHackers",
-        "summary": "Software supply chain attacks are increasingly evolving into cloud identity breaches, as attackers weaponize trusted packages to steal credentials from developer workstations and CI/CD environments be",
+        "title": "Framework Desktop With AMD Ryzen AI Max+ PRO 495 Starts Out At $6799 USD",
+        "date": "Wed, 30 Sep 2026 11:15:58 -0400",
+        "url": "https://www.phoronix.com/news/Framework-Desktop-Gorgon-Halo",
+        "source": "Phoronix",
+        "summary": "Framework Computer today opened the pre-order process for their updated Framework Desktop featuring the new AMD Ryzen AI Max+ 496 \"Gorgon Halo\" SoC with 192GB of LPDDR5x-8533 memory...",
         "cve": []
     },
     {
-        "title": "12 Best IGA Tools in 2026: The Ranked Buyer’s Guide",
-        "date": "Wed, 30 Sep 2026 11:59:48 +0000",
-        "url": "https://gbhackers.com/best-iga-tools/",
-        "source": "GBHackers",
-        "summary": "Identity governance and administration has become essential as organizations manage employees, contractors, service accounts, machine identities, and AI agents across increasingly complex environments",
+        "title": "OpenJDK vs. GraalVM vs. Eclipse Temurin vs. Semeru Java Performance",
+        "date": "Wed, 30 Sep 2026 10:42:29 -0400",
+        "url": "https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru",
+        "source": "Phoronix",
+        "summary": "Immediately following the OpenJDK 8 through OpenJDK 27 benchmarks I expanded the scope of testing to look at how recent OpenJDK releases have been comparing to alternative JVMs like GraalVM, Temurin, ",
         "cve": []
     },
     {
-        "title": "Google Chrome 154 Update Fixes 32 Security Flaws Including Critical ANGLE Bug",
-        "date": "Wed, 30 Sep 2026 11:43:52 +0000",
-        "url": "https://gbhackers.com/google-chrome-154-update/",
-        "source": "GBHackers",
-        "summary": "Google has released Chrome version 154 for desktop platforms, addressing 32 security vulnerabilities, including a critical buffer overflow flaw in the ANGLE graphics translation layer. This update is ",
+        "title": "Qt 6.12 LTS Released With QML Hot Reloading, StyleKit In Experimental Form",
+        "date": "Wed, 30 Sep 2026 09:20:00 -0400",
+        "url": "https://www.phoronix.com/news/Qt-6.12-LTS-Released",
+        "source": "Phoronix",
+        "summary": "Qt 6.12 is now available as the newest version of the Qt6 toolkit and also serving as a Long Term Support (LTS) release...",
         "cve": []
     },
     {
-        "title": "Hackers Abuse MSP360 and ScreenConnect RMM Tools for Persistent Access and Credential Theft",
-        "date": "Wed, 30 Sep 2026 10:25:40 +0000",
-        "url": "https://gbhackers.com/msp360-and-rmm-abuse/",
-        "source": "GBHackers",
-        "summary": "The phishing campaigns that weaponize legitimate remote monitoring and management software to establish persistent access and support credential theft on Windows systems. The campaign demonstrates a r",
+        "title": "Rusticl Had A Great Year For Rust OpenCL In Mesa With 3.1 Support, More Drivers",
+        "date": "Wed, 30 Sep 2026 09:03:20 -0400",
+        "url": "https://www.phoronix.com/news/Rusticl-2026",
+        "source": "Phoronix",
+        "summary": "Rusticl lead developer Karol herbst provided a status update on this Mesa Rust-based OpenCL driver during the XDC 2026 conference happening in Toronto...",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Citrix NetScaler Zero-Day to Gain Root Access and Deploy Web Shells",
-        "date": "Wed, 30 Sep 2026 09:47:33 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-day/",
-        "source": "GBHackers",
-        "summary": "Threat actors are actively exploiting a critical zero-day vulnerability in Citrix NetScaler, identified as CVE-2026-88772, to gain unauthenticated root-level access to vulnerable Application Delivery ",
+        "title": "Linux 7.4 To Support The NPU On AMD Ryzen AI Max 400 Series \"Gorgon Halo\"",
+        "date": "Wed, 30 Sep 2026 08:20:14 -0400",
+        "url": "https://www.phoronix.com/news/AMD-Gorgon-Halo-NPU-LInux",
+        "source": "Phoronix",
+        "summary": "While the AMD Ryzen AI 400 series \"Gorgon Halo\" systems are nearing the marketplace, the NPU support for Linux was seemingly overlooked until now. But at least the simple enablement patch looks like i",
+        "cve": []
+    },
+    {
+        "title": "Proposal To Set ARM64 Kernel Stack Size At Boot Time To Reduce Memory Consumption",
+        "date": "Wed, 30 Sep 2026 06:27:00 -0400",
+        "url": "https://www.phoronix.com/news/ARM64-Linux-Stack-Size-Boot",
+        "source": "Phoronix",
+        "summary": "A proposal was posted this week to the Linux kernel mailing list by a Google engineer to make it easier for ARM64 Linux to adjust the kernel stack size. The motivation for doing so to configure the ke",
         "cve": []
     }
 ]
