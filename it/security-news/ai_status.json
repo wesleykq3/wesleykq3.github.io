@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-01T02:35:23.504607",
+    "timestamp": "2026-10-01T17:33:06.703903",
     "services": [
         {
             "service": "OpenAI",
@@ -9,8 +9,8 @@
         },
         {
             "service": "Claude",
-            "status": "none",
-            "description": "All Systems Operational",
+            "status": "minor",
+            "description": "Partially Degraded Service",
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
@@ -34,11 +34,11 @@
         },
         {
             "name": "Claude Console (platform.claude.com)",
-            "status": "operational"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude API (api.anthropic.com)",
-            "status": "operational"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude Code",

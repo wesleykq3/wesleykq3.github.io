@@ -1,5 +1,53 @@
 [
     {
+        "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+        "date": "Thu, 01 Oct 2026 10:25:14 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+        "source": "BleepingComputer",
+        "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the grou",
+        "cve": []
+    },
+    {
+        "title": "The Day-One Hole in Zero Trust Architecture",
+        "date": "Thu, 01 Oct 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+        "source": "BleepingComputer",
+        "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity veri",
+        "cve": []
+    },
+    {
+        "title": "Kiteworks patches max severity code injection vulnerability",
+        "date": "Thu, 01 Oct 2026 09:51:08 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+        "source": "BleepingComputer",
+        "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solutio",
+        "cve": []
+    },
+    {
+        "title": "Microsoft enables Windows settings backup by default for orgs",
+        "date": "Thu, 01 Oct 2026 07:14:28 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [.",
+        "cve": []
+    },
+    {
+        "title": "Hackers stole Pentagon personnel records of over 3 million people",
+        "date": "Thu, 01 Oct 2026 05:44:28 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+        "source": "BleepingComputer",
+        "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in O",
+        "cve": []
+    },
+    {
+        "title": "Metamask discloses security incident affecting its infrastructure",
+        "date": "Thu, 01 Oct 2026 03:33:57 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+        "source": "BleepingComputer",
+        "summary": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...]",
+        "cve": []
+    },
+    {
         "title": "Russian state hackers use new RedFlick technique to push malware",
         "date": "Wed, 30 Sep 2026 16:34:01 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
@@ -32,134 +80,164 @@
         "cve": []
     },
     {
-        "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
-        "date": "Wed, 30 Sep 2026 10:46:40 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
-        "cve": []
-    },
-    {
-        "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
-        "date": "Wed, 30 Sep 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
-        "source": "BleepingComputer",
-        "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft to block Entra ID script injection attacks starting October",
-        "date": "Wed, 30 Sep 2026 09:37:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
-        "cve": []
-    },
-    {
-        "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
-        "date": "Wed, 30 Sep 2026 08:25:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
-        "source": "BleepingComputer",
-        "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
-        "cve": []
-    },
-    {
-        "title": "Bitget hacked via zero-day in third-party security products",
-        "date": "Wed, 30 Sep 2026 07:11:46 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
-        "source": "BleepingComputer",
-        "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft is rolling out Linux container support to WSL",
-        "date": "Tue, 29 Sep 2026 20:40:57 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
-        "cve": []
-    },
-    {
-        "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-        "date": "Wed, 30 Sep 2026 22:16:29 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+        "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+        "date": "Thu, 01 Oct 2026 22:25:57 +0530",
+        "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
         "source": "The Hacker News",
-        "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research t",
+        "summary": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on ",
         "cve": []
     },
     {
-        "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
-        "date": "Wed, 30 Sep 2026 22:02:59 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+        "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+        "date": "Thu, 01 Oct 2026 22:15:38 +0530",
+        "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
         "source": "The Hacker News",
-        "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software u",
+        "summary": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model ch",
         "cve": []
     },
     {
-        "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-        "date": "Wed, 30 Sep 2026 20:54:54 +0530",
-        "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+        "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+        "date": "Thu, 01 Oct 2026 20:07:35 +0530",
+        "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
         "source": "The Hacker News",
-        "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September",
+        "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to in",
         "cve": []
     },
     {
-        "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-        "date": "Wed, 30 Sep 2026 20:30:15 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+        "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+        "date": "Thu, 01 Oct 2026 17:15:00 +0530",
+        "url": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
         "source": "The Hacker News",
-        "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.\n\nHuntre",
+        "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to up",
         "cve": []
     },
     {
-        "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
-        "date": "Wed, 30 Sep 2026 17:28:00 +0530",
-        "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+        "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+        "date": "Thu, 01 Oct 2026 16:12:36 +0530",
+        "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
         "source": "The Hacker News",
-        "summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, wi",
+        "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.\n\nA \"co",
         "cve": []
     },
     {
-        "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
-        "date": "Wed, 30 Sep 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+        "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+        "date": "Thu, 01 Oct 2026 16:03:16 +0530",
+        "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
         "source": "The Hacker News",
-        "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said.\n\nIts researchers found more than 13,0",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities",
         "cve": []
     },
     {
-        "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
-        "date": "Wed, 30 Sep 2026 16:15:00 +0530",
-        "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+        "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+        "date": "Thu, 01 Oct 2026 13:19:36 +0530",
+        "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
         "source": "The Hacker News",
-        "summary": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulti",
+        "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.",
         "cve": []
     },
     {
-        "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-        "date": "Wed, 30 Sep 2026 13:54:35 +0530",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+        "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+        "date": "Thu, 01 Oct 2026 11:24:41 +0530",
+        "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
         "source": "The Hacker News",
-        "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.\n\nThe act",
+        "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.\n\nTh",
         "cve": []
     },
     {
-        "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-        "date": "Wed, 30 Sep 2026 13:39:28 +0530",
-        "url": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+        "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+        "date": "Thu, 01 Oct 2026 10:51:10 +0530",
+        "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
         "source": "The Hacker News",
-        "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.\n\nDTLS, the TLS variant used ",
+        "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation finding",
         "cve": []
     },
     {
-        "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-        "date": "Wed, 30 Sep 2026 11:00:30 +0530",
-        "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+        "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+        "date": "Thu, 01 Oct 2026 10:40:09 +0530",
+        "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.\n\nThe vu",
-        "cve": [
-            "CVE-2026-88772"
-        ]
+        "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure.\n\n\"We are actively addressing and remediating the issue internally",
+        "cve": []
+    },
+    {
+        "title": "FTC Investigating OpenAI, Anthropic and Other AI Models Over Potential Risks to Customers",
+        "date": "Thu, 01 Oct 2026 17:09:56 +0000",
+        "url": "https://cybersecuritynews.com/ftc-investigating-ai-models/",
+        "source": "CyberSecurityNews",
+        "summary": "The Federal Trade Commission has opened an investigation into OpenAI, Anthropic and other artificial intelligence companies over potential risks their products pose to customers. An agency spokesperso",
+        "cve": []
+    },
+    {
+        "title": "Hackers Built a Windows Backdoor Whose Entire C2 Lives Inside Microsoft 365",
+        "date": "Thu, 01 Oct 2026 16:06:14 +0000",
+        "url": "https://cybersecuritynews.com/hackers-built-a-windows-backdoor/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers have built a Windows backdoor that uses Microsoft 365 for all its native command and control communications. Named Antino, the malware turns Outlook messages and OneDrive files into channels f",
+        "cve": []
+    },
+    {
+        "title": "16-year-old Alleged KillSec Ransomware Group Leader Arrested, Servers Dismantled",
+        "date": "Thu, 01 Oct 2026 15:30:20 +0000",
+        "url": "https://cybersecuritynews.com/16-year-old-leader-killsec-ransomware/",
+        "source": "CyberSecurityNews",
+        "summary": "Authorities have identified a 16-year-old as the suspected main operator of the KillSec ransomware group after an international law-enforcement operation disrupted the group’s infrastructure and led t",
+        "cve": []
+    },
+    {
+        "title": "Fake Zoom Installer Tricks Mac Users Into Installing New CloudSyncD Backdoor",
+        "date": "Thu, 01 Oct 2026 15:07:15 +0000",
+        "url": "https://cybersecuritynews.com/fake-zoom-installer-tricks/",
+        "source": "CyberSecurityNews",
+        "summary": "A fake Zoom installer is tricking Mac users into handing over their login passwords and launching CloudSyncD, a newly identified backdoor. The malware hides inside an application that looks familiar, ",
+        "cve": []
+    },
+    {
+        "title": "Chinese Hackers Posing as Senior Anthropic Employee Targeting US AI Policy Experts",
+        "date": "Thu, 01 Oct 2026 14:44:06 +0000",
+        "url": "https://cybersecuritynews.com/chinese-hackers-posing-as-anthropic-employee/",
+        "source": "CyberSecurityNews",
+        "summary": "A China-aligned hacking group tracked as TA419 has impersonated a senior Anthropic employee and well-known policy figures to target US artificial intelligence experts. Proofpoint linked the activity t",
+        "cve": []
+    },
+    {
+        "title": "Warlock Ransomware Exploiting SharePoint Flaws to Attack Water and Telecom Operators",
+        "date": "Thu, 01 Oct 2026 14:14:26 +0000",
+        "url": "https://cybersecuritynews.com/warlock-ransomware-exploiting-sharepoint-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "A China-nexus threat actor is continuing to exploit Microsoft SharePoint Server vulnerabilities to deploy Warlock ransomware, with recent attacks striking essential-service and public-sector organizat",
+        "cve": []
+    },
+    {
+        "title": "WordPress Malware Comes Back After Removal Using a Self-Healing Backdoor",
+        "date": "Thu, 01 Oct 2026 13:45:15 +0000",
+        "url": "https://cybersecuritynews.com/wordpress-malware-2/",
+        "source": "CyberSecurityNews",
+        "summary": "A WordPress backdoor is bringing deleted malware back within seconds, turning routine cleanup into a cycle of reinfection. Called SC, the infection spreads its working parts across website files, the ",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Enables Windows 11 Backup Setting by Default for Organizations",
+        "date": "Thu, 01 Oct 2026 13:20:06 +0000",
+        "url": "https://cybersecuritynews.com/windows-11-backup-setting-by-default/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has enabled Windows settings backup by default for eligible devices running Windows 11, version 26H2, turning an opt-in function into a baseline resilience capability. The change, generally ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Abuse Microsoft Defender Exclusions to Hide Malware From Antivirus Scans",
+        "date": "Thu, 01 Oct 2026 13:15:26 +0000",
+        "url": "https://cybersecuritynews.com/hackers-abuse-microsoft-defender/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are abusing Microsoft Defender Antivirus exclusions to keep malicious files outside routine security scans. Rather than switching protection off completely, attackers can leave antivirus runni",
+        "cve": []
+    },
+    {
+        "title": "Node.js ImageResponse Implementation Vulnerability Enables Remote Code Execution",
+        "date": "Thu, 01 Oct 2026 12:59:58 +0000",
+        "url": "https://cybersecuritynews.com/node-js-imageresponse-implementation-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical vulnerability in Next.js could allow remote code execution in applications that use the Node.js implementation of ImageResponse from the next/og package. The issue, tracked as GHSA-vcvr-r3j",
+        "cve": []
     },
     {
         "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
@@ -242,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "OpenMandriva ROME 26.09 Released With More AI Apps, Snaps & PGO + LTO Optimizations",
-        "date": "Wed, 30 Sep 2026 21:36:25 -0400",
-        "url": "https://www.phoronix.com/news/OpenMandriva-ROME-26.09",
-        "source": "Phoronix",
-        "summary": "For ending out the month of September the OpenMandriva Linux distribution crew released OpenMandriva ROME 26.0 as their long overdue release held up by various technical issues and a reported sabotage",
+        "title": "TerminalFix Attacks Deploy Lorem Ipsum Loader to Create Covert Tunnels Into Corporate Networks",
+        "date": "Thu, 01 Oct 2026 13:09:45 +0000",
+        "url": "https://gbhackers.com/terminalfix-attacks/",
+        "source": "GBHackers",
+        "summary": "A newly tracked intrusion set, STAC4924, is using TerminalFix social-engineering lures to deploy the Lorem Ipsum Loader and establish covert reverse tunnels into enterprise environments. The activity ",
         "cve": []
     },
     {
-        "title": "Valve's Work On Foveated Rendering For The Open-Source Turnip Driver On The Steam Frame",
-        "date": "Wed, 30 Sep 2026 20:18:48 -0400",
-        "url": "https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated",
-        "source": "Phoronix",
-        "summary": "As part of Valve's work on developing the Steam Frame VR headset, they worked on foveated rendering support for the Mesa Turnip driver that supports the Qualcomm Adreno graphics with open-source Vulka",
+        "title": "Next.js ImageResponse Vulnerability Lets Remote Attackers Execute Code Through SVG Content",
+        "date": "Thu, 01 Oct 2026 13:08:22 +0000",
+        "url": "https://gbhackers.com/next-js-imageresponse-vulnerability/",
+        "source": "GBHackers",
+        "summary": "A critical vulnerability in Next.js could let unauthenticated remote attackers execute code on affected servers by supplying crafted input that gets rendered into SVG content during dynamic image gene",
         "cve": []
     },
     {
-        "title": "More AI In Open-Source, CachyOS, Ryzen AI Halo, Framework Laptop 13 Pro & Other Q3 Hits",
-        "date": "Wed, 30 Sep 2026 14:57:43 -0400",
-        "url": "https://www.phoronix.com/news/Q3-2026-Highlights",
-        "source": "Phoronix",
-        "summary": "With the third quarter wrapping up, here is a look back at the most interesting content on Phoronix over the past three months...",
+        "title": "Axios Flaws Let Attackers Bypass Proxy Controls and Trigger SSRF Attacks",
+        "date": "Thu, 01 Oct 2026 11:46:00 +0000",
+        "url": "https://gbhackers.com/axios-flaws-let-attackers-bypass-proxy-controls-and-trigger-ssrf-attacks/",
+        "source": "GBHackers",
+        "summary": "Axios maintainers have disclosed several high-severity security vulnerabilities that could allow attackers to bypass proxy and DNS controls in server-side applications, potentially enabling server-sid",
         "cve": []
     },
     {
-        "title": "EDG C/C++ Front-End Open-Sourced",
-        "date": "Wed, 30 Sep 2026 13:53:32 -0400",
-        "url": "https://www.phoronix.com/news/EDG-CPP-Open-Sourced",
-        "source": "Phoronix",
-        "summary": "Edison Design Group has open-sourced their EDG C/C++ front-end that has been known in the commercial world for its extensive dialect support and other features. The EDG C++ front-end has been used by ",
+        "title": "China-Nexus Hackers Compromise 350 Systems Across Asia With New Antino Backdoor",
+        "date": "Thu, 01 Oct 2026 11:44:45 +0000",
+        "url": "https://gbhackers.com/antino-backdoor/",
+        "source": "GBHackers",
+        "summary": "A China-nexus cyber-espionage campaign that compromised approximately 350 endpoints across Asia using a previously undocumented Rust-based Windows backdoor called Antino. The activity cluster, tracked",
         "cve": []
     },
     {
-        "title": "Framework Desktop With AMD Ryzen AI Max+ PRO 495 Starts Out At $6799 USD",
-        "date": "Wed, 30 Sep 2026 11:15:58 -0400",
-        "url": "https://www.phoronix.com/news/Framework-Desktop-Gorgon-Halo",
-        "source": "Phoronix",
-        "summary": "Framework Computer today opened the pre-order process for their updated Framework Desktop featuring the new AMD Ryzen AI Max+ 496 \"Gorgon Halo\" SoC with 192GB of LPDDR5x-8533 memory...",
+        "title": "Multiple TeamViewer Vulnerabilities Enable RCE, Access Control Bypass and Privilege Escalation",
+        "date": "Thu, 01 Oct 2026 11:08:39 +0000",
+        "url": "https://gbhackers.com/multiple-teamviewer-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "TeamViewer has issued security bulletin TV-2026-1010 to address five high-severity vulnerabilities found in the TeamViewer Full Client, Host, and related services. These vulnerabilities affect deploym",
         "cve": []
     },
     {
-        "title": "OpenJDK vs. GraalVM vs. Eclipse Temurin vs. Semeru Java Performance",
-        "date": "Wed, 30 Sep 2026 10:42:29 -0400",
-        "url": "https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru",
-        "source": "Phoronix",
-        "summary": "Immediately following the OpenJDK 8 through OpenJDK 27 benchmarks I expanded the scope of testing to look at how recent OpenJDK releases have been comparing to alternative JVMs like GraalVM, Temurin, ",
+        "title": "CloudSyncD Uses Invisible Unicode to Hide Phished Mac Passwords in Plain Sight",
+        "date": "Thu, 01 Oct 2026 11:06:06 +0000",
+        "url": "https://gbhackers.com/cloudsyncd-backdoor/",
+        "source": "GBHackers",
+        "summary": "A new macOS backdoor, tracked as CloudSyncD, that masquerades as a Zoom installer and uses invisible Unicode characters to conceal a victim’s phished password inside a seemingly harmless configuration",
         "cve": []
     },
     {
-        "title": "Qt 6.12 LTS Released With QML Hot Reloading, StyleKit In Experimental Form",
-        "date": "Wed, 30 Sep 2026 09:20:00 -0400",
-        "url": "https://www.phoronix.com/news/Qt-6.12-LTS-Released",
-        "source": "Phoronix",
-        "summary": "Qt 6.12 is now available as the newest version of the Qt6 toolkit and also serving as a Long Term Support (LTS) release...",
+        "title": "Researchers Find 543,699 Active Credentials Leaked in Public GitHub Repos",
+        "date": "Thu, 01 Oct 2026 10:32:59 +0000",
+        "url": "https://gbhackers.com/active-credentials-leaked-in-public-github-repos/",
+        "source": "GBHackers",
+        "summary": "Security researchers have identified 543,699 unique credentials that remain valid despite being exposed in public GitHub repositories. This highlights a persistent failure to revoke secrets once they ",
         "cve": []
     },
     {
-        "title": "Rusticl Had A Great Year For Rust OpenCL In Mesa With 3.1 Support, More Drivers",
-        "date": "Wed, 30 Sep 2026 09:03:20 -0400",
-        "url": "https://www.phoronix.com/news/Rusticl-2026",
-        "source": "Phoronix",
-        "summary": "Rusticl lead developer Karol herbst provided a status update on this Mesa Rust-based OpenCL driver during the XDC 2026 conference happening in Toronto...",
+        "title": "SC WordPress Malware Rebuilds Itself After Removal Using Database and Memory Persistence",
+        "date": "Thu, 01 Oct 2026 09:08:14 +0000",
+        "url": "https://gbhackers.com/sc-wordpress-malware/",
+        "source": "GBHackers",
+        "summary": "A newly analyzed WordPress malware family, tracked as SC for the “SC_” markers embedded in its injected code, uses a self-healing persistence mesh that can restore a deleted backdoor within seconds. R",
         "cve": []
     },
     {
-        "title": "Linux 7.4 To Support The NPU On AMD Ryzen AI Max 400 Series \"Gorgon Halo\"",
-        "date": "Wed, 30 Sep 2026 08:20:14 -0400",
-        "url": "https://www.phoronix.com/news/AMD-Gorgon-Halo-NPU-LInux",
-        "source": "Phoronix",
-        "summary": "While the AMD Ryzen AI 400 series \"Gorgon Halo\" systems are nearing the marketplace, the NPU support for Linux was seemingly overlooked until now. But at least the simple enablement patch looks like i",
+        "title": "HPE Instant On AP Flaws Let Unauthenticated Attackers Execute Arbitrary Commands",
+        "date": "Thu, 01 Oct 2026 08:01:59 +0000",
+        "url": "https://gbhackers.com/hpe-instant-on-ap-flaws/",
+        "source": "GBHackers",
+        "summary": "HPE has released security updates for its Networking Instant On access points after identifying 18 vulnerabilities, including several critical flaws that could allow unauthenticated attackers to execu",
         "cve": []
     },
     {
-        "title": "Proposal To Set ARM64 Kernel Stack Size At Boot Time To Reduce Memory Consumption",
-        "date": "Wed, 30 Sep 2026 06:27:00 -0400",
-        "url": "https://www.phoronix.com/news/ARM64-Linux-Stack-Size-Boot",
-        "source": "Phoronix",
-        "summary": "A proposal was posted this week to the Linux kernel mailing list by a Google engineer to make it easier for ARM64 Linux to adjust the kernel stack size. The motivation for doing so to configure the ke",
+        "title": "Multiple ModSecurity Vulnerabilities Let Attackers Bypass WAF Rules and Execute Malicious Requests",
+        "date": "Thu, 01 Oct 2026 07:54:51 +0000",
+        "url": "https://gbhackers.com/multiple-modsecurity-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "OWASP ModSecurity has disclosed multiple vulnerabilities that could let attackers bypass web application firewall rules, evade request and response inspection, or trigger denial-of-service conditions.",
         "cve": []
     }
 ]
