@@ -1,5 +1,45 @@
 [
     {
+        "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+        "date": "Fri, 02 Oct 2026 12:20:05 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+        "source": "BleepingComputer",
+        "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
+        "cve": []
+    },
+    {
+        "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
+        "date": "Fri, 02 Oct 2026 11:20:53 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dollars in ATM jackpotting attacks across the United St",
+        "cve": []
+    },
+    {
+        "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+        "date": "Fri, 02 Oct 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+        "source": "BleepingComputer",
+        "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpo",
+        "cve": []
+    },
+    {
+        "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
+        "date": "Fri, 02 Oct 2026 08:37:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+        "source": "BleepingComputer",
+        "summary": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to Kubernetes environments. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+        "date": "Fri, 02 Oct 2026 05:29:56 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+        "source": "BleepingComputer",
+        "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
+        "cve": []
+    },
+    {
         "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
         "date": "Thu, 01 Oct 2026 18:42:49 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
@@ -40,43 +80,35 @@
         "cve": []
     },
     {
-        "title": "Kiteworks patches max severity code injection vulnerability",
-        "date": "Thu, 01 Oct 2026 09:51:08 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
-        "source": "BleepingComputer",
-        "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solutio",
+        "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+        "date": "Fri, 02 Oct 2026 17:53:15 +0530",
+        "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported.\n\n\"We have parted ways with three ",
         "cve": []
     },
     {
-        "title": "Microsoft enables Windows settings backup by default for orgs",
-        "date": "Thu, 01 Oct 2026 07:14:28 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [.",
+        "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+        "date": "Fri, 02 Oct 2026 17:00:00 +0530",
+        "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
+        "source": "The Hacker News",
+        "summary": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone ",
         "cve": []
     },
     {
-        "title": "Hackers stole Pentagon personnel records of over 3 million people",
-        "date": "Thu, 01 Oct 2026 05:44:28 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
-        "source": "BleepingComputer",
-        "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in O",
+        "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+        "date": "Fri, 02 Oct 2026 13:31:30 +0530",
+        "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+        "source": "The Hacker News",
+        "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.\n\nWith",
         "cve": []
     },
     {
-        "title": "Metamask discloses security incident affecting its infrastructure",
-        "date": "Thu, 01 Oct 2026 03:33:57 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
-        "source": "BleepingComputer",
-        "summary": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...]",
-        "cve": []
-    },
-    {
-        "title": "Russian state hackers use new RedFlick technique to push malware",
-        "date": "Wed, 30 Sep 2026 16:34:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
-        "source": "BleepingComputer",
-        "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
+        "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+        "date": "Fri, 02 Oct 2026 11:19:50 +0530",
+        "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, followi",
         "cve": []
     },
     {
@@ -128,35 +160,83 @@
         "cve": []
     },
     {
-        "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-        "date": "Thu, 01 Oct 2026 13:19:36 +0530",
-        "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-        "source": "The Hacker News",
-        "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.",
+        "title": "Hackers Turned a Microsoft SQL Server Into a Command and Data Exfiltration Channel",
+        "date": "Fri, 02 Oct 2026 14:04:21 +0000",
+        "url": "https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers turned a Microsoft SQL Server into a channel for running commands and moving collected files in an intrusion linked to a Viva Aerobus environment. Their own publicly accessible server then exp",
         "cve": []
     },
     {
-        "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-        "date": "Thu, 01 Oct 2026 11:24:41 +0530",
-        "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-        "source": "The Hacker News",
-        "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.\n\nTh",
+        "title": "Hackers Poison Trusted Software Updates to Steal Developer and Cloud Credentials",
+        "date": "Fri, 02 Oct 2026 13:43:28 +0000",
+        "url": "https://cybersecuritynews.com/hackers-poison-trusted-software-updates/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are turning trusted software updates into a route for stealing developer and cloud credentials. Recent supply chain incidents show how a single altered package, build action, or publishing tok",
         "cve": []
     },
     {
-        "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-        "date": "Thu, 01 Oct 2026 10:51:10 +0530",
-        "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-        "source": "The Hacker News",
-        "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation finding",
+        "title": "Critical Red Hat Satellite Flaw Could Enable Root Password Theft and Code Execution Attacks",
+        "date": "Fri, 02 Oct 2026 13:14:51 +0000",
+        "url": "https://cybersecuritynews.com/red-hat-satellite-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Red Hat has fixed a high-impact vulnerability in Red Hat Satellite that could allow a low-privileged authenticated user to access sensitive host information, including root passwords. Under unsafe con",
         "cve": []
     },
     {
-        "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-        "date": "Thu, 01 Oct 2026 10:40:09 +0530",
-        "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
-        "source": "The Hacker News",
-        "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure.\n\n\"We are actively addressing and remediating the issue internally",
+        "title": "Multiple Cpanel/WHM Vulnerabilities Allow Arbitrary Command Execution On Server",
+        "date": "Fri, 02 Oct 2026 13:10:34 +0000",
+        "url": "https://cybersecuritynews.com/multiple-cpanel-whm-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Multiple security flaws in cPanel &#38; WHM could let attackers run malicious scripts in an administrator’s browser session or execute arbitrary commands as root. The vulnerabilities were disclosed on",
+        "cve": []
+    },
+    {
+        "title": "OpenClaw Launches Free Open-source Enterprise Agent Platform for AI Agents",
+        "date": "Fri, 02 Oct 2026 13:00:07 +0000",
+        "url": "https://cybersecuritynews.com/openclaw-free-enterprise-platform/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenClaw has launched OpenClaw Enterprise (OCE), a free, open-source platform that helps organizations run persistent AI agents with stronger security and central oversight. Announced on September 29,",
+        "cve": []
+    },
+    {
+        "title": "Exposed WordPress Backups Became a Gold Mine of AWS and Email Credentials",
+        "date": "Fri, 02 Oct 2026 12:45:50 +0000",
+        "url": "https://cybersecuritynews.com/exposed-wordpress-backups/",
+        "source": "CyberSecurityNews",
+        "summary": "Exposed WordPress backups have become a valuable source of cloud and email credentials for attackers using a toolkit called TIKTOUK. Rather than relying on one technique, its components search website",
+        "cve": []
+    },
+    {
+        "title": "Zammad 0-Day Vulnerabilities Exploited to Gain Remote Code Execution and Root Access",
+        "date": "Fri, 02 Oct 2026 12:17:07 +0000",
+        "url": "https://cybersecuritynews.com/zammad-0-day-vulnerabilities-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "Two critical Zammad zero-day flaws, reportedly exploited against the Dutch Institute for Vulnerability Disclosure (DIVD), could allow session hijacking, remote command execution as the Zammad service ",
+        "cve": []
+    },
+    {
+        "title": "Free iCloud Account Could Let Attackers Spoof Any @icloud.com Address and Pass Email Security Checks",
+        "date": "Fri, 02 Oct 2026 11:50:18 +0000",
+        "url": "https://cybersecuritynews.com/icloud-email-address-spoofing/",
+        "source": "CyberSecurityNews",
+        "summary": "Security researcher Timo Longin, working with the SEC Consult Vulnerability Lab, disclosed two email spoofing flaws in Apple’s iCloud mail infrastructure that could have let someone with a free iCloud",
+        "cve": []
+    },
+    {
+        "title": "Sony Rolls Out PS5 Security Update Following the Release of Relapse Jailbreak",
+        "date": "Fri, 02 Oct 2026 11:30:35 +0000",
+        "url": "https://cybersecuritynews.com/ps5-security-update/",
+        "source": "CyberSecurityNews",
+        "summary": "Sony has moved to protect PlayStation 5 consoles with its latest system software update, as the newly released Relapse jailbreak draws attention to a broad set of older PS5 firmware versions. The upda",
+        "cve": []
+    },
+    {
+        "title": "Session Cookie Vulnerability Lets Attackers Bypass Entra ID MFA and Impersonate Users",
+        "date": "Fri, 02 Oct 2026 11:24:01 +0000",
+        "url": "https://cybersecuritynews.com/session-cookie-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A flaw in a custom session-cookie system allowed an unauthenticated attacker to pose as employees and administrators in a yard management platform. The issue did not break Microsoft Entra ID itself. I",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Siemens Slams The Door Shut On Promising Open-Source Radioss Project",
-        "date": "Thu, 01 Oct 2026 21:00:31 -0400",
-        "url": "https://www.phoronix.com/news/Siemens-Ends-OpenRadioss",
-        "source": "Phoronix",
-        "summary": "As a major disappointment to the open-source community, Siemens has decided to end -- and close-up access -- to the OpenRadioss project as the open-source version opened up by Altair Engineering under",
+        "title": "Sony PS5 Relapse Jailbreak Exploit Uses JSC Memory Corruption and Kernel UAF",
+        "date": "Fri, 02 Oct 2026 13:40:08 +0000",
+        "url": "https://gbhackers.com/sony-ps5-relapse-jailbreak-exploit-uses/",
+        "source": "GBHackers",
+        "summary": "A newly released PlayStation 5 jailbreak chain, called Relapse, targets PS5 and PS5 Pro consoles running firmware versions 7.00 through 13.60. This jailbreak combines a browser-based JavaScriptCore me",
         "cve": []
     },
     {
-        "title": "Steam On Linux Dives Down To 3.05% For September",
-        "date": "Thu, 01 Oct 2026 20:18:56 -0400",
-        "url": "https://www.phoronix.com/news/Steam-Survey-September-2025",
-        "source": "Phoronix",
-        "summary": "Steam on Linux use in March hit an all-time high of around 5.33% marketshare. Since then it pulled back to around 4% while for September 2026 the Steam Survey results are now in and it's clocking in j",
+        "title": "Zammad Vulnerabilities Let Attackers Execute Code and Escalate Privileges to Root",
+        "date": "Fri, 02 Oct 2026 12:44:08 +0000",
+        "url": "https://gbhackers.com/zammad-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Two critical vulnerabilities in the open-source Zammad helpdesk and ticketing platform can be exploited together, enabling attackers to achieve remote code execution and gain root-level control of aff",
         "cve": []
     },
     {
-        "title": "Fedora 45 Beta Performance: The Satisfyingly Boring Benchmarks",
-        "date": "Thu, 01 Oct 2026 16:57:58 -0400",
-        "url": "https://www.phoronix.com/review/fedora-45-beta-benchmarks",
-        "source": "Phoronix",
-        "summary": "While there have been a number of Ubuntu 26.10 development benchmarks in recent weeks and more on the way, some Phoronix readers have asked about the lack of any early Fedora 45 tests given its recent",
+        "title": "Safari History Database Tags Can Reveal Users’ Browsing Themes in Forensic Investigations",
+        "date": "Fri, 02 Oct 2026 12:35:11 +0000",
+        "url": "https://gbhackers.com/safari-history-database-tags-can-reveal-users-browsing-themes/",
+        "source": "GBHackers",
+        "summary": "Safari&#8217;s History database contains a lesser-known tagging artifact that can help investigators infer a user’s browsing themes. While this feature is not definitive evidence of intent, when corre",
         "cve": []
     },
     {
-        "title": "Mesa Drops Its Poorly Maintained & Rarely Used Direct3D 10 User-Mode Driver",
-        "date": "Thu, 01 Oct 2026 16:00:08 -0400",
-        "url": "https://www.phoronix.com/news/Mesa-Drops-Direct3D-10-UMD",
-        "source": "Phoronix",
-        "summary": "Back in 2021 the Direct3D 10 User-Mode Driver \"d3d10umd\" was introduced as a new Gallium3D state tracker to work as a Windows WDDM UMD driver similar to Windows WARP while leveraging LLVMpipe for bett",
+        "title": "Exposed Hacker Server Reveals Toolkit Used in Viva Aerobus-Linked Intrusion",
+        "date": "Fri, 02 Oct 2026 11:55:20 +0000",
+        "url": "https://gbhackers.com/viva-aerobus-intrusion/",
+        "source": "GBHackers",
+        "summary": "A publicly exposed attacker staging server has provided a rare, detailed view of a Microsoft SQL Server-focused intrusion linked to a Viva Aerobus-side environment. The server, hosted at 151.243.232.1",
         "cve": []
     },
     {
-        "title": "Ubuntu 26.10 Beta Released With Linux 7.3 Kernel, GNOME 51 Desktop",
-        "date": "Thu, 01 Oct 2026 15:26:05 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Beta-Released",
-        "source": "Phoronix",
-        "summary": "Ubuntu 26.10 beta is now available for the official Ubuntu editions as well as the various community flavors...",
+        "title": "Multiple cPanel & WHM Vulnerabilities Enable Root Code Execution and Admin Session Hijacking",
+        "date": "Fri, 02 Oct 2026 11:26:54 +0000",
+        "url": "https://gbhackers.com/multiple-cpanel-whm-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "cPanel has released security updates to address three vulnerabilities in cPanel &#38; WHM that could allow attackers to hijack WHM administrator sessions or execute commands as the root user. Organiza",
         "cve": []
     },
     {
-        "title": "Nearing A 10 Second Kernel Build, Xeon 600 & Other September Excitement On Phoronix",
-        "date": "Thu, 01 Oct 2026 13:07:48 -0400",
-        "url": "https://www.phoronix.com/news/September-2026-Highlights",
-        "source": "Phoronix",
-        "summary": "During the past month on Phoronix were 284 original news articles and another 19 featured Linux hardware reviews/multi-page benchmark articles. A lot of exciting happenings both on the hardware and so",
+        "title": "Capacitor Vulnerability Lets Remote Content Run With Full App Origin Trust",
+        "date": "Fri, 02 Oct 2026 11:12:42 +0000",
+        "url": "https://gbhackers.com/capacitor-vulnerability/",
+        "source": "GBHackers",
+        "summary": "A critical vulnerability in Capacitor, identified as CVE-2026-103922, could allow attacker-controlled remote content to execute within vulnerable Android and iOS applications, posing as the applicatio",
         "cve": []
     },
     {
-        "title": "Some Networking Fixes Being Diverted To Linux 7.4, AI/LLM Activity Still Increasing",
-        "date": "Thu, 01 Oct 2026 12:24:40 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Networking-Linux-7.3-rc6",
-        "source": "Phoronix",
-        "summary": "With the vast array of wired and wireless networking drivers within the Linux kernel and range of protocols and other networking features, it's a big expanse of code for AI/LLM agents to analyze and c",
+        "title": "OpenAI Blocks 15,000 Requests Trying to Extract Protected Model Reasoning",
+        "date": "Fri, 02 Oct 2026 11:06:23 +0000",
+        "url": "https://gbhackers.com/openai-blocks-15000-requests/",
+        "source": "GBHackers",
+        "summary": "OpenAI has disrupted a coordinated campaign to extract protected internal reasoning from its AI models on a large scale. The company took action against activity linked to more than 15,000 user accoun",
         "cve": []
     },
     {
-        "title": "Qt Creator 21 IDE Beta Enables More AI Functionality By Default",
-        "date": "Thu, 01 Oct 2026 10:10:01 -0400",
-        "url": "https://www.phoronix.com/news/Qt-Creator-21-Beta",
-        "source": "Phoronix",
-        "summary": "Following yesterday's release of the Qt 6.12 LTS toolkit, The Qt Group today released Qt Creator 21 in beta form as the latest version of their integrated development environment focused on C/C++ as w",
+        "title": "Hackers Are Turning Trusted Software Updates Into Credential-Stealing Malware",
+        "date": "Fri, 02 Oct 2026 10:55:57 +0000",
+        "url": "https://gbhackers.com/credential-stealing-malware/",
+        "source": "GBHackers",
+        "summary": "A growing wave of supply-chain attacks is proving the opposite: attackers are compromising legitimate open-source packages and using trusted update channels to deploy credential-stealing malware direc",
         "cve": []
     },
     {
-        "title": "AMD RMPOPT Optimization Queued Ahead Of Linux 7.4",
-        "date": "Thu, 01 Oct 2026 08:52:00 -0400",
-        "url": "https://www.phoronix.com/news/AMD-RMPOPT-For-Linux-7.4",
-        "source": "Phoronix",
-        "summary": "In addition to the very nice AMDGPU IOMMU optimization for iGPUs set to debut in the Linux 7.4 kernel, over on the AMD EPYC server side for servers running SEV-SNP virtual machines is a separate, nice",
+        "title": "TIKTOUK WordPress Toolkit Could Enable AWS, SMTP and API Credential Theft Attacks",
+        "date": "Fri, 02 Oct 2026 10:12:29 +0000",
+        "url": "https://gbhackers.com/tiktouk-wordpress-toolkit/",
+        "source": "GBHackers",
+        "summary": "A credential-collection toolkit dubbed TIKTOUK that combines WordPress reconnaissance, exposed-file harvesting, plugin credential decryption, and JavaScript secret scanning. The toolkit consists of tw",
         "cve": []
     },
     {
-        "title": "Clearing Out Linux's Old 32-bit ARM Platform Code Is Itself A Challenge",
-        "date": "Thu, 01 Oct 2026 08:04:18 -0400",
-        "url": "https://www.phoronix.com/news/Clearing-Old-ARM-Code-Challenge",
-        "source": "Phoronix",
-        "summary": "Longtime ARM Linux maintainer Arnd Bergmann over the past year has been working to clear out a number of old ARM platforms from the mainline kernel tree. With Linux 7.3 many older 32-bit ARM platforms",
+        "title": "Authentication Bypass Successfully Impersonated 95 Users Without Passwords or MFA",
+        "date": "Fri, 02 Oct 2026 09:46:41 +0000",
+        "url": "https://gbhackers.com/passwordless-impersonation/",
+        "source": "GBHackers",
+        "summary": "A critical authentication bypass that enabled the impersonation of 95 employee accounts, including privileged users, without passwords, multi-factor authentication (MFA), or valid Microsoft Entra ID t",
         "cve": []
     }
 ]
