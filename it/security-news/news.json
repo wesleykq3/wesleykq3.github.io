@@ -1,5 +1,29 @@
 [
     {
+        "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+        "date": "Thu, 01 Oct 2026 18:42:49 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulner",
+        "cve": []
+    },
+    {
+        "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+        "date": "Thu, 01 Oct 2026 16:52:50 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+        "source": "BleepingComputer",
+        "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft says threat actors are ahead in the early AI race",
+        "date": "Thu, 01 Oct 2026 15:32:47 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-com",
+        "cve": []
+    },
+    {
         "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
         "date": "Thu, 01 Oct 2026 10:25:14 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
@@ -53,30 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
         "source": "BleepingComputer",
         "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
-        "cve": []
-    },
-    {
-        "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
-        "date": "Wed, 30 Sep 2026 15:49:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
-        "source": "BleepingComputer",
-        "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing syste",
-        "cve": []
-    },
-    {
-        "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
-        "date": "Wed, 30 Sep 2026 14:08:34 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
-        "source": "BleepingComputer",
-        "summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
-        "cve": []
-    },
-    {
-        "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
-        "date": "Wed, 30 Sep 2026 11:49:29 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service c",
         "cve": []
     },
     {
@@ -160,86 +160,6 @@
         "cve": []
     },
     {
-        "title": "FTC Investigating OpenAI, Anthropic and Other AI Models Over Potential Risks to Customers",
-        "date": "Thu, 01 Oct 2026 17:09:56 +0000",
-        "url": "https://cybersecuritynews.com/ftc-investigating-ai-models/",
-        "source": "CyberSecurityNews",
-        "summary": "The Federal Trade Commission has opened an investigation into OpenAI, Anthropic and other artificial intelligence companies over potential risks their products pose to customers. An agency spokesperso",
-        "cve": []
-    },
-    {
-        "title": "Hackers Built a Windows Backdoor Whose Entire C2 Lives Inside Microsoft 365",
-        "date": "Thu, 01 Oct 2026 16:06:14 +0000",
-        "url": "https://cybersecuritynews.com/hackers-built-a-windows-backdoor/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers have built a Windows backdoor that uses Microsoft 365 for all its native command and control communications. Named Antino, the malware turns Outlook messages and OneDrive files into channels f",
-        "cve": []
-    },
-    {
-        "title": "16-year-old Alleged KillSec Ransomware Group Leader Arrested, Servers Dismantled",
-        "date": "Thu, 01 Oct 2026 15:30:20 +0000",
-        "url": "https://cybersecuritynews.com/16-year-old-leader-killsec-ransomware/",
-        "source": "CyberSecurityNews",
-        "summary": "Authorities have identified a 16-year-old as the suspected main operator of the KillSec ransomware group after an international law-enforcement operation disrupted the group’s infrastructure and led t",
-        "cve": []
-    },
-    {
-        "title": "Fake Zoom Installer Tricks Mac Users Into Installing New CloudSyncD Backdoor",
-        "date": "Thu, 01 Oct 2026 15:07:15 +0000",
-        "url": "https://cybersecuritynews.com/fake-zoom-installer-tricks/",
-        "source": "CyberSecurityNews",
-        "summary": "A fake Zoom installer is tricking Mac users into handing over their login passwords and launching CloudSyncD, a newly identified backdoor. The malware hides inside an application that looks familiar, ",
-        "cve": []
-    },
-    {
-        "title": "Chinese Hackers Posing as Senior Anthropic Employee Targeting US AI Policy Experts",
-        "date": "Thu, 01 Oct 2026 14:44:06 +0000",
-        "url": "https://cybersecuritynews.com/chinese-hackers-posing-as-anthropic-employee/",
-        "source": "CyberSecurityNews",
-        "summary": "A China-aligned hacking group tracked as TA419 has impersonated a senior Anthropic employee and well-known policy figures to target US artificial intelligence experts. Proofpoint linked the activity t",
-        "cve": []
-    },
-    {
-        "title": "Warlock Ransomware Exploiting SharePoint Flaws to Attack Water and Telecom Operators",
-        "date": "Thu, 01 Oct 2026 14:14:26 +0000",
-        "url": "https://cybersecuritynews.com/warlock-ransomware-exploiting-sharepoint-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "A China-nexus threat actor is continuing to exploit Microsoft SharePoint Server vulnerabilities to deploy Warlock ransomware, with recent attacks striking essential-service and public-sector organizat",
-        "cve": []
-    },
-    {
-        "title": "WordPress Malware Comes Back After Removal Using a Self-Healing Backdoor",
-        "date": "Thu, 01 Oct 2026 13:45:15 +0000",
-        "url": "https://cybersecuritynews.com/wordpress-malware-2/",
-        "source": "CyberSecurityNews",
-        "summary": "A WordPress backdoor is bringing deleted malware back within seconds, turning routine cleanup into a cycle of reinfection. Called SC, the infection spreads its working parts across website files, the ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Enables Windows 11 Backup Setting by Default for Organizations",
-        "date": "Thu, 01 Oct 2026 13:20:06 +0000",
-        "url": "https://cybersecuritynews.com/windows-11-backup-setting-by-default/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft has enabled Windows settings backup by default for eligible devices running Windows 11, version 26H2, turning an opt-in function into a baseline resilience capability. The change, generally ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Abuse Microsoft Defender Exclusions to Hide Malware From Antivirus Scans",
-        "date": "Thu, 01 Oct 2026 13:15:26 +0000",
-        "url": "https://cybersecuritynews.com/hackers-abuse-microsoft-defender/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are abusing Microsoft Defender Antivirus exclusions to keep malicious files outside routine security scans. Rather than switching protection off completely, attackers can leave antivirus runni",
-        "cve": []
-    },
-    {
-        "title": "Node.js ImageResponse Implementation Vulnerability Enables Remote Code Execution",
-        "date": "Thu, 01 Oct 2026 12:59:58 +0000",
-        "url": "https://cybersecuritynews.com/node-js-imageresponse-implementation-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical vulnerability in Next.js could allow remote code execution in applications that use the Node.js implementation of ImageResponse from the next/og package. The issue, tracked as GHSA-vcvr-r3j",
-        "cve": []
-    },
-    {
         "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
         "date": "Mon, 28 Sep 2026 15:08:57 +0000",
         "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "TerminalFix Attacks Deploy Lorem Ipsum Loader to Create Covert Tunnels Into Corporate Networks",
-        "date": "Thu, 01 Oct 2026 13:09:45 +0000",
-        "url": "https://gbhackers.com/terminalfix-attacks/",
-        "source": "GBHackers",
-        "summary": "A newly tracked intrusion set, STAC4924, is using TerminalFix social-engineering lures to deploy the Lorem Ipsum Loader and establish covert reverse tunnels into enterprise environments. The activity ",
+        "title": "Siemens Slams The Door Shut On Promising Open-Source Radioss Project",
+        "date": "Thu, 01 Oct 2026 21:00:31 -0400",
+        "url": "https://www.phoronix.com/news/Siemens-Ends-OpenRadioss",
+        "source": "Phoronix",
+        "summary": "As a major disappointment to the open-source community, Siemens has decided to end -- and close-up access -- to the OpenRadioss project as the open-source version opened up by Altair Engineering under",
         "cve": []
     },
     {
-        "title": "Next.js ImageResponse Vulnerability Lets Remote Attackers Execute Code Through SVG Content",
-        "date": "Thu, 01 Oct 2026 13:08:22 +0000",
-        "url": "https://gbhackers.com/next-js-imageresponse-vulnerability/",
-        "source": "GBHackers",
-        "summary": "A critical vulnerability in Next.js could let unauthenticated remote attackers execute code on affected servers by supplying crafted input that gets rendered into SVG content during dynamic image gene",
+        "title": "Steam On Linux Dives Down To 3.05% For September",
+        "date": "Thu, 01 Oct 2026 20:18:56 -0400",
+        "url": "https://www.phoronix.com/news/Steam-Survey-September-2025",
+        "source": "Phoronix",
+        "summary": "Steam on Linux use in March hit an all-time high of around 5.33% marketshare. Since then it pulled back to around 4% while for September 2026 the Steam Survey results are now in and it's clocking in j",
         "cve": []
     },
     {
-        "title": "Axios Flaws Let Attackers Bypass Proxy Controls and Trigger SSRF Attacks",
-        "date": "Thu, 01 Oct 2026 11:46:00 +0000",
-        "url": "https://gbhackers.com/axios-flaws-let-attackers-bypass-proxy-controls-and-trigger-ssrf-attacks/",
-        "source": "GBHackers",
-        "summary": "Axios maintainers have disclosed several high-severity security vulnerabilities that could allow attackers to bypass proxy and DNS controls in server-side applications, potentially enabling server-sid",
+        "title": "Fedora 45 Beta Performance: The Satisfyingly Boring Benchmarks",
+        "date": "Thu, 01 Oct 2026 16:57:58 -0400",
+        "url": "https://www.phoronix.com/review/fedora-45-beta-benchmarks",
+        "source": "Phoronix",
+        "summary": "While there have been a number of Ubuntu 26.10 development benchmarks in recent weeks and more on the way, some Phoronix readers have asked about the lack of any early Fedora 45 tests given its recent",
         "cve": []
     },
     {
-        "title": "China-Nexus Hackers Compromise 350 Systems Across Asia With New Antino Backdoor",
-        "date": "Thu, 01 Oct 2026 11:44:45 +0000",
-        "url": "https://gbhackers.com/antino-backdoor/",
-        "source": "GBHackers",
-        "summary": "A China-nexus cyber-espionage campaign that compromised approximately 350 endpoints across Asia using a previously undocumented Rust-based Windows backdoor called Antino. The activity cluster, tracked",
+        "title": "Mesa Drops Its Poorly Maintained & Rarely Used Direct3D 10 User-Mode Driver",
+        "date": "Thu, 01 Oct 2026 16:00:08 -0400",
+        "url": "https://www.phoronix.com/news/Mesa-Drops-Direct3D-10-UMD",
+        "source": "Phoronix",
+        "summary": "Back in 2021 the Direct3D 10 User-Mode Driver \"d3d10umd\" was introduced as a new Gallium3D state tracker to work as a Windows WDDM UMD driver similar to Windows WARP while leveraging LLVMpipe for bett",
         "cve": []
     },
     {
-        "title": "Multiple TeamViewer Vulnerabilities Enable RCE, Access Control Bypass and Privilege Escalation",
-        "date": "Thu, 01 Oct 2026 11:08:39 +0000",
-        "url": "https://gbhackers.com/multiple-teamviewer-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "TeamViewer has issued security bulletin TV-2026-1010 to address five high-severity vulnerabilities found in the TeamViewer Full Client, Host, and related services. These vulnerabilities affect deploym",
+        "title": "Ubuntu 26.10 Beta Released With Linux 7.3 Kernel, GNOME 51 Desktop",
+        "date": "Thu, 01 Oct 2026 15:26:05 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Beta-Released",
+        "source": "Phoronix",
+        "summary": "Ubuntu 26.10 beta is now available for the official Ubuntu editions as well as the various community flavors...",
         "cve": []
     },
     {
-        "title": "CloudSyncD Uses Invisible Unicode to Hide Phished Mac Passwords in Plain Sight",
-        "date": "Thu, 01 Oct 2026 11:06:06 +0000",
-        "url": "https://gbhackers.com/cloudsyncd-backdoor/",
-        "source": "GBHackers",
-        "summary": "A new macOS backdoor, tracked as CloudSyncD, that masquerades as a Zoom installer and uses invisible Unicode characters to conceal a victim’s phished password inside a seemingly harmless configuration",
+        "title": "Nearing A 10 Second Kernel Build, Xeon 600 & Other September Excitement On Phoronix",
+        "date": "Thu, 01 Oct 2026 13:07:48 -0400",
+        "url": "https://www.phoronix.com/news/September-2026-Highlights",
+        "source": "Phoronix",
+        "summary": "During the past month on Phoronix were 284 original news articles and another 19 featured Linux hardware reviews/multi-page benchmark articles. A lot of exciting happenings both on the hardware and so",
         "cve": []
     },
     {
-        "title": "Researchers Find 543,699 Active Credentials Leaked in Public GitHub Repos",
-        "date": "Thu, 01 Oct 2026 10:32:59 +0000",
-        "url": "https://gbhackers.com/active-credentials-leaked-in-public-github-repos/",
-        "source": "GBHackers",
-        "summary": "Security researchers have identified 543,699 unique credentials that remain valid despite being exposed in public GitHub repositories. This highlights a persistent failure to revoke secrets once they ",
+        "title": "Some Networking Fixes Being Diverted To Linux 7.4, AI/LLM Activity Still Increasing",
+        "date": "Thu, 01 Oct 2026 12:24:40 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Networking-Linux-7.3-rc6",
+        "source": "Phoronix",
+        "summary": "With the vast array of wired and wireless networking drivers within the Linux kernel and range of protocols and other networking features, it's a big expanse of code for AI/LLM agents to analyze and c",
         "cve": []
     },
     {
-        "title": "SC WordPress Malware Rebuilds Itself After Removal Using Database and Memory Persistence",
-        "date": "Thu, 01 Oct 2026 09:08:14 +0000",
-        "url": "https://gbhackers.com/sc-wordpress-malware/",
-        "source": "GBHackers",
-        "summary": "A newly analyzed WordPress malware family, tracked as SC for the “SC_” markers embedded in its injected code, uses a self-healing persistence mesh that can restore a deleted backdoor within seconds. R",
+        "title": "Qt Creator 21 IDE Beta Enables More AI Functionality By Default",
+        "date": "Thu, 01 Oct 2026 10:10:01 -0400",
+        "url": "https://www.phoronix.com/news/Qt-Creator-21-Beta",
+        "source": "Phoronix",
+        "summary": "Following yesterday's release of the Qt 6.12 LTS toolkit, The Qt Group today released Qt Creator 21 in beta form as the latest version of their integrated development environment focused on C/C++ as w",
         "cve": []
     },
     {
-        "title": "HPE Instant On AP Flaws Let Unauthenticated Attackers Execute Arbitrary Commands",
-        "date": "Thu, 01 Oct 2026 08:01:59 +0000",
-        "url": "https://gbhackers.com/hpe-instant-on-ap-flaws/",
-        "source": "GBHackers",
-        "summary": "HPE has released security updates for its Networking Instant On access points after identifying 18 vulnerabilities, including several critical flaws that could allow unauthenticated attackers to execu",
+        "title": "AMD RMPOPT Optimization Queued Ahead Of Linux 7.4",
+        "date": "Thu, 01 Oct 2026 08:52:00 -0400",
+        "url": "https://www.phoronix.com/news/AMD-RMPOPT-For-Linux-7.4",
+        "source": "Phoronix",
+        "summary": "In addition to the very nice AMDGPU IOMMU optimization for iGPUs set to debut in the Linux 7.4 kernel, over on the AMD EPYC server side for servers running SEV-SNP virtual machines is a separate, nice",
         "cve": []
     },
     {
-        "title": "Multiple ModSecurity Vulnerabilities Let Attackers Bypass WAF Rules and Execute Malicious Requests",
-        "date": "Thu, 01 Oct 2026 07:54:51 +0000",
-        "url": "https://gbhackers.com/multiple-modsecurity-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "OWASP ModSecurity has disclosed multiple vulnerabilities that could let attackers bypass web application firewall rules, evade request and response inspection, or trigger denial-of-service conditions.",
+        "title": "Clearing Out Linux's Old 32-bit ARM Platform Code Is Itself A Challenge",
+        "date": "Thu, 01 Oct 2026 08:04:18 -0400",
+        "url": "https://www.phoronix.com/news/Clearing-Old-ARM-Code-Challenge",
+        "source": "Phoronix",
+        "summary": "Longtime ARM Linux maintainer Arnd Bergmann over the past year has been working to clear out a number of old ARM platforms from the mainline kernel tree. With Linux 7.3 many older 32-bit ARM platforms",
         "cve": []
     }
 ]
