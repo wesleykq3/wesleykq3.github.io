@@ -1,5 +1,21 @@
 [
     {
+        "title": "Frontline Education breach exposes school district employee data",
+        "date": "Fri, 02 Oct 2026 15:01:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+        "source": "BleepingComputer",
+        "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee infor",
+        "cve": []
+    },
+    {
+        "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+        "date": "Fri, 02 Oct 2026 14:33:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+        "source": "BleepingComputer",
+        "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [.",
+        "cve": []
+    },
+    {
         "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
         "date": "Fri, 02 Oct 2026 12:20:05 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
@@ -64,19 +80,27 @@
         "cve": []
     },
     {
-        "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
-        "date": "Thu, 01 Oct 2026 10:25:14 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
-        "source": "BleepingComputer",
-        "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the grou",
+        "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+        "date": "Fri, 02 Oct 2026 23:03:31 +0530",
+        "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+        "source": "The Hacker News",
+        "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory.\n\nThe gateway is ",
         "cve": []
     },
     {
-        "title": "The Day-One Hole in Zero Trust Architecture",
-        "date": "Thu, 01 Oct 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
-        "source": "BleepingComputer",
-        "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity veri",
+        "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+        "date": "Fri, 02 Oct 2026 23:03:16 +0530",
+        "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+        "source": "The Hacker News",
+        "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor.\n\nThe activity, which has targeted government and policy organizatio",
+        "cve": []
+    },
+    {
+        "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+        "date": "Fri, 02 Oct 2026 22:32:12 +0530",
+        "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+        "source": "The Hacker News",
+        "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems.\n\nThe vuln",
         "cve": []
     },
     {
@@ -136,27 +160,11 @@
         "cve": []
     },
     {
-        "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
-        "date": "Thu, 01 Oct 2026 17:15:00 +0530",
-        "url": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
-        "source": "The Hacker News",
-        "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to up",
-        "cve": []
-    },
-    {
-        "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-        "date": "Thu, 01 Oct 2026 16:12:36 +0530",
-        "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
-        "source": "The Hacker News",
-        "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.\n\nA \"co",
-        "cve": []
-    },
-    {
-        "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-        "date": "Thu, 01 Oct 2026 16:03:16 +0530",
-        "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities",
+        "title": "Debian has Patched 1,313 Flaws in Massive Update Leading to DoS and Privilege Escalation Attacks",
+        "date": "Sat, 03 Oct 2026 02:23:53 +0000",
+        "url": "https://cybersecuritynews.com/debian-1313-security-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Debian has released a major Linux kernel security update covering 1,313 CVE entries, addressing flaws that could allow privilege escalation, denial of service, and information leaks. The fixes are ava",
         "cve": []
     },
     {
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/ps5-security-update/",
         "source": "CyberSecurityNews",
         "summary": "Sony has moved to protect PlayStation 5 consoles with its latest system software update, as the newly released Relapse jailbreak draws attention to a broad set of older PS5 firmware versions. The upda",
-        "cve": []
-    },
-    {
-        "title": "Session Cookie Vulnerability Lets Attackers Bypass Entra ID MFA and Impersonate Users",
-        "date": "Fri, 02 Oct 2026 11:24:01 +0000",
-        "url": "https://cybersecuritynews.com/session-cookie-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A flaw in a custom session-cookie system allowed an unauthenticated attacker to pose as employees and administrators in a yard management platform. The issue did not break Microsoft Entra ID itself. I",
         "cve": []
     },
     {
