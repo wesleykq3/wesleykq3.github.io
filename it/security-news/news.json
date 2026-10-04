@@ -1,5 +1,13 @@
 [
     {
+        "title": "Anthropic asks Claude users to share voice data for AI model training",
+        "date": "Sun, 04 Oct 2026 06:53:21 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+        "source": "BleepingComputer",
+        "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
+        "cve": []
+    },
+    {
         "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
         "date": "Sat, 03 Oct 2026 19:12:34 -0400",
         "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
@@ -72,11 +80,19 @@
         "cve": []
     },
     {
-        "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
-        "date": "Fri, 02 Oct 2026 05:29:56 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
-        "source": "BleepingComputer",
-        "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
+        "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+        "date": "Sun, 04 Oct 2026 12:52:05 +0530",
+        "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+        "source": "The Hacker News",
+        "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar",
+        "cve": []
+    },
+    {
+        "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+        "date": "Sun, 04 Oct 2026 12:50:32 +0530",
+        "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+        "source": "The Hacker News",
+        "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, univer",
         "cve": []
     },
     {
@@ -144,19 +160,83 @@
         "cve": []
     },
     {
-        "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-        "date": "Fri, 02 Oct 2026 13:31:30 +0530",
-        "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
-        "source": "The Hacker News",
-        "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.\n\nWith",
+        "title": "South Korean President Orders Full Security Checks After Financial Sector Hacks",
+        "date": "Sun, 04 Oct 2026 11:11:14 +0000",
+        "url": "https://cybersecuritynews.com/south-korean-president-orders-full-security-checks/",
+        "source": "CyberSecurityNews",
+        "summary": "South Korean President Lee Jae Myung ordered a thorough investigation on October 4, 2026, after a series of financial sector data breaches exposed customer and worker information. The order comes as i",
         "cve": []
     },
     {
-        "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-        "date": "Fri, 02 Oct 2026 11:19:50 +0530",
-        "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, followi",
+        "title": "Vercel Confirms KVM Zero-Day VM Escape, Awards Researcher $50,000",
+        "date": "Sun, 04 Oct 2026 02:05:48 +0000",
+        "url": "https://cybersecuritynews.com/kvm-zero-day-vm-escape/",
+        "source": "CyberSecurityNews",
+        "summary": "Vercel has confirmed a KVM zero-day vulnerability after security researcher Paulos Yibelo reported a full virtual machine escape that, he says, allows code inside a guest to gain root access on the ho",
+        "cve": []
+    },
+    {
+        "title": "ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers",
+        "date": "Sat, 03 Oct 2026 17:21:44 +0000",
+        "url": "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi/",
+        "source": "CyberSecurityNews",
+        "summary": "A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group. Reuters reported on October 3 that three people familiar with ",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Pushes New Exchange V2 Update After Discovering New Security Flaw",
+        "date": "Sat, 03 Oct 2026 14:59:30 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has released September 2026 V2 security updates to fix an Exchange Server flaw that lets authenticated attackers access other users’ mailboxes within the same organization. Tracked as CVE-20",
+        "cve": []
+    },
+    {
+        "title": "Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks",
+        "date": "Sat, 03 Oct 2026 04:11:34 +0000",
+        "url": "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "GitLab has released urgent security updates for a critical AI Gateway vulnerability that could allow authenticated attackers to execute commands remotely. Tracked as CVE-2026-90970, the flaw carries a",
+        "cve": []
+    },
+    {
+        "title": "Critical Dell Container Storage Flaws Let Unauthenticated Attackers Gain Full Administrative Control",
+        "date": "Sat, 03 Oct 2026 03:52:58 +0000",
+        "url": "https://cybersecuritynews.com/critical-dell-container-storage-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Dell has released security update DSA-2026-448 to address multiple critical vulnerabilities in its Container Storage Modules, including flaws that could allow unauthenticated remote attackers to take ",
+        "cve": []
+    },
+    {
+        "title": "Citrix NetScaler Keeps Rebooting Following the 0-Day Patch",
+        "date": "Sat, 03 Oct 2026 02:41:43 +0000",
+        "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-patch/",
+        "source": "CyberSecurityNews",
+        "summary": "Citrix NetScaler customers are reporting repeated appliance reboots after installing build 14.1-73.37, the emergency update released for two zero-day flaws under active attack. The failures appear lin",
+        "cve": []
+    },
+    {
+        "title": "Debian has Patched 1,313 Flaws in Massive Update Leading to DoS and Privilege Escalation Attacks",
+        "date": "Sat, 03 Oct 2026 02:23:53 +0000",
+        "url": "https://cybersecuritynews.com/debian-1313-security-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Debian has released a major Linux kernel security update covering 1,313 CVE entries, addressing flaws that could allow privilege escalation, denial of service, and information leaks. The fixes are ava",
+        "cve": []
+    },
+    {
+        "title": "Rethinking automotive cyber risk for the age of accelerated vulnerability discovery",
+        "date": "Fri, 02 Oct 2026 14:15:42 +0000",
+        "url": "https://cybersecuritynews.com/rethinking-automotive-cyber-risk-for-the-age-of-accelerated-vulnerability-discovery/",
+        "source": "CyberSecurityNews",
+        "summary": "By Tamás Pentz, Head of Threat Intelligence, PCA Cyber Security&#160; Automotive cybersecurity has traditionally focused on putting controls into vehicles that counter the ways criminals could physica",
+        "cve": []
+    },
+    {
+        "title": "Hackers Turned a Microsoft SQL Server Into a Command and Data Exfiltration Channel",
+        "date": "Fri, 02 Oct 2026 14:04:21 +0000",
+        "url": "https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers turned a Microsoft SQL Server into a channel for running commands and moving collected files in an intrusion linked to a Viva Aerobus environment. Their own publicly accessible server then exp",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Arm Working On \"TLBID\" For Linux To Increase Performance On High Core Count CPUs",
-        "date": "Sat, 03 Oct 2026 20:10:09 -0400",
-        "url": "https://www.phoronix.com/news/ARM64-Linux-TLBI-Domains",
-        "source": "Phoronix",
-        "summary": "Arm sent out an initial set of patches this week working on support in the Linux kernel for TLBI Domains. This \"TLBID\" feature is an upcoming Arm architecture capability designed to increase performan",
+        "title": "Cling Malware Masquerades as Google STUN Traffic to Control Compromised IoT Devices",
+        "date": "Sat, 03 Oct 2026 07:48:49 +0000",
+        "url": "https://gbhackers.com/cling-malware-masquerades-as-google-stun-traffic/",
+        "source": "GBHackers",
+        "summary": "A newly identified IoT botnet, Cling, disguises its command-and-control communications as legitimate STUN traffic, including packets that appear to originate from Google’s public STUN infrastructure. ",
         "cve": []
     },
     {
-        "title": "The Amazing Work By Valve's Timur Kristóf On Improving Old AMD GPUs On Linux",
-        "date": "Sat, 03 Oct 2026 14:56:28 -0400",
-        "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-        "source": "Phoronix",
-        "summary": "Over the past year Timur Kristóf of Valve's Linux graphics driver team has made multiple very nice improvements to the AMDGPU kernel driver for enhancing support for old (GCN 1.0/1.1 era from a decade",
+        "title": "Microsoft Warns ClickFix Attacks Use Fake CAPTCHA Lures to Execute Malicious Commands",
+        "date": "Sat, 03 Oct 2026 06:27:23 +0000",
+        "url": "https://gbhackers.com/microsoft-warns-clickfix-attacks-use-fake-captcha/",
+        "source": "GBHackers",
+        "summary": "Microsoft Threat Intelligence has identified a ClickFix campaign in which compromised websites use fake CAPTCHA-style verification prompts to trick Windows users into executing malicious commands. The",
         "cve": []
     },
     {
-        "title": "Linux Patches Show Promising Results For Lower Latency Of Short Slice Tasks",
-        "date": "Sat, 03 Oct 2026 13:25:38 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Latency-Short-Slice-Tasks",
-        "source": "Phoronix",
-        "summary": "Linaro engineer Vincent Guittot sent out a set of patches on Friday working on scheduling latency improvements, especially when multiple short slice tasks are running concurrently on the same system..",
+        "title": "Critical GitLab AI Gateway Flaw Lets Attackers Execute Arbitrary Commands",
+        "date": "Sat, 03 Oct 2026 06:14:55 +0000",
+        "url": "https://gbhackers.com/critical-gitlab-ai-gateway-flaw/",
+        "source": "GBHackers",
+        "summary": "GitLab has issued emergency security updates for a critical vulnerability in its Self-Hosted AI Gateway that could allow authenticated attackers to execute arbitrary commands on vulnerable AI Gateway ",
         "cve": []
     },
     {
-        "title": "Moose: GNOME Gains Another Local AI App Option",
-        "date": "Sat, 03 Oct 2026 07:47:01 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-Moose-Local-AI",
-        "source": "Phoronix",
-        "summary": "Beyond the various local AI agent/chat options not catering to a specific desktop environment, the GNOME desktop has seen Newelle as an AI app catering to GNOME/GTK4. There's now another local AI opti",
+        "title": "AWS AI Agent Vulnerabilities Let Attackers Bypass Authentication and Steal Credentials",
+        "date": "Sat, 03 Oct 2026 06:04:52 +0000",
+        "url": "https://gbhackers.com/aws-ai-agent-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "AWS has released security fixes for four vulnerabilities affecting its open-source Loom AI agent orchestration platform and Amazon SageMaker Unified Studio. The flaws could allow attackers to bypass a",
         "cve": []
     },
     {
-        "title": "KosmicKrisp Now Conformant To Vulkan 1.4, Improving Performance Against Apple's Metal",
-        "date": "Sat, 03 Oct 2026 07:24:07 -0400",
-        "url": "https://www.phoronix.com/news/KosmicKrisp-Vulkan-1.4-2026",
-        "source": "Phoronix",
-        "summary": "KosmicKrisp is the effort led by LunarG for developing a modern Vulkan-on-Metal driver for Apple systems within Mesa. This modern alternative to MoltenVK continues progressing well and now enjoys Vulk",
+        "title": "Citrix NetScaler Appliances Reboot Repeatedly After 0-Day Security Update",
+        "date": "Sat, 03 Oct 2026 05:51:55 +0000",
+        "url": "https://gbhackers.com/citrix-netscaler-appliances-reboot/",
+        "source": "GBHackers",
+        "summary": "Citrix NetScaler administrators report repeated appliance crashes and forced reboots after deploying emergency updates for recently disclosed zero-day vulnerabilities, with the disruption now linked t",
         "cve": []
     },
     {
-        "title": "Linux 7.4 To Support The Raspberry Pi 10-Inch Touch Display 2",
-        "date": "Sat, 03 Oct 2026 06:33:10 -0400",
-        "url": "https://www.phoronix.com/news/Linux-74-RPi-10-Touch-Display-2",
-        "source": "Phoronix",
-        "summary": "We are nearing the cut-off of new feature material being accepted to DRM-Next ahead of the Linux 7.4 merge window. But this week another round of DRM-Misc changes made it, which included some new hard",
+        "title": "Sony PS5 Relapse Jailbreak Exploit Uses JSC Memory Corruption and Kernel UAF",
+        "date": "Fri, 02 Oct 2026 13:40:08 +0000",
+        "url": "https://gbhackers.com/sony-ps5-relapse-jailbreak-exploit-uses/",
+        "source": "GBHackers",
+        "summary": "A newly released PlayStation 5 jailbreak chain, called Relapse, targets PS5 and PS5 Pro consoles running firmware versions 7.00 through 13.60. This jailbreak combines a browser-based JavaScriptCore me",
         "cve": []
     },
     {
-        "title": "Linux 7.3 To Better Support The High-End Turtle Beach VelocityOne Race",
-        "date": "Sat, 03 Oct 2026 06:18:05 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-TB-VelocityOne-Race",
-        "source": "Phoronix",
-        "summary": "Coming with Sunday's Linux 7.3-rc6 kernel release is support added for the Turtle Beach VelocityOne Race, a high-end $649~700 USD racing wheel and pedal system...",
+        "title": "Zammad Vulnerabilities Let Attackers Execute Code and Escalate Privileges to Root",
+        "date": "Fri, 02 Oct 2026 12:44:08 +0000",
+        "url": "https://gbhackers.com/zammad-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Two critical vulnerabilities in the open-source Zammad helpdesk and ticketing platform can be exploited together, enabling attackers to achieve remote code execution and gain root-level control of aff",
         "cve": []
     },
     {
-        "title": "KDE Plasma 6.8 Now Makes Tiled Windows Fit Together More Nicely",
-        "date": "Sat, 03 Oct 2026 06:07:10 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Plasma-6.8-Tiled-Windows",
-        "source": "Phoronix",
-        "summary": "There is just over one week to go until the much anticipated KDE Plasma 6.8 desktop release. Some last minute fixes continue flowing into Plasma 6.8 as well as early feature work continuing for Plasma",
+        "title": "Safari History Database Tags Can Reveal Users’ Browsing Themes in Forensic Investigations",
+        "date": "Fri, 02 Oct 2026 12:35:11 +0000",
+        "url": "https://gbhackers.com/safari-history-database-tags-can-reveal-users-browsing-themes/",
+        "source": "GBHackers",
+        "summary": "Safari&#8217;s History database contains a lesser-known tagging artifact that can help investigators infer a user’s browsing themes. While this feature is not definitive evidence of intent, when corre",
         "cve": []
     },
     {
-        "title": "Wine 11.19 Released With Wayland Color Management For Vulkan, DNS Query Caching",
-        "date": "Fri, 02 Oct 2026 20:29:10 -0400",
-        "url": "https://www.phoronix.com/news/Wine-11.19-Released",
-        "source": "Phoronix",
-        "summary": "We are nearing the point of the Wine 12.0 stable release coming up in early 2027 while for now the Wine 11.xx bi-weekly development releases continue. Out today is Wine 11.19 with a few new features a",
+        "title": "Exposed Hacker Server Reveals Toolkit Used in Viva Aerobus-Linked Intrusion",
+        "date": "Fri, 02 Oct 2026 11:55:20 +0000",
+        "url": "https://gbhackers.com/viva-aerobus-intrusion/",
+        "source": "GBHackers",
+        "summary": "A publicly exposed attacker staging server has provided a rare, detailed view of a Microsoft SQL Server-focused intrusion linked to a Viva Aerobus-side environment. The server, hosted at 151.243.232.1",
         "cve": []
     },
     {
-        "title": "Linux 7.4 To Introduce Initial Device Trees For Apple M4, A18 Pro For MacBook Neo",
-        "date": "Fri, 02 Oct 2026 16:32:41 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-Apple-Device-Trees",
-        "source": "Phoronix",
-        "summary": "Asahi Linux developer Sven Peter today sent out the pull requests of the Apple SoC Device Tree changes they are ready to upstream for the Linux 7.4 merge window happening later this month. Most notabl",
+        "title": "Multiple cPanel & WHM Vulnerabilities Enable Root Code Execution and Admin Session Hijacking",
+        "date": "Fri, 02 Oct 2026 11:26:54 +0000",
+        "url": "https://gbhackers.com/multiple-cpanel-whm-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "cPanel has released security updates to address three vulnerabilities in cPanel &#38; WHM that could allow attackers to hijack WHM administrator sessions or execute commands as the root user. Organiza",
         "cve": []
     }
 ]
