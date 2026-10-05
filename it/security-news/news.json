@@ -1,5 +1,13 @@
 [
     {
+        "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+        "date": "Sun, 04 Oct 2026 17:58:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether ",
+        "cve": []
+    },
+    {
         "title": "Anthropic asks Claude users to share voice data for AI model training",
         "date": "Sun, 04 Oct 2026 06:53:21 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
         "source": "BleepingComputer",
         "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpo",
-        "cve": []
-    },
-    {
-        "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
-        "date": "Fri, 02 Oct 2026 08:37:40 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
-        "source": "BleepingComputer",
-        "summary": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to Kubernetes environments. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,22 @@
         "cve": []
     },
     {
+        "title": "Citrix NetScaler SAML 0-Day Vulnerability Actively Exploited in Attacks",
+        "date": "Mon, 05 Oct 2026 01:49:27 +0000",
+        "url": "https://cybersecuritynews.com/citrix-netscaler-saml-0-day-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Citrix has released emergency security updates for a NetScaler SAML zero-day vulnerability that attackers are actively exploiting. Tracked as CVE-2026-88779, the flaw affects customer-managed NetScale",
+        "cve": []
+    },
+    {
+        "title": "Cybersecurity Newsletter Bulletin – Pentagon Data Breach, Citrix, Fortimail and Apple 0-days and 20+ stories",
+        "date": "Mon, 05 Oct 2026 01:28:08 +0000",
+        "url": "https://cybersecuritynews.com/cybersecurity-newsletter-weekly-october-2/",
+        "source": "CyberSecurityNews",
+        "summary": "This week’s security newsletter was dominated by a Pentagon personnel data breach affecting more than three million people, actively exploited zero-days in Apple CoreGraphics and Fortinet FortiMail, a",
+        "cve": []
+    },
+    {
         "title": "South Korean President Orders Full Security Checks After Financial Sector Hacks",
         "date": "Sun, 04 Oct 2026 11:11:14 +0000",
         "url": "https://cybersecuritynews.com/south-korean-president-orders-full-security-checks/",
@@ -221,22 +237,6 @@
         "url": "https://cybersecuritynews.com/debian-1313-security-flaws/",
         "source": "CyberSecurityNews",
         "summary": "Debian has released a major Linux kernel security update covering 1,313 CVE entries, addressing flaws that could allow privilege escalation, denial of service, and information leaks. The fixes are ava",
-        "cve": []
-    },
-    {
-        "title": "Rethinking automotive cyber risk for the age of accelerated vulnerability discovery",
-        "date": "Fri, 02 Oct 2026 14:15:42 +0000",
-        "url": "https://cybersecuritynews.com/rethinking-automotive-cyber-risk-for-the-age-of-accelerated-vulnerability-discovery/",
-        "source": "CyberSecurityNews",
-        "summary": "By Tamás Pentz, Head of Threat Intelligence, PCA Cyber Security&#160; Automotive cybersecurity has traditionally focused on putting controls into vehicles that counter the ways criminals could physica",
-        "cve": []
-    },
-    {
-        "title": "Hackers Turned a Microsoft SQL Server Into a Command and Data Exfiltration Channel",
-        "date": "Fri, 02 Oct 2026 14:04:21 +0000",
-        "url": "https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers turned a Microsoft SQL Server into a channel for running commands and moving collected files in an intrusion linked to a Viva Aerobus environment. Their own publicly accessible server then exp",
         "cve": []
     },
     {
