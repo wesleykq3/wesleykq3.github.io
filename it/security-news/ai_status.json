@@ -1,9 +1,9 @@
 {
-    "timestamp": "2026-10-05T02:31:09.982392",
+    "timestamp": "2026-10-05T19:47:54.255995",
     "services": [
         {
             "service": "OpenAI",
-            "status": "operational",
+            "status": "degraded",
             "description": "OpenAI Status Page",
             "url": "https://status.openai.com/"
         },
@@ -22,7 +22,7 @@
         },
         {
             "service": "Grok / xAI",
-            "status": "operational",
+            "status": "unknown",
             "description": "xAI Status Page",
             "url": "https://status.x.ai/"
         }
