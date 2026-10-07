@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-07T02:49:07.676721",
+    "timestamp": "2026-10-07T17:59:45.306102",
     "services": [
         {
             "service": "OpenAI",
@@ -9,8 +9,8 @@
         },
         {
             "service": "Claude",
-            "status": "none",
-            "description": "All Systems Operational",
+            "status": "minor",
+            "description": "Minor Service Outage",
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
@@ -34,7 +34,7 @@
         },
         {
             "name": "Claude Console (platform.claude.com)",
-            "status": "operational"
+            "status": "partial_outage"
         },
         {
             "name": "Claude API (api.anthropic.com)",

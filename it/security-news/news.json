@@ -1,5 +1,61 @@
 [
     {
+        "title": "Microsoft Outlook to block MSIX attachments starting November",
+        "date": "Wed, 07 Oct 2026 11:44:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
+        "cve": []
+    },
+    {
+        "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+        "date": "Wed, 07 Oct 2026 11:04:08 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+        "source": "BleepingComputer",
+        "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
+        "cve": []
+    },
+    {
+        "title": "Ransomware has a new target. Is your backup ready?",
+        "date": "Wed, 07 Oct 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
+        "source": "BleepingComputer",
+        "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, an",
+        "cve": []
+    },
+    {
+        "title": "Hackers exploit critical Atlassian flaw after public PoC release",
+        "date": "Wed, 07 Oct 2026 08:49:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+        "source": "BleepingComputer",
+        "summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [.",
+        "cve": []
+    },
+    {
+        "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+        "date": "Wed, 07 Oct 2026 07:37:07 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+        "source": "BleepingComputer",
+        "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
+        "cve": []
+    },
+    {
+        "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
+        "date": "Wed, 07 Oct 2026 06:35:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
+        "source": "BleepingComputer",
+        "summary": "A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royal",
+        "cve": []
+    },
+    {
+        "title": "Advantest confirms personal information stolen in ransomware attack",
+        "date": "Wed, 07 Oct 2026 06:27:52 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
+        "source": "BleepingComputer",
+        "summary": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
+        "cve": []
+    },
+    {
         "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
         "date": "Tue, 06 Oct 2026 17:00:27 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
@@ -24,219 +80,171 @@
         "cve": []
     },
     {
-        "title": "ASOS confirms data breach after “HACKED” in-app notifications",
-        "date": "Tue, 06 Oct 2026 12:33:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
-        "source": "BleepingComputer",
-        "summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowfl",
-        "cve": []
-    },
-    {
-        "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-        "date": "Tue, 06 Oct 2026 11:16:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
-        "source": "BleepingComputer",
-        "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser",
-        "cve": []
-    },
-    {
-        "title": "How to secure RMM software: 8 controls MSPs should test",
-        "date": "Tue, 06 Oct 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
-        "source": "BleepingComputer",
-        "summary": "RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk. Acronis outlines eight controls MSPs should test when evaluating RMM s",
-        "cve": []
-    },
-    {
-        "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
-        "date": "Tue, 06 Oct 2026 07:31:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
-        "source": "BleepingComputer",
-        "summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
-        "cve": []
-    },
-    {
-        "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
-        "date": "Tue, 06 Oct 2026 05:25:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
-        "source": "BleepingComputer",
-        "summary": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
-        "cve": []
-    },
-    {
-        "title": "Engineer sentenced for locking over 3,000 devices on employer network",
-        "date": "Tue, 06 Oct 2026 04:19:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
-        "source": "BleepingComputer",
-        "summary": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's network in a ransomwa",
-        "cve": []
-    },
-    {
-        "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
-        "date": "Mon, 05 Oct 2026 18:46:33 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]",
-        "cve": []
-    },
-    {
-        "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-        "date": "Wed, 07 Oct 2026 00:08:55 +0530",
-        "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+        "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+        "date": "Wed, 07 Oct 2026 23:13:20 +0530",
+        "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic ",
+        "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaig",
         "cve": []
     },
     {
-        "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-        "date": "Tue, 06 Oct 2026 23:54:25 +0530",
-        "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+        "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+        "date": "Wed, 07 Oct 2026 21:47:44 +0530",
+        "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
         "source": "The Hacker News",
-        "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detecti",
+        "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker",
         "cve": []
     },
     {
-        "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
-        "date": "Tue, 06 Oct 2026 17:27:00 +0530",
-        "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+        "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+        "date": "Wed, 07 Oct 2026 21:04:53 +0530",
+        "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
         "source": "The Hacker News",
-        "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either ",
+        "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed",
         "cve": []
     },
     {
-        "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-        "date": "Tue, 06 Oct 2026 16:56:25 +0530",
-        "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+        "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+        "date": "Wed, 07 Oct 2026 21:03:51 +0530",
+        "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
         "source": "The Hacker News",
-        "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public ",
+        "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim ",
         "cve": []
     },
     {
-        "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-        "date": "Tue, 06 Oct 2026 16:32:30 +0530",
-        "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+        "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+        "date": "Wed, 07 Oct 2026 17:27:05 +0530",
+        "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
         "source": "The Hacker News",
-        "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built s",
+        "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems w",
         "cve": []
     },
     {
-        "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-        "date": "Tue, 06 Oct 2026 14:51:47 +0530",
-        "url": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+        "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+        "date": "Wed, 07 Oct 2026 17:26:56 +0530",
+        "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
         "source": "The Hacker News",
-        "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.\n\nThe change, in effect since October 1, means researchers can no longer submit s",
+        "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet",
         "cve": []
     },
     {
-        "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-        "date": "Tue, 06 Oct 2026 12:28:56 +0530",
-        "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+        "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+        "date": "Wed, 07 Oct 2026 17:19:26 +0530",
+        "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
         "source": "The Hacker News",
-        "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.\n\n",
+        "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions.\n\nThe arbitrar",
         "cve": []
     },
     {
-        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-        "date": "Tue, 06 Oct 2026 12:26:57 +0530",
-        "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+        "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
+        "date": "Wed, 07 Oct 2026 17:12:24 +0530",
+        "url": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
         "source": "The Hacker News",
-        "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau empl",
+        "summary": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonom",
         "cve": []
     },
     {
-        "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-        "date": "Tue, 06 Oct 2026 11:30:30 +0530",
-        "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+        "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+        "date": "Wed, 07 Oct 2026 13:37:38 +0530",
+        "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
         "source": "The Hacker News",
-        "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the countr",
+        "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifi",
         "cve": []
     },
     {
-        "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-        "date": "Tue, 06 Oct 2026 10:52:55 +0530",
-        "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+        "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+        "date": "Wed, 07 Oct 2026 12:27:54 +0530",
+        "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
         "source": "The Hacker News",
-        "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.\n\n\"Instead of downloading and executing remote payloads li",
+        "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware c",
         "cve": []
     },
     {
-        "title": "Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks",
-        "date": "Tue, 06 Oct 2026 16:02:50 +0000",
-        "url": "https://cybersecuritynews.com/apache-struts-vulnerabilities/",
+        "title": "Discord Users’ Data Exposed in Security Bot Double Counter Security Breach",
+        "date": "Wed, 07 Oct 2026 17:40:39 +0000",
+        "url": "https://cybersecuritynews.com/discord-users-data-exposed/",
         "source": "CyberSecurityNews",
-        "summary": "Four security flaws described in the supplied Apache Struts advisories could expose affected applications to remote code execution, denial-of- service, and unintended data disclosure. Recommended fixe",
+        "summary": "Double Counter, a Discord security bot, has disclosed a breach that exposed user data after an attacker broke into its cloud systems on October 4, 2026. Attackers copied about 12 GB of database record",
         "cve": []
     },
     {
-        "title": "Former Infrastructure Engineer Sentenced for Sabotaging Employer’s Windows Network",
-        "date": "Tue, 06 Oct 2026 15:50:56 +0000",
-        "url": "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/",
+        "title": "Alert Overload, Tool Sprawl and Evasive Phishing: The 5 Bottlenecks Slowing Down US SOCs",
+        "date": "Wed, 07 Oct 2026 17:19:28 +0000",
+        "url": "https://cybersecuritynews.com/alert-overload-tool-sprawl-and-evasive-phishing-the-5-bottlenecks-slowing-down-us-socs/",
         "source": "CyberSecurityNews",
-        "summary": "A former infrastructure engineer has been sentenced to 32 months in federal prison for sabotaging his employer’s Windows network and demanding a cryptocurrency ransom. Daniel Rhyne, 59, of Kansas City",
+        "summary": "US security operations centers are not short on security products. They are short on time, people and context. Current industry research suggests the biggest obstacles to fast detection and containmen",
         "cve": []
     },
     {
-        "title": "GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection",
-        "date": "Tue, 06 Oct 2026 15:49:18 +0000",
-        "url": "https://cybersecuritynews.com/github-copilot-cli-vulnerability/",
+        "title": "Hackers Hijack .gh, .sl and .as Registry to Obtain Unauthorized HTTPS Certificates",
+        "date": "Wed, 07 Oct 2026 15:39:41 +0000",
+        "url": "https://cybersecuritynews.com/hackers-hijack-domain-registry/",
         "source": "CyberSecurityNews",
-        "summary": "A new GitHub Copilot CLI finding that could allow an attacker-controlled web page to guide the coding agent into reading local developer files and sending their contents to a remote server. The techni",
+        "summary": "Hackers compromised the .gh, .sl and .as country-code domain registries and used their access to obtain unauthorized HTTPS certificates for Google and other organizations. Chrome blocked the identifie",
         "cve": []
     },
     {
-        "title": "From Telemetry to Defense: How SOC and MSSP Leaders Can Build Intelligence-Led Threat Monitoring",
-        "date": "Tue, 06 Oct 2026 15:45:40 +0000",
-        "url": "https://cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring/",
+        "title": "CrowdStrike, AWS, and NVIDIA Expand Global Cybersecurity Startup Accelerator",
+        "date": "Wed, 07 Oct 2026 15:10:14 +0000",
+        "url": "https://cybersecuritynews.com/crowdstrike-cybersecurity-accelerator/",
         "source": "CyberSecurityNews",
-        "summary": "Every function in a security operations center, from alert triage to incident response, depends on how well threats are monitored. Yet many SOCs and managed security providers still treat monitoring a",
+        "summary": "CrowdStrike announced its fourth annual Cybersecurity Startup Accelerator on October 6, 2026, expanding its collaboration with Amazon Web Services and NVIDIA. The global initiative will help early-sta",
         "cve": []
     },
     {
-        "title": "ASOS Hacked – App Users Receive Notifications Sent by Hackers",
-        "date": "Tue, 06 Oct 2026 15:06:20 +0000",
-        "url": "https://cybersecuritynews.com/asos-hacked/",
+        "title": "CyberXero Combines Claude Code, PentAGI and Cobalt Strike in AI-Augmented Cyberattacks",
+        "date": "Wed, 07 Oct 2026 14:45:00 +0000",
+        "url": "https://cybersecuritynews.com/cyberxero-combines-claude-code/",
         "source": "CyberSecurityNews",
-        "summary": "ASOS is investigating a cyber incident after customers received an unauthorized app notification claiming hackers had accessed its Snowflake data environment. The retailer confirmed suspicious activit",
+        "summary": "CyberXero has emerged as an initial access broker that combines familiar hacking tools with artificial intelligence to run large-scale intrusions. The Russian-speaking operator targeted WordPress and ",
         "cve": []
     },
     {
-        "title": "Aembit Extends Access Controls to Personal AI Agents",
-        "date": "Tue, 06 Oct 2026 14:58:37 +0000",
-        "url": "https://cybersecuritynews.com/aembit-extends-access-controls-to-personal-ai-agents/",
+        "title": "SonicWall Patches 4 SMA1000 Flaws, Including Critical Pre-Auth SSRF Rated CVSS 10",
+        "date": "Wed, 07 Oct 2026 14:27:26 +0000",
+        "url": "https://cybersecuritynews.com/sonicwall-patches-sma1000-flaws/",
         "source": "CyberSecurityNews",
-        "summary": "Silver Springs, United States / Maryland, October 6th, 2026, CyberNewswire Aembit, the identity control plane for AI agents, today announced support for securing personal agents’ access to enterprise ",
+        "summary": "SonicWall has patched four vulnerabilities in its Secure Mobile Access (SMA) 1000 Series appliances, including a critical server-side request forgery (SSRF) flaw with a maximum CVSS score of 10.0. The",
         "cve": []
     },
     {
-        "title": "Iranian Hackers Use Fake Dubai Airports Coding Test to Target Iraqi Critical Infrastructure",
-        "date": "Tue, 06 Oct 2026 14:31:24 +0000",
-        "url": "https://cybersecuritynews.com/iranian-hackers/",
+        "title": "Hackers Breach Two Major South Korean Churches, Exposing Data of Over 1 Million People",
+        "date": "Wed, 07 Oct 2026 14:13:26 +0000",
+        "url": "https://cybersecuritynews.com/hackers-breach/",
         "source": "CyberSecurityNews",
-        "summary": "Iranian state-aligned hackers have used a fake Dubai Airports recruitment process to target Iraqi critical infrastructure with a booby-trapped coding test. The campaign, called Blinder Tunnel, turned ",
+        "summary": "Hackers breached two major South Korean churches, exposing more than one million congregant records and extensive financial and administrative data. The investigation reveals how web shells, leaked cr",
         "cve": []
     },
     {
-        "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-        "date": "Tue, 06 Oct 2026 14:14:27 +0000",
-        "url": "https://cybersecuritynews.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+        "title": "PoC Exploit Released for Critical Atlassian Flaw That Can Lead to Jira Admin Access",
+        "date": "Wed, 07 Oct 2026 13:30:35 +0000",
+        "url": "https://cybersecuritynews.com/poc-exploit-released-for-atlassian-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "Torrance, Californina, October 6th, 2026, CyberNewswire Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibility to security t",
+        "summary": "A proof-of-concept exploit has been released for CVE-2026-21589, a critical arbitrary file-read vulnerability affecting multiple self-managed Atlassian products. The flaw can expose sensitive applicat",
         "cve": []
     },
     {
-        "title": "AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security",
-        "date": "Tue, 06 Oct 2026 14:12:11 +0000",
-        "url": "https://cybersecuritynews.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/",
+        "title": "Hackers Compromise 100+ Websites With Fake Cloudflare Checks to Spread LUNEXSTEALER",
+        "date": "Wed, 07 Oct 2026 13:28:36 +0000",
+        "url": "https://cybersecuritynews.com/spread-lunexstealer/",
         "source": "CyberSecurityNews",
-        "summary": "New York, New York, October 6th, 2026, CyberNewswire Purpose-built for AI agents, new capabilities uncover shadow AI, stop rogue enterprise agents at runtime, and issue quantum-resilient agent identit",
+        "summary": "Hackers compromised more than 100 websites and used fake Cloudflare verification pages to spread LUNEXSTEALER, a Windows malware capable of stealing information and accepting remote commands. The camp",
         "cve": []
     },
     {
-        "title": "Ransomware Hacker Uses AI Coding Assistant as Attack Channel Against Enterprise Networks",
-        "date": "Tue, 06 Oct 2026 14:09:29 +0000",
-        "url": "https://cybersecuritynews.com/ransomware-hacker/",
+        "title": "FBI Warns FortiBleed Attack Compromised 80,000+ Devices and Locked Out Admins",
+        "date": "Wed, 07 Oct 2026 13:19:53 +0000",
+        "url": "https://cybersecuritynews.com/fortibleed-attack-campaign-exploiting/",
         "source": "CyberSecurityNews",
-        "summary": "A ransomware affiliate has turned an AI coding assistant into a channel for running attacks inside enterprise networks. The operator, known as Azazel, combined stolen development credentials, remote c",
+        "summary": "The FBI and U.S. Secret Service have issued a joint cybersecurity advisory warning that the ongoing FortiBleed campaign is targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways w",
+        "cve": []
+    },
+    {
+        "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+        "date": "Wed, 07 Oct 2026 13:48:45 +0000",
+        "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+        "source": "krebsonsecurity",
+        "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of th",
         "cve": []
     },
     {
@@ -312,91 +320,83 @@
         "cve": []
     },
     {
-        "title": "Read This Before You Buy That TV Streaming Stick",
-        "date": "Thu, 30 Jul 2026 16:49:00 +0000",
-        "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-        "source": "krebsonsecurity",
-        "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user'",
+        "title": "EY Data Breach Exposes Goldman Sachs and Man Group Clients’ Tax and Financial Data",
+        "date": "Wed, 07 Oct 2026 15:02:00 +0000",
+        "url": "https://gbhackers.com/ey-data-breach/",
+        "source": "GBHackers",
+        "summary": "Ernst &#38; Young (EY) has warned that a data breach exposed personal and financial information belonging to clients of Goldman Sachs’ wealth management division and Man Group. The incident involved a",
         "cve": []
     },
     {
-        "title": "Aembit Extends Access Controls to Personal AI Agents",
-        "date": "Tue, 06 Oct 2026 15:00:13 +0000",
-        "url": "https://gbhackers.com/aembit-extends-access-controls-to-personal-ai-agents/",
+        "title": "Critical Progress DataDirect GenAI Flaw Lets Attackers Execute Arbitrary OS Commands",
+        "date": "Wed, 07 Oct 2026 12:55:29 +0000",
+        "url": "https://gbhackers.com/critical-progress-datadirect-genai-flaw/",
         "source": "GBHackers",
-        "summary": "Silver Springs, United States / Maryland, October 6th, 2026, CyberNewswire Aembit, the identity control plane for AI agents, today announced support for securing personal agents’ access to enterprise ",
+        "summary": "Progress has disclosed a critical command injection vulnerability in the Early Access Release of its DataDirect Autonomous REST Connector AI Model Generator agents. This vulnerability, tracked as CVE-",
         "cve": []
     },
     {
-        "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-        "date": "Tue, 06 Oct 2026 14:13:42 +0000",
-        "url": "https://gbhackers.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+        "title": "Russian-Speaking CyberXero Uses AI Agent Swarm to Attack Ukrainian Energy Infrastructure",
+        "date": "Wed, 07 Oct 2026 12:49:56 +0000",
+        "url": "https://gbhackers.com/cyberxero-uses-ai-agent-swarm/",
         "source": "GBHackers",
-        "summary": "Torrance, Californina, October 6th, 2026, CyberNewswire Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibility to security t",
+        "summary": "CyberXero, a Russian-speaking initial access broker combining conventional exploitation tools with AI agents to pursue global website compromises and targeted intrusions against Ukrainian energy infra",
         "cve": []
     },
     {
-        "title": "AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security",
-        "date": "Tue, 06 Oct 2026 14:11:56 +0000",
-        "url": "https://gbhackers.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/",
+        "title": "FBI Warns FortiBleed Campaign Targeting Fortinet Firewalls and VPNs to Steal Credentials",
+        "date": "Wed, 07 Oct 2026 12:44:59 +0000",
+        "url": "https://gbhackers.com/fbi-warns-fortibleed-campaign-targeting-fortinet-firewalls/",
         "source": "GBHackers",
-        "summary": "New York, New York, October 6th, 2026, CyberNewswire Purpose-built for AI agents, new capabilities uncover shadow AI, stop rogue enterprise agents at runtime, and issue quantum-resilient agent identit",
+        "summary": "The FBI and U.S. Secret Service issued a joint cybersecurity advisory warning that operators of &#8220;FortiBleed&#8221; continue to target internet-facing Fortinet FortiGate firewalls and SSL VPN gat",
         "cve": []
     },
     {
-        "title": "Hackers Pose as Dubai Airports Recruiters to Infect Software Engineers With ShelbyLoader V2",
-        "date": "Tue, 06 Oct 2026 13:23:06 +0000",
-        "url": "https://gbhackers.com/shelbyloader-v2-malware/",
+        "title": "Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches",
+        "date": "Wed, 07 Oct 2026 11:24:16 +0000",
+        "url": "https://gbhackers.com/erp-web-shell-breach/",
         "source": "GBHackers",
-        "summary": "An Iranian state-aligned threat actor impersonated Dubai Airports recruiters to deliver weaponized coding assessments to software engineers. The operation deployed ShelbyLoader V2 through a stealthy e",
+        "summary": "Attackers breached two of South Korea’s largest churches through distinct intrusion chains, combining an ERP web shell, privileged database access, leaked credentials, and broken authorization control",
         "cve": []
     },
     {
-        "title": "Gentlemen Ransomware Affiliate Uses MCP as C2 Channel in Live Cyberattacks",
-        "date": "Tue, 06 Oct 2026 12:43:59 +0000",
-        "url": "https://gbhackers.com/ransomware-affiliate-operations/",
+        "title": "OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack",
+        "date": "Wed, 07 Oct 2026 10:49:27 +0000",
+        "url": "https://gbhackers.com/openssh-10-6-fixes-security-flaws/",
         "source": "GBHackers",
-        "summary": "A Russian-speaking Gentlemen ransomware affiliate used the Model Context Protocol (MCP) to execute commands during live intrusions, turning an AI coding assistant’s tool interface into an operational ",
+        "summary": "OpenSSH released version 10.6 on October 6, 2026, to address security vulnerabilities that affect encrypted sessions, file transfers, authentication, and forwarding controls. This update mitigates a p",
         "cve": []
     },
     {
-        "title": "Meta and Microsoft Reduce Internal Use of Claude AI",
-        "date": "Tue, 06 Oct 2026 12:26:09 +0000",
-        "url": "https://gbhackers.com/meta-and-microsoft-reduce-internal-use-of-claude-ai/",
+        "title": "LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension",
+        "date": "Wed, 07 Oct 2026 10:39:15 +0000",
+        "url": "https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/",
         "source": "GBHackers",
-        "summary": "Meta and Microsoft are reducing employee reliance on Anthropic&#8217;s Claude AI while promoting their own coding assistants, according to an October 5 report by The Information. This change relates t",
+        "summary": "A campaign that uses more than 100 compromised websites to distribute LUNEXSTEALER, a Windows infostealer that installs a browser extension giving attackers remote control. The extension, LUNARAXE, ma",
         "cve": []
     },
     {
-        "title": "Accenture Contractor Removed After FBI Data Breach Exposes Thousands of Employees",
-        "date": "Tue, 06 Oct 2026 12:14:21 +0000",
-        "url": "https://gbhackers.com/accenture-contractor-removed-after-fbi-data-breach/",
+        "title": "Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception",
+        "date": "Wed, 07 Oct 2026 10:36:46 +0000",
+        "url": "https://gbhackers.com/elastic-patches-14-security-flaws/",
         "source": "GBHackers",
-        "summary": "On October 5, the Federal Bureau of Investigation (FBI) terminated an Accenture employee&#8217;s contract after a security breach exposed sensitive information belonging to thousands of workers, accor",
+        "summary": "Elastic published 14 security advisories addressing various vulnerabilities in Elasticsearch, Kibana, and Elastic Agent/Endpoint. Among these, a high-severity Kibana authorization bypass vulnerability",
         "cve": []
     },
     {
-        "title": "OT Attacks on US Critical Infrastructure Could Disrupt Military Operations and Physical Processes",
-        "date": "Tue, 06 Oct 2026 12:12:04 +0000",
-        "url": "https://gbhackers.com/ot-systems-under-threat/",
+        "title": "Critical Veeam Backup & Replication Flaw Allows Low-Privileged Users to Execute Remote Code",
+        "date": "Wed, 07 Oct 2026 10:30:08 +0000",
+        "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw/",
         "source": "GBHackers",
-        "summary": "US critical infrastructure faces an operational technology threat that extends beyond civilian service outages. State-sponsored intrusions and direct attacks on industrial controllers could disrupt ph",
+        "summary": "Veeam released security updates to address a critical vulnerability that lets low-privileged users execute remote code on Veeam Backup Servers. Identified as CVE-2025-64393, this flaw has a CVSS v4.0 ",
         "cve": []
     },
     {
-        "title": "Cling Botnet Spoofs Google STUN Traffic to Hide Commands Sent to Infected IoT Devices",
-        "date": "Tue, 06 Oct 2026 11:15:46 +0000",
-        "url": "https://gbhackers.com/cling-iot-botnet/",
+        "title": "Partisan Zmiy Malware Campaign Uses Telegram and DNS Tunneling to Target Healthcare Networks",
+        "date": "Wed, 07 Oct 2026 08:32:26 +0000",
+        "url": "https://gbhackers.com/partisan-zmiy-malware/",
         "source": "GBHackers",
-        "summary": "Cling, an IoT botnet that disguises operator commands as Google STUN replies, blending malicious communications into routine NAT traversal traffic. Published October 1, the research documents exploita",
-        "cve": []
-    },
-    {
-        "title": "Android 17 Advanced Protection Adds Intrusion Logging, USB Security and Brute-Force Defense",
-        "date": "Tue, 06 Oct 2026 10:30:10 +0000",
-        "url": "https://gbhackers.com/android-17-advanced-protection/",
-        "source": "GBHackers",
-        "summary": "Google has expanded Android Advanced Protection with six security enhancements targeting spyware investigations, malicious USB connections, accessibility abuse, browser exploits, and repeated authenti",
+        "summary": "A prolonged Partisan Zmiy intrusion into a medical organization, exposing an updated malware toolkit that combined Telegram command channels, DNS tunneling, and scheduled payload execution. Investigat",
         "cve": []
     }
 ]
