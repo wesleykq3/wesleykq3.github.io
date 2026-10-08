@@ -1,5 +1,29 @@
 [
     {
+        "title": "Ransomware recovery CEO charged over secret ransom payments",
+        "date": "Wed, 07 Oct 2026 19:04:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+        "source": "BleepingComputer",
+        "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprieta",
+        "cve": []
+    },
+    {
+        "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+        "date": "Wed, 07 Oct 2026 17:28:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+        "source": "BleepingComputer",
+        "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers hijack Google domains after breaching ccTLD registries",
+        "date": "Wed, 07 Oct 2026 16:50:13 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+        "source": "BleepingComputer",
+        "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compro",
+        "cve": []
+    },
+    {
         "title": "Microsoft Outlook to block MSIX attachments starting November",
         "date": "Wed, 07 Oct 2026 11:44:22 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
@@ -56,27 +80,11 @@
         "cve": []
     },
     {
-        "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-        "date": "Tue, 06 Oct 2026 17:00:27 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-        "source": "BleepingComputer",
-        "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue ",
-        "cve": []
-    },
-    {
-        "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
-        "date": "Tue, 06 Oct 2026 15:21:53 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
-        "source": "BleepingComputer",
-        "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
-        "cve": []
-    },
-    {
-        "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-        "date": "Tue, 06 Oct 2026 13:34:59 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
-        "source": "BleepingComputer",
-        "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluenc",
+        "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+        "date": "Thu, 08 Oct 2026 00:18:17 +0530",
+        "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+        "source": "The Hacker News",
+        "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were n",
         "cve": []
     },
     {
@@ -152,11 +160,11 @@
         "cve": []
     },
     {
-        "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-        "date": "Wed, 07 Oct 2026 12:27:54 +0530",
-        "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-        "source": "The Hacker News",
-        "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware c",
+        "title": "U.S. Offers $10 Million Reward for Chinese Hacker Who Tried to Steal COVID-19 Research",
+        "date": "Thu, 08 Oct 2026 02:37:46 +0000",
+        "url": "https://cybersecuritynews.com/u-s-offers-10-million-reward-chinese-hacker/",
+        "source": "CyberSecurityNews",
+        "summary": "The U.S. Department of State is offering up to $10 million for information on Zhang Yu, a Chinese national accused of helping hackers target American COVID-19 research. The Rewards for Justice notice ",
         "cve": []
     },
     {
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/spread-lunexstealer/",
         "source": "CyberSecurityNews",
         "summary": "Hackers compromised more than 100 websites and used fake Cloudflare verification pages to spread LUNEXSTEALER, a Windows malware capable of stealing information and accepting remote commands. The camp",
-        "cve": []
-    },
-    {
-        "title": "FBI Warns FortiBleed Attack Compromised 80,000+ Devices and Locked Out Admins",
-        "date": "Wed, 07 Oct 2026 13:19:53 +0000",
-        "url": "https://cybersecuritynews.com/fortibleed-attack-campaign-exploiting/",
-        "source": "CyberSecurityNews",
-        "summary": "The FBI and U.S. Secret Service have issued a joint cybersecurity advisory warning that the ongoing FortiBleed campaign is targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways w",
         "cve": []
     },
     {

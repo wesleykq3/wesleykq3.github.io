@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-10-07T17:59:45.306102",
+    "timestamp": "2026-10-08T03:07:09.629215",
     "services": [
         {
             "service": "OpenAI",
-            "status": "degraded",
+            "status": "operational",
             "description": "OpenAI Status Page",
             "url": "https://status.openai.com/"
         },
         {
             "service": "Claude",
             "status": "minor",
-            "description": "Minor Service Outage",
+            "description": "Partially Degraded Service",
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
@@ -34,7 +34,7 @@
         },
         {
             "name": "Claude Console (platform.claude.com)",
-            "status": "partial_outage"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude API (api.anthropic.com)",
