@@ -1,5 +1,69 @@
 [
     {
+        "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+        "date": "Thu, 08 Oct 2026 13:10:55 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+        "source": "BleepingComputer",
+        "summary": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
+        "cve": []
+    },
+    {
+        "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
+        "date": "Thu, 08 Oct 2026 11:26:33 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+        "source": "BleepingComputer",
+        "summary": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switc",
+        "cve": []
+    },
+    {
+        "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
+        "date": "Thu, 08 Oct 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
+        "source": "BleepingComputer",
+        "summary": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers ar",
+        "cve": []
+    },
+    {
+        "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
+        "date": "Thu, 08 Oct 2026 09:18:36 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
+        "source": "BleepingComputer",
+        "summary": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams to get support for third-party deepfake detection tools",
+        "date": "Thu, 08 Oct 2026 08:08:16 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft will soon introduce support for third-party deepfake detection solutions and impersonation protection in Teams meetings. [...]",
+        "cve": []
+    },
+    {
+        "title": "ASOS links data breach to social engineering attack, credential theft",
+        "date": "Thu, 08 Oct 2026 07:42:46 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+        "source": "BleepingComputer",
+        "summary": "ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some personal data. [...]",
+        "cve": []
+    },
+    {
+        "title": "Owner of Empire cybercrime market gets 40 years in prison",
+        "date": "Thu, 08 Oct 2026 06:29:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
+        "source": "BleepingComputer",
+        "summary": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for facilitating $430 million in illegal transactions from 2018 ",
+        "cve": []
+    },
+    {
+        "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+        "date": "Thu, 08 Oct 2026 02:32:16 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+        "source": "BleepingComputer",
+        "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
+        "cve": []
+    },
+    {
         "title": "Ransomware recovery CEO charged over secret ransom payments",
         "date": "Wed, 07 Oct 2026 19:04:37 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
@@ -16,67 +80,67 @@
         "cve": []
     },
     {
-        "title": "Hackers hijack Google domains after breaching ccTLD registries",
-        "date": "Wed, 07 Oct 2026 16:50:13 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
-        "source": "BleepingComputer",
-        "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compro",
+        "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+        "date": "Thu, 08 Oct 2026 21:15:56 +0530",
+        "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+        "source": "The Hacker News",
+        "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said.\n\nThe Tok",
         "cve": []
     },
     {
-        "title": "Microsoft Outlook to block MSIX attachments starting November",
-        "date": "Wed, 07 Oct 2026 11:44:22 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
+        "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+        "date": "Thu, 08 Oct 2026 20:56:56 +0530",
+        "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+        "source": "The Hacker News",
+        "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN.\n\nAccording to TrendAI, the malware",
         "cve": []
     },
     {
-        "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-        "date": "Wed, 07 Oct 2026 11:04:08 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
-        "source": "BleepingComputer",
-        "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
+        "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+        "date": "Thu, 08 Oct 2026 19:42:34 +0530",
+        "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry ou",
         "cve": []
     },
     {
-        "title": "Ransomware has a new target. Is your backup ready?",
-        "date": "Wed, 07 Oct 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
-        "source": "BleepingComputer",
-        "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, an",
+        "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+        "date": "Thu, 08 Oct 2026 16:00:00 +0530",
+        "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+        "source": "The Hacker News",
+        "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic contr",
         "cve": []
     },
     {
-        "title": "Hackers exploit critical Atlassian flaw after public PoC release",
-        "date": "Wed, 07 Oct 2026 08:49:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-        "source": "BleepingComputer",
-        "summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [.",
+        "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+        "date": "Thu, 08 Oct 2026 15:16:32 +0530",
+        "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys.\n\n\"The extensions ma",
         "cve": []
     },
     {
-        "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
-        "date": "Wed, 07 Oct 2026 07:37:07 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-        "source": "BleepingComputer",
-        "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
+        "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+        "date": "Thu, 08 Oct 2026 13:12:04 +0530",
+        "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 20",
         "cve": []
     },
     {
-        "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
-        "date": "Wed, 07 Oct 2026 06:35:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
-        "source": "BleepingComputer",
-        "summary": "A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royal",
+        "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+        "date": "Thu, 08 Oct 2026 13:11:44 +0530",
+        "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obta",
         "cve": []
     },
     {
-        "title": "Advantest confirms personal information stolen in ransomware attack",
-        "date": "Wed, 07 Oct 2026 06:27:52 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
-        "source": "BleepingComputer",
-        "summary": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
+        "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+        "date": "Thu, 08 Oct 2026 11:16:20 +0530",
+        "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+        "source": "The Hacker News",
+        "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud suppl",
         "cve": []
     },
     {
@@ -96,147 +160,83 @@
         "cve": []
     },
     {
-        "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-        "date": "Wed, 07 Oct 2026 21:47:44 +0530",
-        "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-        "source": "The Hacker News",
-        "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker",
-        "cve": []
-    },
-    {
-        "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-        "date": "Wed, 07 Oct 2026 21:04:53 +0530",
-        "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-        "source": "The Hacker News",
-        "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed",
-        "cve": []
-    },
-    {
-        "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-        "date": "Wed, 07 Oct 2026 21:03:51 +0530",
-        "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim ",
-        "cve": []
-    },
-    {
-        "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
-        "date": "Wed, 07 Oct 2026 17:27:05 +0530",
-        "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
-        "source": "The Hacker News",
-        "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems w",
-        "cve": []
-    },
-    {
-        "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-        "date": "Wed, 07 Oct 2026 17:26:56 +0530",
-        "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet",
-        "cve": []
-    },
-    {
-        "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-        "date": "Wed, 07 Oct 2026 17:19:26 +0530",
-        "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions.\n\nThe arbitrar",
-        "cve": []
-    },
-    {
-        "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
-        "date": "Wed, 07 Oct 2026 17:12:24 +0530",
-        "url": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
-        "source": "The Hacker News",
-        "summary": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonom",
-        "cve": []
-    },
-    {
-        "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-        "date": "Wed, 07 Oct 2026 13:37:38 +0530",
-        "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
-        "source": "The Hacker News",
-        "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifi",
-        "cve": []
-    },
-    {
-        "title": "U.S. Offers $10 Million Reward for Chinese Hacker Who Tried to Steal COVID-19 Research",
-        "date": "Thu, 08 Oct 2026 02:37:46 +0000",
-        "url": "https://cybersecuritynews.com/u-s-offers-10-million-reward-chinese-hacker/",
+        "title": "Tensorlake npm Package Compromised to Spread Shai-Hulud Worm and Steal Developer Secrets",
+        "date": "Thu, 08 Oct 2026 15:50:11 +0000",
+        "url": "https://cybersecuritynews.com/tensorlake-npm-package/",
         "source": "CyberSecurityNews",
-        "summary": "The U.S. Department of State is offering up to $10 million for information on Zhang Yu, a Chinese national accused of helping hackers target American COVID-19 research. The Rewards for Justice notice ",
+        "summary": "A malicious release of the Tensorlake npm package has been published with a Shai-Hulud worm variant that can steal developer secrets and attempt to spread through connected software supply chains. The",
         "cve": []
     },
     {
-        "title": "Discord Users’ Data Exposed in Security Bot Double Counter Security Breach",
-        "date": "Wed, 07 Oct 2026 17:40:39 +0000",
-        "url": "https://cybersecuritynews.com/discord-users-data-exposed/",
+        "title": "Hikvision Camera Vulnerability Targeted in Remote Code Execution Exploitation Attempts",
+        "date": "Thu, 08 Oct 2026 15:33:38 +0000",
+        "url": "https://cybersecuritynews.com/hikvision-camera-vulnerability-2/",
         "source": "CyberSecurityNews",
-        "summary": "Double Counter, a Discord security bot, has disclosed a breach that exposed user data after an attacker broke into its cloud systems on October 4, 2026. Attackers copied about 12 GB of database record",
+        "summary": "Scanning and remote code execution attempts targeting video surveillance devices in Ukraine rose between September 21 and October 1, 2026. Most activity focused on CVE-2021-36260, a critical command i",
         "cve": []
     },
     {
-        "title": "Alert Overload, Tool Sprawl and Evasive Phishing: The 5 Bottlenecks Slowing Down US SOCs",
-        "date": "Wed, 07 Oct 2026 17:19:28 +0000",
-        "url": "https://cybersecuritynews.com/alert-overload-tool-sprawl-and-evasive-phishing-the-5-bottlenecks-slowing-down-us-socs/",
+        "title": "Hackers Use Fake Firefox Wallet Extensions to Steal Crypto Recovery Phrases",
+        "date": "Thu, 08 Oct 2026 15:26:03 +0000",
+        "url": "https://cybersecuritynews.com/fake-firefox-wallet-extensions/",
         "source": "CyberSecurityNews",
-        "summary": "US security operations centers are not short on security products. They are short on time, people and context. Current industry research suggests the biggest obstacles to fast detection and containmen",
+        "summary": "Hackers have used 16 malicious Firefox extensions to target cryptocurrency users with fake wallet screens that capture recovery phrases and private keys. The add-ons posed as wallet portals, desktop t",
         "cve": []
     },
     {
-        "title": "Hackers Hijack .gh, .sl and .as Registry to Obtain Unauthorized HTTPS Certificates",
-        "date": "Wed, 07 Oct 2026 15:39:41 +0000",
-        "url": "https://cybersecuritynews.com/hackers-hijack-domain-registry/",
+        "title": "Microsoft Teams Adds Synthetic Audio and Video Detection to Fight Deepfake Meeting Attacks",
+        "date": "Thu, 08 Oct 2026 15:10:35 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-teams-deepfake-detection/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers compromised the .gh, .sl and .as country-code domain registries and used their access to obtain unauthorized HTTPS certificates for Google and other organizations. Chrome blocked the identifie",
+        "summary": "Microsoft Teams is preparing to support synthetic audio and video detection to help organizations spot deepfake attacks. The feature will connect Teams with certified third-party providers that check ",
         "cve": []
     },
     {
-        "title": "CrowdStrike, AWS, and NVIDIA Expand Global Cybersecurity Startup Accelerator",
-        "date": "Wed, 07 Oct 2026 15:10:14 +0000",
-        "url": "https://cybersecuritynews.com/crowdstrike-cybersecurity-accelerator/",
+        "title": "DarkSword iOS Exploit Platform Uses Coruna Malware to Steal Crypto Wallet Recovery Phrases",
+        "date": "Thu, 08 Oct 2026 15:06:43 +0000",
+        "url": "https://cybersecuritynews.com/darksword-ios-exploit-platform/",
         "source": "CyberSecurityNews",
-        "summary": "CrowdStrike announced its fourth annual Cybersecurity Startup Accelerator on October 6, 2026, expanding its collaboration with Amazon Web Services and NVIDIA. The global initiative will help early-sta",
+        "summary": "DarkSword operators are using Coruna malware to steal cryptocurrency wallet recovery phrases from iPhones, turning browser exploits into a ready-to-use theft service. Exposed server directories reveal",
         "cve": []
     },
     {
-        "title": "CyberXero Combines Claude Code, PentAGI and Cobalt Strike in AI-Augmented Cyberattacks",
-        "date": "Wed, 07 Oct 2026 14:45:00 +0000",
-        "url": "https://cybersecuritynews.com/cyberxero-combines-claude-code/",
+        "title": "Critical Sungrow Inverter Vulnerability Lets Attackers Access Solar Plants Without Passwords",
+        "date": "Thu, 08 Oct 2026 14:57:08 +0000",
+        "url": "https://cybersecuritynews.com/sungrow-inverter-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "CyberXero has emerged as an initial access broker that combines familiar hacking tools with artificial intelligence to run large-scale intrusions. The Russian-speaking operator targeted WordPress and ",
+        "summary": "A critical Sungrow inverter vulnerability could have allowed attackers to log in to the company’s iSolarCloud management platform without a valid password. The flaw affected the cloud service used to ",
         "cve": []
     },
     {
-        "title": "SonicWall Patches 4 SMA1000 Flaws, Including Critical Pre-Auth SSRF Rated CVSS 10",
-        "date": "Wed, 07 Oct 2026 14:27:26 +0000",
-        "url": "https://cybersecuritynews.com/sonicwall-patches-sma1000-flaws/",
+        "title": "Insignary Launches Clarity AIR to Detect Undeclared Open-Source and AI-Written Code",
+        "date": "Thu, 08 Oct 2026 14:52:38 +0000",
+        "url": "https://cybersecuritynews.com/insignary-launches-clarity-air-to-detect-undeclared-open-source-and-ai-written-code/",
         "source": "CyberSecurityNews",
-        "summary": "SonicWall has patched four vulnerabilities in its Secure Mobile Access (SMA) 1000 Series appliances, including a critical server-side request forgery (SSRF) flaw with a maximum CVSS score of 10.0. The",
+        "summary": "Toronto, Canada, October 8th, 2026, CyberNewswire Insignary Launches Clarity AIR: Closing the Blind Spot Between What Your Developers Declare and What&#8217;s Actually in Your Code New snippet-level s",
         "cve": []
     },
     {
-        "title": "Hackers Breach Two Major South Korean Churches, Exposing Data of Over 1 Million People",
-        "date": "Wed, 07 Oct 2026 14:13:26 +0000",
-        "url": "https://cybersecuritynews.com/hackers-breach/",
+        "title": "Hackers Use Negative Hotel Reviews to Spread Malware That Hides C2 on Blockchain",
+        "date": "Thu, 08 Oct 2026 14:44:51 +0000",
+        "url": "https://cybersecuritynews.com/negative-hotel-reviews/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers breached two major South Korean churches, exposing more than one million congregant records and extensive financial and administrative data. The investigation reveals how web shells, leaked cr",
+        "summary": "Hackers are targeting hotels with fake guest complaints and negative reviews that lead staff to malware disguised as photographic evidence. The campaign delivers EtherRAT or TONResolver, two malware f",
         "cve": []
     },
     {
-        "title": "PoC Exploit Released for Critical Atlassian Flaw That Can Lead to Jira Admin Access",
-        "date": "Wed, 07 Oct 2026 13:30:35 +0000",
-        "url": "https://cybersecuritynews.com/poc-exploit-released-for-atlassian-flaw/",
+        "title": "PoC Released for Critical LMCache Flaw Enabling Unauthenticated Remote Code Execution",
+        "date": "Thu, 08 Oct 2026 14:34:16 +0000",
+        "url": "https://cybersecuritynews.com/poc-lmcache-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "A proof-of-concept exploit has been released for CVE-2026-21589, a critical arbitrary file-read vulnerability affecting multiple self-managed Atlassian products. The flaw can expose sensitive applicat",
+        "summary": "A proof-of-concept (PoC) exploit has been released for a critical vulnerability in LMCache that can allow unauthenticated remote code execution on exposed distributed deployments. Tracked as CVE-2026-",
         "cve": []
     },
     {
-        "title": "Hackers Compromise 100+ Websites With Fake Cloudflare Checks to Spread LUNEXSTEALER",
-        "date": "Wed, 07 Oct 2026 13:28:36 +0000",
-        "url": "https://cybersecuritynews.com/spread-lunexstealer/",
+        "title": "PoC Released for Zammad Session Leak Flaw Enabling Remote Code Execution",
+        "date": "Thu, 08 Oct 2026 14:27:11 +0000",
+        "url": "https://cybersecuritynews.com/poc-released-for-zammad-session-leak-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers compromised more than 100 websites and used fake Cloudflare verification pages to spread LUNEXSTEALER, a Windows malware capable of stealing information and accepting remote commands. The camp",
+        "summary": "A public PoC targets a critical Zammad flaw, CVE-2026-102489, allowing unauthenticated remote users to steal active session cookies and potentially execute code on vulnerable servers. The issue was as",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "EY Data Breach Exposes Goldman Sachs and Man Group Clients’ Tax and Financial Data",
-        "date": "Wed, 07 Oct 2026 15:02:00 +0000",
-        "url": "https://gbhackers.com/ey-data-breach/",
+        "title": "Insignary Launches Clarity AIR to Detect Undeclared Open-Source and AI-Written Code",
+        "date": "Thu, 08 Oct 2026 14:52:53 +0000",
+        "url": "https://gbhackers.com/insignary-launches-clarity-air-code-detection/",
         "source": "GBHackers",
-        "summary": "Ernst &#38; Young (EY) has warned that a data breach exposed personal and financial information belonging to clients of Goldman Sachs’ wealth management division and Man Group. The incident involved a",
+        "summary": "Toronto, Canada, October 8th, 2026, CyberNewswire Insignary Launches Clarity AIR: Closing the Blind Spot Between What Your Developers Declare and What&#8217;s Actually in Your Code New snippet-level s",
         "cve": []
     },
     {
-        "title": "Critical Progress DataDirect GenAI Flaw Lets Attackers Execute Arbitrary OS Commands",
-        "date": "Wed, 07 Oct 2026 12:55:29 +0000",
-        "url": "https://gbhackers.com/critical-progress-datadirect-genai-flaw/",
+        "title": "Hackers Hijack Tensorlake Package to Spread Shai-Hulud Supply Chain Malware",
+        "date": "Thu, 08 Oct 2026 13:30:27 +0000",
+        "url": "https://gbhackers.com/tensorlake-package-hijacked/",
         "source": "GBHackers",
-        "summary": "Progress has disclosed a critical command injection vulnerability in the Early Access Release of its DataDirect Autonomous REST Connector AI Model Generator agents. This vulnerability, tracked as CVE-",
+        "summary": "A threat actor published a malicious version of the tensorlake npm package on October 8, 2026, embedding a new variant of the self-replicating Shai-Hulud supply-chain worm. The compromised release, te",
         "cve": []
     },
     {
-        "title": "Russian-Speaking CyberXero Uses AI Agent Swarm to Attack Ukrainian Energy Infrastructure",
-        "date": "Wed, 07 Oct 2026 12:49:56 +0000",
-        "url": "https://gbhackers.com/cyberxero-uses-ai-agent-swarm/",
+        "title": "PoC Exploit Released for Zammad Vulnerability Enabling Session Hijacking and Remote Code Execution",
+        "date": "Thu, 08 Oct 2026 13:14:21 +0000",
+        "url": "https://gbhackers.com/poc-exploit-released-for-zammad-vulnerability/",
         "source": "GBHackers",
-        "summary": "CyberXero, a Russian-speaking initial access broker combining conventional exploitation tools with AI agents to pursue global website compromises and targeted intrusions against Ukrainian energy infra",
+        "summary": "A proof-of-concept (PoC) exploit has been released for CVE-2026-102489, a critical vulnerability in Zammad that can expose active users&#8217; session cookies and enable remote code execution (RCE) as",
         "cve": []
     },
     {
-        "title": "FBI Warns FortiBleed Campaign Targeting Fortinet Firewalls and VPNs to Steal Credentials",
-        "date": "Wed, 07 Oct 2026 12:44:59 +0000",
-        "url": "https://gbhackers.com/fbi-warns-fortibleed-campaign-targeting-fortinet-firewalls/",
+        "title": "Critical LMCache RCE Vulnerability Remains Unpatched, Public PoC Exploit Available",
+        "date": "Thu, 08 Oct 2026 13:02:48 +0000",
+        "url": "https://gbhackers.com/critical-lmcache-rce-vulnerability/",
         "source": "GBHackers",
-        "summary": "The FBI and U.S. Secret Service issued a joint cybersecurity advisory warning that operators of &#8220;FortiBleed&#8221; continue to target internet-facing Fortinet FortiGate firewalls and SSL VPN gat",
+        "summary": "A critical vulnerability in LMCache allows unauthenticated attackers to execute arbitrary code against reachable multi-process deployments by exploiting unsafe Python pickle deserialization. This flaw",
         "cve": []
     },
     {
-        "title": "Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches",
-        "date": "Wed, 07 Oct 2026 11:24:16 +0000",
-        "url": "https://gbhackers.com/erp-web-shell-breach/",
+        "title": "16 Malicious Firefox Extensions Impersonate Crypto Wallets to Steal Seed Phrases and Private Keys",
+        "date": "Thu, 08 Oct 2026 12:07:46 +0000",
+        "url": "https://gbhackers.com/16-malicious-firefox-extensions/",
         "source": "GBHackers",
-        "summary": "Attackers breached two of South Korea’s largest churches through distinct intrusion chains, combining an ERP web shell, privileged database access, leaked credentials, and broken authorization control",
+        "summary": "16 malicious Firefox extensions that impersonate cryptocurrency wallets to intercept recovery phrases and private keys during wallet imports. Disguised as wallet portals, desktop utilities, and browse",
         "cve": []
     },
     {
-        "title": "OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack",
-        "date": "Wed, 07 Oct 2026 10:49:27 +0000",
-        "url": "https://gbhackers.com/openssh-10-6-fixes-security-flaws/",
+        "title": "Exposed DarkSword iOS Servers Reveal Crypto Wallet Theft From Compromised iPhones",
+        "date": "Thu, 08 Oct 2026 11:13:46 +0000",
+        "url": "https://gbhackers.com/exposed-darksword-ios-servers/",
         "source": "GBHackers",
-        "summary": "OpenSSH released version 10.6 on October 6, 2026, to address security vulnerabilities that affect encrypted sessions, file transfers, authentication, and forwarding controls. This update mitigates a p",
+        "summary": "Exposed directories on five servers have revealed an operational DarkSword/Coruna exploitation platform built to compromise iPhones and harvest cryptocurrency wallet secrets. Censys researchers uncove",
         "cve": []
     },
     {
-        "title": "LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension",
-        "date": "Wed, 07 Oct 2026 10:39:15 +0000",
-        "url": "https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/",
+        "title": "wolfSSH Patches 5 Security Vulnerabilities, Including Critical SSH Authentication Bypass",
+        "date": "Thu, 08 Oct 2026 11:10:31 +0000",
+        "url": "https://gbhackers.com/wolfssh-patches-5-security-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "A campaign that uses more than 100 compromised websites to distribute LUNEXSTEALER, a Windows infostealer that installs a browser extension giving attackers remote control. The extension, LUNARAXE, ma",
+        "summary": "wolfSSL has released wolfSSH version 1.6.0, which addresses five security vulnerabilities, including a critical flaw that could allow a man-in-the-middle attacker to bypass SSH host-key authentication",
         "cve": []
     },
     {
-        "title": "Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception",
-        "date": "Wed, 07 Oct 2026 10:36:46 +0000",
-        "url": "https://gbhackers.com/elastic-patches-14-security-flaws/",
+        "title": "Critical Gitea Vulnerabilities Allow Attackers to Bypass Authentication and Execute Code",
+        "date": "Thu, 08 Oct 2026 10:57:41 +0000",
+        "url": "https://gbhackers.com/critical-gitea-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "Elastic published 14 security advisories addressing various vulnerabilities in Elasticsearch, Kibana, and Elastic Agent/Endpoint. Among these, a high-severity Kibana authorization bypass vulnerability",
+        "summary": "Gitea has released version 28.0.0, addressing 20 vulnerabilities related to authentication bypass, unauthorized workflow execution, server-side request forgery, stored cross-site scripting, and denial",
         "cve": []
     },
     {
-        "title": "Critical Veeam Backup & Replication Flaw Allows Low-Privileged Users to Execute Remote Code",
-        "date": "Wed, 07 Oct 2026 10:30:08 +0000",
-        "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw/",
+        "title": "Critical Cisco Nexus Switch Vulnerabilities Allow Unauthenticated Attackers to Execute Code as Root",
+        "date": "Thu, 08 Oct 2026 10:19:06 +0000",
+        "url": "https://gbhackers.com/critical-cisco-nexus-switch-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "Veeam released security updates to address a critical vulnerability that lets low-privileged users execute remote code on Veeam Backup Servers. Identified as CVE-2025-64393, this flaw has a CVSS v4.0 ",
+        "summary": "Cisco has disclosed three critical vulnerabilities in its Nexus 3000 and 9000 Series switches that could allow unauthenticated remote attackers to execute arbitrary code with root privileges. Successf",
         "cve": []
     },
     {
-        "title": "Partisan Zmiy Malware Campaign Uses Telegram and DNS Tunneling to Target Healthcare Networks",
-        "date": "Wed, 07 Oct 2026 08:32:26 +0000",
-        "url": "https://gbhackers.com/partisan-zmiy-malware/",
+        "title": "Financially Motivated Hacker Uses Agentic AI to Breach Multiple South Korean Finance Targets",
+        "date": "Thu, 08 Oct 2026 10:16:18 +0000",
+        "url": "https://gbhackers.com/financially-motivated-hacker-uses-agentic-ai-to-breach-multiple-south-korean-finance-targets/",
         "source": "GBHackers",
-        "summary": "A prolonged Partisan Zmiy intrusion into a medical organization, exposing an updated malware toolkit that combined Telegram command channels, DNS tunneling, and scheduled payload execution. Investigat",
+        "summary": "A financially motivated campaign that used agentic AI tools to breach South Korean financial organizations and exfiltrate data. Active from late September to early October 2026, the operation combined",
         "cve": []
     }
 ]
