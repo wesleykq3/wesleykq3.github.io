@@ -1,5 +1,29 @@
 [
     {
+        "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+        "date": "Thu, 08 Oct 2026 17:42:51 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+        "source": "BleepingComputer",
+        "summary": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructur",
+        "cve": []
+    },
+    {
+        "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+        "date": "Thu, 08 Oct 2026 16:09:45 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+        "source": "BleepingComputer",
+        "summary": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data center cluster servin",
+        "cve": []
+    },
+    {
+        "title": "Low-cost Android phones ship with residential proxy malware",
+        "date": "Thu, 08 Oct 2026 15:20:33 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+        "source": "BleepingComputer",
+        "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install app",
+        "cve": []
+    },
+    {
         "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
         "date": "Thu, 08 Oct 2026 13:10:55 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
@@ -56,27 +80,19 @@
         "cve": []
     },
     {
-        "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
-        "date": "Thu, 08 Oct 2026 02:32:16 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
-        "source": "BleepingComputer",
-        "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
+        "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+        "date": "Fri, 09 Oct 2026 00:02:21 +0530",
+        "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+        "source": "The Hacker News",
+        "summary": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agenc",
         "cve": []
     },
     {
-        "title": "Ransomware recovery CEO charged over secret ransom payments",
-        "date": "Wed, 07 Oct 2026 19:04:37 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
-        "source": "BleepingComputer",
-        "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprieta",
-        "cve": []
-    },
-    {
-        "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
-        "date": "Wed, 07 Oct 2026 17:28:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
-        "source": "BleepingComputer",
-        "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
+        "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+        "date": "Thu, 08 Oct 2026 23:28:02 +0530",
+        "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+        "source": "The Hacker News",
+        "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrus",
         "cve": []
     },
     {
@@ -144,19 +160,27 @@
         "cve": []
     },
     {
-        "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
-        "date": "Thu, 08 Oct 2026 00:18:17 +0530",
-        "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
-        "source": "The Hacker News",
-        "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were n",
+        "title": "Anthropic Cyber Mission to Support Defenders with Tools, Research, and Resources",
+        "date": "Fri, 09 Oct 2026 03:11:19 +0000",
+        "url": "https://cybersecuritynews.com/anthropic-cyber-mission/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic launched its Anthropic Cyber Mission on October 8, 2026, to help security teams protect critical infrastructure and open-source software. The effort combines advanced Claude models, engineer",
         "cve": []
     },
     {
-        "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-        "date": "Wed, 07 Oct 2026 23:13:20 +0530",
-        "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaig",
+        "title": "FBI Seized Vulnerability Scanning and Spear Phishing Tools Used by China-Linked Hackers",
+        "date": "Fri, 09 Oct 2026 02:24:20 +0000",
+        "url": "https://cybersecuritynews.com/fbi-seized-chinese-hacking-tools/",
+        "source": "CyberSecurityNews",
+        "summary": "The FBI and U.S. Justice Department have seized seven domains tied to Microscan and FishHub, two hacking tools allegedly operated by China-based Integrity Technology Group. Announced on October 8, 202",
+        "cve": []
+    },
+    {
+        "title": "Citrix Urges NetScaler ADC and Gateway Customers to Patch for New Critical RCE Vulnerability",
+        "date": "Fri, 09 Oct 2026 01:50:27 +0000",
+        "url": "https://cybersecuritynews.com/citrix-netscaler-adc-and-gateway-rce/",
+        "source": "CyberSecurityNews",
+        "summary": "Citrix has urged customers to patch a critical security flaw in NetScaler ADC and NetScaler Gateway that could allow remote code execution or cause a denial of service. Tracked as CVE-2026-107406, the",
         "cve": []
     },
     {
@@ -213,30 +237,6 @@
         "url": "https://cybersecuritynews.com/insignary-launches-clarity-air-to-detect-undeclared-open-source-and-ai-written-code/",
         "source": "CyberSecurityNews",
         "summary": "Toronto, Canada, October 8th, 2026, CyberNewswire Insignary Launches Clarity AIR: Closing the Blind Spot Between What Your Developers Declare and What&#8217;s Actually in Your Code New snippet-level s",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Negative Hotel Reviews to Spread Malware That Hides C2 on Blockchain",
-        "date": "Thu, 08 Oct 2026 14:44:51 +0000",
-        "url": "https://cybersecuritynews.com/negative-hotel-reviews/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are targeting hotels with fake guest complaints and negative reviews that lead staff to malware disguised as photographic evidence. The campaign delivers EtherRAT or TONResolver, two malware f",
-        "cve": []
-    },
-    {
-        "title": "PoC Released for Critical LMCache Flaw Enabling Unauthenticated Remote Code Execution",
-        "date": "Thu, 08 Oct 2026 14:34:16 +0000",
-        "url": "https://cybersecuritynews.com/poc-lmcache-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "A proof-of-concept (PoC) exploit has been released for a critical vulnerability in LMCache that can allow unauthenticated remote code execution on exposed distributed deployments. Tracked as CVE-2026-",
-        "cve": []
-    },
-    {
-        "title": "PoC Released for Zammad Session Leak Flaw Enabling Remote Code Execution",
-        "date": "Thu, 08 Oct 2026 14:27:11 +0000",
-        "url": "https://cybersecuritynews.com/poc-released-for-zammad-session-leak-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "A public PoC targets a critical Zammad flaw, CVE-2026-102489, allowing unauthenticated remote users to steal active session cookies and potentially execute code on vulnerable servers. The issue was as",
         "cve": []
     },
     {
