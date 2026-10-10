@@ -1,5 +1,29 @@
 [
     {
+        "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+        "date": "Sat, 10 Oct 2026 11:07:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+        "source": "BleepingComputer",
+        "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on th",
+        "cve": []
+    },
+    {
+        "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+        "date": "Sat, 10 Oct 2026 10:16:17 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+        "source": "BleepingComputer",
+        "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+        "cve": []
+    },
+    {
+        "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+        "date": "Sat, 10 Oct 2026 08:30:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+        "source": "BleepingComputer",
+        "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that conn",
+        "cve": []
+    },
+    {
         "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
         "date": "Fri, 09 Oct 2026 16:31:37 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
@@ -56,27 +80,19 @@
         "cve": []
     },
     {
-        "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
-        "date": "Fri, 09 Oct 2026 06:12:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft says devices running unsupported versions of Windows will stop receiving security updates after next year's Windows Update certificate rotation. [...]",
+        "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+        "date": "Sat, 10 Oct 2026 16:30:00 +0530",
+        "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+        "source": "The Hacker News",
+        "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to i",
         "cve": []
     },
     {
-        "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
-        "date": "Fri, 09 Oct 2026 04:27:42 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
-        "source": "BleepingComputer",
-        "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions",
-        "cve": []
-    },
-    {
-        "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
-        "date": "Fri, 09 Oct 2026 01:41:04 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-        "source": "BleepingComputer",
-        "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
+        "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+        "date": "Sat, 10 Oct 2026 14:48:45 +0530",
+        "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+        "source": "The Hacker News",
+        "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misa",
         "cve": []
     },
     {
@@ -144,19 +160,35 @@
         "cve": []
     },
     {
-        "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-        "date": "Fri, 09 Oct 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-        "source": "The Hacker News",
-        "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Securit",
+        "title": "REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything",
+        "date": "Sat, 10 Oct 2026 08:08:45 +0000",
+        "url": "https://cybersecuritynews.com/reverse-engineer-anything-tool/",
+        "source": "CyberSecurityNews",
+        "summary": "REA, short for Reverse Engineer Anything, connects AI coding agents such as Claude Code and Cursor to tools that inspect software without its source code. The open-source project brings Ghidra, IDA Pr",
         "cve": []
     },
     {
-        "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
-        "date": "Fri, 09 Oct 2026 14:33:24 +0530",
-        "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-        "source": "The Hacker News",
-        "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then t",
+        "title": "One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials",
+        "date": "Sat, 10 Oct 2026 06:58:38 +0000",
+        "url": "https://cybersecuritynews.com/agentcorruption-attack/",
+        "source": "CyberSecurityNews",
+        "summary": "A single prompt sent to a public-facing AI agent could have exposed every Amazon Bedrock AgentCore agent in the same AWS account and region, according to new research from Zenity Labs. The attack chai",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes",
+        "date": "Sat, 10 Oct 2026 05:49:32 +0000",
+        "url": "https://cybersecuritynews.com/teams-qr-code-protection/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is extending Teams security to detect malicious links hidden inside QR codes and warn users after a message has been delivered. The update adds QR code checks to existing Microsoft Defender ",
+        "cve": []
+    },
+    {
+        "title": "AT&T to Pay $177 Million After Two Massive Customer Data Breaches",
+        "date": "Sat, 10 Oct 2026 04:57:38 +0000",
+        "url": "https://cybersecuritynews.com/att-to-pay-177-million/",
+        "source": "CyberSecurityNews",
+        "summary": "AT&#38;T will pay $177 million to settle lawsuits over two major customer data breaches disclosed in 2024, after a federal judge granted final approval on October 2, 2026. The agreement covers separat",
         "cve": []
     },
     {
@@ -208,39 +240,7 @@
         "cve": []
     },
     {
-        "title": "Warden Stealer Spreads Through ClickFix, Malvertising, Cracked Software and Game Cheats",
-        "date": "Fri, 09 Oct 2026 12:32:02 +0000",
-        "url": "https://cybersecuritynews.com/warden-stealer/",
-        "source": "CyberSecurityNews",
-        "summary": "A fast-growing Windows information stealer called Warden Stealer is being spread through ClickFix lures, malicious advertisements, cracked software downloads, and fake game cheats. The malware is sold",
-        "cve": []
-    },
-    {
-        "title": "MATCHBOIL Malware Uses Cloudflare-Hidden C2 Servers to Deliver Backdoor Payloads",
-        "date": "Fri, 09 Oct 2026 10:10:47 +0000",
-        "url": "https://cybersecuritynews.com/matchboil-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "MATCHBOIL, a C# malware downloader linked to UAC-0099, uses command-and-control (C2) servers hidden behind Cloudflare to deliver backdoor payloads. Its changing code shows how the group has moved from",
-        "cve": []
-    },
-    {
-        "title": "PoC Released for Telegram Desktop Flaw Enabling One-Click File Account Takeover",
-        "date": "Fri, 09 Oct 2026 09:54:02 +0000",
-        "url": "https://cybersecuritynews.com/poc-released-for-telegram-desktop-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "A public proof of concept has exposed a flaw in Telegram Desktop that could let attackers steal local files and take over accounts after a user clicks a crafted external link. Tracked as CVE-2026-1071",
-        "cve": []
-    },
-    {
-        "title": "Top 10 Best Container Image Scanning Tools in 2026 [Ranked & Scored]",
-        "date": "Fri, 09 Oct 2026 09:28:55 +0000",
-        "url": "https://cybersecuritynews.com/best-container-image-scanning-tools/",
-        "source": "CyberSecurityNews",
-        "summary": "Every image scan returns hundreds of CVEs; the question is which ten your containers actually execute and which base image would zero the list entirely. We scored ten options with context and eliminat",
-        "cve": []
-    },
-    {
-        "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+        "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
         "date": "Sat, 10 Oct 2026 00:17:42 +0000",
         "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
         "source": "krebsonsecurity",
@@ -320,6 +320,54 @@
         "cve": []
     },
     {
+        "title": "GhostAction Hackers Compromise 500+ GitHub Accounts to Steal Cloud and AI API Credentials",
+        "date": "Sat, 10 Oct 2026 09:02:37 +0000",
+        "url": "https://gbhackers.com/ghostaction-hackers-compromise-500-github-accounts-to-steal-cloud-and-ai-api-credentials/",
+        "source": "GBHackers",
+        "summary": "A new GhostAction campaign has expanded to more than 500 compromised GitHub accounts and has injected malicious workflows into tens of thousands of repositories since October 7, 2026. Socket’s October",
+        "cve": []
+    },
+    {
+        "title": "Iranian VPN-over-DNS Activity Generates 40 Billion DNS Observations During Military Conflict",
+        "date": "Sat, 10 Oct 2026 07:50:12 +0000",
+        "url": "https://gbhackers.com/iranian-vpn-over-dns-activity-generates-40-billion/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed unprecedented surge in suspected Iranian VPN-over-DNS activity, with one domain generating 40 billion passive DNS observations within days. Published October 9, 2026, the investigati",
+        "cve": []
+    },
+    {
+        "title": "DarkBlinders Hackers Use Fake Meeting App to Deploy Backdoor and Steal Government Data",
+        "date": "Sat, 10 Oct 2026 07:39:56 +0000",
+        "url": "https://gbhackers.com/darkblinders-hackers-use-fake-meeting-app/",
+        "source": "GBHackers",
+        "summary": "DarkBlinders hackers are deploying a fake video meeting application and abusing GitHub repositories in a cyberespionage campaign targeting Israel and the Kurdistan Region of Iraq. Dream researchers ob",
+        "cve": []
+    },
+    {
+        "title": "Two AhsayCBS Zero-Day Vulnerabilities Actively Exploited to Take Over Backup Servers",
+        "date": "Sat, 10 Oct 2026 07:27:33 +0000",
+        "url": "https://gbhackers.com/two-ahsaycbs-zero-day-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Threat actors are exploiting two zero-day vulnerabilities in Ahsay Cloud Backup Server (AhsayCBS) to compromise exposed backup servers without authentication and execute commands with SYSTEM privilege",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use AI Agents and GodPotato Exploit to Gain Windows SYSTEM Privileges",
+        "date": "Sat, 10 Oct 2026 07:16:30 +0000",
+        "url": "https://gbhackers.com/hackers-use-ai-agents-and-godpotato-exploit/",
+        "source": "GBHackers",
+        "summary": "Hackers used AI agents to turn an exposed application endpoint into full administrative control of a server in under 24 hours. The intrusion involved hundreds of commands, credential theft, and Window",
+        "cve": []
+    },
+    {
+        "title": "AWS Bedrock AgentCore Flaw Allowed Attackers to Hijack AI Agents Using a Single Prompt",
+        "date": "Sat, 10 Oct 2026 06:59:42 +0000",
+        "url": "https://gbhackers.com/aws-bedrock-agentcore-flaw-allowed-attackers/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed attack chain in Amazon Bedrock AgentCore that could turn a single malicious prompt into credential theft and compromise of other AI agents within the same AWS account and region. Dub",
+        "cve": []
+    },
+    {
         "title": "React Server Components Vulnerability Lets Attackers Freeze Next.js Servers With a Single Request",
         "date": "Fri, 09 Oct 2026 12:22:52 +0000",
         "url": "https://gbhackers.com/react-server-components-vulnerability/",
@@ -349,54 +397,6 @@
         "url": "https://gbhackers.com/terraform-supply-chain/",
         "source": "GBHackers",
         "summary": "A campaign in July 2026 using a trojanized Terraform provider to deploy cross-platform malware against developer environments. The operation delivers FLATROOF for credential theft and initial access, ",
-        "cve": []
-    },
-    {
-        "title": "12 Best Software Supply Chain Security Tools Compared (2026): Features & Pricing",
-        "date": "Fri, 09 Oct 2026 08:37:45 +0000",
-        "url": "https://gbhackers.com/best-supply-chain-security-compared/",
-        "source": "GBHackers",
-        "summary": "Chainguard leads the eliminate-the-problem lane with hardened zero-CVE images, Sonatype the block-at-ingestion lane, and Scribe/Lineaje the provenance-attestation frontier. Selecting the best containe",
-        "cve": []
-    },
-    {
-        "title": "11 Best API Security Tools Compared (2026): Features & Pricing",
-        "date": "Fri, 09 Oct 2026 08:28:11 +0000",
-        "url": "https://gbhackers.com/best-api-security-compared/",
-        "source": "GBHackers",
-        "summary": "Salt Security and Traceable anchor dedicated discovery-plus-runtime defense, 42Crunch owns design-time contract security, and the edge giants (Akamai with Noname inside, Cloudflare, Imperva) bundle th",
-        "cve": []
-    },
-    {
-        "title": "FBI Disrupts Major Scam Centers in Ghana, 130+ Detained and 300+ Devices Seized",
-        "date": "Fri, 09 Oct 2026 08:25:24 +0000",
-        "url": "https://gbhackers.com/fbi-disrupts-major-scam-centers-in-ghana/",
-        "source": "GBHackers",
-        "summary": "The FBI has announced another disruption of scam centers in Ghana as part of Operation Blackout, resulting in the arrest or detention of over 130 individuals and the seizure of more than 300 devices. ",
-        "cve": []
-    },
-    {
-        "title": "Warden Stealer Malware Targets Claude, Codex, Grok and Cursor to Steal AI Agent Data",
-        "date": "Fri, 09 Oct 2026 08:06:32 +0000",
-        "url": "https://gbhackers.com/warden-stealer-malware/",
-        "source": "GBHackers",
-        "summary": "Warden Stealer as a rapidly growing malware-as-a-service operation targeting data stored by AI assistants and coding agents, including Claude, Codex, Grok, and Cursor. The Rust-based infostealer is am",
-        "cve": []
-    },
-    {
-        "title": "Hackers Target Hikvision Cameras in Ukraine With RCE Exploits Amid Russian Airstrikes",
-        "date": "Fri, 09 Oct 2026 08:04:15 +0000",
-        "url": "https://gbhackers.com/hackers-target-hikvision-cameras-in-ukraine/",
-        "source": "GBHackers",
-        "summary": "Hackers targeted Hikvision surveillance devices in Ukraine during a concentrated surge of remote command execution attempts that coincided with Russian missile and drone strikes. GreyNoise documented ",
-        "cve": []
-    },
-    {
-        "title": "MATCHBOIL Malware Adds Sandbox Checks, .NET Reactor Obfuscation and Persistent C2",
-        "date": "Fri, 09 Oct 2026 06:44:33 +0000",
-        "url": "https://gbhackers.com/matchboil-malware/",
-        "source": "GBHackers",
-        "summary": "MATCHBOIL’s evolution from a basic C# downloader into a more evasive implant supporting recurring command-and-control communication. Operated by UAC-0099, the malware now incorporates sandbox checks, ",
         "cve": []
     }
 ]
