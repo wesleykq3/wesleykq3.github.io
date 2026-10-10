@@ -1,5 +1,13 @@
 [
     {
+        "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+        "date": "Fri, 09 Oct 2026 16:31:37 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
+        "cve": []
+    },
+    {
         "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
         "date": "Fri, 09 Oct 2026 13:17:23 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
@@ -72,11 +80,19 @@
         "cve": []
     },
     {
-        "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
-        "date": "Thu, 08 Oct 2026 17:42:51 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
-        "source": "BleepingComputer",
-        "summary": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructur",
+        "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+        "date": "Sat, 10 Oct 2026 00:44:28 +0530",
+        "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 34",
+        "cve": []
+    },
+    {
+        "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+        "date": "Fri, 09 Oct 2026 23:15:26 +0530",
+        "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+        "source": "The Hacker News",
+        "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X.\n\nShinyHunters is the extortion group that said in September it had",
         "cve": []
     },
     {
@@ -141,22 +157,6 @@
         "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
         "source": "The Hacker News",
         "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then t",
-        "cve": []
-    },
-    {
-        "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-        "date": "Fri, 09 Oct 2026 13:56:17 +0530",
-        "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-        "source": "The Hacker News",
-        "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show ",
-        "cve": []
-    },
-    {
-        "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-        "date": "Fri, 09 Oct 2026 13:41:33 +0530",
-        "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-        "source": "The Hacker News",
-        "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain con",
         "cve": []
     },
     {
@@ -240,6 +240,14 @@
         "cve": []
     },
     {
+        "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+        "date": "Sat, 10 Oct 2026 00:17:42 +0000",
+        "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+        "source": "krebsonsecurity",
+        "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that ",
+        "cve": []
+    },
+    {
         "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
         "date": "Wed, 07 Oct 2026 13:48:45 +0000",
         "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
@@ -309,14 +317,6 @@
         "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
         "source": "krebsonsecurity",
         "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploite",
-        "cve": []
-    },
-    {
-        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-        "date": "Thu, 06 Aug 2026 17:00:56 +0000",
-        "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-        "source": "krebsonsecurity",
-        "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organiz",
         "cve": []
     },
     {
