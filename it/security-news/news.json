@@ -160,86 +160,6 @@
         "cve": []
     },
     {
-        "title": "REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything",
-        "date": "Sat, 10 Oct 2026 08:08:45 +0000",
-        "url": "https://cybersecuritynews.com/reverse-engineer-anything-tool/",
-        "source": "CyberSecurityNews",
-        "summary": "REA, short for Reverse Engineer Anything, connects AI coding agents such as Claude Code and Cursor to tools that inspect software without its source code. The open-source project brings Ghidra, IDA Pr",
-        "cve": []
-    },
-    {
-        "title": "One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials",
-        "date": "Sat, 10 Oct 2026 06:58:38 +0000",
-        "url": "https://cybersecuritynews.com/agentcorruption-attack/",
-        "source": "CyberSecurityNews",
-        "summary": "A single prompt sent to a public-facing AI agent could have exposed every Amazon Bedrock AgentCore agent in the same AWS account and region, according to new research from Zenity Labs. The attack chai",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes",
-        "date": "Sat, 10 Oct 2026 05:49:32 +0000",
-        "url": "https://cybersecuritynews.com/teams-qr-code-protection/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft is extending Teams security to detect malicious links hidden inside QR codes and warn users after a message has been delivered. The update adds QR code checks to existing Microsoft Defender ",
-        "cve": []
-    },
-    {
-        "title": "AT&T to Pay $177 Million After Two Massive Customer Data Breaches",
-        "date": "Sat, 10 Oct 2026 04:57:38 +0000",
-        "url": "https://cybersecuritynews.com/att-to-pay-177-million/",
-        "source": "CyberSecurityNews",
-        "summary": "AT&#38;T will pay $177 million to settle lawsuits over two major customer data breaches disclosed in 2024, after a federal judge granted final approval on October 2, 2026. The agreement covers separat",
-        "cve": []
-    },
-    {
-        "title": "AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
-        "date": "Fri, 09 Oct 2026 17:15:43 +0000",
-        "url": "https://cybersecuritynews.com/anydesk-linux-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A working proof-of-concept for a serious AnyDesk Linux vulnerability that can let remote attackers run commands as root without authentication or user approval. The issue, named AnyPwn, affects AnyDes",
-        "cve": []
-    },
-    {
-        "title": "New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets",
-        "date": "Fri, 09 Oct 2026 16:38:01 +0000",
-        "url": "https://cybersecuritynews.com/ghostaction-github-repo-attack/",
-        "source": "CyberSecurityNews",
-        "summary": "A new GhostAction campaign has compromised 346 GitHub repositories after threat actors used two hijacked maintainer accounts to add a fake “security audit” workflow designed to steal CI/CD secrets, cl",
-        "cve": []
-    },
-    {
-        "title": "New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories",
-        "date": "Fri, 09 Oct 2026 16:06:56 +0000",
-        "url": "https://cybersecuritynews.com/agentic-ai-red-team-checklist/",
-        "source": "CyberSecurityNews",
-        "summary": "A free agentic AI red-team checklist offers 222 tests across 20 attack categories to assess autonomous AI systems beyond prompt injection, covering infrastructure, cloud access, tools, memory, and age",
-        "cve": []
-    },
-    {
-        "title": "CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access",
-        "date": "Fri, 09 Oct 2026 14:47:33 +0000",
-        "url": "https://cybersecuritynews.com/castlestealer-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "CastleStealer, an emerging C#-based information stealer, has added browser protection bypass and remote shell features that give its operators a wider path into compromised Windows systems. The newer ",
-        "cve": []
-    },
-    {
-        "title": "Cisco Talos Warns Autonomous AI Agents Could Turn Pentests Into Stealthy Red Team Attacks",
-        "date": "Fri, 09 Oct 2026 14:29:13 +0000",
-        "url": "https://cybersecuritynews.com/autonomous-ai-agents-2/",
-        "source": "CyberSecurityNews",
-        "summary": "Autonomous AI agents could move beyond noisy vulnerability scans and become quiet, persistent attackers, Cisco Talos has warned. The concern is not simply that AI can find security gaps faster. It is ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Abuse Trusted Terraform Workflows to Infect Developer Systems With Cross-Platform Malware",
-        "date": "Fri, 09 Oct 2026 13:20:21 +0000",
-        "url": "https://cybersecuritynews.com/hackers-abuse-trusted-terraform-workflows/",
-        "source": "CyberSecurityNews",
-        "summary": "A newly identified supply-chain campaign is abusing Terraform provider workflows to infect developer systems with malware built for macOS, Linux, and Windows. The activity uses a trojanized Terraform ",
-        "cve": []
-    },
-    {
         "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
         "date": "Sat, 10 Oct 2026 00:17:42 +0000",
         "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "GhostAction Hackers Compromise 500+ GitHub Accounts to Steal Cloud and AI API Credentials",
-        "date": "Sat, 10 Oct 2026 09:02:37 +0000",
-        "url": "https://gbhackers.com/ghostaction-hackers-compromise-500-github-accounts-to-steal-cloud-and-ai-api-credentials/",
-        "source": "GBHackers",
-        "summary": "A new GhostAction campaign has expanded to more than 500 compromised GitHub accounts and has injected malicious workflows into tens of thousands of repositories since October 7, 2026. Socket’s October",
+        "title": "Rolling Release Distros Superior To LTS Distros In The Patch-Heavy GenAI Era?",
+        "date": "Sat, 10 Oct 2026 11:27:12 -0400",
+        "url": "https://www.phoronix.com/news/Rolling-Releases-GenAI-Era",
+        "source": "Phoronix",
+        "summary": "As some interesting food for thought and weekend forum discussions, this week at the Linux Plumbers Conference in Prague, Qualcomm engineer Khem Raj questioned the relevance of Linux Long Term Support",
         "cve": []
     },
     {
-        "title": "Iranian VPN-over-DNS Activity Generates 40 Billion DNS Observations During Military Conflict",
-        "date": "Sat, 10 Oct 2026 07:50:12 +0000",
-        "url": "https://gbhackers.com/iranian-vpn-over-dns-activity-generates-40-billion/",
-        "source": "GBHackers",
-        "summary": "A newly disclosed unprecedented surge in suspected Iranian VPN-over-DNS activity, with one domain generating 40 billion passive DNS observations within days. Published October 9, 2026, the investigati",
+        "title": "Many Laptop & Gaming Handheld Support Improvements Coming For Linux 7.4",
+        "date": "Sat, 10 Oct 2026 09:40:51 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Laptops-Handhelds",
+        "source": "Phoronix",
+        "summary": "Many x86 platform driver improvements have been queuing ahead of the upcoming Linux 7.4 merge window to offer a variety of laptop and gaming handheld device improvements with this next kernel version.",
         "cve": []
     },
     {
-        "title": "DarkBlinders Hackers Use Fake Meeting App to Deploy Backdoor and Steal Government Data",
-        "date": "Sat, 10 Oct 2026 07:39:56 +0000",
-        "url": "https://gbhackers.com/darkblinders-hackers-use-fake-meeting-app/",
-        "source": "GBHackers",
-        "summary": "DarkBlinders hackers are deploying a fake video meeting application and abusing GitHub repositories in a cyberespionage campaign targeting Israel and the Kurdistan Region of Iraq. Dream researchers ob",
+        "title": "KNOD Progressing For Linux In-Kernel GPU Offloading For Network Packet Processing",
+        "date": "Sat, 10 Oct 2026 06:25:00 -0400",
+        "url": "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process",
+        "source": "Phoronix",
+        "summary": "A while back we covered KNOD as an experimental solution for in-kernel network offloading to AMD GPUs. The open-source KNOD project allows leveraging GPUs to handle packet processing in a very perform",
         "cve": []
     },
     {
-        "title": "Two AhsayCBS Zero-Day Vulnerabilities Actively Exploited to Take Over Backup Servers",
-        "date": "Sat, 10 Oct 2026 07:27:33 +0000",
-        "url": "https://gbhackers.com/two-ahsaycbs-zero-day-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "Threat actors are exploiting two zero-day vulnerabilities in Ahsay Cloud Backup Server (AhsayCBS) to compromise exposed backup servers without authentication and execute commands with SYSTEM privilege",
+        "title": "Linux Networking Diverts 50+ Fixes To Next Kernel, Still Bombarded With AI Fueled Churn",
+        "date": "Sat, 10 Oct 2026 06:11:36 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.3-rc7-Networking",
+        "source": "Phoronix",
+        "summary": "Ahead of the Linux 7.3-rc7 kernel due for release on Sunday, this week's batch of networking fixes were submitted and merged. The vast networking subsystem of wired and wireless drivers plus the vario",
         "cve": []
     },
     {
-        "title": "Hackers Use AI Agents and GodPotato Exploit to Gain Windows SYSTEM Privileges",
-        "date": "Sat, 10 Oct 2026 07:16:30 +0000",
-        "url": "https://gbhackers.com/hackers-use-ai-agents-and-godpotato-exploit/",
-        "source": "GBHackers",
-        "summary": "Hackers used AI agents to turn an exposed application endpoint into full administrative control of a server in under 24 hours. The intrusion involved hundreds of commands, credential theft, and Window",
+        "title": "KDE Plasma 6.8 Ready For Release Next Week, Sees Last Minute NVIDIA Fix",
+        "date": "Sat, 10 Oct 2026 06:00:51 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week",
+        "source": "Phoronix",
+        "summary": "KDE Plasma 6.8 is gearing up for its official debut next week in coinciding with the 30th anniversary since the KDE project began...",
         "cve": []
     },
     {
-        "title": "AWS Bedrock AgentCore Flaw Allowed Attackers to Hijack AI Agents Using a Single Prompt",
-        "date": "Sat, 10 Oct 2026 06:59:42 +0000",
-        "url": "https://gbhackers.com/aws-bedrock-agentcore-flaw-allowed-attackers/",
-        "source": "GBHackers",
-        "summary": "A newly disclosed attack chain in Amazon Bedrock AgentCore that could turn a single malicious prompt into credential theft and compromise of other AI agents within the same AWS account and region. Dub",
+        "title": "SQLite 3.54 Released With Faster Performance, Drops Windows XP Support",
+        "date": "Fri, 09 Oct 2026 20:41:04 -0400",
+        "url": "https://www.phoronix.com/news/SQLite-3.54-Released",
+        "source": "Phoronix",
+        "summary": "SQLite 3.54 released today for this wildly popular embedded SQL database engine used by countless applications and other software. With SQLite 3.54, support for Microsoft Windows XP and older is final",
         "cve": []
     },
     {
-        "title": "React Server Components Vulnerability Lets Attackers Freeze Next.js Servers With a Single Request",
-        "date": "Fri, 09 Oct 2026 12:22:52 +0000",
-        "url": "https://gbhackers.com/react-server-components-vulnerability/",
-        "source": "GBHackers",
-        "summary": "A security vulnerability has been identified in React Server Components deployments using specific vulnerable releases of React 19. An attacker can exploit this flaw to create a denial-of-service cond",
+        "title": "Ubuntu 26.10 To Include Desktop Images For RISC-V",
+        "date": "Fri, 09 Oct 2026 13:59:00 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-RISC-V-Desktop",
+        "source": "Phoronix",
+        "summary": "Ubuntu Linux ISOs for RISC-V 64-bit to date have just been the server/CLI version without any desktop environment pre-seeded. But with next week's Ubuntu 26.10 release, there will now be Ubuntu 26.10 ",
         "cve": []
     },
     {
-        "title": "CastleStealer Malware Bypasses Chromium ABE and Adds Remote Command Execution Capabilities",
-        "date": "Fri, 09 Oct 2026 11:38:32 +0000",
-        "url": "https://gbhackers.com/castlestealer-malware/",
-        "source": "GBHackers",
-        "summary": "CastleStealer, a C# information stealer first publicly identified in April 2026, has expanded its capabilities beyond credential theft. New samples analyzed by Flashpoint bypass Chromium app-bound enc",
+        "title": "Valve's Proton 11.0-2e Released To Fix EA App Issues",
+        "date": "Fri, 09 Oct 2026 13:56:40 -0400",
+        "url": "https://www.phoronix.com/news/Steam-Play-Proton-11.0-2e",
+        "source": "Phoronix",
+        "summary": "CodeWeavers working with Valve today released Proton 11.0-2e as their downstream of Wine that powers Steam Play for enjoying Windows games on Linux...",
         "cve": []
     },
     {
-        "title": "Cisco Talos Warns AI Agent Swarms Can Compress Cyberattacks From Months to Hours",
-        "date": "Fri, 09 Oct 2026 10:33:23 +0000",
-        "url": "https://gbhackers.com/ai-agent-swarms/",
-        "source": "GBHackers",
-        "summary": "Cisco Talos warns that coordinated AI agent swarms could radically shorten the time needed to run sophisticated cyberattacks, compressing operations that traditionally require months of red-team plann",
+        "title": "Python 3.15 Released With Experimental JIT Compiler Running Faster",
+        "date": "Fri, 09 Oct 2026 10:58:00 -0400",
+        "url": "https://www.phoronix.com/news/Python-3.15-Released",
+        "source": "Phoronix",
+        "summary": "Python 3.15 is out today as the newest annual feature release for the Python programming language...",
         "cve": []
     },
     {
-        "title": "Suspected TraderTraitor Hackers Trojanize Terraform Provider to Deploy Cross-Platform Malware",
-        "date": "Fri, 09 Oct 2026 08:48:52 +0000",
-        "url": "https://gbhackers.com/terraform-supply-chain/",
-        "source": "GBHackers",
-        "summary": "A campaign in July 2026 using a trojanized Terraform provider to deploy cross-platform malware against developer environments. The operation delivers FLATROOF for credential theft and initial access, ",
+        "title": "AMD PerfOpt Boosting Prior-Gen Ryzen APU Performance For AI",
+        "date": "Fri, 09 Oct 2026 10:38:27 -0400",
+        "url": "https://www.phoronix.com/review/amd-perfopt-prior-gen",
+        "source": "Phoronix",
+        "summary": "Last week I ran benchmarks of the new AMD PerfOpt feature being introduced in Linux 7.4. In those PerfOpt benchmarks on current-gen AMD Ryzen AI APUs/SoCs the AI performance improved as much as 18~23%",
         "cve": []
     }
 ]
