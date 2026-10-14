@@ -1,5 +1,53 @@
 [
     {
+        "title": "Microsoft fixes VPN issues caused by September Windows updates",
+        "date": "Wed, 14 Oct 2026 10:27:01 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
+        "cve": []
+    },
+    {
+        "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+        "date": "Wed, 14 Oct 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+        "source": "BleepingComputer",
+        "summary": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining a",
+        "cve": []
+    },
+    {
+        "title": "Global takedown hits network behind 1 billion phishing messages",
+        "date": "Wed, 14 Oct 2026 09:12:52 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+        "source": "BleepingComputer",
+        "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partne",
+        "cve": []
+    },
+    {
+        "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+        "date": "Wed, 14 Oct 2026 08:58:07 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st.",
+        "cve": []
+    },
+    {
+        "title": "Hirudo Android malware replaces banking apps to evade security checks",
+        "date": "Wed, 14 Oct 2026 07:41:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+        "source": "BleepingComputer",
+        "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+        "date": "Wed, 14 Oct 2026 06:48:09 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enable",
+        "cve": []
+    },
+    {
         "title": "OpenAI engineer arrested for allegedly planting spy device in office",
         "date": "Tue, 13 Oct 2026 18:33:02 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
@@ -32,211 +80,171 @@
         "cve": []
     },
     {
-        "title": "Microsoft releases Windows 10 KB5126657 extended security update",
-        "date": "Tue, 13 Oct 2026 15:47:30 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
-        "date": "Tue, 13 Oct 2026 15:04:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
-        "cve": []
-    },
-    {
-        "title": "UK Housing Ombudsman Service investigates 'security incident'",
-        "date": "Tue, 13 Oct 2026 14:19:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
-        "source": "BleepingComputer",
-        "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
-        "cve": []
-    },
-    {
-        "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
-        "date": "Tue, 13 Oct 2026 13:49:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...",
-        "cve": []
-    },
-    {
-        "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
-        "date": "Tue, 13 Oct 2026 12:44:18 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
-        "source": "BleepingComputer",
-        "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
-        "cve": []
-    },
-    {
-        "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-        "date": "Tue, 13 Oct 2026 11:45:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
-        "cve": []
-    },
-    {
-        "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-        "date": "Tue, 13 Oct 2026 23:50:57 +0530",
-        "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+        "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+        "date": "Wed, 14 Oct 2026 18:00:42 +0530",
+        "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
         "source": "The Hacker News",
-        "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from ",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the ",
         "cve": []
     },
     {
-        "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-        "date": "Tue, 13 Oct 2026 23:33:18 +0530",
-        "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+        "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+        "date": "Wed, 14 Oct 2026 17:43:36 +0530",
+        "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
         "source": "The Hacker News",
-        "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it fou",
+        "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading m",
         "cve": []
     },
     {
-        "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-        "date": "Tue, 13 Oct 2026 23:03:11 +0530",
-        "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+        "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+        "date": "Wed, 14 Oct 2026 17:20:00 +0530",
+        "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
         "source": "The Hacker News",
-        "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released",
+        "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothi",
         "cve": []
     },
     {
-        "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-        "date": "Tue, 13 Oct 2026 22:58:50 +0530",
-        "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+        "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+        "date": "Wed, 14 Oct 2026 16:49:02 +0530",
+        "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
         "source": "The Hacker News",
-        "summary": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw a",
+        "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\n\nIts researc",
         "cve": []
     },
     {
-        "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-        "date": "Tue, 13 Oct 2026 21:48:18 +0530",
-        "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+        "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+        "date": "Wed, 14 Oct 2026 16:38:22 +0530",
+        "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
         "source": "The Hacker News",
-        "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a d",
+        "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass se",
         "cve": []
     },
     {
-        "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-        "date": "Tue, 13 Oct 2026 18:42:32 +0530",
-        "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+        "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+        "date": "Wed, 14 Oct 2026 16:30:00 +0530",
+        "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
         "source": "The Hacker News",
-        "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.",
+        "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part.\n\nTL;DR\n\n\n  During an authorized assessment, an AI pentesting agent found a cr",
         "cve": []
     },
     {
-        "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-        "date": "Tue, 13 Oct 2026 17:27:06 +0530",
-        "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+        "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+        "date": "Wed, 14 Oct 2026 13:16:57 +0530",
+        "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
         "source": "The Hacker News",
-        "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\n\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and p",
+        "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted vi",
         "cve": []
     },
     {
-        "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-        "date": "Tue, 13 Oct 2026 16:39:10 +0530",
-        "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+        "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+        "date": "Wed, 14 Oct 2026 11:22:28 +0530",
+        "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
         "source": "The Hacker News",
-        "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix,",
+        "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an i",
         "cve": []
     },
     {
-        "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-        "date": "Tue, 13 Oct 2026 16:00:00 +0530",
-        "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+        "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+        "date": "Wed, 14 Oct 2026 10:04:43 +0530",
+        "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
         "source": "The Hacker News",
-        "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed.\n\nA developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed program",
+        "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation.\n\nThese include 1,10",
         "cve": []
     },
     {
-        "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-        "date": "Tue, 13 Oct 2026 14:18:41 +0530",
-        "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+        "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+        "date": "Wed, 14 Oct 2026 07:29:25 +0530",
+        "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
         "source": "The Hacker News",
-        "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.\n\nThe",
+        "summary": "A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sen",
         "cve": []
     },
     {
-        "title": "Microsoft Fixes 1,118 Vulnerabilities in October Patch Tuesday and Introduces New Risk Cohorts",
-        "date": "Tue, 13 Oct 2026 18:19:38 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/",
+        "title": "Microsoft’s October Windows Updates Break Remote Desktop Services",
+        "date": "Wed, 14 Oct 2026 15:51:38 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-october-update-remote-desktop/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft’s October 2026 Patch Tuesday briefing outlines 1,118 vulnerabilities across 15 risk groups, alongside a new approach designed to help security teams review large update releases. Called risk",
+        "summary": "Microsoft released an out-of-band Windows update on September 14, 2026, to fix problems introduced by its September 8 security updates. The release addresses Remote Desktop Services failures, missing ",
         "cve": []
     },
     {
-        "title": "Critical FortiSandbox GUI Vulnerability Allows Remote Attackers to Bypass Authentication",
-        "date": "Tue, 13 Oct 2026 17:54:42 +0000",
-        "url": "https://cybersecuritynews.com/fortisandbox-gui-vulnerability/",
+        "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
+        "date": "Wed, 14 Oct 2026 14:08:23 +0000",
+        "url": "https://cybersecuritynews.com/fake-watchguard-vpn/",
         "source": "CyberSecurityNews",
-        "summary": "Fortinet disclosed a critical authentication-bypass vulnerability in the FortiSandbox graphical user interface that could let remote attackers access protected functions without valid credentials. Tra",
+        "summary": "Hackers used a fake WatchGuard VPN download website to steal login details before offering visitors the real, digitally signed VPN installer. The attack collected a VPN server address, username, and p",
         "cve": []
     },
     {
-        "title": "TFG London Cyberattack Disrupts IT Systems Used by Phase Eight, Hobbs, and Whistles Brands",
-        "date": "Tue, 13 Oct 2026 17:26:27 +0000",
-        "url": "https://cybersecuritynews.com/tfg-london-cyberattack/",
+        "title": "Meta, Google, Microsoft and OpenAI Join Global Crackdown on West African Scam Networks",
+        "date": "Wed, 14 Oct 2026 13:44:57 +0000",
+        "url": "https://cybersecuritynews.com/west-african-scam-networks/",
         "source": "CyberSecurityNews",
-        "summary": "TFG London has confirmed a cyberattack that disrupted IT systems supporting Phase Eight, Hobbs, and Whistles. South Africa’s The Foschini Group detected the incident on October 11, 2026, and disclosed",
+        "summary": "Meta, Google, Microsoft and OpenAI joined an international crackdown on West African scam networks that removed more than 3.7 million Facebook and Instagram accounts, pages and groups. Announced on Oc",
         "cve": []
     },
     {
-        "title": "Critical Docker Hub Flaw Lets Attackers Impersonate Users and Push Container Images",
-        "date": "Tue, 13 Oct 2026 16:55:34 +0000",
-        "url": "https://cybersecuritynews.com/docker-hub-vulnerability/",
+        "title": "PoC Released for Linux Vhost Flaw Enabling Root Privilege Escalation and VM Escape",
+        "date": "Wed, 14 Oct 2026 13:19:35 +0000",
+        "url": "https://cybersecuritynews.com/poc-released-for-linux-vhost-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "Docker has disclosed a critical Docker Hub vulnerability that could let attackers impersonate other users and publish container images under trusted names. Tracked as CVE-2026-105445, the flaw affecte",
+        "summary": "A public proof of concept for Vghost, a high-severity Linux vhost flaw tracked as CVE-2026-74580, shows how the bug can let a local user gain root access or, in certain virtual machine setups, break o",
         "cve": []
     },
     {
-        "title": "CrowdStrike Joins Anthropic Defense Program to Advance AI-powered Defense for Critical Infrastructure",
-        "date": "Tue, 13 Oct 2026 16:49:50 +0000",
-        "url": "https://cybersecuritynews.com/crowdstrike-joins-anthropic-defense-program/",
+        "title": "FBI Disrupts North Korean Famous Chollima Laptop Farms Used to Infiltrate U.S. Companies",
+        "date": "Wed, 14 Oct 2026 12:37:23 +0000",
+        "url": "https://cybersecuritynews.com/famous-chollima/",
         "source": "CyberSecurityNews",
-        "summary": "CrowdStrike has joined Anthropic’s Critical Infrastructure Defense Program to help strengthen AI-powered cybersecurity across energy, water, manufacturing, and transportation systems. Announced on Oct",
+        "summary": "The FBI disrupted several U.S. laptop farms used by North Korean threat group FAMOUS CHOLLIMA in late September 2026, cutting off infrastructure that helped fake remote workers enter American companie",
         "cve": []
     },
     {
-        "title": "Zoom Clients for Certificate Validation Flaw Exposes Sensitive Information via Network Access",
-        "date": "Tue, 13 Oct 2026 16:15:16 +0000",
-        "url": "https://cybersecuritynews.com/zoom-certificate-validation-flaw/",
+        "title": "VirusTotal Integrates Threat Intelligence With ChatGPT for Malware Analysis",
+        "date": "Wed, 14 Oct 2026 10:45:17 +0000",
+        "url": "https://cybersecuritynews.com/virustotal-chatgpt-integration/",
         "source": "CyberSecurityNews",
-        "summary": "Two high-severity certificate validation flaws in Zoom clients could allow attackers without login credentials to access sensitive information over a network, according to advisory text dated October ",
+        "summary": "VirusTotal can now bring threat intelligence into ChatGPT through VirusTotal AI (VTAI), allowing users to investigate suspicious files, URLs, domains, and IP addresses within a conversation. The conne",
         "cve": []
     },
     {
-        "title": "Ivanti Connect Secure 0-Day Vulnerability Actively Exploited in the Wild",
-        "date": "Tue, 13 Oct 2026 15:55:26 +0000",
-        "url": "https://cybersecuritynews.com/ivanti-connect-secure-zero-day/",
+        "title": "Google Awarded $250,000 Bounty for a Full-chain Chrome Exploit Found Using GPT-5.6",
+        "date": "Wed, 14 Oct 2026 09:37:45 +0000",
+        "url": "https://cybersecuritynews.com/google-chrome-exploit-gpt-5-6/",
         "source": "CyberSecurityNews",
-        "summary": "Ivanti has disclosed an actively exploited zero-day vulnerability in Ivanti Connect Secure (ICS) that allows remote attackers to execute arbitrary commands without logging in. Tracked as CVE-2026-1049",
+        "summary": "Security researchers earned a $250,000 reward from Google after building a full-chain Chrome exploit with AI agents. The XBOW team says the work took six days and about $40,000 in computing costs, usi",
         "cve": []
     },
     {
-        "title": "Danfoss Refrigeration Hack Update – 4,980 Hosts Found Exposed to Internet",
-        "date": "Tue, 13 Oct 2026 15:49:00 +0000",
-        "url": "https://cybersecuritynews.com/danfoss-refrigeration-hack-exposed-hosts/",
+        "title": "Windows SmartScreen Vulnerability Enables Privilege Escalation Attacks",
+        "date": "Wed, 14 Oct 2026 09:28:05 +0000",
+        "url": "https://cybersecuritynews.com/windows-smartscreen-escalation-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "France accounts for more than half of the internet-facing hosts found in a Shodan search for Danfoss web pages, following a cyberattack that disrupted supermarket refrigeration systems. An update from",
+        "summary": "Microsoft has released fixes for a Windows SmartScreen vulnerability that allows an attacker with local access to gain higher privileges. Tracked as CVE-2026-85851, the flaw was disclosed on October 1",
         "cve": []
     },
     {
-        "title": "CISA Warns of Hackers Exploiting Two Citrix NetScaler 0-Days to Execute Code Remotely",
-        "date": "Tue, 13 Oct 2026 15:26:50 +0000",
-        "url": "https://cybersecuritynews.com/citrix-netscaler-zero-day-exploits/",
+        "title": "Coruna and DarkSword Exploit Kits Can Fully Compromise iPhones From a Single Web Visit",
+        "date": "Wed, 14 Oct 2026 09:26:22 +0000",
+        "url": "https://cybersecuritynews.com/coruna-and-darksword/",
         "source": "CyberSecurityNews",
-        "summary": "Threat actors are actively exploiting two critical zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances, allowing them to execute code remotely on exposed systems. The fla",
+        "summary": "Two powerful iPhone exploit kits, Coruna and DarkSword, show how a visit to a malicious or compromised website can put an outdated device at risk. The kits can link several software flaws together to ",
         "cve": []
     },
     {
-        "title": "Threat Intelligence Guide for US SOC Teams and CISOs: How to Choose the Right Solution",
-        "date": "Tue, 13 Oct 2026 15:02:20 +0000",
-        "url": "https://cybersecuritynews.com/threat-intelligence-guide/",
+        "title": "Hackers Breach Meta GitHub Repositories, Steal Source Code and Data of 1,500 People",
+        "date": "Wed, 14 Oct 2026 08:49:41 +0000",
+        "url": "https://cybersecuritynews.com/hackers-breach-meta-github-repositories/",
         "source": "CyberSecurityNews",
-        "summary": "Choosing an enterprise threat intelligence solution is about more than just data volume or integrations. The right provider should deliver relevant intelligence, fit existing workflows, and help secur",
+        "summary": "Hackers used an employee’s stolen credentials to access some of Meta’s GitHub repositories, taking product source code and personal information linked to roughly 1,500 people. Most affected individual",
+        "cve": []
+    },
+    {
+        "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+        "date": "Wed, 14 Oct 2026 14:22:49 +0000",
+        "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+        "source": "krebsonsecurity",
+        "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, dark",
         "cve": []
     },
     {
@@ -312,91 +320,85 @@
         "cve": []
     },
     {
-        "title": "Who’s Tracking You? Use This New Service to Find Out",
-        "date": "Fri, 14 Aug 2026 11:24:35 +0000",
-        "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-        "source": "krebsonsecurity",
-        "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but",
+        "title": "Ransomware Gangs Threaten Employees’ Families as AI-Powered Attacks Escalate",
+        "date": "Wed, 14 Oct 2026 13:53:14 +0000",
+        "url": "https://gbhackers.com/ransomware-gangs-threaten-employees-families/",
+        "source": "GBHackers",
+        "summary": "Ransomware operators are extending their extortion tactics beyond corporate networks by threatening employees&#8217; families and using artificial intelligence to enhance their attacks, according to t",
         "cve": []
     },
     {
-        "title": "Criminal IP to Showcase Threat Intelligence and AITEM at Security Days Fall 2026 Tokyo",
-        "date": "Tue, 13 Oct 2026 13:58:30 +0000",
-        "url": "https://gbhackers.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo/",
+        "title": "Google Pays $250,000 for AI-Assisted Chrome Exploit Enabling Windows Code Execution",
+        "date": "Wed, 14 Oct 2026 12:13:37 +0000",
+        "url": "https://gbhackers.com/google-pays-250000-for-ai-assisted-chrome-exploit/",
         "source": "GBHackers",
-        "summary": "Torrance, California, October 13th, 2026, CyberNewswire Criminal IP, developed by AI SPERA, will participate in Security Days Fall 2026 Tokyo, taking place October 21–23, 2026, at the TAKANAWA GATEWAY",
+        "summary": "Google has awarded XBOW $250,000 for creating an AI-assisted exploit chain that enabled code execution outside the Chrome browser’s renderer sandbox on Windows. This reward marks the first full-chain ",
         "cve": []
     },
     {
-        "title": "G2A.COM Reports 35% Growth in Security Software Orders, Outpacing VPN Growth",
-        "date": "Tue, 13 Oct 2026 13:56:25 +0000",
-        "url": "https://gbhackers.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth/",
+        "title": "Meta GitHub Repositories Compromised, Exposing Software Code and Employee Personal Data",
+        "date": "Wed, 14 Oct 2026 12:05:38 +0000",
+        "url": "https://gbhackers.com/meta-github-repositories-compromised/",
         "source": "GBHackers",
-        "summary": "Amsterdam, Netherlands, October 13th, 2026, CyberNewswire Antivirus and security software orders grow more than twice as fast as VPN orders, accounting for 43% of cybersecurity purchases on the market",
+        "summary": "Meta has revealed a breach of a GitHub repository that exposed software code and personal information belonging to about 1,500 individuals, most of whom are U.S. employees. The company began notifying",
         "cve": []
     },
     {
-        "title": "Hackers Target Hundreds of French Supermarkets, Heating Refrigeration Systems to 50°C",
-        "date": "Tue, 13 Oct 2026 13:29:39 +0000",
-        "url": "https://gbhackers.com/hackers-target-hundreds-of-french-supermarkets/",
+        "title": "Hackers Use Compromised Credentials to Infiltrate European Bank Through VPN",
+        "date": "Wed, 14 Oct 2026 10:52:29 +0000",
+        "url": "https://gbhackers.com/vpn-credential-compromise/",
         "source": "GBHackers",
-        "summary": "Hundreds of French supermarkets experienced refrigeration disruptions after hackers reportedly manipulated control systems overnight, destroying fresh and frozen food. Intermarché, Netto, Coopérative ",
+        "summary": "Hackers used compromised credentials to infiltrate a European bank through a misconfigured, third-party-managed VPN gateway, conducting months of reconnaissance and authentication attacks before endpo",
         "cve": []
     },
     {
-        "title": "SAP Patches Critical NetWeaver and S/4HANA Security Flaws Affecting Enterprise Systems",
-        "date": "Tue, 13 Oct 2026 13:14:43 +0000",
-        "url": "https://gbhackers.com/sap-patches-critical-netweaver-and-s-4hana-security-flaws/",
+        "title": "Windows Server Zero-Day Flaw Lets Attackers Crash Servers With a Single Malicious Packet",
+        "date": "Wed, 14 Oct 2026 10:17:18 +0000",
+        "url": "https://gbhackers.com/windows-server-zero-day-flaw/",
         "source": "GBHackers",
-        "summary": "SAP’s Security Patch Day on October 13, 2026, addresses critical vulnerabilities found in enterprise applications, integration platforms, and developer libraries. The October bulletin details the rele",
+        "summary": "Corelight researchers have disclosed a Windows Server vulnerability that lets attackers with network access crash affected systems with a single malicious DFS referral response. This vulnerability, tr",
         "cve": []
     },
     {
-        "title": "Attackers Can Hijack npm Packages Without Stealing Developer Credentials",
-        "date": "Tue, 13 Oct 2026 13:08:59 +0000",
-        "url": "https://gbhackers.com/npm-packages-hijacked/",
+        "title": "Google Chrome Update Fixes 37 Security Vulnerabilities, Including 7 Critical Flaws",
+        "date": "Wed, 14 Oct 2026 10:06:59 +0000",
+        "url": "https://gbhackers.com/google-chrome-update-fixes-37-security-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "A flaw in npm’s Trusted Publishing mechanism could let attackers publish malicious updates to legitimate packages without compromising a developer’s npm account, GitHub account, or publishing token. R",
+        "summary": "Google has released Chrome 155 for Windows, macOS, and Linux, addressing 37 security vulnerabilities, including seven critical flaws. Announced on October 13, 2026, this desktop update resolves weakne",
         "cve": []
     },
     {
-        "title": "Anthropic Warns AI Models Could Soon Self-Replicate Across Smart TVs and IoT Devices",
-        "date": "Tue, 13 Oct 2026 13:00:25 +0000",
-        "url": "https://gbhackers.com/anthropic-warns-ai-models/",
+        "title": "Fake WatchGuard VPN Site Steals Credentials Then Delivers Legitimate Signed Installer",
+        "date": "Wed, 14 Oct 2026 09:53:42 +0000",
+        "url": "https://gbhackers.com/fake-watchguard-vpn-site/",
         "source": "GBHackers",
-        "summary": "Anthropic researchers have raised concerns that small artificial intelligence models could soon replicate autonomously across consumer Internet of Things (IoT) devices. This development may lead to de",
+        "summary": "A WatchGuard VPN impersonation attack that steals connection credentials in the browser before delivering the vendor’s genuine, digitally signed installer. The campaign removes the malicious executabl",
         "cve": []
     },
     {
-        "title": "New macOS Malware Uses Fake System Prompts to Steal Passwords and Deploy RAT",
-        "date": "Tue, 13 Oct 2026 12:28:20 +0000",
-        "url": "https://gbhackers.com/macos-credential-stealing/",
+        "title": "Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges",
+        "date": "Wed, 14 Oct 2026 09:01:53 +0000",
+        "url": "https://gbhackers.com/windows-bitlocker-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "A newly marketed macOS malware-as-a-service platform, ICMacOS, is using fake Apple system dialogs to steal login passwords before deploying an information stealer that has evolved into a persistent re",
+        "summary": "Three Windows BitLocker vulnerabilities, as described in the provided advisory, could let attackers elevate privileges or bypass security protections under various access conditions. Microsoft is the ",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Citrix NetScaler Zero-Days to Deploy Modified Platypus Backdoor",
-        "date": "Tue, 13 Oct 2026 12:12:59 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-days/",
+        "title": "Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution",
+        "date": "Wed, 14 Oct 2026 08:42:19 +0000",
+        "url": "https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/",
         "source": "GBHackers",
-        "summary": "Threat actors are exploiting two critical zero-day vulnerabilities in Citrix NetScaler to deploy a modified version of the open-source Platypus remote administration framework on compromised Applicati",
-        "cve": []
+        "summary": "Ivanti released security updates for Ivanti Connect Secure (ICS) to address CVE-2026-104935, a high-severity authentication-bypass vulnerability. This vulnerability allows remote, unauthenticated atta",
+        "cve": [
+            "CVE-2026-104935"
+        ]
     },
     {
-        "title": "Researchers Discover 253 Security Vulnerabilities Across 343 AI Agent Tools in MCP Servers",
-        "date": "Tue, 13 Oct 2026 11:57:38 +0000",
-        "url": "https://gbhackers.com/researchers-discover-253-security-vulnerabilities/",
+        "title": "Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication",
+        "date": "Wed, 14 Oct 2026 08:30:47 +0000",
+        "url": "https://gbhackers.com/ivanti-vpn-zero-days/",
         "source": "GBHackers",
-        "summary": "Researchers have identified 253 verified security vulnerabilities affecting 343 AI agent tools across 118 Model Context Protocol (MCP) servers. These vulnerabilities expose weaknesses in how software ",
-        "cve": []
-    },
-    {
-        "title": "XWorm HBrowser Plugin Lets Attackers Control Authenticated Browser Sessions Without Credentials",
-        "date": "Tue, 13 Oct 2026 11:01:50 +0000",
-        "url": "https://gbhackers.com/xworm-hbrowser-plugin/",
-        "source": "GBHackers",
-        "summary": "XWorm’s HBrowser plugin gives attackers interactive control of authenticated browser sessions on infected endpoints, allowing them to operate accounts without stealing passwords or completing another ",
+        "summary": "Attackers chained three zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances to execute commands as root without authentication, then searched the affected network for credentials an",
         "cve": []
     }
 ]
