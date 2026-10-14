@@ -1,5 +1,53 @@
 [
     {
+        "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+        "date": "Tue, 13 Oct 2026 18:33:02 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+        "source": "BleepingComputer",
+        "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversat",
+        "cve": []
+    },
+    {
+        "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+        "date": "Tue, 13 Oct 2026 17:33:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+        "source": "BleepingComputer",
+        "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
+        "cve": []
+    },
+    {
+        "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+        "date": "Tue, 13 Oct 2026 17:16:34 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+        "source": "BleepingComputer",
+        "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI wor",
+        "cve": []
+    },
+    {
+        "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+        "date": "Tue, 13 Oct 2026 15:56:09 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+        "source": "BleepingComputer",
+        "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [",
+        "cve": []
+    },
+    {
+        "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+        "date": "Tue, 13 Oct 2026 15:47:30 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+        "date": "Tue, 13 Oct 2026 15:04:38 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
+        "cve": []
+    },
+    {
         "title": "UK Housing Ombudsman Service investigates 'security incident'",
         "date": "Tue, 13 Oct 2026 14:19:44 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
@@ -32,51 +80,35 @@
         "cve": []
     },
     {
-        "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-        "date": "Tue, 13 Oct 2026 11:20:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-        "source": "BleepingComputer",
-        "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
+        "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+        "date": "Tue, 13 Oct 2026 23:50:57 +0530",
+        "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+        "source": "The Hacker News",
+        "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from ",
         "cve": []
     },
     {
-        "title": "The MFA Gaps Attackers are Still Exploiting",
-        "date": "Tue, 13 Oct 2026 10:01:11 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
-        "source": "BleepingComputer",
-        "summary": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applicat",
+        "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+        "date": "Tue, 13 Oct 2026 23:33:18 +0530",
+        "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+        "source": "The Hacker News",
+        "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it fou",
         "cve": []
     },
     {
-        "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-        "date": "Tue, 13 Oct 2026 09:51:02 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
-        "source": "BleepingComputer",
-        "summary": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]",
+        "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+        "date": "Tue, 13 Oct 2026 23:03:11 +0530",
+        "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+        "source": "The Hacker News",
+        "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released",
         "cve": []
     },
     {
-        "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
-        "date": "Mon, 12 Oct 2026 16:13:52 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-        "source": "BleepingComputer",
-        "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr us",
-        "cve": []
-    },
-    {
-        "title": "Yandex confirms service outage as users lose access to cloud files",
-        "date": "Mon, 12 Oct 2026 15:23:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-        "source": "BleepingComputer",
-        "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
-        "cve": []
-    },
-    {
-        "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-        "date": "Mon, 12 Oct 2026 14:51:59 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-        "source": "BleepingComputer",
-        "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federa",
+        "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+        "date": "Tue, 13 Oct 2026 22:58:50 +0530",
+        "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+        "source": "The Hacker News",
+        "summary": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw a",
         "cve": []
     },
     {
@@ -128,35 +160,91 @@
         "cve": []
     },
     {
-        "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-        "date": "Tue, 13 Oct 2026 14:14:01 +0530",
-        "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-        "source": "The Hacker News",
-        "summary": "Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management privileges take administrator control of the server, the comp",
+        "title": "Microsoft Fixes 1,118 Vulnerabilities in October Patch Tuesday and Introduces New Risk Cohorts",
+        "date": "Tue, 13 Oct 2026 18:19:38 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft’s October 2026 Patch Tuesday briefing outlines 1,118 vulnerabilities across 15 risk groups, alongside a new approach designed to help security teams review large update releases. Called risk",
         "cve": []
     },
     {
-        "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-        "date": "Tue, 13 Oct 2026 14:13:37 +0530",
-        "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-        "source": "The Hacker News",
-        "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.\n\n\"GitLab has r",
+        "title": "Critical FortiSandbox GUI Vulnerability Allows Remote Attackers to Bypass Authentication",
+        "date": "Tue, 13 Oct 2026 17:54:42 +0000",
+        "url": "https://cybersecuritynews.com/fortisandbox-gui-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Fortinet disclosed a critical authentication-bypass vulnerability in the FortiSandbox graphical user interface that could let remote attackers access protected functions without valid credentials. Tra",
         "cve": []
     },
     {
-        "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-        "date": "Tue, 13 Oct 2026 11:30:11 +0530",
-        "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-        "source": "The Hacker News",
-        "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential",
+        "title": "TFG London Cyberattack Disrupts IT Systems Used by Phase Eight, Hobbs, and Whistles Brands",
+        "date": "Tue, 13 Oct 2026 17:26:27 +0000",
+        "url": "https://cybersecuritynews.com/tfg-london-cyberattack/",
+        "source": "CyberSecurityNews",
+        "summary": "TFG London has confirmed a cyberattack that disrupted IT systems supporting Phase Eight, Hobbs, and Whistles. South Africa’s The Foschini Group detected the incident on October 11, 2026, and disclosed",
         "cve": []
     },
     {
-        "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-        "date": "Mon, 12 Oct 2026 20:46:26 +0530",
-        "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-        "source": "The Hacker News",
-        "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone d",
+        "title": "Critical Docker Hub Flaw Lets Attackers Impersonate Users and Push Container Images",
+        "date": "Tue, 13 Oct 2026 16:55:34 +0000",
+        "url": "https://cybersecuritynews.com/docker-hub-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Docker has disclosed a critical Docker Hub vulnerability that could let attackers impersonate other users and publish container images under trusted names. Tracked as CVE-2026-105445, the flaw affecte",
+        "cve": []
+    },
+    {
+        "title": "CrowdStrike Joins Anthropic Defense Program to Advance AI-powered Defense for Critical Infrastructure",
+        "date": "Tue, 13 Oct 2026 16:49:50 +0000",
+        "url": "https://cybersecuritynews.com/crowdstrike-joins-anthropic-defense-program/",
+        "source": "CyberSecurityNews",
+        "summary": "CrowdStrike has joined Anthropic’s Critical Infrastructure Defense Program to help strengthen AI-powered cybersecurity across energy, water, manufacturing, and transportation systems. Announced on Oct",
+        "cve": []
+    },
+    {
+        "title": "Zoom Clients for Certificate Validation Flaw Exposes Sensitive Information via Network Access",
+        "date": "Tue, 13 Oct 2026 16:15:16 +0000",
+        "url": "https://cybersecuritynews.com/zoom-certificate-validation-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "Two high-severity certificate validation flaws in Zoom clients could allow attackers without login credentials to access sensitive information over a network, according to advisory text dated October ",
+        "cve": []
+    },
+    {
+        "title": "Ivanti Connect Secure 0-Day Vulnerability Actively Exploited in the Wild",
+        "date": "Tue, 13 Oct 2026 15:55:26 +0000",
+        "url": "https://cybersecuritynews.com/ivanti-connect-secure-zero-day/",
+        "source": "CyberSecurityNews",
+        "summary": "Ivanti has disclosed an actively exploited zero-day vulnerability in Ivanti Connect Secure (ICS) that allows remote attackers to execute arbitrary commands without logging in. Tracked as CVE-2026-1049",
+        "cve": []
+    },
+    {
+        "title": "Danfoss Refrigeration Hack Update – 4,980 Hosts Found Exposed to Internet",
+        "date": "Tue, 13 Oct 2026 15:49:00 +0000",
+        "url": "https://cybersecuritynews.com/danfoss-refrigeration-hack-exposed-hosts/",
+        "source": "CyberSecurityNews",
+        "summary": "France accounts for more than half of the internet-facing hosts found in a Shodan search for Danfoss web pages, following a cyberattack that disrupted supermarket refrigeration systems. An update from",
+        "cve": []
+    },
+    {
+        "title": "CISA Warns of Hackers Exploiting Two Citrix NetScaler 0-Days to Execute Code Remotely",
+        "date": "Tue, 13 Oct 2026 15:26:50 +0000",
+        "url": "https://cybersecuritynews.com/citrix-netscaler-zero-day-exploits/",
+        "source": "CyberSecurityNews",
+        "summary": "Threat actors are actively exploiting two critical zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances, allowing them to execute code remotely on exposed systems. The fla",
+        "cve": []
+    },
+    {
+        "title": "Threat Intelligence Guide for US SOC Teams and CISOs: How to Choose the Right Solution",
+        "date": "Tue, 13 Oct 2026 15:02:20 +0000",
+        "url": "https://cybersecuritynews.com/threat-intelligence-guide/",
+        "source": "CyberSecurityNews",
+        "summary": "Choosing an enterprise threat intelligence solution is about more than just data volume or integrations. The right provider should deliver relevant intelligence, fit existing workflows, and help secur",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Patches More Than 1,400 Security Flaws",
+        "date": "Tue, 13 Oct 2026 23:24:53 +0000",
+        "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+        "source": "krebsonsecurity",
+        "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 f",
         "cve": []
     },
     {
@@ -232,91 +320,83 @@
         "cve": []
     },
     {
-        "title": "Microsoft Plugs Nearly 400 Security Holes",
-        "date": "Tue, 11 Aug 2026 21:28:35 +0000",
-        "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-        "source": "krebsonsecurity",
-        "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploite",
+        "title": "Criminal IP to Showcase Threat Intelligence and AITEM at Security Days Fall 2026 Tokyo",
+        "date": "Tue, 13 Oct 2026 13:58:30 +0000",
+        "url": "https://gbhackers.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo/",
+        "source": "GBHackers",
+        "summary": "Torrance, California, October 13th, 2026, CyberNewswire Criminal IP, developed by AI SPERA, will participate in Security Days Fall 2026 Tokyo, taking place October 21–23, 2026, at the TAKANAWA GATEWAY",
         "cve": []
     },
     {
-        "title": "Framework Laptop 12 Offers Improved Performance & Efficiency With Intel Core 3 Wildcat Lake",
-        "date": "Tue, 13 Oct 2026 11:00:00 -0400",
-        "url": "https://www.phoronix.com/review/framework-laptop-12-wildcat-lake",
-        "source": "Phoronix",
-        "summary": "Last year Framework Computer launched the Framework Laptop 12 as a convertible, 2-in-1 laptop that was friendly with Linux and upgradeable inline with the beloved Framework Laptop 13 and 16 models. Th",
+        "title": "G2A.COM Reports 35% Growth in Security Software Orders, Outpacing VPN Growth",
+        "date": "Tue, 13 Oct 2026 13:56:25 +0000",
+        "url": "https://gbhackers.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth/",
+        "source": "GBHackers",
+        "summary": "Amsterdam, Netherlands, October 13th, 2026, CyberNewswire Antivirus and security software orders grow more than twice as fast as VPN orders, accounting for 43% of cybersecurity purchases on the market",
         "cve": []
     },
     {
-        "title": "Linux Kernel Developers Plan To Remove \"Assisted-By\" Tag Requirement For AI/LLM Usage",
-        "date": "Tue, 13 Oct 2026 09:28:54 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Dropping-Assisted-By-Req",
-        "source": "Phoronix",
-        "summary": "Currently there is a policy requirement for Linux kernel patches where AI tools contributed, they should be documented with an \"Assisted-by:\" tag to make clear AI was used in the creation of said patc",
+        "title": "Hackers Target Hundreds of French Supermarkets, Heating Refrigeration Systems to 50°C",
+        "date": "Tue, 13 Oct 2026 13:29:39 +0000",
+        "url": "https://gbhackers.com/hackers-target-hundreds-of-french-supermarkets/",
+        "source": "GBHackers",
+        "summary": "Hundreds of French supermarkets experienced refrigeration disruptions after hackers reportedly manipulated control systems overnight, destroying fresh and frozen food. Intermarché, Netto, Coopérative ",
         "cve": []
     },
     {
-        "title": "Firefox 159 Beta Released With Fix For Tabs On Wayland",
-        "date": "Tue, 13 Oct 2026 09:14:11 -0400",
-        "url": "https://www.phoronix.com/news/Firefox-159-Beta",
-        "source": "Phoronix",
-        "summary": "With Firefox 158 released, Firefox 159 is now in beta ahead of its official release in two weeks...",
+        "title": "SAP Patches Critical NetWeaver and S/4HANA Security Flaws Affecting Enterprise Systems",
+        "date": "Tue, 13 Oct 2026 13:14:43 +0000",
+        "url": "https://gbhackers.com/sap-patches-critical-netweaver-and-s-4hana-security-flaws/",
+        "source": "GBHackers",
+        "summary": "SAP’s Security Patch Day on October 13, 2026, addresses critical vulnerabilities found in enterprise applications, integration platforms, and developer libraries. The October bulletin details the rele",
         "cve": []
     },
     {
-        "title": "Linux Mint 27 Continues Working Toward Christmas Release With Many Features",
-        "date": "Tue, 13 Oct 2026 07:58:21 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Mint-27-Many-Features",
-        "source": "Phoronix",
-        "summary": "Linux Mint developers continue enjoying their relaxed release schedule in moving from a six to twelve month release cycle. Linux Mint 27 \"Adrien\" continues tracking for a Christmas release...",
+        "title": "Attackers Can Hijack npm Packages Without Stealing Developer Credentials",
+        "date": "Tue, 13 Oct 2026 13:08:59 +0000",
+        "url": "https://gbhackers.com/npm-packages-hijacked/",
+        "source": "GBHackers",
+        "summary": "A flaw in npm’s Trusted Publishing mechanism could let attackers publish malicious updates to legitimate packages without compromising a developer’s npm account, GitHub account, or publishing token. R",
         "cve": []
     },
     {
-        "title": "ONLYOFFICE 10.0 Released With AI Features, 1,000+ Bug Fixes",
-        "date": "Tue, 13 Oct 2026 07:43:23 -0400",
-        "url": "https://www.phoronix.com/news/ONLYOFFICE-10.0",
-        "source": "Phoronix",
-        "summary": "ONLYOFFICE 10.0 is now available for this open-source office suite alternative to the likes of LibreOffice...",
+        "title": "Anthropic Warns AI Models Could Soon Self-Replicate Across Smart TVs and IoT Devices",
+        "date": "Tue, 13 Oct 2026 13:00:25 +0000",
+        "url": "https://gbhackers.com/anthropic-warns-ai-models/",
+        "source": "GBHackers",
+        "summary": "Anthropic researchers have raised concerns that small artificial intelligence models could soon replicate autonomously across consumer Internet of Things (IoT) devices. This development may lead to de",
         "cve": []
     },
     {
-        "title": "NVIDIA's Nova Driver Continues Leading The Way For Linux Rust GPU Drivers",
-        "date": "Tue, 13 Oct 2026 06:28:11 -0400",
-        "url": "https://www.phoronix.com/news/NVIDIA-Nova-Linux-7.4-Changes",
-        "source": "Phoronix",
-        "summary": "The DRM Rust changes targeting the Linux 7.4 merge window have been submitted for pulling into DRM-Next ahead of that cycle kicking off (hopefully) next week. The NVIDIA Nova driver continues leading ",
+        "title": "New macOS Malware Uses Fake System Prompts to Steal Passwords and Deploy RAT",
+        "date": "Tue, 13 Oct 2026 12:28:20 +0000",
+        "url": "https://gbhackers.com/macos-credential-stealing/",
+        "source": "GBHackers",
+        "summary": "A newly marketed macOS malware-as-a-service platform, ICMacOS, is using fake Apple system dialogs to steal login passwords before deploying an information stealer that has evolved into a persistent re",
         "cve": []
     },
     {
-        "title": "Asterinas 0.19.0 Brings Up X.Org & Other Improvements To This Rust-Written OS",
-        "date": "Tue, 13 Oct 2026 06:14:11 -0400",
-        "url": "https://www.phoronix.com/news/Asterinas-0.19-Released",
-        "source": "Phoronix",
-        "summary": "Asterinas is the open-source project developing a Rust-based, memory-safe Linux alternative OS while striving for Linux software compatibility. Out now is Asterinas 0.19 as the project continues advan",
+        "title": "Hackers Exploit Citrix NetScaler Zero-Days to Deploy Modified Platypus Backdoor",
+        "date": "Tue, 13 Oct 2026 12:12:59 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-days/",
+        "source": "GBHackers",
+        "summary": "Threat actors are exploiting two critical zero-day vulnerabilities in Citrix NetScaler to deploy a modified version of the open-source Platypus remote administration framework on compromised Applicati",
         "cve": []
     },
     {
-        "title": "IREE 3.12 Introduces Rolls Out Rewritten Vulkan Driver, Experimental AMD HSA HAL",
-        "date": "Tue, 13 Oct 2026 06:00:22 -0400",
-        "url": "https://www.phoronix.com/news/IREE-3.12-Released",
-        "source": "Phoronix",
-        "summary": "Rolling out last week was a new version of IREE as the Intermediate Representation Execution Environment for MLIR-based end-to-end compiler and run-time for lowering machine learning models into a uni",
+        "title": "Researchers Discover 253 Security Vulnerabilities Across 343 AI Agent Tools in MCP Servers",
+        "date": "Tue, 13 Oct 2026 11:57:38 +0000",
+        "url": "https://gbhackers.com/researchers-discover-253-security-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Researchers have identified 253 verified security vulnerabilities affecting 343 AI agent tools across 118 Model Context Protocol (MCP) servers. These vulnerabilities expose weaknesses in how software ",
         "cve": []
     },
     {
-        "title": "FreeType 2.15 Released With Apple HVF Driver, ISO Open Font Format Edition 5",
-        "date": "Mon, 12 Oct 2026 20:24:04 -0400",
-        "url": "https://www.phoronix.com/news/FreeType-2.15-Released",
-        "source": "Phoronix",
-        "summary": "FreeType 2.15 is now available for this widely-used font rendering library used across many different operating systems and software applications...",
-        "cve": []
-    },
-    {
-        "title": "Intel Announces The GPU D Series For Crescent Island",
-        "date": "Mon, 12 Oct 2026 16:53:30 -0400",
-        "url": "https://www.phoronix.com/news/Intel-GPU-D-Series",
-        "source": "Phoronix",
-        "summary": "Intel announced today the GPU D Series for the enterprise-focused, inference-optimized GPU accelerators known to now as Crescent Island...",
+        "title": "XWorm HBrowser Plugin Lets Attackers Control Authenticated Browser Sessions Without Credentials",
+        "date": "Tue, 13 Oct 2026 11:01:50 +0000",
+        "url": "https://gbhackers.com/xworm-hbrowser-plugin/",
+        "source": "GBHackers",
+        "summary": "XWorm’s HBrowser plugin gives attackers interactive control of authenticated browser sessions on infected endpoints, allowing them to operate accounts without stealing passwords or completing another ",
         "cve": []
     }
 ]
