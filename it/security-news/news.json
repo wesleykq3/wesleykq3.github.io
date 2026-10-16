@@ -1,5 +1,37 @@
 [
     {
+        "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+        "date": "Thu, 15 Oct 2026 16:25:04 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+        "source": "BleepingComputer",
+        "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+        "cve": []
+    },
+    {
+        "title": "Android gets AI defenses against messaging scams, fake calls",
+        "date": "Thu, 15 Oct 2026 15:48:43 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+        "source": "BleepingComputer",
+        "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+        "date": "Thu, 15 Oct 2026 14:20:59 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+        "source": "BleepingComputer",
+        "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
+        "cve": []
+    },
+    {
+        "title": "Fake Arch Linux packages push malware with root privileges",
+        "date": "Thu, 15 Oct 2026 13:12:31 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+        "source": "BleepingComputer",
+        "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
+        "cve": []
+    },
+    {
         "title": "Is AI pentesting as good as a human pentester?",
         "date": "Thu, 15 Oct 2026 10:01:11 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
@@ -48,35 +80,35 @@
         "cve": []
     },
     {
-        "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
-        "date": "Wed, 14 Oct 2026 15:41:43 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean",
+        "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+        "date": "Fri, 16 Oct 2026 01:54:36 +0530",
+        "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+        "source": "The Hacker News",
+        "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud ",
         "cve": []
     },
     {
-        "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
-        "date": "Wed, 14 Oct 2026 13:46:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
-        "source": "BleepingComputer",
-        "summary": "Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and remove products from shelves",
+        "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+        "date": "Fri, 16 Oct 2026 00:19:33 +0530",
+        "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+        "source": "The Hacker News",
+        "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets inte",
         "cve": []
     },
     {
-        "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-        "date": "Wed, 14 Oct 2026 13:29:14 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-        "source": "BleepingComputer",
-        "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
+        "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+        "date": "Thu, 15 Oct 2026 21:31:57 +0530",
+        "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+        "source": "The Hacker News",
+        "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, re",
         "cve": []
     },
     {
-        "title": "Microsoft fixes VPN issues caused by September Windows updates",
-        "date": "Wed, 14 Oct 2026 10:27:01 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
+        "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+        "date": "Thu, 15 Oct 2026 21:30:26 +0530",
+        "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+        "source": "The Hacker News",
+        "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from",
         "cve": []
     },
     {
@@ -125,118 +157,6 @@
         "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
         "source": "The Hacker News",
         "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8",
-        "cve": []
-    },
-    {
-        "title": "Why AI Confidence Is Not Validation",
-        "date": "Thu, 15 Oct 2026 16:34:35 +0530",
-        "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
-        "source": "The Hacker News",
-        "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster ",
-        "cve": []
-    },
-    {
-        "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
-        "date": "Thu, 15 Oct 2026 16:12:16 +0530",
-        "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
-        "source": "The Hacker News",
-        "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 202",
-        "cve": []
-    },
-    {
-        "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-        "date": "Thu, 15 Oct 2026 14:15:10 +0530",
-        "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-        "source": "The Hacker News",
-        "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on Oc",
-        "cve": []
-    },
-    {
-        "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-        "date": "Thu, 15 Oct 2026 12:37:05 +0530",
-        "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (A",
-        "cve": []
-    },
-    {
-        "title": "Critical ChatGPT GitHub Connector Flaw Could Allow Attackers to Steal Private Repository Secrets",
-        "date": "Thu, 15 Oct 2026 15:47:08 +0000",
-        "url": "https://cybersecuritynews.com/chatgpt-github-connector-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical flaw in ChatGPT’s GitHub integration has the potential to turn a routine repository review into a secret-theft attack. A report published on October 15, 2026, describes a scenario in which ",
-        "cve": []
-    },
-    {
-        "title": "Citrix XenServer Vulnerabilities Could Allow Malicious VM Users to Compromise Host Systems",
-        "date": "Thu, 15 Oct 2026 14:42:47 +0000",
-        "url": "https://cybersecuritynews.com/citrix-xenserver-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Citrix has disclosed four XenServer vulnerabilities, including three that could let a malicious user with elevated rights inside a virtual machine compromise or crash the underlying host. Citrix publi",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use ClickFix and Python Tunnels to Prepare Systems for Ransomware Attacks",
-        "date": "Thu, 15 Oct 2026 14:30:51 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-clickfix/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are using ClickFix tricks to install malware loaders and Python tunnels on Windows systems, creating access that could support ransomware attacks. A late September incident shows how a user ru",
-        "cve": []
-    },
-    {
-        "title": "Chinese Phishing Network Linked to 1 Billion Messages Targeting 75,000 Organizations",
-        "date": "Thu, 15 Oct 2026 14:25:16 +0000",
-        "url": "https://cybersecuritynews.com/chinese-phishing-network/",
-        "source": "CyberSecurityNews",
-        "summary": "A Chinese-run phishing network has been linked to one billion phishing emails targeting 75,000 organizations, according to a report published on October 14, 2026. The operation centers on Iron Man Sys",
-        "cve": []
-    },
-    {
-        "title": "Just Viewing an Online Ad Can Infect Your Device With Spyware, Researchers Reveal",
-        "date": "Thu, 15 Oct 2026 14:16:37 +0000",
-        "url": "https://cybersecuritynews.com/0-click-spyware-infects-devices/",
-        "source": "CyberSecurityNews",
-        "summary": "Simply viewing an online advertisement can be enough to infect a device with powerful spyware, without the user clicking, downloading a file, or seeing any warning. Citizen Lab researchers documented ",
-        "cve": []
-    },
-    {
-        "title": "AI Agents Create an Unseen Credential Surface That Exposes API Keys and Cloud Secrets",
-        "date": "Thu, 15 Oct 2026 13:55:34 +0000",
-        "url": "https://cybersecuritynews.com/ai-agents-4/",
-        "source": "CyberSecurityNews",
-        "summary": "AI agents can expose API keys and cloud secrets during ordinary work, even when no malware is present. When an agent runs a command, reads a configuration file or fetches a secret to complete a task. ",
-        "cve": []
-    },
-    {
-        "title": "UK Legal Aid Agency Data Breach Exposes Personal Records Dating Back to 1978",
-        "date": "Thu, 15 Oct 2026 12:54:56 +0000",
-        "url": "https://cybersecuritynews.com/uk-legal-aid-agency-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "The UK Legal Aid Agency (LAA) has confirmed that its 2025 cyberattack stole personal records dating back to 1978. An updated investigation found approximately 250,000 records from before 2007, widenin",
-        "cve": []
-    },
-    {
-        "title": "KGB RAT Malware Bypasses Windows Defender to Steal Credentials and Control PCs",
-        "date": "Thu, 15 Oct 2026 12:52:34 +0000",
-        "url": "https://cybersecuritynews.com/kgb-rat-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "A Windows remote access trojan called KGB RAT gives attackers a way to spy on infected computers, collect credentials and control a victim’s desktop. The malware is sold as a service and advertised wi",
-        "cve": []
-    },
-    {
-        "title": "Critical Next.js Vulnerabilities Allow Hackers to Execute Malicious Code Remotely",
-        "date": "Thu, 15 Oct 2026 12:39:05 +0000",
-        "url": "https://cybersecuritynews.com/critical-next-js-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Next.js has released security updates for two critical vulnerabilities that could let remote attackers run malicious code without logging in. A third, high-severity flaw could stop affected applicatio",
-        "cve": []
-    },
-    {
-        "title": "Cartoon Network Gigaleak Exposes 200GB of Internal Animation Files and Production Secrets",
-        "date": "Thu, 15 Oct 2026 12:22:24 +0000",
-        "url": "https://cybersecuritynews.com/cartoon-network-gigaleak-exposes/",
-        "source": "CyberSecurityNews",
-        "summary": "A reported Cartoon Network gigaleak has exposed more than 200GB of internal animation material, offering a rare look at how popular cartoons were made. The collection reportedly includes editable anim",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Cisco Warns of Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
-        "date": "Thu, 15 Oct 2026 15:12:46 +0000",
-        "url": "https://gbhackers.com/cisco-secure-email-gateway-zero-day/",
-        "source": "GBHackers",
-        "summary": "Cisco has warned that attackers are actively exploiting a zero-day flaw in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway. An unauthenticated remote attacker can use it to",
+        "title": "Today's Steam Beta Makes The Linux Client A 64-bit App",
+        "date": "Thu, 15 Oct 2026 18:08:08 -0400",
+        "url": "https://www.phoronix.com/news/Steam-Linux-Beta-64-bit",
+        "source": "Phoronix",
+        "summary": "Valve just dropped a new Steam client beta and it's a big one for Linux gamers...",
         "cve": []
     },
     {
-        "title": "Palo Alto Warns of PAN-OS 0-day Flaw Actively Exploited in Attacks",
-        "date": "Thu, 15 Oct 2026 15:01:28 +0000",
-        "url": "https://gbhackers.com/palo-alto-pan-os-zero-day/",
-        "source": "GBHackers",
-        "summary": "Palo Alto Networks has warned that attackers are exploiting a high-severity remote code execution flaw in the PAN-OS management interface. Tracked as CVE-2026-0322, the bug lets an authenticated attac",
+        "title": "Intel Nova Lake S & Nova Lake P To Support SR-IOV With Xe Graphics",
+        "date": "Thu, 15 Oct 2026 17:04:27 -0400",
+        "url": "https://www.phoronix.com/news/Intel-Nova-Lake-SR-IOV-Xe",
+        "source": "Phoronix",
+        "summary": "A patch has been posted to the Linux kernel mailing list by an Intel engineer confirming that Nova Lake S and Nova Lake P processors with integrated graphics will support SR-IOV in conjunction with th",
         "cve": []
     },
     {
-        "title": "Hackers Use Online Ads to Infect Devices With Spyware Without a Single Click",
-        "date": "Thu, 15 Oct 2026 14:51:16 +0000",
-        "url": "https://gbhackers.com/online-ads-spyware-attacks/",
-        "source": "GBHackers",
-        "summary": "Citizen Lab has confirmed the first public case of zero-click mercenary spyware delivered through targeted online ads. It calls the technique &#8220;AdFection&#8221;. The attack hit devices at Al Jaze",
+        "title": "LPDDR5 5467 vs. 6400 vs. 7467 MT/s Memory Performance Benchmarks For Laptops",
+        "date": "Thu, 15 Oct 2026 15:02:37 -0400",
+        "url": "https://www.phoronix.com/review/lpddr5-5467-6400-7467",
+        "source": "Phoronix",
+        "summary": "With the recently reviewed Star Labs StarFighter Ultra Linux laptop its BIOS allows for configurable memory speeds unlike many other laptop vendor BIOS implementations these days. Star Labs also made ",
         "cve": []
     },
     {
-        "title": "New PEERSTITCH Malware Targets FortiGate Firewalls and Hides Inside System Memory",
-        "date": "Thu, 15 Oct 2026 13:21:42 +0000",
-        "url": "https://gbhackers.com/peerstitch-malware/",
-        "source": "GBHackers",
-        "summary": "PEERSTITCH, a memory-resident ARM64 implant deployed against FortiGate firewalls during a prolonged intrusion into a telecommunications managed service provider. The malware hijacks legitimate FortiOS",
+        "title": "Memtest86+ v9.00 Released With Support For ARM64 Memory Testing",
+        "date": "Thu, 15 Oct 2026 13:58:00 -0400",
+        "url": "https://www.phoronix.com/news/memtest86-Plus-9.0",
+        "source": "Phoronix",
+        "summary": "The open-source Memtest86+ program that is popular for RAM testing has expanded beyond the x86/x86_64 (and LoongArch64) world to now support memory testing on ARM64/AArch64 hardware...",
         "cve": []
     },
     {
-        "title": "Hackers Steal UK Legal Aid Records Dating Back to 1978 in Major Cyberattack",
-        "date": "Thu, 15 Oct 2026 13:07:35 +0000",
-        "url": "https://gbhackers.com/uk-legal-aid-cyberattack/",
-        "source": "GBHackers",
-        "summary": "The UK&#8217;s Legal Aid Agency (LAA) now says the 2025 data breach exposed far older data than first reported. About 250,000 stolen records predate 2007, and the earliest verified record is from 1978",
+        "title": "3mdeb Releases Updated Dasharo/Coreboot Firmware For ASRock Rack SPC741D8-2L2T",
+        "date": "Thu, 15 Oct 2026 10:56:51 -0400",
+        "url": "https://www.phoronix.com/news/Dasharo-0.9-ASRock-SPC741D8",
+        "source": "Phoronix",
+        "summary": "3mdeb firmware engineers have been quite busy this year working on porting Coreboot and openSIL to an AMD Ryzen AM5 MSI motherboard and similarly getting openSIL and Coreboot up and running on a Gigab",
         "cve": []
     },
     {
-        "title": "New ClickFix Attack Deploys Lorem Ipsum Malware Loader to Establish Remote Access",
-        "date": "Thu, 15 Oct 2026 12:53:10 +0000",
-        "url": "https://gbhackers.com/lorem-ipsum-malware-deployment/",
-        "source": "GBHackers",
-        "summary": "A ClickFix campaign uses the Lorem Ipsum Loader to install a Python-based tunneling implant, giving attackers a covert route into victims’ networks and potentially laying the groundwork for ransomware",
+        "title": "Claude Code / AI Shows Potential For Reverse-Engineering Hardware For Linux Support",
+        "date": "Thu, 15 Oct 2026 10:29:06 -0400",
+        "url": "https://www.phoronix.com/news/AI-Reverse-Engineer-Linux-HW",
+        "source": "Phoronix",
+        "summary": "AI/LLMs like Claude Code are beginning to prove capable of helping to reverse engineer hardware for Linux support, especially when it comes to the tedious reverse engineering tasks...",
         "cve": []
     },
     {
-        "title": "Claude Code Helps Linux Creator Address Longstanding Kernel Memory Performance Bottleneck",
-        "date": "Thu, 15 Oct 2026 11:37:11 +0000",
-        "url": "https://gbhackers.com/claude-code-helps-linux-creator-address-longstanding-kernel-memory-performance-bottleneck/",
-        "source": "GBHackers",
-        "summary": "Linus Torvalds used Anthropic&#8217;s Claude Code to build experimental patches that remove a long-running page-cache scalability bottleneck in the Linux kernel. The series is not merged. Reviewers ha",
+        "title": "Ubuntu 26.10 Released With Linux 7.3 + GNOME 51, Rust Coreutils Migration Complete",
+        "date": "Thu, 15 Oct 2026 07:19:06 -0400",
+        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Released",
+        "source": "Phoronix",
+        "summary": "Ubuntu 26.10 \"Stonking Stingray\" is now officially available as the newest six-month non-LTS update to Ubuntu Linux...",
         "cve": []
     },
     {
-        "title": "AI Agent Workflows Could Expose Credentials Through Trusted Developer Tools",
-        "date": "Thu, 15 Oct 2026 11:18:47 +0000",
-        "url": "https://gbhackers.com/ai-agent-workflows/",
-        "source": "GBHackers",
-        "summary": "AI agents can expose credentials during routine development tasks, moving secrets from protected stores into command arguments, logs, transcripts, and inputs to external models. The concern is not tha",
+        "title": "Huawei Proposes Enabling CPU Boost By Default For ACPI CPPC Linux Driver",
+        "date": "Thu, 15 Oct 2026 06:24:24 -0400",
+        "url": "https://www.phoronix.com/news/Huawei-Proposes-Boost-Default",
+        "source": "Phoronix",
+        "summary": "For those using the generic ACPI Collaborative Processor Performance Control (CPPC) CPUFreq driver such as on a number of ARM64 Linux server platforms, if the CPUs support a \"boost\" mode it's disabled",
         "cve": []
     },
     {
-        "title": "Critical Next.js SVG Image Processing Vulnerability Could Enable Remote Code Execution",
-        "date": "Thu, 15 Oct 2026 10:36:48 +0000",
-        "url": "https://gbhackers.com/nextjs-svg-image-processing-vulnerability/",
-        "source": "GBHackers",
-        "summary": "Vercel has released an out-of-band security update for Next.js that fixes two critical remote code execution (RCE) flaws and one high-severity denial-of-service (DoS) bug. One of the critical flaws, C",
+        "title": "GNOME Mutter Improves Damage Tracking For Secondary GPU Copy Buffers",
+        "date": "Thu, 15 Oct 2026 06:12:29 -0400",
+        "url": "https://www.phoronix.com/news/Mutter-2nd-GPU-Damage-Track",
+        "source": "Phoronix",
+        "summary": "As an early improvement to Mutter to look forward to with GNOME 52 (Update: It will first appear in GNOME 51.2), the compositor is now tracking damage for secondary GPU copy buffers. This should impro",
         "cve": []
     },
     {
-        "title": "Iron Man Phishing-as-a-Service Kit Impersonates Banks, Couriers and Government Agencies Worldwide",
-        "date": "Thu, 15 Oct 2026 10:32:50 +0000",
-        "url": "https://gbhackers.com/iron-man-phishing-as-a-service/",
-        "source": "GBHackers",
-        "summary": "Iron Man System, a commercial phishing-as-a-service platform supplying criminals with ready-made websites impersonating banks, couriers, tax agencies, traffic authorities, and other trusted organizati",
+        "title": "Microsoft Releases Microsoft Defender For The Linux Desktop",
+        "date": "Thu, 15 Oct 2026 05:52:45 -0400",
+        "url": "https://www.phoronix.com/news/Microsoft-Defender-For-Linux-D",
+        "source": "Phoronix",
+        "summary": "Microsoft's newest software release for Linux is... Microsoft Defender for the Linux desktop. Microsoft Defender has been ported to Linux to \"secure Linux desktops\" with Microsoft acknowledging that \"",
         "cve": []
     }
 ]
