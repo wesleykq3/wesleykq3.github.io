@@ -80,6 +80,22 @@
         "cve": []
     },
     {
+        "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+        "date": "Sat, 17 Oct 2026 16:41:56 +0530",
+        "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+        "date": "Sat, 17 Oct 2026 11:46:46 +0530",
+        "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud B",
+        "cve": []
+    },
+    {
         "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
         "date": "Fri, 16 Oct 2026 23:18:45 +0530",
         "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
@@ -144,19 +160,83 @@
         "cve": []
     },
     {
-        "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-        "date": "Fri, 16 Oct 2026 01:54:36 +0530",
-        "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-        "source": "The Hacker News",
-        "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud ",
+        "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
+        "date": "Sat, 17 Oct 2026 10:52:09 +0000",
+        "url": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application. The incident shows how ",
         "cve": []
     },
     {
-        "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-        "date": "Fri, 16 Oct 2026 00:19:33 +0530",
-        "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-        "source": "The Hacker News",
-        "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets inte",
+        "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
+        "date": "Sat, 17 Oct 2026 05:29:38 +0000",
+        "url": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "Google released a Chrome Stable security update fixing 10 vulnerabilities across Windows, Mac, and Linux, including a high-severity DOM memory corruption flaw reported by Xinyang Ge of Anthropic with ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers",
+        "date": "Sat, 17 Oct 2026 05:24:55 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are exploiting a critical flaw in the Collabora Online Built-in CODE Server app for Nextcloud, with users reporting web shells on compromised servers. Tracked as CVE-2026-110447, the vulnerabi",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Confirms Its AI Model Hacked Government Website While Counting Hospital Beds",
+        "date": "Sat, 17 Oct 2026 04:15:46 +0000",
+        "url": "https://cybersecuritynews.com/openai-confirms-ai-model-hacked/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenAI has confirmed that an internal AI model hacked an unnamed government statistics website while trying to count hospital beds. The June 17, 2026 incident started as a data task during reinforceme",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection",
+        "date": "Fri, 16 Oct 2026 14:42:10 +0000",
+        "url": "https://cybersecuritynews.com/new-romulus-clickfix-platform/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are using a newly identified platform called ROMULUS to deliver malware through ClickFix traps, combining hidden PowerShell scripts, altered software installers, and encrypted archives. The pl",
+        "cve": []
+    },
+    {
+        "title": "New YuanKong Android RAT Hijacks Phones to Steal Banking PINs and Passwords",
+        "date": "Fri, 16 Oct 2026 14:08:06 +0000",
+        "url": "https://cybersecuritynews.com/new-yuankong-android-rat/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly analyzed Android remote-access Trojan called YuanKong can watch and control a victim’s phone, capture passwords and payment PINs, and send stolen information to operators. Rather than relying ",
+        "cve": []
+    },
+    {
+        "title": "37-Year-Old Kernel Flaw Exploited to Gain Root Access on OpenBSD — PoC Released",
+        "date": "Fri, 16 Oct 2026 14:01:26 +0000",
+        "url": "https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "A proof-of-concept exploit that gains root access on OpenBSD by chaining two kernel flaws. The main bug dates back about 37 years to the original BSD source code. According to Security researchers at ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use AI-Generated Scripts to Hijack Linux Sudo Commands and Steal Passwords",
+        "date": "Fri, 16 Oct 2026 13:23:48 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-ai-generated-scripts/",
+        "source": "CyberSecurityNews",
+        "summary": "A campaign against government organizations and state-linked infrastructure used AI-assisted scripts to steal credentials, maintain access to Linux servers and seek sensitive data, according to new re",
+        "cve": []
+    },
+    {
+        "title": "Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts",
+        "date": "Fri, 16 Oct 2026 12:43:37 +0000",
+        "url": "https://cybersecuritynews.com/cloudflare-pages-domains/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers have abused more than 20,000 Cloudflare Pages domains over six months to spread fake Microsoft security alerts and steer users toward scam call centers. The campaign uses Help Traffic Distribu",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Codex and DeepSeek AI Agents to Breach 440 PaperCut Servers Worldwide",
+        "date": "Fri, 16 Oct 2026 12:23:47 +0000",
+        "url": "https://cybersecuritynews.com/breach-440-papercut-servers/",
+        "source": "CyberSecurityNews",
+        "summary": "A cybercrime campaign used hundreds of AI agents to target internet-facing PaperCut NG and MF print-management servers, compromising at least 440 instances linked to 395 organizations in 48 countries,",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Wine 11.20 Released With CD-ROM Support Change",
-        "date": "Fri, 16 Oct 2026 20:44:06 -0400",
-        "url": "https://www.phoronix.com/news/Wine-11.20-Released",
-        "source": "Phoronix",
-        "summary": "Wine 11.20 is out today as the newest bi-weekly development release of this software for enjoying Windows games and apps on Linux. We are quickly approaching the point where this development work will",
+        "title": "Hackers Use ConnectWise SkyKick Credentials to Access Microsoft 365, Halting Cloud Backups",
+        "date": "Sat, 17 Oct 2026 12:27:27 +0000",
+        "url": "https://gbhackers.com/hackers-use-connectwise-skykick-credentials/",
+        "source": "GBHackers",
+        "summary": "Attackers abused compromised ConnectWise Cloud Backup credentials to access Microsoft 365 customer environments, prompting ConnectWise to shut off application access and interrupt backup services. Jon",
         "cve": []
     },
     {
-        "title": "17 More Security Vulnerabilities Made Public For X.Org Libraries",
-        "date": "Fri, 16 Oct 2026 15:20:39 -0400",
-        "url": "https://www.phoronix.com/news/17-Vulnerabilities-Xorg-Libs",
-        "source": "Phoronix",
-        "summary": "Just shy of two weeks since a dozen vulnerabilities were published for the X.Org Server and XWayland, more than one dozen vulnerabilities were made public today affecting multiple X.Org client librari",
+        "title": "Anthropic’s Claude AI Uncovers Origins of NSA-Provided Cryptographic Keys After 25 Years",
+        "date": "Sat, 17 Oct 2026 09:07:04 +0000",
+        "url": "https://gbhackers.com/anthropics-claude-ai-nsa-provided-cryptographic-keys/",
+        "source": "GBHackers",
+        "summary": "Anthropic says an internal Claude research model reconstructed how the National Security Agency generated seeds for five NIST elliptic curves in under 30 minutes, addressing a cryptographic mystery sp",
         "cve": []
     },
     {
-        "title": "GNOME OS Preview Announced In Road Toward A Stable Release",
-        "date": "Fri, 16 Oct 2026 14:37:11 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-OS-Preview",
-        "source": "Phoronix",
-        "summary": "The GNOME OS Linux distribution to date has just been in GNOME OS Nightly form for tracking the latest nightly packages of GNOME in their current development form. GNOME OS Preview was announced today",
+        "title": "Critical WordPress Flaws Allow Attackers to Execute Remote Code Without Authentication",
+        "date": "Sat, 17 Oct 2026 08:47:31 +0000",
+        "url": "https://gbhackers.com/critical-wordpress-flaws/",
+        "source": "GBHackers",
+        "summary": "Two WordPress Core vulnerabilities can be chained to execute remote code without authentication, according to analysis by Seqrite researcher Amruta Wagh. Dubbed WP2Shell, the exploit chain reportedly ",
         "cve": []
     },
     {
-        "title": "The Best Features Of Linux 7.3: Performance Improvements, Lots From Valve",
-        "date": "Fri, 16 Oct 2026 14:17:47 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.3-Best-Features",
-        "source": "Phoronix",
-        "summary": "The Linux 7.3 kernel is slated to be officially released on Sunday, 18 October, barring any last minute issues from coming about. With that said, here's a reminder about some of the most exciting feat",
+        "title": "OpenBSD Kernel Flaw Dating Back 37 Years Enables Local Privilege Escalation to Root",
+        "date": "Sat, 17 Oct 2026 08:34:43 +0000",
+        "url": "https://gbhackers.com/openbsd-kernel-flaw/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed OpenBSD kernel exploitation chain combines a shared memory accounting flaw with a separate out-of-bounds write to obtain root privileges. Calif researcher Andrew Griffiths published ",
         "cve": []
     },
     {
-        "title": "After 23 Years, Longtime Linux Developer To \"Step Back For A While\"",
-        "date": "Fri, 16 Oct 2026 11:40:27 -0400",
-        "url": "https://www.phoronix.com/news/Darrick-Wong-Step-Back-23-Years",
-        "source": "Phoronix",
-        "summary": "Longtime Linux kernel engineer Darrick Wong who stepped down as the XFS file-system maintainer in 2023 is now taking a step back from his other Linux kernel development roles after working on the kern",
+        "title": "GhostAction Hackers Hide Credential-Stealing Malware in Fake Font Files Across 94 GitHub Repositories",
+        "date": "Sat, 17 Oct 2026 08:26:30 +0000",
+        "url": "https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware/",
+        "source": "GBHackers",
+        "summary": "GhostAction attackers have expanded their GitHub credential theft campaign with a second stage that disguises malicious JavaScript as a font file and targets developer workstations through Visual Stud",
         "cve": []
     },
     {
-        "title": "Intel Xeon 6980P Granite Rapids Performance On Linux Over The Past Year",
-        "date": "Fri, 16 Oct 2026 10:24:33 -0400",
-        "url": "https://www.phoronix.com/review/intel-xeon-granite-rapids-ubuntu-2610",
-        "source": "Phoronix",
-        "summary": "It's been nearly one year since receiving the Gigabyte R284-A92-AAL1 2U Granite Rapids server platform for continuing my testing of the flagship Xeon 6980P processors. Curious how the Xeon 6980P 2P pe",
+        "title": "SideCopy Hackers Target Indian Organizations With ReverseRAT Malware to Steal Data",
+        "date": "Sat, 17 Oct 2026 08:06:13 +0000",
+        "url": "https://gbhackers.com/sidecopy-hackers-target-indian-organizations/",
+        "source": "GBHackers",
+        "summary": "Indian authorities have warned that SideCopy hackers are targeting Indian organizations, including academic institutions, with spear-phishing attacks that deploy ReverseRAT on Windows systems. The Oct",
         "cve": []
     },
     {
-        "title": "AI-Generated Starling Desktop Environment Rolls Out Its Own Office Suite",
-        "date": "Fri, 16 Oct 2026 09:20:22 -0400",
-        "url": "https://www.phoronix.com/news/AI-Starling-Desktop-Office",
-        "source": "Phoronix",
-        "summary": "Starling, the open-source desktop environment written in Swift and with its own Wayland compositor too and written largely via Claude Code, has now rolled out its own AI-generated office suite...",
+        "title": "New GhostBat Android Malware Targets 60 Banking and UPI Apps to Steal PINs",
+        "date": "Sat, 17 Oct 2026 07:14:15 +0000",
+        "url": "https://gbhackers.com/ghostbat-android-malware/",
+        "source": "GBHackers",
+        "summary": "A new GhostBat RAT variant targets 60 Android financial application packages used in India, combining accessibility-based PIN capture with a transparent overlay that intercepts interactions inside leg",
         "cve": []
     },
     {
-        "title": "Fedora 46 Looking At Moving To RPM v6 Package Format",
-        "date": "Fri, 16 Oct 2026 09:03:26 -0400",
-        "url": "https://www.phoronix.com/news/Fedora-46-RPM-v6",
-        "source": "Phoronix",
-        "summary": "The RPM v4 packaging format has been used by Red Hat Enterprise Linux and Fedora and its derivatives for more than two decades. With next year's Fedora 46 release, Fedora Linux may finally transition ",
+        "title": "New ROMULUS Malware Platform Uses Six Servers to Deliver Multiple Malicious Payloads",
+        "date": "Sat, 17 Oct 2026 06:54:51 +0000",
+        "url": "https://gbhackers.com/romulus-malware-platform/",
+        "source": "GBHackers",
+        "summary": "ROMULUS, a shared ClickFix delivery platform operating across six identified servers, with confirmed routes distributing a trojanized Stardock package and LegionLoader. The discovery connects infrastr",
         "cve": []
     },
     {
-        "title": "AI Resurrects AVX-512 Support For Mesa's LLVMpipe Software Driver",
-        "date": "Fri, 16 Oct 2026 06:28:51 -0400",
-        "url": "https://www.phoronix.com/news/LLVMpipe-AVX-512-MR",
-        "source": "Phoronix",
-        "summary": "With pending code for Mesa, the LLVMpipe software-based Gallium3D/OpenGL driver could soon become faster on modern systems that support AVX-512. That's assuming the AI/LLVM-generated code is all in or",
+        "title": "Midnight Blizzard-Linked Malware Server Still Delivering Payloads 8 Weeks After Disclosure",
+        "date": "Sat, 17 Oct 2026 06:26:17 +0000",
+        "url": "https://gbhackers.com/midnight-blizzard-malware/",
+        "source": "GBHackers",
+        "summary": "A server linked to a malware campaign attributed to a Midnight Blizzard-associated cluster was still delivering malicious files on October 5, 2026. The server returned HTTP 200 responses for multiple ",
         "cve": []
     },
     {
-        "title": "Linux 7.4 To Enable Intel Instruction Timeout For Fending Off TDX VM DoS Attacks",
-        "date": "Fri, 16 Oct 2026 06:13:51 -0400",
-        "url": "https://www.phoronix.com/news/Intel-Instruction-Timeout-Linux",
-        "source": "Phoronix",
-        "summary": "Linux 7.4 is enabling support for a new Intel CPU feature for providing safety against possible denial of service attacks using Trust Domain Extensions \"TDX\" VMs. The new feature is Intel Instruction ",
+        "title": "Android Malware Exposes Its Own Operators While Hijacking Phones and Stealing Sensitive Data",
+        "date": "Sat, 17 Oct 2026 05:57:36 +0000",
+        "url": "https://gbhackers.com/android-remote-access-trojan/",
+        "source": "GBHackers",
+        "summary": "An Android remote-access Trojan, YuanKong, whose weakly protected dropper reveals more than its hidden payload: it exposes the operator account identifiers embedded in each build. Analysis of 110 drop",
         "cve": []
     }
 ]
