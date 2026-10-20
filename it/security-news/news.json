@@ -1,5 +1,61 @@
 [
     {
+        "title": "DHS bans DeepSeek products across US federal civilian agencies",
+        "date": "Tue, 20 Oct 2026 10:19:05 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
+        "cve": []
+    },
+    {
+        "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+        "date": "Tue, 20 Oct 2026 09:51:00 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+        "source": "BleepingComputer",
+        "summary": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, acc",
+        "cve": []
+    },
+    {
+        "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+        "date": "Tue, 20 Oct 2026 09:18:36 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+        "source": "BleepingComputer",
+        "summary": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
+        "cve": []
+    },
+    {
+        "title": "Windows Server 2025 gets support for quick machine recovery",
+        "date": "Tue, 20 Oct 2026 08:16:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
+        "cve": []
+    },
+    {
+        "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+        "date": "Tue, 20 Oct 2026 07:31:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+        "source": "BleepingComputer",
+        "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
+        "cve": []
+    },
+    {
+        "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+        "date": "Tue, 20 Oct 2026 07:18:35 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+        "source": "BleepingComputer",
+        "summary": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
+        "cve": []
+    },
+    {
+        "title": "Revolut outage disrupts online banking operations worldwide",
+        "date": "Tue, 20 Oct 2026 05:46:44 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+        "source": "BleepingComputer",
+        "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+        "cve": []
+    },
+    {
         "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
         "date": "Mon, 19 Oct 2026 17:49:48 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
@@ -24,219 +80,163 @@
         "cve": []
     },
     {
-        "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-        "date": "Mon, 19 Oct 2026 14:51:13 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-        "source": "BleepingComputer",
-        "summary": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
-        "cve": []
-    },
-    {
-        "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-        "date": "Mon, 19 Oct 2026 13:27:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft fixes game, app crashes caused by recent Windows update",
-        "date": "Mon, 19 Oct 2026 10:55:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 Windows 11 preview update (KB5124010). [...]",
-        "cve": []
-    },
-    {
-        "title": "Inside the Underground Market for Know Your Client Services",
-        "date": "Mon, 19 Oct 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-        "source": "BleepingComputer",
-        "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services",
-        "cve": []
-    },
-    {
-        "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-        "date": "Mon, 19 Oct 2026 09:49:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-        "source": "BleepingComputer",
-        "summary": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [.",
-        "cve": []
-    },
-    {
-        "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-        "date": "Mon, 19 Oct 2026 08:44:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-        "date": "Mon, 19 Oct 2026 04:58:41 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-        "date": "Mon, 19 Oct 2026 23:02:13 +0530",
-        "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+        "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+        "date": "Tue, 20 Oct 2026 19:37:17 +0530",
+        "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
         "source": "The Hacker News",
-        "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\n\nAccor",
+        "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their con",
         "cve": []
     },
     {
-        "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-        "date": "Mon, 19 Oct 2026 21:58:47 +0530",
-        "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+        "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+        "date": "Tue, 20 Oct 2026 18:29:44 +0530",
+        "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
         "source": "The Hacker News",
-        "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on Oct",
+        "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen",
         "cve": []
     },
     {
-        "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-        "date": "Mon, 19 Oct 2026 19:44:07 +0530",
-        "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+        "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+        "date": "Tue, 20 Oct 2026 17:11:06 +0530",
+        "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
         "source": "The Hacker News",
-        "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks ",
+        "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, eve",
         "cve": []
     },
     {
-        "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-        "date": "Mon, 19 Oct 2026 18:35:45 +0530",
-        "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+        "title": "What Security Teams Can Do To Tame Wild Code",
+        "date": "Tue, 20 Oct 2026 17:03:04 +0530",
+        "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
         "source": "The Hacker News",
-        "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a ste",
+        "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces man",
         "cve": []
     },
     {
-        "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-        "date": "Mon, 19 Oct 2026 17:20:00 +0530",
-        "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+        "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+        "date": "Tue, 20 Oct 2026 17:02:59 +0530",
+        "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
         "source": "The Hacker News",
-        "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Emai",
+        "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.\n\nPrograms b",
         "cve": []
     },
     {
-        "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-        "date": "Mon, 19 Oct 2026 15:36:40 +0530",
-        "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+        "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+        "date": "Tue, 20 Oct 2026 16:36:25 +0530",
+        "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
         "source": "The Hacker News",
-        "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligenc",
+        "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty",
         "cve": []
     },
     {
-        "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-        "date": "Mon, 19 Oct 2026 11:59:44 +0530",
-        "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+        "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+        "date": "Tue, 20 Oct 2026 16:26:08 +0530",
+        "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
         "source": "The Hacker News",
-        "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin ",
+        "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to",
         "cve": []
     },
     {
-        "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-        "date": "Mon, 19 Oct 2026 11:37:08 +0530",
-        "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+        "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+        "date": "Tue, 20 Oct 2026 13:51:29 +0530",
+        "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
         "source": "The Hacker News",
-        "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is",
+        "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the",
         "cve": []
     },
     {
-        "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-        "date": "Sun, 18 Oct 2026 13:53:02 +0530",
-        "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+        "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+        "date": "Tue, 20 Oct 2026 12:41:45 +0530",
+        "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
         "source": "The Hacker News",
-        "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to ",
+        "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-11093",
         "cve": []
     },
     {
-        "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-        "date": "Sat, 17 Oct 2026 16:41:56 +0530",
-        "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+        "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+        "date": "Tue, 20 Oct 2026 11:23:16 +0530",
+        "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded",
+        "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco of",
         "cve": []
     },
     {
-        "title": "Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication",
-        "date": "Mon, 19 Oct 2026 18:13:51 +0000",
-        "url": "https://cybersecuritynews.com/drupal-rce-vulnerability/",
+        "title": "FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website",
+        "date": "Tue, 20 Oct 2026 15:09:27 +0000",
+        "url": "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters/",
         "source": "CyberSecurityNews",
-        "summary": "Drupal has released security updates for a critical remote code execution vulnerability that could let attackers take over affected websites without logging in. Tracked as CVE-2026-108097, the flaw af",
+        "summary": "Federal investigators suspect an executive at a United States consulting firm helped ShinyHunters operate a website used to pressure hacked companies into paying ransom demands. The allegation raises ",
         "cve": []
     },
     {
-        "title": "Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats",
-        "date": "Mon, 19 Oct 2026 18:04:16 +0000",
-        "url": "https://cybersecuritynews.com/ai-models-as-insider-threats/",
+        "title": "Hackers Exploit Open Banking Services to Test Stolen Credentials Without Paying a Cent",
+        "date": "Tue, 20 Oct 2026 14:22:04 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploit-open-banking-services/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft warns organizations to treat AI agents as potential insider risks not because they are automatically malicious, but because they can access company data, apps, and tools and act on that acce",
+        "summary": "Criminals have found a way to use open banking as a low-cost checking service for stolen bank and card details. In a campaign described by Group-IB, fraudsters abused a spend-management platform’s acc",
         "cve": []
     },
     {
-        "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
-        "date": "Mon, 19 Oct 2026 17:11:36 +0000",
-        "url": "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
+        "title": "WP2Shell Attack Lets Hackers Create WordPress Admin Accounts and Install Web Shells Without Login",
+        "date": "Tue, 20 Oct 2026 13:54:23 +0000",
+        "url": "https://cybersecuritynews.com/wp2shell-attack/",
         "source": "CyberSecurityNews",
-        "summary": "San Rafael, United States, October 19th, 2026, CyberNewswire Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety b",
+        "summary": "WP2Shell combines two WordPress Core flaws to move from an unauthenticated request to server-side code execution. It can let an attacker create an administrator account and install a plugin-based web ",
         "cve": []
     },
     {
-        "title": "NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents",
-        "date": "Mon, 19 Oct 2026 12:08:04 +0000",
-        "url": "https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/",
+        "title": "Hackers Use Generative AI to Build Custom Malware and Bypass Traditional Security Detection",
+        "date": "Tue, 20 Oct 2026 13:32:15 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-generative-ai/",
         "source": "CyberSecurityNews",
-        "summary": "NSA, CISA, and NIST have released joint security guidelines to help organizations detect, contain, and shut down AI agents that act beyond their approved tasks. Published October 16, 2026, the volunta",
+        "summary": "Hackers are using generative AI to build custom malware, rewrite harmful scripts, and make phishing messages harder to spot. The shift puts pressure on security tools that mainly depend on known file ",
         "cve": []
     },
     {
-        "title": "Hackers Exploit SiteGuard WAF Vulnerability That Could Give Them Full Control of Servers",
-        "date": "Mon, 19 Oct 2026 12:07:14 +0000",
-        "url": "https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability/",
+        "title": "Thousands of Android Phones Ship With Hidden Malware That Disables Google Play Protections",
+        "date": "Tue, 20 Oct 2026 13:15:38 +0000",
+        "url": "https://cybersecuritynews.com/thousands-of-android-phones/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are exploiting a command injection flaw in SiteGuard Server Edition, a web application firewall installed directly on protected servers. Tracked as CVE-2026-106931, the vulnerability could let",
+        "summary": "Thousands of Android phones across more than 150 countries have been found running malware planted in their firmware before purchase. The campaign, called Midnight Mimosa, targets low-cost devices and",
         "cve": []
     },
     {
-        "title": "Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins",
-        "date": "Mon, 19 Oct 2026 11:40:57 +0000",
-        "url": "https://cybersecuritynews.com/teams-domain-login-page/",
+        "title": "Hackers Hijack 790 GitHub Repositories to Steal Cloud Credentials and AI API Keys",
+        "date": "Tue, 20 Oct 2026 12:02:56 +0000",
+        "url": "https://cybersecuritynews.com/hackers-hijack-790-github-repositories/",
         "source": "CyberSecurityNews",
-        "summary": "A newly registered domain copies Microsoft Teams’ login page and interface, raising concerns about a phishing attempt targeting workplace users. Security researcher Steven Lim reported that teams-clou",
+        "summary": "A campaign called GhostAction has placed malicious GitHub Actions workflows in 790 repositories, putting cloud credentials, software-publishing tokens, and AI service keys at risk. The total is OpenSo",
         "cve": []
     },
     {
-        "title": "16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords",
-        "date": "Mon, 19 Oct 2026 11:36:47 +0000",
-        "url": "https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/",
+        "title": "Revolut Outage Disrupts Payments and Banking Services as Google Cloud Reports London Issues",
+        "date": "Tue, 20 Oct 2026 11:37:05 +0000",
+        "url": "https://cybersecuritynews.com/revolut-outage/",
         "source": "CyberSecurityNews",
-        "summary": "A 16-year-old flaw in Broadcom’s Wi-Fi software can let attackers within wireless range take control of affected routers without knowing the network password. Security researcher Quentin Kaiser disclo",
+        "summary": "Revolut suffered a major service outage on Tuesday, October 20, 2026, disrupting payments, cash withdrawals, and access to its banking app. The digital bank said customer money and data remained safe ",
         "cve": []
     },
     {
-        "title": "Google Unveils New Android AI Protections to Block Scam Calls, Phishing Links and OTP Theft",
-        "date": "Mon, 19 Oct 2026 06:04:18 +0000",
-        "url": "https://cybersecuritynews.com/google-unveils-new-android-ai-protections/",
+        "title": "Hackers Target South Korean Banks With AI, Then Accidentally Expose Their Own Attack Tools",
+        "date": "Tue, 20 Oct 2026 11:09:55 +0000",
+        "url": "https://cybersecuritynews.com/hackers-target-south-korean-banks/",
         "source": "CyberSecurityNews",
-        "summary": "Google has announced a new set of Android security protections designed to stop mobile scams across calls, text messages, chat apps, web links, and account verification codes. The update comes as crim",
+        "summary": "Hackers linked to AI-assisted attacks on South Korean banks left parts of their own infrastructure open, giving researchers a view of their tools and preparations. The exposed files showed a wider ope",
         "cve": []
     },
     {
-        "title": "Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy Cryptominer Malware",
-        "date": "Mon, 19 Oct 2026 04:14:01 +0000",
-        "url": "https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/",
+        "title": "ThreatBook Launches RedAgents AI Platform That Uses Multiple Hacking Agents to Find Security Flaws",
+        "date": "Tue, 20 Oct 2026 10:41:54 +0000",
+        "url": "https://cybersecuritynews.com/redagents-ai-platform/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are exploiting flaws in Plex Media Server to install cryptocurrency mining malware, with a researcher recording successful attacks against a honeypot on October 17, 2026. The activity follows ",
+        "summary": "ThreatBook has launched RedAgents, a cloud platform that brings several AI-powered penetration-testing agents together to assess an organization’s systems. Announced on October 16, 2026, the service i",
         "cve": []
     },
     {
-        "title": "Microsoft Confirms October Windows Updates Can Break Exchange Server Email Services",
-        "date": "Mon, 19 Oct 2026 03:39:03 +0000",
-        "url": "https://cybersecuritynews.com/october-updates-break-exchange-server/",
+        "title": "U.S. Government Bans DeepSeek AI and Orders Federal Agencies to Remove All Related Tools",
+        "date": "Tue, 20 Oct 2026 10:18:40 +0000",
+        "url": "https://cybersecuritynews.com/u-s-government-bans-deepseek-ai/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has confirmed that Windows Server security updates released on October 13, 2026, can disrupt Exchange Server email services, blocking webmail access and leaving messages undelivered. The iss",
+        "summary": "The U.S. Department of Homeland Security has ordered federal civilian agencies to stop buying DeepSeek products and remove related technology from their IT systems. The action covers products from Han",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
-        "date": "Mon, 19 Oct 2026 17:11:46 +0000",
-        "url": "https://gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
+        "title": "ChatGPT Chrome Extension Expands Browser Access to Read Open Tab Content",
+        "date": "Tue, 20 Oct 2026 12:54:36 +0000",
+        "url": "https://gbhackers.com/chatgpt-chrome-extension-expands-browser-access/",
         "source": "GBHackers",
-        "summary": "San Rafael, United States, October 19th, 2026, CyberNewswire Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety b",
+        "summary": "OpenAI has announced an expanded Chrome integration that lets ChatGPT gather information from open browser tabs and take action within the browser. This update introduces two distinct workflows: &#822",
         "cve": []
     },
     {
-        "title": "Researchers Hack Snowflake PostgreSQL Database to Gain Full Server-Level Code Execution",
-        "date": "Mon, 19 Oct 2026 13:27:54 +0000",
-        "url": "https://gbhackers.com/researchers-hack-snowflake/",
+        "title": "US Government Bans DeepSeek AI From Federal Civilian Agency IT Systems",
+        "date": "Tue, 20 Oct 2026 12:46:25 +0000",
+        "url": "https://gbhackers.com/us-government-bans-deepseek-ai/",
         "source": "GBHackers",
-        "summary": "A security test of Snowflake-managed PostgreSQL has shown how a database role with limited privileges could be turned into control of the server running the database. Researchers chained several built",
+        "summary": "The U.S. Department of Homeland Security (DHS) has instructed federal civilian agencies to remove DeepSeek artificial intelligence products from their information technology systems and to stop acquir",
         "cve": []
     },
     {
-        "title": "SiteGuard Warns Patching Actively Exploited Security Flaw Could Erase Evidence of Attacks",
-        "date": "Mon, 19 Oct 2026 13:10:13 +0000",
-        "url": "https://gbhackers.com/siteguard-warns-patching/",
+        "title": "Hackers Exploit Palo Alto Networks PAN-OS Flaw to Bypass MFA and Deploy Ransomware",
+        "date": "Tue, 20 Oct 2026 12:30:45 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw/",
         "source": "GBHackers",
-        "summary": "EG Secure Solutions has warned that a flaw in SiteGuard Server Edition is being exploited and that applying a fix could remove signs of an earlier attack. The issue, CVE-2026-106931, affects the produ",
+        "summary": "Ransomware operators are exploiting a vulnerability in Palo Alto Networks PAN-OS that allows them to bypass authentication. This issue enables unauthorized VPN sessions, bypasses multifactor authentic",
         "cve": []
     },
     {
-        "title": "Drupal Warns Critical RCE Flaw Could Let Unauthenticated Attackers Compromise Websites",
-        "date": "Mon, 19 Oct 2026 12:39:52 +0000",
-        "url": "https://gbhackers.com/drupal-warns-critical-rce-flaw/",
+        "title": "Scammers Turn Legitimate Fintech Platforms Into Phishing Tools to Steal Banking Details",
+        "date": "Tue, 20 Oct 2026 11:20:32 +0000",
+        "url": "https://gbhackers.com/fintech-platforms-abused/",
         "source": "GBHackers",
-        "summary": "Drupal has warned of a critical remote code execution vulnerability that could let attackers compromise affected websites without logging in. Tracked as CVE-2026-108097, the flaw affects the Field UI ",
+        "summary": "Scammers have weaponized a legitimate spend-management platform to send phishing messages and validate stolen financial credentials, turning trusted payment infrastructure into an operational part of ",
         "cve": []
     },
     {
-        "title": "Researchers Hack Broadcom Wi-Fi Routers Without Passwords and Gain Full Root Access",
-        "date": "Mon, 19 Oct 2026 12:06:21 +0000",
-        "url": "https://gbhackers.com/broadcom-wi-fi-routers/",
+        "title": "Hackers Compromise OVHcloud GitHub Repository to Distribute Secret-Stealing Malware",
+        "date": "Tue, 20 Oct 2026 11:03:04 +0000",
+        "url": "https://gbhackers.com/hackers-compromise-ovhcloud-github-repository/",
         "source": "GBHackers",
-        "summary": "A flaw in Broadcom’s Wi-Fi software can let someone within wireless range take control of vulnerable routers without knowing the Wi-Fi password. The issue affects the company’s implementation of Wi-Fi",
+        "summary": "OVHcloud has reported a supply-chain attack involving its command-line interface (CLI) repository. An attacker exploited a developer&#8217;s GitHub account to distribute a malicious binary designed to",
         "cve": []
     },
     {
-        "title": "Microsoft Pays Researcher $4,000 for Discovering Critical VS Code Security Bypass Flaw",
-        "date": "Mon, 19 Oct 2026 07:49:29 +0000",
-        "url": "https://gbhackers.com/critical-vs-code-security-bypass-flaw/",
+        "title": "Rank Math PRO WordPress Plugin Compromised to Spread Malware and Steal Credentials",
+        "date": "Tue, 20 Oct 2026 10:48:55 +0000",
+        "url": "https://gbhackers.com/rank-math-pro-wordpress-plugin-compromised/",
         "source": "GBHackers",
-        "summary": "Microsoft awarded security researcher Sam Chen US$4,000 for reporting a flaw in Visual Studio Code that could let an attacker bypass Workspace Trust protections. The issue, tracked as CVE-2026-81376, ",
+        "summary": "Rank Math has reported a security incident involving malware distributed through Rank Math PRO version 3.0.123. They warn that WordPress websites using this compromised plugin are at risk if administr",
         "cve": []
     },
     {
-        "title": "U.S. Agencies Warn AI Agents Could Exploit Security Flaws and Establish Hidden Backdoors",
-        "date": "Mon, 19 Oct 2026 06:55:34 +0000",
-        "url": "https://gbhackers.com/u-s-agencies-warn-ai-agents/",
+        "title": "Hackers Can Take Over WordPress Websites Without a Password Using Two Security Flaws",
+        "date": "Tue, 20 Oct 2026 10:35:34 +0000",
+        "url": "https://gbhackers.com/wordpress-websites-at-risk/",
         "source": "GBHackers",
-        "summary": "U.S. agencies have warned that advanced AI agents could exploit security flaws, break out of their assigned limits, and leave hidden backdoors behind. New guidance from NIST, the National Security Age",
+        "summary": "Hackers can compromise vulnerable WordPress websites without stealing passwords by chaining two security flaws in the platform’s core. Disclosed in July 2026, the chain involves CVE-2026-63030 and CVE",
         "cve": []
     },
     {
-        "title": "Hackers Use Claude, DeepSeek and Grok in AI-Assisted Attacks on South Korean Banks",
-        "date": "Mon, 19 Oct 2026 06:21:24 +0000",
-        "url": "https://gbhackers.com/ai-assisted-attacks/",
+        "title": "Ransomware Gangs Use AI to Find and Steal the Most Sensitive Company Data Quickly",
+        "date": "Tue, 20 Oct 2026 09:57:29 +0000",
+        "url": "https://gbhackers.com/ai-powered-ransomware-2/",
         "source": "GBHackers",
-        "summary": "Hackers linked to attacks on South Korean banks used Claude Code, DeepSeek, Grok, and Zhipu AI alongside ARTEX, an open-source AI penetration testing framework. The campaign shows how attackers can co",
+        "summary": "Ransomware operators are using generative AI to sharpen phishing campaigns, speed up reconnaissance, and identify sensitive corporate information to steal. Zscaler ThreatLabz describes a shift toward ",
         "cve": []
     },
     {
-        "title": "Your Docking Station Has a Patching Problem",
-        "date": "Sat, 17 Oct 2026 14:00:41 +0000",
-        "url": "https://gbhackers.com/your-docking-station-has-a-patching-problem/",
+        "title": "Hackers Exploit Zimbra Zero-Click Flaw to Take Control of Email Servers",
+        "date": "Tue, 20 Oct 2026 08:52:42 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-zimbra-zero-click-flaw/",
         "source": "GBHackers",
-        "summary": "Summary: One BIOS setting can stop a dock from updating, and two dock CVEs live in the update tools themselves. Here&#8217;s how docks end up unpatched, and what to check on DMA protection.&#160; The ",
+        "summary": "Hackers are exploiting a command injection vulnerability (CVE-2026-73570) in the Zimbra Collaboration Suite. This vulnerability allows attackers to compromise internet-facing email servers without any",
         "cve": []
     },
     {
-        "title": "Hackers Use ConnectWise SkyKick Credentials to Access Microsoft 365, Halting Cloud Backups",
-        "date": "Sat, 17 Oct 2026 12:27:27 +0000",
-        "url": "https://gbhackers.com/hackers-use-connectwise-skykick-credentials/",
+        "title": "Hackers Turn Low-Cost Android Phones Into Hidden Proxy Botnets Through Preinstalled Malware",
+        "date": "Tue, 20 Oct 2026 07:41:50 +0000",
+        "url": "https://gbhackers.com/android-malware-campaign-2/",
         "source": "GBHackers",
-        "summary": "Attackers abused compromised ConnectWise Cloud Backup credentials to access Microsoft 365 customer environments, prompting ConnectWise to shut off application access and interrupt backup services. Jon",
+        "summary": "Midnight Mimosa, a widespread Android malware campaign, is turning inexpensive smartphones into advertising fraud engines and potential residential proxy nodes by embedding malicious apps in device fi",
         "cve": []
     }
 ]
