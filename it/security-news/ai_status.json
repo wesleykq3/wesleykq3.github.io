@@ -1,9 +1,9 @@
 {
-    "timestamp": "2026-10-21T02:07:59.759798",
+    "timestamp": "2026-10-21T16:10:02.141754",
     "services": [
         {
             "service": "OpenAI",
-            "status": "operational",
+            "status": "degraded",
             "description": "OpenAI Status Page",
             "url": "https://status.openai.com/"
         },
