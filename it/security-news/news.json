@@ -1,5 +1,45 @@
 [
     {
+        "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+        "date": "Tue, 20 Oct 2026 21:01:50 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+        "source": "BleepingComputer",
+        "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected",
+        "cve": []
+    },
+    {
+        "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+        "date": "Tue, 20 Oct 2026 20:46:42 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+        "source": "BleepingComputer",
+        "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them t",
+        "cve": []
+    },
+    {
+        "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+        "date": "Tue, 20 Oct 2026 16:56:43 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+        "source": "BleepingComputer",
+        "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead o",
+        "cve": []
+    },
+    {
+        "title": "Zeabur shutting down after second security breach in two months",
+        "date": "Tue, 20 Oct 2026 15:33:02 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+        "source": "BleepingComputer",
+        "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over ",
+        "cve": []
+    },
+    {
+        "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+        "date": "Tue, 20 Oct 2026 14:11:03 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+        "cve": []
+    },
+    {
         "title": "DHS bans DeepSeek products across US federal civilian agencies",
         "date": "Tue, 20 Oct 2026 10:19:05 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
@@ -40,43 +80,27 @@
         "cve": []
     },
     {
-        "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
-        "date": "Tue, 20 Oct 2026 07:18:35 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
-        "source": "BleepingComputer",
-        "summary": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
+        "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+        "date": "Tue, 20 Oct 2026 22:39:53 +0530",
+        "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+        "source": "The Hacker News",
+        "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.\n\nAn interme",
         "cve": []
     },
     {
-        "title": "Revolut outage disrupts online banking operations worldwide",
-        "date": "Tue, 20 Oct 2026 05:46:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
-        "source": "BleepingComputer",
-        "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+        "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+        "date": "Tue, 20 Oct 2026 21:08:52 +0530",
+        "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe ",
         "cve": []
     },
     {
-        "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-        "date": "Mon, 19 Oct 2026 17:49:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-        "source": "BleepingComputer",
-        "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
-        "cve": []
-    },
-    {
-        "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-        "date": "Mon, 19 Oct 2026 17:24:51 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-        "source": "BleepingComputer",
-        "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-        "date": "Mon, 19 Oct 2026 15:40:58 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-        "source": "BleepingComputer",
-        "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to ",
+        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+        "date": "Tue, 20 Oct 2026 21:02:27 +0530",
+        "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "source": "The Hacker News",
+        "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE",
         "cve": []
     },
     {
@@ -133,110 +157,6 @@
         "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
         "source": "The Hacker News",
         "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to",
-        "cve": []
-    },
-    {
-        "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-        "date": "Tue, 20 Oct 2026 13:51:29 +0530",
-        "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-        "source": "The Hacker News",
-        "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the",
-        "cve": []
-    },
-    {
-        "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-        "date": "Tue, 20 Oct 2026 12:41:45 +0530",
-        "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-        "source": "The Hacker News",
-        "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-11093",
-        "cve": []
-    },
-    {
-        "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-        "date": "Tue, 20 Oct 2026 11:23:16 +0530",
-        "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-        "source": "The Hacker News",
-        "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco of",
-        "cve": []
-    },
-    {
-        "title": "FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website",
-        "date": "Tue, 20 Oct 2026 15:09:27 +0000",
-        "url": "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters/",
-        "source": "CyberSecurityNews",
-        "summary": "Federal investigators suspect an executive at a United States consulting firm helped ShinyHunters operate a website used to pressure hacked companies into paying ransom demands. The allegation raises ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit Open Banking Services to Test Stolen Credentials Without Paying a Cent",
-        "date": "Tue, 20 Oct 2026 14:22:04 +0000",
-        "url": "https://cybersecuritynews.com/hackers-exploit-open-banking-services/",
-        "source": "CyberSecurityNews",
-        "summary": "Criminals have found a way to use open banking as a low-cost checking service for stolen bank and card details. In a campaign described by Group-IB, fraudsters abused a spend-management platform’s acc",
-        "cve": []
-    },
-    {
-        "title": "WP2Shell Attack Lets Hackers Create WordPress Admin Accounts and Install Web Shells Without Login",
-        "date": "Tue, 20 Oct 2026 13:54:23 +0000",
-        "url": "https://cybersecuritynews.com/wp2shell-attack/",
-        "source": "CyberSecurityNews",
-        "summary": "WP2Shell combines two WordPress Core flaws to move from an unauthenticated request to server-side code execution. It can let an attacker create an administrator account and install a plugin-based web ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Generative AI to Build Custom Malware and Bypass Traditional Security Detection",
-        "date": "Tue, 20 Oct 2026 13:32:15 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-generative-ai/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are using generative AI to build custom malware, rewrite harmful scripts, and make phishing messages harder to spot. The shift puts pressure on security tools that mainly depend on known file ",
-        "cve": []
-    },
-    {
-        "title": "Thousands of Android Phones Ship With Hidden Malware That Disables Google Play Protections",
-        "date": "Tue, 20 Oct 2026 13:15:38 +0000",
-        "url": "https://cybersecuritynews.com/thousands-of-android-phones/",
-        "source": "CyberSecurityNews",
-        "summary": "Thousands of Android phones across more than 150 countries have been found running malware planted in their firmware before purchase. The campaign, called Midnight Mimosa, targets low-cost devices and",
-        "cve": []
-    },
-    {
-        "title": "Hackers Hijack 790 GitHub Repositories to Steal Cloud Credentials and AI API Keys",
-        "date": "Tue, 20 Oct 2026 12:02:56 +0000",
-        "url": "https://cybersecuritynews.com/hackers-hijack-790-github-repositories/",
-        "source": "CyberSecurityNews",
-        "summary": "A campaign called GhostAction has placed malicious GitHub Actions workflows in 790 repositories, putting cloud credentials, software-publishing tokens, and AI service keys at risk. The total is OpenSo",
-        "cve": []
-    },
-    {
-        "title": "Revolut Outage Disrupts Payments and Banking Services as Google Cloud Reports London Issues",
-        "date": "Tue, 20 Oct 2026 11:37:05 +0000",
-        "url": "https://cybersecuritynews.com/revolut-outage/",
-        "source": "CyberSecurityNews",
-        "summary": "Revolut suffered a major service outage on Tuesday, October 20, 2026, disrupting payments, cash withdrawals, and access to its banking app. The digital bank said customer money and data remained safe ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Target South Korean Banks With AI, Then Accidentally Expose Their Own Attack Tools",
-        "date": "Tue, 20 Oct 2026 11:09:55 +0000",
-        "url": "https://cybersecuritynews.com/hackers-target-south-korean-banks/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers linked to AI-assisted attacks on South Korean banks left parts of their own infrastructure open, giving researchers a view of their tools and preparations. The exposed files showed a wider ope",
-        "cve": []
-    },
-    {
-        "title": "ThreatBook Launches RedAgents AI Platform That Uses Multiple Hacking Agents to Find Security Flaws",
-        "date": "Tue, 20 Oct 2026 10:41:54 +0000",
-        "url": "https://cybersecuritynews.com/redagents-ai-platform/",
-        "source": "CyberSecurityNews",
-        "summary": "ThreatBook has launched RedAgents, a cloud platform that brings several AI-powered penetration-testing agents together to assess an organization’s systems. Announced on October 16, 2026, the service i",
-        "cve": []
-    },
-    {
-        "title": "U.S. Government Bans DeepSeek AI and Orders Federal Agencies to Remove All Related Tools",
-        "date": "Tue, 20 Oct 2026 10:18:40 +0000",
-        "url": "https://cybersecuritynews.com/u-s-government-bans-deepseek-ai/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Department of Homeland Security has ordered federal civilian agencies to stop buying DeepSeek products and remove related technology from their IT systems. The action covers products from Han",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "ChatGPT Chrome Extension Expands Browser Access to Read Open Tab Content",
-        "date": "Tue, 20 Oct 2026 12:54:36 +0000",
-        "url": "https://gbhackers.com/chatgpt-chrome-extension-expands-browser-access/",
-        "source": "GBHackers",
-        "summary": "OpenAI has announced an expanded Chrome integration that lets ChatGPT gather information from open browser tabs and take action within the browser. This update introduces two distinct workflows: &#822",
+        "title": "Dynamic PAMT Merged For Linux 7.4 To Help Intel Servers Save Precious RAM",
+        "date": "Tue, 20 Oct 2026 20:26:59 -0400",
+        "url": "https://www.phoronix.com/news/Linux-74-Intel-TDX-Dynamic-PAMT",
+        "source": "Phoronix",
+        "summary": "Dynamic PAMT has made it for Linux 7.4! Dynamic PAMT is a new feature for reducing memory overhead on Intel TDX servers where there may not be many concurrent virtual machines occupying a majority of ",
         "cve": []
     },
     {
-        "title": "US Government Bans DeepSeek AI From Federal Civilian Agency IT Systems",
-        "date": "Tue, 20 Oct 2026 12:46:25 +0000",
-        "url": "https://gbhackers.com/us-government-bans-deepseek-ai/",
-        "source": "GBHackers",
-        "summary": "The U.S. Department of Homeland Security (DHS) has instructed federal civilian agencies to remove DeepSeek artificial intelligence products from their information technology systems and to stop acquir",
+        "title": "COSMIC Epoch 1.11 Released With Wayland xdg-dialog-v1, Better Multi-GPU Handling",
+        "date": "Tue, 20 Oct 2026 18:32:12 -0400",
+        "url": "https://www.phoronix.com/news/COSMIC-Epoch-1.11",
+        "source": "Phoronix",
+        "summary": "System76 developers just released COSMIC Epoch 1.11 as the newest point release to their Rust-written open-source desktop environment catering to their in-house Pop!_OS Linux distribution...",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Palo Alto Networks PAN-OS Flaw to Bypass MFA and Deploy Ransomware",
-        "date": "Tue, 20 Oct 2026 12:30:45 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw/",
-        "source": "GBHackers",
-        "summary": "Ransomware operators are exploiting a vulnerability in Palo Alto Networks PAN-OS that allows them to bypass authentication. This issue enables unauthorized VPN sessions, bypasses multifactor authentic",
+        "title": "Improved Performance & Resource Usage For XFS Checksumming With Linux 7.4",
+        "date": "Tue, 20 Oct 2026 13:05:28 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-XFS-Checksumming",
+        "source": "Phoronix",
+        "summary": "Among the many VFS pull requests merged as the initial material for the in-development Linux 7.4, the VFS IOmap pull introduced lazy bounce buffering for checksummed reads. This improvement is benefit",
         "cve": []
     },
     {
-        "title": "Scammers Turn Legitimate Fintech Platforms Into Phishing Tools to Steal Banking Details",
-        "date": "Tue, 20 Oct 2026 11:20:32 +0000",
-        "url": "https://gbhackers.com/fintech-platforms-abused/",
-        "source": "GBHackers",
-        "summary": "Scammers have weaponized a legitimate spend-management platform to send phishing messages and validate stolen financial credentials, turning trusted payment infrastructure into an operational part of ",
+        "title": "Intel & AMD Now Collaborating On Software Optimizations With PyTorch/oneDNN",
+        "date": "Tue, 20 Oct 2026 12:50:52 -0400",
+        "url": "https://www.phoronix.com/news/Intel-AMD-oneDNN-Optimize",
+        "source": "Phoronix",
+        "summary": "Intel has long worked on tuning their oneDNN neural network library for their hardware and saw its adoption by PyTorch and other AI frameworks. AMD has maintained ZenDNN as their downstream fork that ",
         "cve": []
     },
     {
-        "title": "Hackers Compromise OVHcloud GitHub Repository to Distribute Secret-Stealing Malware",
-        "date": "Tue, 20 Oct 2026 11:03:04 +0000",
-        "url": "https://gbhackers.com/hackers-compromise-ovhcloud-github-repository/",
-        "source": "GBHackers",
-        "summary": "OVHcloud has reported a supply-chain attack involving its command-line interface (CLI) repository. An attacker exploited a developer&#8217;s GitHub account to distribute a malicious binary designed to",
+        "title": "Intel Core Ultra 9 Arrow Lake On Star Labs StarFighter Shows Nice Gains On Ubuntu 26.10",
+        "date": "Tue, 20 Oct 2026 10:25:12 -0400",
+        "url": "https://www.phoronix.com/review/ubuntu-2610-arrow-lake",
+        "source": "Phoronix",
+        "summary": "For those running a Star Labs StarFighter Ultra or other Intel Core Ultra Arrow Lake laptop, the recent Ubuntu 26.10 release is providing some nice performance gains over the Ubuntu 26.04 LTS release.",
         "cve": []
     },
     {
-        "title": "Rank Math PRO WordPress Plugin Compromised to Spread Malware and Steal Credentials",
-        "date": "Tue, 20 Oct 2026 10:48:55 +0000",
-        "url": "https://gbhackers.com/rank-math-pro-wordpress-plugin-compromised/",
-        "source": "GBHackers",
-        "summary": "Rank Math has reported a security incident involving malware distributed through Rank Math PRO version 3.0.123. They warn that WordPress websites using this compromised plugin are at risk if administr",
+        "title": "Linux Foundation Estimates 25% Of New Pull Requests To Be Low-Quality AI Slop",
+        "date": "Tue, 20 Oct 2026 09:18:46 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Foundation-25p-AI-Slop",
+        "source": "Phoronix",
+        "summary": "The Linux Foundation published a new study today around the impact of generative AI on open-source software development. One key takeaway is that ~25% of new open-source software pull requests amount ",
         "cve": []
     },
     {
-        "title": "Hackers Can Take Over WordPress Websites Without a Password Using Two Security Flaws",
-        "date": "Tue, 20 Oct 2026 10:35:34 +0000",
-        "url": "https://gbhackers.com/wordpress-websites-at-risk/",
-        "source": "GBHackers",
-        "summary": "Hackers can compromise vulnerable WordPress websites without stealing passwords by chaining two security flaws in the platform’s core. Disclosed in July 2026, the chain involves CVE-2026-63030 and CVE",
+        "title": "Linux Coredumps Via Sockets Can Be Much Smaller Now With Sparse Support",
+        "date": "Tue, 20 Oct 2026 09:11:11 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Coredump-Sockets-Sparse",
+        "source": "Phoronix",
+        "summary": "Added to the Linux kernel last year was Coredump support via Unix domain sockets as an alternative to the pipe-based Coredumps. With code now merged for Linux 7.4, the core dumps via sockets has the p",
         "cve": []
     },
     {
-        "title": "Ransomware Gangs Use AI to Find and Steal the Most Sensitive Company Data Quickly",
-        "date": "Tue, 20 Oct 2026 09:57:29 +0000",
-        "url": "https://gbhackers.com/ai-powered-ransomware-2/",
-        "source": "GBHackers",
-        "summary": "Ransomware operators are using generative AI to sharpen phishing campaigns, speed up reconnaissance, and identify sensitive corporate information to steal. Zscaler ThreatLabz describes a shift toward ",
+        "title": "BFS Removed With Linux 7.4 As Old UnixWare File-System",
+        "date": "Tue, 20 Oct 2026 08:13:56 -0400",
+        "url": "https://www.phoronix.com/news/BFS-Removed-With-Linux-7.4",
+        "source": "Phoronix",
+        "summary": "Linus Torvalds began honoring pull requests overnight of new code entering the Linux 7.4 kernel -- as well as removing old code. BFS is the latest obsolete file-system removed from the mainline kernel",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Zimbra Zero-Click Flaw to Take Control of Email Servers",
-        "date": "Tue, 20 Oct 2026 08:52:42 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-zimbra-zero-click-flaw/",
-        "source": "GBHackers",
-        "summary": "Hackers are exploiting a command injection vulnerability (CVE-2026-73570) in the Zimbra Collaboration Suite. This vulnerability allows attackers to compromise internet-facing email servers without any",
+        "title": "KDE Plasma 6.8.1 Released With Dozens Of Fixes",
+        "date": "Tue, 20 Oct 2026 08:04:44 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Plasma-6.8.1",
+        "source": "Phoronix",
+        "summary": "Following last week's release of Plasma 6.8, the Plasma 6.8.1 point release is out today with dozens of bug fixes...",
         "cve": []
     },
     {
-        "title": "Hackers Turn Low-Cost Android Phones Into Hidden Proxy Botnets Through Preinstalled Malware",
-        "date": "Tue, 20 Oct 2026 07:41:50 +0000",
-        "url": "https://gbhackers.com/android-malware-campaign-2/",
-        "source": "GBHackers",
-        "summary": "Midnight Mimosa, a widespread Android malware campaign, is turning inexpensive smartphones into advertising fraud engines and potential residential proxy nodes by embedding malicious apps in device fi",
+        "title": "Omarchy 4.5 Expanding To AArch64 World With Snapdragon X & NVIDIA N1X Laptops",
+        "date": "Tue, 20 Oct 2026 07:52:00 -0400",
+        "url": "https://www.phoronix.com/news/Omarchy-4.5-RC1",
+        "source": "Phoronix",
+        "summary": "The Omarchy Linux distribution to date has been centered on x86_64 support for this Arch Linux distribution. Released today was Omarchy 4.5-RC1 and with this new version there is initial AArch64 suppo",
         "cve": []
     }
 ]
