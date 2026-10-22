@@ -1,5 +1,45 @@
 [
     {
+        "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+        "date": "Thu, 22 Oct 2026 11:49:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
+        "cve": []
+    },
+    {
+        "title": "Machine speed attacks require machine speed detection and response",
+        "date": "Thu, 22 Oct 2026 10:02:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+        "source": "BleepingComputer",
+        "summary": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI i",
+        "cve": []
+    },
+    {
+        "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+        "date": "Thu, 22 Oct 2026 09:09:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+        "source": "BleepingComputer",
+        "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
+        "cve": []
+    },
+    {
+        "title": "GitLab warns of new max severity code execution vulnerability",
+        "date": "Thu, 22 Oct 2026 07:41:48 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+        "source": "BleepingComputer",
+        "summary": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
+        "cve": []
+    },
+    {
+        "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+        "date": "Thu, 22 Oct 2026 04:27:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+        "source": "BleepingComputer",
+        "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and o",
+        "cve": []
+    },
+    {
         "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
         "date": "Wed, 21 Oct 2026 18:16:26 -0400",
         "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
@@ -40,43 +80,75 @@
         "cve": []
     },
     {
-        "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-        "date": "Wed, 21 Oct 2026 10:07:05 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-        "source": "BleepingComputer",
-        "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+        "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+        "date": "Thu, 22 Oct 2026 19:08:22 +0530",
+        "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+        "source": "The Hacker News",
+        "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\n\nIn tandem, the effort saw law e",
         "cve": []
     },
     {
-        "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-        "date": "Wed, 21 Oct 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
-        "source": "BleepingComputer",
-        "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these a",
+        "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+        "date": "Thu, 22 Oct 2026 17:15:00 +0530",
+        "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+        "source": "The Hacker News",
+        "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n",
         "cve": []
     },
     {
-        "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-        "date": "Wed, 21 Oct 2026 08:20:34 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+        "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+        "date": "Thu, 22 Oct 2026 16:45:42 +0530",
+        "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+        "source": "The Hacker News",
+        "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\n\nUpon further investigation, the company found t",
         "cve": []
     },
     {
-        "title": "Microsoft says October updates didn’t actually fix VPN issues",
-        "date": "Wed, 21 Oct 2026 06:14:53 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
+        "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+        "date": "Thu, 22 Oct 2026 16:14:05 +0530",
+        "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+        "source": "The Hacker News",
+        "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Cont",
         "cve": []
     },
     {
-        "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-        "date": "Wed, 21 Oct 2026 04:36:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
-        "source": "BleepingComputer",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+        "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+        "date": "Thu, 22 Oct 2026 13:58:48 +0530",
+        "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+        "source": "The Hacker News",
+        "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.",
+        "cve": []
+    },
+    {
+        "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+        "date": "Thu, 22 Oct 2026 13:17:22 +0530",
+        "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+        "source": "The Hacker News",
+        "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that N",
+        "cve": []
+    },
+    {
+        "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+        "date": "Thu, 22 Oct 2026 12:08:31 +0530",
+        "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+        "source": "The Hacker News",
+        "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small bat",
+        "cve": []
+    },
+    {
+        "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+        "date": "Thu, 22 Oct 2026 12:04:10 +0530",
+        "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+        "source": "The Hacker News",
+        "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the fla",
+        "cve": []
+    },
+    {
+        "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+        "date": "Thu, 22 Oct 2026 09:51:26 +0530",
+        "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+        "source": "The Hacker News",
+        "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Sto",
         "cve": []
     },
     {
@@ -85,158 +157,6 @@
         "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
         "source": "The Hacker News",
         "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2",
-        "cve": []
-    },
-    {
-        "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-        "date": "Wed, 21 Oct 2026 23:31:57 +0530",
-        "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-        "source": "The Hacker News",
-        "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSec",
-        "cve": []
-    },
-    {
-        "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-        "date": "Wed, 21 Oct 2026 22:03:47 +0530",
-        "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
-        "source": "The Hacker News",
-        "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal",
-        "cve": []
-    },
-    {
-        "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-        "date": "Wed, 21 Oct 2026 19:30:00 +0530",
-        "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-        "source": "The Hacker News",
-        "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and ",
-        "cve": []
-    },
-    {
-        "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
-        "date": "Wed, 21 Oct 2026 18:45:09 +0530",
-        "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
-        "source": "The Hacker News",
-        "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineerin",
-        "cve": []
-    },
-    {
-        "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-        "date": "Wed, 21 Oct 2026 17:35:00 +0530",
-        "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa ",
-        "cve": []
-    },
-    {
-        "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-        "date": "Wed, 21 Oct 2026 17:23:34 +0530",
-        "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-        "source": "The Hacker News",
-        "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and",
-        "cve": []
-    },
-    {
-        "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-        "date": "Wed, 21 Oct 2026 16:06:53 +0530",
-        "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-        "source": "The Hacker News",
-        "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggeste",
-        "cve": []
-    },
-    {
-        "title": "The Harness Is the Hard Part of Agentic Pentesting",
-        "date": "Wed, 21 Oct 2026 16:02:40 +0530",
-        "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-        "source": "The Hacker News",
-        "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run a",
-        "cve": []
-    },
-    {
-        "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-        "date": "Wed, 21 Oct 2026 16:00:27 +0530",
-        "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-        "source": "The Hacker News",
-        "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found.\n\nExit relays are the last ",
-        "cve": []
-    },
-    {
-        "title": "GoDaddy Revoking 404,607 TLS Certificates Following Compliance Failures",
-        "date": "Thu, 22 Oct 2026 01:43:58 +0000",
-        "url": "https://cybersecuritynews.com/godaddy-revoking-tls-certificates/",
-        "source": "CyberSecurityNews",
-        "summary": "GoDaddy launched a mass revocation of 404,607 SSL/TLS certificates after finding that issued certificates did not match its published certificate policies. The company missed its required revocation d",
-        "cve": []
-    },
-    {
-        "title": "Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections",
-        "date": "Wed, 21 Oct 2026 17:05:59 +0000",
-        "url": "https://cybersecuritynews.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/",
-        "source": "CyberSecurityNews",
-        "summary": "New York, NY, USA, October 21st, 2026, CyberNewswire According to the 2026 Autonomous Agents Threat Report, published by Arrakis Security, 76% of active agents have not run in 60 days, but their crede",
-        "cve": []
-    },
-    {
-        "title": "The AI Adoption Blind Spot: How Fake AI Tools Put Enterprises at Risk",
-        "date": "Wed, 21 Oct 2026 16:53:38 +0000",
-        "url": "https://cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk/",
-        "source": "CyberSecurityNews",
-        "summary": "AI adoption is accelerating across enterprises, with employees increasingly relying on platforms like ChatGPT, Claude, and Microsoft Copilot for everyday work. Cybercriminals are exploiting this growi",
-        "cve": []
-    },
-    {
-        "title": "Node.js Releases Security Updates to Fix High-Severity TLS, DNS, and Brotli Vulnerabilities",
-        "date": "Wed, 21 Oct 2026 16:33:58 +0000",
-        "url": "https://cybersecuritynews.com/node-js-releases-security-updates/",
-        "source": "CyberSecurityNews",
-        "summary": "Node.js has released security updates for its 26.x, 24.x, and 22.x branches to address ten vulnerabilities, including four high-severity flaws affecting DNS lookups, TLS certificate checks, and Brotli",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use AI-Powered Browsers to Hide Thousands of Fake Accounts and Bypass Security Detection",
-        "date": "Wed, 21 Oct 2026 15:54:49 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-ai-powered-browsers/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are using AI-enabled “antidetect” browsers to manage large networks of fake online accounts while making each profile appear to come from a different person, device, or location. Check ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Gentlemen Ransomware to Disable Windows Defender and Destroy Backups",
-        "date": "Wed, 21 Oct 2026 15:30:43 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-gentlemen-ransomware/",
-        "source": "CyberSecurityNews",
-        "summary": "A ransomware operation known as The Gentlemen is using a mix of security tampering, service disruption and file encryption to make recovery harder for affected organizations. Its Windows malware can t",
-        "cve": []
-    },
-    {
-        "title": "Google Upgrades Chrome With Gemini AI to Detect Fake Antivirus and Browser Update Scams",
-        "date": "Wed, 21 Oct 2026 15:14:13 +0000",
-        "url": "https://cybersecuritynews.com/chrome-with-gemini-ai-to-detect-update-scams/",
-        "source": "CyberSecurityNews",
-        "summary": "Google has upgraded Chrome’s Enhanced Protection mode with a more powerful Gemini AI model to detect fake antivirus alerts, browser update scams, and other deceptive websites. Announced on October 20,",
-        "cve": []
-    },
-    {
-        "title": "LiteLLM Compromised – Hackers Injected an Infostealer and RAT in the Latest 1.107.0 PyPI Release",
-        "date": "Wed, 21 Oct 2026 15:11:27 +0000",
-        "url": "https://cybersecuritynews.com/litellm-compromised/",
-        "source": "CyberSecurityNews",
-        "summary": "LiteLLM version 1.107.0 was compromised on PyPI on October 21, 2026, spreading a credential stealer and a remote access trojan through all seven distributed wheel files. The malicious release also rea",
-        "cve": []
-    },
-    {
-        "title": "China-Linked Hackers Turn Trusted Windows Applications Into Backdoors to Steal Credentials",
-        "date": "Wed, 21 Oct 2026 15:04:18 +0000",
-        "url": "https://cybersecuritynews.com/china-linked-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "China-linked hackers are using trusted Windows applications to load hidden backdoors, collect system details, and steal Active Directory credential data. The group, tracked as BRONZE SANDCASTLE, place",
-        "cve": []
-    },
-    {
-        "title": "PHP Releases Emergency Patches for PHP2Shell Flaws Threatening Millions of Web Servers",
-        "date": "Wed, 21 Oct 2026 14:38:17 +0000",
-        "url": "https://cybersecuritynews.com/php-releases-emergency-patches/",
-        "source": "CyberSecurityNews",
-        "summary": "PHP has released emergency security updates for two critical vulnerabilities that could let unauthenticated attackers run code on vulnerable web servers. Tracked as CVE-2026-109618 and CVE-2026-109619",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections",
-        "date": "Wed, 21 Oct 2026 17:06:53 +0000",
-        "url": "https://gbhackers.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/",
-        "source": "GBHackers",
-        "summary": "New York, NY, USA, October 21st, 2026, CyberNewswire According to the 2026 Autonomous Agents Threat Report, published by Arrakis Security, 76% of active agents have not run in 60 days, but their crede",
+        "title": "Linux 7.4 Improves Scheduling Latency For Short-Slice Tasks, NVIDIA Vera SMT Preference",
+        "date": "Thu, 22 Oct 2026 11:42:11 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4",
+        "source": "Phoronix",
+        "summary": "The scheduler updates have been merged for the in-development Linux 7.4 kernel to deliver several nice scheduling enhancements...",
         "cve": []
     },
     {
-        "title": "Google Chrome Integrates Gemini AI to Detect Fake Antivirus and Browser Update Scams",
-        "date": "Wed, 21 Oct 2026 13:20:09 +0000",
-        "url": "https://gbhackers.com/google-chrome-integrates-gemini-ai-to-detect-fake-antivirus/",
-        "source": "GBHackers",
-        "summary": "Google has enhanced Chrome&#8217;s AI-powered scam defenses with a new server-side Gemini model that detects fake antivirus alerts, fraudulent browser updates, and other deceptive websites. Announced ",
+        "title": "x86 Kernel Shadow Stacks Being Worked On For Linux As Powerful Control Flow Protection",
+        "date": "Thu, 22 Oct 2026 09:22:56 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Kernel-Shadow-Stacks",
+        "source": "Phoronix",
+        "summary": "Linux user-space for several years had shadow stack support for hardware-enforced control-flow enforcement in defending against return oriented programming (ROP) attacks. Intel Tigerlake and newer CPU",
         "cve": []
     },
     {
-        "title": "Gemini-Compatible AI Browsers Could Help Scammers Run Thousands of Fake Accounts, Researchers Warn",
-        "date": "Wed, 21 Oct 2026 13:03:49 +0000",
-        "url": "https://gbhackers.com/gemini-compatible-ai-browsers/",
-        "source": "GBHackers",
-        "summary": "Antidetect browsers tools that create separate browser profiles with altered digital fingerprints could help scammers operate thousands of apparently unrelated social media accounts. The research focu",
+        "title": "Mesa Loosens Rules Around AI Agents For Code Comments / Commit Messages",
+        "date": "Thu, 22 Oct 2026 08:03:30 -0400",
+        "url": "https://www.phoronix.com/news/Mesa-Loosens-AGENTS-MD",
+        "source": "Phoronix",
+        "summary": "The Mesa 3D graphics driver project has loosened its rules laid out in their AGENTS.md for AI agents to permit AI/LLM assistance in generating code comments and commit/patch messages, as long as a hum",
         "cve": []
     },
     {
-        "title": "Industrial Defender Unifies Endpoint Intelligence and Network Monitoring for CIP-015, Adds Risk Signal",
-        "date": "Wed, 21 Oct 2026 13:02:39 +0000",
-        "url": "https://gbhackers.com/industrial-defender-unifies-endpoint-intelligence-and-network-monitoring-for-cip-015-adds-risk-signal/",
-        "source": "GBHackers",
-        "summary": "Orlando, Florida, United States, October 20th, 2026, CyberNewswire Industrial Defender Unifies Endpoint Intelligence and Network Monitoring for CIP-015, Adds Risk Signal to Turn Findings into Prioriti",
+        "title": "Myrlyn 1.1 Released For SUSE/openSUSE GUI Package Manager",
+        "date": "Thu, 22 Oct 2026 07:47:43 -0400",
+        "url": "https://www.phoronix.com/news/Myrlyn-1.1-Released",
+        "source": "Phoronix",
+        "summary": "Myrlyn, the package manager GUI that began as YQPkg during a SUSE Hack Week and has evolved quite well, is out with version 1.1 as the first new feature update since the beginning of the year...",
         "cve": []
     },
     {
-        "title": "Gentlemen Ransomware Hackers Hijack Legitimate Lenovo Drivers to Disable Security Software",
-        "date": "Wed, 21 Oct 2026 12:21:40 +0000",
-        "url": "https://gbhackers.com/lenovo-drivers-exploited/",
-        "source": "GBHackers",
-        "summary": "The Gentlemen ransomware operation is abusing legitimate Lenovo and Safetica kernel drivers to terminate security software, weakening endpoint defenses before encryption. Acronis Threat Research Unit ",
+        "title": "Mesa RADV Change Satisfies More Steam Play Games On Aging AMD GFX8 GPUs",
+        "date": "Thu, 22 Oct 2026 06:30:00 -0400",
+        "url": "https://www.phoronix.com/news/Mesa-RADV-GFX8-FP16-Gaming",
+        "source": "Phoronix",
+        "summary": "Valve landed a patch in Mesa 27.0 and to be back-ported to current Mesa stable series to satisfy more games running under Steam Play with VKD3D-Proton for working on AMD GFX8 GPUs like Polaris...",
         "cve": []
     },
     {
-        "title": "Cloudflare Warns of Active Exploitation Attempts Against Two Leaked PHP Flaws",
-        "date": "Wed, 21 Oct 2026 12:02:55 +0000",
-        "url": "https://gbhackers.com/cloudflare-warns-of-active-exploitation-attempts/",
-        "source": "GBHackers",
-        "summary": "Cloudflare has issued a warning about emerging attacks targeting two critical PHP vulnerabilities. In response, the company has implemented emergency web application firewall (WAF) rules while develop",
+        "title": "Several Linux Kernel Vulnerabilities Accidentally Posted To Public Kernel Mailing List",
+        "date": "Thu, 22 Oct 2026 06:05:53 -0400",
+        "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+        "source": "Phoronix",
+        "summary": "Seemingly as an accident, overnight several new Linux kernel vulnerability reports were posted to the public Linux kernel mailing list rather than the private security mailing list. The vulnerabilitie",
         "cve": []
     },
     {
-        "title": "BRONZE SANDCASTLE Hackers Steal Active Directory Database Using Hidden Windows Backdoors",
-        "date": "Wed, 21 Oct 2026 11:41:24 +0000",
-        "url": "https://gbhackers.com/bronze-sandcastle-intrusions/",
-        "source": "GBHackers",
-        "summary": "BRONZE SANDCASTLE intrusions involving hidden Windows backdoors and the theft of the Active Directory database. The suspected China-based group combines legitimate applications, malicious DLLs, and en",
+        "title": "Linux 7.4 Adapts AMD Zen 6 For Less Costly CPU Security Mitigation",
+        "date": "Thu, 22 Oct 2026 05:40:39 -0400",
+        "url": "https://www.phoronix.com/news/AMD-Zen-6-BTB-Linux-7.4-Merged",
+        "source": "Phoronix",
+        "summary": "The x86/bugs pull request was merged this week for the Linux 7.4 kernel. Most notable here is adjusting the CPU security mitigations for AMD Zen 6 processors...",
         "cve": []
     },
     {
-        "title": "Google Chrome 156 Fixes 353 Security Vulnerabilities, Including 6 Critical Flaws",
-        "date": "Wed, 21 Oct 2026 11:26:13 +0000",
-        "url": "https://gbhackers.com/google-chrome-156-fixes-353-security-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "Google released Chrome version 156 to the stable channel for Windows, macOS, and Linux, addressing 353 security vulnerabilities, including six critical flaws. Announced on October 20, 2026, this updat",
+        "title": "Linux 7.4 Begins Landing Patches To Speed Up The Kernel Build Process",
+        "date": "Wed, 21 Oct 2026 20:52:38 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Kbuild",
+        "source": "Phoronix",
+        "summary": "There are notable patches by Arm engineer Lorenzo Stoakes that have begun landing in Linux 7.4 for speeding up the Linux kernel build process. This work can provide some significant reductions in the ",
         "cve": []
     },
     {
-        "title": "Researchers Uncover GhostShares Flaw That Makes Meta Muse AI Conversations Easy to Find",
-        "date": "Wed, 21 Oct 2026 10:22:31 +0000",
-        "url": "https://gbhackers.com/meta-muse-ai-chats/",
-        "source": "GBHackers",
-        "summary": "A privacy weakness in Meta’s Muse AI assistant that made shared conversations discoverable through passive DNS records, exposing personal files and internal business documents. Dubbed GhostShares, the",
+        "title": "Linus Torvalds Eliminates Unsafe __get_user() & __put_user() Functions In Linux 7.4",
+        "date": "Wed, 21 Oct 2026 17:11:58 -0400",
+        "url": "https://www.phoronix.com/news/Linus-Kills-Get-Put-User-Linux",
+        "source": "Phoronix",
+        "summary": "Linus Torvalds continues with his recent uptick in kernel patches himself, assisted in part by AI with Claude Code. Merged today was removing the historical and unsafe __get_user() and __put_user() ke",
         "cve": []
     },
     {
-        "title": "Russian Hackers Steal Credentials and Open Secret SSH Tunnel Into NATO Defense Firm’s Network",
-        "date": "Wed, 21 Oct 2026 09:49:55 +0000",
-        "url": "https://gbhackers.com/nato-defense-firms/",
-        "source": "GBHackers",
-        "summary": "Swallowtail, the Russian espionage group also tracked as APT28, Fancy Bear and Forest Blizzard, targeted organizations in two NATO member states, including a law enforcement agency, a naval shipbuilde",
+        "title": "Linux 7.4 Kernel Crypto Library Enjoying Optimized AES Implementations On x86 & RISC-V",
+        "date": "Wed, 21 Oct 2026 16:11:03 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Crypto-Library",
+        "source": "Phoronix",
+        "summary": "The latest Linux kernel cryptographic subsystem performance work carried out by Google engineer Eric Biggers is migrating x86/x86_64 and RISC-V optimized implementations of different AES modes into th",
         "cve": []
     }
 ]
