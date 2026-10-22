@@ -1,5 +1,45 @@
 [
     {
+        "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+        "date": "Wed, 21 Oct 2026 18:16:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+        "cve": []
+    },
+    {
+        "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+        "date": "Wed, 21 Oct 2026 17:43:27 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+        "source": "BleepingComputer",
+        "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+        "cve": []
+    },
+    {
+        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+        "date": "Wed, 21 Oct 2026 16:31:48 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+        "source": "BleepingComputer",
+        "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+        "date": "Wed, 21 Oct 2026 14:34:42 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+        "cve": []
+    },
+    {
+        "title": "OpenAI agents disabled safety monitoring, one lied about it",
+        "date": "Wed, 21 Oct 2026 12:26:53 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
+        "cve": []
+    },
+    {
         "title": "PHP ships emergency patches for critical PHP2Shell flaws",
         "date": "Wed, 21 Oct 2026 10:07:05 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
@@ -40,43 +80,27 @@
         "cve": []
     },
     {
-        "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-        "date": "Tue, 20 Oct 2026 21:01:50 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-        "source": "BleepingComputer",
-        "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected",
+        "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+        "date": "Thu, 22 Oct 2026 00:27:34 +0530",
+        "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+        "source": "The Hacker News",
+        "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2",
         "cve": []
     },
     {
-        "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-        "date": "Tue, 20 Oct 2026 20:46:42 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
-        "source": "BleepingComputer",
-        "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them t",
+        "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+        "date": "Wed, 21 Oct 2026 23:31:57 +0530",
+        "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+        "source": "The Hacker News",
+        "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSec",
         "cve": []
     },
     {
-        "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-        "date": "Tue, 20 Oct 2026 16:56:43 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-        "source": "BleepingComputer",
-        "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead o",
-        "cve": []
-    },
-    {
-        "title": "Zeabur shutting down after second security breach in two months",
-        "date": "Tue, 20 Oct 2026 15:33:02 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-        "source": "BleepingComputer",
-        "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over ",
-        "cve": []
-    },
-    {
-        "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
-        "date": "Tue, 20 Oct 2026 14:11:03 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+        "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+        "date": "Wed, 21 Oct 2026 22:03:47 +0530",
+        "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal",
         "cve": []
     },
     {
@@ -136,27 +160,83 @@
         "cve": []
     },
     {
-        "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-        "date": "Wed, 21 Oct 2026 14:35:17 +0530",
-        "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-        "source": "The Hacker News",
-        "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n",
+        "title": "GoDaddy Revoking 404,607 TLS Certificates Following Compliance Failures",
+        "date": "Thu, 22 Oct 2026 01:43:58 +0000",
+        "url": "https://cybersecuritynews.com/godaddy-revoking-tls-certificates/",
+        "source": "CyberSecurityNews",
+        "summary": "GoDaddy launched a mass revocation of 404,607 SSL/TLS certificates after finding that issued certificates did not match its published certificate policies. The company missed its required revocation d",
         "cve": []
     },
     {
-        "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-        "date": "Wed, 21 Oct 2026 14:31:12 +0530",
-        "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
-        "source": "The Hacker News",
-        "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor",
+        "title": "Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections",
+        "date": "Wed, 21 Oct 2026 17:05:59 +0000",
+        "url": "https://cybersecuritynews.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/",
+        "source": "CyberSecurityNews",
+        "summary": "New York, NY, USA, October 21st, 2026, CyberNewswire According to the 2026 Autonomous Agents Threat Report, published by Arrakis Security, 76% of active agents have not run in 60 days, but their crede",
         "cve": []
     },
     {
-        "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-        "date": "Wed, 21 Oct 2026 13:34:17 +0530",
-        "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-        "source": "The Hacker News",
-        "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" unde",
+        "title": "The AI Adoption Blind Spot: How Fake AI Tools Put Enterprises at Risk",
+        "date": "Wed, 21 Oct 2026 16:53:38 +0000",
+        "url": "https://cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk/",
+        "source": "CyberSecurityNews",
+        "summary": "AI adoption is accelerating across enterprises, with employees increasingly relying on platforms like ChatGPT, Claude, and Microsoft Copilot for everyday work. Cybercriminals are exploiting this growi",
+        "cve": []
+    },
+    {
+        "title": "Node.js Releases Security Updates to Fix High-Severity TLS, DNS, and Brotli Vulnerabilities",
+        "date": "Wed, 21 Oct 2026 16:33:58 +0000",
+        "url": "https://cybersecuritynews.com/node-js-releases-security-updates/",
+        "source": "CyberSecurityNews",
+        "summary": "Node.js has released security updates for its 26.x, 24.x, and 22.x branches to address ten vulnerabilities, including four high-severity flaws affecting DNS lookups, TLS certificate checks, and Brotli",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use AI-Powered Browsers to Hide Thousands of Fake Accounts and Bypass Security Detection",
+        "date": "Wed, 21 Oct 2026 15:54:49 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-ai-powered-browsers/",
+        "source": "CyberSecurityNews",
+        "summary": "Cybercriminals are using AI-enabled “antidetect” browsers to manage large networks of fake online accounts while making each profile appear to come from a different person, device, or location. Check ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Gentlemen Ransomware to Disable Windows Defender and Destroy Backups",
+        "date": "Wed, 21 Oct 2026 15:30:43 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-gentlemen-ransomware/",
+        "source": "CyberSecurityNews",
+        "summary": "A ransomware operation known as The Gentlemen is using a mix of security tampering, service disruption and file encryption to make recovery harder for affected organizations. Its Windows malware can t",
+        "cve": []
+    },
+    {
+        "title": "Google Upgrades Chrome With Gemini AI to Detect Fake Antivirus and Browser Update Scams",
+        "date": "Wed, 21 Oct 2026 15:14:13 +0000",
+        "url": "https://cybersecuritynews.com/chrome-with-gemini-ai-to-detect-update-scams/",
+        "source": "CyberSecurityNews",
+        "summary": "Google has upgraded Chrome’s Enhanced Protection mode with a more powerful Gemini AI model to detect fake antivirus alerts, browser update scams, and other deceptive websites. Announced on October 20,",
+        "cve": []
+    },
+    {
+        "title": "LiteLLM Compromised – Hackers Injected an Infostealer and RAT in the Latest 1.107.0 PyPI Release",
+        "date": "Wed, 21 Oct 2026 15:11:27 +0000",
+        "url": "https://cybersecuritynews.com/litellm-compromised/",
+        "source": "CyberSecurityNews",
+        "summary": "LiteLLM version 1.107.0 was compromised on PyPI on October 21, 2026, spreading a credential stealer and a remote access trojan through all seven distributed wheel files. The malicious release also rea",
+        "cve": []
+    },
+    {
+        "title": "China-Linked Hackers Turn Trusted Windows Applications Into Backdoors to Steal Credentials",
+        "date": "Wed, 21 Oct 2026 15:04:18 +0000",
+        "url": "https://cybersecuritynews.com/china-linked-hackers/",
+        "source": "CyberSecurityNews",
+        "summary": "China-linked hackers are using trusted Windows applications to load hidden backdoors, collect system details, and steal Active Directory credential data. The group, tracked as BRONZE SANDCASTLE, place",
+        "cve": []
+    },
+    {
+        "title": "PHP Releases Emergency Patches for PHP2Shell Flaws Threatening Millions of Web Servers",
+        "date": "Wed, 21 Oct 2026 14:38:17 +0000",
+        "url": "https://cybersecuritynews.com/php-releases-emergency-patches/",
+        "source": "CyberSecurityNews",
+        "summary": "PHP has released emergency security updates for two critical vulnerabilities that could let unauthenticated attackers run code on vulnerable web servers. Tracked as CVE-2026-109618 and CVE-2026-109619",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Snapdragon X2 Performance On Linux Exceeding Expectations In Initial Benchmarks",
-        "date": "Wed, 21 Oct 2026 10:50:41 -0400",
-        "url": "https://www.phoronix.com/review/snapdragon-x2-linux",
-        "source": "Phoronix",
-        "summary": "For your viewing pleasure today are the first Linux benchmarks of the Qualcomm Snapdragon X2 Elite Extreme on Linux using the new Ubuntu 26.10 X1E Concept ISO for Snapdragon X laptop support on Linux.",
+        "title": "Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections",
+        "date": "Wed, 21 Oct 2026 17:06:53 +0000",
+        "url": "https://gbhackers.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/",
+        "source": "GBHackers",
+        "summary": "New York, NY, USA, October 21st, 2026, CyberNewswire According to the 2026 Autonomous Agents Threat Report, published by Arrakis Security, 76% of active agents have not run in 60 days, but their crede",
         "cve": []
     },
     {
-        "title": "PHP Updates Released For Two Critical Code Execution Vulnerabilities",
-        "date": "Wed, 21 Oct 2026 09:43:31 -0400",
-        "url": "https://www.phoronix.com/news/PHP-New-Critical-CVEs-October",
-        "source": "Phoronix",
-        "summary": "PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 were just released to fix two critical vulnerabilities that can allow for unauthenticated remote code execution. Server administrators are advised to update immed",
+        "title": "Google Chrome Integrates Gemini AI to Detect Fake Antivirus and Browser Update Scams",
+        "date": "Wed, 21 Oct 2026 13:20:09 +0000",
+        "url": "https://gbhackers.com/google-chrome-integrates-gemini-ai-to-detect-fake-antivirus/",
+        "source": "GBHackers",
+        "summary": "Google has enhanced Chrome&#8217;s AI-powered scam defenses with a new server-side Gemini model that detects fake antivirus alerts, fraudulent browser updates, and other deceptive websites. Announced ",
         "cve": []
     },
     {
-        "title": "AMD Working On Ryzen Overclocking Driver For Linux",
-        "date": "Wed, 21 Oct 2026 08:24:13 -0400",
-        "url": "https://www.phoronix.com/news/AMD-AOD-Overclocking-Linux",
-        "source": "Phoronix",
-        "summary": "AMD recently published patches for the Linux kernel to implement AOD, an AMD Overclocking driver for Ryzen processors. Linux enthusiasts have long sought an official AMD Ryzen CPU overclocking driver ",
+        "title": "Gemini-Compatible AI Browsers Could Help Scammers Run Thousands of Fake Accounts, Researchers Warn",
+        "date": "Wed, 21 Oct 2026 13:03:49 +0000",
+        "url": "https://gbhackers.com/gemini-compatible-ai-browsers/",
+        "source": "GBHackers",
+        "summary": "Antidetect browsers tools that create separate browser profiles with altered digital fingerprints could help scammers operate thousands of apparently unrelated social media accounts. The research focu",
         "cve": []
     },
     {
-        "title": "Linux 7.4 To Close Files Synchronously For close_range, exec & exit",
-        "date": "Wed, 21 Oct 2026 07:55:42 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-Sync-Close-Files",
-        "source": "Phoronix",
-        "summary": "Of the many VFS changes to be merged for Linux 7.4 is now closing files synchrously for close_range, exec, and exit calls. In turn when needing to close many file descriptors this provides for much lo",
+        "title": "Industrial Defender Unifies Endpoint Intelligence and Network Monitoring for CIP-015, Adds Risk Signal",
+        "date": "Wed, 21 Oct 2026 13:02:39 +0000",
+        "url": "https://gbhackers.com/industrial-defender-unifies-endpoint-intelligence-and-network-monitoring-for-cip-015-adds-risk-signal/",
+        "source": "GBHackers",
+        "summary": "Orlando, Florida, United States, October 20th, 2026, CyberNewswire Industrial Defender Unifies Endpoint Intelligence and Network Monitoring for CIP-015, Adds Risk Signal to Turn Findings into Prioriti",
         "cve": []
     },
     {
-        "title": "Fwupd Working Toward Proper Android Integration",
-        "date": "Wed, 21 Oct 2026 06:16:13 -0400",
-        "url": "https://www.phoronix.com/news/Fwupd-To-Android-Integration",
-        "source": "Phoronix",
-        "summary": "Google Chromebooks already have a mandate for nice Fwupd support with the Linux Vendor Firmware (LVFS) while now there is work on improving the Android integration for Fwupd/LVFS...",
+        "title": "Gentlemen Ransomware Hackers Hijack Legitimate Lenovo Drivers to Disable Security Software",
+        "date": "Wed, 21 Oct 2026 12:21:40 +0000",
+        "url": "https://gbhackers.com/lenovo-drivers-exploited/",
+        "source": "GBHackers",
+        "summary": "The Gentlemen ransomware operation is abusing legitimate Lenovo and Safetica kernel drivers to terminate security software, weakening endpoint defenses before encryption. Acronis Threat Research Unit ",
         "cve": []
     },
     {
-        "title": "Meta Makes Improvements To Kernfs Scalability With Linux 7.4",
-        "date": "Wed, 21 Oct 2026 05:54:53 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-Kernfs-Scalability",
-        "source": "Phoronix",
-        "summary": "Kernfs as the functions/frameworks used for creating pseudo file-systems on Linux like sysfs and configfs have seen some nice scalability work carried out by Meta. After Meta engineers discovered some",
+        "title": "Cloudflare Warns of Active Exploitation Attempts Against Two Leaked PHP Flaws",
+        "date": "Wed, 21 Oct 2026 12:02:55 +0000",
+        "url": "https://gbhackers.com/cloudflare-warns-of-active-exploitation-attempts/",
+        "source": "GBHackers",
+        "summary": "Cloudflare has issued a warning about emerging attacks targeting two critical PHP vulnerabilities. In response, the company has implemented emergency web application firewall (WAF) rules while develop",
         "cve": []
     },
     {
-        "title": "AMD HIPRT 3.2 Released With Medusa APU Support",
-        "date": "Wed, 21 Oct 2026 05:40:46 -0400",
-        "url": "https://www.phoronix.com/news/AMD-HIPRT-3.2",
-        "source": "Phoronix",
-        "summary": "AMD HIPRT 3.2 released today as the first update to this HIP ray-tracing library since the beginning of 2026...",
+        "title": "BRONZE SANDCASTLE Hackers Steal Active Directory Database Using Hidden Windows Backdoors",
+        "date": "Wed, 21 Oct 2026 11:41:24 +0000",
+        "url": "https://gbhackers.com/bronze-sandcastle-intrusions/",
+        "source": "GBHackers",
+        "summary": "BRONZE SANDCASTLE intrusions involving hidden Windows backdoors and the theft of the Active Directory database. The suspected China-based group combines legitimate applications, malicious DLLs, and en",
         "cve": []
     },
     {
-        "title": "XFS Sees Small Performance Optimizations & Bug Fixes For Linux 7.4",
-        "date": "Wed, 21 Oct 2026 05:30:53 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-XFS",
-        "source": "Phoronix",
-        "summary": "The XFS file-system updates have landed for the in-development Linux 7.4 kernel...",
+        "title": "Google Chrome 156 Fixes 353 Security Vulnerabilities, Including 6 Critical Flaws",
+        "date": "Wed, 21 Oct 2026 11:26:13 +0000",
+        "url": "https://gbhackers.com/google-chrome-156-fixes-353-security-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Google released Chrome version 156 to the stable channel for Windows, macOS, and Linux, addressing 353 security vulnerabilities, including six critical flaws. Announced on October 20, 2026, this updat",
         "cve": []
     },
     {
-        "title": "Dynamic PAMT Merged For Linux 7.4 To Help Intel Servers Save Precious RAM",
-        "date": "Tue, 20 Oct 2026 20:26:59 -0400",
-        "url": "https://www.phoronix.com/news/Linux-74-Intel-TDX-Dynamic-PAMT",
-        "source": "Phoronix",
-        "summary": "Dynamic PAMT has made it for Linux 7.4! Dynamic PAMT is a new feature for reducing memory overhead on Intel TDX servers where there may not be many concurrent virtual machines occupying a majority of ",
+        "title": "Researchers Uncover GhostShares Flaw That Makes Meta Muse AI Conversations Easy to Find",
+        "date": "Wed, 21 Oct 2026 10:22:31 +0000",
+        "url": "https://gbhackers.com/meta-muse-ai-chats/",
+        "source": "GBHackers",
+        "summary": "A privacy weakness in Meta’s Muse AI assistant that made shared conversations discoverable through passive DNS records, exposing personal files and internal business documents. Dubbed GhostShares, the",
         "cve": []
     },
     {
-        "title": "COSMIC Epoch 1.11 Released With Wayland xdg-dialog-v1, Better Multi-GPU Handling",
-        "date": "Tue, 20 Oct 2026 18:32:12 -0400",
-        "url": "https://www.phoronix.com/news/COSMIC-Epoch-1.11",
-        "source": "Phoronix",
-        "summary": "System76 developers just released COSMIC Epoch 1.11 as the newest point release to their Rust-written open-source desktop environment catering to their in-house Pop!_OS Linux distribution...",
+        "title": "Russian Hackers Steal Credentials and Open Secret SSH Tunnel Into NATO Defense Firm’s Network",
+        "date": "Wed, 21 Oct 2026 09:49:55 +0000",
+        "url": "https://gbhackers.com/nato-defense-firms/",
+        "source": "GBHackers",
+        "summary": "Swallowtail, the Russian espionage group also tracked as APT28, Fancy Bear and Forest Blizzard, targeted organizations in two NATO member states, including a law enforcement agency, a naval shipbuilde",
         "cve": []
     }
 ]
