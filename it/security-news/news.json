@@ -1,5 +1,37 @@
 [
     {
+        "title": "Railway warns devs to rotate secrets after potential breach",
+        "date": "Thu, 22 Oct 2026 17:25:31 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+        "source": "BleepingComputer",
+        "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+        "cve": []
+    },
+    {
+        "title": "Capcom confirms data breach affecting 11.7 million accounts",
+        "date": "Thu, 22 Oct 2026 16:22:45 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+        "source": "BleepingComputer",
+        "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+        "cve": []
+    },
+    {
+        "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+        "date": "Thu, 22 Oct 2026 15:12:51 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+        "source": "BleepingComputer",
+        "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+        "cve": []
+    },
+    {
+        "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+        "date": "Thu, 22 Oct 2026 13:18:22 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+        "cve": []
+    },
+    {
         "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
         "date": "Thu, 22 Oct 2026 11:49:32 -0400",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
@@ -48,35 +80,51 @@
         "cve": []
     },
     {
-        "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-        "date": "Wed, 21 Oct 2026 17:43:27 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-        "source": "BleepingComputer",
-        "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+        "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+        "date": "Fri, 23 Oct 2026 00:35:35 +0530",
+        "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+        "source": "The Hacker News",
+        "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n",
         "cve": []
     },
     {
-        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-        "date": "Wed, 21 Oct 2026 16:31:48 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-        "source": "BleepingComputer",
-        "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+        "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+        "date": "Fri, 23 Oct 2026 00:35:17 +0530",
+        "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+        "source": "The Hacker News",
+        "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advi",
         "cve": []
     },
     {
-        "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-        "date": "Wed, 21 Oct 2026 14:34:42 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+        "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+        "date": "Thu, 22 Oct 2026 23:42:43 +0530",
+        "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+        "source": "The Hacker News",
+        "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business,&nbsp;its board decided on Thursday. The decision came five days after a researcher&nbsp;repor",
         "cve": []
     },
     {
-        "title": "OpenAI agents disabled safety monitoring, one lied about it",
-        "date": "Wed, 21 Oct 2026 12:26:53 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
+        "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+        "date": "Thu, 22 Oct 2026 23:15:44 +0530",
+        "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+        "source": "The Hacker News",
+        "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and ",
+        "cve": []
+    },
+    {
+        "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+        "date": "Thu, 22 Oct 2026 22:31:53 +0530",
+        "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+        "source": "The Hacker News",
+        "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in ",
+        "cve": []
+    },
+    {
+        "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+        "date": "Thu, 22 Oct 2026 21:42:31 +0530",
+        "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+        "source": "The Hacker News",
+        "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal,",
         "cve": []
     },
     {
@@ -85,14 +133,6 @@
         "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
         "source": "The Hacker News",
         "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\n\nIn tandem, the effort saw law e",
-        "cve": []
-    },
-    {
-        "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-        "date": "Thu, 22 Oct 2026 17:15:00 +0530",
-        "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-        "source": "The Hacker News",
-        "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n",
         "cve": []
     },
     {
@@ -120,43 +160,83 @@
         "cve": []
     },
     {
-        "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-        "date": "Thu, 22 Oct 2026 13:17:22 +0530",
-        "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-        "source": "The Hacker News",
-        "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that N",
+        "title": "Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year",
+        "date": "Thu, 22 Oct 2026 16:12:01 +0000",
+        "url": "https://cybersecuritynews.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/",
+        "source": "CyberSecurityNews",
+        "summary": "Contern, Luxembourg, October 22nd, 2026, CyberNewswire Gcore is offering its WAAP Enterprise plan free of charge to any government body or public agency until December 31, 2026. The offer follows the ",
         "cve": []
     },
     {
-        "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-        "date": "Thu, 22 Oct 2026 12:08:31 +0530",
-        "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-        "source": "The Hacker News",
-        "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small bat",
+        "title": "Major U.S. Banks Detect Unauthorized AI Agents Operating Inside Customer Accounts",
+        "date": "Thu, 22 Oct 2026 15:23:07 +0000",
+        "url": "https://cybersecuritynews.com/u-s-banks-detect-unauthorized-ai-agents/",
+        "source": "CyberSecurityNews",
+        "summary": "Major U.S. banks are detecting third-party AI agents inside customer accounts, raising concerns that automated tools could act beyond the instructions customers give them. Some agents have contacted c",
         "cve": []
     },
     {
-        "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-        "date": "Thu, 22 Oct 2026 12:04:10 +0530",
-        "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-        "source": "The Hacker News",
-        "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the fla",
+        "title": "eMudhra Exits Global SSL/TLS Certificate Business Following the Vulnerability Disclosure",
+        "date": "Thu, 22 Oct 2026 14:52:11 +0000",
+        "url": "https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/",
+        "source": "CyberSecurityNews",
+        "summary": "eMudhra Limited has announced it is&#160;exiting&#160;the global SSL/TLS certificate business after disclosing weak private keys in eight intermediate certificate authority certificates. The October 2",
         "cve": []
     },
     {
-        "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-        "date": "Thu, 22 Oct 2026 09:51:26 +0530",
-        "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-        "source": "The Hacker News",
-        "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Sto",
+        "title": "Claude Security Now Scans Repositories Continuously to Find Flaws and Track Fixes",
+        "date": "Thu, 22 Oct 2026 14:40:43 +0000",
+        "url": "https://cybersecuritynews.com/claude-security-continuous-scans/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic has updated Claude Security so it can keep checking connected code repositories as they change, rather than waiting for a person to start each scan. The service also tracks reported vulnerab",
         "cve": []
     },
     {
-        "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-        "date": "Thu, 22 Oct 2026 00:27:34 +0530",
-        "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-        "source": "The Hacker News",
-        "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2",
+        "title": "A New Extortion Gang Is Naming Companies on the Dark Web and Counting Down to Data Leaks",
+        "date": "Thu, 22 Oct 2026 14:40:34 +0000",
+        "url": "https://cybersecuritynews.com/a-new-extortion-gang/",
+        "source": "CyberSecurityNews",
+        "summary": "ScarlettGroup, a newly observed cyber extortion gang, is naming companies on a dark web leak site and using countdown timers to threaten the release of allegedly stolen data. The operation puts public",
+        "cve": []
+    },
+    {
+        "title": "Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched",
+        "date": "Thu, 22 Oct 2026 14:14:07 +0000",
+        "url": "https://cybersecuritynews.com/critical-php-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "A threat actor tried to exploit two critical PHP vulnerabilities four days before the flaws were publicly disclosed and patched, according to Amazon Threat Intelligence. The activity began on October ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Planted Malware on Japanese Cloud Servers, Forcing the Provider to Shut Down Its Service",
+        "date": "Thu, 22 Oct 2026 13:05:45 +0000",
+        "url": "https://cybersecuritynews.com/hackers-planted-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers planted malware in customer server environments at Japan’s Onamae.com Desktop Cloud, prompting the provider to begin shutting down servers across every service plan. The company listed 26,739 ",
+        "cve": []
+    },
+    {
+        "title": "North Korean Hackers Use Post-Quantum Encryption to Hide New Malware From Security Tools",
+        "date": "Thu, 22 Oct 2026 12:38:07 +0000",
+        "url": "https://cybersecuritynews.com/north-korean-hackers/",
+        "source": "CyberSecurityNews",
+        "summary": "North Korean-linked Lazarus hackers are using post-quantum cryptography in a malware delivery chain designed to conceal later-stage payloads from security tools. The technique appeared in Operation Fl",
+        "cve": []
+    },
+    {
+        "title": "A Hacker Tried to Turn an AI Chatbot Into a Tool for Attacking Other Servers",
+        "date": "Thu, 22 Oct 2026 12:15:23 +0000",
+        "url": "https://cybersecuritynews.com/ai-chatbot-into-a-tool/",
+        "source": "CyberSecurityNews",
+        "summary": "An exposed artificial intelligence platform can give an intruder more than a place to send messages. If it connects to stored credentials, company data, or network tools, the platform may also provide",
+        "cve": []
+    },
+    {
+        "title": "New Android Malware Replaces Legitimate Banking Apps With Malicious Copies to Bypass Security Checks",
+        "date": "Thu, 22 Oct 2026 11:13:18 +0000",
+        "url": "https://cybersecuritynews.com/new-android-malware-2/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly identified Android banking Trojan called Hirudo takes an unusual route to financial fraud: it tries to remove a victim’s genuine banking app and install a modified copy in its place. The repla",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Linux 7.4 Improves Scheduling Latency For Short-Slice Tasks, NVIDIA Vera SMT Preference",
-        "date": "Thu, 22 Oct 2026 11:42:11 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4",
-        "source": "Phoronix",
-        "summary": "The scheduler updates have been merged for the in-development Linux 7.4 kernel to deliver several nice scheduling enhancements...",
+        "title": "Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year",
+        "date": "Thu, 22 Oct 2026 16:13:17 +0000",
+        "url": "https://gbhackers.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/",
+        "source": "GBHackers",
+        "summary": "Contern, Luxembourg, October 22nd, 2026, CyberNewswire Gcore is offering its WAAP Enterprise plan free of charge to any government body or public agency until December 31, 2026. The offer follows the ",
         "cve": []
     },
     {
-        "title": "x86 Kernel Shadow Stacks Being Worked On For Linux As Powerful Control Flow Protection",
-        "date": "Thu, 22 Oct 2026 09:22:56 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Kernel-Shadow-Stacks",
-        "source": "Phoronix",
-        "summary": "Linux user-space for several years had shadow stack support for hardware-enforced control-flow enforcement in defending against return oriented programming (ROP) attacks. Intel Tigerlake and newer CPU",
+        "title": "Cybercriminals Used Claude and Grok to Launch Automated Attacks Against Banks",
+        "date": "Thu, 22 Oct 2026 13:37:13 +0000",
+        "url": "https://gbhackers.com/claude-and-grok-exploited/",
+        "source": "GBHackers",
+        "summary": "Cybercriminals used a multi-agent system called CARLIY0S to coordinate attacks against more than 400 financial institutions and payment providers across Latin America. The system combined commercial A",
         "cve": []
     },
     {
-        "title": "Mesa Loosens Rules Around AI Agents For Code Comments / Commit Messages",
-        "date": "Thu, 22 Oct 2026 08:03:30 -0400",
-        "url": "https://www.phoronix.com/news/Mesa-Loosens-AGENTS-MD",
-        "source": "Phoronix",
-        "summary": "The Mesa 3D graphics driver project has loosened its rules laid out in their AGENTS.md for AI agents to permit AI/LLM assistance in generating code comments and commit/patch messages, as long as a hum",
+        "title": "K0T Hackers Target FortiGate, FortiWeb and Palo Alto GlobalProtect in Credential Theft Campaign",
+        "date": "Thu, 22 Oct 2026 13:03:31 +0000",
+        "url": "https://gbhackers.com/k0t-credential-theft/",
+        "source": "GBHackers",
+        "summary": "A widespread campaign targeting FortiGate, FortiWeb, and Palo Alto GlobalProtect appliances to steal credentials, establish persistent access, and exfiltrate corporate data. The investigation associat",
         "cve": []
     },
     {
-        "title": "Myrlyn 1.1 Released For SUSE/openSUSE GUI Package Manager",
-        "date": "Thu, 22 Oct 2026 07:47:43 -0400",
-        "url": "https://www.phoronix.com/news/Myrlyn-1.1-Released",
-        "source": "Phoronix",
-        "summary": "Myrlyn, the package manager GUI that began as YQPkg during a SUSE Hack Week and has evolved quite well, is out with version 1.1 as the first new feature update since the beginning of the year...",
+        "title": "Critical Cisco Expressway Flaw Lets Attackers Execute Commands as Root",
+        "date": "Thu, 22 Oct 2026 12:32:18 +0000",
+        "url": "https://gbhackers.com/critical-cisco-expressway-flaw-2/",
+        "source": "GBHackers",
+        "summary": "Cisco has released security updates to address a critical vulnerability in its Expressway Series. This flaw, tracked as CVE-2026-76466, could allow unauthenticated remote attackers to execute arbitrar",
         "cve": []
     },
     {
-        "title": "Mesa RADV Change Satisfies More Steam Play Games On Aging AMD GFX8 GPUs",
-        "date": "Thu, 22 Oct 2026 06:30:00 -0400",
-        "url": "https://www.phoronix.com/news/Mesa-RADV-GFX8-FP16-Gaming",
-        "source": "Phoronix",
-        "summary": "Valve landed a patch in Mesa 27.0 and to be back-ported to current Mesa stable series to satisfy more games running under Steam Play with VKD3D-Proton for working on AMD GFX8 GPUs like Polaris...",
+        "title": "New ScarlettGroup Extortion Gang Threatens to Leak Company Data Using Dark Web Countdown Timers",
+        "date": "Thu, 22 Oct 2026 12:29:20 +0000",
+        "url": "https://gbhackers.com/scarlettgroup-extortion-campaign/",
+        "source": "GBHackers",
+        "summary": "An emerging cyber-extortion operation named ScarlettGroup is using a Tor-based leak site and public countdown timers to pressure organizations over allegedly compromised data. Threat-monitoring record",
         "cve": []
     },
     {
-        "title": "Several Linux Kernel Vulnerabilities Accidentally Posted To Public Kernel Mailing List",
-        "date": "Thu, 22 Oct 2026 06:05:53 -0400",
-        "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-        "source": "Phoronix",
-        "summary": "Seemingly as an accident, overnight several new Linux kernel vulnerability reports were posted to the public Linux kernel mailing list rather than the private security mailing list. The vulnerabilitie",
+        "title": "Scammers Exploit Dell and Staples Order Emails to Bypass Traditional Phishing Detection",
+        "date": "Thu, 22 Oct 2026 12:10:15 +0000",
+        "url": "https://gbhackers.com/dell-and-staples-emails-exploited/",
+        "source": "GBHackers",
+        "summary": "Scammers are abusing legitimate Dell and Staples order notifications to deliver callback phishing lures, embedding fraudulent helpline numbers inside transactional emails that pass authentication chec",
         "cve": []
     },
     {
-        "title": "Linux 7.4 Adapts AMD Zen 6 For Less Costly CPU Security Mitigation",
-        "date": "Thu, 22 Oct 2026 05:40:39 -0400",
-        "url": "https://www.phoronix.com/news/AMD-Zen-6-BTB-Linux-7.4-Merged",
-        "source": "Phoronix",
-        "summary": "The x86/bugs pull request was merged this week for the Linux 7.4 kernel. Most notable here is adjusting the CPU security mitigations for AMD Zen 6 processors...",
+        "title": "Fortinet Releases Critical Security Updates for FortiOS, FortiManager, and FortiAnalyzer",
+        "date": "Thu, 22 Oct 2026 11:26:55 +0000",
+        "url": "https://gbhackers.com/fortinet-releases-critical-security-updates/",
+        "source": "GBHackers",
+        "summary": "Fortinet has announced coordinated security hardening updates for FortiOS, FortiManager, and FortiAnalyzer, scheduled for October 22, 2026. These updates aim to address critical and high-severity vuln",
         "cve": []
     },
     {
-        "title": "Linux 7.4 Begins Landing Patches To Speed Up The Kernel Build Process",
-        "date": "Wed, 21 Oct 2026 20:52:38 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-Kbuild",
-        "source": "Phoronix",
-        "summary": "There are notable patches by Arm engineer Lorenzo Stoakes that have begun landing in Linux 7.4 for speeding up the Linux kernel build process. This work can provide some significant reductions in the ",
+        "title": "Samsung and Vizio Smart TVs Continue Sending Viewing Data Even After Users Opt Out",
+        "date": "Thu, 22 Oct 2026 11:13:22 +0000",
+        "url": "https://gbhackers.com/samsung-and-vizio-smart-tvs-continue-sending-viewing-data/",
+        "source": "GBHackers",
+        "summary": "Samsung and Vizio smart TVs continued sending traffic consistent with automatic content recognition (ACR) even after researchers disabled the feature. This raises concerns about how reliable privacy c",
         "cve": []
     },
     {
-        "title": "Linus Torvalds Eliminates Unsafe __get_user() & __put_user() Functions In Linux 7.4",
-        "date": "Wed, 21 Oct 2026 17:11:58 -0400",
-        "url": "https://www.phoronix.com/news/Linus-Kills-Get-Put-User-Linux",
-        "source": "Phoronix",
-        "summary": "Linus Torvalds continues with his recent uptick in kernel patches himself, assisted in part by AI with Claude Code. Merged today was removing the historical and unsafe __get_user() and __put_user() ke",
+        "title": "Hackers Used AI-Generated Scripts to Break Into Government Linux Servers and Hunt for Secrets",
+        "date": "Thu, 22 Oct 2026 10:58:41 +0000",
+        "url": "https://gbhackers.com/ai-generated-scripts/",
+        "source": "GBHackers",
+        "summary": "Hackers used apparently AI-generated scripts to compromise government Linux infrastructure, harvest credentials and pursue sensitive databases and official mailboxes in a campaign tracked as CL-UNK-12",
         "cve": []
     },
     {
-        "title": "Linux 7.4 Kernel Crypto Library Enjoying Optimized AES Implementations On x86 & RISC-V",
-        "date": "Wed, 21 Oct 2026 16:11:03 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-Crypto-Library",
-        "source": "Phoronix",
-        "summary": "The latest Linux kernel cryptographic subsystem performance work carried out by Google engineer Eric Biggers is migrating x86/x86_64 and RISC-V optimized implementations of different AES modes into th",
+        "title": "Hackers Use Fake App Updates to Replace Legitimate Banking Apps With Malicious Versions",
+        "date": "Thu, 22 Oct 2026 10:16:56 +0000",
+        "url": "https://gbhackers.com/banking-app-hijacking/",
+        "source": "GBHackers",
+        "summary": "Hirudo, an Android banking remote-access trojan (RAT) that can steal credentials and remotely control an infected phone. Its most unusual feature is the ability to replace selected genuine banking app",
         "cve": []
     }
 ]
