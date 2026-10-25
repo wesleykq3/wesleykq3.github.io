@@ -80,6 +80,14 @@
         "cve": []
     },
     {
+        "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+        "date": "Sun, 25 Oct 2026 12:24:29 +0530",
+        "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"",
+        "cve": []
+    },
+    {
         "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
         "date": "Sat, 24 Oct 2026 16:39:29 +0530",
         "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
@@ -152,11 +160,19 @@
         "cve": []
     },
     {
-        "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-        "date": "Fri, 23 Oct 2026 16:55:43 +0530",
-        "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-        "source": "The Hacker News",
-        "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects ",
+        "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device",
+        "date": "Sun, 25 Oct 2026 14:11:30 +0000",
+        "url": "https://cybersecuritynews.com/tailscale-ssh-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each ot",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations",
+        "date": "Sun, 25 Oct 2026 06:55:23 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-teams-ai-detection/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is preparing to add AI phishing detection to Microsoft Teams, using conversation context to spot scams that may contain no harmful links or attachments. The feature will focus mainly on firs",
         "cve": []
     },
     {
@@ -221,22 +237,6 @@
         "url": "https://cybersecuritynews.com/multiple-waves-of-ddos-attacks-caused-in-north-korea/",
         "source": "CyberSecurityNews",
         "summary": "Multiple waves of DDoS attacks disrupted North Korea’s public internet services this week, knocking major state websites offline. Kentik’s internet analysis director Doug Madory linked the outages to ",
-        "cve": []
-    },
-    {
-        "title": "New Node2Shell Node.js RCE Exploit Let Attackers Execute Malicious Code Through Brotli-Compressed Data",
-        "date": "Fri, 23 Oct 2026 14:11:40 +0000",
-        "url": "https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/",
-        "source": "CyberSecurityNews",
-        "summary": "Researchers has demonstrated Node2Shell, a working exploit that lets an attacker run code inside a Node.js application through specially crafted, Brotli-compressed data. The research targets CVE-2026-",
-        "cve": []
-    },
-    {
-        "title": "Hackers Actively Exploiting Critical VeloCloud Orchestrator Flaw to Gain Superuser Access",
-        "date": "Fri, 23 Oct 2026 13:57:11 +0000",
-        "url": "https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are actively exploiting a critical SQL injection flaw in VeloCloud Orchestrator (VCO) that allows logged-in users to gain superuser operator access. Arista Networks disclosed the vulnerability",
         "cve": []
     },
     {
