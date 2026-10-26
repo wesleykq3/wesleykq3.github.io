@@ -1,5 +1,13 @@
 [
     {
+        "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+        "date": "Sun, 25 Oct 2026 11:49:38 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+        "source": "BleepingComputer",
+        "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+        "cve": []
+    },
+    {
         "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
         "date": "Sat, 24 Oct 2026 10:17:32 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
@@ -72,11 +80,19 @@
         "cve": []
     },
     {
-        "title": "Capcom confirms data breach affecting 11.7 million accounts",
-        "date": "Thu, 22 Oct 2026 16:22:45 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-        "source": "BleepingComputer",
-        "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+        "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+        "date": "Sun, 25 Oct 2026 23:14:09 +0530",
+        "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+        "source": "The Hacker News",
+        "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requir",
+        "cve": []
+    },
+    {
+        "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+        "date": "Sun, 25 Oct 2026 22:49:46 +0530",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and",
         "cve": []
     },
     {
@@ -141,22 +157,6 @@
         "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
         "source": "The Hacker News",
         "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab pa",
-        "cve": []
-    },
-    {
-        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-        "date": "Fri, 23 Oct 2026 23:20:47 +0530",
-        "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"",
-        "cve": []
-    },
-    {
-        "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-        "date": "Fri, 23 Oct 2026 19:20:56 +0530",
-        "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"A",
         "cve": []
     },
     {
