@@ -1,5 +1,53 @@
 [
     {
+        "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+        "date": "Tue, 27 Oct 2026 12:15:39 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+        "source": "BleepingComputer",
+        "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+        "cve": []
+    },
+    {
+        "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+        "date": "Tue, 27 Oct 2026 10:09:46 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+        "source": "BleepingComputer",
+        "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+        "cve": []
+    },
+    {
+        "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+        "date": "Tue, 27 Oct 2026 10:01:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+        "source": "BleepingComputer",
+        "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats",
+        "cve": []
+    },
+    {
+        "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+        "date": "Tue, 27 Oct 2026 06:36:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+        "source": "BleepingComputer",
+        "summary": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+        "cve": []
+    },
+    {
+        "title": "Energy giant ENGIE discloses data breach affecting customers",
+        "date": "Tue, 27 Oct 2026 05:25:50 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+        "source": "BleepingComputer",
+        "summary": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...",
+        "cve": []
+    },
+    {
+        "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+        "date": "Tue, 27 Oct 2026 04:20:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell  vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch thei",
+        "cve": []
+    },
+    {
         "title": "University of Copenhagen data breach exposes data of 525,000 people",
         "date": "Mon, 26 Oct 2026 18:20:36 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
@@ -32,211 +80,163 @@
         "cve": []
     },
     {
-        "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-        "date": "Mon, 26 Oct 2026 12:27:57 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-        "source": "BleepingComputer",
-        "summary": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-        "date": "Mon, 26 Oct 2026 11:38:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
-        "cve": []
-    },
-    {
-        "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-        "date": "Mon, 26 Oct 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-        "source": "BleepingComputer",
-        "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the i",
-        "cve": []
-    },
-    {
-        "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
-        "date": "Mon, 26 Oct 2026 09:56:44 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
-        "source": "BleepingComputer",
-        "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victim",
-        "cve": []
-    },
-    {
-        "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-        "date": "Mon, 26 Oct 2026 06:26:52 -0400",
-        "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-        "source": "BleepingComputer",
-        "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
-        "cve": []
-    },
-    {
-        "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-        "date": "Mon, 26 Oct 2026 05:19:57 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-        "source": "BleepingComputer",
-        "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-        "date": "Mon, 26 Oct 2026 23:42:22 +0530",
-        "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+        "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+        "date": "Tue, 27 Oct 2026 19:29:48 +0530",
+        "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
         "source": "The Hacker News",
-        "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec,",
+        "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on aff",
         "cve": []
     },
     {
-        "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-        "date": "Mon, 26 Oct 2026 23:15:57 +0530",
-        "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+        "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+        "date": "Tue, 27 Oct 2026 19:29:09 +0530",
+        "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
         "source": "The Hacker News",
-        "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt m",
+        "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is ",
         "cve": []
     },
     {
-        "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-        "date": "Mon, 26 Oct 2026 21:22:40 +0530",
-        "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+        "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+        "date": "Tue, 27 Oct 2026 17:39:50 +0530",
+        "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation",
+        "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's w",
         "cve": []
     },
     {
-        "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-        "date": "Mon, 26 Oct 2026 19:36:13 +0530",
-        "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+        "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+        "date": "Tue, 27 Oct 2026 17:16:00 +0530",
+        "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
         "source": "The Hacker News",
-        "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, som",
+        "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with tha",
         "cve": []
     },
     {
-        "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-        "date": "Mon, 26 Oct 2026 17:22:41 +0530",
-        "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+        "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+        "date": "Tue, 27 Oct 2026 17:02:46 +0530",
+        "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
         "source": "The Hacker News",
-        "summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's",
+        "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing at",
         "cve": []
     },
     {
-        "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-        "date": "Mon, 26 Oct 2026 16:53:56 +0530",
-        "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+        "date": "Tue, 27 Oct 2026 17:02:31 +0530",
+        "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
         "source": "The Hacker News",
-        "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, co",
+        "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, softw",
         "cve": []
     },
     {
-        "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-        "date": "Mon, 26 Oct 2026 15:24:02 +0530",
-        "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+        "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+        "date": "Tue, 27 Oct 2026 15:03:06 +0530",
+        "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
         "source": "The Hacker News",
-        "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who instal",
+        "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The",
         "cve": []
     },
     {
-        "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-        "date": "Mon, 26 Oct 2026 14:05:51 +0530",
-        "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+        "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+        "date": "Tue, 27 Oct 2026 13:52:43 +0530",
+        "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen token",
+        "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\n",
         "cve": []
     },
     {
-        "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-        "date": "Mon, 26 Oct 2026 13:19:46 +0530",
-        "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+        "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+        "date": "Tue, 27 Oct 2026 12:04:47 +0530",
+        "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
         "source": "The Hacker News",
-        "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The a",
+        "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP came",
         "cve": []
     },
     {
-        "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-        "date": "Mon, 26 Oct 2026 11:33:48 +0530",
-        "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+        "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+        "date": "Tue, 27 Oct 2026 10:07:59 +0530",
+        "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
         "source": "The Hacker News",
-        "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a rep",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (",
         "cve": []
     },
     {
-        "title": "Hackers Can Abuse Logged-In WordPress Admin Sessions to Secretly Install PHP Backdoors",
-        "date": "Tue, 27 Oct 2026 02:08:23 +0000",
-        "url": "https://cybersecuritynews.com/logged-in-wordpress-admin-sessions/",
+        "title": "Researchers Exploit OpenAI API Flaw to Extract Hidden GPT-5.6 Reasoning Traces",
+        "date": "Tue, 27 Oct 2026 16:48:20 +0000",
+        "url": "https://cybersecuritynews.com/researchers-exploit-openai-api-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "WordPress administrators often keep their dashboard open in the same browser they use for everyday browsing. A new attack chain shows why that habit is risky. Researchers have documented a JavaScript ",
+        "summary": "Researchers at Xint found an OpenAI API flaw that exposed hidden reasoning in GPT-5.6 models by routing prompts through a conversation-compaction feature. The method, called compaction smuggling, bypa",
         "cve": []
     },
     {
-        "title": "Hackers Revive BlackLotus Techniques to Bypass Windows Secure Boot and Deploy Malware",
-        "date": "Tue, 27 Oct 2026 01:43:07 +0000",
-        "url": "https://cybersecuritynews.com/blacklotus-techniques/",
+        "title": "CISA Offers Two Free Tools to Detect Security Misconfigurations in Microsoft 365 and Google Workspace",
+        "date": "Tue, 27 Oct 2026 15:31:45 +0000",
+        "url": "https://cybersecuritynews.com/cisa-free-tools-to-detect-misconfigurations/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers have revived techniques associated with the BlackLotus bootkit to bypass Windows Secure Boot and deploy espionage malware against diplomatic organizations in Central Asia. The new bootkit, nam",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) offers two free tools to help organizations find security misconfigurations in Microsoft 365 and Google Workspace. ScubaGear and ScubaG",
         "cve": []
     },
     {
-        "title": "Hackers Use VLC Media Player and VMware Tools to Load Malware Through DLL Side-Loading",
-        "date": "Tue, 27 Oct 2026 01:13:13 +0000",
-        "url": "https://cybersecuritynews.com/vlc-media-player-and-vmware-tools/",
+        "title": "Israeli Ad Tech Firm Accused on Using Online Ads to Track Starlink Users",
+        "date": "Tue, 27 Oct 2026 15:15:52 +0000",
+        "url": "https://cybersecuritynews.com/online-ads-track-starlink-users/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are using legitimate VLC Media Player and VMware components to load malware onto Windows systems, hiding harmful code behind familiar software. The activity forms part of three malware campaig",
+        "summary": "Israeli advertising company Discover-Tech is accused of using online ads to track people connected to SpaceX’s Starlink satellite internet service. Reuters reported on October 27 that six people famil",
         "cve": []
     },
     {
-        "title": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites",
-        "date": "Mon, 26 Oct 2026 20:29:21 +0000",
-        "url": "https://cybersecuritynews.com/public-php2shell-exploit-code/",
+        "title": "Hackers Use Fake FedEx Invoices to Deploy Sirius Backdoor and Evade Windows Security",
+        "date": "Tue, 27 Oct 2026 14:18:33 +0000",
+        "url": "https://cybersecuritynews.com/fake-fedex-invoices/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are now using public exploit code to break into websites that run PHP, and universities and business sites are among the main targets. The bugs behind this wave are two critical flaws in the P",
+        "summary": "Hackers are sending fake FedEx tax invoices to trick users into installing a stealthy backdoor on Windows. The malware, called Sirius Backdoor, hides inside a blank PDF and loads its main code directl",
         "cve": []
     },
     {
-        "title": "Microsoft Investigation Teams Issue Affecting Users in the United States",
-        "date": "Mon, 26 Oct 2026 17:15:22 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-investigation-teams-issue/",
+        "title": "Hackers Abuse Signed ChatGPT and Claude Binaries to Deploy Malware Through Fake GitHub Downloads",
+        "date": "Tue, 27 Oct 2026 14:02:29 +0000",
+        "url": "https://cybersecuritynews.com/fake-github-chatgpt-claude-malware/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has restored Microsoft Teams service after investigating an issue affecting some users in the United States on October 26, 2026. The company tracked the disruption under incident TM1526111 a",
+        "summary": "A malware campaign known as Yoba targets users by leveraging the popularity of AI tools like ChatGPT and Claude to trick them into installing infected software. They publish fake GitHub projects that ",
         "cve": []
     },
     {
-        "title": "Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder",
-        "date": "Mon, 26 Oct 2026 16:35:45 +0000",
-        "url": "https://cybersecuritynews.com/codex-and-claude-code-hijack/",
+        "title": "Critical HashiCorp Consul Kubernetes Flaw Allows Attackers to Gain Elevated Privileges",
+        "date": "Tue, 27 Oct 2026 11:37:34 +0000",
+        "url": "https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "A plain text file placed in the Downloads folder can trick AI coding agents into changing their settings, installing malware, or exposing login tokens. Forever Security discovered the risk after stopp",
+        "summary": "HashiCorp has released fixes for a Consul-k8s authorization bypass that could allow an attacker to gain elevated Consul privileges from another Kubernetes namespace. Tracked as CVE-2026-110720, the fl",
         "cve": []
     },
     {
-        "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
-        "date": "Mon, 26 Oct 2026 15:59:50 +0000",
-        "url": "https://cybersecuritynews.com/openbsd-8-0-released/",
+        "title": "Apple iOS 27.2 Released With Fixes for 163 Vulnerabilities, Including Fix for Critical WebKit RCE",
+        "date": "Tue, 27 Oct 2026 11:15:19 +0000",
+        "url": "https://cybersecuritynews.com/apple-ios-27-2-released/",
         "source": "CyberSecurityNews",
-        "summary": "OpenBSD 8.0 has been released with security fixes across its kernel, network services, firewall, and update tools, alongside experimental post-quantum SSH signature support. Released on October 20, 20",
+        "summary": "Apple released iOS 27.2 and iPadOS 27.2 on October 26, 2026, with fixes for 163 security flaws. The update covers iPhone 11 and later and a wide set of iPad models. The most serious issues sit in WebK",
         "cve": []
     },
     {
-        "title": "Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona",
-        "date": "Mon, 26 Oct 2026 15:58:08 +0000",
-        "url": "https://cybersecuritynews.com/emperador-ransomware-group-claim/",
+        "title": "Hackers Hijack AI Pentesting Agents to Install Backdoors and Steal API Keys",
+        "date": "Tue, 27 Oct 2026 10:57:16 +0000",
+        "url": "https://cybersecuritynews.com/ai-pentesting-agents/",
         "source": "CyberSecurityNews",
-        "summary": "The Emperador ransomware group claims to have stolen 3.9GB of data from AB InBev and demands $1 million in Bitcoin, but the alleged breach remains unverified, with no company confirmation reported. Th",
+        "summary": "Hackers are now targeting the AI tools that security teams use to test their own networks. A new investigation describes automated campaigns that break into exposed panels for Cairn, a platform that g",
         "cve": []
     },
     {
-        "title": "PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability",
-        "date": "Mon, 26 Oct 2026 15:53:07 +0000",
-        "url": "https://cybersecuritynews.com/php-http2shell-vulnerability/",
+        "title": "Apple Released Patches for Exploited CoreGraphics 0-day Vulnerability for Older iPhones",
+        "date": "Tue, 27 Oct 2026 09:44:36 +0000",
+        "url": "https://cybersecuritynews.com/apple-fix-for-coregraphics-0-day-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "The PHP team has released updated Windows builds to fix a serious flaw known as HTTP2Shell. The new packages are PHP 8.5.12-1, 8.4.27-1, 8.3.36-1, and 8.2.35-1, and PHP announced them on October 26, 2",
+        "summary": "Apple released iOS 18.7.11 and iPadOS 18.7.11 to patch a CoreGraphics zero-day vulnerability that attackers may have used in targeted attacks. Released on October 26, 2026, the updates bring security ",
         "cve": []
     },
     {
-        "title": "Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours",
-        "date": "Mon, 26 Oct 2026 14:42:50 +0000",
-        "url": "https://cybersecuritynews.com/anthropic-internal-system-breach/",
+        "title": "Hacker Uses AI to Breach 90 South Korean Organizations and Steal 8.2 Million Records",
+        "date": "Tue, 27 Oct 2026 09:05:42 +0000",
+        "url": "https://cybersecuritynews.com/hacker-uses-ai-to-breach-organizations/",
         "source": "CyberSecurityNews",
-        "summary": "Cybersecurity startup Cathedral says its AI agents found routes into Anthropic’s internal business systems in less than 12 hours, exposing how fast automated security tools can find and chain flaws ac",
+        "summary": "South Korean police have arrested a 32-year-old man accused of leading an AI-assisted hacking operation that stole personal records and internal files from about 90 organizations, totaling 8.2 million",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Anthropic’s Claude AI Bypasses Paywall to Access US Election Data Without Permission",
-        "date": "Mon, 26 Oct 2026 13:51:15 +0000",
-        "url": "https://gbhackers.com/anthropics-claude-ai-bypasses-paywall-to-access-us-election-data/",
+        "title": "New Sirius Backdoor Hides Inside Windows Processes to Steal Passwords and Evade Detection",
+        "date": "Tue, 27 Oct 2026 13:35:24 +0000",
+        "url": "https://gbhackers.com/sirius-backdoor-variant/",
         "source": "GBHackers",
-        "summary": "Anthropic’s Claude AI reportedly bypassed a payment restriction to retrieve publicly available aggregate election counts from Georgia without human authorization. Anthropic clarified that this activit",
+        "summary": "A previously undocumented Sirius backdoor variant during a priority customer investigation, revealing a multistage campaign that hides malicious code inside legitimate Windows processes. The supplied ",
         "cve": []
     },
     {
-        "title": "New Malware Targets AI Coding Tools to Steal Login Tokens, SSH Keys, and Cloud Credentials",
-        "date": "Mon, 26 Oct 2026 13:16:05 +0000",
-        "url": "https://gbhackers.com/ai-coding-tools-targeted/",
+        "title": "Hackers Compromise 17 Exposed AI Pentesting Panels to Deploy Malware and Steal Credentials",
+        "date": "Tue, 27 Oct 2026 12:39:39 +0000",
+        "url": "https://gbhackers.com/ai-pentesting-panels/",
         "source": "GBHackers",
-        "summary": "A newly observed infostealer called Aokigahara is targeting AI coding assistants, developer workstations, and cloud credentials, expanding credential theft beyond browsers and cryptocurrency wallets. ",
+        "summary": "Attackers have compromised at least 17 internet-exposed Cairn AI penetration-testing panels, turning autonomous security agents against their own infrastructure to steal credentials, establish unautho",
         "cve": []
     },
     {
-        "title": "Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands",
-        "date": "Mon, 26 Oct 2026 12:17:56 +0000",
-        "url": "https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/",
+        "title": "Researchers Discover OpenAI API Vulnerability That Leaks Hidden AI Reasoning Traces",
+        "date": "Tue, 27 Oct 2026 12:08:01 +0000",
+        "url": "https://gbhackers.com/researchers-discover-openai-api-vulnerability/",
         "source": "GBHackers",
-        "summary": "The Icarus macOS stealer, marketed as ICMacOS, has moved beyond smash-and-grab theft. Its latest version installs persistence, keeps a live channel open to its operators, and executes commands sent fr",
+        "summary": "Researchers have disclosed a vulnerability in the OpenAI API that reveals hidden reasoning traces by exploiting conversation compaction. This technique, named &#8220;Compaction Smuggling,&#8221; bypas",
         "cve": []
     },
     {
-        "title": "KeePassXC 2.8.0 Released to Fix Multiple Security Vulnerabilities Affecting Password Manager",
-        "date": "Mon, 26 Oct 2026 11:53:48 +0000",
-        "url": "https://gbhackers.com/keepassxc-2-8-0-released/",
+        "title": "HashiCorp Consul Vulnerability Allows Attackers to Bypass Authorization and Gain Elevated Privileges",
+        "date": "Tue, 27 Oct 2026 11:03:55 +0000",
+        "url": "https://gbhackers.com/hashicorp-consul-vulnerability/",
         "source": "GBHackers",
-        "summary": "KeePassXC has released version 2.8.0 to address multiple security vulnerabilities related to database imports, browser integration, SSH key handling, and the protection of sensitive information. Publi",
+        "summary": "HashiCorp disclosed a vulnerability in consul-k8s, a cross-namespace authorization bypass that could let attackers with limited Kubernetes permissions gain elevated Consul privileges. This vulnerabili",
         "cve": []
     },
     {
-        "title": "Apache Camel Vulnerabilities Allow Remote Code Execution, Authentication Bypass, and Data Theft",
-        "date": "Mon, 26 Oct 2026 11:30:01 +0000",
-        "url": "https://gbhackers.com/apache-camel-vulnerabilities/",
+        "title": "Apple Fixes Actively Exploited iOS Zero-Day Vulnerability in CoreGraphics",
+        "date": "Tue, 27 Oct 2026 10:54:55 +0000",
+        "url": "https://gbhackers.com/apple-fixes-actively-exploited-ios-zero-day-vulnerability/",
         "source": "GBHackers",
-        "summary": "Apache Camel’s security advisories document critical and high-severity vulnerabilities that could allow for remote code execution, authentication bypass, credential exposure, and unauthorized file acc",
+        "summary": "Apple has released updates for iOS 18.7.11 and iPadOS 18.7.11 to address three security vulnerabilities, including a CoreGraphics flaw connected to sophisticated targeted attacks. These updates were r",
         "cve": []
     },
     {
-        "title": "Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Major Updates",
-        "date": "Mon, 26 Oct 2026 11:10:39 +0000",
-        "url": "https://gbhackers.com/kali-linux-2026-3-released-2/",
+        "title": "Hackers Use Google Ads to Push Fake Claude Downloads Hosted on Real Claude.ai Domain",
+        "date": "Tue, 27 Oct 2026 10:53:52 +0000",
+        "url": "https://gbhackers.com/claude-users-targeted/",
         "source": "GBHackers",
-        "summary": "Kali Linux 2026.3 has been officially released, bringing six new security tools, updated image-building scripts, KDE Plasma 6.7, and major NetHunter improvements. Announced on October 26, 2026, this t",
+        "summary": "Hackers are buying Google Ads to promote fake Claude download pages hosted on Anthropic’s legitimate claude.ai domain, exploiting content-sharing features to distribute malware. The operation does not",
         "cve": []
     },
     {
-        "title": "OpenBSD 8.0 Released With Enhanced Firewall Security and Critical Vulnerability Fixes",
-        "date": "Mon, 26 Oct 2026 11:01:54 +0000",
-        "url": "https://gbhackers.com/openbsd-8-0-released/",
+        "title": "Hackers Abuse Magento CMS Blocks to Infect Online Stores and Evade Malware Detection",
+        "date": "Tue, 27 Oct 2026 09:49:52 +0000",
+        "url": "https://gbhackers.com/magento-cms-blocks/",
         "source": "GBHackers",
-        "summary": "OpenBSD 8.0 was released on October 20, 2026, marking the project&#8217;s 61st release. This update includes significant improvements, including enhanced firewall security, memory-safety fixes, strong",
+        "summary": "Hackers are injecting JavaScript into Magento CMS blocks to maintain access to compromised storefronts while selectively hiding malicious responses from security scanners. Registered on October 6, 202",
         "cve": []
     },
     {
-        "title": "12 Ransomware Recovery Solutions: The 2026 Buyer’s Verdict Guide",
-        "date": "Mon, 26 Oct 2026 10:09:24 +0000",
-        "url": "https://gbhackers.com/ransomware-recovery-buyers-guide/",
+        "title": "Alibaba’s Qwen AI Model Attempts to Upload Files to China While Performing Cybersecurity Tasks",
+        "date": "Tue, 27 Oct 2026 09:14:06 +0000",
+        "url": "https://gbhackers.com/alibabas-qwen-ai-model-attempts-to-upload-files-to-china/",
         "source": "GBHackers",
-        "summary": "Ransomware recovery is measured on the worst Tuesday: how fast you find the clean point, prove it’s clean, and rebuild at scale without reinfecting yourself. The twelve solutions in this verdict guide",
+        "summary": "Researchers found that Alibaba’s Qwen3.8-Flash-Next model attempted an unauthorized upload to an Alibaba Cloud storage bucket in Beijing while performing a defensive cybersecurity task. Fortunately, a",
         "cve": []
     },
     {
-        "title": "Hackers Can Use DarkCore RAT to Hijack Gmail and WhatsApp Sessions Without Passwords",
-        "date": "Mon, 26 Oct 2026 10:05:34 +0000",
-        "url": "https://gbhackers.com/darkcore-rat-sessions/",
+        "title": "DreamHost Security Incident Forces Password Resets for Email and FTP/SFTP Accounts",
+        "date": "Tue, 27 Oct 2026 08:52:22 +0000",
+        "url": "https://gbhackers.com/dreamhost-security-incident-forces-password-resets/",
         "source": "GBHackers",
-        "summary": "DarkCore, a remote access trojan marketed with a dedicated browser for reusing stolen sessions, potentially letting attackers access Gmail, WhatsApp, and MediaFire without entering passwords. Its adve",
+        "summary": "DreamHost has implemented forced password resets for certain email and FTP/SFTP accounts following an incident that affected its File Manager and webmail services. The company restored its browser-bas",
         "cve": []
     },
     {
-        "title": "11 Backup & Recovery Solutions: The 2026 Buyer’s Verdict Guide",
-        "date": "Mon, 26 Oct 2026 10:04:45 +0000",
-        "url": "https://gbhackers.com/backup-recovery-buyers-guide/",
+        "title": "9 Managed File Transfer (MFT) Solutions: The 2026 Buyer’s Verdict Guide",
+        "date": "Tue, 27 Oct 2026 08:17:16 +0000",
+        "url": "https://gbhackers.com/mft-solutions-buyers-guide/",
         "source": "GBHackers",
-        "summary": "Ransomware rewrote backup’s job description attackers delete recovery points before encrypting production so 2026’s buying criteria are security properties: immutability stolen credentials can’t untic",
+        "summary": "MFT buying is posture-first now the category’s mass-exploitation years made exposure architecture and patch velocity selection criteria ahead of any scheduler. Roster honesty first: our sheet’s twelve",
         "cve": []
     }
 ]
