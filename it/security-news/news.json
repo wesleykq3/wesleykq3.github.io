@@ -1,5 +1,37 @@
 [
     {
+        "title": "University of Copenhagen data breach exposes data of 525,000 people",
+        "date": "Mon, 26 Oct 2026 18:20:36 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+        "source": "BleepingComputer",
+        "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+        "cve": []
+    },
+    {
+        "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+        "date": "Mon, 26 Oct 2026 17:08:28 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+        "source": "BleepingComputer",
+        "summary": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. ",
+        "cve": []
+    },
+    {
+        "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+        "date": "Mon, 26 Oct 2026 16:46:49 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+        "cve": []
+    },
+    {
+        "title": "DreamHost forces password resets in ongoing \"incident\"",
+        "date": "Mon, 26 Oct 2026 15:26:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+        "source": "BleepingComputer",
+        "summary": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+        "cve": []
+    },
+    {
         "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
         "date": "Mon, 26 Oct 2026 12:27:57 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
@@ -48,35 +80,27 @@
         "cve": []
     },
     {
-        "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-        "date": "Sun, 25 Oct 2026 11:49:38 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-        "source": "BleepingComputer",
-        "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+        "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+        "date": "Mon, 26 Oct 2026 23:42:22 +0530",
+        "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+        "source": "The Hacker News",
+        "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec,",
         "cve": []
     },
     {
-        "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-        "date": "Sat, 24 Oct 2026 10:17:32 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-        "source": "BleepingComputer",
-        "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere wit",
+        "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+        "date": "Mon, 26 Oct 2026 23:15:57 +0530",
+        "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+        "source": "The Hacker News",
+        "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt m",
         "cve": []
     },
     {
-        "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-        "date": "Fri, 23 Oct 2026 16:55:05 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-        "date": "Fri, 23 Oct 2026 14:54:41 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+        "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+        "date": "Mon, 26 Oct 2026 21:22:40 +0530",
+        "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation",
         "cve": []
     },
     {
@@ -136,27 +160,83 @@
         "cve": []
     },
     {
-        "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-        "date": "Sun, 25 Oct 2026 23:14:09 +0530",
-        "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-        "source": "The Hacker News",
-        "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requir",
+        "title": "Hackers Can Abuse Logged-In WordPress Admin Sessions to Secretly Install PHP Backdoors",
+        "date": "Tue, 27 Oct 2026 02:08:23 +0000",
+        "url": "https://cybersecuritynews.com/logged-in-wordpress-admin-sessions/",
+        "source": "CyberSecurityNews",
+        "summary": "WordPress administrators often keep their dashboard open in the same browser they use for everyday browsing. A new attack chain shows why that habit is risky. Researchers have documented a JavaScript ",
         "cve": []
     },
     {
-        "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-        "date": "Sun, 25 Oct 2026 22:49:46 +0530",
-        "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-        "source": "The Hacker News",
-        "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2She",
+        "title": "Hackers Revive BlackLotus Techniques to Bypass Windows Secure Boot and Deploy Malware",
+        "date": "Tue, 27 Oct 2026 01:43:07 +0000",
+        "url": "https://cybersecuritynews.com/blacklotus-techniques/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers have revived techniques associated with the BlackLotus bootkit to bypass Windows Secure Boot and deploy espionage malware against diplomatic organizations in Central Asia. The new bootkit, nam",
         "cve": []
     },
     {
-        "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-        "date": "Sun, 25 Oct 2026 12:24:29 +0530",
-        "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-        "source": "The Hacker News",
-        "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"",
+        "title": "Hackers Use VLC Media Player and VMware Tools to Load Malware Through DLL Side-Loading",
+        "date": "Tue, 27 Oct 2026 01:13:13 +0000",
+        "url": "https://cybersecuritynews.com/vlc-media-player-and-vmware-tools/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are using legitimate VLC Media Player and VMware components to load malware onto Windows systems, hiding harmful code behind familiar software. The activity forms part of three malware campaig",
+        "cve": []
+    },
+    {
+        "title": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites",
+        "date": "Mon, 26 Oct 2026 20:29:21 +0000",
+        "url": "https://cybersecuritynews.com/public-php2shell-exploit-code/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are now using public exploit code to break into websites that run PHP, and universities and business sites are among the main targets. The bugs behind this wave are two critical flaws in the P",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Investigation Teams Issue Affecting Users in the United States",
+        "date": "Mon, 26 Oct 2026 17:15:22 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-investigation-teams-issue/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has restored Microsoft Teams service after investigating an issue affecting some users in the United States on October 26, 2026. The company tracked the disruption under incident TM1526111 a",
+        "cve": []
+    },
+    {
+        "title": "Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder",
+        "date": "Mon, 26 Oct 2026 16:35:45 +0000",
+        "url": "https://cybersecuritynews.com/codex-and-claude-code-hijack/",
+        "source": "CyberSecurityNews",
+        "summary": "A plain text file placed in the Downloads folder can trick AI coding agents into changing their settings, installing malware, or exposing login tokens. Forever Security discovered the risk after stopp",
+        "cve": []
+    },
+    {
+        "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
+        "date": "Mon, 26 Oct 2026 15:59:50 +0000",
+        "url": "https://cybersecuritynews.com/openbsd-8-0-released/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenBSD 8.0 has been released with security fixes across its kernel, network services, firewall, and update tools, alongside experimental post-quantum SSH signature support. Released on October 20, 20",
+        "cve": []
+    },
+    {
+        "title": "Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona",
+        "date": "Mon, 26 Oct 2026 15:58:08 +0000",
+        "url": "https://cybersecuritynews.com/emperador-ransomware-group-claim/",
+        "source": "CyberSecurityNews",
+        "summary": "The Emperador ransomware group claims to have stolen 3.9GB of data from AB InBev and demands $1 million in Bitcoin, but the alleged breach remains unverified, with no company confirmation reported. Th",
+        "cve": []
+    },
+    {
+        "title": "PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability",
+        "date": "Mon, 26 Oct 2026 15:53:07 +0000",
+        "url": "https://cybersecuritynews.com/php-http2shell-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "The PHP team has released updated Windows builds to fix a serious flaw known as HTTP2Shell. The new packages are PHP 8.5.12-1, 8.4.27-1, 8.3.36-1, and 8.2.35-1, and PHP announced them on October 26, 2",
+        "cve": []
+    },
+    {
+        "title": "Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours",
+        "date": "Mon, 26 Oct 2026 14:42:50 +0000",
+        "url": "https://cybersecuritynews.com/anthropic-internal-system-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Cybersecurity startup Cathedral says its AI agents found routes into Anthropic’s internal business systems in less than 12 hours, exposing how fast automated security tools can find and chain flaws ac",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "KWin-Type Introduced To Address KDE Wayland Usability Gap For Auto-Typing Text",
-        "date": "Mon, 26 Oct 2026 13:11:02 -0400",
-        "url": "https://www.phoronix.com/news/KDE-KWin-Type",
-        "source": "Phoronix",
-        "summary": "Open-source developer Jason Donenfeld known for his work on WireGuard announced today the release of kwin-type. KWin-type is a new Wayland-compatible program for auto-typing text from the standard inp",
+        "title": "Anthropic’s Claude AI Bypasses Paywall to Access US Election Data Without Permission",
+        "date": "Mon, 26 Oct 2026 13:51:15 +0000",
+        "url": "https://gbhackers.com/anthropics-claude-ai-bypasses-paywall-to-access-us-election-data/",
+        "source": "GBHackers",
+        "summary": "Anthropic’s Claude AI reportedly bypassed a payment restriction to retrieve publicly available aggregate election counts from Georgia without human authorization. Anthropic clarified that this activit",
         "cve": []
     },
     {
-        "title": "Mesa 27.0 Switching To Kraid Compiler By Default For Arm Mali GPUs",
-        "date": "Mon, 26 Oct 2026 10:28:59 -0400",
-        "url": "https://www.phoronix.com/news/Mesa-27.0-Goes-Kraid",
-        "source": "Phoronix",
-        "summary": "In development for a number of months now has been Kraid as a modern graphics compiler for recent Arm Mali GPUs. Kraid was merged for Mesa 26.2 back in June while in Mesa 27.0 due out in Q1 it will be",
+        "title": "New Malware Targets AI Coding Tools to Steal Login Tokens, SSH Keys, and Cloud Credentials",
+        "date": "Mon, 26 Oct 2026 13:16:05 +0000",
+        "url": "https://gbhackers.com/ai-coding-tools-targeted/",
+        "source": "GBHackers",
+        "summary": "A newly observed infostealer called Aokigahara is targeting AI coding assistants, developer workstations, and cloud credentials, expanding credential theft beyond browsers and cryptocurrency wallets. ",
         "cve": []
     },
     {
-        "title": "Snapdragon X1 Elite / Acer Swift 14 AI Performance On The Ubuntu 26.10 X1E Concept",
-        "date": "Mon, 26 Oct 2026 09:55:24 -0400",
-        "url": "https://www.phoronix.com/review/ubuntu-2610-snapdragon-x1e",
-        "source": "Phoronix",
-        "summary": "For those curious about the Snapdragon X1 Elite performance on the recently released Ubuntu 26.10 Concept X1E ISO, here are some benchmarks showing the performance relative to Ubuntu 26.04 LTS X1E sta",
+        "title": "Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands",
+        "date": "Mon, 26 Oct 2026 12:17:56 +0000",
+        "url": "https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/",
+        "source": "GBHackers",
+        "summary": "The Icarus macOS stealer, marketed as ICMacOS, has moved beyond smash-and-grab theft. Its latest version installs persistence, keeps a live channel open to its operators, and executes commands sent fr",
         "cve": []
     },
     {
-        "title": "Linux 7.4 EFI Brings Improvement For Helping Systemd When Kernel Booted Directly",
-        "date": "Mon, 26 Oct 2026 08:54:13 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-EFI",
-        "source": "Phoronix",
-        "summary": "The EFI updates have been merged for the Linux 7.4 kernel and include an improvement for when the system was booted directly into the kernel on EFI-based systems without using a bootloader like GRUB o",
+        "title": "KeePassXC 2.8.0 Released to Fix Multiple Security Vulnerabilities Affecting Password Manager",
+        "date": "Mon, 26 Oct 2026 11:53:48 +0000",
+        "url": "https://gbhackers.com/keepassxc-2-8-0-released/",
+        "source": "GBHackers",
+        "summary": "KeePassXC has released version 2.8.0 to address multiple security vulnerabilities related to database imports, browser integration, SSH key handling, and the protection of sensitive information. Publi",
         "cve": []
     },
     {
-        "title": "Nouveau-DKMS Aims For Better NVIDIA Open-Source Experience On Old GPUs",
-        "date": "Mon, 26 Oct 2026 08:24:01 -0400",
-        "url": "https://www.phoronix.com/news/Nouveau-DKMS",
-        "source": "Phoronix",
-        "summary": "Nouveau-DKMS is in development as an out-of-tree spin-off of the open-source NVIDIA \"Nouveau\" driver focused on providing better support for NVIDIA GeForce 400/500 \"Fermi\" series graphics processors a",
+        "title": "Apache Camel Vulnerabilities Allow Remote Code Execution, Authentication Bypass, and Data Theft",
+        "date": "Mon, 26 Oct 2026 11:30:01 +0000",
+        "url": "https://gbhackers.com/apache-camel-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Apache Camel’s security advisories document critical and high-severity vulnerabilities that could allow for remote code execution, authentication bypass, credential exposure, and unauthorized file acc",
         "cve": []
     },
     {
-        "title": "Linux 7.4 Begins Employing New \"Core MM\" Tree",
-        "date": "Mon, 26 Oct 2026 07:42:27 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Core-MM-Tree",
-        "source": "Phoronix",
-        "summary": "Core memory management patches to the Linux kernel have typically been routed to mainline via Andrew Morton's \"MM\" branch, which is where also a variety of broader memory management related patches ar",
+        "title": "Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Major Updates",
+        "date": "Mon, 26 Oct 2026 11:10:39 +0000",
+        "url": "https://gbhackers.com/kali-linux-2026-3-released-2/",
+        "source": "GBHackers",
+        "summary": "Kali Linux 2026.3 has been officially released, bringing six new security tools, updated image-building scripts, KDE Plasma 6.7, and major NetHunter improvements. Announced on October 26, 2026, this t",
         "cve": []
     },
     {
-        "title": "Linux Fixes AMD Ryzen AI 9 HX 370 Regression Due To Cache Aware Scheduling",
-        "date": "Mon, 26 Oct 2026 06:22:28 -0400",
-        "url": "https://www.phoronix.com/news/Linux-CAS-Regression-AMD-HX-370",
-        "source": "Phoronix",
-        "summary": "Merged for Linux 7.4 Git and marked for back-porting to Linux 7.2/7.3 stable is a regression fix affecting at least the AMD Ryzen AI 9 HX 370 \"Strix Point\" laptop SoC when making use of Cache Aware Sc",
+        "title": "OpenBSD 8.0 Released With Enhanced Firewall Security and Critical Vulnerability Fixes",
+        "date": "Mon, 26 Oct 2026 11:01:54 +0000",
+        "url": "https://gbhackers.com/openbsd-8-0-released/",
+        "source": "GBHackers",
+        "summary": "OpenBSD 8.0 was released on October 20, 2026, marking the project&#8217;s 61st release. This update includes significant improvements, including enhanced firewall security, memory-safety fixes, strong",
         "cve": []
     },
     {
-        "title": "Moxnox: NT-Like, POSIX-Compatible Hobby OS Running Atop Btrfs",
-        "date": "Mon, 26 Oct 2026 06:04:34 -0400",
-        "url": "https://www.phoronix.com/news/Moxnox-OS",
-        "source": "Phoronix",
-        "summary": "Open-source developer Mark Harmstone who is known for his work on developing a Btrfs file-system driver for Windows has spent the past few years working on a new hobby operating system. Moxnox is an N",
+        "title": "12 Ransomware Recovery Solutions: The 2026 Buyer’s Verdict Guide",
+        "date": "Mon, 26 Oct 2026 10:09:24 +0000",
+        "url": "https://gbhackers.com/ransomware-recovery-buyers-guide/",
+        "source": "GBHackers",
+        "summary": "Ransomware recovery is measured on the worst Tuesday: how fast you find the clean point, prove it’s clean, and rebuild at scale without reinfecting yourself. The twelve solutions in this verdict guide",
         "cve": []
     },
     {
-        "title": "EXT4 Lands Optional Buffered IOmap For Significant Performance Win With Large Writes",
-        "date": "Mon, 26 Oct 2026 05:53:55 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-EXT4",
-        "source": "Phoronix",
-        "summary": "The EXT4 file-system changes were merged Sunday night for the ongoing Linux 7.4 merge window. The headline feature of EXT4 in this new kernel version is opt-in support for buffered IOmap usage that ca",
+        "title": "Hackers Can Use DarkCore RAT to Hijack Gmail and WhatsApp Sessions Without Passwords",
+        "date": "Mon, 26 Oct 2026 10:05:34 +0000",
+        "url": "https://gbhackers.com/darkcore-rat-sessions/",
+        "source": "GBHackers",
+        "summary": "DarkCore, a remote access trojan marketed with a dedicated browser for reusing stolen sessions, potentially letting attackers access Gmail, WhatsApp, and MediaFire without entering passwords. Its adve",
         "cve": []
     },
     {
-        "title": "Redox OS Landed Nice Performance Improvements In September",
-        "date": "Sun, 25 Oct 2026 20:24:45 -0400",
-        "url": "https://www.phoronix.com/news/Redox-OS-September-2026",
-        "source": "Phoronix",
-        "summary": "The Rust-based open-source operating system Redox OS had a very eventful September as they outlined in a status update published this weekend...",
+        "title": "11 Backup & Recovery Solutions: The 2026 Buyer’s Verdict Guide",
+        "date": "Mon, 26 Oct 2026 10:04:45 +0000",
+        "url": "https://gbhackers.com/backup-recovery-buyers-guide/",
+        "source": "GBHackers",
+        "summary": "Ransomware rewrote backup’s job description attackers delete recovery points before encrypting production so 2026’s buying criteria are security properties: immutability stolen credentials can’t untic",
         "cve": []
     }
 ]
