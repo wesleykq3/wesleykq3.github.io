@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-28T02:40:52.962937",
+    "timestamp": "2026-10-28T17:27:59.521925",
     "services": [
         {
             "service": "OpenAI",
@@ -9,8 +9,8 @@
         },
         {
             "service": "Claude",
-            "status": "none",
-            "description": "All Systems Operational",
+            "status": "minor",
+            "description": "Partially Degraded Service",
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
@@ -30,7 +30,7 @@
     "claude_components": [
         {
             "name": "claude.ai",
-            "status": "operational"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude Console (platform.claude.com)",
@@ -42,11 +42,11 @@
         },
         {
             "name": "Claude Code",
-            "status": "operational"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude Cowork",
-            "status": "operational"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude for Government",
