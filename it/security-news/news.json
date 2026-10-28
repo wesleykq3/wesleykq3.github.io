@@ -1,5 +1,45 @@
 [
     {
+        "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+        "date": "Tue, 27 Oct 2026 19:35:51 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+        "source": "BleepingComputer",
+        "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a rans",
+        "cve": []
+    },
+    {
+        "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+        "date": "Tue, 27 Oct 2026 18:43:27 -0400",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+        "cve": []
+    },
+    {
+        "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+        "date": "Tue, 27 Oct 2026 18:07:34 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+        "source": "BleepingComputer",
+        "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers hijack Convertr analytics script to steal payment card data",
+        "date": "Tue, 27 Oct 2026 16:57:25 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+        "source": "BleepingComputer",
+        "summary": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+        "date": "Tue, 27 Oct 2026 14:20:28 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certif",
+        "cve": []
+    },
+    {
         "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
         "date": "Tue, 27 Oct 2026 12:15:39 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
@@ -40,43 +80,11 @@
         "cve": []
     },
     {
-        "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-        "date": "Tue, 27 Oct 2026 04:20:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell  vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch thei",
-        "cve": []
-    },
-    {
-        "title": "University of Copenhagen data breach exposes data of 525,000 people",
-        "date": "Mon, 26 Oct 2026 18:20:36 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-        "source": "BleepingComputer",
-        "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
-        "cve": []
-    },
-    {
-        "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-        "date": "Mon, 26 Oct 2026 17:08:28 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-        "source": "BleepingComputer",
-        "summary": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. ",
-        "cve": []
-    },
-    {
-        "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-        "date": "Mon, 26 Oct 2026 16:46:49 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
-        "cve": []
-    },
-    {
-        "title": "DreamHost forces password resets in ongoing \"incident\"",
-        "date": "Mon, 26 Oct 2026 15:26:20 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-        "source": "BleepingComputer",
-        "summary": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+        "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+        "date": "Tue, 27 Oct 2026 23:56:46 +0530",
+        "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assis",
         "cve": []
     },
     {
@@ -149,94 +157,6 @@
         "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
         "source": "The Hacker News",
         "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP came",
-        "cve": []
-    },
-    {
-        "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-        "date": "Tue, 27 Oct 2026 10:07:59 +0530",
-        "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (",
-        "cve": []
-    },
-    {
-        "title": "Researchers Exploit OpenAI API Flaw to Extract Hidden GPT-5.6 Reasoning Traces",
-        "date": "Tue, 27 Oct 2026 16:48:20 +0000",
-        "url": "https://cybersecuritynews.com/researchers-exploit-openai-api-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Researchers at Xint found an OpenAI API flaw that exposed hidden reasoning in GPT-5.6 models by routing prompts through a conversation-compaction feature. The method, called compaction smuggling, bypa",
-        "cve": []
-    },
-    {
-        "title": "CISA Offers Two Free Tools to Detect Security Misconfigurations in Microsoft 365 and Google Workspace",
-        "date": "Tue, 27 Oct 2026 15:31:45 +0000",
-        "url": "https://cybersecuritynews.com/cisa-free-tools-to-detect-misconfigurations/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) offers two free tools to help organizations find security misconfigurations in Microsoft 365 and Google Workspace. ScubaGear and ScubaG",
-        "cve": []
-    },
-    {
-        "title": "Israeli Ad Tech Firm Accused on Using Online Ads to Track Starlink Users",
-        "date": "Tue, 27 Oct 2026 15:15:52 +0000",
-        "url": "https://cybersecuritynews.com/online-ads-track-starlink-users/",
-        "source": "CyberSecurityNews",
-        "summary": "Israeli advertising company Discover-Tech is accused of using online ads to track people connected to SpaceX’s Starlink satellite internet service. Reuters reported on October 27 that six people famil",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Fake FedEx Invoices to Deploy Sirius Backdoor and Evade Windows Security",
-        "date": "Tue, 27 Oct 2026 14:18:33 +0000",
-        "url": "https://cybersecuritynews.com/fake-fedex-invoices/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are sending fake FedEx tax invoices to trick users into installing a stealthy backdoor on Windows. The malware, called Sirius Backdoor, hides inside a blank PDF and loads its main code directl",
-        "cve": []
-    },
-    {
-        "title": "Hackers Abuse Signed ChatGPT and Claude Binaries to Deploy Malware Through Fake GitHub Downloads",
-        "date": "Tue, 27 Oct 2026 14:02:29 +0000",
-        "url": "https://cybersecuritynews.com/fake-github-chatgpt-claude-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "A malware campaign known as Yoba targets users by leveraging the popularity of AI tools like ChatGPT and Claude to trick them into installing infected software. They publish fake GitHub projects that ",
-        "cve": []
-    },
-    {
-        "title": "Critical HashiCorp Consul Kubernetes Flaw Allows Attackers to Gain Elevated Privileges",
-        "date": "Tue, 27 Oct 2026 11:37:34 +0000",
-        "url": "https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "HashiCorp has released fixes for a Consul-k8s authorization bypass that could allow an attacker to gain elevated Consul privileges from another Kubernetes namespace. Tracked as CVE-2026-110720, the fl",
-        "cve": []
-    },
-    {
-        "title": "Apple iOS 27.2 Released With Fixes for 163 Vulnerabilities, Including Fix for Critical WebKit RCE",
-        "date": "Tue, 27 Oct 2026 11:15:19 +0000",
-        "url": "https://cybersecuritynews.com/apple-ios-27-2-released/",
-        "source": "CyberSecurityNews",
-        "summary": "Apple released iOS 27.2 and iPadOS 27.2 on October 26, 2026, with fixes for 163 security flaws. The update covers iPhone 11 and later and a wide set of iPad models. The most serious issues sit in WebK",
-        "cve": []
-    },
-    {
-        "title": "Hackers Hijack AI Pentesting Agents to Install Backdoors and Steal API Keys",
-        "date": "Tue, 27 Oct 2026 10:57:16 +0000",
-        "url": "https://cybersecuritynews.com/ai-pentesting-agents/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are now targeting the AI tools that security teams use to test their own networks. A new investigation describes automated campaigns that break into exposed panels for Cairn, a platform that g",
-        "cve": []
-    },
-    {
-        "title": "Apple Released Patches for Exploited CoreGraphics 0-day Vulnerability for Older iPhones",
-        "date": "Tue, 27 Oct 2026 09:44:36 +0000",
-        "url": "https://cybersecuritynews.com/apple-fix-for-coregraphics-0-day-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Apple released iOS 18.7.11 and iPadOS 18.7.11 to patch a CoreGraphics zero-day vulnerability that attackers may have used in targeted attacks. Released on October 26, 2026, the updates bring security ",
-        "cve": []
-    },
-    {
-        "title": "Hacker Uses AI to Breach 90 South Korean Organizations and Steal 8.2 Million Records",
-        "date": "Tue, 27 Oct 2026 09:05:42 +0000",
-        "url": "https://cybersecuritynews.com/hacker-uses-ai-to-breach-organizations/",
-        "source": "CyberSecurityNews",
-        "summary": "South Korean police have arrested a 32-year-old man accused of leading an AI-assisted hacking operation that stole personal records and internal files from about 90 organizations, totaling 8.2 million",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "New Sirius Backdoor Hides Inside Windows Processes to Steal Passwords and Evade Detection",
-        "date": "Tue, 27 Oct 2026 13:35:24 +0000",
-        "url": "https://gbhackers.com/sirius-backdoor-variant/",
-        "source": "GBHackers",
-        "summary": "A previously undocumented Sirius backdoor variant during a priority customer investigation, revealing a multistage campaign that hides malicious code inside legitimate Windows processes. The supplied ",
+        "title": "Wine Merges Support For MESA_map_buffer_client_pointer To Improve WoW64 32-bit OpenGL",
+        "date": "Tue, 27 Oct 2026 20:33:36 -0400",
+        "url": "https://www.phoronix.com/news/Wine-Mesa-Map-Buffer-Client-Ptr",
+        "source": "Phoronix",
+        "summary": "An initiative led by CodeWeavers this year has come to fruition for improving OpenGL support with WoW64 for bettering Windows 32-bit application/game support while using 64-bit system libraries...",
         "cve": []
     },
     {
-        "title": "Hackers Compromise 17 Exposed AI Pentesting Panels to Deploy Malware and Steal Credentials",
-        "date": "Tue, 27 Oct 2026 12:39:39 +0000",
-        "url": "https://gbhackers.com/ai-pentesting-panels/",
-        "source": "GBHackers",
-        "summary": "Attackers have compromised at least 17 internet-exposed Cairn AI penetration-testing panels, turning autonomous security agents against their own infrastructure to steal credentials, establish unautho",
+        "title": "Linux 7.4 Introduces DMA-BUF Support To I/O Path With IO_uring",
+        "date": "Tue, 27 Oct 2026 17:09:43 -0400",
+        "url": "https://www.phoronix.com/news/DMA-BUF-IO-uring-Linux-7.4",
+        "source": "Phoronix",
+        "summary": "Merged today for the ongoing Linux 7.4 merge window is the infrastructure for enabling DMA-BUF support in the kernel's I/O path with the wonderful IO_uring framework...",
         "cve": []
     },
     {
-        "title": "Researchers Discover OpenAI API Vulnerability That Leaks Hidden AI Reasoning Traces",
-        "date": "Tue, 27 Oct 2026 12:08:01 +0000",
-        "url": "https://gbhackers.com/researchers-discover-openai-api-vulnerability/",
-        "source": "GBHackers",
-        "summary": "Researchers have disclosed a vulnerability in the OpenAI API that reveals hidden reasoning traces by exploiting conversation compaction. This technique, named &#8220;Compaction Smuggling,&#8221; bypas",
+        "title": "Raspberry Pi Zero 3 W & Raspberry Pi 4 Model A Surface In Linux Kernel Patches",
+        "date": "Tue, 27 Oct 2026 15:53:34 -0400",
+        "url": "https://www.phoronix.com/news/Raspberry-Pi-Zero-3-W-Pi-4-A",
+        "source": "Phoronix",
+        "summary": "It looks like a next-generation Raspberry Pi Zero is about to surface, the long-awaited Raspberry Pi Zero 3 W. And in an interesting twist in these times amid high PC component costs and supply chain ",
         "cve": []
     },
     {
-        "title": "HashiCorp Consul Vulnerability Allows Attackers to Bypass Authorization and Gain Elevated Privileges",
-        "date": "Tue, 27 Oct 2026 11:03:55 +0000",
-        "url": "https://gbhackers.com/hashicorp-consul-vulnerability/",
-        "source": "GBHackers",
-        "summary": "HashiCorp disclosed a vulnerability in consul-k8s, a cross-namespace authorization bypass that could let attackers with limited Kubernetes permissions gain elevated Consul privileges. This vulnerabili",
+        "title": "KDE Fixes 15 Year Old Bug Over Inaccurate Notifications When Copying Files To USB Drives",
+        "date": "Tue, 27 Oct 2026 12:50:22 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Fixes-15-Year-Old-Bugs",
+        "source": "Phoronix",
+        "summary": "A long-standing KDE bug is set to be resolved with next month's KDE Frameworks 6.32 release...",
         "cve": []
     },
     {
-        "title": "Apple Fixes Actively Exploited iOS Zero-Day Vulnerability in CoreGraphics",
-        "date": "Tue, 27 Oct 2026 10:54:55 +0000",
-        "url": "https://gbhackers.com/apple-fixes-actively-exploited-ios-zero-day-vulnerability/",
-        "source": "GBHackers",
-        "summary": "Apple has released updates for iOS 18.7.11 and iPadOS 18.7.11 to address three security vulnerabilities, including a CoreGraphics flaw connected to sophisticated targeted attacks. These updates were r",
+        "title": "Pavee OS: Ikey Doherty's New Daily-Driver Desktop Distro Being Built Atop Barney",
+        "date": "Tue, 27 Oct 2026 09:11:30 -0400",
+        "url": "https://www.phoronix.com/news/Pavee-OS",
+        "source": "Phoronix",
+        "summary": "Back in September Ikey Doherty of Solus Linux and Serpent OS notoriety as well as being a former Intel Clear Linux developer announced  Barney as his planned showcase for how to \"properly\" build a mod",
         "cve": []
     },
     {
-        "title": "Hackers Use Google Ads to Push Fake Claude Downloads Hosted on Real Claude.ai Domain",
-        "date": "Tue, 27 Oct 2026 10:53:52 +0000",
-        "url": "https://gbhackers.com/claude-users-targeted/",
-        "source": "GBHackers",
-        "summary": "Hackers are buying Google Ads to promote fake Claude download pages hosted on Anthropic’s legitimate claude.ai domain, exploiting content-sharing features to distribute malware. The operation does not",
+        "title": "KDE Plasma 6.8.2 Released With Dozens Of Additional Bug Fixes",
+        "date": "Tue, 27 Oct 2026 09:02:10 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Plasma-6.8.2",
+        "source": "Phoronix",
+        "summary": "Debuting two weeks ago on the 30th anniversary of the KDE project was the Plasma 6.8 desktop with many exciting improvements. Last week it was succeeded by Plasma 6.8.1 with dozens of bug fixes and th",
         "cve": []
     },
     {
-        "title": "Hackers Abuse Magento CMS Blocks to Infect Online Stores and Evade Malware Detection",
-        "date": "Tue, 27 Oct 2026 09:49:52 +0000",
-        "url": "https://gbhackers.com/magento-cms-blocks/",
-        "source": "GBHackers",
-        "summary": "Hackers are injecting JavaScript into Magento CMS blocks to maintain access to compromised storefronts while selectively hiding malicious responses from security scanners. Registered on October 6, 202",
+        "title": "AMD EPYC Zen 6 PML Support, ARM64 On s390 Merged For Linux 7.4 KVM",
+        "date": "Tue, 27 Oct 2026 08:00:00 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-KVM",
+        "source": "Phoronix",
+        "summary": "The many Kernel-based Virtual Machine (KVM) improvements have been merged for Linux 7.4 to deliver a number of new features for different server processors...",
         "cve": []
     },
     {
-        "title": "Alibaba’s Qwen AI Model Attempts to Upload Files to China While Performing Cybersecurity Tasks",
-        "date": "Tue, 27 Oct 2026 09:14:06 +0000",
-        "url": "https://gbhackers.com/alibabas-qwen-ai-model-attempts-to-upload-files-to-china/",
-        "source": "GBHackers",
-        "summary": "Researchers found that Alibaba’s Qwen3.8-Flash-Next model attempted an unauthorized upload to an Alibaba Cloud storage bucket in Beijing while performing a defensive cybersecurity task. Fortunately, a",
+        "title": "Accelerating HTTP Web Servers With In-Kernel eBPF Deliver Up To 4.5x Throughput",
+        "date": "Tue, 27 Oct 2026 06:26:22 -0400",
+        "url": "https://www.phoronix.com/news/Beeper-In-Kernel-Parsing-eBPF",
+        "source": "Phoronix",
+        "summary": "An interesting new open-source project born out of university research is Beeper to provide application-layer parsing within the in-kernel eBPF. With an HTTP parser implemented by Beeper in eBPF and p",
         "cve": []
     },
     {
-        "title": "DreamHost Security Incident Forces Password Resets for Email and FTP/SFTP Accounts",
-        "date": "Tue, 27 Oct 2026 08:52:22 +0000",
-        "url": "https://gbhackers.com/dreamhost-security-incident-forces-password-resets/",
-        "source": "GBHackers",
-        "summary": "DreamHost has implemented forced password resets for certain email and FTP/SFTP accounts following an incident that affected its File Manager and webmail services. The company restored its browser-bas",
+        "title": "Linux's Modern NTFS Driver Now Supports Alternate Data Streams (ADS)",
+        "date": "Tue, 27 Oct 2026 06:11:29 -0400",
+        "url": "https://www.phoronix.com/news/NTFS-Linux-7.4-Improvements",
+        "source": "Phoronix",
+        "summary": "Merged back in Linux 7.1 was the new NTFS kernel driver implementation for better supporting Microsoft's NTFS file-system on Linux. Since then new features and improvements have continued to land for ",
         "cve": []
     },
     {
-        "title": "9 Managed File Transfer (MFT) Solutions: The 2026 Buyer’s Verdict Guide",
-        "date": "Tue, 27 Oct 2026 08:17:16 +0000",
-        "url": "https://gbhackers.com/mft-solutions-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "MFT buying is posture-first now the category’s mass-exploitation years made exposure architecture and patch velocity selection criteria ahead of any scheduler. Roster honesty first: our sheet’s twelve",
+        "title": "Linux 7.4 Expands Sensor Monitoring For More ASUS & MSI Motherboards, New Minisforum Driver",
+        "date": "Tue, 27 Oct 2026 05:52:30 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-HWMON",
+        "source": "Phoronix",
+        "summary": "With the Linux 7.4 kernel there are more MSI and ASUS motherboards with sensor monitoring support along with a variety of other additions to help broaden the selection of supported systems for hardwar",
         "cve": []
     }
 ]
