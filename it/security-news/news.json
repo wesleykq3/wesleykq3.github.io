@@ -1,5 +1,53 @@
 [
     {
+        "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+        "date": "Thu, 29 Oct 2026 12:10:31 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+        "source": "BleepingComputer",
+        "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising reve",
+        "cve": []
+    },
+    {
+        "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+        "date": "Thu, 29 Oct 2026 10:35:40 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+        "cve": []
+    },
+    {
+        "title": "3 Ways AI Agents Already Operate in Your Browser",
+        "date": "Thu, 29 Oct 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+        "source": "BleepingComputer",
+        "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents oper",
+        "cve": []
+    },
+    {
+        "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+        "date": "Thu, 29 Oct 2026 09:59:48 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+        "source": "BleepingComputer",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell f",
+        "cve": []
+    },
+    {
+        "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+        "date": "Thu, 29 Oct 2026 08:00:07 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+        "cve": []
+    },
+    {
+        "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+        "date": "Thu, 29 Oct 2026 07:10:13 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+        "source": "BleepingComputer",
+        "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable ",
+        "cve": []
+    },
+    {
         "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
         "date": "Wed, 28 Oct 2026 16:47:22 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
@@ -32,131 +80,83 @@
         "cve": []
     },
     {
-        "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
-        "date": "Wed, 28 Oct 2026 10:48:32 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
-        "cve": []
-    },
-    {
-        "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-        "date": "Wed, 28 Oct 2026 10:00:00 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-        "source": "BleepingComputer",
-        "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery ",
-        "cve": []
-    },
-    {
-        "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-        "date": "Wed, 28 Oct 2026 09:50:59 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-        "source": "BleepingComputer",
-        "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys",
-        "cve": []
-    },
-    {
-        "title": "Hackers now scanning systems for recently-patched Oracle flaw",
-        "date": "Wed, 28 Oct 2026 08:19:57 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
-        "source": "BleepingComputer",
-        "summary": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
-        "cve": []
-    },
-    {
-        "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-        "date": "Wed, 28 Oct 2026 06:46:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-        "source": "BleepingComputer",
-        "summary": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Sh",
-        "cve": []
-    },
-    {
-        "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-        "date": "Wed, 28 Oct 2026 05:43:15 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-        "source": "BleepingComputer",
-        "summary": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...",
-        "cve": []
-    },
-    {
-        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-        "date": "Wed, 28 Oct 2026 23:38:33 +0530",
-        "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+        "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+        "date": "Thu, 29 Oct 2026 21:27:05 +0530",
+        "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
         "source": "The Hacker News",
-        "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and stra",
+        "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 ",
         "cve": []
     },
     {
-        "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-        "date": "Wed, 28 Oct 2026 22:38:09 +0530",
-        "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+        "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+        "date": "Thu, 29 Oct 2026 20:50:29 +0530",
+        "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
         "source": "The Hacker News",
-        "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.\n\nTo qualify, a s",
+        "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campa",
         "cve": []
     },
     {
-        "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-        "date": "Wed, 28 Oct 2026 21:53:34 +0530",
-        "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+        "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+        "date": "Thu, 29 Oct 2026 19:12:40 +0530",
+        "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
         "source": "The Hacker News",
-        "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai",
+        "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.\n\n\"It shows significant gains across coding and agen",
         "cve": []
     },
     {
-        "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-        "date": "Wed, 28 Oct 2026 21:32:45 +0530",
-        "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+        "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+        "date": "Thu, 29 Oct 2026 17:09:41 +0530",
+        "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2S",
+        "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabi",
         "cve": []
     },
     {
-        "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-        "date": "Wed, 28 Oct 2026 18:18:03 +0530",
-        "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+        "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+        "date": "Thu, 29 Oct 2026 17:09:18 +0530",
+        "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
         "source": "The Hacker News",
-        "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is",
+        "summary": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordina",
         "cve": []
     },
     {
-        "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-        "date": "Wed, 28 Oct 2026 17:20:00 +0530",
-        "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+        "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+        "date": "Thu, 29 Oct 2026 17:03:41 +0530",
+        "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
         "source": "The Hacker News",
-        "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but ",
+        "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing res",
         "cve": []
     },
     {
-        "title": "Wazuh and AI for Enhanced SOC Workflows",
-        "date": "Wed, 28 Oct 2026 17:00:00 +0530",
-        "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+        "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+        "date": "Thu, 29 Oct 2026 17:03:15 +0530",
+        "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
         "source": "The Hacker News",
-        "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repeti",
+        "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nI",
         "cve": []
     },
     {
-        "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-        "date": "Wed, 28 Oct 2026 16:45:51 +0530",
-        "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+        "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+        "date": "Thu, 29 Oct 2026 16:14:46 +0530",
+        "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
         "source": "The Hacker News",
-        "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privi",
+        "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has bee",
         "cve": []
     },
     {
-        "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-        "date": "Wed, 28 Oct 2026 16:00:00 +0530",
-        "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+        "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+        "date": "Thu, 29 Oct 2026 15:56:33 +0530",
+        "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
         "source": "The Hacker News",
-        "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted busi",
+        "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests",
         "cve": []
     },
     {
-        "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-        "date": "Wed, 28 Oct 2026 13:45:07 +0530",
-        "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+        "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+        "date": "Thu, 29 Oct 2026 14:35:39 +0530",
+        "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
         "source": "The Hacker News",
-        "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nTh",
+        "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October.\n\nThe fl",
         "cve": []
     },
     {
@@ -240,6 +240,62 @@
         "cve": []
     },
     {
+        "title": "F2FS Adds Opt-In Multi-Grain Timestamps With Linux 7.4, Other Improvements",
+        "date": "Thu, 29 Oct 2026 12:52:52 -0400",
+        "url": "https://www.phoronix.com/news/F2FS-Linux-7.4",
+        "source": "Phoronix",
+        "summary": "The F2FS (Flash Friendly File-System) improvements have been merged for Linux 7.4 to further enhance this flash-optimized solution...",
+        "cve": []
+    },
+    {
+        "title": "NVIDIA Vera Single vs. Dual Socket CPU Performance",
+        "date": "Thu, 29 Oct 2026 09:36:24 -0400",
+        "url": "https://www.phoronix.com/review/nvidia-vera-1p-2p",
+        "source": "Phoronix",
+        "summary": "For those curious how NVIDIA Vera is scaling between single and dual socket deployments, here are some benchmarks I carried out a while back exploring the power and performance from one to two Vera CP",
+        "cve": []
+    },
+    {
+        "title": "Linux 7.4 Networking Brings Hardware Pacing Offload, New Drivers & More Performance",
+        "date": "Thu, 29 Oct 2026 08:55:00 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Networking",
+        "source": "Phoronix",
+        "summary": "The many Linux wired and wireless networking driver improvements were merged this week for the ongoing Linux 7.4 merge window....",
+        "cve": []
+    },
+    {
+        "title": "AMD's ROCm HRX Loom v0.1 Released For Targeting AMD CPUs, GPUs & NPUs",
+        "date": "Thu, 29 Oct 2026 06:22:15 -0400",
+        "url": "https://www.phoronix.com/news/AMD-ROCm-HRX-Loom-0.1",
+        "source": "Phoronix",
+        "summary": "At this year's AMD Advancing AI event Hyperloom was announced among the ROCm improvements to expect. Hyperloom aims for agentic  workload optimizations and more with quote powerful abilities if everyt",
+        "cve": []
+    },
+    {
+        "title": "FAT32 File-System Seeing As Much As 265x Improvement With Linux 7.4",
+        "date": "Thu, 29 Oct 2026 06:06:09 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Faster-FAT32",
+        "source": "Phoronix",
+        "summary": "A change merged for Linux 7.4 is showing some mighty big speed-ups for the FAT32 file-system...",
+        "cve": []
+    },
+    {
+        "title": "Graphics/NPU Driver Changes Already Begin Queuing Up For What Will Be Linux 7.5",
+        "date": "Thu, 29 Oct 2026 05:48:22 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.5-drm-misc-next",
+        "source": "Phoronix",
+        "summary": "Since last week drm-misc-next pull requests have already been sent out to DRM-Next to begin staging new feature code for what's intended for the Linux 7.5 kernel cycle kicking off at the end of the ye",
+        "cve": []
+    },
+    {
+        "title": "KSMBD Adds New  Options With Linux 7.4",
+        "date": "Thu, 29 Oct 2026 05:33:13 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-KSMBD",
+        "source": "Phoronix",
+        "summary": "A number of improvements to KSMBD, the in-kernel SMB3 file server, were merged for the Linux 7.4 kernel...",
+        "cve": []
+    },
+    {
         "title": "GXVK: 3Dfx Glide API Implemented Atop Vulkan For Modern Usage",
         "date": "Wed, 28 Oct 2026 20:44:56 -0400",
         "url": "https://www.phoronix.com/news/GXVK-3Dfx-Glide-Vulkan",
@@ -261,62 +317,6 @@
         "url": "https://www.phoronix.com/news/System76-Thelio-Prime-Mini-PC",
         "source": "Phoronix",
         "summary": "System76 began teasing today the new Thelio Prime Desktop as an AMD-powered Linux mini PC that will begin shipping in November...",
-        "cve": []
-    },
-    {
-        "title": "Canonical Reviving Their Immutable Ubuntu Core Desktop",
-        "date": "Wed, 28 Oct 2026 11:11:24 -0400",
-        "url": "https://www.phoronix.com/news/Ubuntu-Core-Desktop-2026",
-        "source": "Phoronix",
-        "summary": "Canonical engineers back in 2023 outlined plans for Ubuntu Core Desktop as their immutable Linux desktop. They made some good initial progress but since 2024 it went rather silent. Now they are revivi",
-        "cve": []
-    },
-    {
-        "title": "CachyOS vs. Fedora 45 vs. Ubuntu 26.10 Performance On AMD Ryzen 9",
-        "date": "Wed, 28 Oct 2026 10:46:46 -0400",
-        "url": "https://www.phoronix.com/review/cachyos-ubuntu2610-fedora45",
-        "source": "Phoronix",
-        "summary": "With the recently released Ubuntu 26.10 and the nearly-released Fedora Workstation 45, Phoronix readers have begun inquiring about fresh benchmarks looking at how they stack up against the performance",
-        "cve": []
-    },
-    {
-        "title": "NetBSD Adds Alternative Text Editor To vi & xedit For Easing New Users",
-        "date": "Wed, 28 Oct 2026 09:48:00 -0400",
-        "url": "https://www.phoronix.com/news/NetBSD-New-Text-Editor",
-        "source": "Phoronix",
-        "summary": "NetBSD-current has added a new command line text editor to its base set of packages for helping out new users as an alternative to their vi and xedit editors currently included...",
-        "cve": []
-    },
-    {
-        "title": "X.Org XCB Co-Creator Praises Wayland's Protocol Design",
-        "date": "Wed, 28 Oct 2026 08:54:28 -0400",
-        "url": "https://www.phoronix.com/news/Jamey-Sharp-Praises-Wayland",
-        "source": "Phoronix",
-        "summary": "Open-source developer Jamey Sharp who is a longtime X.Org developer and co-creator of the X protocol C-language Binding (XCB) finally had the need to write a Wayland client and ended up praising its d",
-        "cve": []
-    },
-    {
-        "title": "Provenance Time Proposed As A New Timestamp For Linux",
-        "date": "Wed, 28 Oct 2026 08:23:10 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Provenance-Time-PTIME",
-        "source": "Phoronix",
-        "summary": "While the Linux kernel and various file-system drivers already support the notion of the birth time for tracking a file/directory's birth/creation time, a slightly different provenance time \"ptime\" is",
-        "cve": []
-    },
-    {
-        "title": "Hyprland 0.57 Released With Compiz Inspired Wobbly Windows",
-        "date": "Wed, 28 Oct 2026 07:45:33 -0400",
-        "url": "https://www.phoronix.com/news/Hyprland-0.57",
-        "source": "Phoronix",
-        "summary": "For those that want to reminisce  over the days long ago of Compiz and Beryl on the Linux desktop, the Hyprland 0.57 Wayland compositor released today and has added Compiz-inspired wobbly windows supp",
-        "cve": []
-    },
-    {
-        "title": "VKD3D-Proton 3.1 Released With New Features Ahead Of Big v3.2 Release",
-        "date": "Wed, 28 Oct 2026 06:27:21 -0400",
-        "url": "https://www.phoronix.com/news/VKD3D-Proton-3.1",
-        "source": "Phoronix",
-        "summary": "Hans-Kristian Arntzen of Valve's Linux team just tagged the VKD3D-Proton 3.1 release. This version comes with a number of new features and performance optimizations while being the stable point ahead ",
         "cve": []
     }
 ]
