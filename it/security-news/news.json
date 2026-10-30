@@ -1,5 +1,61 @@
 [
     {
+        "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+        "date": "Fri, 30 Oct 2026 11:58:20 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+        "source": "BleepingComputer",
+        "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
+        "cve": []
+    },
+    {
+        "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+        "date": "Fri, 30 Oct 2026 10:36:54 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+        "source": "BleepingComputer",
+        "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to mal",
+        "cve": []
+    },
+    {
+        "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+        "date": "Fri, 30 Oct 2026 10:00:10 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+        "source": "BleepingComputer",
+        "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. ",
+        "cve": []
+    },
+    {
+        "title": "CISA says max severity GitLab flaw now exploited in the wild",
+        "date": "Fri, 30 Oct 2026 09:00:32 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft finally fixes VPN issues caused by September updates",
+        "date": "Fri, 30 Oct 2026 07:20:26 -0400",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
+        "cve": []
+    },
+    {
+        "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+        "date": "Fri, 30 Oct 2026 06:16:07 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+        "cve": []
+    },
+    {
+        "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+        "date": "Fri, 30 Oct 2026 05:18:13 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+        "source": "BleepingComputer",
+        "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+        "cve": []
+    },
+    {
         "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
         "date": "Thu, 29 Oct 2026 19:35:52 -0400",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
@@ -24,59 +80,75 @@
         "cve": []
     },
     {
-        "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-        "date": "Thu, 29 Oct 2026 18:08:04 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-        "source": "BleepingComputer",
-        "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
+        "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+        "date": "Fri, 30 Oct 2026 20:47:28 +0530",
+        "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+        "source": "The Hacker News",
+        "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes c",
         "cve": []
     },
     {
-        "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-        "date": "Thu, 29 Oct 2026 17:47:25 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-        "source": "BleepingComputer",
-        "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.",
+        "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+        "date": "Fri, 30 Oct 2026 19:38:14 +0530",
+        "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, re",
         "cve": []
     },
     {
-        "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-        "date": "Thu, 29 Oct 2026 15:23:41 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-        "source": "BleepingComputer",
-        "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...",
+        "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+        "date": "Fri, 30 Oct 2026 17:51:56 +0530",
+        "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+        "source": "The Hacker News",
+        "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet e",
         "cve": []
     },
     {
-        "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-        "date": "Thu, 29 Oct 2026 14:38:26 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-        "source": "BleepingComputer",
-        "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a c",
+        "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+        "date": "Fri, 30 Oct 2026 17:28:53 +0530",
+        "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+        "source": "The Hacker News",
+        "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t br",
         "cve": []
     },
     {
-        "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-        "date": "Thu, 29 Oct 2026 12:10:31 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-        "source": "BleepingComputer",
-        "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising reve",
+        "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+        "date": "Fri, 30 Oct 2026 16:10:45 +0530",
+        "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+        "source": "The Hacker News",
+        "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targete",
         "cve": []
     },
     {
-        "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-        "date": "Thu, 29 Oct 2026 10:35:40 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+        "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+        "date": "Fri, 30 Oct 2026 14:25:47 +0530",
+        "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to in",
         "cve": []
     },
     {
-        "title": "3 Ways AI Agents Already Operate in Your Browser",
-        "date": "Thu, 29 Oct 2026 10:00:10 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-        "source": "BleepingComputer",
-        "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents oper",
+        "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+        "date": "Fri, 30 Oct 2026 13:15:30 +0530",
+        "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+        "source": "The Hacker News",
+        "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\n\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of mis",
+        "cve": []
+    },
+    {
+        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+        "date": "Fri, 30 Oct 2026 12:57:05 +0530",
+        "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence ",
+        "cve": []
+    },
+    {
+        "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+        "date": "Fri, 30 Oct 2026 09:44:59 +0530",
+        "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+        "source": "The Hacker News",
+        "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.\n\nThe world's biggest cryptocurrency exchange said nearly $3 bi",
         "cve": []
     },
     {
@@ -85,158 +157,6 @@
         "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
         "source": "The Hacker News",
         "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nT",
-        "cve": []
-    },
-    {
-        "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-        "date": "Thu, 29 Oct 2026 21:27:05 +0530",
-        "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-        "source": "The Hacker News",
-        "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 ",
-        "cve": []
-    },
-    {
-        "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-        "date": "Thu, 29 Oct 2026 20:50:29 +0530",
-        "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campa",
-        "cve": []
-    },
-    {
-        "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-        "date": "Thu, 29 Oct 2026 19:12:40 +0530",
-        "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-        "source": "The Hacker News",
-        "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.\n\n\"It shows significant gains across coding and agen",
-        "cve": []
-    },
-    {
-        "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-        "date": "Thu, 29 Oct 2026 17:09:41 +0530",
-        "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-        "source": "The Hacker News",
-        "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabi",
-        "cve": []
-    },
-    {
-        "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-        "date": "Thu, 29 Oct 2026 17:09:18 +0530",
-        "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-        "source": "The Hacker News",
-        "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.\n\nThe",
-        "cve": []
-    },
-    {
-        "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-        "date": "Thu, 29 Oct 2026 17:03:41 +0530",
-        "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-        "source": "The Hacker News",
-        "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing res",
-        "cve": []
-    },
-    {
-        "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-        "date": "Thu, 29 Oct 2026 17:03:15 +0530",
-        "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-        "source": "The Hacker News",
-        "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nI",
-        "cve": []
-    },
-    {
-        "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-        "date": "Thu, 29 Oct 2026 16:14:46 +0530",
-        "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-        "source": "The Hacker News",
-        "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has bee",
-        "cve": []
-    },
-    {
-        "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-        "date": "Thu, 29 Oct 2026 15:56:33 +0530",
-        "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-        "source": "The Hacker News",
-        "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests",
-        "cve": []
-    },
-    {
-        "title": "World’s Largest Crypto Exchange Binance Hacked, Over $5.7 Billion Reportedly Stolen",
-        "date": "Fri, 30 Oct 2026 02:36:58 +0000",
-        "url": "https://cybersecuritynews.com/binance-hacked/",
-        "source": "CyberSecurityNews",
-        "summary": "Binance, the world’s largest cryptocurrency exchange, has suspended deposits and withdrawals while investigating a suspected security breach involving billions of dollars in digital assets. Reports su",
-        "cve": []
-    },
-    {
-        "title": "State of Ad Fraud 2026: 52% of Schemes Use AI as Cloaking Loses Ground to iOS Exploits and Messenger Phishing",
-        "date": "Thu, 29 Oct 2026 17:26:36 +0000",
-        "url": "https://cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing/",
-        "source": "CyberSecurityNews",
-        "summary": "The ad fraud landscape changed sharply in 2026. That is the central finding of the State of Ad Fraud 2026: ADEX Trust &#38; Safety Report, published by anti-fraud platform ADEX. The report analyzes Ja",
-        "cve": []
-    },
-    {
-        "title": "Hackers Launch 8,200 DDoS Attacks Every Hour, Cloudflare’s Latest Report Reveals",
-        "date": "Thu, 29 Oct 2026 16:42:03 +0000",
-        "url": "https://cybersecuritynews.com/8200-ddos-attacks-every-hour/",
-        "source": "CyberSecurityNews",
-        "summary": "Cloudflare blocked an average of more than 8,200 network-layer DDoS attacks every hour during the third quarter of 2026, showing how attackers are using frequent, short bursts to disrupt online servic",
-        "cve": []
-    },
-    {
-        "title": "Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction",
-        "date": "Thu, 29 Oct 2026 15:18:11 +0000",
-        "url": "https://cybersecuritynews.com/linux-kernel-flaw-root-commands/",
-        "source": "CyberSecurityNews",
-        "summary": "Anthropic says an unreleased Claude research model wrote a working exploit for a critical Linux kernel bug, tracked as CVE-2026-98432. The exploit lets a remote attacker run commands as root with no l",
-        "cve": []
-    },
-    {
-        "title": "NIST Officially Released Guidance for Transition to Post-Quantum Cryptography",
-        "date": "Thu, 29 Oct 2026 14:55:18 +0000",
-        "url": "https://cybersecuritynews.com/nist-post-quantum-cryptography-guidance/",
-        "source": "CyberSecurityNews",
-        "summary": "The National Institute of Standards and Technology (NIST) has released guidance on moving to post-quantum cryptography, giving federal agencies and technology providers a clearer path to quantum-resis",
-        "cve": []
-    },
-    {
-        "title": "Zero-Click ‘SMS of Death’ Flaw Lets Hackers Disrupt Android Phones With a Single Text",
-        "date": "Thu, 29 Oct 2026 14:50:38 +0000",
-        "url": "https://cybersecuritynews.com/zero-click-android-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A security researcher has published details of a zero-click Android flaw called &#8220;SMS of Death.&#8221; One malformed text message can crash the phone service on an Android device, drop active cal",
-        "cve": []
-    },
-    {
-        "title": "AppViewX Expands Quantum Trust Hub with Cryptographic Discovery, Posture Management, and Remediation",
-        "date": "Thu, 29 Oct 2026 13:52:50 +0000",
-        "url": "https://cybersecuritynews.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation/",
-        "source": "CyberSecurityNews",
-        "summary": "New York, New York, October 29th, 2026, CyberNewswire Now available as a standalone solution, Quantum Trust Hub delivers cryptographic posture management and agility for enterprises to uncover risk ex",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit Critical Cisco SD-WAN 0-Day Flaw to Deploy KeyDrift Malware and Steal Encryption Keys",
-        "date": "Thu, 29 Oct 2026 13:30:55 +0000",
-        "url": "https://cybersecuritynews.com/critical-cisco-sd-wan-0-day-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "A state-linked hacking group used a maximum-severity Cisco SD-WAN zero-day flaw to break into network controllers and install a custom malware framework called KeyDrift. The flaw is CVE-2026-20127. It",
-        "cve": []
-    },
-    {
-        "title": "Chinese Hackers Use Secret Silent Train Network to Exploit Zero-Days Against U.S. Government and Defense",
-        "date": "Thu, 29 Oct 2026 12:48:55 +0000",
-        "url": "https://cybersecuritynews.com/chinese-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "China-linked Volt Typhoon hackers have used a covert network called Silent Train to hide zero-day attacks against U.S. government agencies, defense contractors and critical infrastructure. The network",
-        "cve": []
-    },
-    {
-        "title": "Hackers Claim Wagyu Crypto Platform Breach as Researchers Find Thousands of Monero Transaction Records",
-        "date": "Thu, 29 Oct 2026 11:57:24 +0000",
-        "url": "https://cybersecuritynews.com/wagyu-crypto-platform-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers have claimed a breach of cryptocurrency swap platform Wagyu.xyz, while researchers reviewing the purported leak found thousands of records connecting Monero transactions with public blockchain",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Coruna iOS Exploit Kit Hidden Behind Malicious Ads Targets Crypto Seed Phrases, ADEX Reports",
-        "date": "Thu, 29 Oct 2026 15:09:14 +0000",
-        "url": "https://gbhackers.com/coruna-ios-exploit-kit-hidden-behind-malicious-ads-targets-crypto-seed-phrases-adex-reports/",
-        "source": "GBHackers",
-        "summary": "Malicious iOS scripts have become a leading cause of ad platform suspensions. They accounted for about one in five suspensions in Q3 2026, according to the State of Ad Fraud 2026: ADEX Trust &#38; Saf",
+        "title": "AMD Ryzen Zen 6 Looks Like It Will Be In Good Shape With Linux 7.4, Laptop Improvements",
+        "date": "Fri, 30 Oct 2026 11:24:46 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-x86-Platform-Driver",
+        "source": "Phoronix",
+        "summary": "The x86 platform driver changes were merged this week to the Linux 7.4 kernel ahead of the merge window closing this weekend...",
         "cve": []
     },
     {
-        "title": "AppViewX Expands Quantum Trust Hub with Cryptographic Discovery, Posture Management, and Remediation",
-        "date": "Thu, 29 Oct 2026 13:56:26 +0000",
-        "url": "https://gbhackers.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation/",
-        "source": "GBHackers",
-        "summary": "New York, New York, October 29th, 2026, CyberNewswire Now available as a standalone solution, Quantum Trust Hub delivers cryptographic posture management and agility for enterprises to uncover risk ex",
+        "title": "Another Week, Another Vibe Coded OS; Closed-Source In The Name Of Security",
+        "date": "Fri, 30 Oct 2026 08:23:06 -0400",
+        "url": "https://www.phoronix.com/news/NULLos",
+        "source": "Phoronix",
+        "summary": "With today's AI/LLM capabilities, there is almost a new operating system heard about each week \"coded from scratch\" predominantly via AI agents. This week was no exception with another project hitting",
         "cve": []
     },
     {
-        "title": "Cisco Talos Uncovers KeyDrift Malware Targeting SD-WAN Controllers to Steal Network Encryption Keys",
-        "date": "Thu, 29 Oct 2026 13:27:51 +0000",
-        "url": "https://gbhackers.com/sd-wan-controllers-targeted/",
-        "source": "GBHackers",
-        "summary": "UAT-11473, an advanced persistent threat actor deploying KeyDrift, a custom malware framework targeting Cisco Catalyst SD-WAN controllers. The framework embeds inside legitimate control-plane processe",
+        "title": "AMD PerfOpt Makes it Into Linux 7.4 As A Nice Performance Boost For AMD iGPUs",
+        "date": "Fri, 30 Oct 2026 06:21:54 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-IOMMU",
+        "source": "Phoronix",
+        "summary": "As anticipated, the AMD PerfOpt feature was picked up for the Linux 7.4 kernel. As shown already in multiple Phoronix benchmarks, AMD PerfOpt makes for a nice performance boost for AMD integrated grap",
         "cve": []
     },
     {
-        "title": "Chinese Hackers Exploit VMware ESXi Zero-Day to Target Law Firms in Cyber Espionage Attacks",
-        "date": "Thu, 29 Oct 2026 12:30:51 +0000",
-        "url": "https://gbhackers.com/chinese-hackers-exploit-vmware-esxi-zero-day/",
-        "source": "GBHackers",
-        "summary": "Chinese state-linked hackers have exploited a zero-day vulnerability in VMware ESXi during espionage operations aimed at U.S. law firms, according to CrowdStrike&#8217;s latest assessment of threats a",
+        "title": "Apple Silicon Linux Driver Adapted To Help Older Intel-Powered Macs",
+        "date": "Fri, 30 Oct 2026 06:05:47 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Patches-Intel-macsmc",
+        "source": "Phoronix",
+        "summary": "The Linux kernel's \"macsmc\" driver was developed for supporting the system management controller (SMC) on Apple Silicon Macs for supporting the light sensor, fan control, and other sensors. That macsm",
         "cve": []
     },
     {
-        "title": "NIST Releases New Guidelines to Protect Encryption Against Future Quantum Computer Attacks",
-        "date": "Thu, 29 Oct 2026 12:20:40 +0000",
-        "url": "https://gbhackers.com/nist-guidelines-to-protect-encryption-against-future-quantum-computer-attacks/",
-        "source": "GBHackers",
-        "summary": "The National Institute of Standards and Technology (NIST) has released finalized guidance to assist organizations in replacing cryptography that is vulnerable to quantum computing before future quantu",
+        "title": "Vulkan 1.4.367 Released With VK_KHR_maintenance12",
+        "date": "Fri, 30 Oct 2026 05:58:03 -0400",
+        "url": "https://www.phoronix.com/news/Vulkan-1.4.367",
+        "source": "Phoronix",
+        "summary": "Vulkan 1.4.367 is out this morning as the newest spec revision for this high performance graphics and compute API...",
         "cve": []
     },
     {
-        "title": "GitHub Launches Copilot Fusion to Automatically Select and Combine AI Models for Coding",
-        "date": "Thu, 29 Oct 2026 12:12:01 +0000",
-        "url": "https://gbhackers.com/github-launches-copilot-fusion/",
-        "source": "GBHackers",
-        "summary": "GitHub has launched Copilot Fusion, a runtime model router and orchestrator that automatically selects AI models and execution patterns for coding tasks. Instead of requiring developers to choose a mo",
+        "title": "I3C Hub & HDR-DDR Support Merged For Linux 7.4",
+        "date": "Fri, 30 Oct 2026 05:50:29 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-I3C",
+        "source": "Phoronix",
+        "summary": "The I3C changes for Linux 7.4 were submitted this week by Bootlin's Alexandre Belloni and subsequently merged...",
         "cve": []
     },
     {
-        "title": "319 Suspicious Chrome Extensions Hijack Default Search Settings Without Sensitive Permissions",
-        "date": "Thu, 29 Oct 2026 11:53:19 +0000",
-        "url": "https://gbhackers.com/chrome-extensions-hijacking/",
-        "source": "GBHackers",
-        "summary": "An investigation into browser extensions identified 319 suspicious extensions linked to about 13.4 million reported users, exposing a search-hijacking ecosystem operating since 2016. Marketed as manua",
+        "title": "RISC-V Has A Nice Portable Performance Optimization With Linux 7.4",
+        "date": "Thu, 29 Oct 2026 20:36:39 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-RISC-V",
+        "source": "Phoronix",
+        "summary": "The RISC-V architecture changes were merged today for the Linux 7.4 kernel with one nice optimization standing out...",
         "cve": []
     },
     {
-        "title": "Microsoft to Disable SMS and Voice Authentication in Entra ID Starting February 2027",
-        "date": "Thu, 29 Oct 2026 10:51:33 +0000",
-        "url": "https://gbhackers.com/microsoft-to-disable-sms-and-voice-authentication-in-entra-id/",
-        "source": "GBHackers",
-        "summary": "Microsoft will begin retiring Microsoft-provided SMS and voice authentication in Microsoft Entra ID on February 1, 2027, requiring affected organizations to migrate users or arrange alternative teleco",
+        "title": "Fedora Linux 45 Shipping Next Week On 3 November",
+        "date": "Thu, 29 Oct 2026 18:00:54 -0400",
+        "url": "https://www.phoronix.com/news/Fedora-45-Ships-Next-Week",
+        "source": "Phoronix",
+        "summary": "Fedora 45 is ready to ship! It will be formally released on Tuesday, 3 November...",
         "cve": []
     },
     {
-        "title": "Microsoft Edge Security Flaws Allow Attackers to Execute Code Without Memory Corruption",
-        "date": "Thu, 29 Oct 2026 10:37:01 +0000",
-        "url": "https://gbhackers.com/microsoft-edge-security-flaws/",
-        "source": "GBHackers",
-        "summary": "Researcher Orange Tsai from DEVCORE has published a complete exploit chain for Microsoft Edge that successfully escapes the browser&#8217;s sandbox and executes code on Windows. This exploit utilizes ",
+        "title": "F2FS Adds Opt-In Multi-Grain Timestamps With Linux 7.4, Other Improvements",
+        "date": "Thu, 29 Oct 2026 12:52:52 -0400",
+        "url": "https://www.phoronix.com/news/F2FS-Linux-7.4",
+        "source": "Phoronix",
+        "summary": "The F2FS (Flash Friendly File-System) improvements have been merged for Linux 7.4 to further enhance this flash-optimized solution...",
         "cve": []
     },
     {
-        "title": "Volt Typhoon Hackers Exploit Multiple Zero-Days to Breach U.S. Critical Infrastructure Networks",
-        "date": "Thu, 29 Oct 2026 09:24:20 +0000",
-        "url": "https://gbhackers.com/zero-days-exploited/",
-        "source": "GBHackers",
-        "summary": "Chinese state-sponsored hacking group Volt Typhoon has exploited multiple previously unknown vulnerabilities in enterprise management platforms to penetrate strategically significant organizations. It",
+        "title": "NVIDIA Vera Single vs. Dual Socket CPU Performance",
+        "date": "Thu, 29 Oct 2026 09:36:24 -0400",
+        "url": "https://www.phoronix.com/review/nvidia-vera-1p-2p",
+        "source": "Phoronix",
+        "summary": "For those curious how NVIDIA Vera is scaling between single and dual socket deployments, here are some benchmarks I carried out a while back exploring the power and performance from one to two Vera CP",
         "cve": []
     }
 ]
