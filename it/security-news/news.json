@@ -1,5 +1,13 @@
 [
     {
+        "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+        "date": "Fri, 30 Oct 2026 17:09:46 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+        "source": "BleepingComputer",
+        "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Mult",
+        "cve": []
+    },
+    {
         "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
         "date": "Fri, 30 Oct 2026 11:58:20 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
@@ -72,11 +80,11 @@
         "cve": []
     },
     {
-        "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-        "date": "Thu, 29 Oct 2026 18:09:24 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-        "source": "BleepingComputer",
-        "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana ",
+        "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+        "date": "Fri, 30 Oct 2026 22:28:44 +0530",
+        "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+        "source": "The Hacker News",
+        "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simulta",
         "cve": []
     },
     {
@@ -152,11 +160,83 @@
         "cve": []
     },
     {
-        "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-        "date": "Fri, 30 Oct 2026 00:41:58 +0530",
-        "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-        "source": "The Hacker News",
-        "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nT",
+        "title": "Chainalysis Confirms Cyberattack Using Agentic Techniques That Exposed Customer Data",
+        "date": "Sat, 31 Oct 2026 02:49:59 +0000",
+        "url": "https://cybersecuritynews.com/chainalysis-confirms-cyberattack/",
+        "source": "CyberSecurityNews",
+        "summary": "Chainalysis has confirmed that an attacker used “offensive agentic techniques” to access its systems and internal tools, exposing customer account details. The blockchain investigation company said th",
+        "cve": []
+    },
+    {
+        "title": "North Korean Hackers Steal Developer Credentials to Inject Malware Into GitHub and Software Packages",
+        "date": "Fri, 30 Oct 2026 15:15:02 +0000",
+        "url": "https://cybersecuritynews.com/north-korean-hackers-2/",
+        "source": "CyberSecurityNews",
+        "summary": "A North Korea-aligned hacking group has moved beyond fake job interviews and now steals developer credentials to plant malware in trusted software projects. The group, tracked as DeceptiveDevelopment,",
+        "cve": []
+    },
+    {
+        "title": "When Threats Don’t Wait, Security Can’t Either",
+        "date": "Fri, 30 Oct 2026 15:08:31 +0000",
+        "url": "https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either/",
+        "source": "CyberSecurityNews",
+        "summary": "Dhananjay Ganjoo, Managing Director – India &#38; SAARC&#160; The uncomfortable part of an adaptive attack is not how quickly it starts, but&#160; how quickly it can change course.&#160;&#160; AI-assi",
+        "cve": []
+    },
+    {
+        "title": "APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments",
+        "date": "Fri, 30 Oct 2026 15:02:03 +0000",
+        "url": "https://cybersecuritynews.com/netamloader-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "A new malware framework called NetamLoader is being used against a custom version of Windows 10 that only government bodies in Asia use. The campaign looks like a supply-chain operation, and nobody ha",
+        "cve": []
+    },
+    {
+        "title": "Aur0ra Ransomware Hackers Use Cursor AI Agents to Gain Domain Admin Access and Steal Data",
+        "date": "Fri, 30 Oct 2026 14:36:33 +0000",
+        "url": "https://cybersecuritynews.com/aur0ra-ransomware-hackers/",
+        "source": "CyberSecurityNews",
+        "summary": "Ransomware crews are now giving the hardest parts of a network break-in to AI coding tools. A group linked to Aur0ra ransomware used Cursor AI agents to go from stolen passwords to domain admin access",
+        "cve": []
+    },
+    {
+        "title": "Hackers Build Fake Polymarket Platforms That Rig Trades and Block Cryptocurrency Withdrawals",
+        "date": "Fri, 30 Oct 2026 14:16:13 +0000",
+        "url": "https://cybersecuritynews.com/fake-polymarket-platforms/",
+        "source": "CyberSecurityNews",
+        "summary": "Criminals are copying the look of Polymarket, one of the biggest prediction market sites. They use the copies to take cryptocurrency from people who think they are placing real bets. Once a victim dep",
+        "cve": []
+    },
+    {
+        "title": "Critical Drupal Commerce Vulnerability Could Let Hackers Buy Products for Just $0.01",
+        "date": "Fri, 30 Oct 2026 13:56:01 +0000",
+        "url": "https://cybersecuritynews.com/critical-drupal-commerce-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Drupal has warned that hackers are actively exploiting a highly critical security flaw in Commerce Core, putting online stores at risk of financial losses. Tracked as CVE-2026-118539, the vulnerabilit",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit Passwordless Telnet to Infect Linux Devices With New Kairos DDoS Botnet",
+        "date": "Fri, 30 Oct 2026 13:22:22 +0000",
+        "url": "https://cybersecuritynews.com/hackers-exploit-passwordless-telnet/",
+        "source": "CyberSecurityNews",
+        "summary": "A new botnet called Kairos is spreading to Linux devices through a very old mistake: a Telnet service that accepts the root user with no password. Once inside, the attackers install a small Go-based p",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Zero-Click Coruna and DarkSword Exploits to Steal Sensitive Data From iPhones",
+        "date": "Fri, 30 Oct 2026 12:55:44 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-zero-click-coruna/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are using two powerful iPhone exploit kits, Coruna and DarkSword, to break into phones and steal private data. The victim only has to open a web page. There is no app to install and no prompt ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Weaponize OpenAI API in NIK C2 Framework for Credential Theft and Remote System Control",
+        "date": "Fri, 30 Oct 2026 12:21:10 +0000",
+        "url": "https://cybersecuritynews.com/hackers-weaponize-openai-api/",
+        "source": "CyberSecurityNews",
+        "summary": "A new malware framework called NIK C2 is turning the OpenAI API into a tool for cybercriminals. Its Windows implant can dump passwords, record every keystroke, take hidden control of a desktop, and se",
         "cve": []
     },
     {
@@ -240,83 +320,85 @@
         "cve": []
     },
     {
-        "title": "AMD Ryzen Zen 6 Looks Like It Will Be In Good Shape With Linux 7.4, Laptop Improvements",
-        "date": "Fri, 30 Oct 2026 11:24:46 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-x86-Platform-Driver",
-        "source": "Phoronix",
-        "summary": "The x86 platform driver changes were merged this week to the Linux 7.4 kernel ahead of the merge window closing this weekend...",
+        "title": "North Korean Hackers Steal $6.36 Billion From Binance in Largest Crypto Hack Ever",
+        "date": "Fri, 30 Oct 2026 16:57:47 +0000",
+        "url": "https://gbhackers.com/north-korean-hackers-binance-theft/",
+        "source": "GBHackers",
+        "summary": "North Korea&#8217;s TraderTraitor group drained about $6.36 billion from Binance wallets across ten blockchains on October 29, 2026. TRM Labs, which published the findings, calls it the largest crypto",
         "cve": []
     },
     {
-        "title": "Another Week, Another Vibe Coded OS; Closed-Source In The Name Of Security",
-        "date": "Fri, 30 Oct 2026 08:23:06 -0400",
-        "url": "https://www.phoronix.com/news/NULLos",
-        "source": "Phoronix",
-        "summary": "With today's AI/LLM capabilities, there is almost a new operating system heard about each week \"coded from scratch\" predominantly via AI agents. This week was no exception with another project hitting",
+        "title": "Unauthorized Codex and Claude Code Relays Disable Security Protections at 12 Organizations",
+        "date": "Fri, 30 Oct 2026 15:23:20 +0000",
+        "url": "https://gbhackers.com/codex-claude-code-relays/",
+        "source": "GBHackers",
+        "summary": "Symantec&#8217;s Threat Hunter Team has found an unauthorized relay service that installs the genuine OpenAI Codex and Anthropic Claude Code CLIs, then rewrites their settings to turn off sandboxing. ",
         "cve": []
     },
     {
-        "title": "AMD PerfOpt Makes it Into Linux 7.4 As A Nice Performance Boost For AMD iGPUs",
-        "date": "Fri, 30 Oct 2026 06:21:54 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-IOMMU",
-        "source": "Phoronix",
-        "summary": "As anticipated, the AMD PerfOpt feature was picked up for the Linux 7.4 kernel. As shown already in multiple Phoronix benchmarks, AMD PerfOpt makes for a nice performance boost for AMD integrated grap",
+        "title": "Japan Faces Growing Cyberattack Crisis as AI Tools Help Hackers Target Businesses and Government",
+        "date": "Fri, 30 Oct 2026 15:13:24 +0000",
+        "url": "https://gbhackers.com/japan-ai-cyberattacks/",
+        "source": "GBHackers",
+        "summary": "Japan is dealing with an intense wave of AI-assisted intrusions that has exposed weaknesses in its corporate and public-sector defenses. Dozens of incidents, from brokerages to delivery firms, have ma",
         "cve": []
     },
     {
-        "title": "Apple Silicon Linux Driver Adapted To Help Older Intel-Powered Macs",
-        "date": "Fri, 30 Oct 2026 06:05:47 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Patches-Intel-macsmc",
-        "source": "Phoronix",
-        "summary": "The Linux kernel's \"macsmc\" driver was developed for supporting the system management controller (SMC) on Apple Silicon Macs for supporting the light sensor, fan control, and other sensors. That macsm",
+        "title": "Hackers Target Asian Governments With New NetamLoader Malware Hidden in Windows Update Files",
+        "date": "Fri, 30 Oct 2026 15:02:50 +0000",
+        "url": "https://gbhackers.com/netamloader-malware/",
+        "source": "GBHackers",
+        "summary": "Kaspersky researchers have uncovered NetamLoader, a .NET loading framework built on XAML markup. It appears to be a supply-chain attack on a customized Windows build used only by Asian government bodi",
         "cve": []
     },
     {
-        "title": "Vulkan 1.4.367 Released With VK_KHR_maintenance12",
-        "date": "Fri, 30 Oct 2026 05:58:03 -0400",
-        "url": "https://www.phoronix.com/news/Vulkan-1.4.367",
-        "source": "Phoronix",
-        "summary": "Vulkan 1.4.367 is out this morning as the newest spec revision for this high performance graphics and compute API...",
+        "title": "Hackers Use Cursor and Claude AI to Automate Attacks in Aur0ra Ransomware Operations",
+        "date": "Fri, 30 Oct 2026 14:35:49 +0000",
+        "url": "https://gbhackers.com/aur0ra-ransomware-ai-attacks/",
+        "source": "GBHackers",
+        "summary": "The GOLD OGRE cybercrime group is using AI coding agents, including Cursor and Anthropic&#8217;s Claude, to automate intrusions for Aur0ra ransomware (Aurora). Sophos researchers say the agents moved ",
         "cve": []
     },
     {
-        "title": "I3C Hub & HDR-DDR Support Merged For Linux 7.4",
-        "date": "Fri, 30 Oct 2026 05:50:29 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-I3C",
-        "source": "Phoronix",
-        "summary": "The I3C changes for Linux 7.4 were submitted this week by Bootlin's Alexandre Belloni and subsequently merged...",
+        "title": "Trezor Warns of Suspected Spy Implant That Could Steal Crypto Wallet Recovery Phrases",
+        "date": "Fri, 30 Oct 2026 12:35:20 +0000",
+        "url": "https://gbhackers.com/trezor-warns-of-suspected-spy-implant/",
+        "source": "GBHackers",
+        "summary": "Trezor has issued an urgent warning after receiving a credible report of a suspected hardware implant in a Safe 5 cryptocurrency wallet purchased from the former reseller CryptoBilis. The company has ",
         "cve": []
     },
     {
-        "title": "RISC-V Has A Nice Portable Performance Optimization With Linux 7.4",
-        "date": "Thu, 29 Oct 2026 20:36:39 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-RISC-V",
-        "source": "Phoronix",
-        "summary": "The RISC-V architecture changes were merged today for the Linux 7.4 kernel with one nice optimization standing out...",
+        "title": "CISA Confirms Active Exploitation of GitLab Vulnerability CVE-2026-97229",
+        "date": "Fri, 30 Oct 2026 12:21:27 +0000",
+        "url": "https://gbhackers.com/cisa-gitlab-vulnerability-cve-2026-97229/",
+        "source": "GBHackers",
+        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that CVE-2026-97229, a critical vulnerability affecting both GitLab Community Edition and Enterprise Edition, is actively bein",
+        "cve": [
+            "CVE-2026-97229"
+        ]
+    },
+    {
+        "title": "Microsoft Releases Emergency Fix for Windows 11 Remote Desktop Connection Failures",
+        "date": "Fri, 30 Oct 2026 11:54:04 +0000",
+        "url": "https://gbhackers.com/windows-11-remote-desktop-connection-failures/",
+        "source": "GBHackers",
+        "summary": "Microsoft has resolved an issue in Windows 11 that prevented non-administrator users from connecting to devices with Administrator protection enabled. This fix was included in KB5127936, released on O",
         "cve": []
     },
     {
-        "title": "Fedora Linux 45 Shipping Next Week On 3 November",
-        "date": "Thu, 29 Oct 2026 18:00:54 -0400",
-        "url": "https://www.phoronix.com/news/Fedora-45-Ships-Next-Week",
-        "source": "Phoronix",
-        "summary": "Fedora 45 is ready to ship! It will be formally released on Tuesday, 3 November...",
+        "title": "Hackers Exploit Ivanti Connect Secure Zero-Day Vulnerabilities to Gain Root Access and Steal Credentials",
+        "date": "Fri, 30 Oct 2026 11:46:41 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-ivanti-connect-secure-zero-day-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Hackers exploited a chain of zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances, allowing them to execute commands with root access, steal credentials, and probe internal networks.",
         "cve": []
     },
     {
-        "title": "F2FS Adds Opt-In Multi-Grain Timestamps With Linux 7.4, Other Improvements",
-        "date": "Thu, 29 Oct 2026 12:52:52 -0400",
-        "url": "https://www.phoronix.com/news/F2FS-Linux-7.4",
-        "source": "Phoronix",
-        "summary": "The F2FS (Flash Friendly File-System) improvements have been merged for Linux 7.4 to further enhance this flash-optimized solution...",
-        "cve": []
-    },
-    {
-        "title": "NVIDIA Vera Single vs. Dual Socket CPU Performance",
-        "date": "Thu, 29 Oct 2026 09:36:24 -0400",
-        "url": "https://www.phoronix.com/review/nvidia-vera-1p-2p",
-        "source": "Phoronix",
-        "summary": "For those curious how NVIDIA Vera is scaling between single and dual socket deployments, here are some benchmarks I carried out a while back exploring the power and performance from one to two Vera CP",
+        "title": "Fake Polymarket Scam Network Claims Nearly $11 Million in Cryptocurrency Deposits",
+        "date": "Fri, 30 Oct 2026 11:46:35 +0000",
+        "url": "https://gbhackers.com/fake-polymarket-scam/",
+        "source": "GBHackers",
+        "summary": "Russian-language &#8220;traffer&#8221; teams are selling ready-made fake prediction-market platforms to affiliates. One of them, AtlasCore, claims about $10.97 million in victim deposits. Recorded Fut",
         "cve": []
     }
 ]
