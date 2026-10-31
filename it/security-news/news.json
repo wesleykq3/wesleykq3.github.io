@@ -1,5 +1,37 @@
 [
     {
+        "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+        "date": "Sat, 31 Oct 2026 11:35:11 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+        "source": "BleepingComputer",
+        "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt ce",
+        "cve": []
+    },
+    {
+        "title": "Reddit to lock content behind logins to fight scrapers",
+        "date": "Sat, 31 Oct 2026 10:05:15 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+        "source": "BleepingComputer",
+        "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+        "cve": []
+    },
+    {
+        "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+        "date": "Sat, 31 Oct 2026 09:10:19 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+        "source": "BleepingComputer",
+        "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build prac",
+        "cve": []
+    },
+    {
+        "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+        "date": "Sat, 31 Oct 2026 08:50:09 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+        "source": "BleepingComputer",
+        "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user I",
+        "cve": []
+    },
+    {
         "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
         "date": "Fri, 30 Oct 2026 17:09:46 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
@@ -48,35 +80,35 @@
         "cve": []
     },
     {
-        "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-        "date": "Fri, 30 Oct 2026 06:16:07 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+        "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+        "date": "Sat, 31 Oct 2026 17:31:56 +0530",
+        "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+        "source": "The Hacker News",
+        "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the b",
         "cve": []
     },
     {
-        "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-        "date": "Fri, 30 Oct 2026 05:18:13 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-        "source": "BleepingComputer",
-        "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+        "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+        "date": "Sat, 31 Oct 2026 13:57:43 +0530",
+        "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, followin",
         "cve": []
     },
     {
-        "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-        "date": "Thu, 29 Oct 2026 19:35:52 -0400",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
+        "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+        "date": "Sat, 31 Oct 2026 11:03:41 +0530",
+        "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+        "source": "The Hacker News",
+        "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm P",
         "cve": []
     },
     {
-        "title": "Binance probes potential $5.8 billion crypto-theft hack",
-        "date": "Thu, 29 Oct 2026 18:45:23 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-        "source": "BleepingComputer",
-        "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
+        "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+        "date": "Sat, 31 Oct 2026 10:26:12 +0530",
+        "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+        "source": "The Hacker News",
+        "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomo",
         "cve": []
     },
     {
@@ -125,118 +157,6 @@
         "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
         "source": "The Hacker News",
         "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targete",
-        "cve": []
-    },
-    {
-        "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-        "date": "Fri, 30 Oct 2026 14:25:47 +0530",
-        "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to in",
-        "cve": []
-    },
-    {
-        "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-        "date": "Fri, 30 Oct 2026 13:15:30 +0530",
-        "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-        "source": "The Hacker News",
-        "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\n\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of mis",
-        "cve": []
-    },
-    {
-        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-        "date": "Fri, 30 Oct 2026 12:57:05 +0530",
-        "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence ",
-        "cve": []
-    },
-    {
-        "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-        "date": "Fri, 30 Oct 2026 09:44:59 +0530",
-        "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-        "source": "The Hacker News",
-        "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.\n\nThe world's biggest cryptocurrency exchange said nearly $3 bi",
-        "cve": []
-    },
-    {
-        "title": "Chainalysis Confirms Cyberattack Using Agentic Techniques That Exposed Customer Data",
-        "date": "Sat, 31 Oct 2026 02:49:59 +0000",
-        "url": "https://cybersecuritynews.com/chainalysis-confirms-cyberattack/",
-        "source": "CyberSecurityNews",
-        "summary": "Chainalysis has confirmed that an attacker used “offensive agentic techniques” to access its systems and internal tools, exposing customer account details. The blockchain investigation company said th",
-        "cve": []
-    },
-    {
-        "title": "North Korean Hackers Steal Developer Credentials to Inject Malware Into GitHub and Software Packages",
-        "date": "Fri, 30 Oct 2026 15:15:02 +0000",
-        "url": "https://cybersecuritynews.com/north-korean-hackers-2/",
-        "source": "CyberSecurityNews",
-        "summary": "A North Korea-aligned hacking group has moved beyond fake job interviews and now steals developer credentials to plant malware in trusted software projects. The group, tracked as DeceptiveDevelopment,",
-        "cve": []
-    },
-    {
-        "title": "When Threats Don’t Wait, Security Can’t Either",
-        "date": "Fri, 30 Oct 2026 15:08:31 +0000",
-        "url": "https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either/",
-        "source": "CyberSecurityNews",
-        "summary": "Dhananjay Ganjoo, Managing Director – India &#38; SAARC&#160; The uncomfortable part of an adaptive attack is not how quickly it starts, but&#160; how quickly it can change course.&#160;&#160; AI-assi",
-        "cve": []
-    },
-    {
-        "title": "APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments",
-        "date": "Fri, 30 Oct 2026 15:02:03 +0000",
-        "url": "https://cybersecuritynews.com/netamloader-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "A new malware framework called NetamLoader is being used against a custom version of Windows 10 that only government bodies in Asia use. The campaign looks like a supply-chain operation, and nobody ha",
-        "cve": []
-    },
-    {
-        "title": "Aur0ra Ransomware Hackers Use Cursor AI Agents to Gain Domain Admin Access and Steal Data",
-        "date": "Fri, 30 Oct 2026 14:36:33 +0000",
-        "url": "https://cybersecuritynews.com/aur0ra-ransomware-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "Ransomware crews are now giving the hardest parts of a network break-in to AI coding tools. A group linked to Aur0ra ransomware used Cursor AI agents to go from stolen passwords to domain admin access",
-        "cve": []
-    },
-    {
-        "title": "Hackers Build Fake Polymarket Platforms That Rig Trades and Block Cryptocurrency Withdrawals",
-        "date": "Fri, 30 Oct 2026 14:16:13 +0000",
-        "url": "https://cybersecuritynews.com/fake-polymarket-platforms/",
-        "source": "CyberSecurityNews",
-        "summary": "Criminals are copying the look of Polymarket, one of the biggest prediction market sites. They use the copies to take cryptocurrency from people who think they are placing real bets. Once a victim dep",
-        "cve": []
-    },
-    {
-        "title": "Critical Drupal Commerce Vulnerability Could Let Hackers Buy Products for Just $0.01",
-        "date": "Fri, 30 Oct 2026 13:56:01 +0000",
-        "url": "https://cybersecuritynews.com/critical-drupal-commerce-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "Drupal has warned that hackers are actively exploiting a highly critical security flaw in Commerce Core, putting online stores at risk of financial losses. Tracked as CVE-2026-118539, the vulnerabilit",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit Passwordless Telnet to Infect Linux Devices With New Kairos DDoS Botnet",
-        "date": "Fri, 30 Oct 2026 13:22:22 +0000",
-        "url": "https://cybersecuritynews.com/hackers-exploit-passwordless-telnet/",
-        "source": "CyberSecurityNews",
-        "summary": "A new botnet called Kairos is spreading to Linux devices through a very old mistake: a Telnet service that accepts the root user with no password. Once inside, the attackers install a small Go-based p",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Zero-Click Coruna and DarkSword Exploits to Steal Sensitive Data From iPhones",
-        "date": "Fri, 30 Oct 2026 12:55:44 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-zero-click-coruna/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are using two powerful iPhone exploit kits, Coruna and DarkSword, to break into phones and steal private data. The victim only has to open a web page. There is no app to install and no prompt ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Weaponize OpenAI API in NIK C2 Framework for Credential Theft and Remote System Control",
-        "date": "Fri, 30 Oct 2026 12:21:10 +0000",
-        "url": "https://cybersecuritynews.com/hackers-weaponize-openai-api/",
-        "source": "CyberSecurityNews",
-        "summary": "A new malware framework called NIK C2 is turning the OpenAI API into a tool for cybercriminals. Its Windows implant can dump passwords, record every keystroke, take hidden control of a desktop, and se",
         "cve": []
     },
     {
@@ -320,85 +240,83 @@
         "cve": []
     },
     {
-        "title": "North Korean Hackers Steal $6.36 Billion From Binance in Largest Crypto Hack Ever",
-        "date": "Fri, 30 Oct 2026 16:57:47 +0000",
-        "url": "https://gbhackers.com/north-korean-hackers-binance-theft/",
-        "source": "GBHackers",
-        "summary": "North Korea&#8217;s TraderTraitor group drained about $6.36 billion from Binance wallets across ten blockchains on October 29, 2026. TRM Labs, which published the findings, calls it the largest crypto",
+        "title": "Enlightenment 0.28 Released With Many Improvements",
+        "date": "Sat, 31 Oct 2026 10:46:26 -0400",
+        "url": "https://www.phoronix.com/news/Enlightenment-0.28",
+        "source": "Phoronix",
+        "summary": "Enlightenment 0.27 released at the beginning of 2025 and since then there's been no major feature update, falling off their roughly 12 month release cadence. But out this Halloween is Enlightenment 0.",
         "cve": []
     },
     {
-        "title": "Unauthorized Codex and Claude Code Relays Disable Security Protections at 12 Organizations",
-        "date": "Fri, 30 Oct 2026 15:23:20 +0000",
-        "url": "https://gbhackers.com/codex-claude-code-relays/",
-        "source": "GBHackers",
-        "summary": "Symantec&#8217;s Threat Hunter Team has found an unauthorized relay service that installs the genuine OpenAI Codex and Anthropic Claude Code CLIs, then rewrites their settings to turn off sandboxing. ",
+        "title": "Linux Mint Developing New Apps For Terminal & System Monitoring",
+        "date": "Sat, 31 Oct 2026 10:36:11 -0400",
+        "url": "https://www.phoronix.com/news/Linux-Mint-October-2026",
+        "source": "Phoronix",
+        "summary": "Linux Mint is out with their October 2026 status report to outline various initiatives they have underway in their lead-up to the Linux Mint 27 stable release happening on/around Christmas...",
         "cve": []
     },
     {
-        "title": "Japan Faces Growing Cyberattack Crisis as AI Tools Help Hackers Target Businesses and Government",
-        "date": "Fri, 30 Oct 2026 15:13:24 +0000",
-        "url": "https://gbhackers.com/japan-ai-cyberattacks/",
-        "source": "GBHackers",
-        "summary": "Japan is dealing with an intense wave of AI-assisted intrusions that has exposed weaknesses in its corporate and public-sector defenses. Dozens of incidents, from brokerages to delivery firms, have ma",
+        "title": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
+        "date": "Sat, 31 Oct 2026 08:15:22 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Drops-Taint-Bind",
+        "source": "Phoronix",
+        "summary": "A new feature merged last week for Linux 7.4 to help reduce AI/LLM generated noise from invalid/irrelevant testing configurations is now reverted due to a \"crazy beast\" in the VFIO subsystem...",
         "cve": []
     },
     {
-        "title": "Hackers Target Asian Governments With New NetamLoader Malware Hidden in Windows Update Files",
-        "date": "Fri, 30 Oct 2026 15:02:50 +0000",
-        "url": "https://gbhackers.com/netamloader-malware/",
-        "source": "GBHackers",
-        "summary": "Kaspersky researchers have uncovered NetamLoader, a .NET loading framework built on XAML markup. It appears to be a supply-chain attack on a customized Windows build used only by Asian government bodi",
+        "title": "KDE Plasma 6.9 Lands Some New Performance Optimizations",
+        "date": "Sat, 31 Oct 2026 06:51:01 -0400",
+        "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-More-Performance",
+        "source": "Phoronix",
+        "summary": "I love a good performance optimization and there are several this week in the KDE space with Plasma 6.9 development heating up...",
         "cve": []
     },
     {
-        "title": "Hackers Use Cursor and Claude AI to Automate Attacks in Aur0ra Ransomware Operations",
-        "date": "Fri, 30 Oct 2026 14:35:49 +0000",
-        "url": "https://gbhackers.com/aur0ra-ransomware-ai-attacks/",
-        "source": "GBHackers",
-        "summary": "The GOLD OGRE cybercrime group is using AI coding agents, including Cursor and Anthropic&#8217;s Claude, to automate intrusions for Aur0ra ransomware (Aurora). Sophos researchers say the agents moved ",
+        "title": "Ceph In Linux 7.4 Adds Global Mount Option For Lazy I/O",
+        "date": "Sat, 31 Oct 2026 06:30:00 -0400",
+        "url": "https://www.phoronix.com/news/Linux-7.4-Ceph",
+        "source": "Phoronix",
+        "summary": "The Ceph kernel client changes have been submitted for Linux 7.4 ahead of its merge window expected to wrap up on Sunday...",
         "cve": []
     },
     {
-        "title": "Trezor Warns of Suspected Spy Implant That Could Steal Crypto Wallet Recovery Phrases",
-        "date": "Fri, 30 Oct 2026 12:35:20 +0000",
-        "url": "https://gbhackers.com/trezor-warns-of-suspected-spy-implant/",
-        "source": "GBHackers",
-        "summary": "Trezor has issued an urgent warning after receiving a credible report of a suspected hardware implant in a Safe 5 cryptocurrency wallet purchased from the former reseller CryptoBilis. The company has ",
+        "title": "GNOME Now Has An Established RFC Process, GNOME OS Continues Improving",
+        "date": "Sat, 31 Oct 2026 06:10:19 -0400",
+        "url": "https://www.phoronix.com/news/GNOME-Establishes-RFC",
+        "source": "Phoronix",
+        "summary": "In recent weeks GNOME developers have been discussing a formal Request For Comments \"RFC\" process for solving major technical questions and changes to GNOME. This formalized process for succeeding the",
         "cve": []
     },
     {
-        "title": "CISA Confirms Active Exploitation of GitLab Vulnerability CVE-2026-97229",
-        "date": "Fri, 30 Oct 2026 12:21:27 +0000",
-        "url": "https://gbhackers.com/cisa-gitlab-vulnerability-cve-2026-97229/",
-        "source": "GBHackers",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that CVE-2026-97229, a critical vulnerability affecting both GitLab Community Edition and Enterprise Edition, is actively bein",
-        "cve": [
-            "CVE-2026-97229"
-        ]
-    },
-    {
-        "title": "Microsoft Releases Emergency Fix for Windows 11 Remote Desktop Connection Failures",
-        "date": "Fri, 30 Oct 2026 11:54:04 +0000",
-        "url": "https://gbhackers.com/windows-11-remote-desktop-connection-failures/",
-        "source": "GBHackers",
-        "summary": "Microsoft has resolved an issue in Windows 11 that prevented non-administrator users from connecting to devices with Administrator protection enabled. This fix was included in KB5127936, released on O",
+        "title": "DXVK-NVAPI 0.9.3 Brings Nice Improvements For Linux Gamers On Latest NVIDIA Drivers",
+        "date": "Sat, 31 Oct 2026 06:00:00 -0400",
+        "url": "https://www.phoronix.com/news/DXVK-NVAPI-0.9.3",
+        "source": "Phoronix",
+        "summary": "DXVK-NVAPI 0.9.3 is out this weekend as a new feature update to this NVIDIA NVAPI implementation used by Valve as part of Steam Play with Proton for nicely integrating NVIDIA technologies into various",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Ivanti Connect Secure Zero-Day Vulnerabilities to Gain Root Access and Steal Credentials",
-        "date": "Fri, 30 Oct 2026 11:46:41 +0000",
-        "url": "https://gbhackers.com/hackers-exploit-ivanti-connect-secure-zero-day-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "Hackers exploited a chain of zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances, allowing them to execute commands with root access, steal credentials, and probe internal networks.",
+        "title": "CUDA Oxide 0.3 Vastly Improves Rust Support For NVIDIA CUDA Programming",
+        "date": "Sat, 31 Oct 2026 05:50:00 -0400",
+        "url": "https://www.phoronix.com/news/CUDA-Oxide-0.3",
+        "source": "Phoronix",
+        "summary": "NVIDIA software engineers released CUDA Oxide 0.3 for closing out October. CUDA Oxide as a reminder is their experimental Rust to CUDA compiler that has been seeing a lot of activity in recent months.",
         "cve": []
     },
     {
-        "title": "Fake Polymarket Scam Network Claims Nearly $11 Million in Cryptocurrency Deposits",
-        "date": "Fri, 30 Oct 2026 11:46:35 +0000",
-        "url": "https://gbhackers.com/fake-polymarket-scam/",
-        "source": "GBHackers",
-        "summary": "Russian-language &#8220;traffer&#8221; teams are selling ready-made fake prediction-market platforms to affiliates. One of them, AtlasCore, claims about $10.97 million in victim deposits. Recorded Fut",
+        "title": "Sculpt OS 26.10 Released - Now Powered By Genode's Custom Microkernel",
+        "date": "Sat, 31 Oct 2026 05:37:22 -0400",
+        "url": "https://www.phoronix.com/news/Sculpt-OS-26.10",
+        "source": "Phoronix",
+        "summary": "Sculpt OS as the general purpose operating system project born out of the Genode initiative is now using the project's own microkernel rather than a third-party microkernel...",
+        "cve": []
+    },
+    {
+        "title": "Wine 11.21 Released With Better WoW64 OpenGL Performance",
+        "date": "Fri, 30 Oct 2026 20:29:01 -0400",
+        "url": "https://www.phoronix.com/news/Wine-11.21-Released",
+        "source": "Phoronix",
+        "summary": "Wine 11.21 is out as the newest bi-weekly development release of Wine and as we near Wine 12.0 stable release happenings getting underway in about one month with the official v12.0 release expected ea",
         "cve": []
     }
 ]
