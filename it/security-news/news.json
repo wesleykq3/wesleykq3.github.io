@@ -1,5 +1,13 @@
 [
     {
+        "title": "Northflank security breach leads to abuse of customers' AI API keys",
+        "date": "Sat, 31 Oct 2026 14:01:12 -0400",
+        "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+        "source": "BleepingComputer",
+        "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API key",
+        "cve": []
+    },
+    {
         "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
         "date": "Sat, 31 Oct 2026 11:35:11 -0400",
         "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
         "source": "BleepingComputer",
         "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft finally fixes VPN issues caused by September updates",
-        "date": "Fri, 30 Oct 2026 07:20:26 -0400",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,86 @@
         "cve": []
     },
     {
+        "title": "Cursor Confirms Malicious Claude Code Extension With SSH Backdoor Was Available for 11 Hours",
+        "date": "Sat, 31 Oct 2026 10:41:18 +0000",
+        "url": "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor/",
+        "source": "CyberSecurityNews",
+        "summary": "Cursor has confirmed that malicious Claude Code extension packages were available through its VS Code Extension Marketplace for roughly 11 hours on October 29, 2026. The altered packages targeted Wind",
+        "cve": []
+    },
+    {
+        "title": "Over 60,000 Attacks Target WordPress RCE Vulnerability Within 24 Hours",
+        "date": "Sat, 31 Oct 2026 06:02:41 +0000",
+        "url": "https://cybersecuritynews.com/60000-attacks-targeting-wordpress/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are targeting a WordPress Core remote code execution vulnerability that can expose websites during software updates. The supplied Wordfence threat intelligence snapshot lists 60,471 blocked at",
+        "cve": []
+    },
+    {
+        "title": "Google Launches Gemini 4 Carbon With State-Of-The-Art Cybersecurity Capabilities",
+        "date": "Sat, 31 Oct 2026 04:48:15 +0000",
+        "url": "https://cybersecuritynews.com/google-launches-gemini-4-carbon/",
+        "source": "CyberSecurityNews",
+        "summary": "Google has announced Gemini 4 Carbon, its latest AI model built to find software flaws, test whether attackers could exploit them, and produce fixes. Unveiled on October 28, 2026, Carbon builds on Gem",
+        "cve": []
+    },
+    {
+        "title": "TeamViewer Security Flaw Could Turn Remote Support Sessions Into Computer Takeovers",
+        "date": "Sat, 31 Oct 2026 04:37:14 +0000",
+        "url": "https://cybersecuritynews.com/teamviewer-security-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly disclosed TeamViewer vulnerability could let an attacker turn a routine remote support session against the technician providing help. Tracked as CVE-2026-111585, the flaw allows a malicious re",
+        "cve": []
+    },
+    {
+        "title": "Anthropic’s Claude Bypasses AI Safety Checks, Triggering Blackmail and Code Sabotage in Tests",
+        "date": "Sat, 31 Oct 2026 04:24:43 +0000",
+        "url": "https://cybersecuritynews.com/claude-bypasses-ai-safety-checks/",
+        "source": "CyberSecurityNews",
+        "summary": "Anthropic researchers have shown that Claude can design training data that slips past an AI safety monitor and causes a separate research model to blackmail users, weaken security code, and resist ove",
+        "cve": []
+    },
+    {
+        "title": "Apple Warns iPhone Users in 99 Countries of Sophisticated Mercenary Spyware Attacks",
+        "date": "Sat, 31 Oct 2026 03:54:38 +0000",
+        "url": "https://cybersecuritynews.com/apple-warns-iphone-users/",
+        "source": "CyberSecurityNews",
+        "summary": "Apple has issued a fresh round of threat notifications to selected iPhone users in 99 countries, warning that they have been targeted by sophisticated mercenary spyware attacks. Security researcher Co",
+        "cve": []
+    },
+    {
+        "title": "Chainalysis Confirms Cyberattack Using Agentic Techniques That Exposed Customer Data",
+        "date": "Sat, 31 Oct 2026 02:49:59 +0000",
+        "url": "https://cybersecuritynews.com/chainalysis-confirms-cyberattack/",
+        "source": "CyberSecurityNews",
+        "summary": "Chainalysis has confirmed that an attacker used “offensive agentic techniques” to access its systems and internal tools, exposing customer account details. The blockchain investigation company said th",
+        "cve": []
+    },
+    {
+        "title": "North Korean Hackers Steal Developer Credentials to Inject Malware Into GitHub and Software Packages",
+        "date": "Fri, 30 Oct 2026 15:15:02 +0000",
+        "url": "https://cybersecuritynews.com/north-korean-hackers-2/",
+        "source": "CyberSecurityNews",
+        "summary": "A North Korea-aligned hacking group has moved beyond fake job interviews and now steals developer credentials to plant malware in trusted software projects. The group, tracked as DeceptiveDevelopment,",
+        "cve": []
+    },
+    {
+        "title": "When Threats Don’t Wait, Security Can’t Either",
+        "date": "Fri, 30 Oct 2026 15:08:31 +0000",
+        "url": "https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either/",
+        "source": "CyberSecurityNews",
+        "summary": "Dhananjay Ganjoo, Managing Director – India &#38; SAARC&#160; The uncomfortable part of an adaptive attack is not how quickly it starts, but&#160; how quickly it can change course.&#160;&#160; AI-assi",
+        "cve": []
+    },
+    {
+        "title": "APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments",
+        "date": "Fri, 30 Oct 2026 15:02:03 +0000",
+        "url": "https://cybersecuritynews.com/netamloader-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "A new malware framework called NetamLoader is being used against a custom version of Windows 10 that only government bodies in Asia use. The campaign looks like a supply-chain operation, and nobody ha",
+        "cve": []
+    },
+    {
         "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
         "date": "Wed, 21 Oct 2026 15:26:07 +0000",
         "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Enlightenment 0.28 Released With Many Improvements",
-        "date": "Sat, 31 Oct 2026 10:46:26 -0400",
-        "url": "https://www.phoronix.com/news/Enlightenment-0.28",
-        "source": "Phoronix",
-        "summary": "Enlightenment 0.27 released at the beginning of 2025 and since then there's been no major feature update, falling off their roughly 12 month release cadence. But out this Halloween is Enlightenment 0.",
+        "title": "Hackers Impersonate IT Help Desk on Microsoft Teams to Gain Domain Admin Access via AD CS Attacks",
+        "date": "Sat, 31 Oct 2026 08:25:08 +0000",
+        "url": "https://gbhackers.com/hackers-impersonate-it-help-desk-microsoft-teams/",
+        "source": "GBHackers",
+        "summary": "Hackers impersonated IT help desk personnel on Microsoft Teams to gain remote access and abuse Active Directory Certificate Services (AD CS), turning approved support sessions into privileged authenti",
         "cve": []
     },
     {
-        "title": "Linux Mint Developing New Apps For Terminal & System Monitoring",
-        "date": "Sat, 31 Oct 2026 10:36:11 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Mint-October-2026",
-        "source": "Phoronix",
-        "summary": "Linux Mint is out with their October 2026 status report to outline various initiatives they have underway in their lead-up to the Linux Mint 27 stable release happening on/around Christmas...",
+        "title": "Hackers Distribute Malicious Claude Code Extension on Cursor Marketplace to Install Persistent SSH Backdoor",
+        "date": "Sat, 31 Oct 2026 08:10:08 +0000",
+        "url": "https://gbhackers.com/hackers-distribute-malicious-claude-code-extension/",
+        "source": "GBHackers",
+        "summary": "Microsoft has warned that malicious Claude Code extensions distributed through Cursor’s marketplace attempted to install a persistent SSH backdoor on developer workstations. The trojanized packages, a",
         "cve": []
     },
     {
-        "title": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
-        "date": "Sat, 31 Oct 2026 08:15:22 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-Drops-Taint-Bind",
-        "source": "Phoronix",
-        "summary": "A new feature merged last week for Linux 7.4 to help reduce AI/LLM generated noise from invalid/irrelevant testing configurations is now reverted due to a \"crazy beast\" in the VFIO subsystem...",
+        "title": "Hackers Exploit PHP2Shell RCE Vulnerabilities to Gain Root Access on Palo Alto Firewalls",
+        "date": "Sat, 31 Oct 2026 07:59:01 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-php2shell-rce-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Attackers have chained critical PHP2Shell vulnerabilities with the Fragnesia Linux kernel flaw to gain root access on Palo Alto Networks PAN-OS systems. The campaign reportedly compromised 24 internet",
         "cve": []
     },
     {
-        "title": "KDE Plasma 6.9 Lands Some New Performance Optimizations",
-        "date": "Sat, 31 Oct 2026 06:51:01 -0400",
-        "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-More-Performance",
-        "source": "Phoronix",
-        "summary": "I love a good performance optimization and there are several this week in the KDE space with Plasma 6.9 development heating up...",
+        "title": "Claude AI Exploits Gaps in Safety Monitoring to Develop Self-Preservation and Deceptive Behaviors",
+        "date": "Sat, 31 Oct 2026 07:40:15 +0000",
+        "url": "https://gbhackers.com/claude-ai-exploits-gaps/",
+        "source": "GBHackers",
+        "summary": "Anthropic researchers have demonstrated how Claude could generate seemingly harmless training datasets that passed safety screening but caused a separate research model to develop deceptive, manipulat",
         "cve": []
     },
     {
-        "title": "Ceph In Linux 7.4 Adds Global Mount Option For Lazy I/O",
-        "date": "Sat, 31 Oct 2026 06:30:00 -0400",
-        "url": "https://www.phoronix.com/news/Linux-7.4-Ceph",
-        "source": "Phoronix",
-        "summary": "The Ceph kernel client changes have been submitted for Linux 7.4 ahead of its merge window expected to wrap up on Sunday...",
+        "title": "WordPress RCE Vulnerability Under Active Attack With Over 58,000 Exploit Attempts Blocked",
+        "date": "Sat, 31 Oct 2026 07:03:41 +0000",
+        "url": "https://gbhackers.com/wordpress-rce-vulnerability-2/",
+        "source": "GBHackers",
+        "summary": "Hackers are attempting to exploit an unauthenticated remote code execution vulnerability in WordPress Core, targeting a brief exposure window during software updates. The supplied Wordfence record rep",
         "cve": []
     },
     {
-        "title": "GNOME Now Has An Established RFC Process, GNOME OS Continues Improving",
-        "date": "Sat, 31 Oct 2026 06:10:19 -0400",
-        "url": "https://www.phoronix.com/news/GNOME-Establishes-RFC",
-        "source": "Phoronix",
-        "summary": "In recent weeks GNOME developers have been discussing a formal Request For Comments \"RFC\" process for solving major technical questions and changes to GNOME. This formalized process for succeeding the",
+        "title": "Russian Hackers Exploit MDaemon Mail Server Flaw to Install Backdoors Without User Interaction",
+        "date": "Sat, 31 Oct 2026 05:36:42 +0000",
+        "url": "https://gbhackers.com/mdaemon-mail-server-flaw/",
+        "source": "GBHackers",
+        "summary": "Russia-aligned threat actors are exploiting a flaw in MDaemon mail server software to run code on the server. Victims don&#8217;t have to open or click anything. ESET&#8217;s APT Activity Report for Q",
         "cve": []
     },
     {
-        "title": "DXVK-NVAPI 0.9.3 Brings Nice Improvements For Linux Gamers On Latest NVIDIA Drivers",
-        "date": "Sat, 31 Oct 2026 06:00:00 -0400",
-        "url": "https://www.phoronix.com/news/DXVK-NVAPI-0.9.3",
-        "source": "Phoronix",
-        "summary": "DXVK-NVAPI 0.9.3 is out this weekend as a new feature update to this NVIDIA NVAPI implementation used by Valve as part of Steam Play with Proton for nicely integrating NVIDIA technologies into various",
+        "title": "North Korean Hackers Steal $6.36 Billion From Binance in Largest Crypto Hack Ever",
+        "date": "Fri, 30 Oct 2026 16:57:47 +0000",
+        "url": "https://gbhackers.com/north-korean-hackers-binance-theft/",
+        "source": "GBHackers",
+        "summary": "North Korea&#8217;s TraderTraitor group drained about $6.36 billion from Binance wallets across ten blockchains on October 29, 2026. TRM Labs, which published the findings, calls it the largest crypto",
         "cve": []
     },
     {
-        "title": "CUDA Oxide 0.3 Vastly Improves Rust Support For NVIDIA CUDA Programming",
-        "date": "Sat, 31 Oct 2026 05:50:00 -0400",
-        "url": "https://www.phoronix.com/news/CUDA-Oxide-0.3",
-        "source": "Phoronix",
-        "summary": "NVIDIA software engineers released CUDA Oxide 0.3 for closing out October. CUDA Oxide as a reminder is their experimental Rust to CUDA compiler that has been seeing a lot of activity in recent months.",
+        "title": "Unauthorized Codex and Claude Code Relays Disable Security Protections at 12 Organizations",
+        "date": "Fri, 30 Oct 2026 15:23:20 +0000",
+        "url": "https://gbhackers.com/codex-claude-code-relays/",
+        "source": "GBHackers",
+        "summary": "Symantec&#8217;s Threat Hunter Team has found an unauthorized relay service that installs the genuine OpenAI Codex and Anthropic Claude Code CLIs, then rewrites their settings to turn off sandboxing. ",
         "cve": []
     },
     {
-        "title": "Sculpt OS 26.10 Released - Now Powered By Genode's Custom Microkernel",
-        "date": "Sat, 31 Oct 2026 05:37:22 -0400",
-        "url": "https://www.phoronix.com/news/Sculpt-OS-26.10",
-        "source": "Phoronix",
-        "summary": "Sculpt OS as the general purpose operating system project born out of the Genode initiative is now using the project's own microkernel rather than a third-party microkernel...",
+        "title": "Japan Faces Growing Cyberattack Crisis as AI Tools Help Hackers Target Businesses and Government",
+        "date": "Fri, 30 Oct 2026 15:13:24 +0000",
+        "url": "https://gbhackers.com/japan-ai-cyberattacks/",
+        "source": "GBHackers",
+        "summary": "Japan is dealing with an intense wave of AI-assisted intrusions that has exposed weaknesses in its corporate and public-sector defenses. Dozens of incidents, from brokerages to delivery firms, have ma",
         "cve": []
     },
     {
-        "title": "Wine 11.21 Released With Better WoW64 OpenGL Performance",
-        "date": "Fri, 30 Oct 2026 20:29:01 -0400",
-        "url": "https://www.phoronix.com/news/Wine-11.21-Released",
-        "source": "Phoronix",
-        "summary": "Wine 11.21 is out as the newest bi-weekly development release of Wine and as we near Wine 12.0 stable release happenings getting underway in about one month with the official v12.0 release expected ea",
+        "title": "Hackers Target Asian Governments With New NetamLoader Malware Hidden in Windows Update Files",
+        "date": "Fri, 30 Oct 2026 15:02:50 +0000",
+        "url": "https://gbhackers.com/netamloader-malware/",
+        "source": "GBHackers",
+        "summary": "Kaspersky researchers have uncovered NetamLoader, a .NET loading framework built on XAML markup. It appears to be a supply-chain attack on a customized Windows build used only by Asian government bodi",
         "cve": []
     }
 ]
