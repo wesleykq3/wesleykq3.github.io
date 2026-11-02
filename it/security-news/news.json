@@ -1,5 +1,13 @@
 [
     {
+        "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+        "date": "Sun, 01 Nov 2026 14:57:53 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+        "source": "BleepingComputer",
+        "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record",
+        "cve": []
+    },
+    {
         "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
         "date": "Sun, 01 Nov 2026 10:11:21 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
         "source": "BleepingComputer",
         "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
-        "cve": []
-    },
-    {
-        "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-        "date": "Fri, 30 Oct 2026 10:36:54 -0400",
-        "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-        "source": "BleepingComputer",
-        "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to mal",
         "cve": []
     },
     {
@@ -240,6 +240,22 @@
         "cve": []
     },
     {
+        "title": "Steam On Linux Just Under 4% For October 2026",
+        "date": "Sun, 01 Nov 2026 20:47:46 -0500",
+        "url": "https://www.phoronix.com/news/Steam-Survey-October-2026",
+        "source": "Phoronix",
+        "summary": "Valve just published their Steam Survey results for October and point to a small uptick in Linux gaming use on a relative basis...",
+        "cve": []
+    },
+    {
+        "title": "Linux 7.4-rc1 Released With Nice Performance Improvements, AMD Ryzen Zen 6 Preparations & AMDGPU HDMI 2.1 Default",
+        "date": "Sun, 01 Nov 2026 16:51:34 -0500",
+        "url": "https://www.phoronix.com/news/Linux-7.4-rc1",
+        "source": "Phoronix",
+        "summary": "Even with Linus Torvalds having been on holiday, Linux 7.4-rc1 is out today on-schedule for capping off the Linux 7.4 merge window...",
+        "cve": []
+    },
+    {
         "title": "Kwi Being Developed As New KDE Terminal Emulator With 3x To 35x Performance",
         "date": "Sun, 01 Nov 2026 08:41:39 -0500",
         "url": "https://www.phoronix.com/news/KDE-Kwi-Terminal-Emulator",
@@ -301,22 +317,6 @@
         "url": "https://www.phoronix.com/news/OpenShot-4.1-Released",
         "source": "Phoronix",
         "summary": "OpenShot is closing out the month of October by releasing OpenShot 4.1 as the latest major feature release for this useful open-source video editing solution...",
-        "cve": []
-    },
-    {
-        "title": "Enlightenment 0.28 Released With Many Improvements",
-        "date": "Sat, 31 Oct 2026 10:46:26 -0400",
-        "url": "https://www.phoronix.com/news/Enlightenment-0.28",
-        "source": "Phoronix",
-        "summary": "Enlightenment 0.27 released at the beginning of 2025 and since then there's been no major feature update, falling off their roughly 12 month release cadence. But out this Halloween is Enlightenment 0.",
-        "cve": []
-    },
-    {
-        "title": "Linux Mint Developing New Apps For Terminal & System Monitoring",
-        "date": "Sat, 31 Oct 2026 10:36:11 -0400",
-        "url": "https://www.phoronix.com/news/Linux-Mint-October-2026",
-        "source": "Phoronix",
-        "summary": "Linux Mint is out with their October 2026 status report to outline various initiatives they have underway in their lead-up to the Linux Mint 27 stable release happening on/around Christmas...",
         "cve": []
     }
 ]
