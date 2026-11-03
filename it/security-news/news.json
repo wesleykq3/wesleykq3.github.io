@@ -1,5 +1,13 @@
 [
     {
+        "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+        "date": "Mon, 02 Nov 2026 16:40:14 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+        "source": "BleepingComputer",
+        "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+        "cve": []
+    },
+    {
         "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
         "date": "Mon, 02 Nov 2026 14:00:45 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
         "source": "BleepingComputer",
         "summary": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
-        "cve": []
-    },
-    {
-        "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-        "date": "Sun, 01 Nov 2026 14:57:53 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
-        "source": "BleepingComputer",
-        "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record",
         "cve": []
     },
     {
@@ -160,6 +160,22 @@
         "cve": []
     },
     {
+        "title": "Hackers Use ARTEX AI to Breach WorkOS and Access Customer Slack Conversations",
+        "date": "Tue, 03 Nov 2026 03:43:36 +0000",
+        "url": "https://cybersecuritynews.com/workos-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "WorkOS has confirmed unauthorized access to an internal sales application, exposing customer contact information and records of business conversations. The company detected the incident on October 30,",
+        "cve": []
+    },
+    {
+        "title": "Google Dismantles 1.3 Million Device XCPE Botnet, Bans Android TV Maker Over Preinstalled Malware",
+        "date": "Tue, 03 Nov 2026 02:24:38 +0000",
+        "url": "https://cybersecuritynews.com/google-dismantles-xcpe-botnet/",
+        "source": "CyberSecurityNews",
+        "summary": "Google and industry partners have dismantled the XCPE botnet, which enrolled more than 1.3 million set-top boxes through preinstalled malware. In a November 2 report, Google linked the operation with ",
+        "cve": []
+    },
+    {
         "title": "Mercado Bitcoin Suffers Cyberattack as Researchers Flag $40 Million in Suspicious Crypto Transfers",
         "date": "Mon, 02 Nov 2026 17:54:22 +0000",
         "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
@@ -224,19 +240,11 @@
         "cve": []
     },
     {
-        "title": "Hackers Impersonate ChatGPT, Claude, and Perplexity AI Bots to Hunt for Passwords and API Keys",
-        "date": "Mon, 02 Nov 2026 11:01:28 +0000",
-        "url": "https://cybersecuritynews.com/hackers-impersonate-ai-bots/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are posing as trusted artificial intelligence bots to search websites for passwords, API keys, and cloud credentials. The campaign uses the names of ChatGPT, Claude, Perplexity, and other AI s",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use CyberStrikeAI Agents to Automate Windows Domain Takeovers and Credential Theft",
-        "date": "Mon, 02 Nov 2026 10:34:24 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-cyberstrikeai-agents-2/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are now using an AI-driven command framework called CyberStrikeAI to break into Windows networks and take over entire domains. Education organizations in Africa and Latin America were among th",
+        "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+        "date": "Tue, 03 Nov 2026 02:24:31 +0000",
+        "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+        "source": "krebsonsecurity",
+        "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Int",
         "cve": []
     },
     {
@@ -309,14 +317,6 @@
         "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
         "source": "krebsonsecurity",
         "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up wit",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-        "date": "Tue, 08 Sep 2026 21:44:22 +0000",
-        "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-        "source": "krebsonsecurity",
-        "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial inte",
         "cve": []
     },
     {
