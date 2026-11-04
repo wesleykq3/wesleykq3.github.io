@@ -1,5 +1,69 @@
 [
     {
+        "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+        "date": "Wed, 04 Nov 2026 13:02:56 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+        "source": "BleepingComputer",
+        "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blo",
+        "cve": []
+    },
+    {
+        "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+        "date": "Wed, 04 Nov 2026 11:58:46 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+        "source": "BleepingComputer",
+        "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and ",
+        "cve": []
+    },
+    {
+        "title": "mSecure password manager hack prompts password reset warnings",
+        "date": "Wed, 04 Nov 2026 11:00:18 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+        "source": "BleepingComputer",
+        "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly expos",
+        "cve": []
+    },
+    {
+        "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+        "date": "Wed, 04 Nov 2026 10:00:10 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+        "source": "BleepingComputer",
+        "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation Cloud",
+        "cve": []
+    },
+    {
+        "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+        "date": "Wed, 04 Nov 2026 09:42:25 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+        "source": "BleepingComputer",
+        "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
+        "cve": []
+    },
+    {
+        "title": "US charges two Canadians accused of hacking US universities",
+        "date": "Wed, 04 Nov 2026 08:13:20 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+        "source": "BleepingComputer",
+        "summary": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
+        "cve": []
+    },
+    {
+        "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+        "date": "Wed, 04 Nov 2026 07:11:05 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...",
+        "cve": []
+    },
+    {
+        "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+        "date": "Wed, 04 Nov 2026 04:39:54 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+        "source": "BleepingComputer",
+        "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
+        "cve": []
+    },
+    {
         "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
         "date": "Tue, 03 Nov 2026 17:18:50 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
@@ -16,147 +80,163 @@
         "cve": []
     },
     {
-        "title": "Binance says fake job interview led to $6.3 billion crypto heist",
-        "date": "Tue, 03 Nov 2026 15:05:50 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
-        "source": "BleepingComputer",
-        "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure",
-        "cve": []
-    },
-    {
-        "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-        "date": "Tue, 03 Nov 2026 13:51:04 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-        "source": "BleepingComputer",
-        "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
-        "cve": []
-    },
-    {
-        "title": "Barracuda warns of critical flaws allowing root access to devices",
-        "date": "Tue, 03 Nov 2026 10:06:16 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-        "source": "BleepingComputer",
-        "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-        "cve": []
-    },
-    {
-        "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-        "date": "Tue, 03 Nov 2026 10:00:10 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
-        "source": "BleepingComputer",
-        "summary": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC ro",
-        "cve": []
-    },
-    {
-        "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-        "date": "Tue, 03 Nov 2026 09:00:00 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-        "source": "BleepingComputer",
-        "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-        "cve": []
-    },
-    {
-        "title": "Police seizes over 100 servers in investment scam crackdown",
-        "date": "Tue, 03 Nov 2026 08:33:49 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-        "source": "BleepingComputer",
-        "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to crimi",
-        "cve": []
-    },
-    {
-        "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-        "date": "Tue, 03 Nov 2026 07:05:52 -0500",
-        "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
-        "source": "BleepingComputer",
-        "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
-        "cve": []
-    },
-    {
-        "title": "Harvard University data breach exposed info of 851,000 accounts",
-        "date": "Tue, 03 Nov 2026 05:53:25 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
-        "source": "BleepingComputer",
-        "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification servic",
-        "cve": []
-    },
-    {
-        "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-        "date": "Wed, 04 Nov 2026 00:16:38 +0530",
-        "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+        "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+        "date": "Wed, 04 Nov 2026 22:30:46 +0530",
+        "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
         "source": "The Hacker News",
-        "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA)",
+        "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according",
         "cve": []
     },
     {
-        "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-        "date": "Tue, 03 Nov 2026 23:46:19 +0530",
-        "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+        "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+        "date": "Wed, 04 Nov 2026 22:30:38 +0530",
+        "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
         "source": "The Hacker News",
-        "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.\n\nThe in",
+        "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.",
         "cve": []
     },
     {
-        "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-        "date": "Tue, 03 Nov 2026 22:25:58 +0530",
-        "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+        "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+        "date": "Wed, 04 Nov 2026 21:36:43 +0530",
+        "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
         "source": "The Hacker News",
-        "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involve",
+        "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for",
         "cve": []
     },
     {
-        "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-        "date": "Tue, 03 Nov 2026 21:29:19 +0530",
-        "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+        "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+        "date": "Wed, 04 Nov 2026 19:57:52 +0530",
+        "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
         "source": "The Hacker News",
-        "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible ",
+        "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain a",
         "cve": []
     },
     {
-        "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-        "date": "Tue, 03 Nov 2026 21:11:53 +0530",
-        "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+        "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+        "date": "Wed, 04 Nov 2026 17:37:04 +0530",
+        "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
         "source": "The Hacker News",
-        "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\n\nThe tactic is called",
+        "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rai",
         "cve": []
     },
     {
-        "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-        "date": "Tue, 03 Nov 2026 20:46:32 +0530",
-        "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+        "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+        "date": "Wed, 04 Nov 2026 17:16:27 +0530",
+        "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
         "source": "The Hacker News",
-        "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers.\n\nThe script installed a backdoor and collected p",
+        "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full perm",
         "cve": []
     },
     {
-        "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-        "date": "Tue, 03 Nov 2026 16:53:53 +0530",
-        "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+        "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+        "date": "Wed, 04 Nov 2026 17:04:20 +0530",
+        "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
         "source": "The Hacker News",
-        "summary": "Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest lo",
+        "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway ",
         "cve": []
     },
     {
-        "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-        "date": "Tue, 03 Nov 2026 16:48:20 +0530",
-        "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+        "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+        "date": "Wed, 04 Nov 2026 16:54:31 +0530",
+        "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
         "source": "The Hacker News",
-        "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk e",
+        "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Meth",
         "cve": []
     },
     {
-        "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-        "date": "Tue, 03 Nov 2026 16:30:45 +0530",
-        "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+        "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+        "date": "Wed, 04 Nov 2026 13:47:11 +0530",
+        "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
         "source": "The Hacker News",
-        "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations.\n\n\"Active since at least February 2025, the group ",
+        "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of ",
         "cve": []
     },
     {
-        "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-        "date": "Tue, 03 Nov 2026 14:01:48 +0530",
-        "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+        "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+        "date": "Wed, 04 Nov 2026 13:16:15 +0530",
+        "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
         "source": "The Hacker News",
-        "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen fr",
+        "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its&nbsp;November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android ",
+        "cve": []
+    },
+    {
+        "title": "SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers",
+        "date": "Wed, 04 Nov 2026 18:43:01 +0000",
+        "url": "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers/",
+        "source": "CyberSecurityNews",
+        "summary": "A phishing kit called SkyW4lker (also branded SkyW4lker x365 Sentinel) is quietly taking over Microsoft 365 accounts without ever stealing a password. Instead of cracking logins or breaking MFA, it tr",
+        "cve": []
+    },
+    {
+        "title": "6 Challenges SOC Leaders Should Turn into Priorities in 2027",
+        "date": "Wed, 04 Nov 2026 18:07:24 +0000",
+        "url": "https://cybersecuritynews.com/6-challenges-soc-leaders-should-turn-into-priorities-in-2027/",
+        "source": "CyberSecurityNews",
+        "summary": "Security teams face mounting pressure to keep pace with increasingly complex threats while working within tight budgets and persistent staffing constraints. As attack techniques evolve and alert volum",
+        "cve": []
+    },
+    {
+        "title": "Critical Ruby on Rails Flaw Could Let Hackers Steal Server Secrets Through Malicious Image Uploads",
+        "date": "Wed, 04 Nov 2026 17:01:17 +0000",
+        "url": "https://cybersecuritynews.com/critical-ruby-on-rails-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical flaw in Ruby on Rails Active Storage lets an unauthenticated user upload a crafted image and make the server write files. If uploads use the Disk service, the same upload can make the serve",
+        "cve": []
+    },
+    {
+        "title": "Debian and Ubuntu APT Flaw Lets Hackers Hijack Software Updates and Execute Code as Root",
+        "date": "Wed, 04 Nov 2026 16:36:54 +0000",
+        "url": "https://cybersecuritynews.com/debian-apt-flaw-lets-hackers-hijack-updates/",
+        "source": "CyberSecurityNews",
+        "summary": "A newly disclosed bug in APT, the package manager behind Debian and Ubuntu, can let a network spy swap a trusted software package for a bad one. The flaw is tracked as CVE-2026-109518 and can end in c",
+        "cve": []
+    },
+    {
+        "title": "Gorbag Hackers Exploit WinRAR Vulnerability to Steal Credentials From Ukrainian Government Agencies",
+        "date": "Wed, 04 Nov 2026 14:09:36 +0000",
+        "url": "https://cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Russia-aligned hackers tracked as Gorbag are exploiting a WinRAR vulnerability to steal browser credentials, VPN configurations, and sensitive documents from Ukrainian organizations. Active since at l",
+        "cve": []
+    },
+    {
+        "title": "The Sandbox Fights Back: Joe Security Launches Adaptive Detonation",
+        "date": "Wed, 04 Nov 2026 13:56:40 +0000",
+        "url": "https://cybersecuritynews.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/",
+        "source": "CyberSecurityNews",
+        "summary": "Reinach, Switzerland, November 4th, 2026, CyberNewswire AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions. Joe Security&#8216;s Adapt",
+        "cve": []
+    },
+    {
+        "title": "Scammers Use Microsoft Azure to Host Fake Windows Security Alerts Seen at 80 Organizations",
+        "date": "Wed, 04 Nov 2026 13:52:13 +0000",
+        "url": "https://cybersecuritynews.com/scammers-use-microsoft-azure/",
+        "source": "CyberSecurityNews",
+        "summary": "Scammers are abusing Microsoft Azure to host fake Windows security alerts that pressure users into calling fraudulent support numbers. Between March and October 2026, the same fake Microsoft support k",
+        "cve": []
+    },
+    {
+        "title": "Critical SolarWinds Dameware Flaw Could Allow Attackers to Compromise Remote Systems",
+        "date": "Wed, 04 Nov 2026 13:30:17 +0000",
+        "url": "https://cybersecuritynews.com/critical-solarwinds-dameware-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "SolarWinds has warned about a critical command injection flaw in its Dameware remote support software. It is tracked as CVE-2026-28336 and carries a severity score of 9.9 out of 10. The bug could let ",
+        "cve": []
+    },
+    {
+        "title": "French Bank Crédit Mutuel Arkéa Confirms Cyberattack Amid Reports of $133 Million Theft",
+        "date": "Wed, 04 Nov 2026 13:29:39 +0000",
+        "url": "https://cybersecuritynews.com/credit-mutuel-arkea-confirms-cyberattack/",
+        "source": "CyberSecurityNews",
+        "summary": "French banking group Crédit Mutuel Arkéa has confirmed a cyberattack that enabled fraudulent transactions, following reports linking the institution to cryptocurrency theft exceeding $133 million. The",
+        "cve": []
+    },
+    {
+        "title": "Critical Barracuda Security Flaws Could Let Hackers Bypass Authentication and Gain Root Access",
+        "date": "Wed, 04 Nov 2026 13:07:41 +0000",
+        "url": "https://cybersecuritynews.com/critical-barracuda-security-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "Barracuda has disclosed two security vulnerabilities that could allow attackers to bypass authorization controls and gain root access to affected appliances when exploited together. The flaws affect s",
         "cve": []
     },
     {
@@ -240,83 +320,85 @@
         "cve": []
     },
     {
-        "title": "Domicile Desktop Brings Web Technologies To Building Wayland Desktops",
-        "date": "Tue, 03 Nov 2026 20:32:53 -0500",
-        "url": "https://www.phoronix.com/news/Domicile-Desktop-Wayland",
-        "source": "Phoronix",
-        "summary": "Domicile is a new Wayland compositor that leverages Chromium for allowing custom Linux desktops to be built using HTML, CSS, and JavaScript/TypeScript...",
+        "title": "The Sandbox Fights Back: Joe Security Launches Adaptive Detonation",
+        "date": "Wed, 04 Nov 2026 13:57:34 +0000",
+        "url": "https://gbhackers.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/",
+        "source": "GBHackers",
+        "summary": "Reinach, Switzerland, November 4th, 2026, CyberNewswire AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions. Joe Security&#8216;s Adapt",
         "cve": []
     },
     {
-        "title": "GIMP 3.2.8 Released With Many Refinements, Numerous Security Fixes Due To AI Reports",
-        "date": "Tue, 03 Nov 2026 17:21:50 -0500",
-        "url": "https://www.phoronix.com/news/GIMP-3.2.8-Released",
-        "source": "Phoronix",
-        "summary": "GIMP 3.2.8 is out today as the newest stable release of this open-source image editing application that's most popular on the Linux desktop...",
+        "title": "Russia-Aligned Gorbag APT Exploits WinRAR CVE-2025-8088 to Deploy BeautyStealer Infostealer",
+        "date": "Wed, 04 Nov 2026 13:08:20 +0000",
+        "url": "https://gbhackers.com/gorbag-apt-campaign/",
+        "source": "GBHackers",
+        "summary": "A targeted cyberespionage campaign by Gorbag, a Russia-aligned threat actor exploiting WinRAR vulnerability CVE-2025-8088 to deploy BeautyStealer against Ukrainian organizations. Active since at least",
+        "cve": [
+            "CVE-2025-8088"
+        ]
+    },
+    {
+        "title": "Russian Hackers Create Fake US and UK Websites to Target Visitors With Mobile Exploits",
+        "date": "Wed, 04 Nov 2026 12:45:22 +0000",
+        "url": "https://gbhackers.com/fake-us-and-uk-websites/",
+        "source": "GBHackers",
+        "summary": "A large-scale watering hole campaign that it assesses, with moderate to high confidence, is the work of APT29. APT29 is also tracked as Midnight Blizzard, Cozy Bear and The Dukes, and is widely linked",
         "cve": []
     },
     {
-        "title": "NetBSD 11.1 Released With Security Fixes & Other Improvements",
-        "date": "Tue, 03 Nov 2026 17:09:52 -0500",
-        "url": "https://www.phoronix.com/news/NetBSD-11.1-Released",
-        "source": "Phoronix",
-        "summary": "Following the release of NetBSD 11.0 in August, NetBSD 11.1 is out today with a collection of security fixes and other improvements...",
+        "title": "Google Patches Critical Android RCE Flaws That Let Attackers Execute Code Without User Interaction",
+        "date": "Wed, 04 Nov 2026 12:14:47 +0000",
+        "url": "https://gbhackers.com/google-patches-critical-android-rce-flaws/",
+        "source": "GBHackers",
+        "summary": "Google released its November 2026 Android Security Bulletin, which addresses critical vulnerabilities that could allow remote code execution without user interaction or additional execution privileges",
         "cve": []
     },
     {
-        "title": "Linux 7.4 Features Steam Frame VR Headset, More AMD Zen 6 Enablement & Initial Apple M4 / A18 Pro Bring-Up",
-        "date": "Tue, 03 Nov 2026 11:42:22 -0500",
-        "url": "https://www.phoronix.com/review/linux-74-features",
-        "source": "Phoronix",
-        "summary": "The Linux 7.4 kernel is hopefully going to be this year's Long Term Support (LTS) kernel version and is coming jam-packed with new features and changes.",
+        "title": "CISA Warns of Active Attacks Exploiting WordPress Core Code Execution Vulnerability",
+        "date": "Wed, 04 Nov 2026 11:58:47 +0000",
+        "url": "https://gbhackers.com/cisa-warns-of-wordpress-core-code-execution-vulnerability/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has included a WordPress Core vulnerability in its Known Exploited Vulnerabilities catalog due to evidence of active exploitation. This",
         "cve": []
     },
     {
-        "title": "RadeonSI & RADV Now Enabling D16 Support For GFX8 Era GPUs",
-        "date": "Tue, 03 Nov 2026 10:18:18 -0500",
-        "url": "https://www.phoronix.com/news/RadeonSI-RADV-GFX8-D16",
-        "source": "Phoronix",
-        "summary": "Thanks to the latest work by Georg Lehmann of Valve's Linux graphics team, the AMD GFX8 generation of GPUs that stretch from GCN Volcanic Islands through Polaris GPUs is still seeing improved Linux su",
+        "title": "Hackers Use Stolen Microsoft Entra ID App Credentials to Breach 27 Organizations and Steal Sensitive Data",
+        "date": "Wed, 04 Nov 2026 11:49:41 +0000",
+        "url": "https://gbhackers.com/hackers-use-stolen-microsoft-entra-id-app-credentials/",
+        "source": "GBHackers",
+        "summary": "Hackers are exploiting stolen Microsoft Entra ID application credentials to infiltrate Microsoft 365 and Azure environments, impacting 27 organizations via managed service providers (MSPs) and their d",
         "cve": []
     },
     {
-        "title": "Fedora 45 Released With Many Leading-Edge Linux Innovations",
-        "date": "Tue, 03 Nov 2026 09:32:09 -0500",
-        "url": "https://www.phoronix.com/news/Fedora-45-Released",
-        "source": "Phoronix",
-        "summary": "After challenged by two release delays, Fedora 45 is officially out as the latest six-month update to this leading Linux distribution...",
+        "title": "Cloudflare Launches Zero Wire to Track Critical Vulnerabilities and Active Exploitation Across the Internet",
+        "date": "Wed, 04 Nov 2026 11:37:15 +0000",
+        "url": "https://gbhackers.com/cloudflare-launches-zero-wire-to-track-critical-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Cloudflare launched Zero Wire, a public vulnerability intelligence hub that helps security teams investigate critical internet threats, assess exploitation evidence, and prioritize remediation efforts",
         "cve": []
     },
     {
-        "title": "Linux Preparing Faster FAT32 Performance In 2027 With Up To 4.06x Improvement",
-        "date": "Tue, 03 Nov 2026 08:23:29 -0500",
-        "url": "https://www.phoronix.com/news/Faster-FAT32-Linux-In-2027",
-        "source": "Phoronix",
-        "summary": "In addition to some significant performance improvements for FAT32 in Linux 7.4, more performance improvements are on the way. For what will likely land in Linux 7.5 is up to a 4.06x improvement demon",
+        "title": "3AM Ransomware Hackers Use AI-Assisted Attacks to Breach UK Schools and Spread Across Windows Domains",
+        "date": "Wed, 04 Nov 2026 11:28:31 +0000",
+        "url": "https://gbhackers.com/3am-ransomware-hackers-use-ai-assisted-attacks-to-breach-uk-schools/",
+        "source": "GBHackers",
+        "summary": "A ransomware affiliate known as 3AM compromised a UK school network using a mix of traditional intrusion techniques and patterns suggesting the involvement of artificial intelligence. According to Bit",
         "cve": []
     },
     {
-        "title": "openSUSE Leap 16.1 Released With Immutable Sever Integration",
-        "date": "Tue, 03 Nov 2026 07:57:44 -0500",
-        "url": "https://www.phoronix.com/news/openSUSE-Leap-16.1",
-        "source": "Phoronix",
-        "summary": "The openSUSE Leap 16.1 Linux distribution is out today and built from the same sources as SUSE Linux Enterprise Server 16.1...",
+        "title": "Fake Microsoft Support Scams Spread Through Online Ads as Researchers Uncover Organized Fraud Network",
+        "date": "Wed, 04 Nov 2026 10:57:44 +0000",
+        "url": "https://gbhackers.com/fake-microsoft-support-scams/",
+        "source": "GBHackers",
+        "summary": "An organized fraud operation using paid advertisements, Microsoft Azure hosting, and centrally managed telephone numbers to distribute counterfeit Microsoft support pages. The investigation links one ",
         "cve": []
     },
     {
-        "title": "The Linux Kernel Preparing To Remove The Last Of Its MMX Optimized Code",
-        "date": "Tue, 03 Nov 2026 06:18:16 -0500",
-        "url": "https://www.phoronix.com/news/Linux-Dropping-Last-MMX-Opt",
-        "source": "Phoronix",
-        "summary": "For what will likely be merged to the Linux 7.5 kernel, the mainline kernel is preparing to drop its last optimization its been carrying for far outdated MMX processors. This affects the likes of Inte",
-        "cve": []
-    },
-    {
-        "title": "Intel Compute Runtime Continues Prepping For GPU D Series, OpenCL LEO for Nova Lake P",
-        "date": "Tue, 03 Nov 2026 05:52:14 -0500",
-        "url": "https://www.phoronix.com/news/Intel-Compute-26.40.40196.8",
-        "source": "Phoronix",
-        "summary": "Released today was the Intel Compute Runtime 26.40.40196.8 as the newest version of their open-source GPU compute stack for both Windows and Linux systems...",
+        "title": "Hackers Abuse LuaJIT and Windows Process Injection to Hide XLoader Credential-Stealing Malware",
+        "date": "Wed, 04 Nov 2026 10:28:16 +0000",
+        "url": "https://gbhackers.com/xloader-malware-attack/",
+        "source": "GBHackers",
+        "summary": "A new XLoader infection chain. It hides the credential stealer inside an embedded LuaJIT interpreter. It moves it into another Windows process through shared-section injection. The campaign uses busin",
         "cve": []
     }
 ]
