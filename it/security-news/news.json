@@ -1,5 +1,45 @@
 [
     {
+        "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+        "date": "Thu, 05 Nov 2026 12:45:29 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+        "source": "BleepingComputer",
+        "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, si",
+        "cve": []
+    },
+    {
+        "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+        "date": "Thu, 05 Nov 2026 11:24:26 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+        "source": "BleepingComputer",
+        "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+        "cve": []
+    },
+    {
+        "title": "DigiCert data breach exposes customer information, identity documents",
+        "date": "Thu, 05 Nov 2026 11:12:46 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+        "source": "BleepingComputer",
+        "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity docu",
+        "cve": []
+    },
+    {
+        "title": "Closing the Identity Gap at the Service Desk",
+        "date": "Thu, 05 Nov 2026 10:00:10 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+        "source": "BleepingComputer",
+        "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional ide",
+        "cve": []
+    },
+    {
+        "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+        "date": "Thu, 05 Nov 2026 04:18:29 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+        "source": "BleepingComputer",
+        "summary": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
+        "cve": []
+    },
+    {
         "title": "Vercel rolls out new protection against stolen session cookie attacks",
         "date": "Wed, 04 Nov 2026 16:31:18 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
@@ -40,43 +80,67 @@
         "cve": []
     },
     {
-        "title": "mSecure password manager hack prompts password reset warnings",
-        "date": "Wed, 04 Nov 2026 11:00:18 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-        "source": "BleepingComputer",
-        "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly expos",
+        "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+        "date": "Thu, 05 Nov 2026 20:11:10 +0530",
+        "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+        "source": "The Hacker News",
+        "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file ",
         "cve": []
     },
     {
-        "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-        "date": "Wed, 04 Nov 2026 10:00:10 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-        "source": "BleepingComputer",
-        "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation Cloud",
+        "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+        "date": "Thu, 05 Nov 2026 17:55:00 +0530",
+        "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+        "source": "The Hacker News",
+        "summary": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then de",
         "cve": []
     },
     {
-        "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-        "date": "Wed, 04 Nov 2026 09:42:25 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-        "source": "BleepingComputer",
-        "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
+        "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+        "date": "Thu, 05 Nov 2026 17:38:54 +0530",
+        "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+        "source": "The Hacker News",
+        "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.",
         "cve": []
     },
     {
-        "title": "US charges two Canadians accused of hacking US universities",
-        "date": "Wed, 04 Nov 2026 08:13:20 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-        "source": "BleepingComputer",
-        "summary": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
+        "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+        "date": "Thu, 05 Nov 2026 15:36:19 +0530",
+        "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+        "source": "The Hacker News",
+        "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enter",
         "cve": []
     },
     {
-        "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-        "date": "Wed, 04 Nov 2026 07:11:05 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...",
+        "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+        "date": "Thu, 05 Nov 2026 14:43:28 +0530",
+        "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+        "source": "The Hacker News",
+        "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.\n\nThe change specifically applies to scena",
+        "cve": []
+    },
+    {
+        "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+        "date": "Thu, 05 Nov 2026 14:12:03 +0530",
+        "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+        "source": "The Hacker News",
+        "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Fin",
+        "cve": []
+    },
+    {
+        "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+        "date": "Thu, 05 Nov 2026 12:36:33 +0530",
+        "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+        "source": "The Hacker News",
+        "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.\n\nThe exploit lets anyone",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+        "date": "Thu, 05 Nov 2026 10:47:04 +0530",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (K",
         "cve": []
     },
     {
@@ -96,147 +160,91 @@
         "cve": []
     },
     {
-        "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-        "date": "Wed, 04 Nov 2026 21:36:43 +0530",
-        "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for",
-        "cve": []
-    },
-    {
-        "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-        "date": "Wed, 04 Nov 2026 19:57:52 +0530",
-        "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-        "source": "The Hacker News",
-        "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain a",
-        "cve": []
-    },
-    {
-        "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-        "date": "Wed, 04 Nov 2026 17:37:04 +0530",
-        "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-        "source": "The Hacker News",
-        "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rai",
-        "cve": []
-    },
-    {
-        "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-        "date": "Wed, 04 Nov 2026 17:16:27 +0530",
-        "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-        "source": "The Hacker News",
-        "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full perm",
-        "cve": []
-    },
-    {
-        "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-        "date": "Wed, 04 Nov 2026 17:04:20 +0530",
-        "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-        "source": "The Hacker News",
-        "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway ",
-        "cve": []
-    },
-    {
-        "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-        "date": "Wed, 04 Nov 2026 16:54:31 +0530",
-        "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-        "source": "The Hacker News",
-        "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Meth",
-        "cve": []
-    },
-    {
-        "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-        "date": "Wed, 04 Nov 2026 13:47:11 +0530",
-        "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-        "source": "The Hacker News",
-        "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of ",
-        "cve": []
-    },
-    {
-        "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-        "date": "Wed, 04 Nov 2026 13:16:15 +0530",
-        "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-        "source": "The Hacker News",
-        "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its&nbsp;November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android ",
-        "cve": []
-    },
-    {
-        "title": "DreamHost Confirms Data Breach – Hackers Stole Customer Credentials and Accessed Emails",
-        "date": "Thu, 05 Nov 2026 03:00:40 +0000",
-        "url": "https://cybersecuritynews.com/dreamhost-confirms-data-breach/",
+        "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
+        "date": "Thu, 05 Nov 2026 16:56:19 +0000",
+        "url": "https://cybersecuritynews.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
         "source": "CyberSecurityNews",
-        "summary": "DreamHost has confirmed a breach that exposed customer login details after hackers exploited its web-based File Manager. The hosting provider said attackers obtained FTP/SFTP usernames and passwords, ",
+        "summary": "Melbourne, Florida, November 5th, 2026, CyberNewswire OpenMatter Network, a pioneer in decentralized infrastructure for agentic artificial intelligence, is positioning its decentralized computing plat",
         "cve": []
     },
     {
-        "title": "OpenAI Cyber Model Uncovers 948 Linux Kernel Privilege Escalation Vulnerabilities",
-        "date": "Thu, 05 Nov 2026 02:42:57 +0000",
-        "url": "https://cybersecuritynews.com/openai-uncovers-948-linux-kernel-vulnerabilities/",
+        "title": "GhostMap Android Flaw Can Trap Phones in Endless Reboot Loops Without Opening an App",
+        "date": "Thu, 05 Nov 2026 16:11:01 +0000",
+        "url": "https://cybersecuritynews.com/ghostmap-android-vulnerability/",
         "source": "CyberSecurityNews",
-        "summary": "OpenAI says an automated research pipeline found and proved 948 separate Linux kernel privilege escalation flaws in one run. These bugs could let a normal local user gain root access. The run took pla",
+        "summary": "A new Android bug named GhostMap can leave a phone stuck in a crash loop after a user installs a single crafted app. The app does not need to be opened, asks for no permissions, and contains no code. ",
         "cve": []
     },
     {
-        "title": "SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers",
-        "date": "Wed, 04 Nov 2026 18:43:01 +0000",
-        "url": "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers/",
+        "title": "Hackers Turn Popular Chinese Keyboard Software Into a Backdoor for Cyberespionage Attacks",
+        "date": "Thu, 05 Nov 2026 14:59:57 +0000",
+        "url": "https://cybersecuritynews.com/chinese-keyboard-software/",
         "source": "CyberSecurityNews",
-        "summary": "A phishing kit called SkyW4lker (also branded SkyW4lker x365 Sentinel) is quietly taking over Microsoft 365 accounts without ever stealing a password. Instead of cracking logins or breaking MFA, it tr",
+        "summary": "A China-aligned hacking group is abusing Sogou Input Method, one of the most popular Chinese typing tools, to secretly install a backdoor called DarkVigil on Windows computers. The group is tracked as",
         "cve": []
     },
     {
-        "title": "6 Challenges SOC Leaders Should Turn into Priorities in 2027",
-        "date": "Wed, 04 Nov 2026 18:07:24 +0000",
-        "url": "https://cybersecuritynews.com/6-challenges-soc-leaders-should-turn-into-priorities-in-2027/",
+        "title": "OpenSSH Flaw Could Let Attackers Bypass Password Authentication on Alpine Linux Servers",
+        "date": "Thu, 05 Nov 2026 14:58:40 +0000",
+        "url": "https://cybersecuritynews.com/openssh-flaw-bypass-password-authentication/",
         "source": "CyberSecurityNews",
-        "summary": "Security teams face mounting pressure to keep pace with increasingly complex threats while working within tight budgets and persistent staffing constraints. As attack techniques evolve and alert volum",
+        "summary": "A critical OpenSSH flaw could let remote attackers bypass password authentication on affected Alpine Linux servers, including accounts intended for key-only access. OpenSSH released Portable 10.6p2 on",
         "cve": []
     },
     {
-        "title": "Critical Ruby on Rails Flaw Could Let Hackers Steal Server Secrets Through Malicious Image Uploads",
-        "date": "Wed, 04 Nov 2026 17:01:17 +0000",
-        "url": "https://cybersecuritynews.com/critical-ruby-on-rails-flaw/",
+        "title": "HYFLOCK Ransomware Encrypts Only First 4KB of Larger Files, Leaves Parts of Victims’ Files Accessible",
+        "date": "Thu, 05 Nov 2026 14:08:01 +0000",
+        "url": "https://cybersecuritynews.com/hyflock-ransomware/",
         "source": "CyberSecurityNews",
-        "summary": "A critical flaw in Ruby on Rails Active Storage lets an unauthenticated user upload a crafted image and make the server write files. If uploads use the Disk service, the same upload can make the serve",
+        "summary": "HYFLOCK ransomware has an encryption weakness that leaves parts of larger files readable, giving affected organizations a limited chance to recover data without paying attackers. In the October 17 bui",
         "cve": []
     },
     {
-        "title": "Debian and Ubuntu APT Flaw Lets Hackers Hijack Software Updates and Execute Code as Root",
-        "date": "Wed, 04 Nov 2026 16:36:54 +0000",
-        "url": "https://cybersecuritynews.com/debian-apt-flaw-lets-hackers-hijack-updates/",
+        "title": "Researchers Discover White House Network IP Available for Rent Through 28 Proxy Services",
+        "date": "Thu, 05 Nov 2026 13:31:43 +0000",
+        "url": "https://cybersecuritynews.com/white-house-network-ip-for-rent/",
         "source": "CyberSecurityNews",
-        "summary": "A newly disclosed bug in APT, the package manager behind Debian and Ubuntu, can let a network spy swap a trusted software package for a bad one. The flaw is tracked as CVE-2026-109518 and can end in c",
+        "summary": "Researchers at Layer3 Intel found that 28 residential proxy services rent addresses on the White House network. Anyone with a few dollars could send web traffic through them. The activity ran from Oct",
         "cve": []
     },
     {
-        "title": "Gorbag Hackers Exploit WinRAR Vulnerability to Steal Credentials From Ukrainian Government Agencies",
-        "date": "Wed, 04 Nov 2026 14:09:36 +0000",
-        "url": "https://cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability/",
+        "title": "ARTEX Hackers Expose Their Own Servers, Revealing AI Tools Behind South Korean Bank Breaches",
+        "date": "Thu, 05 Nov 2026 13:11:17 +0000",
+        "url": "https://cybersecuritynews.com/artex-hackers/",
         "source": "CyberSecurityNews",
-        "summary": "Russia-aligned hackers tracked as Gorbag are exploiting a WinRAR vulnerability to steal browser credentials, VPN configurations, and sensitive documents from Ukrainian organizations. Active since at l",
+        "summary": "A hacker&#8217;s own mistake has given researchers a rare look at how AI tools were used to break into South Korean financial firms. The operator left several servers open to the public, and the expos",
         "cve": []
     },
     {
-        "title": "The Sandbox Fights Back: Joe Security Launches Adaptive Detonation",
-        "date": "Wed, 04 Nov 2026 13:56:40 +0000",
-        "url": "https://cybersecuritynews.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/",
+        "title": "Hackers Hide Marsalek Malware in Fake Roblox and Fortnite Cheats to Steal Passwords and Crypto Wallet Data",
+        "date": "Thu, 05 Nov 2026 10:59:30 +0000",
+        "url": "https://cybersecuritynews.com/hackers-hide-marsalek-malware/",
         "source": "CyberSecurityNews",
-        "summary": "Reinach, Switzerland, November 4th, 2026, CyberNewswire AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions. Joe Security&#8216;s Adapt",
+        "summary": "Hackers are hiding a free information stealer called Marsalek inside fake cheats and tools for games such as Roblox, Fortnite, and Counter-Strike 2. The files look like helpful game add-ons. In the ba",
         "cve": []
     },
     {
-        "title": "Scammers Use Microsoft Azure to Host Fake Windows Security Alerts Seen at 80 Organizations",
-        "date": "Wed, 04 Nov 2026 13:52:13 +0000",
-        "url": "https://cybersecuritynews.com/scammers-use-microsoft-azure/",
+        "title": "Tata Motors iRA App Flaws Could Let Hackers Impersonate Car Owners and Access Vehicle Services",
+        "date": "Thu, 05 Nov 2026 10:41:33 +0000",
+        "url": "https://cybersecuritynews.com/tata-motors-ira-app-flaws/",
         "source": "CyberSecurityNews",
-        "summary": "Scammers are abusing Microsoft Azure to host fake Windows security alerts that pressure users into calling fraudulent support numbers. Between March and October 2026, the same fake Microsoft support k",
+        "summary": "Tata Motors’ iRA 2.0 and iRA.ev mobile apps contain four security flaws that could let attackers steal credentials, impersonate car owners, and access vehicle services. India’s Computer Emergency Resp",
         "cve": []
     },
     {
-        "title": "Critical SolarWinds Dameware Flaw Could Allow Attackers to Compromise Remote Systems",
-        "date": "Wed, 04 Nov 2026 13:30:17 +0000",
-        "url": "https://cybersecuritynews.com/critical-solarwinds-dameware-flaw/",
+        "title": "One Hacker Uses 12 AI Agents to Breach Taiwan’s Emergency Services and Steal Sensitive Data",
+        "date": "Thu, 05 Nov 2026 08:56:26 +0000",
+        "url": "https://cybersecuritynews.com/one-hacker-uses-12-ai-agents/",
         "source": "CyberSecurityNews",
-        "summary": "SolarWinds has warned about a critical command injection flaw in its Dameware remote support software. It is tracked as CVE-2026-28336 and carries a severity score of 9.9 out of 10. The bug could let ",
+        "summary": "A single operator in Taiwan built a team of 12 AI agents and used it to attack hundreds of organizations in 11 countries. The campaign hit emergency services, banks, universities, and military systems",
+        "cve": []
+    },
+    {
+        "title": "Want to Rent an Internet Address at the White House?",
+        "date": "Thu, 05 Nov 2026 04:36:17 +0000",
+        "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+        "source": "krebsonsecurity",
+        "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts war",
         "cve": []
     },
     {
@@ -312,93 +320,83 @@
         "cve": []
     },
     {
-        "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-        "date": "Wed, 16 Sep 2026 18:14:22 +0000",
-        "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-        "source": "krebsonsecurity",
-        "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up wit",
+        "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
+        "date": "Thu, 05 Nov 2026 16:57:32 +0000",
+        "url": "https://gbhackers.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
+        "source": "GBHackers",
+        "summary": "Melbourne, Florida, November 5th, 2026, CyberNewswire OpenMatter Network, a pioneer in decentralized infrastructure for agentic artificial intelligence, is positioning its decentralized computing plat",
         "cve": []
     },
     {
-        "title": "The Sandbox Fights Back: Joe Security Launches Adaptive Detonation",
-        "date": "Wed, 04 Nov 2026 13:57:34 +0000",
-        "url": "https://gbhackers.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/",
+        "title": "China-Aligned Hackers Hijack Popular Sogou Keyboard Software to Secretly Install DarkVigil Malware",
+        "date": "Thu, 05 Nov 2026 12:03:49 +0000",
+        "url": "https://gbhackers.com/darkvigil-malware-campaign/",
         "source": "GBHackers",
-        "summary": "Reinach, Switzerland, November 4th, 2026, CyberNewswire AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions. Joe Security&#8216;s Adapt",
+        "summary": "A China-aligned espionage group abused the update traffic of Sogou Input Method, one of China&#8217;s most widely used keyboard apps, to quietly install the DarkVigil implant on victims&#8217; machine",
         "cve": []
     },
     {
-        "title": "Russia-Aligned Gorbag APT Exploits WinRAR CVE-2025-8088 to Deploy BeautyStealer Infostealer",
-        "date": "Wed, 04 Nov 2026 13:08:20 +0000",
-        "url": "https://gbhackers.com/gorbag-apt-campaign/",
+        "title": "Apple to Scan Publicly Shared iCloud Photos and Files for Harmful Content Starting With iOS 27.3",
+        "date": "Thu, 05 Nov 2026 11:42:48 +0000",
+        "url": "https://gbhackers.com/apple-to-scan-publicly-shared-icloud-photos-and-files/",
         "source": "GBHackers",
-        "summary": "A targeted cyberespionage campaign by Gorbag, a Russia-aligned threat actor exploiting WinRAR vulnerability CVE-2025-8088 to deploy BeautyStealer against Ukrainian organizations. Active since at least",
-        "cve": [
-            "CVE-2025-8088"
-        ]
-    },
-    {
-        "title": "Russian Hackers Create Fake US and UK Websites to Target Visitors With Mobile Exploits",
-        "date": "Wed, 04 Nov 2026 12:45:22 +0000",
-        "url": "https://gbhackers.com/fake-us-and-uk-websites/",
-        "source": "GBHackers",
-        "summary": "A large-scale watering hole campaign that it assesses, with moderate to high confidence, is the work of APT29. APT29 is also tracked as Midnight Blizzard, Cozy Bear and The Dukes, and is widely linked",
+        "summary": "Apple will start checking iCloud photos and files shared through &#8220;Anyone with the Link&#8221; for harmful content beginning with iOS 17.3. This policy also applies to iPadOS, macOS, and visionOS",
         "cve": []
     },
     {
-        "title": "Google Patches Critical Android RCE Flaws That Let Attackers Execute Code Without User Interaction",
-        "date": "Wed, 04 Nov 2026 12:14:47 +0000",
-        "url": "https://gbhackers.com/google-patches-critical-android-rce-flaws/",
+        "title": "Hackers Develop New HYFLOCK Ransomware That Encrypts Files and Attempts to Block Recovery",
+        "date": "Thu, 05 Nov 2026 11:35:38 +0000",
+        "url": "https://gbhackers.com/hyflock-ransomware/",
         "source": "GBHackers",
-        "summary": "Google released its November 2026 Android Security Bulletin, which addresses critical vulnerabilities that could allow remote code execution without user interaction or additional execution privileges",
+        "summary": "HYFLOCK ransomware operators have developed successive Windows encryptors that lock files, access network shares, and attempt to obstruct recovery, while implementation flaws create sharply different ",
         "cve": []
     },
     {
-        "title": "CISA Warns of Active Attacks Exploiting WordPress Core Code Execution Vulnerability",
-        "date": "Wed, 04 Nov 2026 11:58:47 +0000",
-        "url": "https://gbhackers.com/cisa-warns-of-wordpress-core-code-execution-vulnerability/",
+        "title": "ARTEX Hackers Used Claude Code, DeepSeek, and Grok in Attacks Targeting South Korean Banks",
+        "date": "Thu, 05 Nov 2026 11:14:06 +0000",
+        "url": "https://gbhackers.com/ai-powered-banking/",
         "source": "GBHackers",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has included a WordPress Core vulnerability in its Known Exploited Vulnerabilities catalog due to evidence of active exploitation. This",
+        "summary": "A financially motivated threat actor used ARTEX, Claude Code, and multiple large language models in a campaign targeting South Korean financial organizations. Exposed attacker directories revealed ses",
         "cve": []
     },
     {
-        "title": "Hackers Use Stolen Microsoft Entra ID App Credentials to Breach 27 Organizations and Steal Sensitive Data",
-        "date": "Wed, 04 Nov 2026 11:49:41 +0000",
-        "url": "https://gbhackers.com/hackers-use-stolen-microsoft-entra-id-app-credentials/",
+        "title": "Hackers Spread Marsalek Infostealer Through Fake Game Downloads to Steal Browser Passwords and Cookies",
+        "date": "Thu, 05 Nov 2026 10:05:29 +0000",
+        "url": "https://gbhackers.com/marsalek-infostealer/",
         "source": "GBHackers",
-        "summary": "Hackers are exploiting stolen Microsoft Entra ID application credentials to infiltrate Microsoft 365 and Azure environments, impacting 27 organizations via managed service providers (MSPs) and their d",
+        "summary": "Marsalek, a free malware-as-a-service (MaaS) platform that disguised infostealers as game cheats and utilities for Roblox, Fortnite, Counter-Strike 2, Minecraft, and Grim Dawn. It was active from mid-",
         "cve": []
     },
     {
-        "title": "Cloudflare Launches Zero Wire to Track Critical Vulnerabilities and Active Exploitation Across the Internet",
-        "date": "Wed, 04 Nov 2026 11:37:15 +0000",
-        "url": "https://gbhackers.com/cloudflare-launches-zero-wire-to-track-critical-vulnerabilities/",
+        "title": "DigiCert Confirms Data Breach After Security Misconfiguration Exposes Customer Personal Information",
+        "date": "Thu, 05 Nov 2026 09:00:38 +0000",
+        "url": "https://gbhackers.com/digicert-confirms-data-breach/",
         "source": "GBHackers",
-        "summary": "Cloudflare launched Zero Wire, a public vulnerability intelligence hub that helps security teams investigate critical internet threats, assess exploitation evidence, and prioritize remediation efforts",
+        "summary": "DigiCert confirmed unauthorized access to an internal business system containing archived customer information due to a security misconfiguration that exposed the application to the internet. This inc",
         "cve": []
     },
     {
-        "title": "3AM Ransomware Hackers Use AI-Assisted Attacks to Breach UK Schools and Spread Across Windows Domains",
-        "date": "Wed, 04 Nov 2026 11:28:31 +0000",
-        "url": "https://gbhackers.com/3am-ransomware-hackers-use-ai-assisted-attacks-to-breach-uk-schools/",
+        "title": "Critical Citrix XenServer Flaw Allows Unauthenticated Attackers to Take Control of Virtualization Hosts",
+        "date": "Thu, 05 Nov 2026 08:46:14 +0000",
+        "url": "https://gbhackers.com/critical-citrix-xenserver-flaw/",
         "source": "GBHackers",
-        "summary": "A ransomware affiliate known as 3AM compromised a UK school network using a mix of traditional intrusion techniques and patterns suggesting the involvement of artificial intelligence. According to Bit",
+        "summary": "Citrix has released security updates for XenServer versions 8.4 and 9 to address a critical vulnerability. This flaw could allow an unauthenticated attacker on the management network to compromise vir",
         "cve": []
     },
     {
-        "title": "Fake Microsoft Support Scams Spread Through Online Ads as Researchers Uncover Organized Fraud Network",
-        "date": "Wed, 04 Nov 2026 10:57:44 +0000",
-        "url": "https://gbhackers.com/fake-microsoft-support-scams/",
+        "title": "10 Third-Party / Vendor Risk Management (TPRM) Tools: The 2026 Buyer’s Verdict Guide",
+        "date": "Thu, 05 Nov 2026 07:27:22 +0000",
+        "url": "https://gbhackers.com/tprm-tools-buyers-guide/",
         "source": "GBHackers",
-        "summary": "An organized fraud operation using paid advertisements, Microsoft Azure hosting, and centrally managed telephone numbers to distribute counterfeit Microsoft support pages. The investigation links one ",
+        "summary": "Third-party risk management is where questionnaires go to die or get automated: the modern platforms fuse assessment workflow, outside-in ratings, and continuous monitoring so vendor risk stops being ",
         "cve": []
     },
     {
-        "title": "Hackers Abuse LuaJIT and Windows Process Injection to Hide XLoader Credential-Stealing Malware",
-        "date": "Wed, 04 Nov 2026 10:28:16 +0000",
-        "url": "https://gbhackers.com/xloader-malware-attack/",
+        "title": "11 Compliance Automation Software (SOC 2 / ISO 27001): The 2026 Buyer’s Verdict Guide",
+        "date": "Thu, 05 Nov 2026 07:25:30 +0000",
+        "url": "https://gbhackers.com/compliance-automation-buyers-guide/",
         "source": "GBHackers",
-        "summary": "A new XLoader infection chain. It hides the credential stealer inside an embedded LuaJIT interpreter. It moves it into another Windows process through shared-section injection. The campaign uses busin",
+        "summary": "Compliance automation collapsed the SOC 2 timeline from consulting-year to integration-quarter: connectors pull evidence from your cloud, HR, and device stacks continuously, and the audit becomes a re",
         "cve": []
     }
 ]
