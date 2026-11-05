@@ -1,5 +1,29 @@
 [
     {
+        "title": "Vercel rolls out new protection against stolen session cookie attacks",
+        "date": "Wed, 04 Nov 2026 16:31:18 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+        "source": "BleepingComputer",
+        "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+        "cve": []
+    },
+    {
+        "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+        "date": "Wed, 04 Nov 2026 15:58:19 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+        "source": "BleepingComputer",
+        "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...",
+        "cve": []
+    },
+    {
+        "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+        "date": "Wed, 04 Nov 2026 14:05:19 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+        "source": "BleepingComputer",
+        "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+        "cve": []
+    },
+    {
         "title": "Cyberattack disrupts blood storage refrigeration systems in France",
         "date": "Wed, 04 Nov 2026 13:02:56 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
@@ -53,30 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
         "source": "BleepingComputer",
         "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...",
-        "cve": []
-    },
-    {
-        "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-        "date": "Wed, 04 Nov 2026 04:39:54 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-        "source": "BleepingComputer",
-        "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-        "date": "Tue, 03 Nov 2026 17:18:50 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-        "source": "BleepingComputer",
-        "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
-        "cve": []
-    },
-    {
-        "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-        "date": "Tue, 03 Nov 2026 16:28:44 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-        "source": "BleepingComputer",
-        "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,22 @@
         "cve": []
     },
     {
+        "title": "DreamHost Confirms Data Breach – Hackers Stole Customer Credentials and Accessed Emails",
+        "date": "Thu, 05 Nov 2026 03:00:40 +0000",
+        "url": "https://cybersecuritynews.com/dreamhost-confirms-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "DreamHost has confirmed a breach that exposed customer login details after hackers exploited its web-based File Manager. The hosting provider said attackers obtained FTP/SFTP usernames and passwords, ",
+        "cve": []
+    },
+    {
+        "title": "OpenAI Cyber Model Uncovers 948 Linux Kernel Privilege Escalation Vulnerabilities",
+        "date": "Thu, 05 Nov 2026 02:42:57 +0000",
+        "url": "https://cybersecuritynews.com/openai-uncovers-948-linux-kernel-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenAI says an automated research pipeline found and proved 948 separate Linux kernel privilege escalation flaws in one run. These bugs could let a normal local user gain root access. The run took pla",
+        "cve": []
+    },
+    {
         "title": "SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers",
         "date": "Wed, 04 Nov 2026 18:43:01 +0000",
         "url": "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers/",
@@ -221,22 +237,6 @@
         "url": "https://cybersecuritynews.com/critical-solarwinds-dameware-flaw/",
         "source": "CyberSecurityNews",
         "summary": "SolarWinds has warned about a critical command injection flaw in its Dameware remote support software. It is tracked as CVE-2026-28336 and carries a severity score of 9.9 out of 10. The bug could let ",
-        "cve": []
-    },
-    {
-        "title": "French Bank Crédit Mutuel Arkéa Confirms Cyberattack Amid Reports of $133 Million Theft",
-        "date": "Wed, 04 Nov 2026 13:29:39 +0000",
-        "url": "https://cybersecuritynews.com/credit-mutuel-arkea-confirms-cyberattack/",
-        "source": "CyberSecurityNews",
-        "summary": "French banking group Crédit Mutuel Arkéa has confirmed a cyberattack that enabled fraudulent transactions, following reports linking the institution to cryptocurrency theft exceeding $133 million. The",
-        "cve": []
-    },
-    {
-        "title": "Critical Barracuda Security Flaws Could Let Hackers Bypass Authentication and Gain Root Access",
-        "date": "Wed, 04 Nov 2026 13:07:41 +0000",
-        "url": "https://cybersecuritynews.com/critical-barracuda-security-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "Barracuda has disclosed two security vulnerabilities that could allow attackers to bypass authorization controls and gain root access to affected appliances when exploited together. The flaws affect s",
         "cve": []
     },
     {
