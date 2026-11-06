@@ -1,5 +1,37 @@
 [
     {
+        "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+        "date": "Thu, 05 Nov 2026 19:56:44 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+        "source": "BleepingComputer",
+        "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [",
+        "cve": []
+    },
+    {
+        "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+        "date": "Thu, 05 Nov 2026 16:30:30 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+        "source": "BleepingComputer",
+        "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google accoun",
+        "cve": []
+    },
+    {
+        "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+        "date": "Thu, 05 Nov 2026 15:15:08 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+        "source": "BleepingComputer",
+        "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
+        "cve": []
+    },
+    {
+        "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+        "date": "Thu, 05 Nov 2026 14:24:26 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
+        "cve": []
+    },
+    {
         "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
         "date": "Thu, 05 Nov 2026 12:45:29 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
@@ -48,35 +80,19 @@
         "cve": []
     },
     {
-        "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-        "date": "Wed, 04 Nov 2026 15:58:19 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-        "source": "BleepingComputer",
-        "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...",
+        "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+        "date": "Thu, 05 Nov 2026 22:12:46 +0530",
+        "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+        "source": "The Hacker News",
+        "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server,",
         "cve": []
     },
     {
-        "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-        "date": "Wed, 04 Nov 2026 14:05:19 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-        "source": "BleepingComputer",
-        "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
-        "cve": []
-    },
-    {
-        "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-        "date": "Wed, 04 Nov 2026 13:02:56 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-        "source": "BleepingComputer",
-        "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blo",
-        "cve": []
-    },
-    {
-        "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-        "date": "Wed, 04 Nov 2026 11:58:46 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-        "source": "BleepingComputer",
-        "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and ",
+        "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+        "date": "Thu, 05 Nov 2026 22:12:32 +0530",
+        "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+        "source": "The Hacker News",
+        "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the arti",
         "cve": []
     },
     {
@@ -144,19 +160,27 @@
         "cve": []
     },
     {
-        "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-        "date": "Wed, 04 Nov 2026 22:30:46 +0530",
-        "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-        "source": "The Hacker News",
-        "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according",
+        "title": "OpenAI Launches GPT-6 Cyber That Finds 81 Firefox Flaws and Develops 948 Linux Exploits",
+        "date": "Fri, 06 Nov 2026 02:04:53 +0000",
+        "url": "https://cybersecuritynews.com/openai-launches-gpt-6-cyber/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenAI has launched GPT-6 Cyber, a security-focused AI model that found 81 new high-severity Firefox flaws and built working exploits for 948 Linux kernel bugs. The company says it also follows the li",
         "cve": []
     },
     {
-        "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-        "date": "Wed, 04 Nov 2026 22:30:38 +0530",
-        "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-        "source": "The Hacker News",
-        "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.",
+        "title": "Shopify Mandates IP Allowlisting for Public Apps to Prevent Unauthorized Admin API Access",
+        "date": "Fri, 06 Nov 2026 01:44:52 +0000",
+        "url": "https://cybersecuritynews.com/shopify-mandates-ip-allowlisting/",
+        "source": "CyberSecurityNews",
+        "summary": "Shopify is making IP allowlisting mandatory for public apps that call its Admin API, adding a security check to limit the use of stolen access tokens. Developers must enable the control by November 20",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Paint 0-Click Vulnerability Could Allow Hackers to Take Control of Windows PCs",
+        "date": "Fri, 06 Nov 2026 00:58:05 +0000",
+        "url": "https://cybersecuritynews.com/windows-paint-rce-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft’s Windows Paint vulnerability, CVE-2026-83844, could allow an unauthenticated attacker to execute code over a network without user interaction. The flaw carries a CVSS score of 8.1, placing ",
         "cve": []
     },
     {
@@ -213,30 +237,6 @@
         "url": "https://cybersecuritynews.com/artex-hackers/",
         "source": "CyberSecurityNews",
         "summary": "A hacker&#8217;s own mistake has given researchers a rare look at how AI tools were used to break into South Korean financial firms. The operator left several servers open to the public, and the expos",
-        "cve": []
-    },
-    {
-        "title": "Hackers Hide Marsalek Malware in Fake Roblox and Fortnite Cheats to Steal Passwords and Crypto Wallet Data",
-        "date": "Thu, 05 Nov 2026 10:59:30 +0000",
-        "url": "https://cybersecuritynews.com/hackers-hide-marsalek-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are hiding a free information stealer called Marsalek inside fake cheats and tools for games such as Roblox, Fortnite, and Counter-Strike 2. The files look like helpful game add-ons. In the ba",
-        "cve": []
-    },
-    {
-        "title": "Tata Motors iRA App Flaws Could Let Hackers Impersonate Car Owners and Access Vehicle Services",
-        "date": "Thu, 05 Nov 2026 10:41:33 +0000",
-        "url": "https://cybersecuritynews.com/tata-motors-ira-app-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "Tata Motors’ iRA 2.0 and iRA.ev mobile apps contain four security flaws that could let attackers steal credentials, impersonate car owners, and access vehicle services. India’s Computer Emergency Resp",
-        "cve": []
-    },
-    {
-        "title": "One Hacker Uses 12 AI Agents to Breach Taiwan’s Emergency Services and Steal Sensitive Data",
-        "date": "Thu, 05 Nov 2026 08:56:26 +0000",
-        "url": "https://cybersecuritynews.com/one-hacker-uses-12-ai-agents/",
-        "source": "CyberSecurityNews",
-        "summary": "A single operator in Taiwan built a team of 12 AI agents and used it to attack hundreds of organizations in 11 countries. The campaign hit emergency services, banks, universities, and military systems",
         "cve": []
     },
     {
