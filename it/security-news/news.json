@@ -1,5 +1,21 @@
 [
     {
+        "title": "Hackers pull off $133 million French bank heist via service provider",
+        "date": "Sat, 07 Nov 2026 10:25:35 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+        "source": "BleepingComputer",
+        "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+        "cve": []
+    },
+    {
+        "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+        "date": "Sat, 07 Nov 2026 09:10:19 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+        "source": "BleepingComputer",
+        "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these c",
+        "cve": []
+    },
+    {
         "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
         "date": "Fri, 06 Nov 2026 19:00:55 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -64,19 +80,11 @@
         "cve": []
     },
     {
-        "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-        "date": "Fri, 06 Nov 2026 07:37:22 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-        "source": "BleepingComputer",
-        "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-        "cve": []
-    },
-    {
-        "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-        "date": "Fri, 06 Nov 2026 04:22:28 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-        "source": "BleepingComputer",
-        "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+        "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+        "date": "Sat, 07 Nov 2026 12:14:17 +0530",
+        "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+        "source": "The Hacker News",
+        "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask ",
         "cve": []
     },
     {
@@ -152,11 +160,19 @@
         "cve": []
     },
     {
-        "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-        "date": "Thu, 05 Nov 2026 22:12:46 +0530",
-        "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-        "source": "The Hacker News",
-        "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server,",
+        "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
+        "date": "Sat, 07 Nov 2026 12:59:02 +0000",
+        "url": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "SonicWall has warned customers to patch a SonicOS SSLVPN vulnerability that could let attackers bypass SAML authentication and its multi-factor authentication checks. Tracked as CVE-2026-19868, the fl",
+        "cve": []
+    },
+    {
+        "title": "Claude Code’s “Yes, and Don’t Ask Again” Option Can Leak Passwords and API Keys to GitHub",
+        "date": "Sat, 07 Nov 2026 08:20:25 +0000",
+        "url": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
+        "source": "CyberSecurityNews",
+        "summary": "Claude Code’s “Yes, and don’t ask again” option can save passwords and API keys inside project settings that later reach public GitHub repositories. Apiiro researchers found 2,539 distinct secrets acr",
         "cve": []
     },
     {
@@ -200,7 +216,7 @@
         "cve": []
     },
     {
-        "title": "Hackers Launch 240,000 Exploit Attempts WordPress Core Flaw Enabling Remote Code Execution",
+        "title": "Hackers Launch 240,000 Attempts to Exploit a WordPress Core Flaw That Allows Remote Code Execution",
         "date": "Fri, 06 Nov 2026 14:15:17 +0000",
         "url": "https://cybersecuritynews.com/240000-wordpress-exploit-attempts/",
         "source": "CyberSecurityNews",
@@ -221,22 +237,6 @@
         "url": "https://cybersecuritynews.com/artex-ai-agents/",
         "source": "CyberSecurityNews",
         "summary": "Cybercriminals are now using ARTEX, an AI-powered penetration testing platform, to break into websites with almost no human input. In the cases studied, the AI agents stole more than 190,000 gaming cr",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use ARTEX AI to Find GitHub Secrets and Steal Azure Key Vault Data in Just 5 Minutes",
-        "date": "Fri, 06 Nov 2026 12:08:58 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-artex-ai/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are using the ARTEX AI framework to find exposed credentials on GitHub and turn them into access to cloud systems. In one observed case, an AI agent moved from searching public repositories fo",
-        "cve": []
-    },
-    {
-        "title": "Storm-2603 Hackers Exploit SharePoint ToolShell Flaws to Hide Fileless Backdoor and Launch Ransomware Attack",
-        "date": "Fri, 06 Nov 2026 11:43:01 +0000",
-        "url": "https://cybersecuritynews.com/storm-2603-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "A China-linked threat group tracked as Storm-2603 has used the SharePoint ToolShell flaws to plant a backdoor that never touches the disk. The group then tried to run Warlock ransomware on the same ne",
         "cve": []
     },
     {
@@ -320,6 +320,46 @@
         "cve": []
     },
     {
+        "title": "Claude Code’s “Don’t Ask Again” Feature Exposes 2,539 Secrets Across 1,994 GitHub Repositories",
+        "date": "Sat, 07 Nov 2026 08:31:50 +0000",
+        "url": "https://gbhackers.com/claude-codes-dont-ask-again-feature-exposed/",
+        "source": "GBHackers",
+        "summary": "A newly identified 2,539 distinct secrets across 1,994 public GitHub repositories, tracing exposure to coding-agent configuration files, Git history, and saved transcripts. Their November 5 research d",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit WordPress Core RCE Vulnerability in Over 240,000 Attack Attempts",
+        "date": "Sat, 07 Nov 2026 08:06:17 +0000",
+        "url": "https://gbhackers.com/exploit-wordpress-core-over-240000-attack/",
+        "source": "GBHackers",
+        "summary": "Attackers have launched more than 240,000 exploit attempts against a WordPress Core upgrade-process flaw that can enable unauthenticated remote code execution. Wordfence researcher István Márton repor",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use Fake GitHub Security Tools to Spread Malware, Infecting Over 2,000 Computers",
+        "date": "Sat, 07 Nov 2026 06:06:56 +0000",
+        "url": "https://gbhackers.com/hackers-use-fake-github-security-tools/",
+        "source": "GBHackers",
+        "summary": "Threat actors are distributing malware through GitHub repositories masquerading as security utilities, infecting more than 2,000 computers. According to Doctor Web’s November 5 investigation, the camp",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit SonicWall SSL-VPN Vulnerability to Bypass Multi-Factor Authentication in Active Attacks",
+        "date": "Sat, 07 Nov 2026 05:45:37 +0000",
+        "url": "https://gbhackers.com/sonicwall-ssl-vpn-vulnerability/",
+        "source": "GBHackers",
+        "summary": "SonicWall has disclosed an SSL-VPN authentication enforcement flaw that could let attackers bypass SAML authentication and associated multi-factor authentication controls. Tracked as CVE-2026-19868, t",
+        "cve": []
+    },
+    {
+        "title": "WorkOS Confirms Data Breach After ARTEX AI Agent Escapes Security Researcher’s Sandbox",
+        "date": "Sat, 07 Nov 2026 05:28:50 +0000",
+        "url": "https://gbhackers.com/workos-data-breach-artex-ai/",
+        "source": "GBHackers",
+        "summary": "WorkOS confirmed that an ARTEX security agent escaped a researcher’s isolated testing environment and accessed an internal application, exposing customer business information. In its November 6 update",
+        "cve": []
+    },
+    {
         "title": "Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure",
         "date": "Sat, 07 Nov 2026 02:07:49 +0000",
         "url": "https://gbhackers.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/",
@@ -357,46 +397,6 @@
         "url": "https://gbhackers.com/claude-ai-flaw/",
         "source": "GBHackers",
         "summary": "A design flaw in Anthropic&#8217;s Claude Dispatch feature let a malicious browser extension run commands on the operating system, even on a different computer. Researchers at Forever Security named t",
-        "cve": []
-    },
-    {
-        "title": "ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction",
-        "date": "Fri, 06 Nov 2026 08:56:59 +0000",
-        "url": "https://gbhackers.com/chatgpt-lockdown-mode-bypass/",
-        "source": "GBHackers",
-        "summary": "Research found a flaw that bypassed ChatGPT&#8217;s Lockdown Mode. It let attackers silently exfiltrate full chat histories, deliver malware, and phish credentials from inside a trusted interface. Res",
-        "cve": []
-    },
-    {
-        "title": "11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide",
-        "date": "Fri, 06 Nov 2026 06:50:31 +0000",
-        "url": "https://gbhackers.com/security-policy-management-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "“Security policy management” names two different markets wearing one label, and this roster contains both: network security policy management (NSPM) firewall rulebases, segmentation intent, change aut",
-        "cve": []
-    },
-    {
-        "title": "11 IT & Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide",
-        "date": "Fri, 06 Nov 2026 06:48:44 +0000",
-        "url": "https://gbhackers.com/it-cyber-risk-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "IT and cyber risk management tooling is the register discipline underneath GRC’s broader umbrella: risks captured with owners and treatments, controls linked, exceptions tracked, and reporting that su",
-        "cve": []
-    },
-    {
-        "title": "11 Audit Management Software: The 2026 Buyer’s Verdict Guide",
-        "date": "Fri, 06 Nov 2026 06:47:09 +0000",
-        "url": "https://gbhackers.com/audit-management-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "Audit management software succeeds on a simple test: do auditors live in it, or do they live in spreadsheets and paste into it before committee meetings? This verdict guide judges eleven platforms aud",
-        "cve": []
-    },
-    {
-        "title": "10 Security Ratings Services: The 2026 Buyer’s Verdict Guide",
-        "date": "Fri, 06 Nov 2026 06:44:14 +0000",
-        "url": "https://gbhackers.com/security-ratings-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "Security ratings grade organizations from the outside exposed services, patch cadence, breach signals and the scores now move real money: insurance pricing, vendor tiers, board dashboards. The buyer’s",
         "cve": []
     }
 ]
