@@ -1,5 +1,37 @@
 [
     {
+        "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+        "date": "Fri, 06 Nov 2026 19:00:55 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+        "cve": []
+    },
+    {
+        "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+        "date": "Fri, 06 Nov 2026 17:27:25 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+        "source": "BleepingComputer",
+        "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing env",
+        "cve": []
+    },
+    {
+        "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+        "date": "Fri, 06 Nov 2026 15:24:19 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+        "source": "BleepingComputer",
+        "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Lin",
+        "cve": []
+    },
+    {
+        "title": "Fake security tools on GitHub push backdoors and infostealers",
+        "date": "Fri, 06 Nov 2026 13:46:52 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+        "source": "BleepingComputer",
+        "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+        "cve": []
+    },
+    {
         "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
         "date": "Fri, 06 Nov 2026 12:04:23 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
@@ -45,38 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
         "source": "BleepingComputer",
         "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
-        "cve": []
-    },
-    {
-        "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
-        "date": "Thu, 05 Nov 2026 19:56:44 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
-        "source": "BleepingComputer",
-        "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [",
-        "cve": []
-    },
-    {
-        "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-        "date": "Thu, 05 Nov 2026 16:30:30 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
-        "source": "BleepingComputer",
-        "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google accoun",
-        "cve": []
-    },
-    {
-        "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
-        "date": "Thu, 05 Nov 2026 15:15:08 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
-        "source": "BleepingComputer",
-        "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
-        "cve": []
-    },
-    {
-        "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-        "date": "Thu, 05 Nov 2026 14:24:26 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,22 @@
         "cve": []
     },
     {
+        "title": "ARTEX AI Agent Escapes Research Sandbox and Accesses WorkOS Customer Records",
+        "date": "Sat, 07 Nov 2026 02:30:21 +0000",
+        "url": "https://cybersecuritynews.com/workos-customer-records-exposed/",
+        "source": "CyberSecurityNews",
+        "summary": "WorkOS says an ARTEX AI security agent escaped a researcher’s test environment and accessed customer information through an exposed internal tool. In its November 6, 2026 update, the company attribute",
+        "cve": []
+    },
+    {
+        "title": "Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure",
+        "date": "Sat, 07 Nov 2026 02:06:17 +0000",
+        "url": "https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/",
+        "source": "CyberSecurityNews",
+        "summary": "Toronto, Canada, November 6th, 2026, CyberNewswire Free, read-only scanner helps organizations find Linux servers and container images exposed to two actively exploited vulnerabilities in PHP and Node",
+        "cve": []
+    },
+    {
         "title": "New Dark Project Ransomware Group Offers Hackers 80% Commission to Expand Cyberattacks",
         "date": "Fri, 06 Nov 2026 15:03:03 +0000",
         "url": "https://cybersecuritynews.com/new-dark-project-ransomware-group/",
@@ -221,22 +237,6 @@
         "url": "https://cybersecuritynews.com/storm-2603-hackers/",
         "source": "CyberSecurityNews",
         "summary": "A China-linked threat group tracked as Storm-2603 has used the SharePoint ToolShell flaws to plant a backdoor that never touches the disk. The group then tried to run Warlock ransomware on the same ne",
-        "cve": []
-    },
-    {
-        "title": "ARTEX AI Hacking Framework Found on 1,465 Public Servers, Some Hosting Cyberattack Tools",
-        "date": "Fri, 06 Nov 2026 09:02:33 +0000",
-        "url": "https://cybersecuritynews.com/artex-ai-hacking-framework/",
-        "source": "CyberSecurityNews",
-        "summary": "Security researchers have found ARTEX, an AI-powered penetration-testing framework, exposed on 1,465 internet-facing hosts. Some servers also hosted command-and-control tools, phishing software, and e",
-        "cve": []
-    },
-    {
-        "title": "Claude Dispatch Flaw Lets Malicious Browser Extensions Run Code on Connected Computers",
-        "date": "Fri, 06 Nov 2026 08:40:43 +0000",
-        "url": "https://cybersecuritynews.com/claude-dispatch-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A flaw in Anthropic&#8217;s Claude Dispatch let a malicious browser extension run commands on a computer via Claude Desktop. That computer could even be a different machine signed into the same Claude",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Linux 7.4-rc2 Change Yields As Much As 162x Improvement For FAT32",
-        "date": "Fri, 06 Nov 2026 11:21:38 -0500",
-        "url": "https://www.phoronix.com/news/Linux-7.4-rc2-FAT32",
-        "source": "Phoronix",
-        "summary": "In addition to a FAT32 optimization yielding as much as a 265x improvement that was merged for the Linux 7.4 cycle and separately another big FAT32 improvement expected for Linux 7.5, merged this week",
+        "title": "Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure",
+        "date": "Sat, 07 Nov 2026 02:07:49 +0000",
+        "url": "https://gbhackers.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/",
+        "source": "GBHackers",
+        "summary": "Toronto, Canada, November 6th, 2026, CyberNewswire Free, read-only scanner helps organizations find Linux servers and container images exposed to two actively exploited vulnerabilities in PHP and Node",
         "cve": []
     },
     {
-        "title": "Arch Linux vs. CachyOS vs. Omarchy 4.5 Performance Benchmarks",
-        "date": "Fri, 06 Nov 2026 09:55:52 -0500",
-        "url": "https://www.phoronix.com/review/cachyos-omarchy-benchmarks",
-        "source": "Phoronix",
-        "summary": "With CachyOS recently having rolled out its Linux 7.3 based kernel and various other improvements plus with Omarchy 4.5 having been released this week, this article provides a look at how CachyOS and ",
+        "title": "Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing",
+        "date": "Fri, 06 Nov 2026 11:32:36 +0000",
+        "url": "https://gbhackers.com/dark-project-ransomware/",
+        "source": "GBHackers",
+        "summary": "Dark Project, an emerging financially motivated ransomware operation, has claimed 38 victims across eight countries in the supplied threat intelligence snapshot, with manufacturing and healthcare bear",
         "cve": []
     },
     {
-        "title": "Linux x86 32-bit Patches Clean Old Kernel Code After Recently Removing Vintage CPUs",
-        "date": "Fri, 06 Nov 2026 09:11:31 -0500",
-        "url": "https://www.phoronix.com/news/Linux-2026-x86-32-bit-Cleanup",
-        "source": "Phoronix",
-        "summary": "With the Linux kernel having phased out i486 CPU support and dropping old AMD Elan SoC code along with removing other obsolete and stagnate 32-bit x86 hardware support, some x86 32-bit clean-ups are p",
+        "title": "Hackers Use Fake Streaming Apps to Spread Mirax Android Malware and Steal Bank Accounts",
+        "date": "Fri, 06 Nov 2026 10:13:22 +0000",
+        "url": "https://gbhackers.com/mirax-android-malware/",
+        "source": "GBHackers",
+        "summary": "Hackers are using streaming app lures to distribute Mirax. This Android banking trojan lets operators remotely control victims’ phones and initiate fraudulent transfers. Estimated losses reach million",
         "cve": []
     },
     {
-        "title": "FEX Awaits The Linux Kernel To Align With Windows & macOS On ARM Register Usage",
-        "date": "Fri, 06 Nov 2026 08:12:24 -0500",
-        "url": "https://www.phoronix.com/news/FEX-2611-Released",
-        "source": "Phoronix",
-        "summary": "FEX 2611 is out for running Linux (and Wine) x86/x86_64 games/applications on AArch64 Linux. FEX 2611 brings JIT improvements while also waiting for the Linux kernel to align with the AArch64 specific",
+        "title": "Hackers Put AI Agents on Autopilot to Steal Gaming Accounts and Apple Signing Certificates",
+        "date": "Fri, 06 Nov 2026 09:47:27 +0000",
+        "url": "https://gbhackers.com/gaming-accounts-targeted/",
+        "source": "GBHackers",
+        "summary": "ARTEX, a Chinese open-source agentic penetration-testing platform, to run autonomous attacks. The operators set a goal and then mostly check progress. Researchers identified 2,557 systems that host or",
         "cve": []
     },
     {
-        "title": "Ubuntu Moving Ahead With Plans For Splitting Up Linux-Firmware, HWE Option",
-        "date": "Fri, 06 Nov 2026 06:19:09 -0500",
-        "url": "https://www.phoronix.com/news/Ubuntu-Going-With-Firmware-HWE",
-        "source": "Phoronix",
-        "summary": "A few months back were discussions of a Linux firmware HWE package for Ubuntu to carry updated firmware blobs under the hardware enablement (HWE) umbrella. Plus also splitting up the monolithic linux-",
+        "title": "Claude AI Flaw Lets Malicious Browser Extensions Execute Commands on Remote Computers",
+        "date": "Fri, 06 Nov 2026 09:18:04 +0000",
+        "url": "https://gbhackers.com/claude-ai-flaw/",
+        "source": "GBHackers",
+        "summary": "A design flaw in Anthropic&#8217;s Claude Dispatch feature let a malicious browser extension run commands on the operating system, even on a different computer. Researchers at Forever Security named t",
         "cve": []
     },
     {
-        "title": "Linux Developers Look To Drop RT_GROUP_SCHED As It's \"Broken Beyond Repair\"",
-        "date": "Fri, 06 Nov 2026 06:09:14 -0500",
-        "url": "https://www.phoronix.com/news/Linux-Drop-RT_GROUP_SCHED",
-        "source": "Phoronix",
-        "summary": "Linux kernel developers are looking at dropping the RT_GROUP_SCHED feature that is used for group scheduling of real-time tasks using cgroups...",
+        "title": "ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction",
+        "date": "Fri, 06 Nov 2026 08:56:59 +0000",
+        "url": "https://gbhackers.com/chatgpt-lockdown-mode-bypass/",
+        "source": "GBHackers",
+        "summary": "Research found a flaw that bypassed ChatGPT&#8217;s Lockdown Mode. It let attackers silently exfiltrate full chat histories, deliver malware, and phish credentials from inside a trusted interface. Res",
         "cve": []
     },
     {
-        "title": "Sound Subsystem Seeing Lots Of Fixes & Laptop/Device Quirks For Linux 7.4-rc2",
-        "date": "Fri, 06 Nov 2026 05:58:08 -0500",
-        "url": "https://www.phoronix.com/news/Linux-7.4-rc2-Sound",
-        "source": "Phoronix",
-        "summary": "The sound subsystem is seeing a \"unsurprisingly high amount\" fixes and device workarounds/quirks for this weekend's Linux 7.4-rc2 kernel release...",
+        "title": "11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide",
+        "date": "Fri, 06 Nov 2026 06:50:31 +0000",
+        "url": "https://gbhackers.com/security-policy-management-buyers-guide/",
+        "source": "GBHackers",
+        "summary": "“Security policy management” names two different markets wearing one label, and this roster contains both: network security policy management (NSPM) firewall rulebases, segmentation intent, change aut",
         "cve": []
     },
     {
-        "title": "OpenCV 5.1 Brings More AVX-512 Optimizations, Other Improvements",
-        "date": "Fri, 06 Nov 2026 05:36:58 -0500",
-        "url": "https://www.phoronix.com/news/OpenCV-5.1-Released",
-        "source": "Phoronix",
-        "summary": "OpenCV 5.0 debuted back in June with a rewritten DNN engine and many other exciting improvements for this widely-used computer vision (CV) library. Out today is OpenCV 5.1 with tons of fixes and other",
+        "title": "11 IT & Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide",
+        "date": "Fri, 06 Nov 2026 06:48:44 +0000",
+        "url": "https://gbhackers.com/it-cyber-risk-buyers-guide/",
+        "source": "GBHackers",
+        "summary": "IT and cyber risk management tooling is the register discipline underneath GRC’s broader umbrella: risks captured with owners and treatments, controls linked, exceptions tracked, and reporting that su",
         "cve": []
     },
     {
-        "title": "AMDGPU Driver Seeing HDMI 2.2 FRL Fixes For Linux 7.4",
-        "date": "Thu, 05 Nov 2026 17:07:00 -0500",
-        "url": "https://www.phoronix.com/news/AMDGPU-HDMI-2.2-FRL-Fixes",
-        "source": "Phoronix",
-        "summary": "With Linux 7.4 the AMDGPU driver enables HDMI 2.1 FRL functionality by default for driving higher refresh rate and higher resolution displays. That default enabling comes as HDMI FreeSync/VRR and ALLM",
+        "title": "11 Audit Management Software: The 2026 Buyer’s Verdict Guide",
+        "date": "Fri, 06 Nov 2026 06:47:09 +0000",
+        "url": "https://gbhackers.com/audit-management-buyers-guide/",
+        "source": "GBHackers",
+        "summary": "Audit management software succeeds on a simple test: do auditors live in it, or do they live in spreadsheets and paste into it before committee meetings? This verdict guide judges eleven platforms aud",
         "cve": []
     },
     {
-        "title": "Linux 7.4's Build Time Performance From Optimizations But Also Larger Codebase",
-        "date": "Thu, 05 Nov 2026 16:44:05 -0500",
-        "url": "https://www.phoronix.com/news/Linux-7.4-rc1-Build-Times",
-        "source": "Phoronix",
-        "summary": "With Linux 7.4 the patches to speed-up the kernel build process began to land. This is the work that's yielded extremely fast incremental builds and noop builds. The patch series in full is also allow",
+        "title": "10 Security Ratings Services: The 2026 Buyer’s Verdict Guide",
+        "date": "Fri, 06 Nov 2026 06:44:14 +0000",
+        "url": "https://gbhackers.com/security-ratings-buyers-guide/",
+        "source": "GBHackers",
+        "summary": "Security ratings grade organizations from the outside exposed services, patch cadence, breach signals and the scores now move real money: insurance pricing, vendor tiers, board dashboards. The buyer’s",
         "cve": []
     }
 ]
