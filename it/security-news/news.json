@@ -1,5 +1,13 @@
 [
     {
+        "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+        "date": "Sun, 08 Nov 2026 10:43:08 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+        "source": "BleepingComputer",
+        "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized ",
+        "cve": []
+    },
+    {
         "title": "Hackers pull off $133 million French bank heist via service provider",
         "date": "Sat, 07 Nov 2026 10:25:35 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
         "source": "BleepingComputer",
         "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-        "cve": []
-    },
-    {
-        "title": "Chainalysis says breach exposed credentials for all customers",
-        "date": "Fri, 06 Nov 2026 09:17:07 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-        "source": "BleepingComputer",
-        "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
         "cve": []
     },
     {
