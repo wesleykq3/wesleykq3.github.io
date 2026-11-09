@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-09T03:08:37.721691",
+    "timestamp": "2026-11-09T21:39:34.934392",
     "services": [
         {
             "service": "OpenAI",
@@ -33,11 +33,23 @@
             "status": "operational"
         },
         {
+            "name": "Claude Platform on AWS",
+            "status": "operational"
+        },
+        {
             "name": "Claude Console (platform.claude.com)",
             "status": "operational"
         },
         {
+            "name": "Claude in Microsoft Foundry",
+            "status": "operational"
+        },
+        {
             "name": "Claude API (api.anthropic.com)",
+            "status": "operational"
+        },
+        {
+            "name": "Claude Models on Google Cloud (Anthropic managed)",
             "status": "operational"
         },
         {
@@ -50,6 +62,10 @@
         },
         {
             "name": "Claude for Government",
+            "status": "operational"
+        },
+        {
+            "name": "Claude on Cloud Platforms",
             "status": "operational"
         }
     ]
