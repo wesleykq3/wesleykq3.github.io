@@ -160,6 +160,22 @@
         "cve": []
     },
     {
+        "title": "NVIDIA Investigates Suspected Chinese Spy Operation Targeting CEO Jensen Huang",
+        "date": "Mon, 09 Nov 2026 02:36:57 +0000",
+        "url": "https://cybersecuritynews.com/nvidia-investigates-chinese-spy-operation/",
+        "source": "CyberSecurityNews",
+        "summary": "NVIDIA has opened an independent investigation into reports that a foreign intelligence operation targeted founder and CEO Jensen Huang. Announced on November 8, 2026, the review will examine the repo",
+        "cve": []
+    },
+    {
+        "title": "Critical React Server Components Flaw Lets Hackers Execute Code Remotely Without Authentication",
+        "date": "Mon, 09 Nov 2026 02:13:53 +0000",
+        "url": "https://cybersecuritynews.com/react-server-components-vulnerability-patch/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical security flaw in React Server Components can let attackers run code remotely without logging in. React published the advisory, tracked as GHSA-xqc2-xf4c-x3h3, on October 14, 2026. The issue",
+        "cve": []
+    },
+    {
         "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
         "date": "Sat, 07 Nov 2026 12:59:02 +0000",
         "url": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
@@ -221,22 +237,6 @@
         "url": "https://cybersecuritynews.com/240000-wordpress-exploit-attempts/",
         "source": "CyberSecurityNews",
         "summary": "Hackers have launched more than 240,000 exploit attempts against a WordPress Core vulnerability that can allow attackers to run malicious code without logging in. According to the supplied Wordfence r",
-        "cve": []
-    },
-    {
-        "title": "Mirax Android RAT Hijacks Phones Through Streaming-App Ads to Steal Banking Credentials and Drain Accounts",
-        "date": "Fri, 06 Nov 2026 14:08:55 +0000",
-        "url": "https://cybersecuritynews.com/mirax-android-rat/",
-        "source": "CyberSecurityNews",
-        "summary": "An Android banking malware campaign is turning streaming-app advertisements into a route for stealing credentials and draining accounts. Mirax, the remote access trojan lets criminals watch infected p",
-        "cve": []
-    },
-    {
-        "title": "ARTEX AI Agents Steal 190,000 Gaming Credentials and Hundreds of Apple Code-Signing Certificates",
-        "date": "Fri, 06 Nov 2026 13:49:57 +0000",
-        "url": "https://cybersecuritynews.com/artex-ai-agents/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals are now using ARTEX, an AI-powered penetration testing platform, to break into websites with almost no human input. In the cases studied, the AI agents stole more than 190,000 gaming cr",
         "cve": []
     },
     {
