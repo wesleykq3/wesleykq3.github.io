@@ -1,5 +1,21 @@
 [
     {
+        "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+        "date": "Mon, 09 Nov 2026 18:52:12 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+        "source": "BleepingComputer",
+        "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and",
+        "cve": []
+    },
+    {
+        "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+        "date": "Mon, 09 Nov 2026 17:09:33 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+        "source": "BleepingComputer",
+        "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+        "cve": []
+    },
+    {
         "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
         "date": "Mon, 09 Nov 2026 16:26:25 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
@@ -61,22 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
         "source": "BleepingComputer",
         "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
-        "cve": []
-    },
-    {
-        "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-        "date": "Mon, 09 Nov 2026 08:28:56 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
-        "source": "BleepingComputer",
-        "summary": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. [...]",
-        "cve": []
-    },
-    {
-        "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
-        "date": "Mon, 09 Nov 2026 07:16:13 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
-        "source": "BleepingComputer",
-        "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,30 @@
         "cve": []
     },
     {
+        "title": "Google Chrome 0-Day Vulnerability in the Wild to Execute Malicious Code Remotely",
+        "date": "Tue, 10 Nov 2026 04:21:10 +0000",
+        "url": "https://cybersecuritynews.com/google-chrome-0-day-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "Google has fixed a Chrome zero-day that attackers are already using. The flaw is tracked as CVE-2026-125350, and it lets a remote attacker run malicious code in the browser. Google&#8217;s Stable chan",
+        "cve": []
+    },
+    {
+        "title": "Terminal2Shell: 55-Year-Old ‘Zero-Day’ Dating Back to 1971 Claims to Affect Billions of Devices",
+        "date": "Tue, 10 Nov 2026 03:37:47 +0000",
+        "url": "https://cybersecuritynews.com/terminal2shell-55-year-old-zero-day/",
+        "source": "CyberSecurityNews",
+        "summary": "Terminal2Shell claims a critical flaw dating back to 1971 affects more than two billion devices, allowing anyone who opens a terminal to gain an interactive shell. However, the website is satire, not ",
+        "cve": []
+    },
+    {
+        "title": "N-able Takes N-central Servers Offline Worldwide After 33 0-Day Vulnerabilities and Able2Shell Exploits",
+        "date": "Tue, 10 Nov 2026 02:34:38 +0000",
+        "url": "https://cybersecuritynews.com/n-able-takes-n-central-servers-offline/",
+        "source": "CyberSecurityNews",
+        "summary": "N-able took its hosted N-central environments offline on November 9, 2026, after an independent researcher published details of 33 alleged zero-day vulnerabilities and exploit code. The company also t",
+        "cve": []
+    },
+    {
         "title": "New Abe Office Malware Bypasses Chrome App-Bound Encryption to Steal Browser Passwords and Cookies",
         "date": "Mon, 09 Nov 2026 17:58:44 +0000",
         "url": "https://cybersecuritynews.com/abe-office-malware/",
@@ -213,30 +237,6 @@
         "url": "https://cybersecuritynews.com/hackers-hijack-10-npm-packages-to-spread-polinrider-malware-using-ethereum-blockchain/",
         "source": "CyberSecurityNews",
         "summary": "Attackers have taken over 10 npm packages and slipped hidden code into 12 releases. The code uses the Ethereum blockchain to find a server and download more malware. Sonatype Research Labs confirmed t",
-        "cve": []
-    },
-    {
-        "title": "Google Gemini Safety Bypass Lets Users Download AI-Generated Images That Its Own Filters Blocked",
-        "date": "Mon, 09 Nov 2026 12:26:16 +0000",
-        "url": "https://cybersecuritynews.com/google-gemini-safety-bypass-ai-generated-images/",
-        "source": "CyberSecurityNews",
-        "summary": "Google Gemini allowed users to download AI-generated images that its safety filters had refused to display, according to research published by Fog Security on November 5, 2026. The bypass did not requ",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns of SonicWall SonicOS SSLVPN Vulnerability Exploited in Attacks",
-        "date": "Mon, 09 Nov 2026 11:40:18 +0000",
-        "url": "https://cybersecuritynews.com/sonicwall-sonicos-sslvpn-vulnerability-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "CISA added a SonicWall SonicOS SSLVPN vulnerability, CVE-2026-19868, to its Known Exploited Vulnerabilities catalog, warning that valid-credential users can bypass SAML authentication controls and pot",
-        "cve": []
-    },
-    {
-        "title": "Researchers Uncover NotC2 AI-Powered C2 Framework That Hides Malicious Commands Inside AWS Services",
-        "date": "Mon, 09 Nov 2026 11:26:18 +0000",
-        "url": "https://cybersecuritynews.com/notc2-ai-powered-c2-framework/",
-        "source": "CyberSecurityNews",
-        "summary": "Varonis Threat Labs has built NotC2, a proof-of-concept command-and-control (C2) framework. It runs entirely on native AWS services and uses Amazon Bedrock to turn plain English into cloud commands. I",
         "cve": []
     },
     {
@@ -320,6 +320,22 @@
         "cve": []
     },
     {
+        "title": "Notepad++ 8.9.9 Released to Fix 6 Security Vulnerabilities Allowing Privilege Escalation and Command Execution",
+        "date": "Tue, 10 Nov 2026 04:48:56 +0000",
+        "url": "https://gbhackers.com/notepad-8-9-9-released-to-fix-6-security-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Notepad++ released version 8.9.9 on November 6, 2026, addressing six security vulnerabilities involving interprocess messaging, elevated file saves, clipboard handling, command dispatch, and MIME Tool",
+        "cve": []
+    },
+    {
+        "title": "As Hacks Near $9 Billion in 2026, Crypto Has A Hole in Its Pocket",
+        "date": "Mon, 09 Nov 2026 14:39:17 +0000",
+        "url": "https://gbhackers.com/as-hacks-near-9-billion-in-2026-crypto-has-a-hole-in-its-pocket/",
+        "source": "GBHackers",
+        "summary": "Another year, another wave of cryptocurrency hacks, and the losses are harder and harder to ignore. With billions of dollars stolen, exchanges breached, and sophisticated attackers finding routes arou",
+        "cve": []
+    },
+    {
         "title": "New Abe Office Malware Tricks Chrome Into Decrypting Its Own Protected Browser Cookies",
         "date": "Mon, 09 Nov 2026 13:06:33 +0000",
         "url": "https://gbhackers.com/abe-office-malware/",
@@ -381,22 +397,6 @@
         "url": "https://gbhackers.com/polinrider-malware-attack/",
         "source": "GBHackers",
         "summary": "A concealed JavaScript loaders in 12 releases across 10 hijacked npm packages, linking the compromise to previously documented PolinRider activity. Investigated on November 4, 2026, the releases use E",
-        "cve": []
-    },
-    {
-        "title": "SonicWall Warns of Actively Exploited SSL-VPN Vulnerability That Bypasses SAML and MFA Protection",
-        "date": "Mon, 09 Nov 2026 06:20:55 +0000",
-        "url": "https://gbhackers.com/sonicwall-warns-of-actively-exploited-ssl-vpn-vulnerability/",
-        "source": "GBHackers",
-        "summary": "SonicWall has urged customers to address an SSL-VPN authentication vulnerability that can bypass SAML controls, including associated multifactor authentication measures. This issue is tracked as CVE-2",
-        "cve": []
-    },
-    {
-        "title": "Critical React Server Components Vulnerability Allows Unauthenticated Attackers to Execute Malicious Code on Servers",
-        "date": "Mon, 09 Nov 2026 06:11:56 +0000",
-        "url": "https://gbhackers.com/critical-react-server-components-vulnerability/",
-        "source": "GBHackers",
-        "summary": "A serious vulnerability in React Server Components may enable unauthenticated attackers to execute malicious code on affected servers. The advisory, released on October 14, 2026, assigns the issue a C",
         "cve": []
     }
 ]
