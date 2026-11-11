@@ -1,5 +1,45 @@
 [
     {
+        "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+        "date": "Tue, 10 Nov 2026 17:20:19 -0500",
+        "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+        "source": "BleepingComputer",
+        "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potenti",
+        "cve": []
+    },
+    {
+        "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+        "date": "Tue, 10 Nov 2026 15:54:55 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+        "source": "BleepingComputer",
+        "summary": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+        "date": "Tue, 10 Nov 2026 15:04:36 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+        "date": "Tue, 10 Nov 2026 14:31:11 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+        "source": "BleepingComputer",
+        "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [",
+        "cve": []
+    },
+    {
+        "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+        "date": "Tue, 10 Nov 2026 14:07:36 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+        "source": "BleepingComputer",
+        "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+        "cve": []
+    },
+    {
         "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
         "date": "Tue, 10 Nov 2026 13:33:26 -0500",
         "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
@@ -40,43 +80,35 @@
         "cve": []
     },
     {
-        "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-        "date": "Tue, 10 Nov 2026 05:10:20 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-        "source": "BleepingComputer",
-        "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. ",
+        "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+        "date": "Wed, 11 Nov 2026 00:53:10 +0530",
+        "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+        "source": "The Hacker News",
+        "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with match",
         "cve": []
     },
     {
-        "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-        "date": "Tue, 10 Nov 2026 05:04:32 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
-        "source": "BleepingComputer",
-        "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+        "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+        "date": "Wed, 11 Nov 2026 00:49:39 +0530",
+        "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+        "source": "The Hacker News",
+        "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen reques",
         "cve": []
     },
     {
-        "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-        "date": "Tue, 10 Nov 2026 03:51:25 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-        "source": "BleepingComputer",
-        "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+        "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+        "date": "Tue, 10 Nov 2026 23:42:21 +0530",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+        "source": "The Hacker News",
+        "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not",
         "cve": []
     },
     {
-        "title": "Fireworks AI discloses new breach after cloud provider hack",
-        "date": "Tue, 10 Nov 2026 02:49:58 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-        "source": "BleepingComputer",
-        "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
-        "cve": []
-    },
-    {
-        "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-        "date": "Mon, 09 Nov 2026 18:52:12 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-        "source": "BleepingComputer",
-        "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and",
+        "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+        "date": "Tue, 10 Nov 2026 23:13:23 +0530",
+        "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+        "source": "The Hacker News",
+        "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities,",
         "cve": []
     },
     {
@@ -84,7 +116,7 @@
         "date": "Tue, 10 Nov 2026 21:30:55 +0530",
         "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in Octob",
+        "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early",
         "cve": []
     },
     {
@@ -96,7 +128,7 @@
         "cve": []
     },
     {
-        "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+        "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
         "date": "Tue, 10 Nov 2026 21:03:59 +0530",
         "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
         "source": "The Hacker News",
@@ -128,35 +160,27 @@
         "cve": []
     },
     {
-        "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-        "date": "Tue, 10 Nov 2026 15:37:29 +0530",
-        "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-        "source": "The Hacker News",
-        "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exch",
+        "title": "Critical Fortinet Flaws Expose FortiManager and FortiAnalyzer to Remote Code Execution Without Login",
+        "date": "Wed, 11 Nov 2026 03:15:16 +0000",
+        "url": "https://cybersecuritynews.com/critical-fortinet-flaws-patched/",
+        "source": "CyberSecurityNews",
+        "summary": "Fortinet has disclosed critical security flaws affecting FortiManager, FortiAnalyzer, and FortiOS, including weaknesses that could let attackers execute code without logging in. Published on November ",
         "cve": []
     },
     {
-        "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-        "date": "Tue, 10 Nov 2026 15:32:40 +0530",
-        "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-        "source": "The Hacker News",
-        "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score.\n\nThree are in the SAP Ne",
+        "title": "Microsoft Confirms Hackers Are Exploiting Outlook 0-Day to Steal Windows Authentication Hashes",
+        "date": "Wed, 11 Nov 2026 02:35:43 +0000",
+        "url": "https://cybersecuritynews.com/outlook-0-day-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has confirmed that hackers are exploiting an Outlook zero-day that can expose Windows authentication information when a user opens a malicious file. Tracked as CVE-2026-124194, the spoofing ",
         "cve": []
     },
     {
-        "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-        "date": "Tue, 10 Nov 2026 14:38:20 +0530",
-        "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-        "source": "The Hacker News",
-        "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yest",
-        "cve": []
-    },
-    {
-        "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-        "date": "Tue, 10 Nov 2026 13:46:14 +0530",
-        "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-        "source": "The Hacker News",
-        "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision.\n\nDuring pre-release training, the large language models",
+        "title": "Microsoft November 2026 Patch Tuesday Fixes 1,093 Vulnerabilities, Including Outlook Zero-Day",
+        "date": "Tue, 10 Nov 2026 19:01:53 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has released its November 2026 Patch Tuesday updates, fixing 1,093 newly released vulnerabilities across Windows, Office, SQL Server, SharePoint, Exchange Server, Azure services, and develop",
         "cve": []
     },
     {
@@ -216,27 +240,11 @@
         "cve": []
     },
     {
-        "title": "One Identity Unveils Active Roles 8.6 with Enhanced Security and Administration",
-        "date": "Tue, 10 Nov 2026 15:50:35 +0000",
-        "url": "https://cybersecuritynews.com/one-identity-active-roles-8-6-security-administration/",
-        "source": "CyberSecurityNews",
-        "summary": "Alisa Viejo, California, November 10th, 2026, CyberNewswire Active Roles 8.6: Cumulative security, feature and administration upgrades&#160; One Identity has introduced Active Roles 8.6, strengthening",
-        "cve": []
-    },
-    {
-        "title": "One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX",
-        "date": "Tue, 10 Nov 2026 15:49:23 +0000",
-        "url": "https://cybersecuritynews.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux/",
-        "source": "CyberSecurityNews",
-        "summary": "Alisa Viejo, California, November 10th, 2026, CyberNewswire One Identity today unveiled Identity Manager 10.0 LTS, modernizing the identity governance experience with browser-based administration, AI-",
-        "cve": []
-    },
-    {
-        "title": "AI-Powered Malware Analysis: From Hidden Phishing Attacks to Faster SOC Response",
-        "date": "Tue, 10 Nov 2026 15:47:38 +0000",
-        "url": "https://cybersecuritynews.com/ai-powered-malware-analysis/",
-        "source": "CyberSecurityNews",
-        "summary": "A suspicious PDF opens normally. The link inside leads to a CAPTCHA page. Nothing obviously malicious appears, yet the real attack is still several steps away.&#160; For SOC analysts, cases like this ",
+        "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+        "date": "Tue, 10 Nov 2026 21:55:03 +0000",
+        "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+        "source": "krebsonsecurity",
+        "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday ad",
         "cve": []
     },
     {
@@ -309,14 +317,6 @@
         "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
         "source": "krebsonsecurity",
         "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediate",
-        "cve": []
-    },
-    {
-        "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-        "date": "Fri, 25 Sep 2026 21:44:40 +0000",
-        "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-        "source": "krebsonsecurity",
-        "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was senten",
         "cve": []
     },
     {
