@@ -1,5 +1,69 @@
 [
     {
+        "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+        "date": "Thu, 12 Nov 2026 14:12:55 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+        "source": "BleepingComputer",
+        "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+        "cve": []
+    },
+    {
+        "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+        "date": "Thu, 12 Nov 2026 11:04:00 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+        "source": "BleepingComputer",
+        "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+        "cve": []
+    },
+    {
+        "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+        "date": "Thu, 12 Nov 2026 10:07:20 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+        "source": "BleepingComputer",
+        "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+        "cve": []
+    },
+    {
+        "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+        "date": "Thu, 12 Nov 2026 10:00:10 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+        "source": "BleepingComputer",
+        "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-c",
+        "cve": []
+    },
+    {
+        "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+        "date": "Thu, 12 Nov 2026 09:36:47 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+        "source": "BleepingComputer",
+        "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+        "date": "Thu, 12 Nov 2026 07:11:11 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft confirms Windows security updates installation issues",
+        "date": "Thu, 12 Nov 2026 05:24:07 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
+        "cve": []
+    },
+    {
+        "title": "Hackers plant GSocket on Linux servers for persistent access",
+        "date": "Thu, 12 Nov 2026 04:38:00 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+        "source": "BleepingComputer",
+        "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [",
+        "cve": []
+    },
+    {
         "title": "Baker Tilly notifies clients of data breach at third-party provider",
         "date": "Wed, 11 Nov 2026 18:01:31 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
@@ -16,147 +80,163 @@
         "cve": []
     },
     {
-        "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-        "date": "Wed, 11 Nov 2026 16:27:40 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-        "source": "BleepingComputer",
-        "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys dur",
-        "cve": []
-    },
-    {
-        "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-        "date": "Wed, 11 Nov 2026 15:54:20 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-        "source": "BleepingComputer",
-        "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
-        "cve": []
-    },
-    {
-        "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-        "date": "Wed, 11 Nov 2026 11:24:18 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-        "source": "BleepingComputer",
-        "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-        "date": "Wed, 11 Nov 2026 10:12:59 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
-        "cve": []
-    },
-    {
-        "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
-        "date": "Wed, 11 Nov 2026 10:01:11 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-        "source": "BleepingComputer",
-        "summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, whe",
-        "cve": []
-    },
-    {
-        "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-        "date": "Wed, 11 Nov 2026 07:32:27 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-        "source": "BleepingComputer",
-        "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerab",
-        "cve": []
-    },
-    {
-        "title": "Microsoft fixes audio issues caused by September security updates",
-        "date": "Wed, 11 Nov 2026 06:18:36 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
-        "cve": []
-    },
-    {
-        "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-        "date": "Wed, 11 Nov 2026 05:12:08 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-        "date": "Wed, 11 Nov 2026 21:42:46 +0530",
-        "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+        "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+        "date": "Thu, 12 Nov 2026 23:37:15 +0530",
+        "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
         "source": "The Hacker News",
-        "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vuln",
+        "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what ",
         "cve": []
     },
     {
-        "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-        "date": "Wed, 11 Nov 2026 21:04:27 +0530",
-        "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+        "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+        "date": "Thu, 12 Nov 2026 23:32:51 +0530",
+        "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
         "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and",
+        "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount",
         "cve": []
     },
     {
-        "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-        "date": "Wed, 11 Nov 2026 19:31:00 +0530",
-        "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+        "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+        "date": "Thu, 12 Nov 2026 23:20:27 +0530",
+        "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
         "source": "The Hacker News",
-        "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research tea",
+        "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.\n\nThe proof of concept, called SignDrop, targets a ",
         "cve": []
     },
     {
-        "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-        "date": "Wed, 11 Nov 2026 17:49:40 +0530",
-        "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+        "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+        "date": "Thu, 12 Nov 2026 21:57:01 +0530",
+        "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
         "source": "The Hacker News",
-        "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the soci",
+        "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.\n\nQuay enables anonymous access by default, and whi",
         "cve": []
     },
     {
-        "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-        "date": "Wed, 11 Nov 2026 17:31:59 +0530",
-        "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+        "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+        "date": "Thu, 12 Nov 2026 21:08:49 +0530",
+        "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
         "source": "The Hacker News",
-        "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us",
+        "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authenticatio",
         "cve": []
     },
     {
-        "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-        "date": "Wed, 11 Nov 2026 17:30:53 +0530",
-        "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+        "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+        "date": "Thu, 12 Nov 2026 20:45:40 +0530",
+        "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
         "source": "The Hacker News",
-        "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach in",
+        "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of ext",
         "cve": []
     },
     {
-        "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-        "date": "Wed, 11 Nov 2026 13:47:53 +0530",
-        "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+        "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+        "date": "Thu, 12 Nov 2026 18:38:28 +0530",
+        "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
         "source": "The Hacker News",
-        "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 7",
+        "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it ha",
         "cve": []
     },
     {
-        "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-        "date": "Wed, 11 Nov 2026 13:19:04 +0530",
-        "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+        "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+        "date": "Thu, 12 Nov 2026 17:39:14 +0530",
+        "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
         "source": "The Hacker News",
-        "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday.",
+        "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\n\nThe company has already applied mitigations agai",
         "cve": []
     },
     {
-        "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-        "date": "Wed, 11 Nov 2026 12:51:05 +0530",
-        "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+        "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+        "date": "Thu, 12 Nov 2026 17:21:43 +0530",
+        "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
         "source": "The Hacker News",
-        "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the mode",
+        "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.\n\n\"Based on our init",
         "cve": []
     },
     {
-        "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-        "date": "Wed, 11 Nov 2026 11:34:02 +0530",
-        "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+        "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+        "date": "Thu, 12 Nov 2026 17:21:31 +0530",
+        "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
         "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulne",
+        "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator design",
+        "cve": []
+    },
+    {
+        "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
+        "date": "Thu, 12 Nov 2026 16:58:22 +0000",
+        "url": "https://cybersecuritynews.com/malware-infrastructure-disrupted/",
+        "source": "CyberSecurityNews",
+        "summary": "Europol and international partners have disrupted infrastructure linked to Gootloader, CastleRAT, and StealC, targeting malware services that support ransomware attacks and data theft. Announced on No",
+        "cve": []
+    },
+    {
+        "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
+        "date": "Thu, 12 Nov 2026 16:53:00 +0000",
+        "url": "https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/",
+        "source": "CyberSecurityNews",
+        "summary": "New exploit code for N-able N-central has raised fresh concerns after researchers reported that servers running the latest emergency hotfix remain exposed. Published late on November 11, the tools, na",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Teams Outage Hits Users in North America",
+        "date": "Thu, 12 Nov 2026 16:44:18 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-teams-outagenorth-america/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is investigating a Microsoft Teams outage affecting users in North America, with automated recovery measures now reducing the disruption. The company is tracking the incident under TM1550488",
+        "cve": []
+    },
+    {
+        "title": "When Attackers Move at AI Speed, How Can Your SOC Keep Up?",
+        "date": "Thu, 12 Nov 2026 16:15:30 +0000",
+        "url": "https://cybersecuritynews.com/when-attackers-move-at-ai-speed-how-can-your-soc-keep-up/",
+        "source": "CyberSecurityNews",
+        "summary": "Artificial intelligence is changing the cybersecurity landscape at an unprecedented pace. While enterprises are using AI to improve efficiency, cybercriminals are finding new ways to automate attacks,",
+        "cve": []
+    },
+    {
+        "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+        "date": "Thu, 12 Nov 2026 14:25:32 +0000",
+        "url": "https://cybersecuritynews.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
+        "source": "CyberSecurityNews",
+        "summary": "San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nD",
+        "cve": []
+    },
+    {
+        "title": "CISA Confirms Active Exploitation of Outlook User Interaction 0-Day Vulnerability",
+        "date": "Thu, 12 Nov 2026 14:11:54 +0000",
+        "url": "https://cybersecuritynews.com/active-exploitation-of-outlook-0-day-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has confirmed active exploitation of a Microsoft Outlook zero-day vulnerability CVE-2026-124194 that can expose user authentication data. Acco",
+        "cve": []
+    },
+    {
+        "title": "Critical Red Hat Quay Vulnerability Allows Unauthenticated Attackers to Hijack Container Registries",
+        "date": "Thu, 12 Nov 2026 13:57:37 +0000",
+        "url": "https://cybersecuritynews.com/red-hat-quay-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A critical flaw in Red Hat Quay lets anyone who can reach a registry&#8217;s key server take over its token signing. The bug is tracked as CVE-2026-123710 and carries a CVSS score of 9.8, according to",
+        "cve": []
+    },
+    {
+        "title": "AWS MCP Gateway Security Flaw Allowing Access to Internal Networks and Cloud Credentials",
+        "date": "Thu, 12 Nov 2026 13:51:59 +0000",
+        "url": "https://cybersecuritynews.com/aws-mcp-gateway-security-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "AWS has fixed a server-side request forgery flaw in mcp-gateway-registry that could let an authenticated attacker reach internal services through the gateway. Tracked as CVE-2026-125926, the issue aff",
+        "cve": []
+    },
+    {
+        "title": "Qilin Ransomware Admin Identified as 36-Year-Old Russian Hacker After Cybercrime Probe",
+        "date": "Thu, 12 Nov 2026 13:42:39 +0000",
+        "url": "https://cybersecuritynews.com/qilin-ransomware-admin-identified/",
+        "source": "CyberSecurityNews",
+        "summary": "A cybercrime investigation has linked the administrator of Qilin ransomware to Aleksey Mikhailovich Yakovtsev, a 36-year-old man living in St. Petersburg, Russia. Published by KrebsOnSecurity on Novem",
+        "cve": []
+    },
+    {
+        "title": "Lenovo Warns of High-Severity Server Flaw That Restores Default Root Credentials After Reset",
+        "date": "Thu, 12 Nov 2026 13:37:44 +0000",
+        "url": "https://cybersecuritynews.com/lenovo-server-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "Lenovo has disclosed a high-severity security flaw in ThinkSystem V4 server management firmware that restores a default OpenBMC root password after a factory reset. Tracked as CVE-2026-81936, the issu",
         "cve": []
     },
     {
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "Intel Continues Enabling The GPU D-Series \"Crescent Island\" Driver Support For Linux 7.5",
-        "date": "Wed, 11 Nov 2026 16:04:00 -0500",
-        "url": "https://www.phoronix.com/news/More-Intel-D-Series-Linux-7.5",
-        "source": "Phoronix",
-        "summary": "Intel's intriguing Crescent Island Xe3P-based AI accelerator hardware now known as the Intel GPU D Series continues seeing a lot of Linux kernel driver activity. The upcoming Linux 7.5 kernel is conti",
+        "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+        "date": "Thu, 12 Nov 2026 14:23:46 +0000",
+        "url": "https://gbhackers.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
+        "source": "GBHackers",
+        "summary": "San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nD",
         "cve": []
     },
     {
-        "title": "AMD EPYC 9006 Venice vs. NVIDIA Vera Benchmarks For HPC Performance",
-        "date": "Wed, 11 Nov 2026 10:44:41 -0500",
-        "url": "https://www.phoronix.com/review/amd-venice-nvidia-vera",
-        "source": "Phoronix",
-        "summary": "Yesterday in the AMD EPYC 9006 \"Venice\" SP7 launch testing were reviews of the AMD EPYC 9996 256-core processor as well as the EPYC 9686F 96-core high frequency part. There were hundreds of benchmarks",
+        "title": "CISA Warns of Actively Exploited Microsoft Outlook Zero-Day Vulnerability",
+        "date": "Thu, 12 Nov 2026 13:32:25 +0000",
+        "url": "https://gbhackers.com/cisa-warns-of-microsoft-outlook-zero-day-vulnerability/",
+        "source": "GBHackers",
+        "summary": "The Cybersecurity and Infrastructure Security Agency has added CVE-2026-124194, an actively exploited Microsoft Outlook spoofing vulnerability, to its Known Exploited Vulnerabilities catalog. Added on",
         "cve": []
     },
     {
-        "title": "Initial AMD RDNA5/GFX13 Code Sent Out For Mesa RADV & RadeonSI Drivers",
-        "date": "Wed, 11 Nov 2026 07:18:36 -0500",
-        "url": "https://www.phoronix.com/news/AMD-GFX13-Initial-Mesa",
-        "source": "Phoronix",
-        "summary": "After AMD posted GFX13 patches for the AMDGPU Linux driver earlier in the week, today they opened the Mesa merge request for introducing the very primitive GFX13 support for the RADV Vulkan and Radeon",
+        "title": "ESET Blocks Over 700,000 Cruciferra Malware Attacks Using Advanced Encryption to Evade Antivirus Detection",
+        "date": "Thu, 12 Nov 2026 13:30:15 +0000",
+        "url": "https://gbhackers.com/cruciferra-malware-attacks/",
+        "source": "GBHackers",
+        "summary": "ESET says it has blocked more than 700,000 compromise attempts linked to Cruciferra since January 2026. Türkiye, Greece and Spain were the most affected countries. A crypter wraps a malicious payload ",
         "cve": []
     },
     {
-        "title": "FreeBSD Working To Establish An AI Policy After Polling Developers",
-        "date": "Wed, 11 Nov 2026 06:30:00 -0500",
-        "url": "https://www.phoronix.com/news/FreeBSD-Q3-2026-Report",
-        "source": "Phoronix",
-        "summary": "The FreeBSD Project published its Q3'2026 status report on Tuesday that outlines a number of development initiatives to ongoing work around an AI policy for this BSD operating system...",
+        "title": "Global Scam Networks Use AI, Deepfakes, and Crypto to Steal Billions From Victims, FATF Warns",
+        "date": "Thu, 12 Nov 2026 13:20:07 +0000",
+        "url": "https://gbhackers.com/global-scam-networks/",
+        "source": "GBHackers",
+        "summary": "Global scam networks are using artificial intelligence, deepfakes, and cryptocurrency infrastructure to industrialize fraud, inflicting tens of billions of dollars in annual losses, the Financial Acti",
         "cve": []
     },
     {
-        "title": "ATI/AMD R300 To R500 GPUs See New 2026 OpenGL Linux Driver Optimizations",
-        "date": "Wed, 11 Nov 2026 06:01:52 -0500",
-        "url": "https://www.phoronix.com/news/AMD-R300g-Better-Shaders-2026",
-        "source": "Phoronix",
-        "summary": "Over 24 years old, the ATI (AMD) Radeon R300 graphics processors are still seeing improvements in the open-source Linux driver space. Merged to Mesa 27.0-devel this week were a number of shader compil",
+        "title": "Critical MongoDB Use-After-Free Vulnerability Allows Remote Code Execution Without Authentication",
+        "date": "Thu, 12 Nov 2026 12:24:27 +0000",
+        "url": "https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/",
+        "source": "GBHackers",
+        "summary": "MongoDB has patched a critical use-after-free flaw, tracked as CVE-2026-118383 with a CVSS score of 9.5, that unauthenticated attackers can exploit over the network. The company found the bug internal",
         "cve": []
     },
     {
-        "title": "AMD AOCC 6.0 Brings Zen 6 Optimizations, New \"aof\" Fortran Compiler, aoc / aoc++ Branding",
-        "date": "Wed, 11 Nov 2026 05:54:19 -0500",
-        "url": "https://www.phoronix.com/news/AMD-AOCC-6.0-Released",
-        "source": "Phoronix",
-        "summary": "With yesterday's launch availability of the AMD EPYC 9006 \"Venice\" SP7 processors headlined by the incredibly fast EPYC 9996 and EPYC 9686F processors, AMD also launched AOCC 6.0 as the newest version",
+        "title": "Google Chrome Fixes 83 Security Flaws, Including 5 Critical Use-After-Free Vulnerabilities",
+        "date": "Thu, 12 Nov 2026 12:06:39 +0000",
+        "url": "https://gbhackers.com/google-chrome-fixes-83-security-flaws/",
+        "source": "GBHackers",
+        "summary": "Google released a Chrome desktop security update that addresses 83 vulnerabilities, including five critical use-after-free flaws affecting ServiceWorker, CSS, Layout, Skia, and Accessibility. Publishe",
         "cve": []
     },
     {
-        "title": "Intel Releases New CPU Microcode To Fix A Variety Of Functional Issues",
-        "date": "Wed, 11 Nov 2026 05:41:00 -0500",
-        "url": "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110",
-        "source": "Phoronix",
-        "summary": "Intel on Tuesday released the microcode-20261110 package that ships updated CPU microcode binaries for recent Intel Core (Ultra) and Xeon processors. The updated CPU microcode is for Core Gen 13 \"Rapt",
+        "title": "AntiFox AI Agents Linked to AWS Attacks That Exposed Production Secrets and Compromised Web Servers",
+        "date": "Thu, 12 Nov 2026 11:47:43 +0000",
+        "url": "https://gbhackers.com/antifox-ai-agents/",
+        "source": "GBHackers",
+        "summary": "Attackers are using AntiFox, an agentic AI penetration-testing framework derived from ARTEX, to target internet-facing web applications and AWS environments. Reported on November 11, the findings foll",
         "cve": []
     },
     {
-        "title": "Haiku OS Now Has A UFS Driver, Two & Three Finger Tap Gestures",
-        "date": "Wed, 11 Nov 2026 05:26:00 -0500",
-        "url": "https://www.phoronix.com/news/Haiku-OS-October-2026",
-        "source": "Phoronix",
-        "summary": "The BeOS-inspired Haiku open-source operating system project has seen new work on drivers and other improvements during the course of October...",
+        "title": "State-Sponsored Hackers Deploy Up to 8 AI Agents to Target Taiwanese Government Systems",
+        "date": "Thu, 12 Nov 2026 11:10:57 +0000",
+        "url": "https://gbhackers.com/ai-agents-target-taiwan/",
+        "source": "GBHackers",
+        "summary": "A campaign against Taiwanese government entities used up to eight AI agents with limited human intervention. Recorded Future points to research describing the framework behind the attacks. Dream&#8217",
         "cve": []
     },
     {
-        "title": "Ubuntu 26.10 Begins Rolling Out upki Support For Certificate Revocation",
-        "date": "Tue, 10 Nov 2026 20:43:13 -0500",
-        "url": "https://www.phoronix.com/news/Ubuntu-26.10-Does-upki",
-        "source": "Phoronix",
-        "summary": "With Ubuntu 26.10 that shipped in October there is a little talked about feature with upki revocation support beginning to roll out. Due to the late change, upki for certificate revocation was only en",
+        "title": "PoC Exploit Released for Critical Cisco Expressway RCE Vulnerability With CVSS 9.8 Score",
+        "date": "Thu, 12 Nov 2026 10:53:36 +0000",
+        "url": "https://gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce/",
+        "source": "GBHackers",
+        "summary": "A public proof-of-concept exploit is now available for CVE-2026-76466, a critical flaw in Cisco Expressway that lets an unauthenticated attacker run commands as root. Cisco published its advisory on O",
         "cve": []
     },
     {
-        "title": "AMD EPYC 9996 Benchmarks Show Unparalleled Performance With 256 Zen 6C Cores",
-        "date": "Tue, 10 Nov 2026 12:00:04 -0500",
-        "url": "https://www.phoronix.com/review/amd-epyc-9996",
-        "source": "Phoronix",
-        "summary": "Back in July AMD announced the EPYC 9006 \"Venice\" series at their Advancing AI event. Today they are announcing EPYC 9006 series Socket SP7 processor availability and with systems beginning to ship to",
+        "title": "Palo Alto Networks Patches PAN-OS Vulnerability Allowing Remote Code Execution With Root Privileges",
+        "date": "Thu, 12 Nov 2026 10:34:34 +0000",
+        "url": "https://gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability/",
+        "source": "GBHackers",
+        "summary": "Palo Alto Networks has released fixes for CVE-2026-0330, a remote code execution vulnerability affecting PAN-OS software running on Panorama. The flaw allows an authenticated administrator with networ",
         "cve": []
     }
 ]
