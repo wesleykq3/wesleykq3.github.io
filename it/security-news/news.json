@@ -1,5 +1,61 @@
 [
     {
+        "title": "German military drone operations disrupted by cyberattack",
+        "date": "Fri, 13 Nov 2026 12:31:56 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+        "source": "BleepingComputer",
+        "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+        "cve": []
+    },
+    {
+        "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+        "date": "Fri, 13 Nov 2026 11:21:43 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+        "source": "BleepingComputer",
+        "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+        "cve": []
+    },
+    {
+        "title": "How one AI agent exposed five critical enterprise security gaps",
+        "date": "Fri, 13 Nov 2026 10:01:11 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+        "source": "BleepingComputer",
+        "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examin",
+        "cve": []
+    },
+    {
+        "title": "Microsoft says November security updates cause printing issues",
+        "date": "Fri, 13 Nov 2026 07:27:40 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+        "cve": []
+    },
+    {
+        "title": "Check Point warns of zero-day flaw exploited for root access",
+        "date": "Fri, 13 Nov 2026 05:44:22 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+        "source": "BleepingComputer",
+        "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since lat",
+        "cve": []
+    },
+    {
+        "title": "Microsoft confirms Windows activation failures after November updates",
+        "date": "Fri, 13 Nov 2026 04:36:18 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+        "cve": []
+    },
+    {
+        "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+        "date": "Fri, 13 Nov 2026 03:34:20 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+        "source": "BleepingComputer",
+        "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+        "cve": []
+    },
+    {
         "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
         "date": "Thu, 12 Nov 2026 17:53:10 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
@@ -24,59 +80,75 @@
         "cve": []
     },
     {
-        "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-        "date": "Thu, 12 Nov 2026 14:51:16 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-        "source": "BleepingComputer",
-        "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at",
+        "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+        "date": "Fri, 13 Nov 2026 22:23:08 +0530",
+        "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+        "source": "The Hacker News",
+        "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this",
         "cve": []
     },
     {
-        "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-        "date": "Thu, 12 Nov 2026 14:12:55 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-        "source": "BleepingComputer",
-        "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+        "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+        "date": "Fri, 13 Nov 2026 20:57:05 +0530",
+        "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+        "source": "The Hacker News",
+        "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can al",
         "cve": []
     },
     {
-        "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-        "date": "Thu, 12 Nov 2026 11:04:00 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-        "source": "BleepingComputer",
-        "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+        "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+        "date": "Fri, 13 Nov 2026 19:58:58 +0530",
+        "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of c",
         "cve": []
     },
     {
-        "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-        "date": "Thu, 12 Nov 2026 10:07:20 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-        "source": "BleepingComputer",
-        "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+        "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+        "date": "Fri, 13 Nov 2026 19:24:20 +0530",
+        "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+        "source": "The Hacker News",
+        "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe impl",
         "cve": []
     },
     {
-        "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-        "date": "Thu, 12 Nov 2026 10:00:10 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-        "source": "BleepingComputer",
-        "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-c",
+        "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+        "date": "Fri, 13 Nov 2026 17:22:31 +0530",
+        "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+        "source": "The Hacker News",
+        "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make ",
         "cve": []
     },
     {
-        "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-        "date": "Thu, 12 Nov 2026 09:36:47 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-        "source": "BleepingComputer",
-        "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
+        "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+        "date": "Fri, 13 Nov 2026 16:40:40 +0530",
+        "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+        "source": "The Hacker News",
+        "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software c",
         "cve": []
     },
     {
-        "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-        "date": "Thu, 12 Nov 2026 07:11:11 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
+        "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+        "date": "Fri, 13 Nov 2026 16:25:03 +0530",
+        "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+        "source": "The Hacker News",
+        "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch r",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+        "date": "Fri, 13 Nov 2026 13:35:49 +0530",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+        "source": "The Hacker News",
+        "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+        "date": "Fri, 13 Nov 2026 11:13:28 +0530",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+        "source": "The Hacker News",
+        "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.\n\n\"We are restricting certain N-central fea",
         "cve": []
     },
     {
@@ -85,158 +157,6 @@
         "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
         "source": "The Hacker News",
         "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what ",
-        "cve": []
-    },
-    {
-        "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-        "date": "Thu, 12 Nov 2026 23:32:51 +0530",
-        "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-        "source": "The Hacker News",
-        "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount",
-        "cve": []
-    },
-    {
-        "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-        "date": "Thu, 12 Nov 2026 23:20:27 +0530",
-        "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-        "source": "The Hacker News",
-        "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.\n\nThe proof of concept, called SignDrop, targets a ",
-        "cve": []
-    },
-    {
-        "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-        "date": "Thu, 12 Nov 2026 21:57:01 +0530",
-        "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-        "source": "The Hacker News",
-        "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.\n\nQuay enables anonymous access by default, and whi",
-        "cve": []
-    },
-    {
-        "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-        "date": "Thu, 12 Nov 2026 21:08:49 +0530",
-        "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-        "source": "The Hacker News",
-        "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authenticatio",
-        "cve": []
-    },
-    {
-        "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-        "date": "Thu, 12 Nov 2026 20:45:40 +0530",
-        "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of ext",
-        "cve": []
-    },
-    {
-        "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-        "date": "Thu, 12 Nov 2026 18:38:28 +0530",
-        "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-        "source": "The Hacker News",
-        "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it ha",
-        "cve": []
-    },
-    {
-        "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-        "date": "Thu, 12 Nov 2026 17:39:14 +0530",
-        "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-        "source": "The Hacker News",
-        "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\n\nThe company has already applied mitigations agai",
-        "cve": []
-    },
-    {
-        "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-        "date": "Thu, 12 Nov 2026 17:21:43 +0530",
-        "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-        "source": "The Hacker News",
-        "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.\n\n\"Based on our init",
-        "cve": []
-    },
-    {
-        "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-        "date": "Thu, 12 Nov 2026 17:21:31 +0530",
-        "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-        "source": "The Hacker News",
-        "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator design",
-        "cve": []
-    },
-    {
-        "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
-        "date": "Fri, 13 Nov 2026 02:14:54 +0000",
-        "url": "https://cybersecuritynews.com/massive-microsoft-365-outage/",
-        "source": "CyberSecurityNews",
-        "summary": "A major Microsoft 365 outage disrupted cloud service access on November 12 and continued into November 13, 2026, as Microsoft worked to restore failing infrastructure. Microsoft confirmed that connect",
-        "cve": []
-    },
-    {
-        "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
-        "date": "Thu, 12 Nov 2026 16:58:22 +0000",
-        "url": "https://cybersecuritynews.com/malware-infrastructure-disrupted/",
-        "source": "CyberSecurityNews",
-        "summary": "Europol and international partners have disrupted infrastructure linked to Gootloader, CastleRAT, and StealC, targeting malware services that support ransomware attacks and data theft. Announced on No",
-        "cve": []
-    },
-    {
-        "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
-        "date": "Thu, 12 Nov 2026 16:53:00 +0000",
-        "url": "https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/",
-        "source": "CyberSecurityNews",
-        "summary": "New exploit code for N-able N-central has raised fresh concerns after researchers reported that servers running the latest emergency hotfix remain exposed. Published late on November 11, the tools, na",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Teams Outage Hits Users in North America",
-        "date": "Thu, 12 Nov 2026 16:44:18 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-teams-outagenorth-america/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft is investigating a Microsoft Teams outage affecting users in North America, with automated recovery measures now reducing the disruption. The company is tracking the incident under TM1550488",
-        "cve": []
-    },
-    {
-        "title": "When Attackers Move at AI Speed, How Can Your SOC Keep Up?",
-        "date": "Thu, 12 Nov 2026 16:15:30 +0000",
-        "url": "https://cybersecuritynews.com/when-attackers-move-at-ai-speed-how-can-your-soc-keep-up/",
-        "source": "CyberSecurityNews",
-        "summary": "Artificial intelligence is changing the cybersecurity landscape at an unprecedented pace. While enterprises are using AI to improve efficiency, cybercriminals are finding new ways to automate attacks,",
-        "cve": []
-    },
-    {
-        "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
-        "date": "Thu, 12 Nov 2026 14:25:32 +0000",
-        "url": "https://cybersecuritynews.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
-        "source": "CyberSecurityNews",
-        "summary": "San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nD",
-        "cve": []
-    },
-    {
-        "title": "CISA Confirms Active Exploitation of Outlook User Interaction 0-Day Vulnerability",
-        "date": "Thu, 12 Nov 2026 14:11:54 +0000",
-        "url": "https://cybersecuritynews.com/active-exploitation-of-outlook-0-day-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has confirmed active exploitation of a Microsoft Outlook zero-day vulnerability CVE-2026-124194 that can expose user authentication data. Acco",
-        "cve": []
-    },
-    {
-        "title": "Critical Red Hat Quay Vulnerability Allows Unauthenticated Attackers to Hijack Container Registries",
-        "date": "Thu, 12 Nov 2026 13:57:37 +0000",
-        "url": "https://cybersecuritynews.com/red-hat-quay-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A critical flaw in Red Hat Quay lets anyone who can reach a registry&#8217;s key server take over its token signing. The bug is tracked as CVE-2026-123710 and carries a CVSS score of 9.8, according to",
-        "cve": []
-    },
-    {
-        "title": "AWS MCP Gateway Security Flaw Allowing Access to Internal Networks and Cloud Credentials",
-        "date": "Thu, 12 Nov 2026 13:51:59 +0000",
-        "url": "https://cybersecuritynews.com/aws-mcp-gateway-security-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "AWS has fixed a server-side request forgery flaw in mcp-gateway-registry that could let an authenticated attacker reach internal services through the gateway. Tracked as CVE-2026-125926, the issue aff",
-        "cve": []
-    },
-    {
-        "title": "Qilin Ransomware Admin Identified as 36-Year-Old Russian Hacker After Cybercrime Probe",
-        "date": "Thu, 12 Nov 2026 13:42:39 +0000",
-        "url": "https://cybersecuritynews.com/qilin-ransomware-admin-identified/",
-        "source": "CyberSecurityNews",
-        "summary": "A cybercrime investigation has linked the administrator of Qilin ransomware to Aleksey Mikhailovich Yakovtsev, a 36-year-old man living in St. Petersburg, Russia. Published by KrebsOnSecurity on Novem",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
-        "date": "Thu, 12 Nov 2026 14:23:46 +0000",
-        "url": "https://gbhackers.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
-        "source": "GBHackers",
-        "summary": "San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nD",
+        "title": "AMD openSIL Achieves Its Production Goal With 6th Gen EPYC \"Venice\"",
+        "date": "Fri, 13 Nov 2026 13:20:29 -0500",
+        "url": "https://www.phoronix.com/news/AMD-openSIL-Venice-Goal",
+        "source": "Phoronix",
+        "summary": "Since 2023 I and many open-source advocates have been very eager for AMD's openSIL project for delivering open-source CPU silicon initialization as a replacement to the traditional AGESA code. With Ze",
         "cve": []
     },
     {
-        "title": "CISA Warns of Actively Exploited Microsoft Outlook Zero-Day Vulnerability",
-        "date": "Thu, 12 Nov 2026 13:32:25 +0000",
-        "url": "https://gbhackers.com/cisa-warns-of-microsoft-outlook-zero-day-vulnerability/",
-        "source": "GBHackers",
-        "summary": "The Cybersecurity and Infrastructure Security Agency has added CVE-2026-124194, an actively exploited Microsoft Outlook spoofing vulnerability, to its Known Exploited Vulnerabilities catalog. Added on",
+        "title": "KDE Frameworks 6.32 Released With That Fix For USB File Transfer Notifications",
+        "date": "Fri, 13 Nov 2026 12:02:33 -0500",
+        "url": "https://www.phoronix.com/news/KDE-Frameworks-6.32",
+        "source": "Phoronix",
+        "summary": "KDE Frameworks 6.32 shipped today as the newest monthly update to this set of KDE components. Notable this month is a fix for the previously-reported 15 year old bug around inaccurate notifications fo",
         "cve": []
     },
     {
-        "title": "ESET Blocks Over 700,000 Cruciferra Malware Attacks Using Advanced Encryption to Evade Antivirus Detection",
-        "date": "Thu, 12 Nov 2026 13:30:15 +0000",
-        "url": "https://gbhackers.com/cruciferra-malware-attacks/",
-        "source": "GBHackers",
-        "summary": "ESET says it has blocked more than 700,000 compromise attempts linked to Cruciferra since January 2026. Türkiye, Greece and Spain were the most affected countries. A crypter wraps a malicious payload ",
+        "title": "AMD Leverages AI + HRX Loom In Experiment For Quickly Porting 50 LLMs To Client GPUs",
+        "date": "Fri, 13 Nov 2026 10:53:00 -0500",
+        "url": "https://www.phoronix.com/news/AMD-HRX-Loom-Experiment",
+        "source": "Phoronix",
+        "summary": "Following the recent release of HRX Loom v0.1 and leveraging an AI agent workflow, a team at AMD experimented with bringing 50 trending Hugging Face models over to AMD client GPUs. They accomplished t",
         "cve": []
     },
     {
-        "title": "Global Scam Networks Use AI, Deepfakes, and Crypto to Steal Billions From Victims, FATF Warns",
-        "date": "Thu, 12 Nov 2026 13:20:07 +0000",
-        "url": "https://gbhackers.com/global-scam-networks/",
-        "source": "GBHackers",
-        "summary": "Global scam networks are using artificial intelligence, deepfakes, and cryptocurrency infrastructure to industrialize fraud, inflicting tens of billions of dollars in annual losses, the Financial Acti",
+        "title": "Linux 7.5 To Include New hwpoison-panic Tool For Intentionally Crashing Your System",
+        "date": "Fri, 13 Nov 2026 10:26:14 -0500",
+        "url": "https://www.phoronix.com/news/Linux-7.5-hwpoison-panic",
+        "source": "Phoronix",
+        "summary": "A new tool expected to be merged to the Linux 7.5 source tree provides a new exercise for the kernel and in the process bringing down the system...",
         "cve": []
     },
     {
-        "title": "Critical MongoDB Use-After-Free Vulnerability Allows Remote Code Execution Without Authentication",
-        "date": "Thu, 12 Nov 2026 12:24:27 +0000",
-        "url": "https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/",
-        "source": "GBHackers",
-        "summary": "MongoDB has patched a critical use-after-free flaw, tracked as CVE-2026-118383 with a CVSS score of 9.5, that unauthenticated attackers can exploit over the network. The company found the bug internal",
+        "title": "AMD AOCL 6.0 Introduces New RNG Library, Initial Zen 6 CPU Optimizations",
+        "date": "Fri, 13 Nov 2026 09:43:17 -0500",
+        "url": "https://www.phoronix.com/news/AMD-AOCL-6.0",
+        "source": "Phoronix",
+        "summary": "In addition to AOCC 6.0 releasing this week as their updated C/C++ compiler along with the new \"AOF\" Fortran compiler, AMD also released AOCL 6.0 as the AMD Optimizing CPU Libraries...",
         "cve": []
     },
     {
-        "title": "Google Chrome Fixes 83 Security Flaws, Including 5 Critical Use-After-Free Vulnerabilities",
-        "date": "Thu, 12 Nov 2026 12:06:39 +0000",
-        "url": "https://gbhackers.com/google-chrome-fixes-83-security-flaws/",
-        "source": "GBHackers",
-        "summary": "Google released a Chrome desktop security update that addresses 83 vulnerabilities, including five critical use-after-free flaws affecting ServiceWorker, CSS, Layout, Skia, and Accessibility. Publishe",
+        "title": "XRAID Publicly Released As New RAID Implementation For XFS",
+        "date": "Fri, 13 Nov 2026 08:22:22 -0500",
+        "url": "https://www.phoronix.com/news/XRAID-XFS-RAID",
+        "source": "Phoronix",
+        "summary": "Longtime Linux developer Christoph Hellwig today announced the initial public release of XRAID. XRAID is a declustered parity RAID implementation integrated into the XFS file-system. XRAID is focused ",
         "cve": []
     },
     {
-        "title": "AntiFox AI Agents Linked to AWS Attacks That Exposed Production Secrets and Compromised Web Servers",
-        "date": "Thu, 12 Nov 2026 11:47:43 +0000",
-        "url": "https://gbhackers.com/antifox-ai-agents/",
-        "source": "GBHackers",
-        "summary": "Attackers are using AntiFox, an agentic AI penetration-testing framework derived from ARTEX, to target internet-facing web applications and AWS environments. Reported on November 11, the findings foll",
+        "title": "Linux 7.5 To Upstream Driver For New Glanda GPU",
+        "date": "Fri, 13 Nov 2026 07:55:37 -0500",
+        "url": "https://www.phoronix.com/news/Linux-7.5-GlandaGPU-Driver",
+        "source": "Phoronix",
+        "summary": "Sent out today was the drm-misc-next pull request for the week of new material to queue in DRM-Next until the Linux 7.5 merge window gets underway in late December. Most notable this week is the intro",
         "cve": []
     },
     {
-        "title": "State-Sponsored Hackers Deploy Up to 8 AI Agents to Target Taiwanese Government Systems",
-        "date": "Thu, 12 Nov 2026 11:10:57 +0000",
-        "url": "https://gbhackers.com/ai-agents-target-taiwan/",
-        "source": "GBHackers",
-        "summary": "A campaign against Taiwanese government entities used up to eight AI agents with limited human intervention. Recorded Future points to research describing the framework behind the attacks. Dream&#8217",
+        "title": "Intel Posts Initial GCC Compiler Code For Razor Lake & Coral Rapids",
+        "date": "Fri, 13 Nov 2026 06:29:00 -0500",
+        "url": "https://www.phoronix.com/news/Intel-GCC-Coral-Rapids-Razor",
+        "source": "Phoronix",
+        "summary": "One of the consistent wonderful praise I have for Intel over the past 22+ years of covering the Linux hardware scene has been their upstreaming of new CPU targets into the open-source compilers like G",
         "cve": []
     },
     {
-        "title": "PoC Exploit Released for Critical Cisco Expressway RCE Vulnerability With CVSS 9.8 Score",
-        "date": "Thu, 12 Nov 2026 10:53:36 +0000",
-        "url": "https://gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce/",
-        "source": "GBHackers",
-        "summary": "A public proof-of-concept exploit is now available for CVE-2026-76466, a critical flaw in Cisco Expressway that lets an unauthenticated attacker run commands as root. Cisco published its advisory on O",
+        "title": "NVIDIA Highlights Their Open-Source vGPU Upstreaming Work Built Atop Nova",
+        "date": "Fri, 13 Nov 2026 06:09:59 -0500",
+        "url": "https://www.phoronix.com/news/NVIDIA-Upstream-vGPU-Nova",
+        "source": "Phoronix",
+        "summary": "The Rust-based NVIDIA Linux kernel driver \"Nova\" is set to take on an important role in the official NVIDIA Linux driver stack of the future. This mainline kernel driver continues seeing a flurry of a",
         "cve": []
     },
     {
-        "title": "Palo Alto Networks Patches PAN-OS Vulnerability Allowing Remote Code Execution With Root Privileges",
-        "date": "Thu, 12 Nov 2026 10:34:34 +0000",
-        "url": "https://gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability/",
-        "source": "GBHackers",
-        "summary": "Palo Alto Networks has released fixes for CVE-2026-0330, a remote code execution vulnerability affecting PAN-OS software running on Panorama. The flaw allows an authenticated administrator with networ",
+        "title": "Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves",
+        "date": "Fri, 13 Nov 2026 05:51:34 -0500",
+        "url": "https://www.phoronix.com/news/Dasharo-ACPI-Fan-Control-Driver",
+        "source": "Phoronix",
+        "summary": "The 3mdeb consulting firm that has ported their Coreboot-based open-source firmware stack to the likes of an AMD Ryzen AM5 motherboard from MSI and a Gigabyte EPYC server motherboard, among others, ha",
         "cve": []
     }
 ]
