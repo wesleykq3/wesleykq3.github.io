@@ -1,5 +1,37 @@
 [
     {
+        "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+        "date": "Thu, 12 Nov 2026 17:53:10 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+        "source": "BleepingComputer",
+        "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP techni",
+        "cve": []
+    },
+    {
+        "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+        "date": "Thu, 12 Nov 2026 17:25:30 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+        "source": "BleepingComputer",
+        "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+        "cve": []
+    },
+    {
+        "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+        "date": "Thu, 12 Nov 2026 15:15:16 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
+        "cve": []
+    },
+    {
+        "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+        "date": "Thu, 12 Nov 2026 14:51:16 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+        "source": "BleepingComputer",
+        "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at",
+        "cve": []
+    },
+    {
         "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
         "date": "Thu, 12 Nov 2026 14:12:55 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
@@ -45,38 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
         "source": "BleepingComputer",
         "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft confirms Windows security updates installation issues",
-        "date": "Thu, 12 Nov 2026 05:24:07 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers plant GSocket on Linux servers for persistent access",
-        "date": "Thu, 12 Nov 2026 04:38:00 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-        "source": "BleepingComputer",
-        "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [",
-        "cve": []
-    },
-    {
-        "title": "Baker Tilly notifies clients of data breach at third-party provider",
-        "date": "Wed, 11 Nov 2026 18:01:31 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-        "source": "BleepingComputer",
-        "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
-        "cve": []
-    },
-    {
-        "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-        "date": "Wed, 11 Nov 2026 17:56:21 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-        "source": "BleepingComputer",
-        "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer de",
         "cve": []
     },
     {
@@ -160,6 +160,14 @@
         "cve": []
     },
     {
+        "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
+        "date": "Fri, 13 Nov 2026 02:14:54 +0000",
+        "url": "https://cybersecuritynews.com/massive-microsoft-365-outage/",
+        "source": "CyberSecurityNews",
+        "summary": "A major Microsoft 365 outage disrupted cloud service access on November 12 and continued into November 13, 2026, as Microsoft worked to restore failing infrastructure. Microsoft confirmed that connect",
+        "cve": []
+    },
+    {
         "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
         "date": "Thu, 12 Nov 2026 16:58:22 +0000",
         "url": "https://cybersecuritynews.com/malware-infrastructure-disrupted/",
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/qilin-ransomware-admin-identified/",
         "source": "CyberSecurityNews",
         "summary": "A cybercrime investigation has linked the administrator of Qilin ransomware to Aleksey Mikhailovich Yakovtsev, a 36-year-old man living in St. Petersburg, Russia. Published by KrebsOnSecurity on Novem",
-        "cve": []
-    },
-    {
-        "title": "Lenovo Warns of High-Severity Server Flaw That Restores Default Root Credentials After Reset",
-        "date": "Thu, 12 Nov 2026 13:37:44 +0000",
-        "url": "https://cybersecuritynews.com/lenovo-server-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Lenovo has disclosed a high-severity security flaw in ThinkSystem V4 server management firmware that restores a default OpenBMC root password after a factory reset. Tracked as CVE-2026-81936, the issu",
         "cve": []
     },
     {

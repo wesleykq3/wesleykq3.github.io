@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-12T19:13:37.936198",
+    "timestamp": "2026-11-13T03:43:09.780779",
     "services": [
         {
             "service": "OpenAI",
@@ -10,7 +10,7 @@
         {
             "service": "Claude",
             "status": "minor",
-            "description": "Minor Service Outage",
+            "description": "Partially Degraded Service",
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
@@ -23,14 +23,14 @@
         {
             "service": "Grok / xAI",
             "status": "unknown",
-            "description": "xAI Status Page",
+            "description": "403 Client Error: Forbidden for url: https://status.x.ai/",
             "url": "https://status.x.ai/"
         }
     ],
     "claude_components": [
         {
             "name": "claude.ai",
-            "status": "partial_outage"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude Platform on AWS",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Claude Cowork",
-            "status": "partial_outage"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude for Government",
