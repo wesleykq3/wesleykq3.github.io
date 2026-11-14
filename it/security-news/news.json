@@ -1,5 +1,13 @@
 [
     {
+        "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+        "date": "Fri, 13 Nov 2026 14:38:36 -0500",
+        "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+        "source": "BleepingComputer",
+        "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery",
+        "cve": []
+    },
+    {
         "title": "German military drone operations disrupted by cyberattack",
         "date": "Fri, 13 Nov 2026 12:31:56 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
         "source": "BleepingComputer",
         "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
-        "cve": []
-    },
-    {
-        "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-        "date": "Thu, 12 Nov 2026 15:15:16 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
         "cve": []
     },
     {
@@ -240,6 +240,22 @@
         "cve": []
     },
     {
+        "title": "Wine 11.22 Introduces x86 AVX Emulation On ARM64",
+        "date": "Fri, 13 Nov 2026 20:35:04 -0500",
+        "url": "https://www.phoronix.com/news/Wine-11.22-Released",
+        "source": "Phoronix",
+        "summary": "Wine 11.22 is out today as the latest bi-weekly development release and inching quite closely toward the Wine 12.0 stable release preparations...",
+        "cve": []
+    },
+    {
+        "title": "Cloudflare Open Sources Kitesurf: Their Web Browser For AI Agents",
+        "date": "Fri, 13 Nov 2026 16:07:09 -0500",
+        "url": "https://www.phoronix.com/news/Cloudflare-Kitesurf-Open-Source",
+        "source": "Phoronix",
+        "summary": "Earlier this year Cloudflare announced Kitesurf as a stateless web browser for AI agents. After building out its features, they have now made good on their word to open-source it...",
+        "cve": []
+    },
+    {
         "title": "AMD openSIL Achieves Its Production Goal With 6th Gen EPYC \"Venice\"",
         "date": "Fri, 13 Nov 2026 13:20:29 -0500",
         "url": "https://www.phoronix.com/news/AMD-openSIL-Venice-Goal",
@@ -301,22 +317,6 @@
         "url": "https://www.phoronix.com/news/Intel-GCC-Coral-Rapids-Razor",
         "source": "Phoronix",
         "summary": "One of the consistent wonderful praise I have for Intel over the past 22+ years of covering the Linux hardware scene has been their upstreaming of new CPU targets into the open-source compilers like G",
-        "cve": []
-    },
-    {
-        "title": "NVIDIA Highlights Their Open-Source vGPU Upstreaming Work Built Atop Nova",
-        "date": "Fri, 13 Nov 2026 06:09:59 -0500",
-        "url": "https://www.phoronix.com/news/NVIDIA-Upstream-vGPU-Nova",
-        "source": "Phoronix",
-        "summary": "The Rust-based NVIDIA Linux kernel driver \"Nova\" is set to take on an important role in the official NVIDIA Linux driver stack of the future. This mainline kernel driver continues seeing a flurry of a",
-        "cve": []
-    },
-    {
-        "title": "Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves",
-        "date": "Fri, 13 Nov 2026 05:51:34 -0500",
-        "url": "https://www.phoronix.com/news/Dasharo-ACPI-Fan-Control-Driver",
-        "source": "Phoronix",
-        "summary": "The 3mdeb consulting firm that has ported their Coreboot-based open-source firmware stack to the likes of an AMD Ryzen AM5 motherboard from MSI and a Gigabyte EPYC server motherboard, among others, ha",
         "cve": []
     }
 ]

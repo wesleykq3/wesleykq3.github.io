@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-13T18:49:54.080428",
+    "timestamp": "2026-11-14T03:41:24.030362",
     "services": [
         {
             "service": "OpenAI",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Claude Cowork",
-            "status": "degraded_performance"
+            "status": "operational"
         },
         {
             "name": "Claude for Government",
