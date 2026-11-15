@@ -1,5 +1,13 @@
 [
     {
+        "title": "Cursor confirms security breach led to malicious Claude Code extension",
+        "date": "Sat, 14 Nov 2026 12:27:25 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+        "source": "BleepingComputer",
+        "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Firework",
+        "cve": []
+    },
+    {
         "title": "US disrupts North Korean campaign behind $400 million crypto theft",
         "date": "Sat, 14 Nov 2026 10:15:49 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
         "source": "BleepingComputer",
         "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
-        "cve": []
-    },
-    {
-        "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-        "date": "Thu, 12 Nov 2026 17:53:10 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-        "source": "BleepingComputer",
-        "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP techni",
         "cve": []
     },
     {
