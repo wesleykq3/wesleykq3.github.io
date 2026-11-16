@@ -1,5 +1,13 @@
 [
     {
+        "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+        "date": "Sun, 15 Nov 2026 13:29:53 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+        "source": "BleepingComputer",
+        "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain",
+        "cve": []
+    },
+    {
         "title": "TSMC employee data breach linked to cloud provider",
         "date": "Sun, 15 Nov 2026 10:23:48 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
         "source": "BleepingComputer",
         "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since lat",
-        "cve": []
-    },
-    {
-        "title": "Microsoft confirms Windows activation failures after November updates",
-        "date": "Fri, 13 Nov 2026 04:36:18 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
         "cve": []
     },
     {
@@ -160,6 +160,86 @@
         "cve": []
     },
     {
+        "title": "Claude Cracks 32-Year-Old Jeep ECU Using a $3 Arduino and Reverse Engineers Its Engine Computer",
+        "date": "Mon, 16 Nov 2026 02:09:56 +0000",
+        "url": "https://cybersecuritynews.com/claude-cracks-32-year-old-jeep-ecu/",
+        "source": "CyberSecurityNews",
+        "summary": "A car owner says an AI coding agent helped him read, copy, and then run code inside the engine computer of a 1994 Jeep Cherokee. The work took about a week. He used a $3 Arduino Nano, and the Jeep pas",
+        "cve": []
+    },
+    {
+        "title": "Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems",
+        "date": "Sun, 15 Nov 2026 15:23:22 +0000",
+        "url": "https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/",
+        "source": "CyberSecurityNews",
+        "summary": "Six pre-authentication remote code execution flaws were found in the Danfoss AK-SM800A supermarket fridge controller, allowing remote takeover in about an hour, according to Midnight Blue researcher C",
+        "cve": []
+    },
+    {
+        "title": "FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours",
+        "date": "Sat, 14 Nov 2026 11:21:17 +0000",
+        "url": "https://cybersecuritynews.com/fbi-reveals-hackers-artex-ai-usage/",
+        "source": "CyberSecurityNews",
+        "summary": "The FBI has warned that hackers are using ARTEX AI agents to automate network attacks, with some intrusions reaching privileged access in under three hours. Its November 13, 2026, FLASH alert describe",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Warns of Active Password Stealing Attack Exploiting the Microsoft 365 Service Disruption",
+        "date": "Sat, 14 Nov 2026 10:57:32 +0000",
+        "url": "https://cybersecuritynews.com/active-password-stealing-attack-microsoft-365/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft has warned of an active phishing campaign using the November 12 Microsoft 365 service disruption to lure users into opening fake email recovery links. The messages copy Microsoft service hea",
+        "cve": []
+    },
+    {
+        "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
+        "date": "Sat, 14 Nov 2026 09:09:31 +0000",
+        "url": "https://cybersecuritynews.com/cursor-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Cursor has traced its October security breach to an access key exposed by Fireworks AI. The attacker used that key to steal historical coding agent records, find more credentials, and eventually place",
+        "cve": []
+    },
+    {
+        "title": "CISA Warns of Check Point 0-Day Vulnerability Exploited to Gain Root Access",
+        "date": "Sat, 14 Nov 2026 03:47:33 +0000",
+        "url": "https://cybersecuritynews.com/check-point-0-day-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "CISA has warned that attackers are exploiting a Check Point security flaw that lets a local user gain root access on affected appliances. The agency added CVE-2026-123039 to its Known Exploited Vulner",
+        "cve": []
+    },
+    {
+        "title": "Uber Confirms Data Breach – Hackers Stole Users’ Personal Information",
+        "date": "Sat, 14 Nov 2026 01:19:57 +0000",
+        "url": "https://cybersecuritynews.com/uber-confirms-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Uber has confirmed a data breach involving the personal information of thousands of U.S. drivers after hackers accessed records held by Fireworks AI, a third-party technology provider. The exposed inf",
+        "cve": []
+    },
+    {
+        "title": "New TypoPrompting Attacks Turn Mistyped AI Website Addresses Into Malware Installation Traps",
+        "date": "Fri, 13 Nov 2026 15:24:38 +0000",
+        "url": "https://cybersecuritynews.com/new-typoprompting-attacks/",
+        "source": "CyberSecurityNews",
+        "summary": "A simple typing mistake can now cost you more than a failed page load. Researchers have found that mistyped addresses of popular AI tools lead to fake verification pages, hidden commands and malware i",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use SANSAR Linux Malware to Hide Crypto Mining by Faking 0% GPU Usage",
+        "date": "Fri, 13 Nov 2026 15:09:45 +0000",
+        "url": "https://cybersecuritynews.com/hackers-use-sansar-linux-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are hiding cryptocurrency mining on Linux GPU servers by changing the readings administrators use to spot heavy workloads. The toolkit combines a Rust-based controller called SANSAR, a kernel ",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use 2,700 Passwords to Break Into Microsoft SQL Servers and Deploy Remote Access Malware",
+        "date": "Fri, 13 Nov 2026 14:54:56 +0000",
+        "url": "https://cybersecuritynews.com/break-into-microsoft-sql-servers/",
+        "source": "CyberSecurityNews",
+        "summary": "A new campaign is guessing its way into internet-facing Microsoft SQL Server systems. The attackers use a list of more than 2,700 passwords and then install a cryptocurrency miner and a remote access ",
+        "cve": []
+    },
+    {
         "title": "Who Runs the Ransomware Group Qilin?",
         "date": "Wed, 11 Nov 2026 18:06:01 +0000",
         "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -240,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "AMD Posts Linux Patches For Capacity Aware Scheduling On Hybrid CPUs",
-        "date": "Sun, 15 Nov 2026 09:20:01 -0500",
-        "url": "https://www.phoronix.com/news/AMD-Hybrid-Capacity-Aware-Sched",
-        "source": "Phoronix",
-        "summary": "On Saturday a new set of Linux kernel driver patches were posted by AMD for enabling Capacity Aware Scheduling on AMD heterogeneous/hybrid processors...",
+        "title": "BlackNevas Ransomware Attacks VMware ESXi Servers, Destroying Virtual Machines and Backup Infrastructure",
+        "date": "Sat, 14 Nov 2026 07:47:10 +0000",
+        "url": "https://gbhackers.com/blacknevas-ransomware-attacks-vmware-esxi-servers/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed intrusion in which the BlackNevas group destroyed an organization&#8217;s entire virtualization estate over 10 days. Kaspersky&#8217;s Global Emergency Response Team (GERT) documente",
         "cve": []
     },
     {
-        "title": "IBM Talks Up Their New Ability For Handling ARM64 Guest VMs on s390 Hardware",
-        "date": "Sun, 15 Nov 2026 06:42:22 -0500",
-        "url": "https://www.phoronix.com/news/IBM-VMs-ARM64-On-s390",
-        "source": "Phoronix",
-        "summary": "One of the biggest surprises this year was IBM collaborating with Arm for \"dual architecture\" hardware.  In addition to the IBM s390 hardware side, this \"dual architecture\" support for running ARM64 i",
+        "title": "CISA Warns of Actively Exploited Check Point Zero-Day Vulnerability Allowing Attackers to Gain Root Access",
+        "date": "Sat, 14 Nov 2026 07:27:07 +0000",
+        "url": "https://gbhackers.com/cisa-check-point-zero-day-vulnerability/",
+        "source": "GBHackers",
+        "summary": "CISA has reportedly added CVE-2026-123039, a Check Point Gaia OS permission flaw, to its Known Exploited Vulnerabilities catalog following active exploitation. The entry supplied for this report lists",
         "cve": []
     },
     {
-        "title": "AMD ARG \"AMD Root Guest\" Linux Patches Coming In 2027",
-        "date": "Sun, 15 Nov 2026 06:24:06 -0500",
-        "url": "https://www.phoronix.com/news/AMD-Root-Guest-ARG-Linux",
-        "source": "Phoronix",
-        "summary": "A new feature of EPYC 9006 \"Venice\" server processors that isn't yet brought up in the public Linux software support is AMD Root Guest (ARG). The initial patches are expected in Q1'2027 for further en",
+        "title": "Hackers Use Stolen LLM API Keys to Power ARTEX AI Agents and Continue Credential Theft",
+        "date": "Sat, 14 Nov 2026 07:19:13 +0000",
+        "url": "https://gbhackers.com/hackers-llm-api-keys-artex-ai-agents/",
+        "source": "GBHackers",
+        "summary": "Chinese-nexus threat actors used ARTEX, an open-source agentic penetration-testing framework, to steal large language model API credentials and feed them back into infrastructure powering further atta",
         "cve": []
     },
     {
-        "title": "ASUS Ascent QN10 Mini PC Powered By Snapdragon X2 Elite Seeing Linux Support",
-        "date": "Sun, 15 Nov 2026 06:01:55 -0500",
-        "url": "https://www.phoronix.com/news/ASUS-Ascent-QN10-Linux",
-        "source": "Phoronix",
-        "summary": "In addition to a number of laptops powered by Qualcomm's Snapdragon X2 beginning to see Linux support, there's now a X2 Elite powered mini PC seeing Linux patches too...",
+        "title": "FBI Warns Hackers Are Weaponizing ARTEX AI Framework to Launch Autonomous Cyberattacks Worldwide",
+        "date": "Sat, 14 Nov 2026 07:07:54 +0000",
+        "url": "https://gbhackers.com/fbi-warns-artex-ai-framework/",
+        "source": "GBHackers",
+        "summary": "The FBI has issued FLASH-20261113-001, warning that hackers are weaponizing ARTEX, an autonomous penetration testing framework, to accelerate cyberattacks worldwide. Published November 13, the advisor",
         "cve": []
     },
     {
-        "title": "Redox OS Gets Golang Working, GIMP Ported & Simplified AI Policy",
-        "date": "Sat, 14 Nov 2026 11:06:43 -0500",
-        "url": "https://www.phoronix.com/news/Redox-OS-Golang-GIMP",
-        "source": "Phoronix",
-        "summary": "The Rust-based Redox OS open-source operating system is now out with its October development summary that highlights recent software ports, progress on NUMA, and other enhancements made to this from-s",
+        "title": "Hackers Use Falcon C2 Framework to Hijack Browsers and Steal Credentials From Government Agencies",
+        "date": "Sat, 14 Nov 2026 06:54:02 +0000",
+        "url": "https://gbhackers.com/hackers-use-falcon-c2-framework/",
+        "source": "GBHackers",
+        "summary": "Hackers deployed Falcon, a Node.js command-and-control framework tracked as XG or Xiàng Gē, against government entities in one Middle Eastern country and four Southeast Asian countries between March a",
         "cve": []
     },
     {
-        "title": "Basic Support For The Apple M5 Expected To Land For Linux 7.5",
-        "date": "Sat, 14 Nov 2026 10:33:10 -0500",
-        "url": "https://www.phoronix.com/news/Apple-M5-For-Linux-7.5",
-        "source": "Phoronix",
-        "summary": "Very basic support for the Apple M5 SoC base model is expected to be merged for the Linux 7.5 kernel now that it's been queued into the \"apple-soc/dt-7.5\" Git branch...",
+        "title": "Japan Hit by Record Cyberattack Surge as Hackers Use AI to Exploit Security Vulnerabilities",
+        "date": "Sat, 14 Nov 2026 06:48:05 +0000",
+        "url": "https://gbhackers.com/japan-cyberattack-ai-security-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Japan recorded 233 publicly disclosed security incidents in October 2026, approximately 2.4 times its previous monthly peak, as researchers uncovered AI-assisted exploitation targeting application bac",
         "cve": []
     },
     {
-        "title": "Red Hat Working To Improve Memory Tiering For QEMU VMs To Save RAM",
-        "date": "Sat, 14 Nov 2026 08:12:22 -0500",
-        "url": "https://www.phoronix.com/news/QEMU-VM-Memory-Tiering",
-        "source": "Phoronix",
-        "summary": "Red Hat engineers are working through a few possible approaches to enhance memory tiering for QEMU-based virtual machines to help in conserving memory. Ultimately they are after leveraging NVMe SSDs i",
+        "title": "Uber Hacked – Hackers Steal Drivers’ License Personal Data",
+        "date": "Sat, 14 Nov 2026 05:47:51 +0000",
+        "url": "https://gbhackers.com/uber-hacked-hackers-steal-drivers-license-personal-data/",
+        "source": "GBHackers",
+        "summary": "Thousands of Uber drivers in the United States are being told that their personal and driver&#8217;s license information was stolen. The data was taken in an October breach at Fireworks AI, a third-pa",
         "cve": []
     },
     {
-        "title": "Intel Begins Linux Kernel Enablement For Coral Rapids & Razor Lake",
-        "date": "Sat, 14 Nov 2026 06:19:30 -0500",
-        "url": "https://www.phoronix.com/news/Linux-Coral-Rapids-Razor-Lake",
-        "source": "Phoronix",
-        "summary": "Along with Intel posting initial GCC compiler patches for Coral Rapids and Razor Lake processors, the first Linux kernel patch for these future Intel server and desktop/laptop processors have also arr",
+        "title": "Hackers Manipulate NVIDIA GPU Monitoring to Conceal Cryptocurrency Mining on Compromised Linux Servers",
+        "date": "Fri, 13 Nov 2026 13:03:07 +0000",
+        "url": "https://gbhackers.com/nvidia-gpu-monitoring/",
+        "source": "GBHackers",
+        "summary": "A Linux cryptomining intrusion in which attackers falsified NVIDIA GPU telemetry, concealed mining processes with a kernel rootkit, and maintained separate command channels through Tor and Ethereum. T",
         "cve": []
     },
     {
-        "title": "Rugged Emdoor Laptops Beginning To See Improved Linux Support",
-        "date": "Sat, 14 Nov 2026 06:03:49 -0500",
-        "url": "https://www.phoronix.com/news/Emdoor-Linux-Platform-Driver",
-        "source": "Phoronix",
-        "summary": "Emdoor that is a leading manufacturer of rugged laptops and tablets used by various industries is beginning to see improved Linux support thanks to a new platform driver being developed...",
+        "title": "FBI Disrupts North Korean FaceStealer Attacks Linked to $400 Million in Crypto Theft",
+        "date": "Fri, 13 Nov 2026 12:14:32 +0000",
+        "url": "https://gbhackers.com/fbi-disrupts-north-korean-facestealer-attacks/",
+        "source": "GBHackers",
+        "summary": "The U.S. Justice Department and the FBI have seized the cloud infrastructure behind &#8220;FaceStealer,&#8221; a North Korean social engineering scheme connected to over $400 million in cryptocurrency",
         "cve": []
     },
     {
-        "title": "KDE Plasma 6.9 Finally Allows XWayland To Run On-Demand, New Wobbly Windows Presets",
-        "date": "Sat, 14 Nov 2026 05:51:31 -0500",
-        "url": "https://www.phoronix.com/news/Plasma-6.9-XWayland-On-Demand",
-        "source": "Phoronix",
-        "summary": "This Week in Plasma is out with its latest issue following a week of exciting developments toward the KDE Plasma 6.9 desktop...",
+        "title": "Hackers Exploit ChatGPT and Claude Website Typos to Deliver Malware and Hijack Browsers",
+        "date": "Fri, 13 Nov 2026 12:05:34 +0000",
+        "url": "https://gbhackers.com/ai-website-typos-exploited/",
+        "source": "GBHackers",
+        "summary": "Oleg Zaytsev traced 186 lookalike domains across 27 AI brands, including Claude, ChatGPT, DeepSeek, Perplexity, Midjourney, ElevenLabs and Cursor. He named the delivery pattern TypoPrompting. Ordinary",
         "cve": []
     }
 ]
