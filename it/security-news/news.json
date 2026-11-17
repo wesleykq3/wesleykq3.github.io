@@ -1,5 +1,29 @@
 [
     {
+        "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+        "date": "Mon, 16 Nov 2026 21:12:17 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+        "source": "BleepingComputer",
+        "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing vis",
+        "cve": []
+    },
+    {
+        "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+        "date": "Mon, 16 Nov 2026 17:54:00 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+        "source": "BleepingComputer",
+        "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to p",
+        "cve": []
+    },
+    {
+        "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+        "date": "Mon, 16 Nov 2026 16:31:44 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+        "source": "BleepingComputer",
+        "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+        "cve": []
+    },
+    {
         "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
         "date": "Mon, 16 Nov 2026 15:59:44 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
@@ -56,27 +80,11 @@
         "cve": []
     },
     {
-        "title": "Australian retail giant Coles investigates cybersecurity incident",
-        "date": "Mon, 16 Nov 2026 06:18:09 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-        "source": "BleepingComputer",
-        "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
-        "cve": []
-    },
-    {
-        "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-        "date": "Mon, 16 Nov 2026 06:00:00 -0500",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-        "source": "BleepingComputer",
-        "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity chang",
-        "cve": []
-    },
-    {
-        "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-        "date": "Mon, 16 Nov 2026 04:30:04 -0500",
-        "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-        "source": "BleepingComputer",
-        "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. ",
+        "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+        "date": "Tue, 17 Nov 2026 10:30:34 +0530",
+        "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+        "source": "The Hacker News",
+        "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central.\n\nDescribing N-central 2026.4 Hotfix 3 as a critical security update, the company said it in",
         "cve": []
     },
     {
@@ -149,94 +157,6 @@
         "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
         "source": "The Hacker News",
         "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks",
-        "cve": []
-    },
-    {
-        "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-        "date": "Sat, 14 Nov 2026 18:08:35 +0530",
-        "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Explo",
-        "cve": []
-    },
-    {
-        "title": "15 Best Patch Management Tools In 2027",
-        "date": "Mon, 16 Nov 2026 17:40:12 +0000",
-        "url": "https://cybersecuritynews.com/patch-management-tools/",
-        "source": "CyberSecurityNews",
-        "summary": "Patch management tools remain critical for IT security and operational efficiency in 2026, automating the discovery, testing, and deployment of software updates across diverse endpoints. Leading solut",
-        "cve": []
-    },
-    {
-        "title": "Researchers Reveal How Claude Code VS Code Extension Can Access Files Outside Trusted Workspaces",
-        "date": "Mon, 16 Nov 2026 16:51:53 +0000",
-        "url": "https://cybersecuritynews.com/claude-code-vs-code-extension/",
-        "source": "CyberSecurityNews",
-        "summary": "Security researchers have found that the Claude Code extension for Visual Studio Code can show a permission prompt that hides where a file really sits. A user may approve access to a path that looks s",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use AI-Powered Marketplace to Find Infected Computers With Corporate VPN and Cloud Access",
-        "date": "Mon, 16 Nov 2026 16:41:44 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-ai-powered-marketplace/",
-        "source": "CyberSecurityNews",
-        "summary": "A new underground marketplace is making stolen computer data much easier to search. It adds a short written profile to each infected computer, so buyers can look for the exact kind of victim they want",
-        "cve": []
-    },
-    {
-        "title": "Retadup USB Worm Returns After 7 Years, Spreading CoffeeLoader Malware to Windows Systems",
-        "date": "Mon, 16 Nov 2026 16:11:47 +0000",
-        "url": "https://cybersecuritynews.com/retadup-usb-worm-returns/",
-        "source": "CyberSecurityNews",
-        "summary": "The Retadup USB worm is again being used to deliver malware to Windows systems, seven years after French authorities dismantled its botnet. The latest findings connect the worm to CoffeeLoader, a malw",
-        "cve": []
-    },
-    {
-        "title": "Apple Reveals How Secure Exclaves Prevent Hidden Camera and Microphone Access on iPhones",
-        "date": "Mon, 16 Nov 2026 16:04:06 +0000",
-        "url": "https://cybersecuritynews.com/apple-reveals-secure-exclaves/",
-        "source": "CyberSecurityNews",
-        "summary": "Apple has detailed how Secure Exclaves protect camera and microphone data, aiming to stop attackers from secretly collecting sensitive recordings even if they compromise the main operating system. The",
-        "cve": []
-    },
-    {
-        "title": "Cisco Talos Reveals How Hackers Use ARTEX, PentAGI, and HexStrike AI to Automate Cyberattacks",
-        "date": "Mon, 16 Nov 2026 15:48:20 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-artex/",
-        "source": "CyberSecurityNews",
-        "summary": "AI-powered penetration testing tools are helping hackers automate reconnaissance, vulnerability testing, and follow-on attacks with less hands-on work. Cisco Talos warns that these platforms can conne",
-        "cve": []
-    },
-    {
-        "title": "Google Reveals How Hackers Are Using AI Agents to Automate Real-World Cyberattacks",
-        "date": "Mon, 16 Nov 2026 15:36:55 +0000",
-        "url": "https://cybersecuritynews.com/fully-automated-ai-attacks/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are no longer just asking AI chatbots for help. They now run AI agents that can scan, break in, and move through networks with very little human input. In its latest AI Threat Tracker, publish",
-        "cve": []
-    },
-    {
-        "title": "Mustang Panda-Linked Hackers Deploy LOTUSLITE V2 Through Malicious Zoho WorkDrive Downloads",
-        "date": "Mon, 16 Nov 2026 14:48:31 +0000",
-        "url": "https://cybersecuritynews.com/mustang-panda-linked-hackers/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers linked to Mustang Panda are distributing LOTUSLITE V2 through public Zoho WorkDrive downloads, using an Indo-Pacific assessment lure to draw victims into running malware. The campaign, focused",
-        "cve": []
-    },
-    {
-        "title": "Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams",
-        "date": "Mon, 16 Nov 2026 14:38:24 +0000",
-        "url": "https://cybersecuritynews.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/",
-        "source": "CyberSecurityNews",
-        "summary": "New York, USA, November 16th, 2026, CyberNewswire AI attribution has linked more than 3,913 high-impact leaks to 1,532 companies since spring; security experts handle critical disclosures to enterpris",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Releases Out-of-band Update to Address Windows Licensing and Activation Errors",
-        "date": "Mon, 16 Nov 2026 13:36:54 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-windows-licensing-error/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft released an out-of-band Windows update on November 13, 2026, to fix licensing and activation errors affecting a limited number of enterprise devices. The issue appeared after the November 20",
         "cve": []
     },
     {
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams",
-        "date": "Mon, 16 Nov 2026 14:38:03 +0000",
-        "url": "https://gbhackers.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/",
-        "source": "GBHackers",
-        "summary": "New York, USA, November 16th, 2026, CyberNewswire AI attribution has linked more than 3,913 high-impact leaks to 1,532 companies since spring; security experts handle critical disclosures to enterpris",
+        "title": "AMD ROCm HRX's Loom 0.2 Expands C++ Support, Improved Targeting",
+        "date": "Mon, 16 Nov 2026 20:37:15 -0500",
+        "url": "https://www.phoronix.com/news/HRX-Loom-0.2",
+        "source": "Phoronix",
+        "summary": "AMD ROCm's HRX Loom as the compiler, runtime, and serving infrastructure for supporting AI agent workflows is out today with a new version...",
         "cve": []
     },
     {
-        "title": "Microsoft Reveals Windows Bug That Crashed Over 80% of Servers During Global Microsoft 365 Outage",
-        "date": "Mon, 16 Nov 2026 13:53:16 +0000",
-        "url": "https://gbhackers.com/microsoft-reveals-windows-bug-that-crashed-over-80-of-servers/",
-        "source": "GBHackers",
-        "summary": "Microsoft has attributed the global Microsoft 365 disruption on November 12–13, 2026, to a latent Windows defect that rendered more than 80% of its affected networking gateway servers unresponsive. It",
+        "title": "AlmaLinux 10.3 Released With ModSecurity Restored, Various Updates",
+        "date": "Mon, 16 Nov 2026 17:35:41 -0500",
+        "url": "https://www.phoronix.com/news/AlmaLinux-10.3-Released",
+        "source": "Phoronix",
+        "summary": "Following the recent Red Hat Enterprise Linux 10.3 release, AlmaLinux 10.3 is now available in production along with AlmaLinux 9.9...",
         "cve": []
     },
     {
-        "title": "Claude Code Extension Could Let AI Agents Access Files Outside Trusted Workspaces Through Symlinks",
-        "date": "Mon, 16 Nov 2026 12:58:24 +0000",
-        "url": "https://gbhackers.com/claude-code-extension/",
-        "source": "GBHackers",
-        "summary": "Anthropic&#8217;s Claude Code extension for Visual Studio Code reportedly shows misleading file paths in its permission prompts. A researcher says this can lead users to approve file access outside th",
+        "title": "MRDIMM 8800 MT/s vs. 12800 MT/s Memory Performance With AMD EPYC Venice",
+        "date": "Mon, 16 Nov 2026 10:10:00 -0500",
+        "url": "https://www.phoronix.com/review/mrdimm-8800-12800-amd-epyc",
+        "source": "Phoronix",
+        "summary": "With last week's AMD EPYC 9006 SP7 availability and the AMD EPYC 9686F and EPYC 9996 processor reviews, one of the most frequent questions/comments was around the impact that the new MRDIMM-12800 memo",
         "cve": []
     },
     {
-        "title": "Apple Unveils Secure Exclaves to Protect Camera and Microphone Data From Kernel-Level Attacks",
-        "date": "Mon, 16 Nov 2026 12:49:33 +0000",
-        "url": "https://gbhackers.com/apple-unveils-secure-exclaves-to-protect-camera/",
-        "source": "GBHackers",
-        "summary": "Apple has detailed Secure Exclaves, a hardware-backed security architecture designed to protect camera and microphone processing even when attackers compromise the operating system kernel. Developed b",
+        "title": "Intel Talks Up GPU D270 Performance & Open-Source Software Support",
+        "date": "Mon, 16 Nov 2026 10:00:40 -0500",
+        "url": "https://www.phoronix.com/news/Intel-GPU-270-Open-Performance",
+        "source": "Phoronix",
+        "summary": "For Supercomputing 2026 week, Intel published a blog post talking up their Intel GPU D Series \"Crescent Island\" hardware based on Xe3P...",
         "cve": []
     },
     {
-        "title": "macOS 27 Siri Stores Conversations in SQLite Database, Raising Privacy Concerns",
-        "date": "Mon, 16 Nov 2026 12:25:51 +0000",
-        "url": "https://gbhackers.com/macos-27-siri-stores-conversations-in-sqlite-database/",
-        "source": "GBHackers",
-        "summary": "Apple’s new Siri app in macOS 27 retains conversations in a locally accessible SQLite database, creating a forensic record of interactions users might otherwise consider temporary. Researcher Yogesh K",
+        "title": "Rust Nightly To Begin Enabling Parallel Frontend By Default",
+        "date": "Mon, 16 Nov 2026 09:39:24 -0500",
+        "url": "https://www.phoronix.com/news/Rust-Nightly-Parallel-Frontend",
+        "source": "Phoronix",
+        "summary": "While Rust's back-end has long been using multiple threads for compiling code, the Rust front-end has been executing sequentially by default. Finally, Rust Nightly is in the process of beginning to en",
         "cve": []
     },
     {
-        "title": "Hackers Can Search Compromised Computers by Job Title and Company in New AI-Powered Marketplace",
-        "date": "Mon, 16 Nov 2026 12:02:19 +0000",
-        "url": "https://gbhackers.com/ai-powered-marketplace/",
-        "source": "GBHackers",
-        "summary": "A new cybercrime forum service turns stolen infostealer logs into searchable profiles. Instead of selling raw credential dumps, it attaches a plain-language description to each compromised computer. T",
+        "title": "GNU's Gawk 5.4.2 Released With Big Performance Improvement",
+        "date": "Mon, 16 Nov 2026 08:41:16 -0500",
+        "url": "https://www.phoronix.com/news/GNU-Gawk-5.4.2",
+        "source": "Phoronix",
+        "summary": "Gawk as the GNU's implementation of the AWK programming language is out with a new release for this tool commonly used for extracting data and pattern matching / data manipulation...",
         "cve": []
     },
     {
-        "title": "Apple Microphone Vulnerability Allows Hackers to Secretly Record Audio Without User Permission",
-        "date": "Mon, 16 Nov 2026 11:42:44 +0000",
-        "url": "https://gbhackers.com/apple-microphone-vulnerability/",
-        "source": "GBHackers",
-        "summary": "A flaw in Apple&#8217;s audio media daemon let sandboxed apps record microphone audio without permission and, on an earlier build, without the orange privacy indicator. Meta Red Team X researcher Nik ",
+        "title": "LLVM's Old AMD R600 Compiler Backend Slated For Removal",
+        "date": "Mon, 16 Nov 2026 08:04:01 -0500",
+        "url": "https://www.phoronix.com/news/LLVM-R600-Backend-To-Retire",
+        "source": "Phoronix",
+        "summary": "The old ATI/AMD Radeon R600 back-end within the LLVM compiler codebase will likely be removed given it's become a legacy burden and doesn't have any current use by the modern Mesa driver stack...",
         "cve": []
     },
     {
-        "title": "Apache Shiro and APISIX Security Flaws Let Attackers Bypass Authentication and Gain Unauthorized Access",
-        "date": "Mon, 16 Nov 2026 11:25:25 +0000",
-        "url": "https://gbhackers.com/apache-shiro-and-apisix-security-flaws/",
-        "source": "GBHackers",
-        "summary": "Two Apache projects have disclosed authentication bypass vulnerabilities. One is a critical flaw in Apache Shiro&#8217;s LDAP realm. The other is a high-severity identity spoofing issue in the Apache ",
+        "title": "GCC 17 Might Land Native AArch64 Darwin/macOS Support",
+        "date": "Mon, 16 Nov 2026 06:25:16 -0500",
+        "url": "https://www.phoronix.com/news/GCC-Native-AArch64-Darwin-Patch",
+        "source": "Phoronix",
+        "summary": "After being in development since the GCC 10 days (2020) and already patched in the GCC compiler builds for Homebrew and MacPorts, the upstream GCC 17 compiler might finally land native AArch64 Darwin ",
         "cve": []
     },
     {
-        "title": "Hackers Revive Retadup Botnet Shut Down in 2019 to Deliver CoffeeLoader Malware via USB Drive",
-        "date": "Mon, 16 Nov 2026 10:24:35 +0000",
-        "url": "https://gbhackers.com/coffeeloader-malware-attack/",
-        "source": "GBHackers",
-        "summary": "Attackers have revived command infrastructure associated with Retadup, the USB-spreading worm disrupted by French authorities in 2019, to distribute CoffeeLoader malware. An updated variant detected i",
+        "title": "Modern NTFS Driver Gaining O_TMPFILE Support With Linux 7.5",
+        "date": "Mon, 16 Nov 2026 06:13:08 -0500",
+        "url": "https://www.phoronix.com/news/Linux-7.5-NTFS-TMPFILE",
+        "source": "Phoronix",
+        "summary": "The modern NTFS Linux driver that was introduced with the \"NTFS Resurrection\" back in Linux 7.2 continues seeing new features enabled and other improvements made to this open-source NTFS read/write ke",
         "cve": []
     },
     {
-        "title": "Researchers Find 700 Exposed PentAGI Instances as AI-Powered Hacking Frameworks Spread",
-        "date": "Mon, 16 Nov 2026 09:52:00 +0000",
-        "url": "https://gbhackers.com/700-exposed-pentagi-instances/",
-        "source": "GBHackers",
-        "summary": "More than 700 internet-reachable PentAGI instances as AI-enabled penetration testing frameworks increasingly appear in real-world offensive operations. The finding highlights the growing availability ",
+        "title": "Purism Aiming To Deliver New Librem 5 Smartphone With RISC-V SoC",
+        "date": "Mon, 16 Nov 2026 06:06:05 -0500",
+        "url": "https://www.phoronix.com/news/Librem-5-v2-Announced",
+        "source": "Phoronix",
+        "summary": "After the variety of delays and other challenges that Purism had with their Librem 5 smartphone, surprisingly, they are trying again now with the Librem 5 v2 smartphone being announced...",
         "cve": []
     }
 ]
