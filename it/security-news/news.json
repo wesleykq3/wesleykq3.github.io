@@ -1,5 +1,77 @@
 [
     {
+        "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+        "date": "Tue, 17 Nov 2026 14:24:07 -0500",
+        "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+        "source": "BleepingComputer",
+        "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+        "cve": []
+    },
+    {
+        "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+        "date": "Tue, 17 Nov 2026 13:21:24 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+        "source": "BleepingComputer",
+        "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Ser",
+        "cve": []
+    },
+    {
+        "title": "Tor releases emergency update amid ongoing DDoS attack",
+        "date": "Tue, 17 Nov 2026 13:04:15 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+        "source": "BleepingComputer",
+        "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affec",
+        "cve": []
+    },
+    {
+        "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+        "date": "Tue, 17 Nov 2026 11:00:00 -0500",
+        "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+        "source": "BleepingComputer",
+        "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+        "cve": []
+    },
+    {
+        "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+        "date": "Tue, 17 Nov 2026 10:01:11 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+        "source": "BleepingComputer",
+        "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them.  [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+        "date": "Tue, 17 Nov 2026 06:19:51 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+        "cve": []
+    },
+    {
+        "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+        "date": "Tue, 17 Nov 2026 04:44:22 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+        "source": "BleepingComputer",
+        "summary": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...",
+        "cve": []
+    },
+    {
+        "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+        "date": "Tue, 17 Nov 2026 03:35:42 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+        "source": "BleepingComputer",
+        "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+        "cve": []
+    },
+    {
+        "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+        "date": "Tue, 17 Nov 2026 02:25:44 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+        "source": "BleepingComputer",
+        "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+        "cve": []
+    },
+    {
         "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
         "date": "Mon, 16 Nov 2026 21:12:17 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
@@ -8,75 +80,69 @@
         "cve": []
     },
     {
-        "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-        "date": "Mon, 16 Nov 2026 17:54:00 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-        "source": "BleepingComputer",
-        "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to p",
+        "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+        "date": "Tue, 17 Nov 2026 20:47:36 +0530",
+        "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+        "source": "The Hacker News",
+        "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn",
+        "cve": [
+            "CVE-2026-114938"
+        ]
+    },
+    {
+        "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+        "date": "Tue, 17 Nov 2026 20:47:28 +0530",
+        "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+        "source": "The Hacker News",
+        "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.\n\n\"Trigram is a large-sca",
         "cve": []
     },
     {
-        "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-        "date": "Mon, 16 Nov 2026 16:31:44 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-        "source": "BleepingComputer",
-        "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+        "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+        "date": "Tue, 17 Nov 2026 17:55:06 +0530",
+        "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+        "source": "The Hacker News",
+        "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn Ma",
         "cve": []
     },
     {
-        "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-        "date": "Mon, 16 Nov 2026 15:59:44 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-        "source": "BleepingComputer",
-        "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed au",
+        "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+        "date": "Tue, 17 Nov 2026 17:44:36 +0530",
+        "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+        "source": "The Hacker News",
+        "summary": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\n\nThe first security updates with the fix came ",
         "cve": []
     },
     {
-        "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-        "date": "Mon, 16 Nov 2026 14:57:13 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-        "source": "BleepingComputer",
-        "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
+        "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+        "date": "Tue, 17 Nov 2026 16:50:18 +0530",
+        "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+        "source": "The Hacker News",
+        "summary": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft Share",
         "cve": []
     },
     {
-        "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-        "date": "Mon, 16 Nov 2026 11:43:24 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsiv",
+        "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+        "date": "Tue, 17 Nov 2026 16:37:31 +0530",
+        "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+        "source": "The Hacker News",
+        "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.\n\nThe changes, current",
         "cve": []
     },
     {
-        "title": "Fandango says hackers stole payment card details from checkout pages",
-        "date": "Mon, 16 Nov 2026 10:44:21 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-        "source": "BleepingComputer",
-        "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
+        "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+        "date": "Tue, 17 Nov 2026 12:42:13 +0530",
+        "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+        "source": "The Hacker News",
+        "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.\n\nVisitors to ",
         "cve": []
     },
     {
-        "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-        "date": "Mon, 16 Nov 2026 10:01:11 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-        "source": "BleepingComputer",
-        "summary": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seve",
-        "cve": []
-    },
-    {
-        "title": "Google warns that fully-automated AI attacks are coming soon",
-        "date": "Mon, 16 Nov 2026 09:00:00 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-        "source": "BleepingComputer",
-        "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-        "date": "Mon, 16 Nov 2026 07:53:18 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
+        "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+        "date": "Tue, 17 Nov 2026 11:59:27 +0530",
+        "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+        "source": "The Hacker News",
+        "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is runni",
         "cve": []
     },
     {
@@ -96,67 +162,83 @@
         "cve": []
     },
     {
-        "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-        "date": "Mon, 16 Nov 2026 18:57:20 +0530",
-        "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-        "source": "The Hacker News",
-        "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect",
+        "title": "Malicious iOS Scripts Now Behind 1 in 5 Advertiser Suspensions as Coruna Exploit Kit Hides Inside Ad Landing Pages",
+        "date": "Tue, 17 Nov 2026 17:25:31 +0000",
+        "url": "https://cybersecuritynews.com/malicious-ios-scripts-now-behind-1-in-5-advertiser-suspensions-as-coruna-exploit-kit-hides-inside-ad-landing-pages/",
+        "source": "CyberSecurityNews",
+        "summary": "Malicious iOS scripts accounted for roughly 20% of advertiser account suspensions in 2026 across advertising platforms protected by ADEX, according to the company’s newly released State of Ad Fraud 20",
         "cve": []
     },
     {
-        "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-        "date": "Mon, 16 Nov 2026 18:04:21 +0530",
-        "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-        "source": "The Hacker News",
-        "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo pat",
+        "title": "How a Five-Analyst MSSP Increased SOC Capacity by 25% with Threat Intelligence",
+        "date": "Tue, 17 Nov 2026 17:07:01 +0000",
+        "url": "https://cybersecuritynews.com/mssp-threat-intelligence-soc-capacity/",
+        "source": "CyberSecurityNews",
+        "summary": "Every managed security service provider eventually hits the same wall. New clients bring more endpoints, more log sources and more alerts, while SLAs get tighter and qualified analysts stay expensive ",
         "cve": []
     },
     {
-        "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-        "date": "Mon, 16 Nov 2026 18:03:18 +0530",
-        "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executa",
+        "title": "TheMailer – Self-hosted Phishing Platform that Runs on Claude and ChatGPT",
+        "date": "Tue, 17 Nov 2026 16:54:45 +0000",
+        "url": "https://cybersecuritynews.com/themailer-ai-phishing-platform/",
+        "source": "CyberSecurityNews",
+        "summary": "TheMailer, a self-hosted phishing platform identified by Varonis Threat Labs, brings commercial AI models into almost every stage of an email attack. Rather than only fixing grammar or writing convinc",
         "cve": []
     },
     {
-        "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-        "date": "Mon, 16 Nov 2026 15:02:57 +0530",
-        "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-        "source": "The Hacker News",
-        "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloa",
+        "title": "Critical Java 17 RCE Vulnerability Puts Servers at Risk as Oracle Releases 11 Security Fixes",
+        "date": "Tue, 17 Nov 2026 16:11:10 +0000",
+        "url": "https://cybersecuritynews.com/java-17-rce-vulnerability/",
+        "source": "CyberSecurityNews",
+        "summary": "A remote code execution (RCE) vulnerability in Java 17 has prompted warnings for server admins, especially as Oracle released 11 new Java SE security updates on the same day. The bug is tracked as CVE",
         "cve": []
     },
     {
-        "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-        "date": "Mon, 16 Nov 2026 13:04:21 +0530",
-        "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-        "source": "The Hacker News",
-        "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n",
+        "title": "Hackers Abuse Microsoft SharePoint and GitHub to Hide GraphDoor Backdoor Attacks on Government Networks",
+        "date": "Tue, 17 Nov 2026 14:40:07 +0000",
+        "url": "https://cybersecuritynews.com/graphdoor-sharepoint-backdoor/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are hiding a backdoor named GraphDoor inside normal Microsoft and Ably traffic. The goal is to spy on government networks in Asia and Africa. Kaspersky&#8217;s GReAT team detailed the findings",
         "cve": []
     },
     {
-        "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-        "date": "Mon, 16 Nov 2026 12:23:34 +0530",
-        "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-        "source": "The Hacker News",
-        "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nTh",
+        "title": "Hackers Exploit Unpatched Microsoft Exchange Servers to Deploy Custom RATs Across Southeast Asia",
+        "date": "Tue, 17 Nov 2026 14:24:16 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-exchange-servers/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are exploiting unpatched Microsoft Exchange servers and vulnerable web servers to break into government networks across Southeast Asia, deploying custom remote access trojans built for quiet, ",
         "cve": []
     },
     {
-        "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-        "date": "Sun, 15 Nov 2026 16:57:31 +0530",
-        "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-        "source": "The Hacker News",
-        "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection a",
+        "title": "Hackers Use Fake Shipment ZIP Files and DLL Side-Loading to Deploy PureLogs and PureRAT Malware",
+        "date": "Tue, 17 Nov 2026 13:58:04 +0000",
+        "url": "https://cybersecuritynews.com/fake-shipment-zip-files-and-dll-side-loading/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers are using a shipment-themed ZIP archive to launch a Windows malware chain that combines a legitimate signed application, DLL side-loading, and hidden Python code. The attack disguises its comp",
         "cve": []
     },
     {
-        "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-        "date": "Sun, 15 Nov 2026 13:52:04 +0530",
-        "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-        "source": "The Hacker News",
-        "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks",
+        "title": "EU Accuses Temu of Failing to Stop Illegal Products, Citing Weak Security and Moderation Controls",
+        "date": "Tue, 17 Nov 2026 13:56:01 +0000",
+        "url": "https://cybersecuritynews.com/temu-breaching-digital-services-act/",
+        "source": "CyberSecurityNews",
+        "summary": "The European Commission has preliminarily found Temu in breach of the Digital Services Act (DSA), citing weak product checks, poor content moderation, and ineffective penalties against sellers. Announ",
+        "cve": []
+    },
+    {
+        "title": "Microsoft Windows 11 Secretly Tracks Which AI Coding Agents Developers Use Through Telemetry",
+        "date": "Tue, 17 Nov 2026 13:43:04 +0000",
+        "url": "https://cybersecuritynews.com/windows-11-ai-agent-tracking/",
+        "source": "CyberSecurityNews",
+        "summary": "Windows 11 has a built-in component that notes which AI coding agents and developer tools you run. It sends that data to Microsoft if optional diagnostic data is on. Security researcher Xusheng Li, wh",
+        "cve": []
+    },
+    {
+        "title": "FBI Warns Hackers Abuse Google Search to Spread Gootloader Malware and Launch Ransomware Attacks",
+        "date": "Tue, 17 Nov 2026 13:29:20 +0000",
+        "url": "https://cybersecuritynews.com/spread-gootloader-malware/",
+        "source": "CyberSecurityNews",
+        "summary": "The FBI has warned that cybercriminals are using poisoned search results and compromised WordPress websites to spread Gootloader malware, giving ransomware operators an entry point into business netwo",
         "cve": []
     },
     {
@@ -240,83 +322,83 @@
         "cve": []
     },
     {
-        "title": "AMD ROCm HRX's Loom 0.2 Expands C++ Support, Improved Targeting",
-        "date": "Mon, 16 Nov 2026 20:37:15 -0500",
-        "url": "https://www.phoronix.com/news/HRX-Loom-0.2",
-        "source": "Phoronix",
-        "summary": "AMD ROCm's HRX Loom as the compiler, runtime, and serving infrastructure for supporting AI agent workflows is out today with a new version...",
+        "title": "OPTIMJACK Attack Injects Malicious JavaScript Into CNN, Zoom and Other Major Websites to Steal Data",
+        "date": "Tue, 17 Nov 2026 13:26:59 +0000",
+        "url": "https://gbhackers.com/optimjack-attack/",
+        "source": "GBHackers",
+        "summary": "OPTIMJACK, a malicious JavaScript delivery campaign observed on CNN, Zoom, and other prominent websites through a third-party script layer. Detected on November 16, the activity reportedly involved co",
         "cve": []
     },
     {
-        "title": "AlmaLinux 10.3 Released With ModSecurity Restored, Various Updates",
-        "date": "Mon, 16 Nov 2026 17:35:41 -0500",
-        "url": "https://www.phoronix.com/news/AlmaLinux-10.3-Released",
-        "source": "Phoronix",
-        "summary": "Following the recent Red Hat Enterprise Linux 10.3 release, AlmaLinux 10.3 is now available in production along with AlmaLinux 9.9...",
+        "title": "Hackers Deploy PerfectPioneer RAT and KUKURAT Backdoor to Steal Sensitive Government Data",
+        "date": "Tue, 17 Nov 2026 12:54:29 +0000",
+        "url": "https://gbhackers.com/kukurat-backdoor-activity/",
+        "source": "GBHackers",
+        "summary": "A China-linked espionage group has spent nine months refining two custom remote access Trojans against Southeast Asian government networks. Palo Alto Networks&#8217; Unit 42 published its findings on ",
         "cve": []
     },
     {
-        "title": "MRDIMM 8800 MT/s vs. 12800 MT/s Memory Performance With AMD EPYC Venice",
-        "date": "Mon, 16 Nov 2026 10:10:00 -0500",
-        "url": "https://www.phoronix.com/review/mrdimm-8800-12800-amd-epyc",
-        "source": "Phoronix",
-        "summary": "With last week's AMD EPYC 9006 SP7 availability and the AMD EPYC 9686F and EPYC 9996 processor reviews, one of the most frequent questions/comments was around the impact that the new MRDIMM-12800 memo",
+        "title": "McDonald’s iOS App Flooded With Suspicious Push Notifications in Possible Cyberattack",
+        "date": "Tue, 17 Nov 2026 12:43:45 +0000",
+        "url": "https://gbhackers.com/mcdonalds-ios-app-flooded-with-suspicious-push-notifications/",
+        "source": "GBHackers",
+        "summary": "McDonald’s mobile application reportedly delivered a wave of abnormal push notifications on November 17, 2026, raising concerns about possible abuse of its notification infrastructure. According to a ",
         "cve": []
     },
     {
-        "title": "Intel Talks Up GPU D270 Performance & Open-Source Software Support",
-        "date": "Mon, 16 Nov 2026 10:00:40 -0500",
-        "url": "https://www.phoronix.com/news/Intel-GPU-270-Open-Performance",
-        "source": "Phoronix",
-        "summary": "For Supercomputing 2026 week, Intel published a blog post talking up their Intel GPU D Series \"Crescent Island\" hardware based on Xe3P...",
+        "title": "Microsoft Warns Hackers Are Exploiting Microsoft 365 Outages to Launch Credential Phishing Attacks",
+        "date": "Tue, 17 Nov 2026 12:20:34 +0000",
+        "url": "https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages/",
+        "source": "GBHackers",
+        "summary": "Microsoft Threat Intelligence observed a coordinated, high-volume phishing campaign on November 13, 2026, targeting organizations across multiple sectors worldwide. Attackers impersonated Microsoft 36",
         "cve": []
     },
     {
-        "title": "Rust Nightly To Begin Enabling Parallel Frontend By Default",
-        "date": "Mon, 16 Nov 2026 09:39:24 -0500",
-        "url": "https://www.phoronix.com/news/Rust-Nightly-Parallel-Frontend",
-        "source": "Phoronix",
-        "summary": "While Rust's back-end has long been using multiple threads for compiling code, the Rust front-end has been executing sequentially by default. Finally, Rust Nightly is in the process of beginning to en",
+        "title": "GitLab Patches 37 Security Vulnerabilities Affecting CI/CD Pipelines, GitLab Pages, and MCP Server",
+        "date": "Tue, 17 Nov 2026 11:13:01 +0000",
+        "url": "https://gbhackers.com/gitlab-patches-37-security-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "GitLab released versions 19.5.6, 19.4.8, and 19.3.9 on November 16, 2026. These updates address 37 security vulnerabilities across both the Community Edition and the Enterprise Edition. The fixes incl",
         "cve": []
     },
     {
-        "title": "GNU's Gawk 5.4.2 Released With Big Performance Improvement",
-        "date": "Mon, 16 Nov 2026 08:41:16 -0500",
-        "url": "https://www.phoronix.com/news/GNU-Gawk-5.4.2",
-        "source": "Phoronix",
-        "summary": "Gawk as the GNU's implementation of the AWK programming language is out with a new release for this tool commonly used for extracting data and pattern matching / data manipulation...",
+        "title": "Hacker Behind Massive GTA 6 Leak Pleads Guilty to Breaching Rockstar Games",
+        "date": "Tue, 17 Nov 2026 10:55:52 +0000",
+        "url": "https://gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty/",
+        "source": "GBHackers",
+        "summary": "Arion Kurtaj, the hacker responsible for the massive Grand Theft Auto 6 leak, has pleaded guilty to breaching Rockstar Games and attempting to extort the developer. The 21-year-old from Oxford admitte",
         "cve": []
     },
     {
-        "title": "LLVM's Old AMD R600 Compiler Backend Slated For Removal",
-        "date": "Mon, 16 Nov 2026 08:04:01 -0500",
-        "url": "https://www.phoronix.com/news/LLVM-R600-Backend-To-Retire",
-        "source": "Phoronix",
-        "summary": "The old ATI/AMD Radeon R600 back-end within the LLVM compiler codebase will likely be removed given it's become a legacy burden and doesn't have any current use by the modern Mesa driver stack...",
+        "title": "Mozilla Releases Firefox 160 Security Update Fixing 99 Vulnerabilities, Including Sandbox Escape Flaws",
+        "date": "Tue, 17 Nov 2026 10:09:20 +0000",
+        "url": "https://gbhackers.com/mozilla-releases-firefox-160-security-update/",
+        "source": "GBHackers",
+        "summary": "Mozilla has released Firefox 160 with fixes for 99 security vulnerabilities. Mozilla announced the update on November 10, 2026, as part of Mozilla Foundation Security Advisory 2026-125, which rates it",
         "cve": []
     },
     {
-        "title": "GCC 17 Might Land Native AArch64 Darwin/macOS Support",
-        "date": "Mon, 16 Nov 2026 06:25:16 -0500",
-        "url": "https://www.phoronix.com/news/GCC-Native-AArch64-Darwin-Patch",
-        "source": "Phoronix",
-        "summary": "After being in development since the GCC 10 days (2020) and already patched in the GCC compiler builds for Homebrew and MacPorts, the upstream GCC 17 compiler might finally land native AArch64 Darwin ",
+        "title": "Hackers Use Malicious DLL and Fake PDF Files to Deliver PureLogs and PureRAT Payloads",
+        "date": "Tue, 17 Nov 2026 09:21:02 +0000",
+        "url": "https://gbhackers.com/malicious-dll-payload/",
+        "source": "GBHackers",
+        "summary": "A shipment-themed ZIP archive is delivering a multistage malware chain that combines DLL side-loading, disguised utilities, and encrypted Python code to deploy payloads associated with PureLogs and Pu",
         "cve": []
     },
     {
-        "title": "Modern NTFS Driver Gaining O_TMPFILE Support With Linux 7.5",
-        "date": "Mon, 16 Nov 2026 06:13:08 -0500",
-        "url": "https://www.phoronix.com/news/Linux-7.5-NTFS-TMPFILE",
-        "source": "Phoronix",
-        "summary": "The modern NTFS Linux driver that was introduced with the \"NTFS Resurrection\" back in Linux 7.2 continues seeing new features enabled and other improvements made to this open-source NTFS read/write ke",
+        "title": "Apple Tightens macOS 27.3 Security to Stop Apps From Accessing Sensitive Files Without Explicit Permission",
+        "date": "Tue, 17 Nov 2026 09:12:56 +0000",
+        "url": "https://gbhackers.com/apple-tightens-macos-27-3-security/",
+        "source": "GBHackers",
+        "summary": "Apple is enhancing data permissions in macOS 27.3 beta 2 by introducing new controls that let users restrict applications to specific folders or apps instead of granting broad access. Announced on Nov",
         "cve": []
     },
     {
-        "title": "Purism Aiming To Deliver New Librem 5 Smartphone With RISC-V SoC",
-        "date": "Mon, 16 Nov 2026 06:06:05 -0500",
-        "url": "https://www.phoronix.com/news/Librem-5-v2-Announced",
-        "source": "Phoronix",
-        "summary": "After the variety of delays and other challenges that Purism had with their Librem 5 smartphone, surprisingly, they are trying again now with the Librem 5 v2 smartphone being announced...",
+        "title": "Old Bitly Links Hijacked to Redirect Users From McDonald’s, Burger King, and Government X Posts",
+        "date": "Tue, 17 Nov 2026 08:57:12 +0000",
+        "url": "https://gbhackers.com/old-bitly-links-hijacked-to-redirect-users/",
+        "source": "GBHackers",
+        "summary": "Old Bitly links embedded in historical X posts from McDonald’s, Burger King, government agencies, and prominent politicians have been repurposed to redirect visitors to unrelated websites. This incide",
         "cve": []
     }
 ]
