@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-17T20:05:59.352229",
+    "timestamp": "2026-11-18T04:48:15.449853",
     "services": [
         {
             "service": "OpenAI",
@@ -23,7 +23,7 @@
         {
             "service": "Grok / xAI",
             "status": "unknown",
-            "description": "403 Client Error: Forbidden for url: https://status.x.ai/",
+            "description": "xAI Status Page",
             "url": "https://status.x.ai/"
         }
     ],

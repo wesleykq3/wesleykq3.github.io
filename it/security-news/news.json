@@ -1,5 +1,29 @@
 [
     {
+        "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+        "date": "Tue, 17 Nov 2026 18:04:21 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+        "source": "BleepingComputer",
+        "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, includin",
+        "cve": []
+    },
+    {
+        "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+        "date": "Tue, 17 Nov 2026 16:27:17 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+        "source": "BleepingComputer",
+        "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+        "cve": []
+    },
+    {
+        "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+        "date": "Tue, 17 Nov 2026 15:51:21 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+        "source": "BleepingComputer",
+        "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
+        "cve": []
+    },
+    {
         "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
         "date": "Tue, 17 Nov 2026 14:24:07 -0500",
         "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
@@ -56,27 +80,11 @@
         "cve": []
     },
     {
-        "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-        "date": "Tue, 17 Nov 2026 03:35:42 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-        "source": "BleepingComputer",
-        "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
-        "cve": []
-    },
-    {
-        "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-        "date": "Tue, 17 Nov 2026 02:25:44 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-        "source": "BleepingComputer",
-        "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
-        "cve": []
-    },
-    {
-        "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-        "date": "Mon, 16 Nov 2026 21:12:17 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-        "source": "BleepingComputer",
-        "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing vis",
+        "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+        "date": "Wed, 18 Nov 2026 01:04:20 +0530",
+        "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+        "source": "The Hacker News",
+        "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blo",
         "cve": []
     },
     {
@@ -154,91 +162,11 @@
         "cve": []
     },
     {
-        "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-        "date": "Mon, 16 Nov 2026 19:30:00 +0530",
-        "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-        "source": "The Hacker News",
-        "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CA",
-        "cve": []
-    },
-    {
-        "title": "Malicious iOS Scripts Now Behind 1 in 5 Advertiser Suspensions as Coruna Exploit Kit Hides Inside Ad Landing Pages",
-        "date": "Tue, 17 Nov 2026 17:25:31 +0000",
-        "url": "https://cybersecuritynews.com/malicious-ios-scripts-now-behind-1-in-5-advertiser-suspensions-as-coruna-exploit-kit-hides-inside-ad-landing-pages/",
-        "source": "CyberSecurityNews",
-        "summary": "Malicious iOS scripts accounted for roughly 20% of advertiser account suspensions in 2026 across advertising platforms protected by ADEX, according to the company’s newly released State of Ad Fraud 20",
-        "cve": []
-    },
-    {
-        "title": "How a Five-Analyst MSSP Increased SOC Capacity by 25% with Threat Intelligence",
-        "date": "Tue, 17 Nov 2026 17:07:01 +0000",
-        "url": "https://cybersecuritynews.com/mssp-threat-intelligence-soc-capacity/",
-        "source": "CyberSecurityNews",
-        "summary": "Every managed security service provider eventually hits the same wall. New clients bring more endpoints, more log sources and more alerts, while SLAs get tighter and qualified analysts stay expensive ",
-        "cve": []
-    },
-    {
-        "title": "TheMailer – Self-hosted Phishing Platform that Runs on Claude and ChatGPT",
-        "date": "Tue, 17 Nov 2026 16:54:45 +0000",
-        "url": "https://cybersecuritynews.com/themailer-ai-phishing-platform/",
-        "source": "CyberSecurityNews",
-        "summary": "TheMailer, a self-hosted phishing platform identified by Varonis Threat Labs, brings commercial AI models into almost every stage of an email attack. Rather than only fixing grammar or writing convinc",
-        "cve": []
-    },
-    {
-        "title": "Critical Java 17 RCE Vulnerability Puts Servers at Risk as Oracle Releases 11 Security Fixes",
-        "date": "Tue, 17 Nov 2026 16:11:10 +0000",
-        "url": "https://cybersecuritynews.com/java-17-rce-vulnerability/",
-        "source": "CyberSecurityNews",
-        "summary": "A remote code execution (RCE) vulnerability in Java 17 has prompted warnings for server admins, especially as Oracle released 11 new Java SE security updates on the same day. The bug is tracked as CVE",
-        "cve": []
-    },
-    {
-        "title": "Hackers Abuse Microsoft SharePoint and GitHub to Hide GraphDoor Backdoor Attacks on Government Networks",
-        "date": "Tue, 17 Nov 2026 14:40:07 +0000",
-        "url": "https://cybersecuritynews.com/graphdoor-sharepoint-backdoor/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are hiding a backdoor named GraphDoor inside normal Microsoft and Ably traffic. The goal is to spy on government networks in Asia and Africa. Kaspersky&#8217;s GReAT team detailed the findings",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploit Unpatched Microsoft Exchange Servers to Deploy Custom RATs Across Southeast Asia",
-        "date": "Tue, 17 Nov 2026 14:24:16 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-exchange-servers/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are exploiting unpatched Microsoft Exchange servers and vulnerable web servers to break into government networks across Southeast Asia, deploying custom remote access trojans built for quiet, ",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use Fake Shipment ZIP Files and DLL Side-Loading to Deploy PureLogs and PureRAT Malware",
-        "date": "Tue, 17 Nov 2026 13:58:04 +0000",
-        "url": "https://cybersecuritynews.com/fake-shipment-zip-files-and-dll-side-loading/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are using a shipment-themed ZIP archive to launch a Windows malware chain that combines a legitimate signed application, DLL side-loading, and hidden Python code. The attack disguises its comp",
-        "cve": []
-    },
-    {
-        "title": "EU Accuses Temu of Failing to Stop Illegal Products, Citing Weak Security and Moderation Controls",
-        "date": "Tue, 17 Nov 2026 13:56:01 +0000",
-        "url": "https://cybersecuritynews.com/temu-breaching-digital-services-act/",
-        "source": "CyberSecurityNews",
-        "summary": "The European Commission has preliminarily found Temu in breach of the Digital Services Act (DSA), citing weak product checks, poor content moderation, and ineffective penalties against sellers. Announ",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Windows 11 Secretly Tracks Which AI Coding Agents Developers Use Through Telemetry",
-        "date": "Tue, 17 Nov 2026 13:43:04 +0000",
-        "url": "https://cybersecuritynews.com/windows-11-ai-agent-tracking/",
-        "source": "CyberSecurityNews",
-        "summary": "Windows 11 has a built-in component that notes which AI coding agents and developer tools you run. It sends that data to Microsoft if optional diagnostic data is on. Security researcher Xusheng Li, wh",
-        "cve": []
-    },
-    {
-        "title": "FBI Warns Hackers Abuse Google Search to Spread Gootloader Malware and Launch Ransomware Attacks",
-        "date": "Tue, 17 Nov 2026 13:29:20 +0000",
-        "url": "https://cybersecuritynews.com/spread-gootloader-malware/",
-        "source": "CyberSecurityNews",
-        "summary": "The FBI has warned that cybercriminals are using poisoned search results and compromised WordPress websites to spread Gootloader malware, giving ransomware operators an entry point into business netwo",
+        "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+        "date": "Wed, 18 Nov 2026 02:52:04 +0000",
+        "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+        "source": "krebsonsecurity",
+        "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps",
         "cve": []
     },
     {
@@ -314,91 +242,83 @@
         "cve": []
     },
     {
-        "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-        "date": "Wed, 07 Oct 2026 13:48:45 +0000",
-        "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-        "source": "krebsonsecurity",
-        "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of th",
+        "title": "RBRD: RAM-Backed Linux Block Driver Written In Rust For Better Safety But Slower Performance",
+        "date": "Tue, 17 Nov 2026 21:04:05 -0500",
+        "url": "https://www.phoronix.com/news/RBRD-Rust-Linux-RAM-Driver",
+        "source": "Phoronix",
+        "summary": "Linux kernel patches were posted tonight for introducing RBRD, the RAM-backed block driver written in the Rust programming language...",
         "cve": []
     },
     {
-        "title": "OPTIMJACK Attack Injects Malicious JavaScript Into CNN, Zoom and Other Major Websites to Steal Data",
-        "date": "Tue, 17 Nov 2026 13:26:59 +0000",
-        "url": "https://gbhackers.com/optimjack-attack/",
-        "source": "GBHackers",
-        "summary": "OPTIMJACK, a malicious JavaScript delivery campaign observed on CNN, Zoom, and other prominent websites through a third-party script layer. Detected on November 16, the activity reportedly involved co",
+        "title": "Java4Shell Vulnerability For OpenJDK Java That Can Lead To Remote Code Execution",
+        "date": "Tue, 17 Nov 2026 16:35:01 -0500",
+        "url": "https://www.phoronix.com/news/Java4Shell-Vulnerability",
+        "source": "Phoronix",
+        "summary": "Java4Shell was publicly disclosed this afternoon as the latest high profile security vulnerability in the age of AI and LLMs...",
         "cve": []
     },
     {
-        "title": "Hackers Deploy PerfectPioneer RAT and KUKURAT Backdoor to Steal Sensitive Government Data",
-        "date": "Tue, 17 Nov 2026 12:54:29 +0000",
-        "url": "https://gbhackers.com/kukurat-backdoor-activity/",
-        "source": "GBHackers",
-        "summary": "A China-linked espionage group has spent nine months refining two custom remote access Trojans against Southeast Asian government networks. Palo Alto Networks&#8217; Unit 42 published its findings on ",
+        "title": "FreeBSD Desktop Install Option Pushed Back To Next Year With FreeBSD 15.3",
+        "date": "Tue, 17 Nov 2026 12:40:51 -0500",
+        "url": "https://www.phoronix.com/news/FreeBSD-Desktop-Install-15.3",
+        "source": "Phoronix",
+        "summary": "FreeBSD 15.0 had been aiming for a nice (KDE-based) desktop install option in its installer that was then delayed to FreeBSD 15.1 and then pushed back to FreeBSD 15.2. FreeBSD 15.2 is due for release ",
         "cve": []
     },
     {
-        "title": "McDonald’s iOS App Flooded With Suspicious Push Notifications in Possible Cyberattack",
-        "date": "Tue, 17 Nov 2026 12:43:45 +0000",
-        "url": "https://gbhackers.com/mcdonalds-ios-app-flooded-with-suspicious-push-notifications/",
-        "source": "GBHackers",
-        "summary": "McDonald’s mobile application reportedly delivered a wave of abnormal push notifications on November 17, 2026, raising concerns about possible abuse of its notification infrastructure. According to a ",
+        "title": "Framework Wireless Touchpad Keyboard To Sell For $99 USD, Begins Shipping In Q1",
+        "date": "Tue, 17 Nov 2026 11:40:51 -0500",
+        "url": "https://www.phoronix.com/news/Framework-Wireless-Keyboard",
+        "source": "Phoronix",
+        "summary": "Earlier this year Framework Computer announced the Framework Wireless Touchpad Keyboard as a new product. Today the device is open for pre-order but will not begin shipping until Q1'2027...",
         "cve": []
     },
     {
-        "title": "Microsoft Warns Hackers Are Exploiting Microsoft 365 Outages to Launch Credential Phishing Attacks",
-        "date": "Tue, 17 Nov 2026 12:20:34 +0000",
-        "url": "https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages/",
-        "source": "GBHackers",
-        "summary": "Microsoft Threat Intelligence observed a coordinated, high-volume phishing campaign on November 13, 2026, targeting organizations across multiple sectors worldwide. Attackers impersonated Microsoft 36",
+        "title": "New AMDGPU Linux Patches From Valve Aim To Reduce Stuttering With Steam Play Games",
+        "date": "Tue, 17 Nov 2026 09:05:20 -0500",
+        "url": "https://www.phoronix.com/news/AMDGPU-Sparse-Gaming-Valve",
+        "source": "Phoronix",
+        "summary": "Natalie Vock of Valve's Linux graphics driver team sent out a new version of AMDGPU kernel driver patches today that aim to provide \"significant reductions in stuttering\" for some newer Windows games ",
         "cve": []
     },
     {
-        "title": "GitLab Patches 37 Security Vulnerabilities Affecting CI/CD Pipelines, GitLab Pages, and MCP Server",
-        "date": "Tue, 17 Nov 2026 11:13:01 +0000",
-        "url": "https://gbhackers.com/gitlab-patches-37-security-vulnerabilities/",
-        "source": "GBHackers",
-        "summary": "GitLab released versions 19.5.6, 19.4.8, and 19.3.9 on November 16, 2026. These updates address 37 security vulnerabilities across both the Community Edition and the Enterprise Edition. The fixes incl",
+        "title": "Btrfs Seeks To Deal With AI & \"Newbies Without Common Senses\" Doing More Harm Than Good",
+        "date": "Tue, 17 Nov 2026 07:55:56 -0500",
+        "url": "https://www.phoronix.com/news/Btrfs-LLM-Newbies-Guidelines",
+        "source": "Phoronix",
+        "summary": "The Btrfs file-system could soon see new patch guidelines in Linux Git as the developers try to deal with the fallout from AI/LLMs and \"newbies without common senses are doing more harm than help.\"..",
         "cve": []
     },
     {
-        "title": "Hacker Behind Massive GTA 6 Leak Pleads Guilty to Breaching Rockstar Games",
-        "date": "Tue, 17 Nov 2026 10:55:52 +0000",
-        "url": "https://gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty/",
-        "source": "GBHackers",
-        "summary": "Arion Kurtaj, the hacker responsible for the massive Grand Theft Auto 6 leak, has pleaded guilty to breaching Rockstar Games and attempting to extort the developer. The 21-year-old from Oxford admitte",
+        "title": "AMD Gets Its Firmware Ready For Upcoming RDNA 4m iGPUs On Linux",
+        "date": "Tue, 17 Nov 2026 06:34:00 -0500",
+        "url": "https://www.phoronix.com/news/AMD-RDNA-4m-Firmware",
+        "source": "Phoronix",
+        "summary": "AMD overnight merged the latest changes of the open-source graphics driver puzzle for the upcoming RDNA 4m \"GFX17x\" iGPUs on Linux. The firmware is ready for enabling the next-gen AMD iGPUs on Linux..",
         "cve": []
     },
     {
-        "title": "Mozilla Releases Firefox 160 Security Update Fixing 99 Vulnerabilities, Including Sandbox Escape Flaws",
-        "date": "Tue, 17 Nov 2026 10:09:20 +0000",
-        "url": "https://gbhackers.com/mozilla-releases-firefox-160-security-update/",
-        "source": "GBHackers",
-        "summary": "Mozilla has released Firefox 160 with fixes for 99 security vulnerabilities. Mozilla announced the update on November 10, 2026, as part of Mozilla Foundation Security Advisory 2026-125, which rates it",
+        "title": "NVIDIA Engineer Works On New User-Space Linux Control For Preferred CPU Cores",
+        "date": "Tue, 17 Nov 2026 06:16:30 -0500",
+        "url": "https://www.phoronix.com/news/NVIDIA-Linux-Prefer-CPU-Cores",
+        "source": "Phoronix",
+        "summary": "A request for comments patch series from a NVIDIA engineer would allow Linux to expose a new sysfs control so user-space can express preferred CPU cores.  This could be tied into user-space solutions ",
         "cve": []
     },
     {
-        "title": "Hackers Use Malicious DLL and Fake PDF Files to Deliver PureLogs and PureRAT Payloads",
-        "date": "Tue, 17 Nov 2026 09:21:02 +0000",
-        "url": "https://gbhackers.com/malicious-dll-payload/",
-        "source": "GBHackers",
-        "summary": "A shipment-themed ZIP archive is delivering a multistage malware chain that combines DLL side-loading, disguised utilities, and encrypted Python code to deploy payloads associated with PureLogs and Pu",
+        "title": "Xfce 4.22 Working Toward Early 2027 Release",
+        "date": "Tue, 17 Nov 2026 05:50:41 -0500",
+        "url": "https://www.phoronix.com/news/Xfce-4.22-Roadmap",
+        "source": "Phoronix",
+        "summary": "Next month marks two years since the Xfce 4.20 release. Its successor, Xfce 4.22, looks like it will be out in early 2027...",
         "cve": []
     },
     {
-        "title": "Apple Tightens macOS 27.3 Security to Stop Apps From Accessing Sensitive Files Without Explicit Permission",
-        "date": "Tue, 17 Nov 2026 09:12:56 +0000",
-        "url": "https://gbhackers.com/apple-tightens-macos-27-3-security/",
-        "source": "GBHackers",
-        "summary": "Apple is enhancing data permissions in macOS 27.3 beta 2 by introducing new controls that let users restrict applications to specific folders or apps instead of granting broad access. Announced on Nov",
-        "cve": []
-    },
-    {
-        "title": "Old Bitly Links Hijacked to Redirect Users From McDonald’s, Burger King, and Government X Posts",
-        "date": "Tue, 17 Nov 2026 08:57:12 +0000",
-        "url": "https://gbhackers.com/old-bitly-links-hijacked-to-redirect-users/",
-        "source": "GBHackers",
-        "summary": "Old Bitly links embedded in historical X posts from McDonald’s, Burger King, government agencies, and prominent politicians have been repurposed to redirect visitors to unrelated websites. This incide",
+        "title": "REAPER Digital Audio Workstation Sees Native Wayland Port",
+        "date": "Tue, 17 Nov 2026 05:42:54 -0500",
+        "url": "https://www.phoronix.com/news/REAPER-DAW-Wayland",
+        "source": "Phoronix",
+        "summary": "The REAPER digital audio workstation software, which was ported to Linux over the past decade and targeting X11, now has pending code for a native Wayland experience...",
         "cve": []
     }
 ]
