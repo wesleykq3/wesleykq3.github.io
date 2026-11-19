@@ -1,5 +1,29 @@
 [
     {
+        "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+        "date": "Wed, 18 Nov 2026 18:08:33 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+        "source": "BleepingComputer",
+        "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 comp",
+        "cve": []
+    },
+    {
+        "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+        "date": "Wed, 18 Nov 2026 15:49:32 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+        "source": "BleepingComputer",
+        "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 5",
+        "cve": []
+    },
+    {
+        "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+        "date": "Wed, 18 Nov 2026 14:39:33 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+        "source": "BleepingComputer",
+        "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
+        "cve": []
+    },
+    {
         "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
         "date": "Wed, 18 Nov 2026 11:58:42 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
@@ -53,30 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
         "source": "BleepingComputer",
         "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, includin",
-        "cve": []
-    },
-    {
-        "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-        "date": "Tue, 17 Nov 2026 16:27:17 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-        "source": "BleepingComputer",
-        "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
-        "cve": []
-    },
-    {
-        "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-        "date": "Tue, 17 Nov 2026 15:51:21 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-        "source": "BleepingComputer",
-        "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
-        "cve": []
-    },
-    {
-        "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-        "date": "Tue, 17 Nov 2026 14:24:07 -0500",
-        "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-        "source": "BleepingComputer",
-        "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
         "cve": []
     },
     {
@@ -162,6 +162,38 @@
         "cve": []
     },
     {
+        "title": "Hackers Abuse CyberPower UPS Software to Execute SYSTEM Commands and Dump Active Directory Data",
+        "date": "Thu, 19 Nov 2026 04:10:46 +0000",
+        "url": "https://cybersecuritynews.com/hackers-abuse-cyberpower-ups-software/",
+        "source": "CyberSecurityNews",
+        "summary": "Exploited CyberPower PowerPanel Business software for managing uninterruptible power supplies (UPS) to gain SYSTEM-level access to a Windows domain controller. Symantec reported on November 18 that th",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploiting Java4Shell RCE Flaw Using ARTEX Disguise Themselves as Chrome",
+        "date": "Thu, 19 Nov 2026 03:18:37 +0000",
+        "url": "https://cybersecuritynews.com/java4shell-rce-flaw-exploited/",
+        "source": "CyberSecurityNews",
+        "summary": "Cloudflare’s Cloudforce One reported a Java4Shell exploit attempt that looked like ordinary Google Chrome traffic in web logs. The team said a source IP first scanned a target using a User-Agent heade",
+        "cve": []
+    },
+    {
+        "title": "WordPress 7.1.5 Patches 20 Security Issues, Including Potential RCE and SQL Injection Flaws",
+        "date": "Thu, 19 Nov 2026 02:16:02 +0000",
+        "url": "https://cybersecuritynews.com/wordpress-7-1-5-patches-20-security-issues/",
+        "source": "CyberSecurityNews",
+        "summary": "WordPress released version 7.1.5 on November 18, 2026, to address 20 security issues in WordPress Core. The update fixes a flaw that could allow someone without an account to run code on a vulnerable ",
+        "cve": []
+    },
+    {
+        "title": "PHP Security Team Warns of Critical Vulnerabilities, Urges Users to Prepare for November 19 Updates",
+        "date": "Thu, 19 Nov 2026 01:49:53 +0000",
+        "url": "https://cybersecuritynews.com/php-critical-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "The PHP security team plans to release security updates on Thursday, November 19, 2026, between 14:00 and 14:30 UTC. In its November 18 security notice, the team said the releases will address vulnera",
+        "cve": []
+    },
+    {
         "title": "Fake FMCSA, DAT, and TIMOCOM Portals Attack US Logistics Firms",
         "date": "Wed, 18 Nov 2026 19:05:56 +0000",
         "url": "https://cybersecuritynews.com/fake-fmcsa-dat-timocom-portals-target-us-logistics/",
@@ -207,38 +239,6 @@
         "url": "https://cybersecuritynews.com/nginx-http-2-vulnerabilities/",
         "source": "CyberSecurityNews",
         "summary": "Two critical vulnerabilities in NGINX could let remote attackers run code on vulnerable web servers without logging in. The flaws, tracked as CVE-2026-123633 and CVE-2026-123007, were disclosed on Nov",
-        "cve": []
-    },
-    {
-        "title": "2027 Cybersecurity Excellence Awards Launch With Six New AI Security Categories",
-        "date": "Wed, 18 Nov 2026 15:52:59 +0000",
-        "url": "https://cybersecuritynews.com/2027-cybersecurity-excellence-awards/",
-        "source": "CyberSecurityNews",
-        "summary": "San Francisco, USA, November 17th, 2026, CyberNewswire Global awards program invites nominations across more than 100 cybersecurity categories, with early-bird pricing through Cyber Monday. The Cybers",
-        "cve": []
-    },
-    {
-        "title": "SpyCloud’s 2027 Forecast: Attackers Will Exploit Trusted Access, From Hijacked Sessions to AI Agents",
-        "date": "Wed, 18 Nov 2026 15:36:50 +0000",
-        "url": "https://cybersecuritynews.com/spycloud-2027-cybersecurity-forecast-trusted-access-ai-agents/",
-        "source": "CyberSecurityNews",
-        "summary": "Austin, TX, USA, November 17th, 2026, CyberNewswire New predictions drawn from SpyCloud’s research teams and a survey of security professionals show why stolen sessions, API keys, and vendor connectio",
-        "cve": []
-    },
-    {
-        "title": "Armornet Debuts AI Security for the Code and Vendors Companies Trust",
-        "date": "Wed, 18 Nov 2026 15:20:34 +0000",
-        "url": "https://cybersecuritynews.com/armornet-ai-software-supply-chain-vendor-security/",
-        "source": "CyberSecurityNews",
-        "summary": "Grand Rapids, Michigan, November 18th, 2026, CyberNewswire Startup shows teams the vendors they rely on, keeps a live risk score on each one and secures the software supply chain from end to end Armor",
-        "cve": []
-    },
-    {
-        "title": "OX Security Launches OX Radar and Response Center to Show Companies Which Cyber Threats Actually Affect Them",
-        "date": "Wed, 18 Nov 2026 14:30:20 +0000",
-        "url": "https://cybersecuritynews.com/ox-security-ox-radar-response-center/",
-        "source": "CyberSecurityNews",
-        "summary": "New York, United States, November 18th, 2026, CyberNewswire New technology monitors critical vulnerabilities and supply chain threats, automatically assessing customer exposure and guiding remediation",
         "cve": []
     },
     {
