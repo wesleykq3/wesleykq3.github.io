@@ -1,5 +1,69 @@
 [
     {
+        "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+        "date": "Thu, 19 Nov 2026 13:20:01 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+        "source": "BleepingComputer",
+        "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+        "cve": []
+    },
+    {
+        "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+        "date": "Thu, 19 Nov 2026 11:28:23 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+        "source": "BleepingComputer",
+        "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [.",
+        "cve": []
+    },
+    {
+        "title": "Five warning signs of ransomware breach before encryption or data theft",
+        "date": "Thu, 19 Nov 2026 10:00:10 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+        "source": "BleepingComputer",
+        "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defender",
+        "cve": []
+    },
+    {
+        "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+        "date": "Thu, 19 Nov 2026 09:57:24 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+        "source": "BleepingComputer",
+        "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained w",
+        "cve": []
+    },
+    {
+        "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+        "date": "Thu, 19 Nov 2026 08:08:08 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+        "source": "BleepingComputer",
+        "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+        "date": "Thu, 19 Nov 2026 06:46:00 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
+        "cve": []
+    },
+    {
+        "title": "Microsoft confirms app installation, launch issues after hotpatch",
+        "date": "Thu, 19 Nov 2026 05:35:05 -0500",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]",
+        "cve": []
+    },
+    {
+        "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+        "date": "Thu, 19 Nov 2026 04:23:21 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+        "source": "BleepingComputer",
+        "summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+        "cve": []
+    },
+    {
         "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
         "date": "Wed, 18 Nov 2026 18:08:33 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
@@ -16,229 +80,163 @@
         "cve": []
     },
     {
-        "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-        "date": "Wed, 18 Nov 2026 14:39:33 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-        "source": "BleepingComputer",
-        "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-        "date": "Wed, 18 Nov 2026 11:58:42 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-        "source": "BleepingComputer",
-        "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' ",
-        "cve": []
-    },
-    {
-        "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-        "date": "Wed, 18 Nov 2026 10:00:10 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-        "source": "BleepingComputer",
-        "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks",
-        "cve": []
-    },
-    {
-        "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-        "date": "Wed, 18 Nov 2026 06:50:25 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-        "source": "BleepingComputer",
-        "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
-        "cve": []
-    },
-    {
-        "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-        "date": "Wed, 18 Nov 2026 05:35:05 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-        "cve": []
-    },
-    {
-        "title": "Microsoft announces Windows Server 2028 with hardened security",
-        "date": "Wed, 18 Nov 2026 04:24:31 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
-        "cve": []
-    },
-    {
-        "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-        "date": "Wed, 18 Nov 2026 03:24:18 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-        "source": "BleepingComputer",
-        "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. ",
-        "cve": []
-    },
-    {
-        "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-        "date": "Tue, 17 Nov 2026 18:04:21 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-        "source": "BleepingComputer",
-        "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, includin",
-        "cve": []
-    },
-    {
-        "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-        "date": "Thu, 19 Nov 2026 00:01:17 +0530",
-        "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+        "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+        "date": "Thu, 19 Nov 2026 22:29:56 +0530",
+        "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
         "source": "The Hacker News",
-        "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been prese",
+        "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable g",
         "cve": []
     },
     {
-        "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-        "date": "Wed, 18 Nov 2026 23:45:39 +0530",
-        "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+        "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+        "date": "Thu, 19 Nov 2026 20:48:07 +0530",
+        "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
         "source": "The Hacker News",
-        "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific",
+        "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560",
         "cve": []
     },
     {
-        "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-        "date": "Wed, 18 Nov 2026 22:40:45 +0530",
-        "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+        "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+        "date": "Thu, 19 Nov 2026 20:41:06 +0530",
+        "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
         "source": "The Hacker News",
-        "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerab",
+        "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published toda",
         "cve": []
     },
     {
-        "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-        "date": "Wed, 18 Nov 2026 19:41:28 +0530",
-        "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+        "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+        "date": "Thu, 19 Nov 2026 20:03:06 +0530",
+        "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
         "source": "The Hacker News",
-        "summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n",
+        "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a sit",
         "cve": []
     },
     {
-        "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-        "date": "Wed, 18 Nov 2026 17:58:30 +0530",
-        "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+        "title": "Everything Is a Web Application, Including Your Firewall",
+        "date": "Thu, 19 Nov 2026 17:22:23 +0530",
+        "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
         "source": "The Hacker News",
-        "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say.\n\nThat leave",
+        "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-202",
         "cve": []
     },
     {
-        "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-        "date": "Wed, 18 Nov 2026 17:45:00 +0530",
-        "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+        "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+        "date": "Thu, 19 Nov 2026 15:01:26 +0530",
+        "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
         "source": "The Hacker News",
-        "summary": "TL;DR\n\n\n  Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on",
+        "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces ",
         "cve": []
     },
     {
-        "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-        "date": "Wed, 18 Nov 2026 17:25:49 +0530",
-        "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+        "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+        "date": "Thu, 19 Nov 2026 14:12:11 +0530",
+        "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
         "source": "The Hacker News",
-        "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that ",
-        "cve": [
-            "CVE-2026-114938"
-        ]
+        "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that",
+        "cve": []
     },
     {
-        "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-        "date": "Wed, 18 Nov 2026 16:33:57 +0530",
-        "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+        "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+        "date": "Thu, 19 Nov 2026 13:44:00 +0530",
+        "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
         "source": "The Hacker News",
-        "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with t",
+        "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in t",
         "cve": []
     },
     {
-        "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-        "date": "Wed, 18 Nov 2026 13:54:31 +0530",
-        "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+        "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+        "date": "Thu, 19 Nov 2026 13:30:00 +0530",
+        "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
         "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration manag",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt Univ",
         "cve": []
     },
     {
-        "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-        "date": "Wed, 18 Nov 2026 13:54:23 +0530",
-        "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+        "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+        "date": "Thu, 19 Nov 2026 10:03:46 +0530",
+        "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
         "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.\n\nThe flaw, tracked as CVE-",
+        "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, ",
         "cve": []
     },
     {
-        "title": "Hackers Abuse CyberPower UPS Software to Execute SYSTEM Commands and Dump Active Directory Data",
-        "date": "Thu, 19 Nov 2026 04:10:46 +0000",
-        "url": "https://cybersecuritynews.com/hackers-abuse-cyberpower-ups-software/",
+        "title": "New phpAfterShell Attack Bypasses PHP2Shell Fix to Enable Remote Code Execution",
+        "date": "Thu, 19 Nov 2026 16:50:33 +0000",
+        "url": "https://cybersecuritynews.com/phpaftershell-rce/",
         "source": "CyberSecurityNews",
-        "summary": "Exploited CyberPower PowerPanel Business software for managing uninterruptible power supplies (UPS) to gain SYSTEM-level access to a Windows domain controller. Symantec reported on November 18 that th",
+        "summary": "A new PHP attack dubbed phpAfterShell can lead to unauthenticated remote code execution on vulnerable servers, even if they have the October patches for PHP2Shell. Researchers at Depthfirst disclosed ",
         "cve": []
     },
     {
-        "title": "Hackers Exploiting Java4Shell RCE Flaw Using ARTEX Disguise Themselves as Chrome",
-        "date": "Thu, 19 Nov 2026 03:18:37 +0000",
-        "url": "https://cybersecuritynews.com/java4shell-rce-flaw-exploited/",
+        "title": "Critical VMware vCenter Flaws Let Hackers Bypass Authentication and Access Servers",
+        "date": "Thu, 19 Nov 2026 16:30:55 +0000",
+        "url": "https://cybersecuritynews.com/vmware-vcenter-authentication-bypass/",
         "source": "CyberSecurityNews",
-        "summary": "Cloudflare’s Cloudforce One reported a Java4Shell exploit attempt that looked like ordinary Google Chrome traffic in web logs. The team said a source IP first scanned a target using a User-Agent heade",
+        "summary": "Broadcom has released fixes for five VMware flaws, and one lets anyone with network access to vCenter skip login. Broadcom published the advisory,&#160;VMSA-2026-0009,&#160;on November 19, 2026. It co",
         "cve": []
     },
     {
-        "title": "WordPress 7.1.5 Patches 20 Security Issues, Including Potential RCE and SQL Injection Flaws",
-        "date": "Thu, 19 Nov 2026 02:16:02 +0000",
-        "url": "https://cybersecuritynews.com/wordpress-7-1-5-patches-20-security-issues/",
+        "title": "JPMorgan Chase Confirms Third-Party Cyberattack That May Have Exposed Customer Names and Emails",
+        "date": "Thu, 19 Nov 2026 16:14:31 +0000",
+        "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/",
         "source": "CyberSecurityNews",
-        "summary": "WordPress released version 7.1.5 on November 18, 2026, to address 20 security issues in WordPress Core. The update fixes a flaw that could allow someone without an account to run code on a vulnerable ",
+        "summary": "JPMorgan Chase confirmed on November 19 that a cyberattack targeted outside companies that provide services to the bank. The bank said it believes attackers accessed marketing data held by those vendo",
         "cve": []
     },
     {
-        "title": "PHP Security Team Warns of Critical Vulnerabilities, Urges Users to Prepare for November 19 Updates",
-        "date": "Thu, 19 Nov 2026 01:49:53 +0000",
-        "url": "https://cybersecuritynews.com/php-critical-vulnerabilities/",
+        "title": "Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management",
+        "date": "Thu, 19 Nov 2026 15:03:15 +0000",
+        "url": "https://cybersecuritynews.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/",
         "source": "CyberSecurityNews",
-        "summary": "The PHP security team plans to release security updates on Thursday, November 19, 2026, between 14:00 and 14:30 UTC. In its November 18 security notice, the team said the releases will address vulnera",
+        "summary": "Torrance, California, USA, November 19th, 2026, CyberNewswire Criminal IP, a cyber threat intelligence platform developed by AI SPERA, officially launched Criminal IP AITEM (AI-Powered Threat Exposure",
         "cve": []
     },
     {
-        "title": "Fake FMCSA, DAT, and TIMOCOM Portals Attack US Logistics Firms",
-        "date": "Wed, 18 Nov 2026 19:05:56 +0000",
-        "url": "https://cybersecuritynews.com/fake-fmcsa-dat-timocom-portals-target-us-logistics/",
+        "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Urges Users to Update",
+        "date": "Thu, 19 Nov 2026 14:42:41 +0000",
+        "url": "https://cybersecuritynews.com/php-8-released/",
         "source": "CyberSecurityNews",
-        "summary": "Attackers are impersonating carrier-verification, broker-onboarding, and load-board platforms to steal identities and fuel-card credentials, deploy backdoors, and take remote control of dispatch works",
+        "summary": "The PHP security team has warned of vulnerabilities across all branches covered by its November 19, 2026 security update, with the most severe issues rated critical. The team urged website operators a",
         "cve": []
     },
     {
-        "title": "Hackers Use GhostMap eBPF Rootkit to Hide IronWorm Malware From Linux Security Tools",
-        "date": "Wed, 18 Nov 2026 18:11:43 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-ghostmap-ebpf-rootkit/",
+        "title": "Meta AI Agent Muse Reads Encrypted Messages Through Android Notifications and Mac Permissions",
+        "date": "Thu, 19 Nov 2026 14:11:32 +0000",
+        "url": "https://cybersecuritynews.com/muse-reads-encrypted-messages/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are using a Linux rootkit called GhostMap to hide IronWorm malware from tools administrators rely on to inspect running systems. The rootkit can make selected processes, files, and network soc",
+        "summary": "Meta’s AI agent Muse read Signal message text on Android phones and Macs without directly connecting to the encrypted messaging app, Reuters reported on November 18. The investigation found that Muse ",
         "cve": []
     },
     {
-        "title": "Hackers Use Hidden Cron Jobs to Reinstall Malware on Firewalls and Routers Every 5 Minutes",
-        "date": "Wed, 18 Nov 2026 18:01:24 +0000",
-        "url": "https://cybersecuritynews.com/hackers-use-hidden-cron-jobs/",
+        "title": "BADBOX 3.0 Malware Infects Android TV Boxes to Generate 40 Billion Fraudulent Ad Requests Daily",
+        "date": "Thu, 19 Nov 2026 14:05:35 +0000",
+        "url": "https://cybersecuritynews.com/badbox-3-0-malware/",
         "source": "CyberSecurityNews",
-        "summary": "A Linux botnet is hiding in a place most network teams never look: the scheduled jobs on their firewalls, routers and switches. If a responder kills the malware and deletes the file, a hidden cron job",
+        "summary": "Low-cost Android streaming boxes helped power an advertising fraud operation that generated roughly 40 billion bid requests a day at its peak. Known as BADBOX 3.0, the campaign used infected devices t",
         "cve": []
     },
     {
-        "title": "AI Hacking Framework CyberStrikeAI Runs 221 Tool Executions Without Human Approval",
-        "date": "Wed, 18 Nov 2026 16:50:45 +0000",
-        "url": "https://cybersecuritynews.com/cyberstrikeai/",
+        "title": "Hackers Steal US Bank, IRS and Social Security Login Credentials From Infected Computers",
+        "date": "Thu, 19 Nov 2026 13:43:37 +0000",
+        "url": "https://cybersecuritynews.com/hackers-steal-us-bank/",
         "source": "CyberSecurityNews",
-        "summary": "An exposed CyberStrikeAI workspace recorded 221 tool executions in a single session on November 16, 2026. The logs show no human decision at the framework’s tool approval gate, and the saved configura",
+        "summary": "A Russian-speaking cybercrime operation has been stealing logins for US banks, the IRS and Social Security from infected Windows PCs. The victims were ordinary people. Many used a password manager and",
         "cve": []
     },
     {
-        "title": "After Black October, OffSec Turns PHPH2Shell and Other New Vulnerabilities Into Hands-On Labs",
-        "date": "Wed, 18 Nov 2026 16:16:51 +0000",
-        "url": "https://cybersecuritynews.com/offsec-php2shell-black-october-hands-on-labs/",
+        "title": "CISA Warns Hackers Are Actively Exploiting Four Flaws in Synology, LiteLLM, Apache Axis and REDCap",
+        "date": "Thu, 19 Nov 2026 13:06:39 +0000",
+        "url": "https://cybersecuritynews.com/flaws-in-synology-litellm-apache-axis-and-redcap/",
         "source": "CyberSecurityNews",
-        "summary": "New York City, United States, November 18th, 2026, CyberNewswire OffSec built 14 labs on real CVEs in two weeks. Its Level 20 offer takes $550 off Learn One for learners ready to train against threats",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four flaws to its Known Exploited Vulnerabilities (KEV) catalog on November 18, 2026, after finding evidence that attackers were ",
         "cve": []
     },
     {
-        "title": "NGINX HTTP/2 Flaws Could Allow Memory Corruption and Remote Code Execution on Web Servers",
-        "date": "Wed, 18 Nov 2026 16:05:50 +0000",
-        "url": "https://cybersecuritynews.com/nginx-http-2-vulnerabilities/",
+        "title": "Russian National Accused of Using Remote Access Tools to Spy on Silicon Valley Defense Firm",
+        "date": "Thu, 19 Nov 2026 12:44:02 +0000",
+        "url": "https://cybersecuritynews.com/russian-national-silicon-valley-spy/",
         "source": "CyberSecurityNews",
-        "summary": "Two critical vulnerabilities in NGINX could let remote attackers run code on vulnerable web servers without logging in. The flaws, tracked as CVE-2026-123633 and CVE-2026-123007, were disclosed on Nov",
+        "summary": "A federal grand jury has indicted Russian national Igor D’iu over an alleged spy operation targeting employees of a Silicon Valley technology and defense company. The U.S. Department of Justice said o",
         "cve": []
     },
     {
@@ -322,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "After Black October, OffSec Turns PHPH2Shell and Other New Vulnerabilities Into Hands-On Labs",
-        "date": "Wed, 18 Nov 2026 16:16:41 +0000",
-        "url": "https://gbhackers.com/offsec-php2shell-black-october-hands-on-labs/",
+        "title": "Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management",
+        "date": "Thu, 19 Nov 2026 15:03:35 +0000",
+        "url": "https://gbhackers.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/",
         "source": "GBHackers",
-        "summary": "New York City, United States, November 18th, 2026, CyberNewswire OffSec built 14 labs on real CVEs in two weeks. Its Level 20 offer takes $550 off Learn One for learners ready to train against threats",
+        "summary": "Torrance, California, USA, November 19th, 2026, CyberNewswire Criminal IP, a cyber threat intelligence platform developed by AI SPERA, officially launched Criminal IP AITEM (AI-Powered Threat Exposure",
         "cve": []
     },
     {
-        "title": "2027 Cybersecurity Excellence Awards Launch With Six New AI Security Categories",
-        "date": "Wed, 18 Nov 2026 15:53:09 +0000",
-        "url": "https://gbhackers.com/2027-cybersecurity-excellence-awards/",
+        "title": "Synology Fixes Critical Security Flaws With CVSS Scores of 9.8 and 8.1 Across NAS Platforms",
+        "date": "Thu, 19 Nov 2026 13:08:26 +0000",
+        "url": "https://gbhackers.com/synology-fixes-critical-security-flaws/",
         "source": "GBHackers",
-        "summary": "San Francisco, USA, November 17th, 2026, CyberNewswire Global awards program invites nominations across more than 100 cybersecurity categories, with early-bird pricing through Cyber Monday. The Cybers",
+        "summary": "Synology has announced two remotely exploitable vulnerabilities affecting DiskStation Manager (DSM) and BeeStation OS. Fixes for both DSM branches are scheduled for release by November 20, 2026. The n",
         "cve": []
     },
     {
-        "title": "SpyCloud’s 2027 Forecast: Attackers Will Exploit Trusted Access, From Hijacked Sessions to AI Agents",
-        "date": "Wed, 18 Nov 2026 15:36:41 +0000",
-        "url": "https://gbhackers.com/spycloud-2027-cybersecurity-forecast-trusted-access-ai-agents/",
+        "title": "Ubiquiti UniFi Access Vulnerabilities Enable Privilege Escalation and Unauthorized Command Execution",
+        "date": "Thu, 19 Nov 2026 12:52:25 +0000",
+        "url": "https://gbhackers.com/ubiquiti-unifi-access-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "Austin, TX, USA, November 17th, 2026, CyberNewswire New predictions drawn from SpyCloud’s research teams and a survey of security professionals show why stolen sessions, API keys, and vendor connectio",
+        "summary": "Ubiquiti has disclosed seven vulnerabilities in its UniFi Access Application that could let attackers escalate privileges, execute code as root on the host, or run unauthorized commands on certain man",
         "cve": []
     },
     {
-        "title": "Armornet Debuts AI Security for the Code and Vendors Companies Trust",
-        "date": "Wed, 18 Nov 2026 15:22:52 +0000",
-        "url": "https://gbhackers.com/armornet-ai-software-supply-chain-vendor-security/",
+        "title": "Hackers Hide Malware Inside Cheap TV Boxes to Steal Home Internet Bandwidth and Generate Fake Ads",
+        "date": "Thu, 19 Nov 2026 12:38:23 +0000",
+        "url": "https://gbhackers.com/malware-hidden-cheap-tv-boxes/",
         "source": "GBHackers",
-        "summary": "Grand Rapids, Michigan, November 18th, 2026, CyberNewswire Startup shows teams the vendors they rely on, keeps a live risk score on each one and secures the software supply chain from end to end Armor",
+        "summary": "BADBOX 3.0, an operation that turned inexpensive streaming boxes into hidden video ad players and residential proxies. At its peak, the campaign generated roughly 40 billion bid requests per day, acco",
         "cve": []
     },
     {
-        "title": "GitHub and Microsoft Launch AI Security Initiative to Protect Six Major Open Source Projects",
-        "date": "Wed, 18 Nov 2026 12:33:59 +0000",
-        "url": "https://gbhackers.com/github-and-microsoft-launch-ai-security-initiative/",
+        "title": "N-able Confirms Security Breach in Mail Assure and SpamExperts Hosted Cloud, Credentials Potentially Exposed",
+        "date": "Thu, 19 Nov 2026 12:28:58 +0000",
+        "url": "https://gbhackers.com/n-able-confirms-security-breach-in-mail-assure/",
         "source": "GBHackers",
-        "summary": "GitHub and Microsoft disclosed on November 17 that an AI-assisted security pilot helped maintainers fix 55 vulnerabilities across six widely used open-source projects. The companies narrowed thousands",
+        "summary": "N-able confirmed unauthorized access to one server in the cloud environment hosting Mail Assure and SpamExperts Hosted Cloud. The security incident disrupted administrative services across the America",
         "cve": []
     },
     {
-        "title": "Hackers Abuse Linux eBPF Technology to Hide Malware Processes and Evade Detection",
-        "date": "Wed, 18 Nov 2026 12:25:44 +0000",
-        "url": "https://gbhackers.com/linux-ebpf-technology/",
+        "title": "Hackers Exploit AI-Powered ARTEX Tool to Identify Vulnerabilities in European Commission IT Systems",
+        "date": "Thu, 19 Nov 2026 12:14:22 +0000",
+        "url": "https://gbhackers.com/hackers-exploit-ai-powered-artex-tool/",
         "source": "GBHackers",
-        "summary": "An eBPF rootkit that makes malware processes, selected file entries, and network sockets disappear from some Linux utilities without removing the underlying objects. In controlled tests, the rootkit h",
+        "summary": "Hackers used ARTEX, a publicly available AI-powered tool designed to identify vulnerabilities, in a cyber campaign targeting the European Commission. According to POLITICO’s Brussels Playbook, CERT-EU",
         "cve": []
     },
     {
-        "title": "Google Chrome 158 Released With 204 Security Fixes, Including 6 Critical Vulnerabilities",
-        "date": "Wed, 18 Nov 2026 12:08:51 +0000",
-        "url": "https://gbhackers.com/google-chrome-158-released-with-204-security-fixes/",
+        "title": "Russian-Speaking Hackers Steal US Bank, IRS and Social Security Login Credentials From Infected PCs",
+        "date": "Thu, 19 Nov 2026 11:50:34 +0000",
+        "url": "https://gbhackers.com/credentials-stealing-malware/",
         "source": "GBHackers",
-        "summary": "Google released Chrome 158 to the desktop Stable channel on November 17, 2026, with 204 security fixes, including six critical vulnerabilities. The patched builds are 158.0.8127.36 for Linux and 158.0",
+        "summary": "Russian-speaking hackers stole US banking and federal identity credentials from infected Windows PCs. The archives contained plaintext bank logins, decrypted password vaults, and authentication cookie",
         "cve": []
     },
     {
-        "title": "Atlassian Releases November 2026 Security Updates Fixing 318 Vulnerabilities Across Enterprise Products",
-        "date": "Wed, 18 Nov 2026 11:35:48 +0000",
-        "url": "https://gbhackers.com/atlassian-releases-november-2026-security-updates/",
+        "title": "Hackers Exploit Critical RCE Vulnerabilities in Synology NAS, Apache Axis and REDCap, CISA Warns",
+        "date": "Thu, 19 Nov 2026 11:30:04 +0000",
+        "url": "https://gbhackers.com/critical-rce-vulnerabilities/",
         "source": "GBHackers",
-        "summary": "Atlassian published its November 2026 Security Bulletin on November 17, documenting fixes for 318 vulnerability entries across Jira Software, Jira Service Management, Confluence, Bitbucket, Bamboo, Cr",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 18, 2026, citing evidence of active exploit",
         "cve": []
     },
     {
-        "title": "Hackers Abuse Linux Cron Jobs to Maintain Persistent Malware Access on Firewalls and Switches",
-        "date": "Wed, 18 Nov 2026 10:48:22 +0000",
-        "url": "https://gbhackers.com/linux-cron-jobs-exploitation/",
+        "title": "Hackers Use Legitimate Microsoft Login Pages to Steal OAuth Tokens and Hijack Microsoft 365 Accounts",
+        "date": "Thu, 19 Nov 2026 10:33:57 +0000",
+        "url": "https://gbhackers.com/oauth-tokens-theft/",
         "source": "GBHackers",
-        "summary": "A Linux botnet targeting internet-facing edge devices can reinstall itself within five minutes if responders delete the malware but leave its scheduled job intact. The campaign highlights a blind spot",
+        "summary": "Attackers are using genuine Microsoft sign-in pages to hijack Microsoft 365 accounts without collecting passwords on counterfeit login forms. Once a victim approves the request, Microsoft issues OAuth",
         "cve": []
     },
     {
-        "title": "Hackers Turn AI Coding Agent Configuration Files Into Malware Execution and Propagation Channels",
-        "date": "Wed, 18 Nov 2026 10:38:15 +0000",
-        "url": "https://gbhackers.com/ai-coding-agent/",
+        "title": "Apache Roller Vulnerability Allows Remote Code Execution Through Unsafe XML-RPC Deserialization",
+        "date": "Thu, 19 Nov 2026 10:08:45 +0000",
+        "url": "https://gbhackers.com/apache-roller-vulnerability-2/",
         "source": "GBHackers",
-        "summary": "A malware campaign that uses compromised GitHub content to target developers using AI coding assistants. The malware can steal developer credentials, alter local agent configurations, and use stolen a",
+        "summary": "The Apache Software Foundation has disclosed an actively exploited vulnerability in Apache Roller that lets remote attackers execute arbitrary code without logging in. Tracked as CVE-2026-129448, the ",
         "cve": []
     }
 ]
