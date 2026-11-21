@@ -162,6 +162,14 @@
         "cve": []
     },
     {
+        "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+        "date": "Sat, 21 Nov 2026 00:36:39 +0000",
+        "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+        "source": "krebsonsecurity",
+        "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been cha",
+        "cve": []
+    },
+    {
         "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
         "date": "Wed, 18 Nov 2026 02:52:04 +0000",
         "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
@@ -234,11 +242,27 @@
         "cve": []
     },
     {
-        "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-        "date": "Sat, 10 Oct 2026 00:17:42 +0000",
-        "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-        "source": "krebsonsecurity",
-        "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that ",
+        "title": "Libreboot Abandons Anti-AI Policy After One Month",
+        "date": "Fri, 20 Nov 2026 17:23:41 -0500",
+        "url": "https://www.phoronix.com/news/Libreboot-Drops-AI-Policy",
+        "source": "Phoronix",
+        "summary": "Coreboot downstream Libreboot last month enacted an AI policy to forbid contributions made using AI/LLMs. Surprisingly, already, that anti-AI policy has been dropped with AI-based submissions now bein",
+        "cve": []
+    },
+    {
+        "title": "GnuPG's GPGME Affected By Critical Security Bug In Turn Affecting Mail Clients, Flatpak",
+        "date": "Fri, 20 Nov 2026 15:46:51 -0500",
+        "url": "https://www.phoronix.com/news/GnuPG-GPGME-Critical",
+        "source": "Phoronix",
+        "summary": "Werner Koch announced a late Friday afternoon \"critical security bug\" affecting GnuPG's GPGME library - GnuPG Made Easy. Unfortunately this in turn affects GPGME users like most email clients, most XM",
+        "cve": []
+    },
+    {
+        "title": "Intel Preps Linux 7.5 Change To Better Handle Multiple GPUs With Lots Of VRAM",
+        "date": "Fri, 20 Nov 2026 14:41:29 -0500",
+        "url": "https://www.phoronix.com/news/Linux-7.5-DRM-8TB-mmap",
+        "source": "Phoronix",
+        "summary": "A change set to land for the upcoming Linux 7.5 kernel cycle expands the mmap range size for GEM/TTM buffer objects in the kernel graphics drivers from 1TB to now up to 8TB...",
         "cve": []
     },
     {
@@ -295,30 +319,6 @@
         "url": "https://www.phoronix.com/news/Cloud-Hypervisor-55",
         "source": "Phoronix",
         "summary": "Cloud Hypervisor 55.0 was released on Thursday for this security-minded, cloud-focused virtual machine monitor (VMM) written in Rust. While it started off as an Intel open-source project, it's expande",
-        "cve": []
-    },
-    {
-        "title": "Kwi Sees First Release As KDE's New Terminal Emulator",
-        "date": "Fri, 20 Nov 2026 05:41:17 -0500",
-        "url": "https://www.phoronix.com/news/Kwi-Terminal-First-Release",
-        "source": "Phoronix",
-        "summary": "Over the past number of weeks Kwi has been in development as a new KDE terminal emulator. Kwi is built off the Ghostty library and delivering magnificent performance over the existing Konsole terminal",
-        "cve": []
-    },
-    {
-        "title": "FFmpeg 9.1 Released With NVIDIA Optical Flow FRUC, APV Vulkan Encoder",
-        "date": "Fri, 20 Nov 2026 05:30:05 -0500",
-        "url": "https://www.phoronix.com/news/FFmpeg-9.1-Released",
-        "source": "Phoronix",
-        "summary": "Following the FFmpeg 9.1 release preparations that began last month, FFmpeg 9.1 is now formally released as the newest feature update to this widely-used, cross-platform multimedia library...",
-        "cve": []
-    },
-    {
-        "title": "Linux 7.5 To Optionally Block /proc/kcore Access For Better Security",
-        "date": "Thu, 19 Nov 2026 17:03:06 -0500",
-        "url": "https://www.phoronix.com/news/Linux-7.5-Restrict-proc-kcore",
-        "source": "Phoronix",
-        "summary": "A patch that is queued up ahead of the Linux 7.5 merge window allows for optionally disabling /proc/kcore access at boot time. This can allow for better system security though will remain enabled by d",
         "cve": []
     }
 ]
