@@ -1,5 +1,29 @@
 [
     {
+        "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+        "date": "Sat, 21 Nov 2026 13:01:58 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+        "source": "BleepingComputer",
+        "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addre",
+        "cve": []
+    },
+    {
+        "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+        "date": "Sat, 21 Nov 2026 10:17:27 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+        "source": "BleepingComputer",
+        "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+        "cve": []
+    },
+    {
+        "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+        "date": "Sat, 21 Nov 2026 09:26:04 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+        "source": "BleepingComputer",
+        "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local",
+        "cve": []
+    },
+    {
         "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
         "date": "Fri, 20 Nov 2026 13:51:43 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
@@ -56,27 +80,43 @@
         "cve": []
     },
     {
-        "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-        "date": "Fri, 20 Nov 2026 04:25:35 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
+        "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+        "date": "Sat, 21 Nov 2026 17:23:07 +0530",
+        "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+        "source": "The Hacker News",
+        "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.\n\nThe same attack could",
         "cve": []
     },
     {
-        "title": "VMware patches vCenter zero-day exploited in attacks since September",
-        "date": "Thu, 19 Nov 2026 19:26:25 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-        "source": "BleepingComputer",
-        "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. ",
+        "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+        "date": "Sat, 21 Nov 2026 16:35:53 +0530",
+        "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+        "source": "The Hacker News",
+        "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\n\nThe GnuPG project warned yesterday that t",
         "cve": []
     },
     {
-        "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-        "date": "Thu, 19 Nov 2026 17:25:42 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
-        "source": "BleepingComputer",
-        "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal",
+        "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+        "date": "Sat, 21 Nov 2026 16:33:17 +0530",
+        "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+        "source": "The Hacker News",
+        "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Th",
+        "cve": []
+    },
+    {
+        "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+        "date": "Sat, 21 Nov 2026 14:19:20 +0530",
+        "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+        "source": "The Hacker News",
+        "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+        "date": "Sat, 21 Nov 2026 14:19:13 +0530",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited",
         "cve": []
     },
     {
@@ -122,43 +162,83 @@
         "cve": []
     },
     {
-        "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-        "date": "Fri, 20 Nov 2026 16:02:50 +0530",
-        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC",
+        "title": "CrowdStrike in Talks to Acquire Zscaler in One of the Biggest Cybersecurity Deals Ever",
+        "date": "Sat, 21 Nov 2026 13:12:03 +0000",
+        "url": "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler/",
+        "source": "CyberSecurityNews",
+        "summary": "CrowdStrike is in talks to acquire Zscaler in a deal that could rank among the largest in cybersecurity history. Bloomberg first reported the discussions on Friday, November 20, citing two people fami",
         "cve": []
     },
     {
-        "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-        "date": "Fri, 20 Nov 2026 15:08:15 +0530",
-        "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-        "source": "The Hacker News",
-        "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early",
+        "title": "6 Critical F5 BIG-IP Vulnerabilities Could Let Hackers Disrupt Websites and Execute Malicious Code",
+        "date": "Sat, 21 Nov 2026 03:13:03 +0000",
+        "url": "https://cybersecuritynews.com/critical-f5-big-ip-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "F5 released emergency fixes for six critical BIG-IP vulnerabilities that could let remote attackers take websites and other services offline without logging in. The flaws affect specific traffic-handl",
         "cve": []
     },
     {
-        "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-        "date": "Fri, 20 Nov 2026 12:41:39 +0530",
-        "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-        "source": "The Hacker News",
-        "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROM",
+        "title": "WhatsApp Android Flaws Could Let Hackers Delete Users’ Files and Expose IP Addresses",
+        "date": "Sat, 21 Nov 2026 02:36:55 +0000",
+        "url": "https://cybersecuritynews.com/whatsapp-android-flaws/",
+        "source": "CyberSecurityNews",
+        "summary": "WhatsApp’s November 2026 security update describes three flaws that could let attackers delete files stored by WhatsApp on Android, expose a user’s IP address, or bypass a security check for Meta AI’s",
         "cve": []
     },
     {
-        "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-        "date": "Fri, 20 Nov 2026 11:00:01 +0530",
-        "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-        "source": "The Hacker News",
-        "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited a",
+        "title": "14 Best Enterprise Risk Management Tools 2027",
+        "date": "Sat, 21 Nov 2026 01:26:39 +0000",
+        "url": "https://cybersecuritynews.com/enterprise-risk-management-tools/",
+        "source": "CyberSecurityNews",
+        "summary": "Enterprise Risk Management (ERM) tools empower organizations to identify, assess, and mitigate risks amid 2026&#8217;s complex, threat-laden business landscape. Evolving rapidly, these platforms harne",
         "cve": []
     },
     {
-        "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-        "date": "Fri, 20 Nov 2026 00:17:58 +0530",
-        "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-        "source": "The Hacker News",
-        "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. Th",
+        "title": "Microsoft Investigates Attachment Upload Failures in New Outlook",
+        "date": "Fri, 20 Nov 2026 17:01:31 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-attachment-upload-failures/",
+        "source": "CyberSecurityNews",
+        "summary": "Microsoft is investigating reports that some Microsoft 365 users cannot upload email attachments in New Outlook. In a November 20 service update, the company said attachment uploads still work in Outl",
+        "cve": []
+    },
+    {
+        "title": "Over 100 Debian Packages Still Contain Distrusted CA Certificates Despite Security Updates",
+        "date": "Fri, 20 Nov 2026 16:39:48 +0000",
+        "url": "https://cybersecuritynews.com/debian-packages-ca-certificates/",
+        "source": "CyberSecurityNews",
+        "summary": "A scan of a Debian package mirror found that more than 100 packages still contained copies of distrusted certificate authority (CA) certificates after Debian removed them from its system trust store. ",
+        "cve": []
+    },
+    {
+        "title": "Critical Apache Tomcat Flaw Lets Remote Attackers Join Trusted Server Clusters Without Authentication",
+        "date": "Fri, 20 Nov 2026 14:29:21 +0000",
+        "url": "https://cybersecuritynews.com/critical-apache-tomcat-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "The Apache Software Foundation has disclosed a critical flaw in Apache Tomcat that allows a remote attacker to join a trusted server cluster without authentication. Tracked as CVE-2026-133325, the fla",
+        "cve": []
+    },
+    {
+        "title": "Hackers Use 355 Domains to Spread Fake GTA 6 PC Launchers Delivering Malware",
+        "date": "Fri, 20 Nov 2026 13:02:57 +0000",
+        "url": "https://cybersecuritynews.com/fake-gta-6-pc-launchers/",
+        "source": "CyberSecurityNews",
+        "summary": "A malware campaign called CyberLeek is using more than 355 domains and subdomains to promote fake Grand Theft Auto VI PC launchers. The sites offer what they claim is a leaked or early Windows release",
+        "cve": []
+    },
+    {
+        "title": "Hackers Turn Legitimate VPN Software Into a Stealthy Tool for Spying on Government Networks",
+        "date": "Fri, 20 Nov 2026 12:40:26 +0000",
+        "url": "https://cybersecuritynews.com/legitimate-vpn-software/",
+        "source": "CyberSecurityNews",
+        "summary": "Hackers have rebuilt the open-source SoftEther VPN Bridge to keep a quiet route into compromised networks. The modified Windows program, branded internally as NtMonitor VPN, can link an external netwo",
+        "cve": []
+    },
+    {
+        "title": "OpenSSL Hit by Critical 9.8 Heap Buffer Overflow Vulnerability in Base64 Encoding Function",
+        "date": "Fri, 20 Nov 2026 12:34:30 +0000",
+        "url": "https://cybersecuritynews.com/openssl-heap-buffer-overflow/",
+        "source": "CyberSecurityNews",
+        "summary": "A heap buffer overflow in OpenSSL’s Base64 encoding function can corrupt application memory when the library processes very large inputs. The flaw, tracked as CVE-2026-121481, was published on Novembe",
         "cve": []
     },
     {
@@ -242,83 +322,83 @@
         "cve": []
     },
     {
-        "title": "Libreboot Abandons Anti-AI Policy After One Month",
-        "date": "Fri, 20 Nov 2026 17:23:41 -0500",
-        "url": "https://www.phoronix.com/news/Libreboot-Drops-AI-Policy",
-        "source": "Phoronix",
-        "summary": "Coreboot downstream Libreboot last month enacted an AI policy to forbid contributions made using AI/LLMs. Surprisingly, already, that anti-AI policy has been dropped with AI-based submissions now bein",
+        "title": "Critical F5 BIG-IP Stack Buffer Overflow Flaw Enables Remote Code Execution and Denial-of-Service Attacks",
+        "date": "Sat, 21 Nov 2026 07:53:29 +0000",
+        "url": "https://gbhackers.com/critical-f5-big-ip-stack-buffer-overflow-flaw/",
+        "source": "GBHackers",
+        "summary": "F5 disclosed a critical stack-based buffer overflow in BIG-IP Access Policy Manager (APM) on November 18, 2026. Tracked as CVE-2026-123637, the flaw allows a remote, unauthenticated attacker to termin",
         "cve": []
     },
     {
-        "title": "GnuPG's GPGME Affected By Critical Security Bug In Turn Affecting Mail Clients, Flatpak",
-        "date": "Fri, 20 Nov 2026 15:46:51 -0500",
-        "url": "https://www.phoronix.com/news/GnuPG-GPGME-Critical",
-        "source": "Phoronix",
-        "summary": "Werner Koch announced a late Friday afternoon \"critical security bug\" affecting GnuPG's GPGME library - GnuPG Made Easy. Unfortunately this in turn affects GPGME users like most email clients, most XM",
+        "title": "China-Linked Webworm Hackers Deploy Custom SoftEther VPN to Maintain Hidden Access to Government Networks",
+        "date": "Sat, 21 Nov 2026 07:37:44 +0000",
+        "url": "https://gbhackers.com/china-linked-webworm-softether-vpn/",
+        "source": "GBHackers",
+        "summary": "A newly identified modified SoftEther VPN Bridge that is attributed with moderate confidence to Webworm, a China-aligned espionage group known for targeting government organizations, particularly in E",
         "cve": []
     },
     {
-        "title": "Intel Preps Linux 7.5 Change To Better Handle Multiple GPUs With Lots Of VRAM",
-        "date": "Fri, 20 Nov 2026 14:41:29 -0500",
-        "url": "https://www.phoronix.com/news/Linux-7.5-DRM-8TB-mmap",
-        "source": "Phoronix",
-        "summary": "A change set to land for the upcoming Linux 7.5 kernel cycle expands the mmap range size for GEM/TTM buffer objects in the kernel graphics drivers from 1TB to now up to 8TB...",
+        "title": "New AI-Powered Bazuka Banking Trojan Targets Android Users With Keylogging and SMS Interception",
+        "date": "Sat, 21 Nov 2026 07:15:46 +0000",
+        "url": "https://gbhackers.com/ai-powered-bazuka-banking-trojan-android-users/",
+        "source": "GBHackers",
+        "summary": "A newly disclosed Bazuka, a modular Android banking Trojan that captures banking credentials and intercepts SMS verification codes while using large language models (LLMs) to help operators prioritize",
         "cve": []
     },
     {
-        "title": "AMD Contributes Integration For Content-Adaptive / Adaptive Backlight Modulation To GNOME",
-        "date": "Fri, 20 Nov 2026 12:52:31 -0500",
-        "url": "https://www.phoronix.com/news/GNOME-AMD-Content-Adaptive",
-        "source": "Phoronix",
-        "summary": "Merged today to GNOME's Mutter compositor is support for the Adaptive Backlight Modulation (ABM) DRM/KMS connector property and a \"content-adaptive\" API. This GNOME desktop improvement was contributed",
+        "title": "WhatsApp Security Flaw Lets Attackers Delete Files and Leak Chat Database Information on Android Devices",
+        "date": "Sat, 21 Nov 2026 06:59:27 +0000",
+        "url": "https://gbhackers.com/whatsapp-security-flaw/",
+        "source": "GBHackers",
+        "summary": "WhatsApp’s November 2026 security update addresses a SQL injection flaw that could let attackers delete locally stored WhatsApp files and infer limited information about a recipient’s chat database on",
         "cve": []
     },
     {
-        "title": "System76 Thelio Prime: A Petite But Performant AMD-Powered Linux PC",
-        "date": "Fri, 20 Nov 2026 11:38:02 -0500",
-        "url": "https://www.phoronix.com/review/system76-thelio-prime",
-        "source": "Phoronix",
-        "summary": "After teasing the new System76 Thelio Prime last month, this week officially launched their redesigned Thelio Prime mini desktop PC. This AMD Ryzen 9000 series powered creation is quite small with an ",
+        "title": "North Korean IT Workers Create Fake Construction Company and Use AI Deepfakes to Target U.S. Businesses",
+        "date": "Sat, 21 Nov 2026 06:50:30 +0000",
+        "url": "https://gbhackers.com/north-korean-fake-construction-company-ai-deepfakes/",
+        "source": "GBHackers",
+        "summary": "A suspected North Korean remote worker used a fake Virginia construction company and an apparent real-time AI face swap to pursue contracts with U.S. businesses. The company, The Great House, advertis",
         "cve": []
     },
     {
-        "title": "Fedora Incident Response Policy Drafted For Improving Workflow & Security Disclosures",
-        "date": "Fri, 20 Nov 2026 09:47:51 -0500",
-        "url": "https://www.phoronix.com/news/Fedora-Incident-Response-Policy",
-        "source": "Phoronix",
-        "summary": "The Fedora Security Special Interest Group (SIG) drafted an Incident Response Policy for the Fedora project. This stems from shortcomings in the Fedora project brought to light during the XZ Utils sec",
+        "title": "Critical Apache Tomcat Security Flaw Enables Unauthorized Nodes to Join Protected Server Clusters",
+        "date": "Sat, 21 Nov 2026 06:39:51 +0000",
+        "url": "https://gbhackers.com/critical-apache-tomcat-security-flaw/",
+        "source": "GBHackers",
+        "summary": "The Apache Software Foundation disclosed a critical peer authentication bypass in Apache Tomcat that allows an unauthenticated node to join a cluster secured with TLS 1.3 and a pre-shared key (PSK). T",
         "cve": []
     },
     {
-        "title": "AMDXDNA Driver Reaches Version 1.0, Ryzen AI NPU10 & NPU11 Coming To Linux 7.5",
-        "date": "Fri, 20 Nov 2026 08:16:40 -0500",
-        "url": "https://www.phoronix.com/news/AMDXDNA-1.0-Linux-Driver",
-        "source": "Phoronix",
-        "summary": "With the upcoming Linux 7.5 kernel, the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs is declaring version 1.0...",
+        "title": "AI-Assisted Hackers Deploy 41 PowerShell Scripts to Steal Credentials From African Stock Exchange",
+        "date": "Fri, 20 Nov 2026 16:46:48 +0000",
+        "url": "https://gbhackers.com/african-stock-exchange-credential-theft/",
+        "source": "GBHackers",
+        "summary": "Symantec researchers say attackers probably used an AI-written toolkit to hunt for credentials at an African stock exchange. They ran 41 PowerShell modules in 3 minutes 12 seconds, from 08:44 to 08:47",
         "cve": []
     },
     {
-        "title": "Rust Coreutils 0.13 Release Delivers More Performance, Better Compatibility",
-        "date": "Fri, 20 Nov 2026 06:16:03 -0500",
-        "url": "https://www.phoronix.com/news/Rust-Coreutils-0.13",
-        "source": "Phoronix",
-        "summary": "Rust Coreutils 0.13 released today as the newest feature update to this Rust-based re-implementation of GNU Coreutils that is used by Ubuntu Linux and other platforms...",
+        "title": "KPMG Canada Confirms Security Breach as Third Party Accesses Confidential Client Files",
+        "date": "Fri, 20 Nov 2026 14:14:49 +0000",
+        "url": "https://gbhackers.com/kpmg-canada-confirms-security-breach/",
+        "source": "GBHackers",
+        "summary": "KPMG Canada confirmed that an unauthorized third party accessed confidential client tax documents in a cybersecurity breach. The accounting firm did not disclose when the intrusion occurred, how many ",
         "cve": []
     },
     {
-        "title": "Vulkan 1.4.369 Introduces New AMD Extension For Improving Ray-Tracing Performance",
-        "date": "Fri, 20 Nov 2026 06:05:08 -0500",
-        "url": "https://www.phoronix.com/news/Vulkan-AMDX-Ray-Tracing-Struct",
-        "source": "Phoronix",
-        "summary": "Vulkan 1.4.369 is out today with a new, currently-experimental Vulkan API extension from AMD to help further enhance ray-tracing performance with modern games...",
+        "title": "Palo Alto Networks Warns of Critical Java RCE Vulnerability Affecting Multiple Security Products",
+        "date": "Fri, 20 Nov 2026 14:04:02 +0000",
+        "url": "https://gbhackers.com/palo-alto-networks-warns-of-critical-java-rce-vulnerability/",
+        "source": "GBHackers",
+        "summary": "Palo Alto Networks has warned that a critical Java vulnerability, tracked as CVE-2026-114938, affects multiple Idira security products and could allow unauthenticated remote code execution (RCE). The ",
         "cve": []
     },
     {
-        "title": "Cloud Hypervisor 55 Released With AArch64 Nested Virtualization, Up To 990 ARM vCPUs",
-        "date": "Fri, 20 Nov 2026 05:51:22 -0500",
-        "url": "https://www.phoronix.com/news/Cloud-Hypervisor-55",
-        "source": "Phoronix",
-        "summary": "Cloud Hypervisor 55.0 was released on Thursday for this security-minded, cloud-focused virtual machine monitor (VMM) written in Rust. While it started off as an Intel open-source project, it's expande",
+        "title": "NGINX2ROOT Exploits 5 Critical NGINX Vulnerabilities to Gain Remote Code Execution and Root Access",
+        "date": "Fri, 20 Nov 2026 13:54:54 +0000",
+        "url": "https://gbhackers.com/nginx2root-exploits-5-critical-nginx-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "Five memory corruption flaws in F5 NGINX Open Source and NGINX Plus, collectively named nginx2root, let remote, unauthenticated attackers run code on exposed web servers. Disclosed on November 18, 202",
         "cve": []
     }
 ]
