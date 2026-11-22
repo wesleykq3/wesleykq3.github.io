@@ -1,5 +1,21 @@
 [
     {
+        "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+        "date": "Sun, 22 Nov 2026 10:43:04 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+        "source": "BleepingComputer",
+        "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+        "cve": []
+    },
+    {
+        "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+        "date": "Sun, 22 Nov 2026 10:15:25 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+        "source": "BleepingComputer",
+        "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+        "cve": []
+    },
+    {
         "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
         "date": "Sat, 21 Nov 2026 17:59:58 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
@@ -64,19 +80,19 @@
         "cve": []
     },
     {
-        "title": "N-able says recent security breach led to major service outage",
-        "date": "Fri, 20 Nov 2026 08:18:36 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-        "source": "BleepingComputer",
-        "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+        "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+        "date": "Sun, 22 Nov 2026 10:36:55 +0530",
+        "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+        "source": "The Hacker News",
+        "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of t",
         "cve": []
     },
     {
-        "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
-        "date": "Fri, 20 Nov 2026 07:14:28 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
-        "source": "BleepingComputer",
-        "summary": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
+        "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+        "date": "Sun, 22 Nov 2026 10:33:41 +0530",
+        "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+        "source": "The Hacker News",
+        "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\n\nGhostscript is the interpreter that many Linux serve",
         "cve": []
     },
     {
@@ -146,19 +162,19 @@
         ]
     },
     {
-        "title": "The Path to AI Autonomy in the SOC",
-        "date": "Fri, 20 Nov 2026 17:30:00 +0530",
-        "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-        "source": "The Hacker News",
-        "summary": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agen",
+        "title": "VirusTotal’s New Ransomware Detection Catches Malware Missed by All 75 Antivirus Engines",
+        "date": "Sun, 22 Nov 2026 17:11:43 +0000",
+        "url": "https://cybersecuritynews.com/virustotal-ransomware-detection/",
+        "source": "CyberSecurityNews",
+        "summary": "VirusTotal has rolled out a ransomware detection update that checks whether suspicious files actually encrypt user documents during execution. The new checks caught a Python ransomware sample that rec",
         "cve": []
     },
     {
-        "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-        "date": "Fri, 20 Nov 2026 16:08:22 +0530",
-        "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-        "source": "The Hacker News",
-        "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-ass",
+        "title": "OpenRouter Users’ Private AI Chats Possibly Exposed Via Compromised Third-Party Providers",
+        "date": "Sun, 22 Nov 2026 03:58:45 +0000",
+        "url": "https://cybersecuritynews.com/openrouter-ai-chat-leaks/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenRouter has removed three AI hosting providers and revoked Zero Data Retention eligibility for 125 endpoints after researchers found evidence that some providers had been compromised or had failed ",
         "cve": []
     },
     {
@@ -175,6 +191,14 @@
         "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/",
         "source": "CyberSecurityNews",
         "summary": "Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations. A Microsoft custome",
+        "cve": []
+    },
+    {
+        "title": "MCP Server Security: How to Stop Rogue AI Agents",
+        "date": "Sat, 21 Nov 2026 17:24:13 +0000",
+        "url": "https://cybersecuritynews.com/mcp-server-security/",
+        "source": "CyberSecurityNews",
+        "summary": "The Model Context Protocol (MCP) lets AI applications connect to external tools, APIs, and business data through a standardized interface. But every MCP server adds another entry point that attackers ",
         "cve": []
     },
     {
@@ -215,30 +239,6 @@
         "url": "https://cybersecuritynews.com/microsoft-attachment-upload-failures/",
         "source": "CyberSecurityNews",
         "summary": "Microsoft is investigating reports that some Microsoft 365 users cannot upload email attachments in New Outlook. In a November 20 service update, the company said attachment uploads still work in Outl",
-        "cve": []
-    },
-    {
-        "title": "Over 100 Debian Packages Still Contain Distrusted CA Certificates Despite Security Updates",
-        "date": "Fri, 20 Nov 2026 16:39:48 +0000",
-        "url": "https://cybersecuritynews.com/debian-packages-ca-certificates/",
-        "source": "CyberSecurityNews",
-        "summary": "A scan of a Debian package mirror found that more than 100 packages still contained copies of distrusted certificate authority (CA) certificates after Debian removed them from its system trust store. ",
-        "cve": []
-    },
-    {
-        "title": "Critical Apache Tomcat Flaw Lets Remote Attackers Join Trusted Server Clusters Without Authentication",
-        "date": "Fri, 20 Nov 2026 14:29:21 +0000",
-        "url": "https://cybersecuritynews.com/critical-apache-tomcat-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "The Apache Software Foundation has disclosed a critical flaw in Apache Tomcat that allows a remote attacker to join a trusted server cluster without authentication. Tracked as CVE-2026-133325, the fla",
-        "cve": []
-    },
-    {
-        "title": "Hackers Use 355 Domains to Spread Fake GTA 6 PC Launchers Delivering Malware",
-        "date": "Fri, 20 Nov 2026 13:02:57 +0000",
-        "url": "https://cybersecuritynews.com/fake-gta-6-pc-launchers/",
-        "source": "CyberSecurityNews",
-        "summary": "A malware campaign called CyberLeek is using more than 355 domains and subdomains to promote fake Grand Theft Auto VI PC launchers. The sites offer what they claim is a leaked or early Windows release",
         "cve": []
     },
     {
