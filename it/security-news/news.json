@@ -1,5 +1,13 @@
 [
     {
+        "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+        "date": "Sat, 21 Nov 2026 17:59:58 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+        "source": "BleepingComputer",
+        "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in custom",
+        "cve": []
+    },
+    {
         "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
         "date": "Sat, 21 Nov 2026 13:01:58 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
         "source": "BleepingComputer",
         "summary": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
-        "cve": []
-    },
-    {
-        "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-        "date": "Fri, 20 Nov 2026 05:57:43 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-        "source": "BleepingComputer",
-        "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
         "cve": []
     },
     {
@@ -162,6 +162,22 @@
         "cve": []
     },
     {
+        "title": "Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw",
+        "date": "Sun, 22 Nov 2026 02:43:08 +0000",
+        "url": "https://cybersecuritynews.com/upload2shell-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "A flaw in Ghostscript let researchers run commands on WordPress, Roundcube webmail, and Linux print servers through routine file processing. The vulnerability, dubbed Upload2Shell and tracked as CVE-2",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
+        "date": "Sun, 22 Nov 2026 02:03:18 +0000",
+        "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/",
+        "source": "CyberSecurityNews",
+        "summary": "Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations. A Microsoft custome",
+        "cve": []
+    },
+    {
         "title": "CrowdStrike in Talks to Acquire Zscaler in One of the Biggest Cybersecurity Deals Ever",
         "date": "Sat, 21 Nov 2026 13:12:03 +0000",
         "url": "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler/",
@@ -223,22 +239,6 @@
         "url": "https://cybersecuritynews.com/fake-gta-6-pc-launchers/",
         "source": "CyberSecurityNews",
         "summary": "A malware campaign called CyberLeek is using more than 355 domains and subdomains to promote fake Grand Theft Auto VI PC launchers. The sites offer what they claim is a leaked or early Windows release",
-        "cve": []
-    },
-    {
-        "title": "Hackers Turn Legitimate VPN Software Into a Stealthy Tool for Spying on Government Networks",
-        "date": "Fri, 20 Nov 2026 12:40:26 +0000",
-        "url": "https://cybersecuritynews.com/legitimate-vpn-software/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers have rebuilt the open-source SoftEther VPN Bridge to keep a quiet route into compromised networks. The modified Windows program, branded internally as NtMonitor VPN, can link an external netwo",
-        "cve": []
-    },
-    {
-        "title": "OpenSSL Hit by Critical 9.8 Heap Buffer Overflow Vulnerability in Base64 Encoding Function",
-        "date": "Fri, 20 Nov 2026 12:34:30 +0000",
-        "url": "https://cybersecuritynews.com/openssl-heap-buffer-overflow/",
-        "source": "CyberSecurityNews",
-        "summary": "A heap buffer overflow in OpenSSL’s Base64 encoding function can corrupt application memory when the library processes very large inputs. The flaw, tracked as CVE-2026-121481, was published on Novembe",
         "cve": []
     },
     {
