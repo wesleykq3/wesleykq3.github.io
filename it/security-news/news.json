@@ -1,5 +1,13 @@
 [
     {
+        "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+        "date": "Sun, 22 Nov 2026 13:45:37 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+        "source": "BleepingComputer",
+        "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting",
+        "cve": []
+    },
+    {
         "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
         "date": "Sun, 22 Nov 2026 10:43:04 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
         "source": "BleepingComputer",
         "summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-        "cve": []
-    },
-    {
-        "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-        "date": "Fri, 20 Nov 2026 10:00:10 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-        "source": "BleepingComputer",
-        "summary": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized",
         "cve": []
     },
     {
@@ -162,6 +162,30 @@
         ]
     },
     {
+        "title": "Researchers Hack Volkswagen Cars via Bluetooth to Spy on Conversations and Track GPS Locations",
+        "date": "Mon, 23 Nov 2026 03:09:11 +0000",
+        "url": "https://cybersecuritynews.com/hack-volkswagen-cars-via-bluetooth/",
+        "source": "CyberSecurityNews",
+        "summary": "Bluetooth flaws in Volkswagen cars could expose private conversations, reveal GPS locations, and allow unauthorized control of cabin features. The findings highlight a lengthy patch rollout, with some",
+        "cve": []
+    },
+    {
+        "title": "OpenAI’s GPT-6.2 Astra Discovers 0-Day Vulnerabilities Enabling Mobile OS Security Bypass and RCE",
+        "date": "Mon, 23 Nov 2026 03:06:27 +0000",
+        "url": "https://cybersecuritynews.com/openai-gpt-6-2-astra-0-day-vulnerabilities/",
+        "source": "CyberSecurityNews",
+        "summary": "OpenAI&#8217;s GPT-6.2 Astra has found and exploited zero-day vulnerabilities affecting a popular mobile operating system and a widely hosted network service, according to the company&#8217;s latest s",
+        "cve": []
+    },
+    {
+        "title": "Cleverbridge Confirms Hackers Stole Customer Card Numbers and CVV Codes in a Major Data Breach",
+        "date": "Mon, 23 Nov 2026 02:37:31 +0000",
+        "url": "https://cybersecuritynews.com/cleverbridge-data-breach/",
+        "source": "CyberSecurityNews",
+        "summary": "Cleverbridge confirmed that hackers copied payment card data from its e-commerce platform. The stolen information includes card numbers, expiration dates, and CVV or CVC security codes. Cleverbridge’s",
+        "cve": []
+    },
+    {
         "title": "VirusTotal’s New Ransomware Detection Catches Malware Missed by All 75 Antivirus Engines",
         "date": "Sun, 22 Nov 2026 17:11:43 +0000",
         "url": "https://cybersecuritynews.com/virustotal-ransomware-detection/",
@@ -215,30 +239,6 @@
         "url": "https://cybersecuritynews.com/critical-f5-big-ip-vulnerabilities/",
         "source": "CyberSecurityNews",
         "summary": "F5 released emergency fixes for six critical BIG-IP vulnerabilities that could let remote attackers take websites and other services offline without logging in. The flaws affect specific traffic-handl",
-        "cve": []
-    },
-    {
-        "title": "WhatsApp Android Flaws Could Let Hackers Delete Users’ Files and Expose IP Addresses",
-        "date": "Sat, 21 Nov 2026 02:36:55 +0000",
-        "url": "https://cybersecuritynews.com/whatsapp-android-flaws/",
-        "source": "CyberSecurityNews",
-        "summary": "WhatsApp’s November 2026 security update describes three flaws that could let attackers delete files stored by WhatsApp on Android, expose a user’s IP address, or bypass a security check for Meta AI’s",
-        "cve": []
-    },
-    {
-        "title": "14 Best Enterprise Risk Management Tools 2027",
-        "date": "Sat, 21 Nov 2026 01:26:39 +0000",
-        "url": "https://cybersecuritynews.com/enterprise-risk-management-tools/",
-        "source": "CyberSecurityNews",
-        "summary": "Enterprise Risk Management (ERM) tools empower organizations to identify, assess, and mitigate risks amid 2026&#8217;s complex, threat-laden business landscape. Evolving rapidly, these platforms harne",
-        "cve": []
-    },
-    {
-        "title": "Microsoft Investigates Attachment Upload Failures in New Outlook",
-        "date": "Fri, 20 Nov 2026 17:01:31 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-attachment-upload-failures/",
-        "source": "CyberSecurityNews",
-        "summary": "Microsoft is investigating reports that some Microsoft 365 users cannot upload email attachments in New Outlook. In a November 20 service update, the company said attachment uploads still work in Outl",
         "cve": []
     },
     {
