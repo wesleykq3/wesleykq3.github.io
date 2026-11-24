@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-23T22:57:11.919755",
+    "timestamp": "2026-11-24T07:11:47.578354",
     "services": [
         {
             "service": "OpenAI",
@@ -9,8 +9,8 @@
         },
         {
             "service": "Claude",
-            "status": "none",
-            "description": "All Systems Operational",
+            "status": "minor",
+            "description": "Partially Degraded Service",
             "url": "https://status.claude.com/api/v2/status.json"
         },
         {
@@ -30,7 +30,7 @@
     "claude_components": [
         {
             "name": "claude.ai",
-            "status": "operational"
+            "status": "degraded_performance"
         },
         {
             "name": "Claude Platform on AWS",
