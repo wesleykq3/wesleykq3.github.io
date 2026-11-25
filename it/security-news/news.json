@@ -1,5 +1,13 @@
 [
     {
+        "title": "Rackspace shuts down Spot cloud platform after security breach",
+        "date": "Tue, 24 Nov 2026 16:37:30 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+        "source": "BleepingComputer",
+        "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate th",
+        "cve": []
+    },
+    {
         "title": "New Inception extortion gang launches large-scale vishing campaign",
         "date": "Tue, 24 Nov 2026 15:21:20 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
@@ -69,14 +77,6 @@
         "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
         "source": "BleepingComputer",
         "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartp",
-        "cve": []
-    },
-    {
-        "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-        "date": "Tue, 24 Nov 2026 08:34:23 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-        "source": "BleepingComputer",
-        "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patc",
         "cve": []
     },
     {
@@ -160,86 +160,6 @@
         "cve": []
     },
     {
-        "title": "McDonald’s Japan Confirms Data Breach – Customer Information and Location Data Exposed",
-        "date": "Tue, 24 Nov 2026 15:39:05 +0000",
-        "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/",
-        "source": "CyberSecurityNews",
-        "summary": "McDonald’s Japan has confirmed that a third party gained unauthorized access to customer information stored in the database behind its official mobile app. In a November 20, 2026, breach notice, the c",
-        "cve": []
-    },
-    {
-        "title": "Critical VMware ESX Flaws Let Remote Attackers Execute Malicious Code on Virtualization Hosts",
-        "date": "Tue, 24 Nov 2026 14:11:04 +0000",
-        "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
-        "source": "CyberSecurityNews",
-        "summary": "Broadcom has disclosed 23 VMware vulnerabilities, including two critical flaws that could let attackers run code directly on ESX hosts and a third that could let them access vCenter without signing in",
-        "cve": []
-    },
-    {
-        "title": "Hackers Deploy ZQAgent Backdoor to Run Malicious Commands and Access Files on Linux Servers",
-        "date": "Tue, 24 Nov 2026 13:35:26 +0000",
-        "url": "https://cybersecuritynews.com/hackers-deploy-zqagent-backdoor/",
-        "source": "CyberSecurityNews",
-        "summary": "A new Linux backdoor called ZQAgent is giving attackers a long-term foothold on compromised servers. It can run commands, move through folders, read files and open network tunnels. It also hides itsel",
-        "cve": []
-    },
-    {
-        "title": "Critical ASP.NET AntiCsrf Flaw Exploited in Attacks by triggering a web redirect on vulnerable apps",
-        "date": "Tue, 24 Nov 2026 12:55:28 +0000",
-        "url": "https://cybersecuritynews.com/critical-asp-net-anticsrf-flaw-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "Attackers are exploiting CVE-2026-131914, a critical flaw in Idunno: AntiCsrf, an old third-party library used by ASP.NET WebForms applications. watchTowr Intel reports that it saw attackers trigger w",
-        "cve": []
-    },
-    {
-        "title": "Hackers Continue EvilTokens Phishing After Microsoft Takedown to Hijack Microsoft 365 Accounts",
-        "date": "Tue, 24 Nov 2026 11:36:09 +0000",
-        "url": "https://cybersecuritynews.com/eviltokens-phishing/",
-        "source": "CyberSecurityNews",
-        "summary": "Hackers are still running EvilTokens phishing campaigns to take over Microsoft 365 accounts, even though Microsoft shut the service down on September 22, 2026. London&#8217;s Metropolitan Police had a",
-        "cve": []
-    },
-    {
-        "title": "Hackers Bypass Alpine Linux SSH Authentication Using Just a 257-Byte Password",
-        "date": "Tue, 24 Nov 2026 11:25:20 +0000",
-        "url": "https://cybersecuritynews.com/hackers-bypass-alpine-linux-ssh-authentication/",
-        "source": "CyberSecurityNews",
-        "summary": "A flaw in OpenSSH lets remote attackers sign in to certain Alpine Linux accounts without knowing a valid password or holding an SSH key. The vulnerability, tracked as CVE-2026-123158 and known as SSHo",
-        "cve": []
-    },
-    {
-        "title": "Hackers Bypass MFA Through Phone Scams to Access Microsoft 365, OneDrive and SharePoint Data",
-        "date": "Tue, 24 Nov 2026 10:48:04 +0000",
-        "url": "https://cybersecuritynews.com/bypass-mfa-through-phone-scams/",
-        "source": "CyberSecurityNews",
-        "summary": "Cybercriminals posing as corporate IT support are calling employees and tricking them into handing over access to Microsoft 365 accounts, even when multifactor authentication (MFA) is enabled. The att",
-        "cve": []
-    },
-    {
-        "title": "CISA Warns of VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller Flaws Exploited in Attacks",
-        "date": "Tue, 24 Nov 2026 10:00:33 +0000",
-        "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
-        "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four vulnerabilities affecting VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller to its Known Exploited Vulnerab",
-        "cve": []
-    },
-    {
-        "title": "Critical Google Chrome Flaw Could Let Hackers Execute Malicious Code Outside Browser Sandbox",
-        "date": "Tue, 24 Nov 2026 09:37:46 +0000",
-        "url": "https://cybersecuritynews.com/critical-google-chrome-flaw/",
-        "source": "CyberSecurityNews",
-        "summary": "Google released a desktop Chrome security update on November 23, 2026, to fix CVE-2026-134401. This critical flaw could let a remote attacker run malicious code outside the browser sandbox. The Stable",
-        "cve": []
-    },
-    {
-        "title": "Suzlon Energy Cyberattack – Company Confirms Critical Infrastructure Operational",
-        "date": "Tue, 24 Nov 2026 09:28:06 +0000",
-        "url": "https://cybersecuritynews.com/suzlon-energy-cyberattack/",
-        "source": "CyberSecurityNews",
-        "summary": "Suzlon Energy disclosed a cyber incident on November 23, 2026. It said it had seen no impact on its business-critical applications at the time of reporting. In a filing with India’s stock exchanges, t",
-        "cve": []
-    },
-    {
         "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
         "date": "Sat, 21 Nov 2026 00:36:39 +0000",
         "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
@@ -320,83 +240,83 @@
         "cve": []
     },
     {
-        "title": "AI-Powered Hackers Deploy Stealthy ZQAgent Malware to Keep Control of Compromised Linux Servers",
-        "date": "Tue, 24 Nov 2026 13:16:03 +0000",
-        "url": "https://gbhackers.com/zqagent-malware-attack/",
-        "source": "GBHackers",
-        "summary": "An LLM-driven intrusion tool has deployed a persistent Linux backdoor, which is unusual for this class of attack. LLM-driven intrusions have mostly been fast, noisy smash-and-grab operations. They rar",
+        "title": "Benchmarking The Performance Benefit Of FRED On AMD Zen 6",
+        "date": "Tue, 24 Nov 2026 20:55:19 -0500",
+        "url": "https://www.phoronix.com/news/AMD-Zen-6-FRED-Benefits",
+        "source": "Phoronix",
+        "summary": "With the new EPYC 9006 SP7 Venice processors now shipping, one of the curious follow-up benchmarks I have been wanting to pursue is around quantifying the performance impact of Flexible Return and Eve",
         "cve": []
     },
     {
-        "title": "New Android Camera Attack Lets Hackers Eavesdrop on Speech Without Microphone Access",
-        "date": "Tue, 24 Nov 2026 13:05:52 +0000",
-        "url": "https://gbhackers.com/new-android-camera-attack/",
-        "source": "GBHackers",
-        "summary": "Security researchers have demonstrated that an Android app with camera permission can recover parts of speech played through a phone’s built-in loudspeaker without accessing the microphone. The attack",
+        "title": "Linus Torvalds: \"Tell Your AI Companion To Get Its Act Together\"",
+        "date": "Tue, 24 Nov 2026 16:01:36 -0500",
+        "url": "https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big",
+        "source": "Phoronix",
+        "summary": "A big EXT4 pull request today intended for the Linux 7.4-rc5 kernel has set off Linus Torvalds. Over 41k lines of new code in this EXT4 pull request going in as \"fixes\".... Much of that being new KUni",
         "cve": []
     },
     {
-        "title": "EvilTokens Phishing Infrastructure Resurfaces After Microsoft Takedown With New Device-Code Attack Hosts",
-        "date": "Tue, 24 Nov 2026 12:07:06 +0000",
-        "url": "https://gbhackers.com/eviltokens-phishing-infrastructure/",
-        "source": "GBHackers",
-        "summary": "Phishing infrastructure tied to the EvilTokens kit is active again, about two months after Microsoft disrupted the service. The kit hijacks Microsoft 365 accounts by abusing the OAuth device authoriza",
+        "title": "Pop!_OS 26.04 LTS Released With More COSMIC Apps, Remote Desktop & More",
+        "date": "Tue, 24 Nov 2026 16:00:00 -0500",
+        "url": "https://www.phoronix.com/news/Pop-OS-26.04-Released",
+        "source": "Phoronix",
+        "summary": "System76 has a wonderful surprise today with the release of Pop!_OS 26.04 LTS as the newest iteration of their in-house Linux distribution now built atop the Ubuntu 26.04 LTS package base and incorpor",
         "cve": []
     },
     {
-        "title": "Hackers Could Suddenly Apply Trailer Brakes at Highway Speeds Through Bluetooth Vulnerability",
-        "date": "Tue, 24 Nov 2026 09:16:35 +0000",
-        "url": "https://gbhackers.com/bluetooth-vulnerability/",
-        "source": "GBHackers",
-        "summary": "Researchers have found that anyone within Bluetooth range of an unpatched Elecbrakes trailer brake controller can apply the trailer&#8217;s brakes with any force. The attacker needs no pairing, PIN or",
+        "title": "Ubuntu Outlines Plans For Its AI-Powered New Way To Interact With The Ubuntu Desktop",
+        "date": "Tue, 24 Nov 2026 11:12:00 -0500",
+        "url": "https://www.phoronix.com/news/Ubuntu-AI-Desktop-Interact",
+        "source": "Phoronix",
+        "summary": "Following Ubuntu 26.10 offering the Myna speech-to-text AI powered functionality in tech preview form and then a Snap appearing recently as a new design mock-up for an AI-powered launcher, Canonical t",
         "cve": []
     },
     {
-        "title": "12 Fraud Detection Software: The 2026 Buyer’s Verdict Guide",
-        "date": "Tue, 24 Nov 2026 08:27:33 +0000",
-        "url": "https://gbhackers.com/fraud-detection-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "Fraud detection is a tightrope with a knife’s edge: too slack and the losses pile up, too strict and you turn away good customers and choke your revenue. This guide weighs twelve platforms and names e",
+        "title": "Ubuntu 26.10 Provides Some Performance Gains For Intel Panther Lake On The Dell XPS 14",
+        "date": "Tue, 24 Nov 2026 10:35:30 -0500",
+        "url": "https://www.phoronix.com/review/ubuntu-2610-dell-xps-14",
+        "source": "Phoronix",
+        "summary": "The new Dell XPS 14 powered by Intel Core Ultra Series 3 (https://www.phoronix.com/review/dell-xps-14-panther-lake) \"Panther Lake\" is now available with Ubuntu 26.04 LTS pre-loaded. For those not conc",
         "cve": []
     },
     {
-        "title": "12 Brand Protection & Anti-Impersonation Tools: The 2026 Buyer’s Verdict Guide",
-        "date": "Tue, 24 Nov 2026 08:25:04 +0000",
-        "url": "https://gbhackers.com/brand-protection-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "“Brand protection” splits into two very different jobs depending on who’s at the table. Security teams picture spoofed domains, credential-harvesting pages and impersonated executives that burn custom",
+        "title": "Collabora Online Sharply Reduces Server Memory Use With New Optimization",
+        "date": "Tue, 24 Nov 2026 09:50:00 -0500",
+        "url": "https://www.phoronix.com/news/Collabora-Online-Half-Memory",
+        "source": "Phoronix",
+        "summary": "The Collabora Online open-source web browser based office suite derived from LibreOffice is now able to use 50% less memory per document following an optimization to its copy-on-write memory handling.",
         "cve": []
     },
     {
-        "title": "12 Digital Risk Protection (DRP) Solutions: The 2026 Buyer’s Verdict Guide",
-        "date": "Tue, 24 Nov 2026 08:18:36 +0000",
-        "url": "https://gbhackers.com/digital-risk-protection-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "Digital risk protection keeps watch over everything about your organisation that sits beyond the perimeter look-alike domains, leaked data, spoofed social accounts, exposed assets, brand abuse and, cr",
+        "title": "TornadoVM 8.2 Released With ROCm HIP Backend For AMD GPUs",
+        "date": "Tue, 24 Nov 2026 08:24:22 -0500",
+        "url": "https://www.phoronix.com/news/TornadoVM-8.2",
+        "source": "Phoronix",
+        "summary": "TornadoVM is the Java programming framework that allows Java code with OpenJDK 21+ to JIT compile to NVIDIA CUDA, OpenCL C, Apple Metal, and now even AMD ROCm HIP too. TornadoVM 8.2 is out today as th",
         "cve": []
     },
     {
-        "title": "12 Dark Web Monitoring Services: The 2026 Buyer’s Verdict Guide",
-        "date": "Tue, 24 Nov 2026 08:08:51 +0000",
-        "url": "https://gbhackers.com/dark-web-monitoring-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "Dark web monitoring is only as good as two things: how deep the collection reaches into closed forums, Telegram channels, and criminal marketplaces, and whether the alerts are actionable intelligence ",
+        "title": "HID Patches For Linux 7.4-rc5 Bring AI Fixes Plus New Hardware",
+        "date": "Tue, 24 Nov 2026 07:08:19 -0500",
+        "url": "https://www.phoronix.com/news/Linux-7.4-rc5-HID",
+        "source": "Phoronix",
+        "summary": "Merged yesterday to Linux Git ahead of Linux 7.4-rc5 due out next weekend were the latest round of HID subsystem changes. The HID work was larger than desired at this stage of the Linux 7.4 cycle due ",
         "cve": []
     },
     {
-        "title": "12 Post-Quantum / Quantum-Safe Cryptography Solutions: The 2026 Buyer’s Verdict Guide",
-        "date": "Tue, 24 Nov 2026 08:00:32 +0000",
-        "url": "https://gbhackers.com/post-quantum-cryptography-buyers-guide/",
-        "source": "GBHackers",
-        "summary": "What drives post-quantum cryptography isn’t a machine that’s already here it’s “harvest now, decrypt later”: attackers hoovering up encrypted data today to crack open the moment a cryptographically us",
+        "title": "zlib-rs 0.6.9 Released With Performance Improvements",
+        "date": "Tue, 24 Nov 2026 06:11:56 -0500",
+        "url": "https://www.phoronix.com/news/zlib-rs-0.6.9",
+        "source": "Phoronix",
+        "summary": "The Trifecta Tech Foundation today released zlib-rs 0.6.9 as this implementation of Zlib written in the Rust programming language for what aims to be a safer Zlib...",
         "cve": []
     },
     {
-        "title": "Hackers Use AI Agents to Hijack Kubernetes Clusters and Steal Sensitive Cloud Credentials",
-        "date": "Tue, 24 Nov 2026 07:57:17 +0000",
-        "url": "https://gbhackers.com/kubernetes-clusters-hijacking/",
-        "source": "GBHackers",
-        "summary": "Hackers are using AI offensive agents to compromise Kubernetes clusters, harvest cloud credentials, and exploit trust relationships across development infrastructure. Investigations describe opportuni",
+        "title": "SUSE Rolling Out \"The First AI-Ready OS Installer\"",
+        "date": "Tue, 24 Nov 2026 05:58:14 -0500",
+        "url": "https://www.phoronix.com/news/SUSE-Agama-Adding-AI-MCP",
+        "source": "Phoronix",
+        "summary": "AI support by way of Model Context Protocol (MCP) server integration is now reaching Linux distribution installers...",
         "cve": []
     }
 ]
