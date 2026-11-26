@@ -1,5 +1,37 @@
 [
     {
+        "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+        "date": "Thu, 26 Nov 2026 12:58:42 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+        "source": "BleepingComputer",
+        "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+        "cve": []
+    },
+    {
+        "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+        "date": "Thu, 26 Nov 2026 12:15:27 -0500",
+        "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+        "source": "BleepingComputer",
+        "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid",
+        "cve": []
+    },
+    {
+        "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+        "date": "Thu, 26 Nov 2026 10:23:28 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+        "source": "BleepingComputer",
+        "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+        "cve": []
+    },
+    {
+        "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+        "date": "Thu, 26 Nov 2026 06:50:17 -0500",
+        "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+        "source": "BleepingComputer",
+        "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, i",
+        "cve": []
+    },
+    {
         "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
         "date": "Wed, 25 Nov 2026 17:05:09 -0500",
         "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
@@ -48,43 +80,51 @@
         "cve": []
     },
     {
-        "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-        "date": "Wed, 25 Nov 2026 06:16:32 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-        "source": "BleepingComputer",
-        "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
+        "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+        "date": "Fri, 27 Nov 2026 01:09:57 +0530",
+        "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+        "source": "The Hacker News",
+        "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way yo",
         "cve": []
     },
     {
-        "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-        "date": "Wed, 25 Nov 2026 05:10:20 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-        "source": "BleepingComputer",
-        "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+        "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+        "date": "Thu, 26 Nov 2026 20:43:41 +0530",
+        "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+        "source": "The Hacker News",
+        "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025",
         "cve": []
     },
     {
-        "title": "Microsoft confirms authentication issues after November updates",
-        "date": "Wed, 25 Nov 2026 04:02:57 -0500",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-        "source": "BleepingComputer",
-        "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
-        "cve": []
-    },
-    {
-        "title": "Hackers reportedly breached CIA intelligence analysis system",
-        "date": "Wed, 25 Nov 2026 02:45:03 -0500",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-        "source": "BleepingComputer",
-        "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+        "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+        "date": "Thu, 26 Nov 2026 16:27:55 +0530",
+        "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+        "source": "The Hacker News",
+        "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that secu",
         "cve": []
     },
     {
         "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-        "date": "Thu, 26 Nov 2026 09:50:22 +0530",
+        "date": "Thu, 26 Nov 2026 16:27:25 +0530",
         "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
         "source": "The Hacker News",
         "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized",
+        "cve": []
+    },
+    {
+        "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+        "date": "Thu, 26 Nov 2026 12:32:34 +0530",
+        "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+        "source": "The Hacker News",
+        "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been",
+        "cve": []
+    },
+    {
+        "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+        "date": "Thu, 26 Nov 2026 12:14:46 +0530",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+        "source": "The Hacker News",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mit",
         "cve": []
     },
     {
@@ -120,123 +160,83 @@
         "cve": []
     },
     {
-        "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-        "date": "Wed, 25 Nov 2026 16:53:26 +0530",
-        "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-        "source": "The Hacker News",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to a",
-        "cve": []
-    },
-    {
-        "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-        "date": "Wed, 25 Nov 2026 16:13:07 +0530",
-        "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-        "source": "The Hacker News",
-        "summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal c",
-        "cve": []
-    },
-    {
-        "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-        "date": "Wed, 25 Nov 2026 14:36:59 +0530",
-        "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-        "source": "The Hacker News",
-        "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\n\nThe flaw used in the att",
-        "cve": []
-    },
-    {
-        "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-        "date": "Wed, 25 Nov 2026 12:20:19 +0530",
-        "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-        "source": "The Hacker News",
-        "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across",
-        "cve": []
-    },
-    {
-        "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-        "date": "Wed, 25 Nov 2026 12:07:06 +0530",
-        "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-        "source": "The Hacker News",
-        "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to dat",
-        "cve": []
-    },
-    {
-        "title": "1Password Hacked – Attackers Breach Backend Systems and Steal Customer Data",
-        "date": "Thu, 26 Nov 2026 03:04:19 +0000",
-        "url": "https://cybersecuritynews.com/1password-hacked-2/",
+        "title": "Moving Beyond Static Cookie Banners: Implementing Zero-Leakage Real-Time Consent Management",
+        "date": "Thu, 26 Nov 2026 15:47:01 +0000",
+        "url": "https://cybersecuritynews.com/moving-beyond-static-cookie-banners-implementing-zero-leakage-real-time-consent-management/",
         "source": "CyberSecurityNews",
-        "summary": "1Password disclosed on November 25, 2026, that an attacker compromised an employee’s corporate GitHub account and used it to steal customer data from the company’s backend systems. The stolen records ",
+        "summary": "A cookie banner is a user interface requirement, not a control. Many sites display a cookie consent banner giving you options to opt-in or opt-out while the tag manager has already loaded analytics, a",
         "cve": []
     },
     {
-        "title": "U.S. Treasury’s FinCEN Confirms Cyberattack, Takes Systems Offline After Unauthorized Access",
-        "date": "Wed, 25 Nov 2026 17:01:30 +0000",
-        "url": "https://cybersecuritynews.com/fincen-confirms-cyberattack/",
+        "title": "Hackers Hide Password-Stealing Malware in GitHub Code, Putting Software Downloads at Risk",
+        "date": "Thu, 26 Nov 2026 14:50:20 +0000",
+        "url": "https://cybersecuritynews.com/password-stealing-malware/",
         "source": "CyberSecurityNews",
-        "summary": "The U.S. Treasury Department’s Financial Crimes Enforcement Network (FinCEN) has taken some systems offline after confirming unauthorized access to a limited part of its network. The bureau said the s",
+        "summary": "Hackers slipped password-stealing malware into open GitHub pull requests at AsyncAPI Generator, CircuitVerse and Open Food Facts. At CircuitVerse, the code ran in the automated release workflow that b",
         "cve": []
     },
     {
-        "title": "CISA Warns of Drupal Core RCE, Idunno AntiCsrf and Optimizely Flaws Exploited in Attacks",
-        "date": "Wed, 25 Nov 2026 16:57:24 +0000",
-        "url": "https://cybersecuritynews.com/drupal-idunno-anticsrf-optimizely-flaws-exploited/",
+        "title": "Bithumb Hacked for 15 Days, Customer Passport Numbers, Bank Details and Wallet Addresses Stolen",
+        "date": "Thu, 26 Nov 2026 14:09:42 +0000",
+        "url": "https://cybersecuritynews.com/bithumb-hacked-for-15-days/",
         "source": "CyberSecurityNews",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added three flaws affecting Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation to its Known Exploited Vulnerabilities (KE",
+        "summary": "South Korean cryptocurrency exchange Bithumb says hackers stole passport numbers, bank account numbers, and crypto wallet addresses after gaining access to an internal system for more than 15 days. In",
         "cve": []
     },
     {
-        "title": "Beyond Holiday Scams: 5 Thanksgiving and Black Friday Cyberattacks Targeting Users and Businesses",
-        "date": "Wed, 25 Nov 2026 16:42:01 +0000",
-        "url": "https://cybersecuritynews.com/beyond-holiday-scams-5-thankssgiving-and-black-friday-cyberattacks-targeting-users-and-businesses/",
+        "title": "CISA Adds 10 Flaws from Danfoss, HPE, Mitel MiCollab and Vates Xen to Exploited Catalog",
+        "date": "Thu, 26 Nov 2026 14:09:18 +0000",
+        "url": "https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev/",
         "source": "CyberSecurityNews",
-        "summary": "A Thanksgiving invitation, a Black Friday discount, or a holiday greeting may look harmless. But behind these familiar messages, cybercriminals are hiding threats that could expose corporate credentia",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, after finding evidence of active ex",
         "cve": []
     },
     {
-        "title": "Task Management App Todoist Hacked, Attackers Breach Production Systems",
-        "date": "Wed, 25 Nov 2026 16:39:28 +0000",
-        "url": "https://cybersecuritynews.com/todoist-production-system-breach/",
+        "title": "Standard Chartered’s Zodia Custody Hacked, Client and Employee Data Exposed",
+        "date": "Thu, 26 Nov 2026 14:01:01 +0000",
+        "url": "https://cybersecuritynews.com/zodia-custody-data-breach/",
         "source": "CyberSecurityNews",
-        "summary": "Task management app Todoist said an attacker breached its production systems on November 23, 2026, and downloaded account records for about 6% of its users. The records contained email addresses, acco",
+        "summary": "Standard Chartered’s cryptocurrency custody unit, Zodia Custody, suffered a security breach that exposed information about some clients and employees. Chief Executive Richard Clark told Reuters on Nov",
         "cve": []
     },
     {
-        "title": "Switzerland Confirms First AI-Agent Cyberattacks That Successfully Compromised IT Systems",
-        "date": "Wed, 25 Nov 2026 16:02:38 +0000",
-        "url": "https://cybersecuritynews.com/switzerland-ai-agent-cyberattacks/",
+        "title": "Silver Fox Hackers Use Fake Software Downloads to Spread Gh0stRAT Malware That Can Spy on PCs",
+        "date": "Thu, 26 Nov 2026 13:35:43 +0000",
+        "url": "https://cybersecuritynews.com/silver-fox-hackers/",
         "source": "CyberSecurityNews",
-        "summary": "Switzerland’s National Cyber Security Center (NCSC) has confirmed its first cases of AI-assisted cyberattacks against organizations in the country. The attacks affected companies and critical infrastr",
+        "summary": "A Windows user searching for the oCam screen recorder downloaded an installer that delivered exactly what it promised: a working copy of the app. But the same package quietly launched a second install",
         "cve": []
     },
     {
-        "title": "Microsoft 365 Bug Blocked Users From Opening Word, Excel, and Outlook With Blank White Screen",
-        "date": "Wed, 25 Nov 2026 15:37:54 +0000",
-        "url": "https://cybersecuritynews.com/microsoft-365-white-screen-bug/",
+        "title": "OpenAI AI Agents Bypass Security Restrictions and Access Government Systems Without Permission",
+        "date": "Thu, 26 Nov 2026 12:56:59 +0000",
+        "url": "https://cybersecuritynews.com/openai-ai-agents/",
         "source": "CyberSecurityNews",
-        "summary": "Microsoft has fixed a Microsoft 365 startup issue that left some Windows users staring at a blank white window when they opened Word, Excel, or Outlook. The window showed no text or buttons, and users",
+        "summary": "Experimental OpenAI AI agents worked around restrictions in their training and testing environments and contacted government systems without the company’s authorization. The activity began in June 202",
         "cve": []
     },
     {
-        "title": "SOC Management in 2027: 5 Steps to Combat AI-Driven Threats, Scale Operations, and Drive Innovation",
-        "date": "Wed, 25 Nov 2026 15:30:46 +0000",
-        "url": "https://cybersecuritynews.com/soc-management-in-2027/",
+        "title": "Microsoft Confirms Windows November Updates Can Break SSO and Third-Party App Logins",
+        "date": "Thu, 26 Nov 2026 10:24:22 +0000",
+        "url": "https://cybersecuritynews.com/november-update-breaks-authentication/",
         "source": "CyberSecurityNews",
-        "summary": "As we move into 2027, SOCs and MSSPs face a growing imbalance between the speed at which threats evolve and the resources available to combat them. AI-assisted attacks, increasingly sophisticated phis",
+        "summary": "Microsoft has confirmed that the November 2026 Windows security updates can cause sign-in failures in some third-party apps and devices that use NTLM authentication. The issue can affect authenticatio",
         "cve": []
     },
     {
-        "title": "Hackers Exploit Fortinet Flaws to Breach Commercial Ships and Access Control Networks",
-        "date": "Wed, 25 Nov 2026 15:22:40 +0000",
-        "url": "https://cybersecuritynews.com/fortinet-flaws-to-breach-commercial-ships/",
+        "title": "Drupal Warns of Active Attacks Exploiting New Critical Website Takeover Vulnerability",
+        "date": "Thu, 26 Nov 2026 09:06:38 +0000",
+        "url": "https://cybersecuritynews.com/drupal-website-takeover-flaw/",
         "source": "CyberSecurityNews",
-        "summary": "U.S. authorities are investigating whether Iran was behind cyberattacks that may have compromised up to 50 commercial ships. A U.S. official familiar with the inquiry told hackers exploited known flaw",
+        "summary": "Drupal has warned that attackers are actively exploiting CVE-2026-136716, a highly critical access bypass that can let them take over vulnerable websites without signing in. The Drupal Security Team c",
         "cve": []
     },
     {
-        "title": "Hackers Are Exploiting a Critical Drupal Flaw to Target Websites Without Needing a Password",
-        "date": "Wed, 25 Nov 2026 14:51:54 +0000",
-        "url": "https://cybersecuritynews.com/drupal-critical-security-flaw/",
+        "title": "Exposed Hacker Servers Reveal U.S. Hospital Credentials, Corporate Cloud Access and Law Firm Targets",
+        "date": "Thu, 26 Nov 2026 08:41:41 +0000",
+        "url": "https://cybersecuritynews.com/exposed-hacker-servers/",
         "source": "CyberSecurityNews",
-        "summary": "Hackers are exploiting CVE-2026-132165, a critical flaw in Drupal core that can let them take over a website or run code on its server without a password. The Drupal Security Team’s advisory says atta",
+        "summary": "Three exposed web directories revealed an intrusion crew’s collection of U.S. hospital credential records, a listing of more than 155,000 files and other objects in a manufacturer’s cloud storage, and",
         "cve": []
     },
     {
@@ -320,83 +320,83 @@
         "cve": []
     },
     {
-        "title": "KosmicKrisp Now The Go-To Solution For Vulkan On Macs In Place Of MoltenVK",
-        "date": "Wed, 25 Nov 2026 20:39:26 -0500",
-        "url": "https://www.phoronix.com/news/Vulkan-Macs-Go-KosmicKrisp",
-        "source": "Phoronix",
-        "summary": "While MoltenVK began as an initiative to layer the Vulkan API atop Apple's Metal for use on macOS and iOS, the KosmicKrisp effort spearheaded by LunarG is now the go-to solution for Vulkan API support",
+        "title": "The Anatomy of Tag Leakage: How Pixels, Session Replays, and Trackers Bypass Standard Banners",
+        "date": "Thu, 26 Nov 2026 16:00:48 +0000",
+        "url": "https://gbhackers.com/the-anatomy-of-tag-leakage-how-pixels-session-replays-and-trackers-bypass-standard-banners/",
+        "source": "GBHackers",
+        "summary": "A consent banner is a preference requirement. It writes a cookie or localStorage key recording the visitor&#8217;s choice for any code that decides to read it. Nothing in the banner stops a script tag",
         "cve": []
     },
     {
-        "title": "PostgreSQL 19 Delivering Nice Performance Gains, Benchmarks On 6th Gen AMD EPYC Venice",
-        "date": "Wed, 25 Nov 2026 11:31:14 -0500",
-        "url": "https://www.phoronix.com/review/postgresql-19-benchmarks",
-        "source": "Phoronix",
-        "summary": "Last week PostgreSQL 19.0 finally shipped after being delayed due to the AI/LLM burden facing open-source developers this year. The wait is worth it though as PostgreSQL 19 is showing some very nice p",
+        "title": "Hackers Infect 5,600 Devices With Stealthy Malware That Hides Remote-Control Commands in Normal Traffic",
+        "date": "Thu, 26 Nov 2026 12:21:42 +0000",
+        "url": "https://gbhackers.com/stealthy-malware-campaign/",
+        "source": "GBHackers",
+        "summary": "A new variant of the Cling botnet has infected about 5,600 devices. It hides its command-and-control (C&#38;C) traffic inside ordinary STUN exchanges, which makes it hard to spot. China&#8217;s CNCERT",
         "cve": []
     },
     {
-        "title": "Pop!_OS 26.04 LTS vs. Pop!_OS 24.04 LTS Benchmarks",
-        "date": "Wed, 25 Nov 2026 09:38:32 -0500",
-        "url": "https://www.phoronix.com/review/pop-os-2604-benchmarks",
-        "source": "Phoronix",
-        "summary": "System76 released Pop!_OS 26.04 LTS yesterday as the newest version of their Ubuntu-derived Linux distribution featuring their in-house COSMIC desktop environment. For those curious about any performa",
+        "title": "Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices",
+        "date": "Thu, 26 Nov 2026 12:10:20 +0000",
+        "url": "https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/",
+        "source": "GBHackers",
+        "summary": "Microsoft has confirmed that Windows security updates released on or after November 10, 2026, can cause authentication failures in some third-party applications and devices that rely on NT LAN Manager",
         "cve": []
     },
     {
-        "title": "Servo Now Supports HTML Video Captions, Flutter Web Content Working",
-        "date": "Wed, 25 Nov 2026 08:58:00 -0500",
-        "url": "https://www.phoronix.com/news/Servo-0.8-October-2026",
-        "source": "Phoronix",
-        "summary": "The Rust-based Servo open-source web browser engine and Servoshell demo browser enjoyed a lot of new features in October. Servo 0.8 debuted recently with all of their October changes and out today is ",
+        "title": "Hackers Actively Exploit Critical Drupal Vulnerability to Take Over Websites",
+        "date": "Thu, 26 Nov 2026 11:50:47 +0000",
+        "url": "https://gbhackers.com/hackers-actively-exploit-critical-drupal-vulnerability/",
+        "source": "GBHackers",
+        "summary": "Hackers are actively exploiting CVE-2026-136716, a Drupal core access bypass that allows unauthenticated attackers to take over vulnerable websites. The Drupal Security Team confirmed exploitation in ",
         "cve": []
     },
     {
-        "title": "GNU Linux-Libre Celebrates Reverse Engineered Firmware For Old 802.11 b/g WiFi Chipset",
-        "date": "Wed, 25 Nov 2026 08:35:59 -0500",
-        "url": "https://www.phoronix.com/news/GNU-Linux-Libre-VIA-VT6656",
-        "source": "Phoronix",
-        "summary": "Coming as a surprise today was a new GNU Linux-libre kernel release for the older Linux 6.12 LTS kernel. Typically it's uncommon seeing new updates for old/LTS kernels announced by the project, but to",
+        "title": "Critical GeoServer Vulnerability Chain Lets Hackers Execute Remote Commands Without Authentication",
+        "date": "Thu, 26 Nov 2026 11:38:21 +0000",
+        "url": "https://gbhackers.com/critical-geoserver-vulnerability-chain/",
+        "source": "GBHackers",
+        "summary": "Five vulnerabilities in GeoServer, an open-source server for publishing geospatial data, can be chained to execute operating system commands without valid credentials. Security researcher CryptoCat de",
         "cve": []
     },
     {
-        "title": "Linux 7.5 Whitelisting Intel Xeon Server CPUs For Peer-To-Peer DMA \"P2PDMA\"",
-        "date": "Wed, 25 Nov 2026 06:38:18 -0500",
-        "url": "https://www.phoronix.com/news/Linux-7.5-Intel-Xeon-P2PDMA",
-        "source": "Phoronix",
-        "summary": "For those making use of VMware virtualization or other scenarios, the upcoming Linux 7.5 kernel will see that peer-to-peer DMA \"P2PDMA\" is properly enabled for modern Intel Xeon servers. This follows ",
+        "title": "Hackers Poison GitHub Pull Requests With Malware That Can Steal Developer Passwords",
+        "date": "Thu, 26 Nov 2026 11:11:04 +0000",
+        "url": "https://gbhackers.com/github-pull-requests/",
+        "source": "GBHackers",
+        "summary": "A threat actor used rewritten commits in open GitHub pull requests to deliver the PolinRider credential-stealing loader. It targeted AsyncAPI Generator, CircuitVerse and Open Food Facts. None of the a",
         "cve": []
     },
     {
-        "title": "Linux 7.4 Disables LLVM Profi Usage To Avoid Performance Hit, Pathological Build Times",
-        "date": "Wed, 25 Nov 2026 06:27:04 -0500",
-        "url": "https://www.phoronix.com/news/Linux-Kernel-Disable-Profi",
-        "source": "Phoronix",
-        "summary": "A change merged this week to the Linux 7.4 kernel and also set to be back-ported to stable kernel branches is to disable use of LLVM's Profi flow-based profile inference algorithm when leveraging Auto",
+        "title": "CISA Warns of 10 Actively Exploited Vulnerabilities in Juniper, Mitel, Danfoss, and Vates Products",
+        "date": "Thu, 26 Nov 2026 09:33:17 +0000",
+        "url": "https://gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities/",
+        "source": "GBHackers",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, citing evidence of in-the-wild expl",
         "cve": []
     },
     {
-        "title": "3mdeb Updates Their Open-Source Coreboot-Based Firmware For MSI PRO Z690-A/Z790-P",
-        "date": "Wed, 25 Nov 2026 06:10:02 -0500",
-        "url": "https://www.phoronix.com/news/2026-Firmware-MSI-PRO-Z690-Z790",
-        "source": "Phoronix",
-        "summary": "Four years ago the 3mdeb firmware consulting firm managed an incredible feat in bringing Coreboot to a modern, retail desktop motherboard with the current Intel Core processors of the time. This was a",
+        "title": "Critical Danfoss Refrigeration Controller Vulnerability Could Let Hackers Execute Arbitrary Code Remotely",
+        "date": "Thu, 26 Nov 2026 09:23:18 +0000",
+        "url": "https://gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability/",
+        "source": "GBHackers",
+        "summary": "A critical vulnerability in Danfoss AK-SM 8xxA Series refrigeration controllers could allow remote attackers to execute arbitrary code without logging in. The flaw, tracked as CVE-2026-129713, affects",
         "cve": []
     },
     {
-        "title": "Alien Arena Comes To Flathub, Rolls Out Many Optimizations",
-        "date": "Wed, 25 Nov 2026 05:52:52 -0500",
-        "url": "https://www.phoronix.com/news/Alien-Arena-Flathub",
-        "source": "Phoronix",
-        "summary": "It's been a long while since hearing anything new out of Alien Arena, the open-source first person shooter game that is based on a sci-fi theme with a Quake II/III derived engine, but it's still alive",
+        "title": "Hackers Use Suspected SEO Poisoning to Lure Users Into Downloading Gh0stRAT Malware",
+        "date": "Thu, 26 Nov 2026 09:20:53 +0000",
+        "url": "https://gbhackers.com/seo-poisoning-campaign-2/",
+        "source": "GBHackers",
+        "summary": "A Gh0stRAT campaign that hides behind a working copy of the OhSoft oCam screen recorder. Researchers link the activity to Silver Fox and suspect SEO poisoning as the delivery method. Endpoint detectio",
         "cve": []
     },
     {
-        "title": "Black Friday / End Of Year Special & The Unfortunate Ad Network Situation This Year",
-        "date": "Tue, 24 Nov 2026 21:00:00 -0500",
-        "url": "https://www.phoronix.com/news/Black-Friday-Week-2026",
-        "source": "Phoronix",
-        "summary": "If you have enjoyed the more than 3,125+ news articles so far this year and 200+ Linux hardware reviews this calendar year with a lot of interesting content, running this week is the annual Phoronix P",
+        "title": "FIFA Confirms Data Breach After Hackers Steal Personal and Business Information",
+        "date": "Thu, 26 Nov 2026 09:13:14 +0000",
+        "url": "https://gbhackers.com/fifa-confirms-data-breach/",
+        "source": "GBHackers",
+        "summary": "FIFA confirmed that attackers gained unauthorized access to a “limited set of personal and business information.” At the same time, Spain’s LaLiga disclosed a separate intrusion that exposed personal ",
         "cve": []
     }
 ]
