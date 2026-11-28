@@ -160,6 +160,14 @@
         "cve": []
     },
     {
+        "title": "Telegram Warns iPhone Users Are Being Hacked on a Massive Scale; Just Visiting a Website Could Be Enough",
+        "date": "Sat, 28 Nov 2026 04:48:49 +0000",
+        "url": "https://cybersecuritynews.com/iphone-users-are-being-hacked/",
+        "source": "CyberSecurityNews",
+        "summary": "Telegram is sending security alerts to iPhone users running older versions of iOS, CEO Pavel Durov said on November 27. In a post on X, Durov said iPhone users were being hacked “on a massive scale” a",
+        "cve": []
+    },
+    {
         "title": "Hackers Set Freezer Controls to 100°C, Then Lock Technicians Out of the System",
         "date": "Fri, 27 Nov 2026 14:52:38 +0000",
         "url": "https://cybersecuritynews.com/freezer-control-cyberattack/",
@@ -229,14 +237,6 @@
         "url": "https://cybersecuritynews.com/best-sse-solutions/",
         "source": "CyberSecurityNews",
         "summary": "Security Service Edge is the security portion of SASE SWG, CASB, ZTNA, and increasingly DLP and browser isolation, all delivered from the cloud and most organisations deploy it well before they take o",
-        "cve": []
-    },
-    {
-        "title": "Top 10 Best SASE (Secure Access Service Edge) Solutions in 2026 [Ranked & Scored]",
-        "date": "Fri, 27 Nov 2026 07:27:39 +0000",
-        "url": "https://cybersecuritynews.com/best-sase-solutions-2/",
-        "source": "CyberSecurityNews",
-        "summary": "SASE fuses SD-WAN networking with a cloud security stack in one fabric, yet the term papers over a genuine divide: some vendors grew up in networking and bolted security on, others grew up in security",
         "cve": []
     },
     {
